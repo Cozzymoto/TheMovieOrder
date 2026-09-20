@@ -195,6 +195,17 @@ pre{
   <div class="cols">
     <div>
       <fieldset>
+        <legend>Start from</legend>
+        <p style="font-size:.8125rem;color:var(--graphite);margin:-.35rem 0 .85rem">
+          Fixing a mistake? Open the franchise's existing <code>.json</code> file, change what's wrong, download it again.
+        </p>
+        <input type="file" id="openFile" accept=".json,application/json" hidden>
+        <button class="btn btn--ghost" id="openBtn">Open an existing card</button>
+        <button class="btn btn--ghost" id="blankBtn" style="margin-left:.4rem">Start blank</button>
+        <p id="openedAs" style="font-size:.8125rem;color:var(--red);font-weight:600;margin:.7rem 0 0" hidden></p>
+      </fieldset>
+
+      <fieldset>
         <legend>The basics</legend>
         <div class="field">
           <label for="fTitle">Franchise name</label>
@@ -522,6 +533,50 @@ $("#resetChrono").addEventListener("click", () => {
   const el = $("#"+k);
   el.value = draft.load(k, el.value);
   el.addEventListener("input", renderPost);
+});
+$("#openBtn").addEventListener("click", () => $("#openFile").click());
+$("#blankBtn").addEventListener("click", () => {
+  if(!confirm("Clear the form and start a new franchise?")) return;
+  films = [{id:1, t:"", y:"", set:""}];
+  chrono = [1]; nextId = 2;
+  ["fTitle","fShort","fBlurb","fNote"].forEach(k => $("#"+k).value = "");
+  $("#openedAs").hidden = true;
+  renderFilms(); renderChrono(); render();
+});
+$("#openFile").addEventListener("change", e => {
+  const file = e.target.files[0];
+  if(!file) return;
+  const r = new FileReader();
+  r.onload = () => {
+    let card;
+    try{ card = JSON.parse(r.result); }
+    catch(err){ toast("That file isn't valid JSON"); return; }
+    if(!card.films || !card.release || !card.chrono){ toast("That doesn't look like a franchise card"); return; }
+
+    $("#fTitle").value = card.title || "";
+    $("#fShort").value = card.short || "";
+    $("#fBlurb").value = card.blurb || "";
+    $("#fNote").value  = card.note  || "";
+    $("#fHue").value   = card.hue ?? 352;
+
+    // rebuild the film rows in release order, keeping each film's original key
+    const byKey = {};
+    films = card.release.map((k, i) => {
+      const m = card.films[k] || {t:"",y:"",set:""};
+      const row = { id: i + 1, key: k, t: m.t || "", y: m.y || "", set: m.set || "" };
+      byKey[k] = row.id;
+      return row;
+    });
+    nextId = films.length + 1;
+    chrono = card.chrono.map(k => byKey[k]).filter(Boolean);
+
+    $("#openedAs").hidden = false;
+    $("#openedAs").textContent = "Editing " + file.name + " — download when you're done and upload it over the original.";
+    renderFilms(); renderChrono(); render();
+    toast("Opened " + file.name);
+  };
+  r.readAsText(file);
+  e.target.value = "";
 });
 $("#copyF").addEventListener("click", () => copyFrom("#outF"));
 $("#downloadF").addEventListener("click", downloadCard);

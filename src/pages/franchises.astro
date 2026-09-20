@@ -1,15 +1,51 @@
 ---
 import Base from '../layouts/Base.astro';
 import Card from '../components/Card.astro';
-import { allFranchises, byTitle } from '../lib/franchise.js';
-const FRANCHISES = await allFranchises();
-const sorted = await byTitle();
+import { allFranchises } from '../lib/franchise.js';
+
+const all = await allFranchises();
+
+// Libraries file "The Matrix" under M, not T. So do we.
+const sortKey = t => t.replace(/^(the|a|an)\s+/i, '');
+const letterOf = t => {
+  const c = sortKey(t)[0].toUpperCase();
+  return /[A-Z]/.test(c) ? c : '#';
+};
+
+const sorted = [...all].sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title)));
+const groups = new Map();
+for (const f of sorted) {
+  const l = letterOf(f.title);
+  if (!groups.has(l)) groups.set(l, []);
+  groups.get(l).push(f);
+}
+const letters = '#ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').filter(l => l !== '#' || groups.has('#'));
+const films = all.reduce((n, f) => n + f.release.length, 0);
 ---
-<Base title="All franchises" description={`Every franchise on Order of Movies — ${FRANCHISES.length} watch orders covering ${FRANCHISES.reduce((a,f)=>a+f.release.length,0)} films.`}>
+<Base title="All franchises" description={`Every franchise on Order of Movies — ${all.length} watch orders covering ${films} films, listed A to Z.`}>
   <section class="section">
     <div class="wrap">
-      <div class="section__head"><h2>All franchises</h2></div>
-      <div class="grid">{sorted.map(f => <Card f={f} />)}</div>
+      <div class="section__head">
+        <h2>All franchises</h2>
+        <span style="font-size:var(--step--1);color:var(--graphite)">{all.length} franchises · {films} films</span>
+      </div>
+
+      <nav class="alpha" aria-label="Jump to letter">
+        {letters.map(l => groups.has(l)
+          ? <a href={`#letter-${l === '#' ? 'num' : l}`}>{l}</a>
+          : <span aria-hidden="true">{l}</span>)}
+      </nav>
+
+      {[...groups].map(([letter, list]) => (
+        <>
+          <div class="letter" id={`letter-${letter === '#' ? 'num' : letter}`}>
+            <h2>{letter}</h2>
+            <span>{list.length} {list.length === 1 ? 'franchise' : 'franchises'}</span>
+          </div>
+          <div class="grid">{list.map(f => <Card f={f} />)}</div>
+        </>
+      ))}
+
       <div class="slot"><b>Leaderboard ad slot</b>728 × 90 — sits between content, never over it</div>
     </div>
   </section>
