@@ -190,7 +190,7 @@ pre{
 <!-- ============ FRANCHISE ============ -->
 <div class="page" id="tab-franchise">
   <h1>Add a franchise</h1>
-  <p class="lede">Fill this in, drag the chronological order into shape, then copy the block at the bottom into your site file. No code to write.</p>
+  <p class="lede">Fill this in, put the chronological order right with the arrows, then download one file and upload it. No code to write.</p>
 
   <div class="cols">
     <div>
@@ -258,6 +258,7 @@ pre{
           </span>
         </div>
         <pre id="outF">Start typing on the left.</pre>
+        <p id="warn" hidden style="margin:0;padding:.7rem .9rem;background:var(--red);color:var(--on-red);font-size:.8125rem;font-weight:600"></p>
       </div>
       <div class="steps">
         <strong>Where it goes</strong>
@@ -459,7 +460,29 @@ function render(){
 
   const usable = films.filter(f => f.t.trim());
   if(!title || !usable.length){
-    const card = {
+    window.__card = null;
+    $("#fileName").textContent = "franchise.json";
+    $("#outF").textContent = "Add a franchise name and at least one film.";
+    return;
+  }
+
+  // Each film needs a short key. Cards opened from a file keep the key they already had.
+  const makeKey = f => {
+    const base = slugify(f.t).split("-").slice(0,2).join("") || "film";
+    return /^[0-9]/.test(base) ? "f" + base : base;
+  };
+  const seen = {};
+  const keyOf = {};
+  usable.forEach(f => {
+    if(f.key){ keyOf[f.id] = f.key; return; }
+    let k = makeKey(f);
+    if(seen[k]) k += (++seen[k]); else seen[k] = 1;
+    keyOf[f.id] = k;
+  });
+
+  const note = $("#fNote").value.trim();
+
+  const card = {
     title: title,
     short: $("#fShort").value.trim(),
     hue: Number(hue),
@@ -473,6 +496,14 @@ function render(){
   });
   if(note) card.note = note;
 
+  // Warn about the mistake the site's build would reject anyway.
+  const missing = card.release.filter(k => !card.chrono.includes(k));
+  $("#warn").hidden = !missing.length;
+  if(missing.length){
+    $("#warn").textContent = "Chronological order is missing " + missing.length +
+      " film(s). Fix before uploading or the build will reject this file.";
+  }
+
   window.__card = card;
   window.__slug = slugify(title);
   $("#fileName").textContent = window.__slug + ".json";
@@ -485,7 +516,9 @@ function downloadCard(){
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
   a.download = window.__slug + ".json";
+  document.body.appendChild(a);
   a.click();
+  a.remove();
   URL.revokeObjectURL(a.href);
   toast("Saved " + window.__slug + ".json");
 }
