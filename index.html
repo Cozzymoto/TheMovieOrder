@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Order of Movies — franchise watch orders</title>
+<meta name="description" content="The right order to watch every film franchise. Release order or in-universe chronology, side by side.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   TOKENS
+   ============================================================ */
+:root{
+  --paper:#FFFFFF;
+  --paper-2:#F6F6F7;
+  --ink:#1C1C1E;
+  --graphite:#5B5B61;
+  --hairline:#E5E5E9;
+  --red:#C8102E;
+  --red-wash:#FDEFF1;
+  --on-red:#FFFFFF;
+
+  --f-display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --f-text:"Inter","Helvetica Neue",Arial,sans-serif;
+
+  --step--1:0.8125rem;
+  --step-0:1rem;
+  --step-1:1.125rem;
+  --step-2:1.375rem;
+  --step-3:1.75rem;
+  --step-4:2.375rem;
+
+  --gutter:clamp(1.25rem,4vw,3rem);
+  --maxw:1120px;
+  --radius:6px;
+
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#141416;
+    --paper-2:#1C1C20;
+    --ink:#F1F1F3;
+    --graphite:#A2A2AB;
+    --hairline:#2B2B31;
+    --red:#FF4257;
+    --red-wash:#26141A;
+    --on-red:#141416;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#141416;
+  --paper-2:#1C1C20;
+  --ink:#F1F1F3;
+  --graphite:#A2A2AB;
+  --hairline:#2B2B31;
+  --red:#FF4257;
+  --red-wash:#26141A;
+  --on-red:#141416;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{height:100%;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px));-webkit-text-size-adjust:100%}
+
+body{
+  margin:0;
+  min-height:100%;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--f-text);
+  font-size:var(--step-0);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+button{font:inherit;color:inherit}
+
+:where(a,button,input,summary,[tabindex]):focus-visible{
+  outline:2px solid var(--red);
+  outline-offset:3px;
+  border-radius:3px;
+}
+
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gutter)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+.masthead{
+  position:sticky;top:0;z-index:60;
+  background:color-mix(in srgb,var(--paper) 88%,transparent);
+  backdrop-filter:saturate(1.4) blur(12px);
+  border-bottom:1px solid var(--hairline);
+  padding-top:env(safe-area-inset-top,0px);
+}
+.masthead__in{
+  max-width:var(--maxw);margin-inline:auto;padding:0 var(--gutter);
+  height:64px;display:flex;align-items:center;gap:1.5rem;
+}
+.wordmark{
+  display:flex;align-items:baseline;gap:.4rem;
+  text-decoration:none;font-family:var(--f-display);
+  font-variation-settings:"wdth" 88;
+  font-weight:800;font-size:1.0625rem;letter-spacing:-0.02em;
+  margin-right:auto;
+}
+.wordmark b{font-weight:800}
+.wordmark i{
+  font-style:normal;color:var(--red);
+}
+.wordmark::after{
+  content:"";width:7px;height:7px;background:var(--red);
+  border-radius:50%;align-self:center;margin-left:.15rem;
+}
+.nav{display:flex;gap:1.5rem;align-items:center}
+.nav a{
+  text-decoration:none;font-size:var(--step--1);font-weight:500;
+  color:var(--graphite);padding:.35rem 0;position:relative;
+}
+.nav a:hover{color:var(--ink)}
+.nav a[aria-current="page"]{color:var(--ink);font-weight:600}
+.nav a[aria-current="page"]::after{
+  content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;background:var(--red)
+}
+.theme-btn{
+  background:none;border:1px solid var(--hairline);border-radius:999px;
+  width:32px;height:32px;display:grid;place-items:center;cursor:pointer;
+  color:var(--graphite);
+}
+.theme-btn:hover{color:var(--ink);border-color:var(--ink)}
+@media (max-width:640px){
+  .nav{gap:1rem}
+  .nav a{font-size:.75rem}
+}
+
+/* ============================================================
+   HERO + SEARCH
+   ============================================================ */
+.hero{padding:clamp(3rem,9vw,6.5rem) 0 clamp(2rem,5vw,3.5rem);text-align:center}
+.hero h1{
+  font-family:var(--f-display);
+  font-variation-settings:"wdth" 84;
+  font-weight:800;
+  font-size:clamp(2.5rem,7.5vw,4.75rem);
+  line-height:.98;letter-spacing:-0.035em;
+  margin:0 0 1rem;
+}
+.hero p{
+  max-width:34ch;margin:0 auto clamp(2rem,4vw,2.75rem);
+  color:var(--graphite);font-size:var(--step-1);line-height:1.5;
+}
+
+.search{position:relative;max-width:620px;margin-inline:auto;text-align:left}
+.search__field{
+  display:flex;align-items:center;gap:.75rem;
+  border:1.5px solid var(--ink);
+  border-bottom-width:4px;border-bottom-color:var(--red);
+  border-radius:var(--radius);
+  background:var(--paper);
+  padding:.9rem 1.1rem;
+}
+.search__field:focus-within{box-shadow:0 0 0 4px var(--red-wash)}
+.search__field svg{flex:none;color:var(--graphite)}
+.search input{
+  flex:1;border:0;background:none;outline:none;
+  font-size:var(--step-1);font-family:inherit;color:var(--ink);min-width:0;
+}
+.search input::placeholder{color:var(--graphite);opacity:1}
+.search__clear{
+  border:0;background:none;cursor:pointer;color:var(--graphite);
+  padding:.25rem;line-height:0;border-radius:4px;
+}
+.search__clear:hover{color:var(--ink)}
+.results{
+  position:absolute;left:0;right:0;top:calc(100% + .5rem);z-index:50;
+  background:var(--paper);border:1px solid var(--hairline);border-radius:var(--radius);
+  box-shadow:0 16px 48px -12px rgba(0,0,0,.22);
+  overflow:hidden;
+}
+.results:empty{display:none}
+.result{
+  display:flex;gap:.85rem;align-items:center;width:100%;text-align:left;
+  padding:.7rem .9rem;background:none;border:0;cursor:pointer;
+  border-bottom:1px solid var(--hairline);text-decoration:none;
+}
+.result:last-child{border-bottom:0}
+.result:hover,.result.is-active{background:var(--paper-2)}
+.result .poster{width:32px;flex:none}
+.result strong{display:block;font-size:var(--step-0);font-weight:600;line-height:1.3}
+.result span{display:block;font-size:var(--step--1);color:var(--graphite)}
+.results__none{padding:1rem .9rem;color:var(--graphite);font-size:var(--step--1)}
+
+.quick{
+  margin:1.5rem auto 0;display:flex;flex-wrap:wrap;gap:.5rem;
+  justify-content:center;max-width:620px;
+}
+.quick span{font-size:var(--step--1);color:var(--graphite);padding:.3rem 0}
+.quick a{
+  font-size:var(--step--1);text-decoration:none;font-weight:500;
+  border:1px solid var(--hairline);border-radius:999px;padding:.3rem .8rem;
+}
+.quick a:hover{border-color:var(--ink);background:var(--paper-2)}
+
+/* ============================================================
+   POSTER TILES (original artwork — no third-party images)
+   ============================================================ */
+.poster{
+  aspect-ratio:2/3;border-radius:3px;overflow:hidden;position:relative;
+  background:
+    linear-gradient(155deg,
+      hsl(var(--h) 42% 26%) 0%,
+      hsl(var(--h) 38% 16%) 46%,
+      hsl(var(--h) 30% 9%) 100%);
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:8%;
+  isolation:isolate;
+}
+.poster::before{
+  content:"";position:absolute;inset:0;z-index:-1;
+  background:
+    radial-gradient(120% 70% at 78% 8%, hsl(var(--h) 55% 52% / .55), transparent 62%),
+    repeating-linear-gradient(115deg, rgba(255,255,255,.05) 0 1px, transparent 1px 16px);
+}
+.poster::after{
+  content:"";position:absolute;left:8%;right:8%;bottom:0;height:3px;background:var(--red);
+}
+.poster__mark{
+  position:absolute;top:7%;left:8%;
+  font-family:var(--f-display);font-variation-settings:"wdth" 78;
+  font-weight:800;font-size:.72em;letter-spacing:.02em;
+  color:rgba(255,255,255,.5);
+}
+.poster__t{
+  font-family:var(--f-display);font-variation-settings:"wdth" 80;
+  font-weight:800;letter-spacing:-0.02em;line-height:.98;
+  color:#fff;font-size:1em;
+  display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;
+  padding-bottom:.35em;
+}
+
+/* ============================================================
+   SECTIONS / GRID
+   ============================================================ */
+.section{padding-block:clamp(2.5rem,6vw,4.5rem)}
+.section--tint{background:var(--paper-2);border-block:1px solid var(--hairline)}
+.section__head{
+  display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;
+  margin-bottom:1.75rem;padding-bottom:.9rem;border-bottom:2px solid var(--ink);
+}
+.section__head h2{
+  font-family:var(--f-display);font-variation-settings:"wdth" 86;
+  font-weight:800;font-size:var(--step-3);letter-spacing:-0.025em;margin:0;line-height:1.05;
+}
+.section__head a{font-size:var(--step--1);color:var(--graphite);text-decoration:none;font-weight:500;white-space:nowrap}
+.section__head a:hover{color:var(--red)}
+
+.grid{
+  display:grid;gap:clamp(1rem,2.5vw,1.75rem);
+  grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+}
+.card{text-decoration:none;display:block}
+.card .poster{font-size:clamp(.9rem,1.5vw,1.1rem);transition:transform .18s ease}
+.card:hover .poster{transform:translateY(-4px)}
+.card h3{
+  font-size:var(--step-0);font-weight:600;margin:.7rem 0 .15rem;line-height:1.25;
+}
+.card p{margin:0;font-size:var(--step--1);color:var(--graphite)}
+@media (prefers-reduced-motion: reduce){
+  .card .poster{transition:none}
+  .card:hover .poster{transform:none}
+}
+
+/* ============================================================
+   FRANCHISE PAGE
+   ============================================================ */
+.crumb{padding-top:1.5rem;font-size:var(--step--1);color:var(--graphite)}
+.crumb a{text-decoration:none}
+.crumb a:hover{color:var(--red)}
+
+.path-head{padding:1.25rem 0 2rem;border-bottom:1px solid var(--hairline)}
+.path-head h1{
+  font-family:var(--f-display);font-variation-settings:"wdth" 84;
+  font-weight:800;font-size:clamp(2rem,5.5vw,3.5rem);
+  letter-spacing:-0.035em;line-height:1;margin:0 0 .75rem;
+}
+.path-head p{margin:0;max-width:62ch;color:var(--graphite);font-size:var(--step-1)}
+.path-facts{display:flex;flex-wrap:wrap;gap:1.5rem;margin-top:1.25rem;font-size:var(--step--1)}
+.path-facts div strong{
+  display:block;font-family:var(--f-display);font-variation-settings:"wdth" 88;
+  font-weight:800;font-size:var(--step-2);line-height:1;letter-spacing:-0.02em;
+}
+.path-facts div span{color:var(--graphite)}
+
+.controls{
+  display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between;
+  padding:1.5rem 0;position:sticky;top:calc(64px + env(safe-area-inset-top,0px));z-index:40;
+  background:color-mix(in srgb,var(--paper) 92%,transparent);
+  backdrop-filter:blur(10px);
+}
+.toggle{
+  display:inline-flex;border:1.5px solid var(--ink);border-radius:999px;padding:3px;gap:3px;
+}
+.toggle button{
+  border:0;background:none;cursor:pointer;border-radius:999px;
+  padding:.45rem 1.1rem;font-size:var(--step--1);font-weight:600;color:var(--graphite);
+  white-space:nowrap;
+}
+.toggle button[aria-pressed="true"]{background:var(--red);color:var(--on-red)}
+.toggle button:not([aria-pressed="true"]):hover{color:var(--ink)}
+
+.progress{display:flex;align-items:center;gap:.75rem;font-size:var(--step--1);color:var(--graphite)}
+.progress__bar{width:120px;height:6px;border-radius:999px;background:var(--hairline);overflow:hidden}
+.progress__bar i{display:block;height:100%;background:var(--red);transition:width .25s ease}
+.progress button{
+  background:none;border:0;cursor:pointer;text-decoration:underline;
+  text-underline-offset:3px;color:var(--graphite);font-size:inherit;padding:0;
+}
+.progress button:hover{color:var(--red)}
+
+/* --- the numbered spine list --- */
+.path{list-style:none;margin:0;padding:0;position:relative}
+.path::before{
+  content:"";position:absolute;top:0;bottom:0;left:17px;width:1px;background:var(--hairline);
+}
+@media (max-width:640px){.path::before{left:13px}}
+
+.row{
+  display:grid;
+  grid-template-columns:36px 52px 1fr auto;
+  gap:1rem;align-items:center;
+  padding:1rem 0;border-bottom:1px solid var(--hairline);
+  position:relative;
+}
+.row__n{
+  font-family:var(--f-display);font-variation-settings:"wdth" 86;
+  font-weight:800;font-size:var(--step-2);line-height:1;letter-spacing:-0.03em;
+  color:var(--red);text-align:center;
+  background:var(--paper);padding:.2rem 0;
+}
+.row .poster{width:52px;font-size:.5rem}
+.row__body{min-width:0}
+.row__t{
+  font-size:var(--step-1);font-weight:600;line-height:1.3;margin:0;
+  display:flex;flex-wrap:wrap;align-items:baseline;gap:.5rem;
+}
+.row__y{font-weight:500;color:var(--graphite);font-size:var(--step-0)}
+.row__meta{margin:.2rem 0 0;font-size:var(--step--1);color:var(--graphite)}
+.row__moved{
+  color:var(--red);font-weight:600;
+}
+.row__acts{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+
+.btn{
+  display:inline-flex;align-items:center;gap:.4rem;
+  text-decoration:none;cursor:pointer;white-space:nowrap;
+  font-size:var(--step--1);font-weight:600;border-radius:var(--radius);
+  padding:.55rem .9rem;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);
+}
+.btn:hover{background:var(--red);border-color:var(--red);color:var(--on-red)}
+.btn--ghost{background:none;color:var(--ink);border-color:var(--hairline)}
+.btn--ghost:hover{background:none;color:var(--red);border-color:var(--red)}
+.btn--sm{padding:.45rem .7rem}
+
+.tick{
+  width:34px;height:34px;flex:none;border-radius:50%;
+  border:1.5px solid var(--hairline);background:none;cursor:pointer;
+  display:grid;place-items:center;color:var(--hairline);
+}
+.tick:hover{border-color:var(--red);color:var(--red)}
+.tick[aria-pressed="true"]{background:var(--red);border-color:var(--red);color:var(--on-red)}
+.row[data-watched="true"] .row__t,
+.row[data-watched="true"] .poster{opacity:.45}
+
+@media (max-width:760px){
+  .row{grid-template-columns:28px 44px 1fr;gap:.75rem;padding:.9rem 0}
+  .row .poster{width:44px}
+  .row__n{font-size:var(--step-1)}
+  .row__acts{grid-column:1/-1;justify-content:flex-start;padding-left:calc(28px + 44px + 1.5rem)}
+  .row__t{font-size:var(--step-0)}
+  .controls{position:static;backdrop-filter:none;background:none}
+}
+@media (max-width:420px){
+  .row__acts{padding-left:0}
+}
+
+.note{
+  margin-top:2rem;padding:1.1rem 1.25rem;border-left:3px solid var(--red);
+  background:var(--red-wash);font-size:var(--step--1);color:var(--ink);border-radius:0 var(--radius) var(--radius) 0;
+}
+.note strong{font-weight:600}
+
+/* ============================================================
+   BLOG
+   ============================================================ */
+.posts{display:grid;gap:0;list-style:none;margin:0;padding:0}
+.post-link{
+  display:grid;grid-template-columns:1fr;gap:.35rem;
+  padding:1.5rem 0;border-bottom:1px solid var(--hairline);text-decoration:none;
+}
+.post-link:hover h3{color:var(--red)}
+.post-link time{font-size:var(--step--1);color:var(--graphite)}
+.post-link h3{
+  margin:0;font-family:var(--f-display);font-variation-settings:"wdth" 88;
+  font-weight:700;font-size:var(--step-2);letter-spacing:-0.02em;line-height:1.15;
+}
+.post-link p{margin:0;color:var(--graphite);max-width:68ch;font-size:var(--step-0)}
+
+.article{padding:2rem 0 1rem;max-width:66ch}
+.article h1{
+  font-family:var(--f-display);font-variation-settings:"wdth" 84;
+  font-weight:800;font-size:clamp(1.9rem,4.5vw,2.9rem);letter-spacing:-0.03em;
+  line-height:1.05;margin:.5rem 0 .75rem;
+}
+.article time{font-size:var(--step--1);color:var(--graphite)}
+.article p{font-size:var(--step-1);line-height:1.7}
+.article h2{
+  font-family:var(--f-display);font-variation-settings:"wdth" 88;
+  font-weight:700;font-size:var(--step-2);letter-spacing:-0.02em;margin-top:2.25rem;
+}
+.article a{color:var(--red)}
+
+.prose{max-width:66ch}
+.prose h1{
+  font-family:var(--f-display);font-variation-settings:"wdth" 84;
+  font-weight:800;font-size:clamp(1.9rem,4.5vw,2.75rem);letter-spacing:-0.03em;line-height:1.05;
+}
+.prose p{font-size:var(--step-1);line-height:1.7}
+.prose a{color:var(--red)}
+
+/* ============================================================
+   AD / AFFILIATE SLOTS
+   ============================================================ */
+.slot{
+  border:1px dashed var(--hairline);border-radius:var(--radius);
+  padding:1.25rem;text-align:center;color:var(--graphite);
+  font-size:var(--step--1);margin-block:2rem;
+}
+.slot b{display:block;font-weight:600;color:var(--ink)}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.foot{
+  border-top:1px solid var(--hairline);margin-top:clamp(3rem,7vw,5rem);
+  padding-block:2.5rem 3rem;font-size:var(--step--1);color:var(--graphite);
+}
+.foot__cols{display:grid;gap:2rem;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.foot h4{
+  font-size:var(--step--1);font-weight:600;color:var(--ink);margin:0 0 .6rem;
+}
+.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:.35rem}
+.foot a{text-decoration:none}
+.foot a:hover{color:var(--red)}
+.foot__legal{
+  margin-top:2.5rem;padding-top:1.25rem;border-top:1px solid var(--hairline);
+  display:flex;flex-wrap:wrap;gap:1rem;justify-content:space-between;
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead__in">
+    <a class="wordmark" href="#/"><b>Order of</b><i>Movies</i></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#/franchises" data-route="/franchises">Franchises</a>
+      <a href="#/blog" data-route="/blog">Blog</a>
+      <a href="#/about" data-route="/about">About</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" aria-label="Switch colour theme" title="Switch colour theme">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__cols">
+      <div>
+        <h4>Order of Movies</h4>
+        <p style="margin:0;max-width:30ch">The right order to watch every franchise — in release order or in-universe chronology.</p>
+      </div>
+      <div>
+        <h4>Browse</h4>
+        <ul>
+          <li><a href="#/franchises">All franchises</a></li>
+          <li><a href="#/blog">Blog</a></li>
+          <li><a href="#/about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Popular paths</h4>
+        <ul id="footPop"></ul>
+      </div>
+    </div>
+    <div class="foot__legal">
+      <span>&copy; <span id="yr"></span> Order of Movies</span>
+      <span>Some links earn us a commission. It never changes what we recommend or what you pay.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ============================================================
+   1. CONFIG — the only bit you edit once you have accounts
+   ============================================================ */
+const CONFIG = {
+  region: "uk",          // "uk" or "us" — sets the JustWatch + Amazon region
+  amazonTag: "",         // e.g. "themovieorder-21" once you join Amazon Associates
+  siteName: "Order of Movies"
+};
+
+/* ============================================================
+   2. DATA — each franchise carries its films plus two orderings
+   ============================================================ */
+const FRANCHISES = [
+  {
+    slug:"marvel-cinematic-universe", title:"Marvel Cinematic Universe",
+    short:"The Infinity Saga", hue:352,
+    blurb:"Twenty-three films built to be watched in the order they came out — but the flashbacks to 1943 and 1995 mean the in-universe timeline looks very different.",
+    films:{
+      im1:{t:"Iron Man",y:2008,set:"2010"},
+      hulk:{t:"The Incredible Hulk",y:2008,set:"2011"},
+      im2:{t:"Iron Man 2",y:2010,set:"2011"},
+      thor:{t:"Thor",y:2011,set:"2011"},
+      cap1:{t:"Captain America: The First Avenger",y:2011,set:"1943–45"},
+      av1:{t:"The Avengers",y:2012,set:"2012"},
+      im3:{t:"Iron Man 3",y:2013,set:"2012"},
+      thor2:{t:"Thor: The Dark World",y:2013,set:"2013"},
+      cap2:{t:"Captain America: The Winter Soldier",y:2014,set:"2014"},
+      gotg:{t:"Guardians of the Galaxy",y:2014,set:"2014"},
+      ultron:{t:"Avengers: Age of Ultron",y:2015,set:"2015"},
+      antman:{t:"Ant-Man",y:2015,set:"2015"},
+      cw:{t:"Captain America: Civil War",y:2016,set:"2016"},
+      strange:{t:"Doctor Strange",y:2016,set:"2016–17"},
+      gotg2:{t:"Guardians of the Galaxy Vol. 2",y:2017,set:"2014"},
+      homecoming:{t:"Spider-Man: Homecoming",y:2017,set:"2016"},
+      ragnarok:{t:"Thor: Ragnarok",y:2017,set:"2017"},
+      panther:{t:"Black Panther",y:2018,set:"2016"},
+      iw:{t:"Avengers: Infinity War",y:2018,set:"2018"},
+      wasp:{t:"Ant-Man and the Wasp",y:2018,set:"2018"},
+      marvel:{t:"Captain Marvel",y:2019,set:"1995"},
+      endgame:{t:"Avengers: Endgame",y:2019,set:"2018–23"},
+      ffh:{t:"Spider-Man: Far From Home",y:2019,set:"2024"}
+    },
+    release:["im1","hulk","im2","thor","cap1","av1","im3","thor2","cap2","gotg","ultron","antman","cw","strange","gotg2","homecoming","ragnarok","panther","iw","wasp","marvel","endgame","ffh"],
+    chrono:["cap1","marvel","im1","im2","hulk","thor","av1","im3","thor2","cap2","gotg","gotg2","ultron","antman","cw","panther","homecoming","strange","ragnarok","wasp","iw","endgame","ffh"],
+    note:"Doctor Strange and Black Panther overlap messily with the films either side of them. Most people watch the Infinity Saga in release order first and save the chronological run for a rewatch."
+  },
+  {
+    slug:"star-wars", title:"Star Wars", short:"The Skywalker Saga & spin-offs", hue:212,
+    blurb:"The argument that started every argument. Release order protects the biggest twist in cinema; chronological order gives you a clean nine-part story with two side trips.",
+    films:{
+      anh:{t:"Star Wars: A New Hope",y:1977,set:"0 BBY"},
+      esb:{t:"The Empire Strikes Back",y:1980,set:"3 ABY"},
+      rotj:{t:"Return of the Jedi",y:1983,set:"4 ABY"},
+      tpm:{t:"The Phantom Menace",y:1999,set:"32 BBY"},
+      aotc:{t:"Attack of the Clones",y:2002,set:"22 BBY"},
+      rots:{t:"Revenge of the Sith",y:2005,set:"19 BBY"},
+      tfa:{t:"The Force Awakens",y:2015,set:"34 ABY"},
+      rogue:{t:"Rogue One",y:2016,set:"0 BBY"},
+      tlj:{t:"The Last Jedi",y:2017,set:"34 ABY"},
+      solo:{t:"Solo",y:2018,set:"13–10 BBY"},
+      tros:{t:"The Rise of Skywalker",y:2019,set:"35 ABY"}
+    },
+    release:["anh","esb","rotj","tpm","aotc","rots","tfa","rogue","tlj","solo","tros"],
+    chrono:["tpm","aotc","rots","solo","rogue","anh","esb","rotj","tfa","tlj","tros"],
+    note:"Rogue One ends minutes before A New Hope begins, so it slots in neatly either way. If it's someone's first time, release order is still the safer bet."
+  },
+  {
+    slug:"the-conjuring-universe", title:"The Conjuring Universe", short:"Warrens & spin-offs", hue:276,
+    blurb:"The most scrambled timeline in modern horror. The films were released in one order and set in almost the reverse, hopping between 1952 and 1986.",
+    films:{
+      c1:{t:"The Conjuring",y:2013,set:"1971"},
+      ann:{t:"Annabelle",y:2014,set:"1967"},
+      c2:{t:"The Conjuring 2",y:2016,set:"1977"},
+      creation:{t:"Annabelle: Creation",y:2017,set:"1943 & 1955"},
+      nun:{t:"The Nun",y:2018,set:"1952"},
+      home:{t:"Annabelle Comes Home",y:2019,set:"1972"},
+      llorona:{t:"The Curse of La Llorona",y:2019,set:"1973"},
+      devil:{t:"The Conjuring: The Devil Made Me Do It",y:2021,set:"1981"},
+      nun2:{t:"The Nun II",y:2023,set:"1956"},
+      rites:{t:"The Conjuring: Last Rites",y:2025,set:"1986"}
+    },
+    release:["c1","ann","c2","creation","nun","home","llorona","devil","nun2","rites"],
+    chrono:["nun","creation","nun2","ann","c1","home","llorona","c2","devil","rites"],
+    note:"Annabelle: Creation opens in 1943 but spends most of its running time in 1955, which is why it sits where it does."
+  },
+  {
+    slug:"x-men", title:"X-Men", short:"The Fox era", hue:28,
+    blurb:"Two casts, one timeline, and a time-travel film in the middle that quietly rewrites half of it. Chronological order here is a genuine untangling job.",
+    films:{
+      x1:{t:"X-Men",y:2000,set:"2000s"},
+      x2:{t:"X2",y:2003,set:"2000s"},
+      x3:{t:"X-Men: The Last Stand",y:2006,set:"2000s"},
+      origins:{t:"X-Men Origins: Wolverine",y:2009,set:"1845–1979"},
+      fc:{t:"X-Men: First Class",y:2011,set:"1962"},
+      wolverine:{t:"The Wolverine",y:2013,set:"2013"},
+      dofp:{t:"X-Men: Days of Future Past",y:2014,set:"1973 & 2023"},
+      dp:{t:"Deadpool",y:2016,set:"2016"},
+      apoc:{t:"X-Men: Apocalypse",y:2016,set:"1983"},
+      logan:{t:"Logan",y:2017,set:"2029"},
+      dp2:{t:"Deadpool 2",y:2018,set:"2018"},
+      phoenix:{t:"Dark Phoenix",y:2019,set:"1992"},
+      mutants:{t:"The New Mutants",y:2020,set:"2010s"}
+    },
+    release:["x1","x2","x3","origins","fc","wolverine","dofp","dp","apoc","logan","dp2","phoenix","mutants"],
+    chrono:["origins","fc","dofp","apoc","phoenix","x1","x2","x3","wolverine","dp","dp2","mutants","logan"],
+    note:"Days of Future Past resets the timeline, so everything from X-Men (2000) onwards technically no longer happens. Watch it anyway — the reset is the point."
+  },
+  {
+    slug:"wizarding-world", title:"Wizarding World", short:"Harry Potter & Fantastic Beasts", hue:44,
+    blurb:"Eleven films across seventy in-universe years. Release order puts Harry first; chronological order starts sixty-five years earlier in 1920s New York.",
+    films:{
+      ps:{t:"Harry Potter and the Philosopher's Stone",y:2001,set:"1991"},
+      cos:{t:"Harry Potter and the Chamber of Secrets",y:2002,set:"1992"},
+      poa:{t:"Harry Potter and the Prisoner of Azkaban",y:2004,set:"1993"},
+      gof:{t:"Harry Potter and the Goblet of Fire",y:2005,set:"1994"},
+      ootp:{t:"Harry Potter and the Order of the Phoenix",y:2007,set:"1995"},
+      hbp:{t:"Harry Potter and the Half-Blood Prince",y:2009,set:"1996"},
+      dh1:{t:"Harry Potter and the Deathly Hallows: Part 1",y:2010,set:"1997"},
+      dh2:{t:"Harry Potter and the Deathly Hallows: Part 2",y:2011,set:"1998"},
+      fb1:{t:"Fantastic Beasts and Where to Find Them",y:2016,set:"1926"},
+      fb2:{t:"Fantastic Beasts: The Crimes of Grindelwald",y:2018,set:"1927"},
+      fb3:{t:"Fantastic Beasts: The Secrets of Dumbledore",y:2022,set:"1932"}
+    },
+    release:["ps","cos","poa","gof","ootp","hbp","dh1","dh2","fb1","fb2","fb3"],
+    chrono:["fb1","fb2","fb3","ps","cos","poa","gof","ootp","hbp","dh1","dh2"],
+    note:"The Fantastic Beasts films assume you already know who Dumbledore and Grindelwald are. Starting there is chronologically correct and dramatically backwards."
+  },
+  {
+    slug:"fast-and-furious", title:"Fast & Furious", short:"The Fast Saga", hue:140,
+    blurb:"One film sat out of order for nine years before the series quietly caught up with it. Tokyo Drift is the whole reason this list exists.",
+    films:{
+      f1:{t:"The Fast and the Furious",y:2001,set:"2001"},
+      f2:{t:"2 Fast 2 Furious",y:2003,set:"2003"},
+      f3:{t:"The Fast and the Furious: Tokyo Drift",y:2006,set:"2013"},
+      f4:{t:"Fast & Furious",y:2009,set:"2009"},
+      f5:{t:"Fast Five",y:2011,set:"2011"},
+      f6:{t:"Fast & Furious 6",y:2013,set:"2013"},
+      f7:{t:"Furious 7",y:2015,set:"2013"},
+      f8:{t:"The Fate of the Furious",y:2017,set:"2017"},
+      hs:{t:"Hobbs & Shaw",y:2019,set:"2019"},
+      f9:{t:"F9",y:2021,set:"2021"},
+      fx:{t:"Fast X",y:2023,set:"2023"}
+    },
+    release:["f1","f2","f3","f4","f5","f6","f7","f8","hs","f9","fx"],
+    chrono:["f1","f2","f4","f5","f6","f3","f7","f8","hs","f9","fx"],
+    note:"Tokyo Drift's ending is revisited at the end of Fast & Furious 6, which is the moment the series officially folds it back in."
+  },
+  {
+    slug:"middle-earth", title:"Middle-earth", short:"Lord of the Rings & The Hobbit", hue:96,
+    blurb:"Six live-action films and one animated prequel spanning nearly two hundred years of Third Age history.",
+    films:{
+      fotr:{t:"The Lord of the Rings: The Fellowship of the Ring",y:2001,set:"3018 TA"},
+      ttt:{t:"The Lord of the Rings: The Two Towers",y:2002,set:"3019 TA"},
+      rotk:{t:"The Lord of the Rings: The Return of the King",y:2003,set:"3019 TA"},
+      auj:{t:"The Hobbit: An Unexpected Journey",y:2012,set:"2941 TA"},
+      dos:{t:"The Hobbit: The Desolation of Smaug",y:2013,set:"2941 TA"},
+      bofa:{t:"The Hobbit: The Battle of the Five Armies",y:2014,set:"2941 TA"},
+      rohirrim:{t:"The War of the Rohirrim",y:2024,set:"2758 TA"}
+    },
+    release:["fotr","ttt","rotk","auj","dos","bofa","rohirrim"],
+    chrono:["rohirrim","auj","dos","bofa","fotr","ttt","rotk"],
+    note:"The extended editions add roughly two hours across the Rings trilogy. If you have the time, they're the version to watch."
+  },
+  {
+    slug:"alien", title:"Alien", short:"Including the Prometheus prequels", hue:180,
+    blurb:"A 1979 original, two prequels made thirty years later, and a 2024 entry that drops straight into the gap between the first two films.",
+    films:{
+      a1:{t:"Alien",y:1979,set:"2122"},
+      a2:{t:"Aliens",y:1986,set:"2179"},
+      a3:{t:"Alien 3",y:1992,set:"2179"},
+      a4:{t:"Alien Resurrection",y:1997,set:"2381"},
+      prom:{t:"Prometheus",y:2012,set:"2093"},
+      cov:{t:"Alien: Covenant",y:2017,set:"2104"},
+      rom:{t:"Alien: Romulus",y:2024,set:"2142"}
+    },
+    release:["a1","a2","a3","a4","prom","cov","rom"],
+    chrono:["prom","cov","a1","rom","a2","a3","a4"],
+    note:"Romulus is set twenty years after Alien and thirty-seven before Aliens, which makes it the cleanest chronological insert the series has ever managed."
+  },
+  {
+    slug:"dc-extended-universe", title:"DC Extended Universe", short:"Man of Steel to Aquaman 2", hue:204,
+    blurb:"Fifteen films made across a decade with the timeline worked out afterwards. Two of them are period pieces, one of them rewrites the lot.",
+    films:{
+      mos:{t:"Man of Steel",y:2013,set:"2013"},
+      bvs:{t:"Batman v Superman: Dawn of Justice",y:2016,set:"2015"},
+      ss:{t:"Suicide Squad",y:2016,set:"2016"},
+      ww:{t:"Wonder Woman",y:2017,set:"1918"},
+      jl:{t:"Justice League",y:2017,set:"2017"},
+      aq:{t:"Aquaman",y:2018,set:"2018"},
+      shz:{t:"Shazam!",y:2019,set:"2018"},
+      bop:{t:"Birds of Prey",y:2020,set:"2020"},
+      ww84:{t:"Wonder Woman 1984",y:2020,set:"1984"},
+      tss:{t:"The Suicide Squad",y:2021,set:"2021"},
+      ba:{t:"Black Adam",y:2022,set:"2022"},
+      shz2:{t:"Shazam! Fury of the Gods",y:2023,set:"2021"},
+      flash:{t:"The Flash",y:2023,set:"2023"},
+      bb:{t:"Blue Beetle",y:2023,set:"2023"},
+      aq2:{t:"Aquaman and the Lost Kingdom",y:2023,set:"2023"}
+    },
+    release:["mos","bvs","ss","ww","jl","aq","shz","bop","ww84","tss","ba","shz2","flash","bb","aq2"],
+    chrono:["ww","ww84","mos","bvs","ss","jl","aq","shz","bop","tss","ba","shz2","bb","flash","aq2"],
+    note:"The Flash deliberately scrambles the timeline it sits in, and the whole line was retired shortly afterwards. Treat the chronological path as a best reading rather than an official one."
+  },
+  {
+    slug:"james-bond", title:"James Bond", short:"All 25 Eon films", hue:216,
+    blurb:"Six actors, sixty years, and almost no continuity until 2006 — which is why release order is the only order that means anything here.",
+    films:{
+      b01:{t:"Dr. No",y:1962,set:"1962"},
+      b02:{t:"From Russia with Love",y:1963,set:"1963"},
+      b03:{t:"Goldfinger",y:1964,set:"1964"},
+      b04:{t:"Thunderball",y:1965,set:"1965"},
+      b05:{t:"You Only Live Twice",y:1967,set:"1967"},
+      b06:{t:"On Her Majesty's Secret Service",y:1969,set:"1969"},
+      b07:{t:"Diamonds Are Forever",y:1971,set:"1971"},
+      b08:{t:"Live and Let Die",y:1973,set:"1973"},
+      b09:{t:"The Man with the Golden Gun",y:1974,set:"1974"},
+      b10:{t:"The Spy Who Loved Me",y:1977,set:"1977"},
+      b11:{t:"Moonraker",y:1979,set:"1979"},
+      b12:{t:"For Your Eyes Only",y:1981,set:"1981"},
+      b13:{t:"Octopussy",y:1983,set:"1983"},
+      b14:{t:"A View to a Kill",y:1985,set:"1985"},
+      b15:{t:"The Living Daylights",y:1987,set:"1987"},
+      b16:{t:"Licence to Kill",y:1989,set:"1989"},
+      b17:{t:"GoldenEye",y:1995,set:"1995"},
+      b18:{t:"Tomorrow Never Dies",y:1997,set:"1997"},
+      b19:{t:"The World Is Not Enough",y:1999,set:"1999"},
+      b20:{t:"Die Another Day",y:2002,set:"2002"},
+      b21:{t:"Casino Royale",y:2006,set:"2006"},
+      b22:{t:"Quantum of Solace",y:2008,set:"2006"},
+      b23:{t:"Skyfall",y:2012,set:"2012"},
+      b24:{t:"Spectre",y:2015,set:"2015"},
+      b25:{t:"No Time to Die",y:2021,set:"2020"}
+    },
+    release:["b01","b02","b03","b04","b05","b06","b07","b08","b09","b10","b11","b12","b13","b14","b15","b16","b17","b18","b19","b20","b21","b22","b23","b24","b25"],
+    chrono:["b01","b02","b03","b04","b05","b06","b07","b08","b09","b10","b11","b12","b13","b14","b15","b16","b17","b18","b19","b20","b21","b22","b23","b24","b25"],
+    note:"Casino Royale restarts Bond's career from scratch, so the five Craig films form a closed story you can watch on their own. Quantum of Solace picks up minutes after Casino Royale ends."
+  },
+  {
+    slug:"john-wick", title:"John Wick", short:"Including Ballerina", hue:258,
+    blurb:"Four chapters that run almost continuously, plus a spin-off that takes place inside the middle of one of them.",
+    films:{
+      jw1:{t:"John Wick",y:2014,set:"2014"},
+      jw2:{t:"John Wick: Chapter 2",y:2017,set:"2014"},
+      jw3:{t:"John Wick: Chapter 3 – Parabellum",y:2019,set:"2014"},
+      bal:{t:"Ballerina",y:2025,set:"2014"},
+      jw4:{t:"John Wick: Chapter 4",y:2023,set:"2015"}
+    },
+    release:["jw1","jw2","jw3","jw4","bal"],
+    chrono:["jw1","jw2","jw3","bal","jw4"],
+    note:"Ballerina runs concurrently with Chapter 3 rather than after it, which is why it lands before Chapter 4 despite arriving in cinemas later."
+  },
+  {
+    slug:"mad-max", title:"Mad Max", short:"Including Furiosa", hue:22,
+    blurb:"A series that treats its own timeline as folklore. The 2024 prequel is the first entry with a firm place in it.",
+    films:{
+      mm1:{t:"Mad Max",y:1979,set:"Near future"},
+      mm2:{t:"Mad Max 2: The Road Warrior",y:1981,set:"After the fall"},
+      mm3:{t:"Mad Max Beyond Thunderdome",y:1985,set:"15 years later"},
+      fr:{t:"Mad Max: Fury Road",y:2015,set:"Later still"},
+      fur:{t:"Furiosa: A Mad Max Saga",y:2024,set:"18 years before Fury Road"}
+    },
+    release:["mm1","mm2","mm3","fr","fur"],
+    chrono:["mm1","mm2","mm3","fur","fr"],
+    note:"George Miller has said the films are legends retold rather than a fixed sequence, so nobody agrees where Fury Road sits relative to the original three. Furiosa's placement is the one certainty."
+  },
+  {
+    slug:"predator", title:"Predator", short:"The main Predator films", hue:86,
+    blurb:"A 1987 action film that spent thirty-five years getting sequels before a prequel set in 1719 turned out to be the best of them.",
+    films:{
+      p1:{t:"Predator",y:1987,set:"1987"},
+      p2:{t:"Predator 2",y:1990,set:"1997"},
+      preds:{t:"Predators",y:2010,set:"2010"},
+      p18:{t:"The Predator",y:2018,set:"2018"},
+      prey:{t:"Prey",y:2022,set:"1719"},
+      bad:{t:"Predator: Badlands",y:2025,set:"Far future"}
+    },
+    release:["p1","p2","preds","p18","prey","bad"],
+    chrono:["prey","p1","p2","preds","p18","bad"],
+    note:"The two Alien vs. Predator films sit awkwardly beside both series and are usually treated as a separate branch. We've left them out of this path."
+  },
+  {
+    slug:"the-hunger-games", title:"The Hunger Games", short:"Including The Ballad of Songbirds & Snakes", hue:38,
+    blurb:"Four films about Katniss, and one set sixty-four years earlier that quietly changes how you read the villain.",
+    films:{
+      hg1:{t:"The Hunger Games",y:2012,set:"74th Games"},
+      cf:{t:"The Hunger Games: Catching Fire",y:2013,set:"75th Games"},
+      mj1:{t:"The Hunger Games: Mockingjay – Part 1",y:2014,set:"After the 75th"},
+      mj2:{t:"The Hunger Games: Mockingjay – Part 2",y:2015,set:"The rebellion"},
+      ballad:{t:"The Hunger Games: The Ballad of Songbirds & Snakes",y:2023,set:"10th Games"}
+    },
+    release:["hg1","cf","mj1","mj2","ballad"],
+    chrono:["ballad","hg1","cf","mj1","mj2"],
+    note:"Watch the prequel first and Snow is a tragedy. Watch it last and he's a monster whose origins you already know. We'd save it for the end."
+  },
+  {
+    slug:"kingsman", title:"Kingsman", short:"Three films, one of them a prequel", hue:338,
+    blurb:"Two contemporary spy comedies and a First World War origin story that explains where the tailor's shop came from.",
+    films:{
+      k1:{t:"Kingsman: The Secret Service",y:2014,set:"2014"},
+      k2:{t:"Kingsman: The Golden Circle",y:2017,set:"2017"},
+      km:{t:"The King's Man",y:2021,set:"1902–1919"}
+    },
+    release:["k1","k2","km"],
+    chrono:["km","k1","k2"],
+    note:"The King's Man is a tonal outlier — far more serious than the other two. Chronological order front-loads the least representative film in the series."
+  },
+  {
+    slug:"despicable-me", title:"Despicable Me", short:"Including the Minions films", hue:48,
+    blurb:"Four films about Gru and two about the Minions, which between them reach back to 1968.",
+    films:{
+      dm1:{t:"Despicable Me",y:2010,set:"2010"},
+      dm2:{t:"Despicable Me 2",y:2013,set:"2013"},
+      min:{t:"Minions",y:2015,set:"1968"},
+      dm3:{t:"Despicable Me 3",y:2017,set:"2017"},
+      gru:{t:"Minions: The Rise of Gru",y:2022,set:"1976"},
+      dm4:{t:"Despicable Me 4",y:2024,set:"2024"}
+    },
+    release:["dm1","dm2","min","dm3","gru","dm4"],
+    chrono:["min","gru","dm1","dm2","dm3","dm4"],
+    note:"Minions opens with a prologue running from the dawn of life to the 1960s, so chronologically it is both the first and the longest-reaching film in the series."
+  },
+  {
+    slug:"transformers", title:"Transformers", short:"The live-action films", hue:8,
+    blurb:"Five Bay films, then a 1987 prequel that quietly reset the continuity, then a 1994 sequel to the prequel.",
+    films:{
+      tf1:{t:"Transformers",y:2007,set:"2007"},
+      rotf:{t:"Transformers: Revenge of the Fallen",y:2009,set:"2009"},
+      dotm:{t:"Transformers: Dark of the Moon",y:2011,set:"2011"},
+      aoe:{t:"Transformers: Age of Extinction",y:2014,set:"2016"},
+      tlk:{t:"Transformers: The Last Knight",y:2017,set:"2018"},
+      bum:{t:"Bumblebee",y:2018,set:"1987"},
+      rotb:{t:"Transformers: Rise of the Beasts",y:2023,set:"1994"}
+    },
+    release:["tf1","rotf","dotm","aoe","tlk","bum","rotb"],
+    chrono:["bum","rotb","tf1","rotf","dotm","aoe","tlk"],
+    note:"Bumblebee contradicts the 2007 film's version of events in several places. Whether it's a prequel or a soft reboot has never been settled."
+  },
+  {
+    slug:"indiana-jones", title:"Indiana Jones", short:"Five films, 1935 to 1969", hue:32,
+    blurb:"Only one film moves, but it moves to the front — Temple of Doom is a prequel to Raiders by a single year.",
+    films:{
+      raiders:{t:"Raiders of the Lost Ark",y:1981,set:"1936"},
+      doom:{t:"Indiana Jones and the Temple of Doom",y:1984,set:"1935"},
+      crusade:{t:"Indiana Jones and the Last Crusade",y:1989,set:"1938"},
+      skull:{t:"Indiana Jones and the Kingdom of the Crystal Skull",y:2008,set:"1957"},
+      dial:{t:"Indiana Jones and the Dial of Destiny",y:2023,set:"1969"}
+    },
+    release:["raiders","doom","crusade","skull","dial"],
+    chrono:["doom","raiders","crusade","skull","dial"],
+    note:"The Last Crusade opens with a 1912 flashback and Dial of Destiny with a 1944 one, but both spend their running time in the years listed above."
+  },
+  {
+    slug:"terminator", title:"Terminator", short:"Six films, several timelines", hue:198,
+    blurb:"Every sequel after the second one branches into its own timeline, so a single chronological line is a polite fiction. Here it is anyway.",
+    films:{
+      t1:{t:"The Terminator",y:1984,set:"1984"},
+      t2:{t:"Terminator 2: Judgment Day",y:1991,set:"1995"},
+      t3:{t:"Terminator 3: Rise of the Machines",y:2003,set:"2004"},
+      gen:{t:"Terminator Genisys",y:2015,set:"2017"},
+      sal:{t:"Terminator Salvation",y:2009,set:"2018"},
+      dark:{t:"Terminator: Dark Fate",y:2019,set:"2020"}
+    },
+    release:["t1","t2","t3","sal","gen","dark"],
+    chrono:["t1","t2","t3","gen","sal","dark"],
+    note:"Dark Fate is a direct sequel to Judgment Day and ignores the three films in between. If you want one clean story, watch The Terminator, Judgment Day and Dark Fate, and treat the rest as alternatives."
+  },
+  {
+    slug:"saw", title:"Saw", short:"Ten films of nested flashbacks", hue:348,
+    blurb:"A series built almost entirely out of reveals about earlier films, plus a tenth entry dropped straight into the gap after the first.",
+    films:{
+      s1:{t:"Saw",y:2004,set:"2004"},
+      s2:{t:"Saw II",y:2005,set:"2005"},
+      s3:{t:"Saw III",y:2006,set:"2006"},
+      s4:{t:"Saw IV",y:2007,set:"2006"},
+      s5:{t:"Saw V",y:2008,set:"2006"},
+      s6:{t:"Saw VI",y:2009,set:"2007"},
+      s3d:{t:"Saw 3D",y:2010,set:"2007"},
+      jig:{t:"Jigsaw",y:2017,set:"2017"},
+      spi:{t:"Spiral",y:2021,set:"2021"},
+      sx:{t:"Saw X",y:2023,set:"Between I and II"}
+    },
+    release:["s1","s2","s3","s4","s5","s6","s3d","jig","spi","sx"],
+    chrono:["s1","sx","s2","s3","s4","s5","s6","s3d","jig","spi"],
+    note:"Saw IV runs at the same time as Saw III rather than after it — the two films end on the same moment from different angles. Release order is strongly recommended here; the reveals only work in sequence."
+  }
+];
+
+const POSTS = [
+  {
+    slug:"release-order-still-wins-star-wars",
+    title:"Release order still wins for Star Wars",
+    date:"2026-09-14",
+    standfirst:"Chronological order makes tidy sense on paper and ruins the best moment in the series in practice.",
+    body:[
+      "Every few months someone rediscovers that you can start Star Wars at The Phantom Menace and watch nine films in a straight line. It is neat. The numbering agrees with you. And it is, for a first-time viewer, the wrong call.",
+      "The problem is a single line of dialogue in The Empire Strikes Back. Chronological order tells you exactly who Luke's father is roughly six hours before Luke finds out, and it tells you casually, in a film aimed at children, as a plot point rather than a revelation. You trade the most famous twist in cinema for the satisfaction of counting upwards.",
+      "There is a middle path that has quietly become the default among people who do this for a living: watch the original trilogy, stop after The Empire Strikes Back, watch the prequels, then return for Return of the Jedi. It keeps the twist intact and turns the prequels into a flashback that makes Vader's final choice land harder.",
+      "Our position: if it's a first watch, release order. If it's a rewatch and you already know everything, chronological order is genuinely a different film series, and worth doing once."
+    ]
+  },
+  {
+    slug:"conjuring-universe-untangled",
+    title:"The Conjuring Universe, untangled",
+    date:"2026-09-02",
+    standfirst:"Ten films, thirty-four in-universe years, and almost no relationship between the two.",
+    body:[
+      "Horror franchises tend to sprawl rather than plan, and the Conjuring films sprawled harder than most. The first spin-off went backwards four years. The next went back another twelve. By the time The Nun arrived, the series had reached 1952, nineteen years before the film that started it all.",
+      "Watched chronologically the shape is much clearer: a haunted convent in Romania, a doll made in the mid-fifties, a pair of investigators who spend the seventies collecting the wreckage, and a final case in the eighties. Cause and effect line up.",
+      "What you lose is the escalation. Released in order, the films get louder and stranger as the budgets grow. Released in chronological order, the scariest entry arrives fifth and the rest is aftermath.",
+      "Our recommendation is unusual for us: this is one of the rare franchises where we would send a newcomer down the chronological path."
+    ]
+  },
+  {
+    slug:"do-you-need-to-watch-every-marvel-film",
+    title:"Do you actually need to watch every Marvel film?",
+    date:"2026-08-21",
+    standfirst:"No. Here is the shortest route through the Infinity Saga that still makes Endgame work.",
+    body:[
+      "Twenty-three films is roughly fifty hours. That is a big ask for someone who only wants to understand why everyone was upset in 2019, and the honest answer is that a third of them are optional.",
+      "The load-bearing films are the ones that move an Infinity Stone or change who is in the room at the end. Iron Man, The Avengers, Winter Soldier, Guardians of the Galaxy, Civil War, Thor: Ragnarok, Black Panther, Infinity War, Endgame. Nine films, about twenty hours, and nothing in Endgame will be a surprise for the wrong reasons.",
+      "The ones we would add back first are Ant-Man, because the mechanism that resolves Endgame is explained there, and Captain Marvel, because she arrives in the last act with no introduction otherwise.",
+      "Everything else is enrichment. Very good enrichment in places. But if you are watching to catch up rather than to complete a set, nine is enough."
+    ]
+  }
+];
+
+/* ============================================================
+   3. HELPERS
+   ============================================================ */
+const app = document.getElementById("app");
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const bySlug = s => FRANCHISES.find(f => f.slug === s);
+
+// Short label for a poster tile — drops the franchise prefix where there is one.
+function shortTitle(t){
+  if(t.includes(":")) return t.split(":").slice(1).join(":").trim();
+  return t.replace(/^(The Lord of the Rings|Harry Potter and the) /,"").trim();
+}
+
+function posterHTML(hue, label, mark, cls){
+  return `<div class="poster ${cls||""}" style="--h:${hue}" aria-hidden="true">
+    ${mark ? `<span class="poster__mark">${esc(mark)}</span>` : ""}
+    <span class="poster__t">${esc(label)}</span>
+  </div>`;
+}
+
+function watchURL(title){
+  const q = encodeURIComponent(title);
+  return `https://www.justwatch.com/${CONFIG.region}/search?q=${q}`;
+}
+function buyURL(title){
+  const dom = CONFIG.region === "us" ? "www.amazon.com" : "www.amazon.co.uk";
+  const tag = CONFIG.amazonTag ? `&tag=${encodeURIComponent(CONFIG.amazonTag)}` : "";
+  return `https://${dom}/s?k=${encodeURIComponent(title + " blu-ray")}${tag}`;
+}
+
+// Watched-list persistence. Private to this browser; safe to fail.
+const store = {
+  get(slug){
+    try{ return JSON.parse(localStorage.getItem("oom:"+slug) || "[]"); }
+    catch(e){ return []; }
+  },
+  set(slug, arr){
+    try{ localStorage.setItem("oom:"+slug, JSON.stringify(arr)); }
+    catch(e){ /* storage unavailable — the page still works */ }
+  }
+};
+
+function yearSpan(f){
+  const ys = Object.values(f.films).map(m => m.y);
+  return Math.min(...ys) + "–" + Math.max(...ys);
+}
+
+/* ============================================================
+   4. VIEWS
+   ============================================================ */
+function viewHome(){
+  const trending = FRANCHISES.slice(0,8);
+  return `
+  <section class="hero">
+    <div class="wrap">
+      <h1>What order do<br>I watch these in?</h1>
+      <p>Every franchise, laid out twice — the order they came out, and the order they happen.</p>
+      ${searchHTML()}
+      <div class="quick">
+        <span>Popular right now:</span>
+        ${FRANCHISES.slice(0,4).map(f=>`<a href="#/f/${f.slug}">${esc(f.title)}</a>`).join("")}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint">
+    <div class="wrap">
+      <div class="section__head">
+        <h2>Trending franchises</h2>
+        <a href="#/franchises">See all ${FRANCHISES.length}</a>
+      </div>
+      <div class="grid">
+        ${trending.map(cardHTML).join("")}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section__head">
+        <h2>From the blog</h2>
+        <a href="#/blog">All posts</a>
+      </div>
+      <ul class="posts">
+        ${POSTS.slice(0,3).map(postLinkHTML).join("")}
+      </ul>
+    </div>
+  </section>`;
+}
+
+function cardHTML(f){
+  return `<a class="card" href="#/f/${f.slug}">
+    ${posterHTML(f.hue, f.title, f.release.length + " films")}
+    <h3>${esc(f.title)}</h3>
+    <p>${esc(f.short)}</p>
+  </a>`;
+}
+
+function searchHTML(){
+  return `<div class="search">
+    <label class="sr" for="q">Search for a franchise</label>
+    <div class="search__field">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" autocomplete="off" placeholder="Search for a franchise" aria-controls="results" aria-expanded="false" role="combobox">
+      <button class="search__clear" id="qClear" hidden aria-label="Clear search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="results" id="results" role="listbox"></div>
+  </div>`;
+}
+
+function viewFranchises(){
+  const sorted = [...FRANCHISES].sort((a,b)=>a.title.localeCompare(b.title));
+  return `<section class="section">
+    <div class="wrap">
+      <div class="section__head"><h2>All franchises</h2></div>
+      <div class="grid">${sorted.map(cardHTML).join("")}</div>
+      <div class="slot"><b>Leaderboard ad slot</b>728 × 90 — sits between content, never over it</div>
+    </div>
+  </section>`;
+}
+
+function viewPath(slug, mode){
+  const f = bySlug(slug);
+  if(!f) return viewMissing();
+  const order = mode === "chrono" ? f.chrono : f.release;
+  const other = mode === "chrono" ? f.release : f.chrono;
+  const watched = store.get(f.slug);
+  const done = order.filter(id => watched.includes(id)).length;
+
+  const rows = order.map((id, i) => {
+    const m = f.films[id];
+    const otherPos = other.indexOf(id) + 1;
+    const moved = otherPos !== i + 1;
+    const isW = watched.includes(id);
+    return `<li class="row" data-watched="${isW}">
+      <div class="row__n">${i+1}</div>
+      ${posterHTML(f.hue, shortTitle(m.t), null)}
+      <div class="row__body">
+        <h3 class="row__t">${esc(m.t)} <span class="row__y">${m.y}</span></h3>
+        <p class="row__meta">
+          ${mode === "chrono" ? `Set ${esc(m.set)}` : `Set ${esc(m.set)}`}
+          ${moved ? ` · <span class="row__moved">${mode==="chrono"?"Release":"Chronological"} order #${otherPos}</span>` : ""}
+        </p>
+      </div>
+      <div class="row__acts">
+        <a class="btn" href="${watchURL(m.t)}" target="_blank" rel="noopener nofollow sponsored">Where to watch</a>
+        <a class="btn btn--ghost btn--sm" href="${buyURL(m.t)}" target="_blank" rel="noopener nofollow sponsored">Buy</a>
+        <button class="tick" data-id="${id}" aria-pressed="${isW}" aria-label="Mark ${esc(m.t)} as watched">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 6 6L20 6"/></svg>
+        </button>
+      </div>
+    </li>`;
+  }).join("");
+
+  return `<div class="wrap">
+    <nav class="crumb"><a href="#/franchises">Franchises</a> / ${esc(f.title)}</nav>
+    <header class="path-head">
+      <h1>${esc(f.title)} watch order</h1>
+      <p>${esc(f.blurb)}</p>
+      <div class="path-facts">
+        <div><strong>${f.release.length}</strong><span>films</span></div>
+        <div><strong>${yearSpan(f)}</strong><span>released</span></div>
+        ${(()=>{
+          const moved = f.release.filter((id,i)=>f.chrono.indexOf(id)!==i).length;
+          return moved
+            ? `<div><strong>${moved}</strong><span>films change position</span></div>`
+            : `<div><strong>Same</strong><span>in both orders</span></div>`;
+        })()}
+      </div>
+    </header>
+
+    <div class="controls">
+      <div class="toggle" role="group" aria-label="Watch order">
+        <button data-mode="release" aria-pressed="${mode!=="chrono"}">Release order</button>
+        <button data-mode="chrono" aria-pressed="${mode==="chrono"}">Chronological order</button>
+      </div>
+      <div class="progress">
+        <span id="progressText">${done} of ${order.length} watched</span>
+        <span class="progress__bar"><i style="width:${(done/order.length*100).toFixed(1)}%"></i></span>
+        <button id="resetBtn">Reset</button>
+      </div>
+    </div>
+
+    <ol class="path">${rows}</ol>
+
+    ${f.note ? `<p class="note"><strong>Worth knowing.</strong> ${esc(f.note)}</p>` : ""}
+
+    <div class="slot"><b>Affiliate block</b>Box-set deals and streaming offers for this franchise</div>
+  </div>`;
+}
+
+function viewBlog(){
+  return `<section class="section">
+    <div class="wrap">
+      <div class="section__head"><h2>Blog</h2></div>
+      <ul class="posts">${POSTS.map(postLinkHTML).join("")}</ul>
+    </div>
+  </section>`;
+}
+
+function postLinkHTML(p){
+  return `<li><a class="post-link" href="#/blog/${p.slug}">
+    <time datetime="${p.date}">${fmtDate(p.date)}</time>
+    <h3>${esc(p.title)}</h3>
+    <p>${esc(p.standfirst)}</p>
+  </a></li>`;
+}
+
+function fmtDate(d){
+  return new Date(d + "T00:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"long",year:"numeric"});
+}
+
+function viewPost(slug){
+  const p = POSTS.find(x => x.slug === slug);
+  if(!p) return viewMissing();
+  return `<div class="wrap">
+    <nav class="crumb"><a href="#/blog">Blog</a> / ${esc(p.title)}</nav>
+    <article class="article">
+      <time datetime="${p.date}">${fmtDate(p.date)}</time>
+      <h1>${esc(p.title)}</h1>
+      <p style="color:var(--graphite);font-size:var(--step-2);line-height:1.45">${esc(p.standfirst)}</p>
+      ${p.body.map(par => `<p>${esc(par)}</p>`).join("")}
+    </article>
+    <div class="slot" style="max-width:66ch"><b>In-article ad slot</b>300 × 250</div>
+  </div>`;
+}
+
+function viewAbout(){
+  return `<div class="wrap"><section class="section prose">
+    <h1>About</h1>
+    <p>Order of Movies exists to answer one question quickly: what do I watch, and in what order?</p>
+    <p>Every franchise here is laid out twice. <strong>Release order</strong> is how audiences originally saw it — usually the best way to protect twists and watch a series find its feet. <strong>Chronological order</strong> follows the story's own timeline, which is often tidier and occasionally ruins something.</p>
+    <p>Where the two disagree, we say which we'd pick and why. We'd rather take a position than list both and leave you to it.</p>
+    <h2 style="font-family:var(--f-display);font-variation-settings:'wdth' 88;font-weight:700;font-size:var(--step-2);letter-spacing:-.02em;margin-top:2.25rem">How we make money</h2>
+    <p>Some of the "Where to watch" and "Buy" links earn a commission if you use them. It costs you nothing and it has no bearing on what we recommend — the orders are the orders.</p>
+    <h2 style="font-family:var(--f-display);font-variation-settings:'wdth' 88;font-weight:700;font-size:var(--step-2);letter-spacing:-.02em;margin-top:2.25rem">Spotted a mistake?</h2>
+    <p>Timelines get retconned and new films shuffle old ones. If something here is wrong, tell us and we'll fix it.</p>
+  </section></div>`;
+}
+
+function viewMissing(){
+  return `<div class="wrap"><section class="section prose">
+    <h1>Nothing here yet</h1>
+    <p>That franchise isn't on the site. Try the <a href="#/franchises">full list</a>, or search from the <a href="#/">homepage</a>.</p>
+  </section></div>`;
+}
+
+/* ============================================================
+   5. ROUTER
+   ============================================================ */
+let currentMode = "release";
+
+function route(){
+  const hash = location.hash.replace(/^#/,"") || "/";
+  const parts = hash.split("/").filter(Boolean);
+  let html, routeKey = "/";
+
+  if(parts.length === 0){ html = viewHome(); }
+  else if(parts[0] === "f" && parts[1]){ html = viewPath(parts[1], currentMode); routeKey = "/franchises"; }
+  else if(parts[0] === "franchises"){ html = viewFranchises(); routeKey = "/franchises"; }
+  else if(parts[0] === "blog" && parts[1]){ html = viewPost(parts[1]); routeKey = "/blog"; }
+  else if(parts[0] === "blog"){ html = viewBlog(); routeKey = "/blog"; }
+  else if(parts[0] === "about"){ html = viewAbout(); routeKey = "/about"; }
+  else { html = viewMissing(); }
+
+  app.innerHTML = html;
+  document.querySelectorAll(".nav a").forEach(a => {
+    a.toggleAttribute("aria-current", a.dataset.route === routeKey);
+    if(a.dataset.route === routeKey) a.setAttribute("aria-current","page");
+    else a.removeAttribute("aria-current");
+  });
+  document.title = titleFor(parts);
+  bindView(parts);
+  window.scrollTo(0,0);
+}
+
+function titleFor(parts){
+  if(parts[0] === "f"){ const f = bySlug(parts[1]); if(f) return `${f.title} watch order — ${CONFIG.siteName}`; }
+  if(parts[0] === "blog" && parts[1]){ const p = POSTS.find(x=>x.slug===parts[1]); if(p) return `${p.title} — ${CONFIG.siteName}`; }
+  if(parts[0] === "blog") return `Blog — ${CONFIG.siteName}`;
+  if(parts[0] === "franchises") return `All franchises — ${CONFIG.siteName}`;
+  if(parts[0] === "about") return `About — ${CONFIG.siteName}`;
+  return `${CONFIG.siteName} — franchise watch orders`;
+}
+
+function bindView(parts){
+  if(parts.length === 0) bindSearch();
+  if(parts[0] === "f") bindPath(parts[1]);
+}
+
+/* --- search --- */
+function bindSearch(){
+  const input = document.getElementById("q");
+  const box = document.getElementById("results");
+  const clear = document.getElementById("qClear");
+  if(!input) return;
+  let active = -1;
+
+  function render(list){
+    active = -1;
+    if(!input.value.trim()){ box.innerHTML = ""; input.setAttribute("aria-expanded","false"); return; }
+    input.setAttribute("aria-expanded","true");
+    if(!list.length){
+      box.innerHTML = `<p class="results__none">No franchise matches that yet. <a href="#/franchises" style="color:var(--red)">Browse everything</a>.</p>`;
+      return;
+    }
+    box.innerHTML = list.map(f => `<a class="result" href="#/f/${f.slug}" role="option">
+      ${posterHTML(f.hue, f.title.slice(0,14), null)}
+      <span><strong>${esc(f.title)}</strong><span>${f.release.length} films · ${esc(f.short)}</span></span>
+    </a>`).join("");
+  }
+
+  function search(){
+    const q = input.value.trim().toLowerCase();
+    clear.hidden = !q;
+    if(!q){ render([]); return; }
+    const hits = FRANCHISES.filter(f =>
+      (f.title + " " + f.short + " " + Object.values(f.films).map(m=>m.t).join(" ")).toLowerCase().includes(q)
+    ).slice(0,6);
+    render(hits);
+  }
+
+  input.addEventListener("input", search);
+  clear.addEventListener("click", () => { input.value=""; search(); input.focus(); });
+
+  input.addEventListener("keydown", e => {
+    const items = [...box.querySelectorAll(".result")];
+    if(e.key === "ArrowDown" || e.key === "ArrowUp"){
+      if(!items.length) return;
+      e.preventDefault();
+      active = e.key === "ArrowDown"
+        ? (active + 1) % items.length
+        : (active - 1 + items.length) % items.length;
+      items.forEach((el,i) => el.classList.toggle("is-active", i === active));
+      items[active].scrollIntoView({block:"nearest"});
+    }
+    if(e.key === "Enter" && active > -1 && items[active]){ e.preventDefault(); items[active].click(); }
+    if(e.key === "Escape"){ input.value=""; search(); }
+  });
+
+  document.addEventListener("click", e => {
+    if(!e.target.closest(".search")) box.innerHTML = "";
+  });
+}
+
+/* --- franchise page --- */
+function bindPath(slug){
+  const f = bySlug(slug);
+  if(!f) return;
+
+  document.querySelectorAll(".toggle button").forEach(b => {
+    b.addEventListener("click", () => {
+      if(currentMode === b.dataset.mode) return;
+      currentMode = b.dataset.mode;
+      const y = window.scrollY;
+      app.innerHTML = viewPath(slug, currentMode);
+      bindPath(slug);
+      window.scrollTo(0, y);
+    });
+  });
+
+  const bar = document.querySelector(".progress__bar i");
+  const text = document.getElementById("progressText");
+  const total = f.release.length;
+
+  function refresh(){
+    const w = store.get(slug);
+    const done = f.release.filter(id => w.includes(id)).length;
+    if(bar) bar.style.width = (done/total*100).toFixed(1) + "%";
+    if(text) text.textContent = `${done} of ${total} watched`;
+  }
+
+  document.querySelectorAll(".tick").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const id = btn.dataset.id;
+      let w = store.get(slug);
+      const on = w.includes(id);
+      w = on ? w.filter(x => x !== id) : [...w, id];
+      store.set(slug, w);
+      btn.setAttribute("aria-pressed", String(!on));
+      btn.closest(".row").dataset.watched = String(!on);
+      refresh();
+    });
+  });
+
+  const reset = document.getElementById("resetBtn");
+  if(reset) reset.addEventListener("click", () => {
+    store.set(slug, []);
+    document.querySelectorAll(".tick").forEach(b => {
+      b.setAttribute("aria-pressed","false");
+      b.closest(".row").dataset.watched = "false";
+    });
+    refresh();
+  });
+}
+
+/* --- theme --- */
+const themeBtn = document.getElementById("themeBtn");
+themeBtn.addEventListener("click", () => {
+  const dark = matchMedia("(prefers-color-scheme: dark)").matches;
+  const cur = document.documentElement.getAttribute("data-theme") || (dark ? "dark" : "light");
+  const next = cur === "dark" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", next);
+  try{ localStorage.setItem("oom:theme", next); }catch(e){}
+});
+try{
+  const saved = localStorage.getItem("oom:theme");
+  if(saved) document.documentElement.setAttribute("data-theme", saved);
+}catch(e){}
+
+/* --- boot --- */
+document.getElementById("yr").textContent = new Date().getFullYear();
+document.getElementById("footPop").innerHTML =
+  FRANCHISES.slice(0,4).map(f=>`<li><a href="#/f/${f.slug}">${esc(f.title)}</a></li>`).join("");
+window.addEventListener("hashchange", route);
+route();
+</script>
+</body>
+</html>
