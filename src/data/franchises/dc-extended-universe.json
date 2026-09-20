@@ -1,0 +1,118 @@
+{
+  "title": "DC Extended Universe",
+  "short": "Man of Steel to Aquaman 2",
+  "hue": 204,
+  "blurb": "Fifteen films made across a decade with the timeline worked out afterwards. Two of them are period pieces, one of them rewrites the lot.",
+  "films": {
+    "mos": {
+      "t": "Man of Steel",
+      "y": 2013,
+      "set": "2013"
+    },
+    "bvs": {
+      "t": "Batman v Superman: Dawn of Justice",
+      "y": 2016,
+      "set": "2015"
+    },
+    "ss": {
+      "t": "Suicide Squad",
+      "y": 2016,
+      "set": "2016"
+    },
+    "ww": {
+      "t": "Wonder Woman",
+      "y": 2017,
+      "set": "1918"
+    },
+    "jl": {
+      "t": "Justice League",
+      "y": 2017,
+      "set": "2017"
+    },
+    "aq": {
+      "t": "Aquaman",
+      "y": 2018,
+      "set": "2018"
+    },
+    "shz": {
+      "t": "Shazam!",
+      "y": 2019,
+      "set": "2018"
+    },
+    "bop": {
+      "t": "Birds of Prey",
+      "y": 2020,
+      "set": "2020"
+    },
+    "ww84": {
+      "t": "Wonder Woman 1984",
+      "y": 2020,
+      "set": "1984"
+    },
+    "tss": {
+      "t": "The Suicide Squad",
+      "y": 2021,
+      "set": "2021"
+    },
+    "ba": {
+      "t": "Black Adam",
+      "y": 2022,
+      "set": "2022"
+    },
+    "shz2": {
+      "t": "Shazam! Fury of the Gods",
+      "y": 2023,
+      "set": "2021"
+    },
+    "flash": {
+      "t": "The Flash",
+      "y": 2023,
+      "set": "2023"
+    },
+    "bb": {
+      "t": "Blue Beetle",
+      "y": 2023,
+      "set": "2023"
+    },
+    "aq2": {
+      "t": "Aquaman and the Lost Kingdom",
+      "y": 2023,
+      "set": "2023"
+    }
+  },
+  "release": [
+    "mos",
+    "bvs",
+    "ss",
+    "ww",
+    "jl",
+    "aq",
+    "shz",
+    "bop",
+    "ww84",
+    "tss",
+    "ba",
+    "shz2",
+    "flash",
+    "bb",
+    "aq2"
+  ],
+  "chrono": [
+    "ww",
+    "ww84",
+    "mos",
+    "bvs",
+    "ss",
+    "jl",
+    "aq",
+    "shz",
+    "bop",
+    "tss",
+    "ba",
+    "shz2",
+    "bb",
+    "flash",
+    "aq2"
+  ],
+  "note": "The Flash deliberately scrambles the timeline it sits in, and the whole line was retired shortly afterwards. Treat the chronological path as a best reading rather than an official one."
+}

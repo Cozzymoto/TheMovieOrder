@@ -1,9 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
 import Card from '../components/Card.astro';
-import { FRANCHISES } from '../data/franchises.js';
+import { allFranchises } from '../lib/franchise.js';
 import { POSTS } from '../data/posts.js';
 
+const FRANCHISES = await allFranchises();
 const trending = FRANCHISES.slice(0, 8);
 // Small index so the search box can match film titles too, without shipping all the data.
 const index = FRANCHISES.map(f => ({
@@ -12,11 +13,11 @@ const index = FRANCHISES.map(f => ({
 }));
 const fmt = d => new Date(d + 'T00:00:00').toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' });
 ---
-<Base description="Every film franchise laid out twice — the order they were released, and the order the story happens. Find the right watch order in seconds.">
+<Base description="Every film franchise laid out twice — the order they came out, and the order they happen. Find the right watch order in seconds.">
   <section class="hero">
     <div class="wrap">
       <h1>What order do<br>I watch these in?</h1>
-      <p><p>Every film franchise laid out twice — the order they were released, and the order the story happens.</p>
+      <p>Every franchise, laid out twice — the order they came out, and the order they happen.</p>
 
       <div class="search">
         <label class="sr" for="q">Search for a franchise</label>

@@ -1,0 +1,48 @@
+{
+  "title": "Mad Max",
+  "short": "Including Furiosa",
+  "hue": 22,
+  "blurb": "A series that treats its own timeline as folklore. The 2024 prequel is the first entry with a firm place in it.",
+  "films": {
+    "mm1": {
+      "t": "Mad Max",
+      "y": 1979,
+      "set": "Near future"
+    },
+    "mm2": {
+      "t": "Mad Max 2: The Road Warrior",
+      "y": 1981,
+      "set": "After the fall"
+    },
+    "mm3": {
+      "t": "Mad Max Beyond Thunderdome",
+      "y": 1985,
+      "set": "15 years later"
+    },
+    "fr": {
+      "t": "Mad Max: Fury Road",
+      "y": 2015,
+      "set": "Later still"
+    },
+    "fur": {
+      "t": "Furiosa: A Mad Max Saga",
+      "y": 2024,
+      "set": "18 years before Fury Road"
+    }
+  },
+  "release": [
+    "mm1",
+    "mm2",
+    "mm3",
+    "fr",
+    "fur"
+  ],
+  "chrono": [
+    "mm1",
+    "mm2",
+    "mm3",
+    "fur",
+    "fr"
+  ],
+  "note": "George Miller has said the films are legends retold rather than a fixed sequence, so nobody agrees where Fury Road sits relative to the original three. Furiosa's placement is the one certainty."
+}

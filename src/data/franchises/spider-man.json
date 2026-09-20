@@ -1,0 +1,69 @@
+{
+  "title": "Spider-Man",
+  "short": "All eight live-action films",
+  "hue": 356,
+  "blurb": "Three separate Spider-Men across twenty years, and a final film that pulls all three together. The most-asked watch order on the internet for good reason.",
+  "films": {
+    "r02": {
+      "t": "Spider-Man",
+      "y": 2002,
+      "set": "2002"
+    },
+    "r04": {
+      "t": "Spider-Man 2",
+      "y": 2004,
+      "set": "2004"
+    },
+    "r07": {
+      "t": "Spider-Man 3",
+      "y": 2007,
+      "set": "2007"
+    },
+    "w12": {
+      "t": "The Amazing Spider-Man",
+      "y": 2012,
+      "set": "2012"
+    },
+    "w14": {
+      "t": "The Amazing Spider-Man 2",
+      "y": 2014,
+      "set": "2014"
+    },
+    "m17": {
+      "t": "Spider-Man: Homecoming",
+      "y": 2017,
+      "set": "2016"
+    },
+    "m19": {
+      "t": "Spider-Man: Far From Home",
+      "y": 2019,
+      "set": "2024"
+    },
+    "m21": {
+      "t": "Spider-Man: No Way Home",
+      "y": 2021,
+      "set": "2024"
+    }
+  },
+  "release": [
+    "r02",
+    "r04",
+    "r07",
+    "w12",
+    "w14",
+    "m17",
+    "m19",
+    "m21"
+  ],
+  "chrono": [
+    "r02",
+    "r04",
+    "r07",
+    "w12",
+    "w14",
+    "m17",
+    "m19",
+    "m21"
+  ],
+  "note": "These are three unconnected continuities, not one timeline — so release order is also the only sensible order. No Way Home depends on having met all three, which is exactly why it lands the way it does. The Marvel films also sit inside the wider MCU."
+}

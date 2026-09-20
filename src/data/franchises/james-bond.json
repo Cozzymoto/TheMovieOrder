@@ -1,0 +1,188 @@
+{
+  "title": "James Bond",
+  "short": "All 25 Eon films",
+  "hue": 216,
+  "blurb": "Six actors, sixty years, and almost no continuity until 2006 — which is why release order is the only order that means anything here.",
+  "films": {
+    "b01": {
+      "t": "Dr. No",
+      "y": 1962,
+      "set": "1962"
+    },
+    "b02": {
+      "t": "From Russia with Love",
+      "y": 1963,
+      "set": "1963"
+    },
+    "b03": {
+      "t": "Goldfinger",
+      "y": 1964,
+      "set": "1964"
+    },
+    "b04": {
+      "t": "Thunderball",
+      "y": 1965,
+      "set": "1965"
+    },
+    "b05": {
+      "t": "You Only Live Twice",
+      "y": 1967,
+      "set": "1967"
+    },
+    "b06": {
+      "t": "On Her Majesty's Secret Service",
+      "y": 1969,
+      "set": "1969"
+    },
+    "b07": {
+      "t": "Diamonds Are Forever",
+      "y": 1971,
+      "set": "1971"
+    },
+    "b08": {
+      "t": "Live and Let Die",
+      "y": 1973,
+      "set": "1973"
+    },
+    "b09": {
+      "t": "The Man with the Golden Gun",
+      "y": 1974,
+      "set": "1974"
+    },
+    "b10": {
+      "t": "The Spy Who Loved Me",
+      "y": 1977,
+      "set": "1977"
+    },
+    "b11": {
+      "t": "Moonraker",
+      "y": 1979,
+      "set": "1979"
+    },
+    "b12": {
+      "t": "For Your Eyes Only",
+      "y": 1981,
+      "set": "1981"
+    },
+    "b13": {
+      "t": "Octopussy",
+      "y": 1983,
+      "set": "1983"
+    },
+    "b14": {
+      "t": "A View to a Kill",
+      "y": 1985,
+      "set": "1985"
+    },
+    "b15": {
+      "t": "The Living Daylights",
+      "y": 1987,
+      "set": "1987"
+    },
+    "b16": {
+      "t": "Licence to Kill",
+      "y": 1989,
+      "set": "1989"
+    },
+    "b17": {
+      "t": "GoldenEye",
+      "y": 1995,
+      "set": "1995"
+    },
+    "b18": {
+      "t": "Tomorrow Never Dies",
+      "y": 1997,
+      "set": "1997"
+    },
+    "b19": {
+      "t": "The World Is Not Enough",
+      "y": 1999,
+      "set": "1999"
+    },
+    "b20": {
+      "t": "Die Another Day",
+      "y": 2002,
+      "set": "2002"
+    },
+    "b21": {
+      "t": "Casino Royale",
+      "y": 2006,
+      "set": "2006"
+    },
+    "b22": {
+      "t": "Quantum of Solace",
+      "y": 2008,
+      "set": "2006"
+    },
+    "b23": {
+      "t": "Skyfall",
+      "y": 2012,
+      "set": "2012"
+    },
+    "b24": {
+      "t": "Spectre",
+      "y": 2015,
+      "set": "2015"
+    },
+    "b25": {
+      "t": "No Time to Die",
+      "y": 2021,
+      "set": "2020"
+    }
+  },
+  "release": [
+    "b01",
+    "b02",
+    "b03",
+    "b04",
+    "b05",
+    "b06",
+    "b07",
+    "b08",
+    "b09",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25"
+  ],
+  "chrono": [
+    "b01",
+    "b02",
+    "b03",
+    "b04",
+    "b05",
+    "b06",
+    "b07",
+    "b08",
+    "b09",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25"
+  ],
+  "note": "Casino Royale restarts Bond's career from scratch, so the five Craig films form a closed story you can watch on their own. Quantum of Solace picks up minutes after Casino Royale ends."
+}

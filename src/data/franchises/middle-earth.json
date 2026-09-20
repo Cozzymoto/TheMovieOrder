@@ -1,0 +1,63 @@
+{
+  "title": "Middle-earth",
+  "short": "Lord of the Rings & The Hobbit",
+  "hue": 96,
+  "blurb": "Six live-action films and one animated prequel spanning nearly two hundred years of Third Age history.",
+  "rank": 7,
+  "films": {
+    "fotr": {
+      "t": "The Lord of the Rings: The Fellowship of the Ring",
+      "y": 2001,
+      "set": "3018 TA"
+    },
+    "ttt": {
+      "t": "The Lord of the Rings: The Two Towers",
+      "y": 2002,
+      "set": "3019 TA"
+    },
+    "rotk": {
+      "t": "The Lord of the Rings: The Return of the King",
+      "y": 2003,
+      "set": "3019 TA"
+    },
+    "auj": {
+      "t": "The Hobbit: An Unexpected Journey",
+      "y": 2012,
+      "set": "2941 TA"
+    },
+    "dos": {
+      "t": "The Hobbit: The Desolation of Smaug",
+      "y": 2013,
+      "set": "2941 TA"
+    },
+    "bofa": {
+      "t": "The Hobbit: The Battle of the Five Armies",
+      "y": 2014,
+      "set": "2941 TA"
+    },
+    "rohirrim": {
+      "t": "The War of the Rohirrim",
+      "y": 2024,
+      "set": "2758 TA"
+    }
+  },
+  "release": [
+    "fotr",
+    "ttt",
+    "rotk",
+    "auj",
+    "dos",
+    "bofa",
+    "rohirrim"
+  ],
+  "chrono": [
+    "rohirrim",
+    "auj",
+    "dos",
+    "bofa",
+    "fotr",
+    "ttt",
+    "rotk"
+  ],
+  "note": "The extended editions add roughly two hours across the Rings trilogy. If you have the time, they're the version to watch."
+}

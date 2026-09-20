@@ -1,0 +1,48 @@
+{
+  "title": "Ghostbusters",
+  "short": "Five films, two continuities",
+  "hue": 64,
+  "blurb": "Two 1980s films, a 2016 reboot that stands alone, and two later sequels that ignore the reboot entirely.",
+  "films": {
+    "g84": {
+      "t": "Ghostbusters",
+      "y": 1984,
+      "set": "1984"
+    },
+    "g89": {
+      "t": "Ghostbusters II",
+      "y": 1989,
+      "set": "1989"
+    },
+    "g16": {
+      "t": "Ghostbusters",
+      "y": 2016,
+      "set": "2016"
+    },
+    "g21": {
+      "t": "Ghostbusters: Afterlife",
+      "y": 2021,
+      "set": "2021"
+    },
+    "g24": {
+      "t": "Ghostbusters: Frozen Empire",
+      "y": 2024,
+      "set": "2024"
+    }
+  },
+  "release": [
+    "g84",
+    "g89",
+    "g16",
+    "g21",
+    "g24"
+  ],
+  "chrono": [
+    "g84",
+    "g89",
+    "g21",
+    "g24",
+    "g16"
+  ],
+  "note": "The 2016 film is a complete reboot with a different cast and no connection to the others. Afterlife picks up directly from Ghostbusters II, thirty-two years later."
+}

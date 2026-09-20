@@ -1,0 +1,34 @@
+{
+  "title": "Tron",
+  "short": "Three films across four decades",
+  "hue": 186,
+  "blurb": "Three films separated by twenty-eight and then fifteen years, each roughly matching the gap in the story.",
+  "films": {
+    "t82": {
+      "t": "Tron",
+      "y": 1982,
+      "set": "1982"
+    },
+    "t10": {
+      "t": "Tron: Legacy",
+      "y": 2010,
+      "set": "2010"
+    },
+    "t25": {
+      "t": "Tron: Ares",
+      "y": 2025,
+      "set": "2025"
+    }
+  },
+  "release": [
+    "t82",
+    "t10",
+    "t25"
+  ],
+  "chrono": [
+    "t82",
+    "t10",
+    "t25"
+  ],
+  "note": "Legacy opens in 1989, seven years after the original, before jumping to the present day."
+}

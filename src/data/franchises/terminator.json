@@ -1,0 +1,55 @@
+{
+  "title": "Terminator",
+  "short": "Six films, several timelines",
+  "hue": 198,
+  "blurb": "Every sequel after the second one branches into its own timeline, so a single chronological line is a polite fiction. Here it is anyway.",
+  "films": {
+    "t1": {
+      "t": "The Terminator",
+      "y": 1984,
+      "set": "1984"
+    },
+    "t2": {
+      "t": "Terminator 2: Judgment Day",
+      "y": 1991,
+      "set": "1995"
+    },
+    "t3": {
+      "t": "Terminator 3: Rise of the Machines",
+      "y": 2003,
+      "set": "2004"
+    },
+    "gen": {
+      "t": "Terminator Genisys",
+      "y": 2015,
+      "set": "2017"
+    },
+    "sal": {
+      "t": "Terminator Salvation",
+      "y": 2009,
+      "set": "2018"
+    },
+    "dark": {
+      "t": "Terminator: Dark Fate",
+      "y": 2019,
+      "set": "2020"
+    }
+  },
+  "release": [
+    "t1",
+    "t2",
+    "t3",
+    "sal",
+    "gen",
+    "dark"
+  ],
+  "chrono": [
+    "t1",
+    "t2",
+    "t3",
+    "gen",
+    "sal",
+    "dark"
+  ],
+  "note": "Dark Fate is a direct sequel to Judgment Day and ignores the three films in between. If you want one clean story, watch The Terminator, Judgment Day and Dark Fate, and treat the rest as alternatives."
+}

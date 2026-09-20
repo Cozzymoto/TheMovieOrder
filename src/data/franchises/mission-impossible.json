@@ -1,0 +1,69 @@
+{
+  "title": "Mission: Impossible",
+  "short": "Eight films",
+  "hue": 20,
+  "blurb": "Eight films in a straight line, each picking up the consequences of the last more tightly as the series goes on.",
+  "films": {
+    "m96": {
+      "t": "Mission: Impossible",
+      "y": 1996,
+      "set": "1996"
+    },
+    "m00": {
+      "t": "Mission: Impossible 2",
+      "y": 2000,
+      "set": "2000"
+    },
+    "m06": {
+      "t": "Mission: Impossible III",
+      "y": 2006,
+      "set": "2006"
+    },
+    "m11": {
+      "t": "Mission: Impossible – Ghost Protocol",
+      "y": 2011,
+      "set": "2011"
+    },
+    "m15": {
+      "t": "Mission: Impossible – Rogue Nation",
+      "y": 2015,
+      "set": "2015"
+    },
+    "m18": {
+      "t": "Mission: Impossible – Fallout",
+      "y": 2018,
+      "set": "2018"
+    },
+    "m23": {
+      "t": "Mission: Impossible – Dead Reckoning Part One",
+      "y": 2023,
+      "set": "2023"
+    },
+    "m25": {
+      "t": "Mission: Impossible – The Final Reckoning",
+      "y": 2025,
+      "set": "2025"
+    }
+  },
+  "release": [
+    "m96",
+    "m00",
+    "m06",
+    "m11",
+    "m15",
+    "m18",
+    "m23",
+    "m25"
+  ],
+  "chrono": [
+    "m96",
+    "m00",
+    "m06",
+    "m11",
+    "m15",
+    "m18",
+    "m23",
+    "m25"
+  ],
+  "note": "The first three work as standalones. From Ghost Protocol onwards the story becomes continuous, and Fallout is a direct sequel to Rogue Nation."
+}

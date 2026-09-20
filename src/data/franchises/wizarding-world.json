@@ -1,0 +1,91 @@
+{
+  "title": "Wizarding World",
+  "short": "Harry Potter & Fantastic Beasts",
+  "hue": 44,
+  "blurb": "Eleven films across seventy in-universe years. Release order puts Harry first; chronological order starts sixty-five years earlier in 1920s New York.",
+  "rank": 5,
+  "films": {
+    "ps": {
+      "t": "Harry Potter and the Philosopher's Stone",
+      "y": 2001,
+      "set": "1991"
+    },
+    "cos": {
+      "t": "Harry Potter and the Chamber of Secrets",
+      "y": 2002,
+      "set": "1992"
+    },
+    "poa": {
+      "t": "Harry Potter and the Prisoner of Azkaban",
+      "y": 2004,
+      "set": "1993"
+    },
+    "gof": {
+      "t": "Harry Potter and the Goblet of Fire",
+      "y": 2005,
+      "set": "1994"
+    },
+    "ootp": {
+      "t": "Harry Potter and the Order of the Phoenix",
+      "y": 2007,
+      "set": "1995"
+    },
+    "hbp": {
+      "t": "Harry Potter and the Half-Blood Prince",
+      "y": 2009,
+      "set": "1996"
+    },
+    "dh1": {
+      "t": "Harry Potter and the Deathly Hallows: Part 1",
+      "y": 2010,
+      "set": "1997"
+    },
+    "dh2": {
+      "t": "Harry Potter and the Deathly Hallows: Part 2",
+      "y": 2011,
+      "set": "1998"
+    },
+    "fb1": {
+      "t": "Fantastic Beasts and Where to Find Them",
+      "y": 2016,
+      "set": "1926"
+    },
+    "fb2": {
+      "t": "Fantastic Beasts: The Crimes of Grindelwald",
+      "y": 2018,
+      "set": "1927"
+    },
+    "fb3": {
+      "t": "Fantastic Beasts: The Secrets of Dumbledore",
+      "y": 2022,
+      "set": "1932"
+    }
+  },
+  "release": [
+    "ps",
+    "cos",
+    "poa",
+    "gof",
+    "ootp",
+    "hbp",
+    "dh1",
+    "dh2",
+    "fb1",
+    "fb2",
+    "fb3"
+  ],
+  "chrono": [
+    "fb1",
+    "fb2",
+    "fb3",
+    "ps",
+    "cos",
+    "poa",
+    "gof",
+    "ootp",
+    "hbp",
+    "dh1",
+    "dh2"
+  ],
+  "note": "The Fantastic Beasts films assume you already know who Dumbledore and Grindelwald are. Starting there is chronologically correct and dramatically backwards."
+}

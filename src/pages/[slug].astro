@@ -1,11 +1,12 @@
 ---
 import Base from '../layouts/Base.astro';
 import Poster from '../components/Poster.astro';
-import { FRANCHISES } from '../data/franchises.js';
+import { allFranchises } from '../lib/franchise.js';
 import { watchURL, buyURL, shortTitle, yearSpan } from '../config.js';
 
-export function getStaticPaths(){
-  return FRANCHISES.map(f => ({ params: { slug: f.slug }, props: { f } }));
+export async function getStaticPaths(){
+  const all = await allFranchises();
+  return all.map(f => ({ params: { slug: f.slug }, props: { f } }));
 }
 const { f } = Astro.props;
 const moved = f.release.filter((id, i) => f.chrono.indexOf(id) !== i).length;

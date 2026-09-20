@@ -1,0 +1,55 @@
+{
+  "title": "Final Destination",
+  "short": "Six films, one hidden prequel",
+  "hue": 42,
+  "blurb": "Five films that appear to run forwards, until the fifth reveals in its final minutes that it has been a prequel all along.",
+  "films": {
+    "d00": {
+      "t": "Final Destination",
+      "y": 2000,
+      "set": "2000"
+    },
+    "d03": {
+      "t": "Final Destination 2",
+      "y": 2003,
+      "set": "2001"
+    },
+    "d06": {
+      "t": "Final Destination 3",
+      "y": 2006,
+      "set": "2005"
+    },
+    "d09": {
+      "t": "The Final Destination",
+      "y": 2009,
+      "set": "2009"
+    },
+    "d11": {
+      "t": "Final Destination 5",
+      "y": 2011,
+      "set": "2000"
+    },
+    "d25": {
+      "t": "Final Destination Bloodlines",
+      "y": 2025,
+      "set": "2025"
+    }
+  },
+  "release": [
+    "d00",
+    "d03",
+    "d06",
+    "d09",
+    "d11",
+    "d25"
+  ],
+  "chrono": [
+    "d11",
+    "d00",
+    "d03",
+    "d06",
+    "d09",
+    "d25"
+  ],
+  "note": "Final Destination 5 ends by leading directly into the opening of the first film. Watching it first destroys one of the better twists in the series, so we'd keep release order for a first watch."
+}

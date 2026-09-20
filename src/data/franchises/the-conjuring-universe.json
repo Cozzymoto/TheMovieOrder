@@ -1,0 +1,84 @@
+{
+  "title": "The Conjuring Universe",
+  "short": "Warrens & spin-offs",
+  "hue": 276,
+  "blurb": "The most scrambled timeline in modern horror. The films were released in one order and set in almost the reverse, hopping between 1952 and 1986.",
+  "rank": 3,
+  "films": {
+    "c1": {
+      "t": "The Conjuring",
+      "y": 2013,
+      "set": "1971"
+    },
+    "ann": {
+      "t": "Annabelle",
+      "y": 2014,
+      "set": "1967"
+    },
+    "c2": {
+      "t": "The Conjuring 2",
+      "y": 2016,
+      "set": "1977"
+    },
+    "creation": {
+      "t": "Annabelle: Creation",
+      "y": 2017,
+      "set": "1943 & 1955"
+    },
+    "nun": {
+      "t": "The Nun",
+      "y": 2018,
+      "set": "1952"
+    },
+    "home": {
+      "t": "Annabelle Comes Home",
+      "y": 2019,
+      "set": "1972"
+    },
+    "llorona": {
+      "t": "The Curse of La Llorona",
+      "y": 2019,
+      "set": "1973"
+    },
+    "devil": {
+      "t": "The Conjuring: The Devil Made Me Do It",
+      "y": 2021,
+      "set": "1981"
+    },
+    "nun2": {
+      "t": "The Nun II",
+      "y": 2023,
+      "set": "1956"
+    },
+    "rites": {
+      "t": "The Conjuring: Last Rites",
+      "y": 2025,
+      "set": "1986"
+    }
+  },
+  "release": [
+    "c1",
+    "ann",
+    "c2",
+    "creation",
+    "nun",
+    "home",
+    "llorona",
+    "devil",
+    "nun2",
+    "rites"
+  ],
+  "chrono": [
+    "nun",
+    "creation",
+    "nun2",
+    "ann",
+    "c1",
+    "home",
+    "llorona",
+    "c2",
+    "devil",
+    "rites"
+  ],
+  "note": "Annabelle: Creation opens in 1943 but spends most of its running time in 1955, which is why it sits where it does."
+}

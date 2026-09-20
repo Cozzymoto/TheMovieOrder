@@ -240,20 +240,24 @@ pre{
     <div>
       <div class="panel">
         <div class="panel__top">
-          <h2>Copy this into your site</h2>
-          <button class="btn btn--tiny" id="copyF">Copy</button>
+          <h2>Save as <code id="fileName" style="font-family:var(--f-code)">franchise.json</code></h2>
+          <span style="display:flex;gap:.4rem">
+            <button class="btn btn--tiny" id="downloadF">Download</button>
+            <button class="btn btn--ghost btn--tiny" id="copyF">Copy</button>
+          </span>
         </div>
         <pre id="outF">Start typing on the left.</pre>
       </div>
       <div class="steps">
         <strong>Where it goes</strong>
         <ol>
-          <li>Open <code>index.html</code>.</li>
-          <li>Find the line that reads <code>const FRANCHISES = [</code>.</li>
-          <li>Scroll to the matching <code>];</code> below it.</li>
-          <li>Paste the block just above that <code>];</code>, leaving a comma after the entry before it.</li>
-          <li>Save. The new franchise appears in search and on the list page.</li>
+          <li>Click <strong>Download</strong>. You get one file named after the franchise.</li>
+          <li>On GitHub, open <code>src</code> → <code>data</code> → <code>franchises</code>.</li>
+          <li><strong>Add file → Upload files</strong>, drag it in, commit.</li>
+          <li>That's it. The page builds itself. Nothing else to edit.</li>
         </ol>
+        <p style="margin:.6rem 0 0">If anything is wrong, the build stops and names this file rather than publishing a broken page.</p>
+      </ol>
       </div>
     </div>
   </div>
@@ -444,41 +448,35 @@ function render(){
 
   const usable = films.filter(f => f.t.trim());
   if(!title || !usable.length){
-    $("#outF").textContent = "Add a franchise name and at least one film.";
-    return;
-  }
-
-  const key = f => {
-    const base = slugify(f.t).split("-").slice(0,2).join("") || "film";
-    return /^[0-9]/.test(base) ? "f" + base : base;
+    const card = {
+    title: title,
+    short: $("#fShort").value.trim(),
+    hue: Number(hue),
+    blurb: $("#fBlurb").value.trim(),
+    films: {},
+    release: usable.map(f => keyOf[f.id]),
+    chrono: chrono.filter(id => keyOf[id]).map(id => keyOf[id])
   };
-  const seen = {};
-  const keyOf = {};
   usable.forEach(f => {
-    let k = key(f);
-    if(seen[k]) k += (++seen[k]); else seen[k] = 1;
-    keyOf[f.id] = k;
+    card.films[keyOf[f.id]] = { t: f.t.trim(), y: +f.y || 0, set: f.set.trim() || "\u2014" };
   });
+  if(note) card.note = note;
 
-  const filmLines = usable.map(f =>
-    `      ${keyOf[f.id]}:{t:${q(f.t.trim())},y:${+f.y || 0},set:${q(f.set.trim())}}`
-  ).join(",\n");
+  window.__card = card;
+  window.__slug = slugify(title);
+  $("#fileName").textContent = window.__slug + ".json";
+  $("#outF").textContent = JSON.stringify(card, null, 2);
+}
 
-  const rel = usable.map(f => q(keyOf[f.id])).join(",");
-  const chr = chrono.filter(id => keyOf[id]).map(id => q(keyOf[id])).join(",");
-
-  const note = $("#fNote").value.trim();
-
-  $("#outF").textContent =
-`  {
-    slug:${q(slugify(title))}, title:${q(title)}, short:${q($("#fShort").value.trim())}, hue:${hue},
-    blurb:${q($("#fBlurb").value.trim())},
-    films:{
-${filmLines}
-    },
-    release:[${rel}],
-    chrono:[${chr}]${note ? `,\n    note:${q(note)}` : ""}
-  },`;
+function downloadCard(){
+  if(!window.__card){ toast("Nothing to save yet"); return; }
+  const blob = new Blob([JSON.stringify(window.__card, null, 2) + "\n"], {type:"application/json"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = window.__slug + ".json";
+  a.click();
+  URL.revokeObjectURL(a.href);
+  toast("Saved " + window.__slug + ".json");
 }
 
 /* ---------- blog output ---------- */
@@ -526,6 +524,7 @@ $("#resetChrono").addEventListener("click", () => {
   el.addEventListener("input", renderPost);
 });
 $("#copyF").addEventListener("click", () => copyFrom("#outF"));
+$("#downloadF").addEventListener("click", downloadCard);
 $("#copyP").addEventListener("click", () => copyFrom("#outP"));
 
 if(!$("#pDate").value) $("#pDate").value = new Date().toISOString().slice(0,10);

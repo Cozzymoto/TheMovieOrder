@@ -1,0 +1,62 @@
+{
+  "title": "Jurassic Park",
+  "short": "Seven films",
+  "hue": 110,
+  "blurb": "Three films about a failed park, three about a successful one, and a seventh that starts again.",
+  "films": {
+    "j93": {
+      "t": "Jurassic Park",
+      "y": 1993,
+      "set": "1993"
+    },
+    "j97": {
+      "t": "The Lost World: Jurassic Park",
+      "y": 1997,
+      "set": "1997"
+    },
+    "j01": {
+      "t": "Jurassic Park III",
+      "y": 2001,
+      "set": "2001"
+    },
+    "j15": {
+      "t": "Jurassic World",
+      "y": 2015,
+      "set": "2015"
+    },
+    "j18": {
+      "t": "Jurassic World: Fallen Kingdom",
+      "y": 2018,
+      "set": "2018"
+    },
+    "j22": {
+      "t": "Jurassic World Dominion",
+      "y": 2022,
+      "set": "2022"
+    },
+    "j25": {
+      "t": "Jurassic World Rebirth",
+      "y": 2025,
+      "set": "2025"
+    }
+  },
+  "release": [
+    "j93",
+    "j97",
+    "j01",
+    "j15",
+    "j18",
+    "j22",
+    "j25"
+  ],
+  "chrono": [
+    "j93",
+    "j97",
+    "j01",
+    "j15",
+    "j18",
+    "j22",
+    "j25"
+  ],
+  "note": "Release order throughout. Jurassic World opens twenty-two years after the original and assumes you remember it."
+}

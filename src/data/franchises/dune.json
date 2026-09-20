@@ -1,0 +1,27 @@
+{
+  "title": "Dune",
+  "short": "Two films, one novel",
+  "hue": 38,
+  "blurb": "A single book split across two films, released three years apart.",
+  "films": {
+    "d21": {
+      "t": "Dune",
+      "y": 2021,
+      "set": "10191 AG"
+    },
+    "d24": {
+      "t": "Dune: Part Two",
+      "y": 2024,
+      "set": "10191–10193 AG"
+    }
+  },
+  "release": [
+    "d21",
+    "d24"
+  ],
+  "chrono": [
+    "d21",
+    "d24"
+  ],
+  "note": "Part Two begins immediately where the first ends. They are two halves of one adaptation rather than a film and its sequel."
+}

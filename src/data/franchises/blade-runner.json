@@ -1,0 +1,27 @@
+{
+  "title": "Blade Runner",
+  "short": "Two films, thirty years apart",
+  "hue": 206,
+  "blurb": "A 1982 original set in 2019, and a sequel made in 2017 set in 2049 — the rare series where real time nearly caught up with the fiction.",
+  "films": {
+    "b82": {
+      "t": "Blade Runner",
+      "y": 1982,
+      "set": "2019"
+    },
+    "b17": {
+      "t": "Blade Runner 2049",
+      "y": 2017,
+      "set": "2049"
+    }
+  },
+  "release": [
+    "b82",
+    "b17"
+  ],
+  "chrono": [
+    "b82",
+    "b17"
+  ],
+  "note": "The original exists in several cuts. The Final Cut is the version to watch — it removes the narration and restores the ambiguous ending the sequel builds on."
+}

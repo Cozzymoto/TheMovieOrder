@@ -1,0 +1,104 @@
+{
+  "title": "Star Trek",
+  "short": "Thirteen films, two timelines",
+  "hue": 216,
+  "blurb": "Ten films with the original and Next Generation crews, plus three set in an alternate reality that begins over a century earlier.",
+  "films": {
+    "t79": {
+      "t": "Star Trek: The Motion Picture",
+      "y": 1979,
+      "set": "2273"
+    },
+    "t82": {
+      "t": "Star Trek II: The Wrath of Khan",
+      "y": 1982,
+      "set": "2285"
+    },
+    "t84": {
+      "t": "Star Trek III: The Search for Spock",
+      "y": 1984,
+      "set": "2285"
+    },
+    "t86": {
+      "t": "Star Trek IV: The Voyage Home",
+      "y": 1986,
+      "set": "2286"
+    },
+    "t89": {
+      "t": "Star Trek V: The Final Frontier",
+      "y": 1989,
+      "set": "2287"
+    },
+    "t91": {
+      "t": "Star Trek VI: The Undiscovered Country",
+      "y": 1991,
+      "set": "2293"
+    },
+    "t94": {
+      "t": "Star Trek Generations",
+      "y": 1994,
+      "set": "2371"
+    },
+    "t96": {
+      "t": "Star Trek: First Contact",
+      "y": 1996,
+      "set": "2373"
+    },
+    "t98": {
+      "t": "Star Trek: Insurrection",
+      "y": 1998,
+      "set": "2375"
+    },
+    "t02": {
+      "t": "Star Trek: Nemesis",
+      "y": 2002,
+      "set": "2379"
+    },
+    "k09": {
+      "t": "Star Trek",
+      "y": 2009,
+      "set": "2233–2258"
+    },
+    "k13": {
+      "t": "Star Trek Into Darkness",
+      "y": 2013,
+      "set": "2259"
+    },
+    "k16": {
+      "t": "Star Trek Beyond",
+      "y": 2016,
+      "set": "2263"
+    }
+  },
+  "release": [
+    "t79",
+    "t82",
+    "t84",
+    "t86",
+    "t89",
+    "t91",
+    "t94",
+    "t96",
+    "t98",
+    "t02",
+    "k09",
+    "k13",
+    "k16"
+  ],
+  "chrono": [
+    "k09",
+    "k13",
+    "k16",
+    "t79",
+    "t82",
+    "t84",
+    "t86",
+    "t89",
+    "t91",
+    "t94",
+    "t96",
+    "t98",
+    "t02"
+  ],
+  "note": "The 2009 film creates a new timeline branching off the original, so the three Kelvin films run in parallel rather than before. They are the easiest entry point for a newcomer despite being made last."
+}

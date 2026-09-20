@@ -1,0 +1,48 @@
+{
+  "title": "The Mummy",
+  "short": "Five films including The Scorpion King",
+  "hue": 40,
+  "blurb": "Three adventure films, a spin-off set five thousand years earlier, and a 2017 reboot with no connection to any of them.",
+  "films": {
+    "m99": {
+      "t": "The Mummy",
+      "y": 1999,
+      "set": "1926"
+    },
+    "m01": {
+      "t": "The Mummy Returns",
+      "y": 2001,
+      "set": "1933"
+    },
+    "m02": {
+      "t": "The Scorpion King",
+      "y": 2002,
+      "set": "3067 BC"
+    },
+    "m08": {
+      "t": "The Mummy: Tomb of the Dragon Emperor",
+      "y": 2008,
+      "set": "1946"
+    },
+    "m17": {
+      "t": "The Mummy",
+      "y": 2017,
+      "set": "2017"
+    }
+  },
+  "release": [
+    "m99",
+    "m01",
+    "m02",
+    "m08",
+    "m17"
+  ],
+  "chrono": [
+    "m02",
+    "m99",
+    "m01",
+    "m08",
+    "m17"
+  ],
+  "note": "The Scorpion King expands a character introduced in The Mummy Returns, so watching it first means meeting him without context. The 2017 film is a failed reboot and unconnected."
+}

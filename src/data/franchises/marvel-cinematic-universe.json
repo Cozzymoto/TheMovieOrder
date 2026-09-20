@@ -1,0 +1,175 @@
+{
+  "title": "Marvel Cinematic Universe",
+  "short": "The Infinity Saga",
+  "hue": 352,
+  "blurb": "Twenty-three films built to be watched in the order they came out — but the flashbacks to 1943 and 1995 mean the in-universe timeline looks very different.",
+  "rank": 1,
+  "films": {
+    "im1": {
+      "t": "Iron Man",
+      "y": 2008,
+      "set": "2010"
+    },
+    "hulk": {
+      "t": "The Incredible Hulk",
+      "y": 2008,
+      "set": "2011"
+    },
+    "im2": {
+      "t": "Iron Man 2",
+      "y": 2010,
+      "set": "2011"
+    },
+    "thor": {
+      "t": "Thor",
+      "y": 2011,
+      "set": "2011"
+    },
+    "cap1": {
+      "t": "Captain America: The First Avenger",
+      "y": 2011,
+      "set": "1943–45"
+    },
+    "av1": {
+      "t": "The Avengers",
+      "y": 2012,
+      "set": "2012"
+    },
+    "im3": {
+      "t": "Iron Man 3",
+      "y": 2013,
+      "set": "2012"
+    },
+    "thor2": {
+      "t": "Thor: The Dark World",
+      "y": 2013,
+      "set": "2013"
+    },
+    "cap2": {
+      "t": "Captain America: The Winter Soldier",
+      "y": 2014,
+      "set": "2014"
+    },
+    "gotg": {
+      "t": "Guardians of the Galaxy",
+      "y": 2014,
+      "set": "2014"
+    },
+    "ultron": {
+      "t": "Avengers: Age of Ultron",
+      "y": 2015,
+      "set": "2015"
+    },
+    "antman": {
+      "t": "Ant-Man",
+      "y": 2015,
+      "set": "2015"
+    },
+    "cw": {
+      "t": "Captain America: Civil War",
+      "y": 2016,
+      "set": "2016"
+    },
+    "strange": {
+      "t": "Doctor Strange",
+      "y": 2016,
+      "set": "2016–17"
+    },
+    "gotg2": {
+      "t": "Guardians of the Galaxy Vol. 2",
+      "y": 2017,
+      "set": "2014"
+    },
+    "homecoming": {
+      "t": "Spider-Man: Homecoming",
+      "y": 2017,
+      "set": "2016"
+    },
+    "ragnarok": {
+      "t": "Thor: Ragnarok",
+      "y": 2017,
+      "set": "2017"
+    },
+    "panther": {
+      "t": "Black Panther",
+      "y": 2018,
+      "set": "2016"
+    },
+    "iw": {
+      "t": "Avengers: Infinity War",
+      "y": 2018,
+      "set": "2018"
+    },
+    "wasp": {
+      "t": "Ant-Man and the Wasp",
+      "y": 2018,
+      "set": "2018"
+    },
+    "marvel": {
+      "t": "Captain Marvel",
+      "y": 2019,
+      "set": "1995"
+    },
+    "endgame": {
+      "t": "Avengers: Endgame",
+      "y": 2019,
+      "set": "2018–23"
+    },
+    "ffh": {
+      "t": "Spider-Man: Far From Home",
+      "y": 2019,
+      "set": "2024"
+    }
+  },
+  "release": [
+    "im1",
+    "hulk",
+    "im2",
+    "thor",
+    "cap1",
+    "av1",
+    "im3",
+    "thor2",
+    "cap2",
+    "gotg",
+    "ultron",
+    "antman",
+    "cw",
+    "strange",
+    "gotg2",
+    "homecoming",
+    "ragnarok",
+    "panther",
+    "iw",
+    "wasp",
+    "marvel",
+    "endgame",
+    "ffh"
+  ],
+  "chrono": [
+    "cap1",
+    "marvel",
+    "im1",
+    "im2",
+    "hulk",
+    "thor",
+    "av1",
+    "im3",
+    "thor2",
+    "cap2",
+    "gotg",
+    "gotg2",
+    "ultron",
+    "antman",
+    "cw",
+    "panther",
+    "homecoming",
+    "strange",
+    "ragnarok",
+    "wasp",
+    "iw",
+    "endgame",
+    "ffh"
+  ],
+  "note": "Doctor Strange and Black Panther overlap messily with the films either side of them. Most people watch the Infinity Saga in release order first and save the chronological run for a rewatch."
+}

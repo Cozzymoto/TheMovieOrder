@@ -1,0 +1,83 @@
+{
+  "title": "Planet of the Apes",
+  "short": "Ten films, two continuities, one time loop",
+  "hue": 30,
+  "blurb": "The original series travels backwards in time to cause its own beginning. The modern films restart from scratch and run forwards.",
+  "films": {
+    "a68": {
+      "t": "Planet of the Apes",
+      "y": 1968,
+      "set": "3978"
+    },
+    "a70": {
+      "t": "Beneath the Planet of the Apes",
+      "y": 1970,
+      "set": "3979"
+    },
+    "a71": {
+      "t": "Escape from the Planet of the Apes",
+      "y": 1971,
+      "set": "1973"
+    },
+    "a72": {
+      "t": "Conquest of the Planet of the Apes",
+      "y": 1972,
+      "set": "1991"
+    },
+    "a73": {
+      "t": "Battle for the Planet of the Apes",
+      "y": 1973,
+      "set": "2003"
+    },
+    "b01": {
+      "t": "Planet of the Apes",
+      "y": 2001,
+      "set": "2029"
+    },
+    "a11": {
+      "t": "Rise of the Planet of the Apes",
+      "y": 2011,
+      "set": "2011"
+    },
+    "a14": {
+      "t": "Dawn of the Planet of the Apes",
+      "y": 2014,
+      "set": "2026"
+    },
+    "a17": {
+      "t": "War for the Planet of the Apes",
+      "y": 2017,
+      "set": "2028"
+    },
+    "a24": {
+      "t": "Kingdom of the Planet of the Apes",
+      "y": 2024,
+      "set": "c. 2328"
+    }
+  },
+  "release": [
+    "a68",
+    "a70",
+    "a71",
+    "a72",
+    "a73",
+    "b01",
+    "a11",
+    "a14",
+    "a17",
+    "a24"
+  ],
+  "chrono": [
+    "a71",
+    "a72",
+    "a73",
+    "a11",
+    "a14",
+    "a17",
+    "a24",
+    "b01",
+    "a68",
+    "a70"
+  ],
+  "note": "This is the hardest order on the site and nobody agrees on it. The original five form a closed loop — apes travel back to 1973 and cause the future they came from — so any chronological run is arbitrary at the seam. The modern four are a separate continuity, and the 2001 film is its own thing. Release order is strongly recommended."
+}

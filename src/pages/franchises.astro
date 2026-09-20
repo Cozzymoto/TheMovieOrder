@@ -1,8 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
 import Card from '../components/Card.astro';
-import { FRANCHISES } from '../data/franchises.js';
-const sorted = [...FRANCHISES].sort((a,b) => a.title.localeCompare(b.title));
+import { allFranchises, byTitle } from '../lib/franchise.js';
+const FRANCHISES = await allFranchises();
+const sorted = await byTitle();
 ---
 <Base title="All franchises" description={`Every franchise on Order of Movies — ${FRANCHISES.length} watch orders covering ${FRANCHISES.reduce((a,f)=>a+f.release.length,0)} films.`}>
   <section class="section">

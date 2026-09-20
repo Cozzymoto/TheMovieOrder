@@ -1,0 +1,48 @@
+{
+  "title": "Rambo",
+  "short": "Five films",
+  "hue": 88,
+  "blurb": "A quiet character study about a damaged veteran, followed by four films that mostly forget it was one.",
+  "films": {
+    "r82": {
+      "t": "First Blood",
+      "y": 1982,
+      "set": "1982"
+    },
+    "r85": {
+      "t": "Rambo: First Blood Part II",
+      "y": 1985,
+      "set": "1985"
+    },
+    "r88": {
+      "t": "Rambo III",
+      "y": 1988,
+      "set": "1988"
+    },
+    "r08": {
+      "t": "Rambo",
+      "y": 2008,
+      "set": "2008"
+    },
+    "r19": {
+      "t": "Rambo: Last Blood",
+      "y": 2019,
+      "set": "2019"
+    }
+  },
+  "release": [
+    "r82",
+    "r85",
+    "r88",
+    "r08",
+    "r19"
+  ],
+  "chrono": [
+    "r82",
+    "r85",
+    "r88",
+    "r08",
+    "r19"
+  ],
+  "note": "First Blood is a different kind of film from everything that follows. If you only watch one, watch that."
+}

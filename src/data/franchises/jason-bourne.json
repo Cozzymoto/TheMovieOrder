@@ -1,0 +1,48 @@
+{
+  "title": "Jason Bourne",
+  "short": "Five films, one running alongside",
+  "hue": 202,
+  "blurb": "Four films following one man, and a spin-off that takes place during the third without ever meeting him.",
+  "films": {
+    "b02": {
+      "t": "The Bourne Identity",
+      "y": 2002,
+      "set": "2002"
+    },
+    "b04": {
+      "t": "The Bourne Supremacy",
+      "y": 2004,
+      "set": "2004"
+    },
+    "b07": {
+      "t": "The Bourne Ultimatum",
+      "y": 2007,
+      "set": "2004"
+    },
+    "b12": {
+      "t": "The Bourne Legacy",
+      "y": 2012,
+      "set": "2004"
+    },
+    "b16": {
+      "t": "Jason Bourne",
+      "y": 2016,
+      "set": "2016"
+    }
+  },
+  "release": [
+    "b02",
+    "b04",
+    "b07",
+    "b12",
+    "b16"
+  ],
+  "chrono": [
+    "b02",
+    "b04",
+    "b07",
+    "b12",
+    "b16"
+  ],
+  "note": "Ultimatum overlaps with the final act of Supremacy, and Legacy runs concurrently with Ultimatum in a different country. Release order keeps the overlaps legible; sorting strictly by date would interleave scenes from three films."
+}

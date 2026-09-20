@@ -1,0 +1,34 @@
+{
+  "title": "Kingsman",
+  "short": "Three films, one of them a prequel",
+  "hue": 338,
+  "blurb": "Two contemporary spy comedies and a First World War origin story that explains where the tailor's shop came from.",
+  "films": {
+    "k1": {
+      "t": "Kingsman: The Secret Service",
+      "y": 2014,
+      "set": "2014"
+    },
+    "k2": {
+      "t": "Kingsman: The Golden Circle",
+      "y": 2017,
+      "set": "2017"
+    },
+    "km": {
+      "t": "The King's Man",
+      "y": 2021,
+      "set": "1902–1919"
+    }
+  },
+  "release": [
+    "k1",
+    "k2",
+    "km"
+  ],
+  "chrono": [
+    "km",
+    "k1",
+    "k2"
+  ],
+  "note": "The King's Man is a tonal outlier — far more serious than the other two. Chronological order front-loads the least representative film in the series."
+}

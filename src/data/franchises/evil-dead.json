@@ -1,0 +1,48 @@
+{
+  "title": "Evil Dead",
+  "short": "Five films across four decades",
+  "hue": 126,
+  "blurb": "Starts as straight horror, turns into slapstick, then restarts as straight horror again. The second film is half remake, half sequel.",
+  "films": {
+    "e81": {
+      "t": "The Evil Dead",
+      "y": 1981,
+      "set": "1981"
+    },
+    "e87": {
+      "t": "Evil Dead II",
+      "y": 1987,
+      "set": "1987"
+    },
+    "e92": {
+      "t": "Army of Darkness",
+      "y": 1992,
+      "set": "1300 AD"
+    },
+    "e13": {
+      "t": "Evil Dead",
+      "y": 2013,
+      "set": "2013"
+    },
+    "e23": {
+      "t": "Evil Dead Rise",
+      "y": 2023,
+      "set": "2023"
+    }
+  },
+  "release": [
+    "e81",
+    "e87",
+    "e92",
+    "e13",
+    "e23"
+  ],
+  "chrono": [
+    "e81",
+    "e87",
+    "e92",
+    "e13",
+    "e23"
+  ],
+  "note": "Evil Dead II re-stages the first film's events in its opening minutes, so some people skip straight to it. The 2013 film and Evil Dead Rise are separate stories sharing the same cursed book."
+}

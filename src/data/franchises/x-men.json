@@ -1,0 +1,105 @@
+{
+  "title": "X-Men",
+  "short": "The Fox era",
+  "hue": 28,
+  "blurb": "Two casts, one timeline, and a time-travel film in the middle that quietly rewrites half of it. Chronological order here is a genuine untangling job.",
+  "rank": 4,
+  "films": {
+    "x1": {
+      "t": "X-Men",
+      "y": 2000,
+      "set": "2000s"
+    },
+    "x2": {
+      "t": "X2",
+      "y": 2003,
+      "set": "2000s"
+    },
+    "x3": {
+      "t": "X-Men: The Last Stand",
+      "y": 2006,
+      "set": "2000s"
+    },
+    "origins": {
+      "t": "X-Men Origins: Wolverine",
+      "y": 2009,
+      "set": "1845–1979"
+    },
+    "fc": {
+      "t": "X-Men: First Class",
+      "y": 2011,
+      "set": "1962"
+    },
+    "wolverine": {
+      "t": "The Wolverine",
+      "y": 2013,
+      "set": "2013"
+    },
+    "dofp": {
+      "t": "X-Men: Days of Future Past",
+      "y": 2014,
+      "set": "1973 & 2023"
+    },
+    "dp": {
+      "t": "Deadpool",
+      "y": 2016,
+      "set": "2016"
+    },
+    "apoc": {
+      "t": "X-Men: Apocalypse",
+      "y": 2016,
+      "set": "1983"
+    },
+    "logan": {
+      "t": "Logan",
+      "y": 2017,
+      "set": "2029"
+    },
+    "dp2": {
+      "t": "Deadpool 2",
+      "y": 2018,
+      "set": "2018"
+    },
+    "phoenix": {
+      "t": "Dark Phoenix",
+      "y": 2019,
+      "set": "1992"
+    },
+    "mutants": {
+      "t": "The New Mutants",
+      "y": 2020,
+      "set": "2010s"
+    }
+  },
+  "release": [
+    "x1",
+    "x2",
+    "x3",
+    "origins",
+    "fc",
+    "wolverine",
+    "dofp",
+    "dp",
+    "apoc",
+    "logan",
+    "dp2",
+    "phoenix",
+    "mutants"
+  ],
+  "chrono": [
+    "origins",
+    "fc",
+    "dofp",
+    "apoc",
+    "phoenix",
+    "x1",
+    "x2",
+    "x3",
+    "wolverine",
+    "dp",
+    "dp2",
+    "mutants",
+    "logan"
+  ],
+  "note": "Days of Future Past resets the timeline, so everything from X-Men (2000) onwards technically no longer happens. Watch it anyway — the reset is the point."
+}

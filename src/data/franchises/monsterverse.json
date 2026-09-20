@@ -1,0 +1,48 @@
+{
+  "title": "MonsterVerse",
+  "short": "Godzilla and Kong",
+  "hue": 160,
+  "blurb": "Five films where the second one jumps back to 1973, and every entry after it builds towards the same collision.",
+  "films": {
+    "g14": {
+      "t": "Godzilla",
+      "y": 2014,
+      "set": "2014"
+    },
+    "k17": {
+      "t": "Kong: Skull Island",
+      "y": 2017,
+      "set": "1973"
+    },
+    "g19": {
+      "t": "Godzilla: King of the Monsters",
+      "y": 2019,
+      "set": "2019"
+    },
+    "gk21": {
+      "t": "Godzilla vs. Kong",
+      "y": 2021,
+      "set": "2024"
+    },
+    "gk24": {
+      "t": "Godzilla x Kong: The New Empire",
+      "y": 2024,
+      "set": "2027"
+    }
+  },
+  "release": [
+    "g14",
+    "k17",
+    "g19",
+    "gk21",
+    "gk24"
+  ],
+  "chrono": [
+    "k17",
+    "g14",
+    "g19",
+    "gk21",
+    "gk24"
+  ],
+  "note": "Skull Island is the only entry out of place, and it works fine first — it introduces the organisation that runs through everything else."
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Die Hard",
+  "short": "Five films",
+  "hue": 14,
+  "blurb": "Five films following one policeman through progressively larger disasters, in a straight line.",
+  "films": {
+    "d88": {
+      "t": "Die Hard",
+      "y": 1988,
+      "set": "1988"
+    },
+    "d90": {
+      "t": "Die Hard 2",
+      "y": 1990,
+      "set": "1990"
+    },
+    "d95": {
+      "t": "Die Hard with a Vengeance",
+      "y": 1995,
+      "set": "1995"
+    },
+    "d07": {
+      "t": "Live Free or Die Hard",
+      "y": 2007,
+      "set": "2007"
+    },
+    "d13": {
+      "t": "A Good Day to Die Hard",
+      "y": 2013,
+      "set": "2013"
+    }
+  },
+  "release": [
+    "d88",
+    "d90",
+    "d95",
+    "d07",
+    "d13"
+  ],
+  "chrono": [
+    "d88",
+    "d90",
+    "d95",
+    "d07",
+    "d13"
+  ],
+  "note": "The first two both take place at Christmas, a year apart. The later films drop the seasonal setting along with most of the original's tone."
+}

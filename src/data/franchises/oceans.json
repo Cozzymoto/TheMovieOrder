@@ -1,0 +1,41 @@
+{
+  "title": "Ocean's",
+  "short": "Four films",
+  "hue": 16,
+  "blurb": "A trilogy of heists and a fourth film handing the operation to a new crew.",
+  "films": {
+    "o01": {
+      "t": "Ocean's Eleven",
+      "y": 2001,
+      "set": "2001"
+    },
+    "o04": {
+      "t": "Ocean's Twelve",
+      "y": 2004,
+      "set": "2004"
+    },
+    "o07": {
+      "t": "Ocean's Thirteen",
+      "y": 2007,
+      "set": "2007"
+    },
+    "o18": {
+      "t": "Ocean's 8",
+      "y": 2018,
+      "set": "2018"
+    }
+  },
+  "release": [
+    "o01",
+    "o04",
+    "o07",
+    "o18"
+  ],
+  "chrono": [
+    "o01",
+    "o04",
+    "o07",
+    "o18"
+  ],
+  "note": "Ocean's 8 follows Danny Ocean's sister and sits after the trilogy, though it works perfectly well without it. The 2001 film is itself a remake of a 1960 original."
+}

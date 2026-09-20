@@ -1,0 +1,63 @@
+{
+  "title": "Alien",
+  "short": "Including the Prometheus prequels",
+  "hue": 180,
+  "blurb": "A 1979 original, two prequels made thirty years later, and a 2024 entry that drops straight into the gap between the first two films.",
+  "rank": 8,
+  "films": {
+    "a1": {
+      "t": "Alien",
+      "y": 1979,
+      "set": "2122"
+    },
+    "a2": {
+      "t": "Aliens",
+      "y": 1986,
+      "set": "2179"
+    },
+    "a3": {
+      "t": "Alien 3",
+      "y": 1992,
+      "set": "2179"
+    },
+    "a4": {
+      "t": "Alien Resurrection",
+      "y": 1997,
+      "set": "2381"
+    },
+    "prom": {
+      "t": "Prometheus",
+      "y": 2012,
+      "set": "2093"
+    },
+    "cov": {
+      "t": "Alien: Covenant",
+      "y": 2017,
+      "set": "2104"
+    },
+    "rom": {
+      "t": "Alien: Romulus",
+      "y": 2024,
+      "set": "2142"
+    }
+  },
+  "release": [
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "prom",
+    "cov",
+    "rom"
+  ],
+  "chrono": [
+    "prom",
+    "cov",
+    "a1",
+    "rom",
+    "a2",
+    "a3",
+    "a4"
+  ],
+  "note": "Romulus is set twenty years after Alien and thirty-seven before Aliens, which makes it the cleanest chronological insert the series has ever managed."
+}

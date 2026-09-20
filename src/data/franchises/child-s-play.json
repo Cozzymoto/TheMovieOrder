@@ -1,0 +1,69 @@
+{
+  "title": "Child's Play",
+  "short": "Eight films of Chucky",
+  "hue": 2,
+  "blurb": "A rare horror series where the same doll, and the same actor voicing it, carry an unbroken story across thirty-five years.",
+  "films": {
+    "c88": {
+      "t": "Child's Play",
+      "y": 1988,
+      "set": "1988"
+    },
+    "c90": {
+      "t": "Child's Play 2",
+      "y": 1990,
+      "set": "1990"
+    },
+    "c91": {
+      "t": "Child's Play 3",
+      "y": 1991,
+      "set": "1999"
+    },
+    "c98": {
+      "t": "Bride of Chucky",
+      "y": 1998,
+      "set": "1998"
+    },
+    "c04": {
+      "t": "Seed of Chucky",
+      "y": 2004,
+      "set": "2004"
+    },
+    "c13": {
+      "t": "Curse of Chucky",
+      "y": 2013,
+      "set": "2013"
+    },
+    "c17": {
+      "t": "Cult of Chucky",
+      "y": 2017,
+      "set": "2017"
+    },
+    "c19": {
+      "t": "Child's Play",
+      "y": 2019,
+      "set": "Remake"
+    }
+  },
+  "release": [
+    "c88",
+    "c90",
+    "c91",
+    "c98",
+    "c04",
+    "c13",
+    "c17",
+    "c19"
+  ],
+  "chrono": [
+    "c88",
+    "c90",
+    "c91",
+    "c98",
+    "c04",
+    "c13",
+    "c17",
+    "c19"
+  ],
+  "note": "Child's Play 3 jumps eight years ahead of the second film, so the in-universe gap is larger than the release gap. The 2019 film is an unrelated remake with a different voice."
+}

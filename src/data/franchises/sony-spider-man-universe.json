@@ -1,0 +1,55 @@
+{
+  "title": "Sony's Spider-Man Universe",
+  "short": "Venom, Morbius, Madame Web and Kraven",
+  "hue": 280,
+  "blurb": "Six films built around Spider-Man characters without Spider-Man in them. One is set two decades before the rest.",
+  "films": {
+    "v18": {
+      "t": "Venom",
+      "y": 2018,
+      "set": "2018"
+    },
+    "v21": {
+      "t": "Venom: Let There Be Carnage",
+      "y": 2021,
+      "set": "2021"
+    },
+    "mo22": {
+      "t": "Morbius",
+      "y": 2022,
+      "set": "2022"
+    },
+    "mw24": {
+      "t": "Madame Web",
+      "y": 2024,
+      "set": "2003"
+    },
+    "kr24": {
+      "t": "Kraven the Hunter",
+      "y": 2024,
+      "set": "2024"
+    },
+    "v24": {
+      "t": "Venom: The Last Dance",
+      "y": 2024,
+      "set": "2024"
+    }
+  },
+  "release": [
+    "v18",
+    "v21",
+    "mo22",
+    "mw24",
+    "kr24",
+    "v24"
+  ],
+  "chrono": [
+    "mw24",
+    "v18",
+    "v21",
+    "mo22",
+    "kr24",
+    "v24"
+  ],
+  "note": "Madame Web is set in 2003 and shares almost nothing with the others, so its position barely matters. The three Venom films are the only entries that genuinely need to be watched in order."
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Paranormal Activity",
+  "short": "Seven films, mostly prequels",
+  "hue": 200,
+  "blurb": "Almost every sequel goes backwards. The third film reaches furthest, landing in 1988.",
+  "films": {
+    "p07": {
+      "t": "Paranormal Activity",
+      "y": 2007,
+      "set": "2006"
+    },
+    "p10": {
+      "t": "Paranormal Activity 2",
+      "y": 2010,
+      "set": "2006"
+    },
+    "p11": {
+      "t": "Paranormal Activity 3",
+      "y": 2011,
+      "set": "1988"
+    },
+    "p12": {
+      "t": "Paranormal Activity 4",
+      "y": 2012,
+      "set": "2011"
+    },
+    "p14": {
+      "t": "Paranormal Activity: The Marked Ones",
+      "y": 2014,
+      "set": "2012"
+    },
+    "p15": {
+      "t": "Paranormal Activity: The Ghost Dimension",
+      "y": 2015,
+      "set": "2013"
+    },
+    "p21": {
+      "t": "Paranormal Activity: Next of Kin",
+      "y": 2021,
+      "set": "2021"
+    }
+  },
+  "release": [
+    "p07",
+    "p10",
+    "p11",
+    "p12",
+    "p14",
+    "p15",
+    "p21"
+  ],
+  "chrono": [
+    "p11",
+    "p10",
+    "p07",
+    "p12",
+    "p14",
+    "p15",
+    "p21"
+  ],
+  "note": "The second film opens weeks before the first and ends days after it, so they interlock rather than sit neatly one after the other. Next of Kin is a standalone."
+}

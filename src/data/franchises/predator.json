@@ -1,0 +1,55 @@
+{
+  "title": "Predator",
+  "short": "The main Predator films",
+  "hue": 86,
+  "blurb": "A 1987 action film that spent thirty-five years getting sequels before a prequel set in 1719 turned out to be the best of them.",
+  "films": {
+    "p1": {
+      "t": "Predator",
+      "y": 1987,
+      "set": "1987"
+    },
+    "p2": {
+      "t": "Predator 2",
+      "y": 1990,
+      "set": "1997"
+    },
+    "preds": {
+      "t": "Predators",
+      "y": 2010,
+      "set": "2010"
+    },
+    "p18": {
+      "t": "The Predator",
+      "y": 2018,
+      "set": "2018"
+    },
+    "prey": {
+      "t": "Prey",
+      "y": 2022,
+      "set": "1719"
+    },
+    "bad": {
+      "t": "Predator: Badlands",
+      "y": 2025,
+      "set": "Far future"
+    }
+  },
+  "release": [
+    "p1",
+    "p2",
+    "preds",
+    "p18",
+    "prey",
+    "bad"
+  ],
+  "chrono": [
+    "prey",
+    "p1",
+    "p2",
+    "preds",
+    "p18",
+    "bad"
+  ],
+  "note": "The two Alien vs. Predator films sit awkwardly beside both series and are usually treated as a separate branch. We've left them out of this path."
+}

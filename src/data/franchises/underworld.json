@@ -1,0 +1,48 @@
+{
+  "title": "Underworld",
+  "short": "Five films, one medieval prequel",
+  "hue": 196,
+  "blurb": "A vampire-versus-werewolf war told out of order, with the third film jumping back six hundred years to explain how it began.",
+  "films": {
+    "u03": {
+      "t": "Underworld",
+      "y": 2003,
+      "set": "2003"
+    },
+    "u06": {
+      "t": "Underworld: Evolution",
+      "y": 2006,
+      "set": "2003"
+    },
+    "u09": {
+      "t": "Underworld: Rise of the Lycans",
+      "y": 2009,
+      "set": "1402"
+    },
+    "u12": {
+      "t": "Underworld: Awakening",
+      "y": 2012,
+      "set": "2015"
+    },
+    "u16": {
+      "t": "Underworld: Blood Wars",
+      "y": 2016,
+      "set": "2016"
+    }
+  },
+  "release": [
+    "u03",
+    "u06",
+    "u09",
+    "u12",
+    "u16"
+  ],
+  "chrono": [
+    "u09",
+    "u03",
+    "u06",
+    "u12",
+    "u16"
+  ],
+  "note": "Rise of the Lycans dramatises the backstory the first two films describe in flashback, so watching it first removes a reveal but makes the war far easier to follow."
+}

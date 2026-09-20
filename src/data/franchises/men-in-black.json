@@ -1,0 +1,41 @@
+{
+  "title": "Men in Black",
+  "short": "Four films",
+  "hue": 220,
+  "blurb": "Three films with the original pair, and a spin-off with a new team that keeps the world but drops the cast.",
+  "films": {
+    "m97": {
+      "t": "Men in Black",
+      "y": 1997,
+      "set": "1997"
+    },
+    "m02": {
+      "t": "Men in Black II",
+      "y": 2002,
+      "set": "2002"
+    },
+    "m12": {
+      "t": "Men in Black 3",
+      "y": 2012,
+      "set": "2012 & 1969"
+    },
+    "m19": {
+      "t": "Men in Black: International",
+      "y": 2019,
+      "set": "2019"
+    }
+  },
+  "release": [
+    "m97",
+    "m02",
+    "m12",
+    "m19"
+  ],
+  "chrono": [
+    "m97",
+    "m02",
+    "m12",
+    "m19"
+  ],
+  "note": "Men in Black 3 spends most of its running time in 1969, but it is framed as a trip back from the present, so it stays in place."
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Indiana Jones",
+  "short": "Five films, 1935 to 1969",
+  "hue": 32,
+  "blurb": "Only one film moves, but it moves to the front — Temple of Doom is a prequel to Raiders by a single year.",
+  "films": {
+    "raiders": {
+      "t": "Raiders of the Lost Ark",
+      "y": 1981,
+      "set": "1936"
+    },
+    "doom": {
+      "t": "Indiana Jones and the Temple of Doom",
+      "y": 1984,
+      "set": "1935"
+    },
+    "crusade": {
+      "t": "Indiana Jones and the Last Crusade",
+      "y": 1989,
+      "set": "1938"
+    },
+    "skull": {
+      "t": "Indiana Jones and the Kingdom of the Crystal Skull",
+      "y": 2008,
+      "set": "1957"
+    },
+    "dial": {
+      "t": "Indiana Jones and the Dial of Destiny",
+      "y": 2023,
+      "set": "1969"
+    }
+  },
+  "release": [
+    "raiders",
+    "doom",
+    "crusade",
+    "skull",
+    "dial"
+  ],
+  "chrono": [
+    "doom",
+    "raiders",
+    "crusade",
+    "skull",
+    "dial"
+  ],
+  "note": "The Last Crusade opens with a 1912 flashback and Dial of Destiny with a 1944 one, but both spend their running time in the years listed above."
+}

@@ -1,0 +1,41 @@
+{
+  "title": "The Matrix",
+  "short": "Four films",
+  "hue": 140,
+  "blurb": "A trilogy with two films released in the same year, followed eighteen years later by a fourth that comments on the other three.",
+  "films": {
+    "x99": {
+      "t": "The Matrix",
+      "y": 1999,
+      "set": "c. 2199"
+    },
+    "x03a": {
+      "t": "The Matrix Reloaded",
+      "y": 2003,
+      "set": "c. 2199"
+    },
+    "x03b": {
+      "t": "The Matrix Revolutions",
+      "y": 2003,
+      "set": "c. 2199"
+    },
+    "x21": {
+      "t": "The Matrix Resurrections",
+      "y": 2021,
+      "set": "60 years later"
+    }
+  },
+  "release": [
+    "x99",
+    "x03a",
+    "x03b",
+    "x21"
+  ],
+  "chrono": [
+    "x99",
+    "x03a",
+    "x03b",
+    "x21"
+  ],
+  "note": "Reloaded and Revolutions were shot together and released six months apart — they are effectively one film split in two."
+}

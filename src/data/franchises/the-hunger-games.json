@@ -1,0 +1,48 @@
+{
+  "title": "The Hunger Games",
+  "short": "Including The Ballad of Songbirds & Snakes",
+  "hue": 38,
+  "blurb": "Four films about Katniss, and one set sixty-four years earlier that quietly changes how you read the villain.",
+  "films": {
+    "hg1": {
+      "t": "The Hunger Games",
+      "y": 2012,
+      "set": "74th Games"
+    },
+    "cf": {
+      "t": "The Hunger Games: Catching Fire",
+      "y": 2013,
+      "set": "75th Games"
+    },
+    "mj1": {
+      "t": "The Hunger Games: Mockingjay – Part 1",
+      "y": 2014,
+      "set": "After the 75th"
+    },
+    "mj2": {
+      "t": "The Hunger Games: Mockingjay – Part 2",
+      "y": 2015,
+      "set": "The rebellion"
+    },
+    "ballad": {
+      "t": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "y": 2023,
+      "set": "10th Games"
+    }
+  },
+  "release": [
+    "hg1",
+    "cf",
+    "mj1",
+    "mj2",
+    "ballad"
+  ],
+  "chrono": [
+    "ballad",
+    "hg1",
+    "cf",
+    "mj1",
+    "mj2"
+  ],
+  "note": "Watch the prequel first and Snow is a tragedy. Watch it last and he's a monster whose origins you already know. We'd save it for the end."
+}

@@ -1,0 +1,91 @@
+{
+  "title": "Star Wars",
+  "short": "The Skywalker Saga & spin-offs",
+  "hue": 212,
+  "blurb": "The argument that started every argument. Release order protects the biggest twist in cinema; chronological order gives you a clean nine-part story with two side trips.",
+  "rank": 2,
+  "films": {
+    "anh": {
+      "t": "Star Wars: A New Hope",
+      "y": 1977,
+      "set": "0 BBY"
+    },
+    "esb": {
+      "t": "The Empire Strikes Back",
+      "y": 1980,
+      "set": "3 ABY"
+    },
+    "rotj": {
+      "t": "Return of the Jedi",
+      "y": 1983,
+      "set": "4 ABY"
+    },
+    "tpm": {
+      "t": "The Phantom Menace",
+      "y": 1999,
+      "set": "32 BBY"
+    },
+    "aotc": {
+      "t": "Attack of the Clones",
+      "y": 2002,
+      "set": "22 BBY"
+    },
+    "rots": {
+      "t": "Revenge of the Sith",
+      "y": 2005,
+      "set": "19 BBY"
+    },
+    "tfa": {
+      "t": "The Force Awakens",
+      "y": 2015,
+      "set": "34 ABY"
+    },
+    "rogue": {
+      "t": "Rogue One",
+      "y": 2016,
+      "set": "0 BBY"
+    },
+    "tlj": {
+      "t": "The Last Jedi",
+      "y": 2017,
+      "set": "34 ABY"
+    },
+    "solo": {
+      "t": "Solo",
+      "y": 2018,
+      "set": "13–10 BBY"
+    },
+    "tros": {
+      "t": "The Rise of Skywalker",
+      "y": 2019,
+      "set": "35 ABY"
+    }
+  },
+  "release": [
+    "anh",
+    "esb",
+    "rotj",
+    "tpm",
+    "aotc",
+    "rots",
+    "tfa",
+    "rogue",
+    "tlj",
+    "solo",
+    "tros"
+  ],
+  "chrono": [
+    "tpm",
+    "aotc",
+    "rots",
+    "solo",
+    "rogue",
+    "anh",
+    "esb",
+    "rotj",
+    "tfa",
+    "tlj",
+    "tros"
+  ],
+  "note": "Rogue One ends minutes before A New Hope begins, so it slots in neatly either way. If it's someone's first time, release order is still the safer bet."
+}

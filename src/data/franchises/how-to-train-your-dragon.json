@@ -1,0 +1,41 @@
+{
+  "title": "How to Train Your Dragon",
+  "short": "Four films",
+  "hue": 192,
+  "blurb": "An animated trilogy that lets its cast grow up across nine years, plus a live-action retelling of the first.",
+  "films": {
+    "h10": {
+      "t": "How to Train Your Dragon",
+      "y": 2010,
+      "set": "—"
+    },
+    "h14": {
+      "t": "How to Train Your Dragon 2",
+      "y": 2014,
+      "set": "5 years later"
+    },
+    "h19": {
+      "t": "How to Train Your Dragon: The Hidden World",
+      "y": 2019,
+      "set": "1 year later"
+    },
+    "h25": {
+      "t": "How to Train Your Dragon",
+      "y": 2025,
+      "set": "Remake"
+    }
+  },
+  "release": [
+    "h10",
+    "h14",
+    "h19",
+    "h25"
+  ],
+  "chrono": [
+    "h10",
+    "h14",
+    "h19",
+    "h25"
+  ],
+  "note": "The 2025 film is a live-action remake of the 2010 original, not a continuation. The animated trilogy is self-contained."
+}

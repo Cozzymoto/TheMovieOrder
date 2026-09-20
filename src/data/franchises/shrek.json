@@ -1,0 +1,55 @@
+{
+  "title": "Shrek",
+  "short": "Six films including Puss in Boots",
+  "hue": 104,
+  "blurb": "Four films about an ogre and two about the cat who joins him in the second — one of which is set before they met.",
+  "films": {
+    "s01": {
+      "t": "Shrek",
+      "y": 2001,
+      "set": "—"
+    },
+    "s04": {
+      "t": "Shrek 2",
+      "y": 2004,
+      "set": "—"
+    },
+    "s07": {
+      "t": "Shrek the Third",
+      "y": 2007,
+      "set": "—"
+    },
+    "s10": {
+      "t": "Shrek Forever After",
+      "y": 2010,
+      "set": "—"
+    },
+    "pb11": {
+      "t": "Puss in Boots",
+      "y": 2011,
+      "set": "Before Shrek 2"
+    },
+    "pb22": {
+      "t": "Puss in Boots: The Last Wish",
+      "y": 2022,
+      "set": "After Shrek Forever After"
+    }
+  },
+  "release": [
+    "s01",
+    "s04",
+    "s07",
+    "s10",
+    "pb11",
+    "pb22"
+  ],
+  "chrono": [
+    "pb11",
+    "s01",
+    "s04",
+    "s07",
+    "s10",
+    "pb22"
+  ],
+  "note": "Puss in Boots is a prequel showing how the character earned his reputation before turning up in Shrek 2. The Last Wish is a straight sequel to it and much the better film."
+}

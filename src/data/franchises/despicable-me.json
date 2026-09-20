@@ -1,0 +1,55 @@
+{
+  "title": "Despicable Me",
+  "short": "Including the Minions films",
+  "hue": 48,
+  "blurb": "Four films about Gru and two about the Minions, which between them reach back to 1968.",
+  "films": {
+    "dm1": {
+      "t": "Despicable Me",
+      "y": 2010,
+      "set": "2010"
+    },
+    "dm2": {
+      "t": "Despicable Me 2",
+      "y": 2013,
+      "set": "2013"
+    },
+    "min": {
+      "t": "Minions",
+      "y": 2015,
+      "set": "1968"
+    },
+    "dm3": {
+      "t": "Despicable Me 3",
+      "y": 2017,
+      "set": "2017"
+    },
+    "gru": {
+      "t": "Minions: The Rise of Gru",
+      "y": 2022,
+      "set": "1976"
+    },
+    "dm4": {
+      "t": "Despicable Me 4",
+      "y": 2024,
+      "set": "2024"
+    }
+  },
+  "release": [
+    "dm1",
+    "dm2",
+    "min",
+    "dm3",
+    "gru",
+    "dm4"
+  ],
+  "chrono": [
+    "min",
+    "gru",
+    "dm1",
+    "dm2",
+    "dm3",
+    "dm4"
+  ],
+  "note": "Minions opens with a prologue running from the dawn of life to the 1960s, so chronologically it is both the first and the longest-reaching film in the series."
+}

@@ -1,0 +1,48 @@
+{
+  "title": "The Purge",
+  "short": "Five films, one prequel",
+  "hue": 56,
+  "blurb": "Four films moving forward through a collapsing America, plus a fourth entry that goes back to the night it all started.",
+  "films": {
+    "g13": {
+      "t": "The Purge",
+      "y": 2013,
+      "set": "2022"
+    },
+    "g14": {
+      "t": "The Purge: Anarchy",
+      "y": 2014,
+      "set": "2023"
+    },
+    "g16": {
+      "t": "The Purge: Election Year",
+      "y": 2016,
+      "set": "2025"
+    },
+    "g18": {
+      "t": "The First Purge",
+      "y": 2018,
+      "set": "2017"
+    },
+    "g21": {
+      "t": "The Forever Purge",
+      "y": 2021,
+      "set": "2048"
+    }
+  },
+  "release": [
+    "g13",
+    "g14",
+    "g16",
+    "g18",
+    "g21"
+  ],
+  "chrono": [
+    "g18",
+    "g13",
+    "g14",
+    "g16",
+    "g21"
+  ],
+  "note": "The First Purge covers the original experiment on Staten Island, five years before the first film. It works well as an opener if you already know the premise."
+}

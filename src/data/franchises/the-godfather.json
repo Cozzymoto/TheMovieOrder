@@ -1,0 +1,34 @@
+{
+  "title": "The Godfather",
+  "short": "Three films",
+  "hue": 44,
+  "blurb": "Three films spanning eighty years, where the second tells two stories at once — one moving forward, one reaching back to 1901.",
+  "films": {
+    "g72": {
+      "t": "The Godfather",
+      "y": 1972,
+      "set": "1945–1955"
+    },
+    "g74": {
+      "t": "The Godfather Part II",
+      "y": 1974,
+      "set": "1901–1959"
+    },
+    "g90": {
+      "t": "The Godfather Part III",
+      "y": 1990,
+      "set": "1979"
+    }
+  },
+  "release": [
+    "g72",
+    "g74",
+    "g90"
+  ],
+  "chrono": [
+    "g72",
+    "g74",
+    "g90"
+  ],
+  "note": "A true chronological order is impossible at film level — Part II cuts between Vito's rise from 1901 and Michael's decline in 1958, so half of it belongs before the first film and half after. Recut versions that untangle the two exist, but the cross-cutting is the point of the film. Watch in release order."
+}

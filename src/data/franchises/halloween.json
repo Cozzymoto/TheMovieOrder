@@ -1,0 +1,104 @@
+{
+  "title": "Halloween",
+  "short": "All 13 films, three timelines",
+  "hue": 24,
+  "blurb": "The most forked series in horror. Three separate continuities all branch from the 1978 original, and two of them pretend the others never happened.",
+  "films": {
+    "h78": {
+      "t": "Halloween",
+      "y": 1978,
+      "set": "1978"
+    },
+    "h81": {
+      "t": "Halloween II",
+      "y": 1981,
+      "set": "1978"
+    },
+    "h82": {
+      "t": "Halloween III: Season of the Witch",
+      "y": 1982,
+      "set": "1982"
+    },
+    "h88": {
+      "t": "Halloween 4: The Return of Michael Myers",
+      "y": 1988,
+      "set": "1988"
+    },
+    "h89": {
+      "t": "Halloween 5: The Revenge of Michael Myers",
+      "y": 1989,
+      "set": "1989"
+    },
+    "h95": {
+      "t": "Halloween: The Curse of Michael Myers",
+      "y": 1995,
+      "set": "1995"
+    },
+    "h98": {
+      "t": "Halloween H20: 20 Years Later",
+      "y": 1998,
+      "set": "1998"
+    },
+    "h02": {
+      "t": "Halloween: Resurrection",
+      "y": 2002,
+      "set": "2002"
+    },
+    "z07": {
+      "t": "Halloween",
+      "y": 2007,
+      "set": "Remake"
+    },
+    "z09": {
+      "t": "Halloween II",
+      "y": 2009,
+      "set": "Remake"
+    },
+    "h18": {
+      "t": "Halloween",
+      "y": 2018,
+      "set": "2018"
+    },
+    "h21": {
+      "t": "Halloween Kills",
+      "y": 2021,
+      "set": "2018"
+    },
+    "h22": {
+      "t": "Halloween Ends",
+      "y": 2022,
+      "set": "2022"
+    }
+  },
+  "release": [
+    "h78",
+    "h81",
+    "h82",
+    "h88",
+    "h89",
+    "h95",
+    "h98",
+    "h02",
+    "z07",
+    "z09",
+    "h18",
+    "h21",
+    "h22"
+  ],
+  "chrono": [
+    "h78",
+    "h81",
+    "h88",
+    "h89",
+    "h95",
+    "h98",
+    "h02",
+    "h18",
+    "h21",
+    "h22",
+    "z07",
+    "z09",
+    "h82"
+  ],
+  "note": "There is no single correct order here. The 2018 film ignores everything after 1978; H20 ignores parts 4 to 6; the Rob Zombie films are a separate remake line; and Halloween III has nothing to do with Michael Myers at all. Our chronological path follows the original line, then the 2018 line, then the remakes, with Halloween III last as the standalone it is."
+}

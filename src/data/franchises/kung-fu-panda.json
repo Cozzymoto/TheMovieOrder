@@ -1,0 +1,41 @@
+{
+  "title": "Kung Fu Panda",
+  "short": "Four films",
+  "hue": 58,
+  "blurb": "Four films in order, each one widening the story of where the main character came from.",
+  "films": {
+    "k08": {
+      "t": "Kung Fu Panda",
+      "y": 2008,
+      "set": "—"
+    },
+    "k11": {
+      "t": "Kung Fu Panda 2",
+      "y": 2011,
+      "set": "—"
+    },
+    "k16": {
+      "t": "Kung Fu Panda 3",
+      "y": 2016,
+      "set": "—"
+    },
+    "k24": {
+      "t": "Kung Fu Panda 4",
+      "y": 2024,
+      "set": "—"
+    }
+  },
+  "release": [
+    "k08",
+    "k11",
+    "k16",
+    "k24"
+  ],
+  "chrono": [
+    "k08",
+    "k11",
+    "k16",
+    "k24"
+  ],
+  "note": "The second and third films are built around revelations about the first, so the order matters more than it usually does in animation."
+}

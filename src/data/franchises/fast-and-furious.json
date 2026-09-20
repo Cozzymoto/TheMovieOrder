@@ -1,0 +1,91 @@
+{
+  "title": "Fast & Furious",
+  "short": "The Fast Saga",
+  "hue": 140,
+  "blurb": "One film sat out of order for nine years before the series quietly caught up with it. Tokyo Drift is the whole reason this list exists.",
+  "rank": 6,
+  "films": {
+    "f1": {
+      "t": "The Fast and the Furious",
+      "y": 2001,
+      "set": "2001"
+    },
+    "f2": {
+      "t": "2 Fast 2 Furious",
+      "y": 2003,
+      "set": "2003"
+    },
+    "f3": {
+      "t": "The Fast and the Furious: Tokyo Drift",
+      "y": 2006,
+      "set": "2013"
+    },
+    "f4": {
+      "t": "Fast & Furious",
+      "y": 2009,
+      "set": "2009"
+    },
+    "f5": {
+      "t": "Fast Five",
+      "y": 2011,
+      "set": "2011"
+    },
+    "f6": {
+      "t": "Fast & Furious 6",
+      "y": 2013,
+      "set": "2013"
+    },
+    "f7": {
+      "t": "Furious 7",
+      "y": 2015,
+      "set": "2013"
+    },
+    "f8": {
+      "t": "The Fate of the Furious",
+      "y": 2017,
+      "set": "2017"
+    },
+    "hs": {
+      "t": "Hobbs & Shaw",
+      "y": 2019,
+      "set": "2019"
+    },
+    "f9": {
+      "t": "F9",
+      "y": 2021,
+      "set": "2021"
+    },
+    "fx": {
+      "t": "Fast X",
+      "y": 2023,
+      "set": "2023"
+    }
+  },
+  "release": [
+    "f1",
+    "f2",
+    "f3",
+    "f4",
+    "f5",
+    "f6",
+    "f7",
+    "f8",
+    "hs",
+    "f9",
+    "fx"
+  ],
+  "chrono": [
+    "f1",
+    "f2",
+    "f4",
+    "f5",
+    "f6",
+    "f3",
+    "f7",
+    "f8",
+    "hs",
+    "f9",
+    "fx"
+  ],
+  "note": "Tokyo Drift's ending is revisited at the end of Fast & Furious 6, which is the moment the series officially folds it back in."
+}

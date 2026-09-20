@@ -1,0 +1,62 @@
+{
+  "title": "Transformers",
+  "short": "The live-action films",
+  "hue": 8,
+  "blurb": "Five Bay films, then a 1987 prequel that quietly reset the continuity, then a 1994 sequel to the prequel.",
+  "films": {
+    "tf1": {
+      "t": "Transformers",
+      "y": 2007,
+      "set": "2007"
+    },
+    "rotf": {
+      "t": "Transformers: Revenge of the Fallen",
+      "y": 2009,
+      "set": "2009"
+    },
+    "dotm": {
+      "t": "Transformers: Dark of the Moon",
+      "y": 2011,
+      "set": "2011"
+    },
+    "aoe": {
+      "t": "Transformers: Age of Extinction",
+      "y": 2014,
+      "set": "2016"
+    },
+    "tlk": {
+      "t": "Transformers: The Last Knight",
+      "y": 2017,
+      "set": "2018"
+    },
+    "bum": {
+      "t": "Bumblebee",
+      "y": 2018,
+      "set": "1987"
+    },
+    "rotb": {
+      "t": "Transformers: Rise of the Beasts",
+      "y": 2023,
+      "set": "1994"
+    }
+  },
+  "release": [
+    "tf1",
+    "rotf",
+    "dotm",
+    "aoe",
+    "tlk",
+    "bum",
+    "rotb"
+  ],
+  "chrono": [
+    "bum",
+    "rotb",
+    "tf1",
+    "rotf",
+    "dotm",
+    "aoe",
+    "tlk"
+  ],
+  "note": "Bumblebee contradicts the 2007 film's version of events in several places. Whether it's a prequel or a soft reboot has never been settled."
+}

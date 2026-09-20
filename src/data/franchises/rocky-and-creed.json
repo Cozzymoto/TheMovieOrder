@@ -1,0 +1,76 @@
+{
+  "title": "Rocky & Creed",
+  "short": "Nine films over five decades",
+  "hue": 100,
+  "blurb": "Six films about one boxer, then three about the son of his greatest rival — one continuous story running from 1976 to the present.",
+  "films": {
+    "r76": {
+      "t": "Rocky",
+      "y": 1976,
+      "set": "1976"
+    },
+    "r79": {
+      "t": "Rocky II",
+      "y": 1979,
+      "set": "1979"
+    },
+    "r82": {
+      "t": "Rocky III",
+      "y": 1982,
+      "set": "1982"
+    },
+    "r85": {
+      "t": "Rocky IV",
+      "y": 1985,
+      "set": "1985"
+    },
+    "r90": {
+      "t": "Rocky V",
+      "y": 1990,
+      "set": "1990"
+    },
+    "r06": {
+      "t": "Rocky Balboa",
+      "y": 2006,
+      "set": "2006"
+    },
+    "c15": {
+      "t": "Creed",
+      "y": 2015,
+      "set": "2015"
+    },
+    "c18": {
+      "t": "Creed II",
+      "y": 2018,
+      "set": "2018"
+    },
+    "c23": {
+      "t": "Creed III",
+      "y": 2023,
+      "set": "2023"
+    }
+  },
+  "release": [
+    "r76",
+    "r79",
+    "r82",
+    "r85",
+    "r90",
+    "r06",
+    "c15",
+    "c18",
+    "c23"
+  ],
+  "chrono": [
+    "r76",
+    "r79",
+    "r82",
+    "r85",
+    "r90",
+    "r06",
+    "c15",
+    "c18",
+    "c23"
+  ],
+  "note": "Creed II is a direct sequel to Rocky IV thirty-three years later, so that one film is worth seeing even if you skip others. Creed III stands largely on its own."
+}

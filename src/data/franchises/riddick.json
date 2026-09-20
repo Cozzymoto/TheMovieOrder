@@ -1,0 +1,34 @@
+{
+  "title": "Riddick",
+  "short": "Three films",
+  "hue": 172,
+  "blurb": "A small, low-budget survival film that unexpectedly grew into a space opera and then shrank back again.",
+  "films": {
+    "r00": {
+      "t": "Pitch Black",
+      "y": 2000,
+      "set": "2000s"
+    },
+    "r04": {
+      "t": "The Chronicles of Riddick",
+      "y": 2004,
+      "set": "5 years later"
+    },
+    "r13": {
+      "t": "Riddick",
+      "y": 2013,
+      "set": "5 years later"
+    }
+  },
+  "release": [
+    "r00",
+    "r04",
+    "r13"
+  ],
+  "chrono": [
+    "r00",
+    "r04",
+    "r13"
+  ],
+  "note": "Each film jumps roughly five years ahead of the last, so release order and chronology match exactly."
+}

@@ -1,0 +1,48 @@
+{
+  "title": "John Wick",
+  "short": "Including Ballerina",
+  "hue": 258,
+  "blurb": "Four chapters that run almost continuously, plus a spin-off that takes place inside the middle of one of them.",
+  "films": {
+    "jw1": {
+      "t": "John Wick",
+      "y": 2014,
+      "set": "2014"
+    },
+    "jw2": {
+      "t": "John Wick: Chapter 2",
+      "y": 2017,
+      "set": "2014"
+    },
+    "jw3": {
+      "t": "John Wick: Chapter 3 – Parabellum",
+      "y": 2019,
+      "set": "2014"
+    },
+    "bal": {
+      "t": "Ballerina",
+      "y": 2025,
+      "set": "2014"
+    },
+    "jw4": {
+      "t": "John Wick: Chapter 4",
+      "y": 2023,
+      "set": "2015"
+    }
+  },
+  "release": [
+    "jw1",
+    "jw2",
+    "jw3",
+    "jw4",
+    "bal"
+  ],
+  "chrono": [
+    "jw1",
+    "jw2",
+    "jw3",
+    "bal",
+    "jw4"
+  ],
+  "note": "Ballerina runs concurrently with Chapter 3 rather than after it, which is why it lands before Chapter 4 despite arriving in cinemas later."
+}

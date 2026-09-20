@@ -1,0 +1,41 @@
+{
+  "title": "Lethal Weapon",
+  "short": "Four films",
+  "hue": 36,
+  "blurb": "Four films across eleven years, with the same pair ageing in real time alongside the audience.",
+  "films": {
+    "l87": {
+      "t": "Lethal Weapon",
+      "y": 1987,
+      "set": "1987"
+    },
+    "l89": {
+      "t": "Lethal Weapon 2",
+      "y": 1989,
+      "set": "1989"
+    },
+    "l92": {
+      "t": "Lethal Weapon 3",
+      "y": 1992,
+      "set": "1992"
+    },
+    "l98": {
+      "t": "Lethal Weapon 4",
+      "y": 1998,
+      "set": "1998"
+    }
+  },
+  "release": [
+    "l87",
+    "l89",
+    "l92",
+    "l98"
+  ],
+  "chrono": [
+    "l87",
+    "l89",
+    "l92",
+    "l98"
+  ],
+  "note": "Straightforward release order. Each film is set roughly when it came out."
+}

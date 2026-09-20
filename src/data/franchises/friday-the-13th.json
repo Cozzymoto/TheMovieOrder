@@ -1,0 +1,97 @@
+{
+  "title": "Friday the 13th",
+  "short": "Twelve films, one set in 2455",
+  "hue": 96,
+  "blurb": "Ten sequels that run in a straight line, plus one that launches Jason into deep space four centuries later.",
+  "films": {
+    "f80": {
+      "t": "Friday the 13th",
+      "y": 1980,
+      "set": "1979"
+    },
+    "f81": {
+      "t": "Friday the 13th Part 2",
+      "y": 1981,
+      "set": "1984"
+    },
+    "f82": {
+      "t": "Friday the 13th Part III",
+      "y": 1982,
+      "set": "1984"
+    },
+    "f84": {
+      "t": "Friday the 13th: The Final Chapter",
+      "y": 1984,
+      "set": "1984"
+    },
+    "f85": {
+      "t": "Friday the 13th: A New Beginning",
+      "y": 1985,
+      "set": "1989"
+    },
+    "f86": {
+      "t": "Friday the 13th Part VI: Jason Lives",
+      "y": 1986,
+      "set": "1989"
+    },
+    "f88": {
+      "t": "Friday the 13th Part VII: The New Blood",
+      "y": 1988,
+      "set": "1989"
+    },
+    "f89": {
+      "t": "Friday the 13th Part VIII: Jason Takes Manhattan",
+      "y": 1989,
+      "set": "1989"
+    },
+    "f93": {
+      "t": "Jason Goes to Hell: The Final Friday",
+      "y": 1993,
+      "set": "1993"
+    },
+    "f01": {
+      "t": "Jason X",
+      "y": 2001,
+      "set": "2455"
+    },
+    "fvj": {
+      "t": "Freddy vs. Jason",
+      "y": 2003,
+      "set": "2003"
+    },
+    "f09": {
+      "t": "Friday the 13th",
+      "y": 2009,
+      "set": "Remake"
+    }
+  },
+  "release": [
+    "f80",
+    "f81",
+    "f82",
+    "f84",
+    "f85",
+    "f86",
+    "f88",
+    "f89",
+    "f93",
+    "f01",
+    "fvj",
+    "f09"
+  ],
+  "chrono": [
+    "f80",
+    "f81",
+    "f82",
+    "f84",
+    "f85",
+    "f86",
+    "f88",
+    "f89",
+    "f93",
+    "fvj",
+    "f01",
+    "f09"
+  ],
+  "note": "Jason X opens in 2008 but spends the film in 2455, which puts it after every other entry including the Freddy crossover. The 2009 film is a remake and stands alone."
+}

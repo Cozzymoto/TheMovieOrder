@@ -1,0 +1,34 @@
+{
+  "title": "Rush Hour",
+  "short": "Three films",
+  "hue": 52,
+  "blurb": "Three films set in Los Angeles, Hong Kong and Paris, in that order.",
+  "films": {
+    "r98": {
+      "t": "Rush Hour",
+      "y": 1998,
+      "set": "1998"
+    },
+    "r01": {
+      "t": "Rush Hour 2",
+      "y": 2001,
+      "set": "2001"
+    },
+    "r07": {
+      "t": "Rush Hour 3",
+      "y": 2007,
+      "set": "2007"
+    }
+  },
+  "release": [
+    "r98",
+    "r01",
+    "r07"
+  ],
+  "chrono": [
+    "r98",
+    "r01",
+    "r07"
+  ],
+  "note": "Rush Hour 2 opens days after the first film ends. The third arrives six years later and refers back to both."
+}

@@ -1,0 +1,34 @@
+{
+  "title": "A Quiet Place",
+  "short": "Three films, one prequel",
+  "hue": 186,
+  "blurb": "Two films following one family, and a prequel showing the first day of the invasion they survived.",
+  "films": {
+    "q18": {
+      "t": "A Quiet Place",
+      "y": 2018,
+      "set": "2020–21"
+    },
+    "q21": {
+      "t": "A Quiet Place Part II",
+      "y": 2021,
+      "set": "2021"
+    },
+    "q24": {
+      "t": "A Quiet Place: Day One",
+      "y": 2024,
+      "set": "2020"
+    }
+  },
+  "release": [
+    "q18",
+    "q21",
+    "q24"
+  ],
+  "chrono": [
+    "q24",
+    "q18",
+    "q21"
+  ],
+  "note": "Part II opens with a flashback to day one, which Day One then covers in full from a different city. The prequel works equally well in either position."
+}

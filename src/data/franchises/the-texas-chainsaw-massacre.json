@@ -1,0 +1,76 @@
+{
+  "title": "The Texas Chainsaw Massacre",
+  "short": "Nine films, three continuities",
+  "hue": 34,
+  "blurb": "Three separate attempts to continue the 1974 original, each ignoring the others. The 2017 prequel reaches back furthest.",
+  "films": {
+    "t74": {
+      "t": "The Texas Chain Saw Massacre",
+      "y": 1974,
+      "set": "1973"
+    },
+    "t86": {
+      "t": "The Texas Chainsaw Massacre 2",
+      "y": 1986,
+      "set": "1986"
+    },
+    "t90": {
+      "t": "Leatherface: The Texas Chainsaw Massacre III",
+      "y": 1990,
+      "set": "1990"
+    },
+    "t95": {
+      "t": "The Texas Chainsaw Massacre: The Next Generation",
+      "y": 1995,
+      "set": "1995"
+    },
+    "t03": {
+      "t": "The Texas Chainsaw Massacre",
+      "y": 2003,
+      "set": "1973"
+    },
+    "t06": {
+      "t": "The Texas Chainsaw Massacre: The Beginning",
+      "y": 2006,
+      "set": "1969"
+    },
+    "t13": {
+      "t": "Texas Chainsaw 3D",
+      "y": 2013,
+      "set": "2012"
+    },
+    "t17": {
+      "t": "Leatherface",
+      "y": 2017,
+      "set": "1955–1965"
+    },
+    "t22": {
+      "t": "Texas Chainsaw Massacre",
+      "y": 2022,
+      "set": "2022"
+    }
+  },
+  "release": [
+    "t74",
+    "t86",
+    "t90",
+    "t95",
+    "t03",
+    "t06",
+    "t13",
+    "t17",
+    "t22"
+  ],
+  "chrono": [
+    "t17",
+    "t74",
+    "t86",
+    "t90",
+    "t95",
+    "t13",
+    "t22",
+    "t06",
+    "t03"
+  ],
+  "note": "Leatherface is a prequel to the 1974 film, while The Beginning is a prequel to the 2003 remake — two different origin stories for the same character. Both Texas Chainsaw 3D and the 2022 film are direct sequels to 1974 that ignore each other."
+}

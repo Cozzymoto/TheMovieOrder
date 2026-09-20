@@ -1,0 +1,76 @@
+{
+  "title": "A Nightmare on Elm Street",
+  "short": "Nine films including the crossover",
+  "hue": 210,
+  "blurb": "A straightforward run of sequels with one film that steps outside the story entirely to comment on it.",
+  "films": {
+    "n84": {
+      "t": "A Nightmare on Elm Street",
+      "y": 1984,
+      "set": "1984"
+    },
+    "n85": {
+      "t": "A Nightmare on Elm Street 2: Freddy's Revenge",
+      "y": 1985,
+      "set": "1989"
+    },
+    "n87": {
+      "t": "A Nightmare on Elm Street 3: Dream Warriors",
+      "y": 1987,
+      "set": "1987"
+    },
+    "n88": {
+      "t": "A Nightmare on Elm Street 4: The Dream Master",
+      "y": 1988,
+      "set": "1988"
+    },
+    "n89": {
+      "t": "A Nightmare on Elm Street 5: The Dream Child",
+      "y": 1989,
+      "set": "1989"
+    },
+    "n91": {
+      "t": "Freddy's Dead: The Final Nightmare",
+      "y": 1991,
+      "set": "2001"
+    },
+    "n94": {
+      "t": "Wes Craven's New Nightmare",
+      "y": 1994,
+      "set": "1994"
+    },
+    "fvj": {
+      "t": "Freddy vs. Jason",
+      "y": 2003,
+      "set": "2003"
+    },
+    "n10": {
+      "t": "A Nightmare on Elm Street",
+      "y": 2010,
+      "set": "Remake"
+    }
+  },
+  "release": [
+    "n84",
+    "n85",
+    "n87",
+    "n88",
+    "n89",
+    "n91",
+    "n94",
+    "fvj",
+    "n10"
+  ],
+  "chrono": [
+    "n84",
+    "n85",
+    "n87",
+    "n88",
+    "n89",
+    "n91",
+    "fvj",
+    "n94",
+    "n10"
+  ],
+  "note": "New Nightmare is set in our world, with the cast playing themselves — it sits outside the story rather than inside it. The 2010 film is an unconnected remake."
+}

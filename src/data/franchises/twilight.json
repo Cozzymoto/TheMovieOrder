@@ -1,0 +1,48 @@
+{
+  "title": "Twilight",
+  "short": "Five films",
+  "hue": 264,
+  "blurb": "Five films from four books, with the last split in two — a straight run with no prequels or detours.",
+  "films": {
+    "t08": {
+      "t": "Twilight",
+      "y": 2008,
+      "set": "2005"
+    },
+    "t09": {
+      "t": "The Twilight Saga: New Moon",
+      "y": 2009,
+      "set": "2006"
+    },
+    "t10": {
+      "t": "The Twilight Saga: Eclipse",
+      "y": 2010,
+      "set": "2006"
+    },
+    "t11": {
+      "t": "The Twilight Saga: Breaking Dawn – Part 1",
+      "y": 2011,
+      "set": "2006"
+    },
+    "t12": {
+      "t": "The Twilight Saga: Breaking Dawn – Part 2",
+      "y": 2012,
+      "set": "2007"
+    }
+  },
+  "release": [
+    "t08",
+    "t09",
+    "t10",
+    "t11",
+    "t12"
+  ],
+  "chrono": [
+    "t08",
+    "t09",
+    "t10",
+    "t11",
+    "t12"
+  ],
+  "note": "The two Breaking Dawn films were shot together and split for release, so they play as one."
+}

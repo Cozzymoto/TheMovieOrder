@@ -1,0 +1,55 @@
+{
+  "title": "Scream",
+  "short": "Six films, one continuous story",
+  "hue": 346,
+  "blurb": "Unusually disciplined for a slasher series — every film follows directly from the last, with no prequels and no reboots.",
+  "films": {
+    "s96": {
+      "t": "Scream",
+      "y": 1996,
+      "set": "1996"
+    },
+    "s97": {
+      "t": "Scream 2",
+      "y": 1997,
+      "set": "1997"
+    },
+    "s00": {
+      "t": "Scream 3",
+      "y": 2000,
+      "set": "2000"
+    },
+    "s11": {
+      "t": "Scream 4",
+      "y": 2011,
+      "set": "2011"
+    },
+    "s22": {
+      "t": "Scream",
+      "y": 2022,
+      "set": "2022"
+    },
+    "s23": {
+      "t": "Scream VI",
+      "y": 2023,
+      "set": "2023"
+    }
+  },
+  "release": [
+    "s96",
+    "s97",
+    "s00",
+    "s11",
+    "s22",
+    "s23"
+  ],
+  "chrono": [
+    "s96",
+    "s97",
+    "s00",
+    "s11",
+    "s22",
+    "s23"
+  ],
+  "note": "The 2022 film is a direct sequel rather than a remake despite sharing a title. Watch in order — the series is built almost entirely from callbacks."
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Top Gun",
+  "short": "Two films, thirty-six years apart",
+  "hue": 198,
+  "blurb": "A 1986 original and a sequel that waits until 2022 and makes the wait part of the story.",
+  "films": {
+    "t86": {
+      "t": "Top Gun",
+      "y": 1986,
+      "set": "1986"
+    },
+    "t22": {
+      "t": "Top Gun: Maverick",
+      "y": 2022,
+      "set": "2022"
+    }
+  },
+  "release": [
+    "t86",
+    "t22"
+  ],
+  "chrono": [
+    "t86",
+    "t22"
+  ],
+  "note": "Maverick leans on the first film's events constantly. It is one of the few legacy sequels where watching the original first genuinely changes the experience."
+}

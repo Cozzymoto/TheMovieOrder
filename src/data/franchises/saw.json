@@ -1,0 +1,83 @@
+{
+  "title": "Saw",
+  "short": "Ten films of nested flashbacks",
+  "hue": 348,
+  "blurb": "A series built almost entirely out of reveals about earlier films, plus a tenth entry dropped straight into the gap after the first.",
+  "films": {
+    "s1": {
+      "t": "Saw",
+      "y": 2004,
+      "set": "2004"
+    },
+    "s2": {
+      "t": "Saw II",
+      "y": 2005,
+      "set": "2005"
+    },
+    "s3": {
+      "t": "Saw III",
+      "y": 2006,
+      "set": "2006"
+    },
+    "s4": {
+      "t": "Saw IV",
+      "y": 2007,
+      "set": "2006"
+    },
+    "s5": {
+      "t": "Saw V",
+      "y": 2008,
+      "set": "2006"
+    },
+    "s6": {
+      "t": "Saw VI",
+      "y": 2009,
+      "set": "2007"
+    },
+    "s3d": {
+      "t": "Saw 3D",
+      "y": 2010,
+      "set": "2007"
+    },
+    "jig": {
+      "t": "Jigsaw",
+      "y": 2017,
+      "set": "2017"
+    },
+    "spi": {
+      "t": "Spiral",
+      "y": 2021,
+      "set": "2021"
+    },
+    "sx": {
+      "t": "Saw X",
+      "y": 2023,
+      "set": "Between I and II"
+    }
+  },
+  "release": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s3d",
+    "jig",
+    "spi",
+    "sx"
+  ],
+  "chrono": [
+    "s1",
+    "sx",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s3d",
+    "jig",
+    "spi"
+  ],
+  "note": "Saw IV runs at the same time as Saw III rather than after it — the two films end on the same moment from different angles. Release order is strongly recommended here; the reveals only work in sequence."
+}

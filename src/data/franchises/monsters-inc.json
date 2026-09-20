@@ -1,0 +1,27 @@
+{
+  "title": "Monsters, Inc.",
+  "short": "Two films, one a prequel",
+  "hue": 174,
+  "blurb": "A 2001 original and a 2013 prequel showing how its two leads met at university.",
+  "films": {
+    "m01": {
+      "t": "Monsters, Inc.",
+      "y": 2001,
+      "set": "2001"
+    },
+    "m13": {
+      "t": "Monsters University",
+      "y": 2013,
+      "set": "1980s"
+    }
+  },
+  "release": [
+    "m01",
+    "m13"
+  ],
+  "chrono": [
+    "m13",
+    "m01"
+  ],
+  "note": "University works fine first, though the original's opening assumes you're meeting these two for the first time."
+}
