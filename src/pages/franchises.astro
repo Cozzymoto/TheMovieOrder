@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import { FRANCHISES } from '../data/franchises.js';
+const sorted = [...FRANCHISES].sort((a,b) => a.title.localeCompare(b.title));
+---
+<Base title="All franchises" description={`Every franchise on Order of Movies — ${FRANCHISES.length} watch orders covering ${FRANCHISES.reduce((a,f)=>a+f.release.length,0)} films.`}>
+  <section class="section">
+    <div class="wrap">
+      <div class="section__head"><h2>All franchises</h2></div>
+      <div class="grid">{sorted.map(f => <Card f={f} />)}</div>
+      <div class="slot"><b>Leaderboard ad slot</b>728 × 90 — sits between content, never over it</div>
+    </div>
+  </section>
+</Base>

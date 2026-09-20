@@ -1,0 +1,7 @@
+---
+const { hue, label, mark = null, style = '' } = Astro.props;
+---
+<div class="poster" style={`--h:${hue};${style}`} aria-hidden="true">
+  {mark && <span class="poster__mark">{mark}</span>}
+  <span class="poster__t">{label}</span>
+</div>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://themovieorder.com/sitemap-index.xml

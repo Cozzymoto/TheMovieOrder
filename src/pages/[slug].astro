@@ -1,0 +1,144 @@
+---
+import Base from '../layouts/Base.astro';
+import Poster from '../components/Poster.astro';
+import { FRANCHISES } from '../data/franchises.js';
+import { watchURL, buyURL, shortTitle, yearSpan } from '../config.js';
+
+export function getStaticPaths(){
+  return FRANCHISES.map(f => ({ params: { slug: f.slug }, props: { f } }));
+}
+const { f } = Astro.props;
+const moved = f.release.filter((id, i) => f.chrono.indexOf(id) !== i).length;
+
+const lists = [
+  { mode: 'release', order: f.release, other: f.chrono, otherName: 'Chronological' },
+  { mode: 'chrono',  order: f.chrono,  other: f.release, otherName: 'Release' }
+];
+
+const description = `The full ${f.title} watch order — all ${f.release.length} films in release order and in-universe chronological order, with where to watch each one.`;
+
+const jsonld = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": `${f.title} watch order (release order)`,
+  "description": description,
+  "numberOfItems": f.release.length,
+  "itemListOrder": "https://schema.org/ItemListOrderAscending",
+  "itemListElement": f.release.map((id, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "item": { "@type": "Movie", "name": f.films[id].t, "dateCreated": String(f.films[id].y) }
+  }))
+};
+---
+<Base title={`${f.title} watch order`} description={description} jsonld={jsonld}>
+  <div class="wrap">
+    <nav class="crumb"><a href="/franchises/">Franchises</a> / {f.title}</nav>
+
+    <header class="path-head">
+      <h1>{f.title} watch order</h1>
+      <p>{f.blurb}</p>
+      <div class="path-facts">
+        <div><strong>{f.release.length}</strong><span>films</span></div>
+        <div><strong>{yearSpan(f)}</strong><span>released</span></div>
+        {moved
+          ? <div><strong>{moved}</strong><span>films change position</span></div>
+          : <div><strong>Same</strong><span>in both orders</span></div>}
+      </div>
+    </header>
+
+    <div id="path" data-mode="release" data-slug={f.slug}>
+      <div class="controls">
+        <div class="toggle" role="group" aria-label="Watch order">
+          <button data-set="release" aria-pressed="true">Release order</button>
+          <button data-set="chrono" aria-pressed="false">Chronological order</button>
+        </div>
+        <div class="progress">
+          <span id="progressText">0 of {f.release.length} watched</span>
+          <span class="progress__bar"><i style="width:0%"></i></span>
+          <button id="resetBtn">Reset</button>
+        </div>
+      </div>
+
+      {lists.map(list => (
+        <ol class={`path path--${list.mode}`}>
+          {list.order.map((id, i) => {
+            const m = f.films[id];
+            const otherPos = list.other.indexOf(id) + 1;
+            return (
+              <li class="row" data-id={id} data-watched="false">
+                <div class="row__n">{i + 1}</div>
+                <Poster hue={f.hue} label={shortTitle(m.t)} />
+                <div class="row__body">
+                  <h3 class="row__t">{m.t} <span class="row__y">{m.y}</span></h3>
+                  <p class="row__meta">
+                    Set {m.set}
+                    {otherPos !== i + 1 && <> · <span class="row__moved">{list.otherName} order #{otherPos}</span></>}
+                  </p>
+                </div>
+                <div class="row__acts">
+                  <a class="btn" href={watchURL(m.t)} target="_blank" rel="noopener nofollow sponsored">Where to watch</a>
+                  <a class="btn btn--ghost btn--sm" href={buyURL(m.t)} target="_blank" rel="noopener nofollow sponsored">Buy</a>
+                  <button class="tick" data-tick={id} aria-pressed="false" aria-label={`Mark ${m.t} as watched`}>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 6 6L20 6"/></svg>
+                  </button>
+                </div>
+              </li>
+            );
+          })}
+        </ol>
+      ))}
+    </div>
+
+    {f.note && <p class="note"><strong>Worth knowing.</strong> {f.note}</p>}
+    <div class="slot"><b>Affiliate block</b>Box-set deals and streaming offers for this franchise</div>
+  </div>
+
+  <script is:inline define:vars={{ total: f.release.length }}>
+    (function(){
+      const root = document.getElementById('path');
+      const slug = root.dataset.slug;
+      const key = 'oom:' + slug;
+
+      root.querySelectorAll('.toggle button').forEach(b => {
+        b.addEventListener('click', () => {
+          root.dataset.mode = b.dataset.set;
+          root.querySelectorAll('.toggle button').forEach(x =>
+            x.setAttribute('aria-pressed', String(x === b)));
+        });
+      });
+
+      const read = () => { try { return JSON.parse(localStorage.getItem(key) || '[]'); } catch(e){ return []; } };
+      const write = a => { try { localStorage.setItem(key, JSON.stringify(a)); } catch(e){} };
+
+      function paint(){
+        const w = read();
+        root.querySelectorAll('.row').forEach(r => {
+          const on = w.includes(r.dataset.id);
+          r.dataset.watched = String(on);
+          const t = r.querySelector('.tick');
+          if(t) t.setAttribute('aria-pressed', String(on));
+        });
+        const done = w.length;
+        const bar = root.querySelector('.progress__bar i');
+        const txt = document.getElementById('progressText');
+        if(bar) bar.style.width = (done / total * 100).toFixed(1) + '%';
+        if(txt) txt.textContent = done + ' of ' + total + ' watched';
+      }
+
+      root.querySelectorAll('.tick').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const id = btn.dataset.tick;
+          let w = read();
+          w = w.includes(id) ? w.filter(x => x !== id) : [...w, id];
+          write(w); paint();
+        });
+      });
+
+      const reset = document.getElementById('resetBtn');
+      if(reset) reset.addEventListener('click', () => { write([]); paint(); });
+
+      paint();
+    })();
+  </script>
+</Base>

@@ -1,0 +1,96 @@
+---
+import '../styles/global.css';
+const {
+  title,
+  description = 'The right order to watch every film franchise. Release order or in-universe chronology, side by side.',
+  jsonld = null
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const full = title ? `${title} — Order of Movies` : 'Order of Movies — franchise watch orders';
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{full}</title>
+<meta name="description" content={description}>
+<link rel="canonical" href={canonical}>
+<meta property="og:type" content="website">
+<meta property="og:title" content={full}>
+<meta property="og:description" content={description}>
+<meta property="og:url" content={canonical}>
+<meta property="og:site_name" content="Order of Movies">
+<meta name="twitter:card" content="summary">
+<link rel="sitemap" href="/sitemap-index.xml">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+{jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+<script is:inline>
+  try{ const t = localStorage.getItem('oom:theme'); if(t) document.documentElement.setAttribute('data-theme', t); }catch(e){}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="masthead__in">
+    <a class="wordmark" href="/"><b>Order of</b><i>Movies</i></a>
+    <nav class="nav" aria-label="Main">
+      <a href="/franchises/" aria-current={Astro.url.pathname.startsWith('/franchises') ? 'page' : undefined}>Franchises</a>
+      <a href="/blog/" aria-current={Astro.url.pathname.startsWith('/blog') ? 'page' : undefined}>Blog</a>
+      <a href="/about/" aria-current={Astro.url.pathname.startsWith('/about') ? 'page' : undefined}>About</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" aria-label="Switch colour theme" title="Switch colour theme">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main" tabindex="-1"><slot /></main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__cols">
+      <div>
+        <h4>Order of Movies</h4>
+        <p style="margin:0;max-width:30ch">The right order to watch every franchise — in release order or in-universe chronology.</p>
+      </div>
+      <div>
+        <h4>Browse</h4>
+        <ul>
+          <li><a href="/franchises/">All franchises</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/about/">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Popular paths</h4>
+        <ul>
+          <li><a href="/marvel-cinematic-universe/">Marvel Cinematic Universe</a></li>
+          <li><a href="/star-wars/">Star Wars</a></li>
+          <li><a href="/x-men/">X-Men</a></li>
+          <li><a href="/the-conjuring-universe/">The Conjuring Universe</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot__legal">
+      <span>&copy; {new Date().getFullYear()} Order of Movies</span>
+      <span>Some links earn us a commission. It never changes what we recommend or what you pay.</span>
+    </div>
+  </div>
+</footer>
+
+<script is:inline>
+  document.getElementById('themeBtn').addEventListener('click', () => {
+    const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+    const cur = document.documentElement.getAttribute('data-theme') || (dark ? 'dark' : 'light');
+    const next = cur === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try{ localStorage.setItem('oom:theme', next); }catch(e){}
+  });
+</script>
+</body>
+</html>

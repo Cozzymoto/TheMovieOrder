@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Content Studio — Order of Movies</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FFFFFF; --paper-2:#F6F6F7; --ink:#1C1C1E; --graphite:#5B5B61;
+  --hairline:#E5E5E9; --red:#C8102E; --red-wash:#FDEFF1; --on-red:#FFFFFF;
+  --f-display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --f-text:"Inter","Helvetica Neue",Arial,sans-serif;
+  --f-code:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --radius:6px;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#141416; --paper-2:#1C1C20; --ink:#F1F1F3; --graphite:#A2A2AB;
+    --hairline:#2B2B31; --red:#FF4257; --red-wash:#26141A; --on-red:#141416;
+  }
+}
+*,*::before,*::after{box-sizing:inherit}
+html{height:100%}
+body{
+  margin:0;min-height:100%;background:var(--paper);color:var(--ink);
+  font-family:var(--f-text);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;
+}
+:where(a,button,input,textarea,select,[tabindex]):focus-visible{outline:2px solid var(--red);outline-offset:2px}
+
+.bar{
+  position:sticky;top:0;z-index:30;background:var(--paper);
+  border-bottom:1px solid var(--hairline);padding-top:env(safe-area-inset-top,0px);
+}
+.bar__in{max-width:1140px;margin-inline:auto;padding:.85rem clamp(1rem,4vw,2rem);display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
+.logo{
+  font-family:var(--f-display);font-variation-settings:"wdth" 88;font-weight:800;
+  font-size:1rem;letter-spacing:-.02em;margin-right:auto;display:flex;align-items:center;gap:.4rem;
+}
+.logo i{font-style:normal;color:var(--red)}
+.tabs{display:flex;gap:3px;border:1.5px solid var(--ink);border-radius:999px;padding:3px}
+.tabs button{
+  font:inherit;font-size:.8125rem;font-weight:600;border:0;background:none;cursor:pointer;
+  color:var(--graphite);border-radius:999px;padding:.4rem 1rem;
+}
+.tabs button[aria-selected="true"]{background:var(--red);color:var(--on-red)}
+
+.page{max-width:1140px;margin-inline:auto;padding:clamp(1.25rem,4vw,2.5rem)}
+.cols{display:grid;gap:clamp(1.5rem,3vw,2.5rem);grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);align-items:start}
+@media (max-width:900px){.cols{grid-template-columns:1fr}}
+
+h1{
+  font-family:var(--f-display);font-variation-settings:"wdth" 84;font-weight:800;
+  font-size:clamp(1.6rem,4vw,2.25rem);letter-spacing:-.03em;line-height:1.05;margin:0 0 .5rem;
+}
+.lede{color:var(--graphite);margin:0 0 2rem;max-width:62ch}
+
+fieldset{border:0;margin:0 0 1.75rem;padding:0}
+legend{
+  font-family:var(--f-display);font-variation-settings:"wdth" 88;font-weight:700;
+  font-size:1.05rem;letter-spacing:-.02em;padding:0 0 .6rem;width:100%;
+  border-bottom:2px solid var(--ink);margin-bottom:1rem;
+}
+label{display:block;font-size:.8125rem;font-weight:600;margin-bottom:.3rem}
+.hint{font-weight:400;color:var(--graphite)}
+input[type=text],input[type=number],input[type=date],textarea,select{
+  width:100%;font:inherit;font-size:.9375rem;color:var(--ink);background:var(--paper);
+  border:1.5px solid var(--hairline);border-radius:var(--radius);padding:.55rem .7rem;
+}
+input:focus,textarea:focus{border-color:var(--ink);outline:none}
+textarea{resize:vertical;min-height:80px;line-height:1.6}
+.field{margin-bottom:1rem}
+.row2{display:grid;gap:1rem;grid-template-columns:1fr 1fr}
+@media (max-width:560px){.row2{grid-template-columns:1fr}}
+
+.btn{
+  display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;white-space:nowrap;
+  font:inherit;font-size:.8125rem;font-weight:600;border-radius:var(--radius);
+  padding:.5rem .85rem;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);
+}
+.btn:hover{background:var(--red);border-color:var(--red);color:var(--on-red)}
+.btn--ghost{background:none;color:var(--ink);border-color:var(--hairline)}
+.btn--ghost:hover{background:none;color:var(--red);border-color:var(--red)}
+.btn--tiny{padding:.3rem .5rem;font-size:.75rem}
+
+/* film rows */
+.films{list-style:none;margin:0;padding:0}
+.film{
+  display:grid;grid-template-columns:1fr 78px 110px auto;gap:.5rem;align-items:center;
+  padding:.5rem 0;border-bottom:1px solid var(--hairline);
+}
+.film input{padding:.4rem .55rem;font-size:.875rem}
+.film__x{
+  border:0;background:none;color:var(--graphite);cursor:pointer;
+  padding:.3rem;line-height:0;border-radius:4px;
+}
+.film__x:hover{color:var(--red)}
+@media (max-width:640px){
+  .film{grid-template-columns:1fr auto;grid-template-areas:"t x" "y s";}
+  .film > :nth-child(1){grid-area:t}
+  .film > :nth-child(2){grid-area:y}
+  .film > :nth-child(3){grid-area:s}
+  .film > :nth-child(4){grid-area:x}
+}
+
+/* chronological reorder */
+.chrono{list-style:none;margin:0;padding:0;counter-reset:c}
+.chrono li{
+  display:flex;align-items:center;gap:.6rem;padding:.45rem 0;
+  border-bottom:1px solid var(--hairline);font-size:.875rem;
+}
+.chrono li::before{
+  counter-increment:c;content:counter(c);
+  font-family:var(--f-display);font-variation-settings:"wdth" 86;font-weight:800;
+  color:var(--red);width:1.6rem;text-align:right;flex:none;
+}
+.chrono span{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chrono .moved{color:var(--red);font-size:.75rem;font-weight:600;flex:none}
+.arrows{display:flex;gap:2px;flex:none}
+.arrows button{
+  width:26px;height:26px;border:1px solid var(--hairline);background:none;color:var(--graphite);
+  border-radius:4px;cursor:pointer;display:grid;place-items:center;padding:0;
+}
+.arrows button:hover:not(:disabled){border-color:var(--red);color:var(--red)}
+.arrows button:disabled{opacity:.3;cursor:default}
+
+/* output */
+.panel{
+  position:sticky;top:5rem;border:1.5px solid var(--ink);border-radius:var(--radius);
+  overflow:hidden;
+}
+@media (max-width:900px){.panel{position:static}}
+.panel__top{
+  display:flex;align-items:center;gap:.75rem;justify-content:space-between;
+  padding:.7rem .9rem;border-bottom:1.5px solid var(--ink);background:var(--paper-2);
+}
+.panel__top h2{font-size:.875rem;font-weight:600;margin:0}
+pre{
+  margin:0;padding:1rem;font-family:var(--f-code);font-size:.75rem;line-height:1.5;
+  overflow-x:auto;max-height:60vh;background:var(--paper);white-space:pre;
+}
+.steps{
+  border-left:3px solid var(--red);background:var(--red-wash);padding:1rem 1.15rem;
+  border-radius:0 var(--radius) var(--radius) 0;font-size:.8125rem;margin-top:1.25rem;
+}
+.steps ol{margin:.5rem 0 0;padding-left:1.1rem}
+.steps li{margin-bottom:.35rem}
+.steps code{font-family:var(--f-code);font-size:.95em;background:var(--paper);padding:.1rem .3rem;border-radius:3px}
+
+.preview{border:1px solid var(--hairline);border-radius:var(--radius);padding:1rem;margin-top:1.25rem}
+.preview__p{
+  width:54px;aspect-ratio:2/3;border-radius:3px;position:relative;overflow:hidden;
+  background:linear-gradient(155deg,hsl(var(--h) 42% 26%),hsl(var(--h) 30% 9%));
+  display:flex;align-items:flex-end;padding:8%;
+}
+.preview__p::after{content:"";position:absolute;left:8%;right:8%;bottom:0;height:3px;background:var(--red)}
+.preview__p span{
+  font-family:var(--f-display);font-variation-settings:"wdth" 80;font-weight:800;
+  color:#fff;font-size:.5rem;line-height:1;position:relative;padding-bottom:.3rem;
+}
+.hue{display:flex;align-items:center;gap:1rem}
+.hue input[type=range]{flex:1;accent-color:var(--red)}
+
+.toast{
+  position:fixed;left:50%;bottom:calc(1.5rem + env(safe-area-inset-bottom,0px));transform:translateX(-50%);
+  background:var(--ink);color:var(--paper);padding:.6rem 1.1rem;border-radius:999px;
+  font-size:.8125rem;font-weight:600;opacity:0;pointer-events:none;transition:opacity .2s;z-index:80;
+}
+.toast.show{opacity:1}
+[hidden]{display:none !important}
+</style>
+</head>
+<body>
+
+<div class="bar">
+  <div class="bar__in">
+    <span class="logo">Content Studio <i>●</i></span>
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-tab="franchise">Franchise</button>
+      <button role="tab" aria-selected="false" data-tab="post">Blog post</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ FRANCHISE ============ -->
+<div class="page" id="tab-franchise">
+  <h1>Add a franchise</h1>
+  <p class="lede">Fill this in, drag the chronological order into shape, then copy the block at the bottom into your site file. No code to write.</p>
+
+  <div class="cols">
+    <div>
+      <fieldset>
+        <legend>The basics</legend>
+        <div class="field">
+          <label for="fTitle">Franchise name</label>
+          <input type="text" id="fTitle" placeholder="Jurassic Park">
+        </div>
+        <div class="field">
+          <label for="fShort">Subtitle <span class="hint">— shows under the poster on the homepage</span></label>
+          <input type="text" id="fShort" placeholder="Including the Jurassic World films">
+        </div>
+        <div class="field">
+          <label for="fBlurb">Intro paragraph <span class="hint">— one or two sentences at the top of the page</span></label>
+          <textarea id="fBlurb" placeholder="What makes this franchise's order interesting?"></textarea>
+        </div>
+        <div class="field">
+          <label for="fNote">Worth knowing <span class="hint">— optional caveat in the red box at the bottom</span></label>
+          <textarea id="fNote" placeholder="Anything a viewer should know before starting."></textarea>
+        </div>
+        <div class="field">
+          <label for="fHue">Poster colour</label>
+          <div class="hue">
+            <div class="preview__p" id="huePreview" style="--h:352"><span id="hueLabel">Title</span></div>
+            <input type="range" id="fHue" min="0" max="359" value="352">
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Films, in release order</legend>
+        <ul class="films" id="filmList"></ul>
+        <button class="btn btn--ghost" id="addFilm" style="margin-top:.85rem">Add a film</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Chronological order</legend>
+        <p style="font-size:.8125rem;color:var(--graphite);margin:-.35rem 0 1rem">
+          Same films, moved into the order the story happens. Use the arrows.
+        </p>
+        <ul class="chrono" id="chronoList"></ul>
+        <button class="btn btn--ghost btn--tiny" id="resetChrono" style="margin-top:.85rem">Match release order</button>
+      </fieldset>
+    </div>
+
+    <div>
+      <div class="panel">
+        <div class="panel__top">
+          <h2>Copy this into your site</h2>
+          <button class="btn btn--tiny" id="copyF">Copy</button>
+        </div>
+        <pre id="outF">Start typing on the left.</pre>
+      </div>
+      <div class="steps">
+        <strong>Where it goes</strong>
+        <ol>
+          <li>Open <code>index.html</code>.</li>
+          <li>Find the line that reads <code>const FRANCHISES = [</code>.</li>
+          <li>Scroll to the matching <code>];</code> below it.</li>
+          <li>Paste the block just above that <code>];</code>, leaving a comma after the entry before it.</li>
+          <li>Save. The new franchise appears in search and on the list page.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ POST ============ -->
+<div class="page" id="tab-post" hidden>
+  <h1>Write a blog post</h1>
+  <p class="lede">One paragraph per line. Blank lines are ignored.</p>
+
+  <div class="cols">
+    <div>
+      <fieldset>
+        <legend>The post</legend>
+        <div class="field">
+          <label for="pTitle">Headline</label>
+          <input type="text" id="pTitle" placeholder="Why Tokyo Drift sits sixth">
+        </div>
+        <div class="row2">
+          <div class="field">
+            <label for="pDate">Date</label>
+            <input type="date" id="pDate">
+          </div>
+          <div class="field">
+            <label for="pSlug">Web address <span class="hint">— auto</span></label>
+            <input type="text" id="pSlug" readonly>
+          </div>
+        </div>
+        <div class="field">
+          <label for="pStand">Standfirst <span class="hint">— the one-line summary under the headline</span></label>
+          <textarea id="pStand" style="min-height:60px"></textarea>
+        </div>
+        <div class="field">
+          <label for="pBody">Body</label>
+          <textarea id="pBody" style="min-height:300px" placeholder="First paragraph.
+
+Second paragraph."></textarea>
+        </div>
+      </fieldset>
+    </div>
+    <div>
+      <div class="panel">
+        <div class="panel__top">
+          <h2>Copy this into your site</h2>
+          <button class="btn btn--tiny" id="copyP">Copy</button>
+        </div>
+        <pre id="outP">Start typing on the left.</pre>
+      </div>
+      <div class="steps">
+        <strong>Where it goes</strong>
+        <ol>
+          <li>Open <code>index.html</code>.</li>
+          <li>Find <code>const POSTS = [</code>.</li>
+          <li>Paste the block straight after that line, so the newest post is first.</li>
+          <li>Add a comma after it. Save.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast">Copied</div>
+
+<script>
+/* ---------- utilities ---------- */
+const $ = s => document.querySelector(s);
+const q = s => JSON.stringify(s || "");
+const slugify = t => (t||"").toLowerCase().trim()
+  .replace(/['’"]/g,"").replace(/&/g," and ")
+  .replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+
+function toast(msg){
+  const el = $("#toast");
+  el.textContent = msg;
+  el.classList.add("show");
+  clearTimeout(el._t);
+  el._t = setTimeout(()=>el.classList.remove("show"), 1600);
+}
+
+function copyFrom(sel){
+  const text = $(sel).textContent;
+  navigator.clipboard?.writeText(text)
+    .then(()=>toast("Copied"))
+    .catch(()=>{
+      const r = document.createRange();
+      r.selectNodeContents($(sel));
+      const s = getSelection(); s.removeAllRanges(); s.addRange(r);
+      toast("Select all and copy");
+    });
+}
+
+const draft = {
+  save(key,val){ try{ localStorage.setItem("studio:"+key, JSON.stringify(val)); }catch(e){} },
+  load(key,fb){ try{ const v = localStorage.getItem("studio:"+key); return v ? JSON.parse(v) : fb; }catch(e){ return fb; } }
+};
+
+/* ---------- tabs ---------- */
+document.querySelectorAll(".tabs button").forEach(b => {
+  b.addEventListener("click", () => {
+    document.querySelectorAll(".tabs button").forEach(x => x.setAttribute("aria-selected", String(x === b)));
+    $("#tab-franchise").hidden = b.dataset.tab !== "franchise";
+    $("#tab-post").hidden = b.dataset.tab !== "post";
+  });
+});
+
+/* ---------- franchise state ---------- */
+let films = draft.load("films", [
+  {id:1, t:"", y:"", set:""}
+]);
+let chrono = draft.load("chrono", films.map(f => f.id));
+let nextId = Math.max(0, ...films.map(f => f.id)) + 1;
+
+function syncChrono(){
+  const ids = films.map(f => f.id);
+  chrono = chrono.filter(id => ids.includes(id));
+  ids.forEach(id => { if(!chrono.includes(id)) chrono.push(id); });
+}
+
+function renderFilms(){
+  const ul = $("#filmList");
+  ul.innerHTML = films.map((f,i) => `
+    <li class="film" data-i="${i}">
+      <input type="text" value="${(f.t||"").replace(/"/g,"&quot;")}" placeholder="Film title" data-k="t">
+      <input type="number" value="${f.y||""}" placeholder="Year" data-k="y">
+      <input type="text" value="${(f.set||"").replace(/"/g,"&quot;")}" placeholder="Set in…" data-k="set">
+      <button class="film__x" data-del="${i}" aria-label="Remove this film" ${films.length<2?"disabled":""}>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </li>`).join("");
+
+  ul.querySelectorAll("input").forEach(inp => {
+    inp.addEventListener("input", e => {
+      const i = +e.target.closest(".film").dataset.i;
+      films[i][e.target.dataset.k] = e.target.value;
+      renderChrono(); render();
+    });
+  });
+  ul.querySelectorAll("[data-del]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      films.splice(+btn.dataset.del, 1);
+      syncChrono(); renderFilms(); renderChrono(); render();
+    });
+  });
+}
+
+function renderChrono(){
+  syncChrono();
+  const ul = $("#chronoList");
+  ul.innerHTML = chrono.map((id, ci) => {
+    const f = films.find(x => x.id === id);
+    const ri = films.findIndex(x => x.id === id);
+    const label = f.t || "(untitled film)";
+    return `<li>
+      <span>${label.replace(/</g,"&lt;")}${f.y ? ` <em style="color:var(--graphite);font-style:normal">${f.y}</em>` : ""}</span>
+      ${ri !== ci ? `<span class="moved">was #${ri+1}</span>` : ""}
+      <span class="arrows">
+        <button data-up="${ci}" ${ci===0?"disabled":""} aria-label="Move up">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="m5 15 7-7 7 7"/></svg>
+        </button>
+        <button data-down="${ci}" ${ci===chrono.length-1?"disabled":""} aria-label="Move down">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="m5 9 7 7 7-7"/></svg>
+        </button>
+      </span>
+    </li>`;
+  }).join("");
+
+  ul.querySelectorAll("[data-up]").forEach(b => b.addEventListener("click", () => move(+b.dataset.up, -1)));
+  ul.querySelectorAll("[data-down]").forEach(b => b.addEventListener("click", () => move(+b.dataset.down, 1)));
+}
+
+function move(i, d){
+  const j = i + d;
+  if(j < 0 || j >= chrono.length) return;
+  [chrono[i], chrono[j]] = [chrono[j], chrono[i]];
+  renderChrono(); render();
+}
+
+/* ---------- franchise output ---------- */
+function render(){
+  const title = $("#fTitle").value.trim();
+  const hue = $("#fHue").value;
+  $("#huePreview").style.setProperty("--h", hue);
+  $("#hueLabel").textContent = title ? title.slice(0,18) : "Title";
+
+  draft.save("films", films);
+  draft.save("chrono", chrono);
+  ["fTitle","fShort","fBlurb","fNote","fHue"].forEach(k => draft.save(k, $("#"+k).value));
+
+  const usable = films.filter(f => f.t.trim());
+  if(!title || !usable.length){
+    $("#outF").textContent = "Add a franchise name and at least one film.";
+    return;
+  }
+
+  const key = f => {
+    const base = slugify(f.t).split("-").slice(0,2).join("") || "film";
+    return /^[0-9]/.test(base) ? "f" + base : base;
+  };
+  const seen = {};
+  const keyOf = {};
+  usable.forEach(f => {
+    let k = key(f);
+    if(seen[k]) k += (++seen[k]); else seen[k] = 1;
+    keyOf[f.id] = k;
+  });
+
+  const filmLines = usable.map(f =>
+    `      ${keyOf[f.id]}:{t:${q(f.t.trim())},y:${+f.y || 0},set:${q(f.set.trim())}}`
+  ).join(",\n");
+
+  const rel = usable.map(f => q(keyOf[f.id])).join(",");
+  const chr = chrono.filter(id => keyOf[id]).map(id => q(keyOf[id])).join(",");
+
+  const note = $("#fNote").value.trim();
+
+  $("#outF").textContent =
+`  {
+    slug:${q(slugify(title))}, title:${q(title)}, short:${q($("#fShort").value.trim())}, hue:${hue},
+    blurb:${q($("#fBlurb").value.trim())},
+    films:{
+${filmLines}
+    },
+    release:[${rel}],
+    chrono:[${chr}]${note ? `,\n    note:${q(note)}` : ""}
+  },`;
+}
+
+/* ---------- blog output ---------- */
+function renderPost(){
+  const title = $("#pTitle").value.trim();
+  const slug = slugify(title);
+  $("#pSlug").value = slug;
+  ["pTitle","pDate","pStand","pBody"].forEach(k => draft.save(k, $("#"+k).value));
+
+  const paras = $("#pBody").value.split(/\n\s*\n|\n/).map(s => s.trim()).filter(Boolean);
+  if(!title || !paras.length){
+    $("#outP").textContent = "Add a headline and some body text.";
+    return;
+  }
+  $("#outP").textContent =
+`  {
+    slug:${q(slug)},
+    title:${q(title)},
+    date:${q($("#pDate").value || new Date().toISOString().slice(0,10))},
+    standfirst:${q($("#pStand").value.trim())},
+    body:[
+${paras.map(p => "      " + q(p)).join(",\n")}
+    ]
+  },`;
+}
+
+/* ---------- wiring ---------- */
+$("#addFilm").addEventListener("click", () => {
+  films.push({id: nextId++, t:"", y:"", set:""});
+  syncChrono(); renderFilms(); renderChrono(); render();
+  $("#filmList").lastElementChild.querySelector("input").focus();
+});
+$("#resetChrono").addEventListener("click", () => {
+  chrono = films.map(f => f.id);
+  renderChrono(); render();
+});
+["fTitle","fShort","fBlurb","fNote","fHue"].forEach(k => {
+  const el = $("#"+k);
+  el.value = draft.load(k, el.value);
+  el.addEventListener("input", render);
+});
+["pTitle","pDate","pStand","pBody"].forEach(k => {
+  const el = $("#"+k);
+  el.value = draft.load(k, el.value);
+  el.addEventListener("input", renderPost);
+});
+$("#copyF").addEventListener("click", () => copyFrom("#outF"));
+$("#copyP").addEventListener("click", () => copyFrom("#outP"));
+
+if(!$("#pDate").value) $("#pDate").value = new Date().toISOString().slice(0,10);
+nextId = Math.max(0, ...films.map(f => f.id)) + 1;
+renderFilms(); renderChrono(); render(); renderPost();
+</script>
+</body>
+</html>

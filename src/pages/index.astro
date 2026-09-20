@@ -1,0 +1,114 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import { FRANCHISES } from '../data/franchises.js';
+import { POSTS } from '../data/posts.js';
+
+const trending = FRANCHISES.slice(0, 8);
+// Small index so the search box can match film titles too, without shipping all the data.
+const index = FRANCHISES.map(f => ({
+  s: f.slug, t: f.title, d: f.short, n: f.release.length, h: f.hue,
+  k: Object.values(f.films).map(m => m.t).join(' ').toLowerCase()
+}));
+const fmt = d => new Date(d + 'T00:00:00').toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' });
+---
+<Base description="Every film franchise laid out twice — the order they came out, and the order they happen. Find the right watch order in seconds.">
+  <section class="hero">
+    <div class="wrap">
+      <h1>What order do<br>I watch these in?</h1>
+      <p>Every franchise, laid out twice — the order they came out, and the order they happen.</p>
+
+      <div class="search">
+        <label class="sr" for="q">Search for a franchise</label>
+        <div class="search__field">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="q" type="search" autocomplete="off" placeholder="Search for a franchise" role="combobox" aria-controls="results" aria-expanded="false">
+          <button class="search__clear" id="qClear" hidden aria-label="Clear search">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+        <div class="results" id="results" role="listbox"></div>
+      </div>
+
+      <div class="quick">
+        <span>Popular right now:</span>
+        {FRANCHISES.slice(0,4).map(f => <a href={`/${f.slug}/`}>{f.title}</a>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint">
+    <div class="wrap">
+      <div class="section__head">
+        <h2>Trending franchises</h2>
+        <a href="/franchises/">See all {FRANCHISES.length}</a>
+      </div>
+      <div class="grid">{trending.map(f => <Card f={f} />)}</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section__head">
+        <h2>From the blog</h2>
+        <a href="/blog/">All posts</a>
+      </div>
+      <ul class="posts">
+        {POSTS.slice(0,3).map(p => (
+          <li><a class="post-link" href={`/blog/${p.slug}/`}>
+            <time datetime={p.date}>{fmt(p.date)}</time>
+            <h3>{p.title}</h3>
+            <p>{p.standfirst}</p>
+          </a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <script is:inline define:vars={{ index }}>
+    (function(){
+      const input = document.getElementById('q');
+      const box = document.getElementById('results');
+      const clear = document.getElementById('qClear');
+      let active = -1;
+
+      function run(){
+        const q = input.value.trim().toLowerCase();
+        clear.hidden = !q;
+        active = -1;
+        if(!q){ box.innerHTML = ''; input.setAttribute('aria-expanded','false'); return; }
+        input.setAttribute('aria-expanded','true');
+        const hits = index.filter(f =>
+          (f.t + ' ' + f.d + ' ' + f.k).toLowerCase().includes(q)).slice(0,6);
+        if(!hits.length){
+          box.innerHTML = '<p class="results__none">No franchise matches that yet. <a href="/franchises/" style="color:var(--red)">Browse everything</a>.</p>';
+          return;
+        }
+        box.innerHTML = hits.map(f =>
+          '<a class="result" href="/' + f.s + '/" role="option">' +
+            '<div class="poster" style="--h:' + f.h + '" aria-hidden="true"><span class="poster__t">' +
+              f.t.replace(/</g,'&lt;').slice(0,14) + '</span></div>' +
+            '<span><strong>' + f.t.replace(/</g,'&lt;') + '</strong>' +
+            '<span>' + f.n + ' films · ' + f.d.replace(/</g,'&lt;') + '</span></span>' +
+          '</a>').join('');
+      }
+
+      input.addEventListener('input', run);
+      clear.addEventListener('click', () => { input.value=''; run(); input.focus(); });
+      input.addEventListener('keydown', e => {
+        const items = [...box.querySelectorAll('.result')];
+        if((e.key === 'ArrowDown' || e.key === 'ArrowUp') && items.length){
+          e.preventDefault();
+          active = e.key === 'ArrowDown'
+            ? (active + 1) % items.length
+            : (active - 1 + items.length) % items.length;
+          items.forEach((el,i) => el.classList.toggle('is-active', i === active));
+          items[active].scrollIntoView({ block:'nearest' });
+        }
+        if(e.key === 'Enter' && active > -1 && items[active]){ e.preventDefault(); items[active].click(); }
+        if(e.key === 'Escape'){ input.value=''; run(); }
+      });
+      document.addEventListener('click', e => { if(!e.target.closest('.search')) box.innerHTML = ''; });
+    })();
+  </script>
+</Base>
