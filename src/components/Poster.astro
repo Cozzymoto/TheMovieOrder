@@ -1,7 +1,16 @@
 ---
-const { hue, label, mark = null, style = '' } = Astro.props;
+/* The coloured tile is always drawn. When a TMDB poster exists it sits on
+   top; if that image ever fails to load, it removes itself and the tile
+   underneath shows through instead of a broken-image icon. */
+const { hue, label, mark = null, poster = null, size = 'w342', eager = false } = Astro.props;
+const src = poster ? `https://image.tmdb.org/t/p/${size}${poster}` : null;
 ---
-<div class="poster" style={`--h:${hue};${style}`} aria-hidden="true">
+<div class="poster" style={`--h:${hue}`} aria-hidden="true">
   {mark && <span class="poster__mark">{mark}</span>}
   <span class="poster__t">{label}</span>
+  {src && (
+    <img class="poster__img" src={src} alt="" width={size === 'w154' ? 154 : 342}
+         height={size === 'w154' ? 231 : 513} loading={eager ? 'eager' : 'lazy'} decoding="async"
+         onerror="this.remove()" />
+  )}
 </div>

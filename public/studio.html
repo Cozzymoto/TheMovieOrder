@@ -195,13 +195,46 @@ pre{
   <div class="cols">
     <div>
       <fieldset>
+        <legend>Import from TMDB</legend>
+        <p style="font-size:.8125rem;color:var(--graphite);margin:-.35rem 0 .85rem">
+          Pulls titles, years and posters automatically. Your key is stored in this browser only — it never goes near the repository.
+        </p>
+        <div class="field">
+          <label for="tmdbKey">TMDB API key <span class="hint">— free from themoviedb.org &rarr; Settings &rarr; API</span></label>
+          <input type="text" id="tmdbKey" placeholder="Paste your key" autocomplete="off" spellcheck="false">
+        </div>
+        <div class="field">
+          <label for="tmdbQ">Franchise to look up</label>
+          <div style="display:flex;gap:.5rem">
+            <input type="text" id="tmdbQ" placeholder="Gladiator" autocomplete="off">
+            <button class="btn" id="tmdbGo" style="flex:none">Search</button>
+          </div>
+        </div>
+        <div id="tmdbOut"></div>
+      </fieldset>
+
+      <fieldset>
         <legend>Start from</legend>
         <p style="font-size:.8125rem;color:var(--graphite);margin:-.35rem 0 .85rem">
           Fixing a mistake? Open the franchise's existing <code>.json</code> file, change what's wrong, download it again.
         </p>
+        <div class="field">
+          <label for="pick">Load one of your franchises <span class="hint">— posters found so far in brackets</span></label>
+          <div style="display:flex;gap:.5rem">
+            <select id="pick"><option value="">Loading list…</option></select>
+            <button class="btn" id="pickGo" style="flex:none">Load</button>
+          </div>
+        </div>
         <input type="file" id="openFile" accept=".json,application/json" hidden>
-        <button class="btn btn--ghost" id="openBtn">Open an existing card</button>
+        <button class="btn btn--ghost" id="openBtn">Open a file instead</button>
         <button class="btn btn--ghost" id="blankBtn" style="margin-left:.4rem">Start blank</button>
+        <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid var(--hairline)">
+          <button class="btn" id="postersBtn">Add missing posters from TMDB</button>
+          <p style="font-size:.8125rem;color:var(--graphite);margin:.5rem 0 0">
+            Fills in posters only. Your film list, chronological order and notes are never touched, and posters you've already chosen are kept.
+          </p>
+          <div id="postersOut"></div>
+        </div>
         <p id="openedAs" style="font-size:.8125rem;color:var(--red);font-weight:600;margin:.7rem 0 0" hidden></p>
       </fieldset>
 
@@ -260,12 +293,20 @@ pre{
         <pre id="outF">Start typing on the left.</pre>
         <p id="warn" hidden style="margin:0;padding:.7rem .9rem;background:var(--red);color:var(--on-red);font-size:.8125rem;font-weight:600"></p>
       </div>
+      <div class="panel" style="margin-top:1rem;position:static">
+        <div class="panel__top"><h2>Then, on GitHub</h2></div>
+        <div style="padding:1rem;display:grid;gap:.6rem">
+          <a class="btn" id="ghUpload" href="https://github.com/Cozzymoto/TheMovieOrder/upload/main/src/data/franchises" target="_blank" rel="noopener">Upload to GitHub →</a>
+          <a class="btn btn--ghost" id="viewLive" href="#" target="_blank" rel="noopener" hidden>View the live page →</a>
+          <button class="btn btn--ghost" id="ghDelete" hidden style="color:var(--red);border-color:var(--red)">Delete this franchise…</button>
+        </div>
+      </div>
       <div class="steps">
         <strong>Where it goes</strong>
         <ol>
           <li>Click <strong>Download</strong>. You get one file named after the franchise.</li>
-          <li>On GitHub, open <code>src</code> → <code>data</code> → <code>franchises</code>.</li>
-          <li><strong>Add file → Upload files</strong>, drag it in, commit.</li>
+          <li>Click <strong>Upload to GitHub</strong> — it opens the right folder for you.</li>
+          <li>Drag the file in and commit. Same name replaces the old version.</li>
           <li>That's it. The page builds itself. Nothing else to edit.</li>
         </ol>
         <p style="margin:.6rem 0 0">If anything is wrong, the build stops and names this file rather than publishing a broken page.</p>
@@ -454,6 +495,12 @@ function render(){
   $("#huePreview").style.setProperty("--h", hue);
   $("#hueLabel").textContent = title ? title.slice(0,18) : "Title";
 
+  // Buttons that belong to a loaded franchise. Runs before any early exit,
+  // so clearing the form always clears them too.
+  $("#viewLive").hidden = !window.__origSlug;
+  $("#ghDelete").hidden = !window.__origSlug;
+  if(window.__origSlug) $("#viewLive").href = "/" + window.__origSlug + "/";
+
   draft.save("films", films);
   draft.save("chrono", chrono);
   ["fTitle","fShort","fBlurb","fNote","fHue"].forEach(k => draft.save(k, $("#"+k).value));
@@ -461,6 +508,7 @@ function render(){
   const usable = films.filter(f => f.t.trim());
   if(!title || !usable.length){
     window.__card = null;
+    window.__slug = window.__origSlug || "";
     $("#fileName").textContent = "franchise.json";
     $("#outF").textContent = "Add a franchise name and at least one film.";
     return;
@@ -487,12 +535,17 @@ function render(){
     short: $("#fShort").value.trim(),
     hue: Number(hue),
     blurb: $("#fBlurb").value.trim(),
+    ...(window.__rank ? { rank: window.__rank } : {}),
+    ...(window.__poster ? { poster: window.__poster } : {}),
+    ...(window.__tmdbId ? { tmdb: window.__tmdbId } : {}),
     films: {},
     release: usable.map(f => keyOf[f.id]),
     chrono: chrono.filter(id => keyOf[id]).map(id => keyOf[id])
   };
   usable.forEach(f => {
-    card.films[keyOf[f.id]] = { t: f.t.trim(), y: +f.y || 0, set: f.set.trim() || "\u2014" };
+    const entry = { t: f.t.trim(), y: +f.y || 0, set: f.set.trim() || "\u2014" };
+    if(f.poster) entry.poster = f.poster;
+    card.films[keyOf[f.id]] = entry;
   });
   if(note) card.note = note;
 
@@ -505,7 +558,7 @@ function render(){
   }
 
   window.__card = card;
-  window.__slug = slugify(title);
+  window.__slug = window.__origSlug || slugify(title);
   $("#fileName").textContent = window.__slug + ".json";
   $("#outF").textContent = JSON.stringify(card, null, 2);
 }
@@ -567,15 +620,213 @@ $("#resetChrono").addEventListener("click", () => {
   el.value = draft.load(k, el.value);
   el.addEventListener("input", renderPost);
 });
+/* ---------- TMDB import ---------- */
+const TMDB = "https://api.themoviedb.org/3";
+
+function tmdbKey(){ return $("#tmdbKey").value.trim(); }
+
+async function tmdbGet(path){
+  const key = tmdbKey();
+  if(!key) throw new Error("Add your TMDB API key first.");
+  const url = TMDB + path + (path.includes("?") ? "&" : "?") + "api_key=" + encodeURIComponent(key);
+  const res = await fetch(url);
+  if(res.status === 401) throw new Error("TMDB rejected that key. Check you copied the API Key (v3 auth), not the Read Access Token.");
+  if(res.status === 429) throw new Error("TMDB rate limit hit. Wait a moment and try again.");
+  if(!res.ok) throw new Error("TMDB returned " + res.status + ".");
+  return res.json();
+}
+
+async function tmdbSearch(){
+  const q = $("#tmdbQ").value.trim();
+  const out = $("#tmdbOut");
+  if(!q){ out.innerHTML = ""; return; }
+  out.innerHTML = '<p style="font-size:.8125rem;color:var(--graphite)">Searching\u2026</p>';
+  try{
+    const data = await tmdbGet("/search/collection?query=" + encodeURIComponent(q));
+    const hits = (data.results || []).slice(0, 6);
+    if(!hits.length){
+      out.innerHTML = '<p style="font-size:.8125rem;color:var(--graphite)">No collection found. TMDB only groups films that share an official collection \u2014 you may need to add this one by hand.</p>';
+      return;
+    }
+    out.innerHTML = hits.map(c =>
+      '<button class="btn btn--ghost" style="display:block;width:100%;text-align:left;margin-bottom:.4rem" data-cid="' + c.id + '">' +
+        '<strong>' + String(c.name).replace(/</g,"&lt;") + '</strong>' +
+        '<span style="display:block;font-weight:400;color:var(--graphite);font-size:.75rem">TMDB id ' + c.id + '</span>' +
+      '</button>').join("");
+    out.querySelectorAll("[data-cid]").forEach(b =>
+      b.addEventListener("click", () => tmdbImport(b.dataset.cid)));
+  }catch(err){
+    out.innerHTML = '<p style="font-size:.8125rem;color:var(--red);font-weight:600"></p>';
+    out.querySelector("p").textContent = err.message;
+  }
+}
+
+async function tmdbImport(id){
+  const out = $("#tmdbOut");
+  const hasWork = films.some(f => f.t.trim());
+  if(hasWork && !confirm("This replaces every film in the current card and resets the chronological order.\n\nTo add posters to a franchise you've already sorted, use \"Add missing posters\" instead.\n\nReplace anyway?")) return;
+  window.__origSlug = null; window.__rank = null;
+  out.innerHTML = '<p style="font-size:.8125rem;color:var(--graphite)">Loading films\u2026</p>';
+  try{
+    const c = await tmdbGet("/collection/" + id);
+    const parts = (c.parts || [])
+      .filter(m => m.release_date && m.release_date <= new Date().toISOString().slice(0,10)) // released films only
+      .sort((a,b) => a.release_date.localeCompare(b.release_date));
+
+    if(!parts.length){ out.innerHTML = '<p style="font-size:.8125rem;color:var(--red)">That collection has no released films.</p>'; return; }
+
+    $("#fTitle").value = String(c.name || "").replace(/\s+Collection$/i, "");
+    if(!$("#fShort").value.trim()) $("#fShort").value = parts.length + " films";
+    window.__poster = c.poster_path || null;
+    window.__tmdbId = Number(id);
+
+    films = parts.map((m, i) => ({
+      id: i + 1, t: m.title || "", y: Number(String(m.release_date).slice(0,4)) || "",
+      set: "", poster: m.poster_path || null
+    }));
+    nextId = films.length + 1;
+    chrono = films.map(f => f.id);
+
+    $("#openedAs").hidden = false;
+    $("#openedAs").textContent = "Imported " + parts.length + " films from TMDB. Now set the chronological order and write the intro \u2014 TMDB can't supply either.";
+    renderFilms(); renderChrono(); render();
+    out.innerHTML = "";
+    toast("Imported " + parts.length + " films");
+  }catch(err){
+    out.innerHTML = '<p style="font-size:.8125rem;color:var(--red);font-weight:600"></p>';
+    out.querySelector("p").textContent = err.message;
+  }
+}
+
+/* ---------- posters only ---------- */
+async function addPosters(){
+  const out = $("#postersOut");
+  const todo = films.filter(f => f.t.trim() && !f.poster);
+  if(!films.some(f => f.t.trim())){ toast("Load a franchise first"); return; }
+  if(!todo.length){ out.innerHTML = '<p style="font-size:.8125rem;color:var(--graphite);margin:.6rem 0 0">Every film already has a poster.</p>'; return; }
+
+  const btn = $("#postersBtn");
+  btn.disabled = true;
+  const found = [], missed = [];
+  try{
+    for(let i = 0; i < todo.length; i++){
+      const f = todo[i];
+      btn.textContent = "Looking up " + (i + 1) + " of " + todo.length + "\u2026";
+      const q = "/search/movie?query=" + encodeURIComponent(f.t);
+      // the year matters: there are three different films called "Halloween"
+      let data = f.y ? await tmdbGet(q + "&primary_release_year=" + f.y) : await tmdbGet(q);
+      if(f.y && !(data.results || []).length) data = await tmdbGet(q + "&year=" + f.y);
+      const hit = (data.results || []).find(r => r.poster_path);
+      if(hit){ f.poster = hit.poster_path; found.push(f.t); }
+      else missed.push(f.t + (f.y ? " (" + f.y + ")" : ""));
+    }
+  }catch(err){
+    out.innerHTML = '<p style="font-size:.8125rem;color:var(--red);font-weight:600;margin:.6rem 0 0"></p>';
+    out.querySelector("p").textContent = err.message;
+    btn.disabled = false; btn.textContent = "Add missing posters from TMDB";
+    renderFilms(); render();
+    return;
+  }
+
+  if(!window.__poster){
+    const first = films.find(f => f.poster);
+    if(first) window.__poster = first.poster;
+  }
+  btn.disabled = false; btn.textContent = "Add missing posters from TMDB";
+  renderFilms(); render();
+
+  out.innerHTML = '<p style="font-size:.8125rem;margin:.6rem 0 0"></p>';
+  out.querySelector("p").textContent =
+    "Added " + found.length + " poster" + (found.length === 1 ? "" : "s") + "." +
+    (missed.length ? " Not found: " + missed.join(", ") + " \u2014 those keep the coloured tile." : " Nothing missed.") +
+    " Download and upload to publish.";
+}
+
+async function loadFranchiseList(){
+  const sel = $("#pick");
+  try{
+    const res = await fetch("/franchises-index.json", {cache:"no-store"});
+    if(!res.ok) throw new Error();
+    const list = await res.json();
+    sel.innerHTML = '<option value="">Choose a franchise\u2026</option>' + list.map(f =>
+      '<option value="' + f.slug + '">' + String(f.title).replace(/</g,"&lt;") +
+      " (" + f.posters + "/" + f.films + ")" + '</option>').join("");
+  }catch(err){
+    sel.innerHTML = '<option value="">List unavailable \u2014 open this page on themovieorder.com</option>';
+  }
+}
+
+async function loadFromSite(){
+  const slug = $("#pick").value;
+  if(!slug){ toast("Choose a franchise first"); return; }
+  if(films.some(f => f.t.trim()) && !confirm("Replace what's in the form with " + slug + "?")) return;
+  try{
+    const res = await fetch("https://raw.githubusercontent.com/Cozzymoto/TheMovieOrder/main/src/data/franchises/" + slug + ".json", {cache:"no-store"});
+    if(!res.ok) throw new Error("GitHub returned " + res.status);
+    applyCard(await res.json(), slug, slug + ".json");
+    $("#postersOut").innerHTML = "";
+  }catch(err){
+    toast("Couldn't load " + slug + ": " + err.message);
+  }
+}
+
+$("#ghDelete").addEventListener("click", () => {
+  const slug = window.__origSlug;
+  if(!slug) return;
+  const ok = confirm("Delete " + slug + ".json?\n\nThis opens GitHub's delete page for that one file. " +
+    "Nothing is removed until you confirm there. The page disappears from your site about two minutes later, " +
+    "and you can restore it from the file's history at any time.");
+  if(ok) window.open("https://github.com/Cozzymoto/TheMovieOrder/delete/main/src/data/franchises/" + slug + ".json", "_blank", "noopener");
+});
+
+$("#postersBtn").addEventListener("click", addPosters);
+$("#pickGo").addEventListener("click", loadFromSite);
+loadFranchiseList();
+
+$("#tmdbGo").addEventListener("click", tmdbSearch);
+$("#tmdbQ").addEventListener("keydown", e => { if(e.key === "Enter"){ e.preventDefault(); tmdbSearch(); } });
+$("#tmdbKey").value = draft.load("tmdbKey", "");
+$("#tmdbKey").addEventListener("input", () => draft.save("tmdbKey", $("#tmdbKey").value));
+
 $("#openBtn").addEventListener("click", () => $("#openFile").click());
 $("#blankBtn").addEventListener("click", () => {
   if(!confirm("Clear the form and start a new franchise?")) return;
   films = [{id:1, t:"", y:"", set:""}];
   chrono = [1]; nextId = 2;
+  window.__poster = null; window.__tmdbId = null; window.__rank = null; window.__origSlug = null;
   ["fTitle","fShort","fBlurb","fNote"].forEach(k => $("#"+k).value = "");
   $("#openedAs").hidden = true;
   renderFilms(); renderChrono(); render();
 });
+function applyCard(card, slug, label){
+  if(!card || !card.films || !card.release || !card.chrono){ toast("That doesn't look like a franchise card"); return; }
+
+  $("#fTitle").value = card.title || "";
+  $("#fShort").value = card.short || "";
+  $("#fBlurb").value = card.blurb || "";
+  $("#fNote").value  = card.note  || "";
+  $("#fHue").value   = card.hue ?? 352;
+  window.__poster   = card.poster || null;
+  window.__tmdbId   = card.tmdb || null;
+  window.__rank     = card.rank || null;
+  window.__origSlug = slug || null;    // re-save under the SAME filename, never a new one
+
+  const byKey = {};
+  films = card.release.map((k, i) => {
+    const m = card.films[k] || {t:"",y:"",set:""};
+    const row = { id: i + 1, key: k, t: m.t || "", y: m.y || "", set: m.set || "", poster: m.poster || null };
+    byKey[k] = row.id;
+    return row;
+  });
+  nextId = films.length + 1;
+  chrono = card.chrono.map(k => byKey[k]).filter(Boolean);
+
+  $("#openedAs").hidden = false;
+  $("#openedAs").textContent = "Editing " + (slug ? slug + ".json" : label) + " \u2014 download when done and upload it over the original.";
+  renderFilms(); renderChrono(); render();
+  toast("Loaded " + (card.title || label));
+}
+
 $("#openFile").addEventListener("change", e => {
   const file = e.target.files[0];
   if(!file) return;
@@ -584,29 +835,7 @@ $("#openFile").addEventListener("change", e => {
     let card;
     try{ card = JSON.parse(r.result); }
     catch(err){ toast("That file isn't valid JSON"); return; }
-    if(!card.films || !card.release || !card.chrono){ toast("That doesn't look like a franchise card"); return; }
-
-    $("#fTitle").value = card.title || "";
-    $("#fShort").value = card.short || "";
-    $("#fBlurb").value = card.blurb || "";
-    $("#fNote").value  = card.note  || "";
-    $("#fHue").value   = card.hue ?? 352;
-
-    // rebuild the film rows in release order, keeping each film's original key
-    const byKey = {};
-    films = card.release.map((k, i) => {
-      const m = card.films[k] || {t:"",y:"",set:""};
-      const row = { id: i + 1, key: k, t: m.t || "", y: m.y || "", set: m.set || "" };
-      byKey[k] = row.id;
-      return row;
-    });
-    nextId = films.length + 1;
-    chrono = card.chrono.map(k => byKey[k]).filter(Boolean);
-
-    $("#openedAs").hidden = false;
-    $("#openedAs").textContent = "Editing " + file.name + " — download when you're done and upload it over the original.";
-    renderFilms(); renderChrono(); render();
-    toast("Opened " + file.name);
+    applyCard(card, file.name.replace(/\.json$/i, ""), file.name);
   };
   r.readAsText(file);
   e.target.value = "";

@@ -3,7 +3,7 @@ import Poster from './Poster.astro';
 const { f } = Astro.props;
 ---
 <a class="card" href={`/${f.slug}/`}>
-  <Poster hue={f.hue} label={f.title} mark={`${f.release.length} films`} />
+  <Poster hue={f.hue} label={f.title} mark={`${f.release.length} films`} poster={f.poster} />
   <h3>{f.title}</h3>
   <p>{f.short}</p>
 </a>

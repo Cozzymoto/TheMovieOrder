@@ -11,7 +11,8 @@ import { glob } from 'astro/loaders';
 const film = z.object({
   t: z.string().min(1, 'film needs a title'),
   y: z.number().int().min(1880).max(2100),
-  set: z.string().min(1, 'film needs a "set" note — use "—" if there is nothing useful to say')
+  set: z.string().min(1, 'film needs a "set" note — use "—" if there is nothing useful to say'),
+  poster: z.string().regex(/^(https?:\/\/|\/)/, 'poster must be a TMDB path (/abc.jpg), your own file (/img/name.jpg), or a full https address').optional()
 });
 
 const franchises = defineCollection({
@@ -22,6 +23,8 @@ const franchises = defineCollection({
     hue: z.number().int().min(0).max(359),
     blurb: z.string().min(1),
     rank: z.number().int().positive().optional(),
+    poster: z.string().regex(/^(https?:\/\/|\/)/).optional(),
+    tmdb: z.number().int().positive().optional(),
     films: z.record(film).refine(o => Object.keys(o).length > 0, 'needs at least one film'),
     release: z.array(z.string()).min(1),
     chrono: z.array(z.string()).min(1),

@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import { allFranchises } from '../lib/franchise.js';
+const popular = (await allFranchises()).slice(0, 4);
 const {
   title,
   description = 'The right order to watch every film franchise. Release order or in-universe chronology, side by side.',
@@ -69,13 +71,11 @@ const full = title ? `${title} — Order of Movies` : 'Order of Movies — franc
       <div>
         <h4>Popular paths</h4>
         <ul>
-          <li><a href="/marvel-cinematic-universe/">Marvel Cinematic Universe</a></li>
-          <li><a href="/star-wars/">Star Wars</a></li>
-          <li><a href="/x-men/">X-Men</a></li>
-          <li><a href="/the-conjuring-universe/">The Conjuring Universe</a></li>
+          {popular.map(f => <li><a href={`/${f.slug}/`}>{f.title}</a></li>)}
         </ul>
       </div>
     </div>
+    <p class="credit">Film data and posters from <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a>. This product uses the TMDb API but is not endorsed or certified by TMDb.</p>
     <div class="foot__legal">
       <span>&copy; {new Date().getFullYear()} Order of Movies</span>
       <span>Some links earn us a commission. It never changes what we recommend or what you pay.</span>

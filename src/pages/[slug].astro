@@ -69,7 +69,7 @@ const jsonld = {
             return (
               <li class="row" data-id={id} data-watched="false">
                 <div class="row__n">{i + 1}</div>
-                <Poster hue={f.hue} label={shortTitle(m.t)} />
+                <Poster hue={f.hue} label={shortTitle(m.t)} poster={m.poster} size="w154" />
                 <div class="row__body">
                   <h3 class="row__t">{m.t} <span class="row__y">{m.y}</span></h3>
                   <p class="row__meta">
