@@ -183,6 +183,7 @@ pre{
     <div class="tabs" role="tablist">
       <button role="tab" aria-selected="true" data-tab="franchise">Franchise</button>
       <button role="tab" aria-selected="false" data-tab="post">Blog post</button>
+      <button role="tab" aria-selected="false" data-tab="trending">Trending</button>
     </div>
   </div>
 </div>
@@ -318,11 +319,24 @@ pre{
 
 <!-- ============ POST ============ -->
 <div class="page" id="tab-post" hidden>
-  <h1>Write a blog post</h1>
-  <p class="lede">One paragraph per line. Blank lines are ignored.</p>
+  <h1>Blog posts</h1>
+  <p class="lede">Every post is its own file. Write or load one, download it, upload it. Same routine as franchises.</p>
 
   <div class="cols">
     <div>
+      <fieldset>
+        <legend>Start from</legend>
+        <div class="field">
+          <label for="postPick">Load one of your posts</label>
+          <div style="display:flex;gap:.5rem">
+            <select id="postPick"><option value="">Loading list…</option></select>
+            <button class="btn" id="postPickGo" style="flex:none">Load</button>
+          </div>
+        </div>
+        <button class="btn btn--ghost" id="postBlank">Start a new post</button>
+        <p id="postOpened" style="font-size:.8125rem;color:var(--red);font-weight:600;margin:.7rem 0 0" hidden></p>
+      </fieldset>
+
       <fieldset>
         <legend>The post</legend>
         <div class="field">
@@ -335,7 +349,7 @@ pre{
             <input type="date" id="pDate">
           </div>
           <div class="field">
-            <label for="pSlug">Web address <span class="hint">— auto</span></label>
+            <label for="pSlug">Web address <span class="hint">— set once, never changes</span></label>
             <input type="text" id="pSlug" readonly>
           </div>
         </div>
@@ -344,29 +358,79 @@ pre{
           <textarea id="pStand" style="min-height:60px"></textarea>
         </div>
         <div class="field">
-          <label for="pBody">Body</label>
+          <label for="pBody">Body <span class="hint">— one paragraph per line. **bold**, *italic*, [link](https://…) and ## Heading all work</span></label>
           <textarea id="pBody" style="min-height:300px" placeholder="First paragraph.
-
 Second paragraph."></textarea>
+        </div>
+        <label style="display:flex;gap:.5rem;align-items:center;font-weight:500">
+          <input type="checkbox" id="pDraft"> Draft — keep it off the site for now
+        </label>
+      </fieldset>
+    </div>
+    <div>
+      <div class="panel">
+        <div class="panel__top">
+          <h2>Save as <code id="postFile" style="font-family:var(--f-code)">post.md</code></h2>
+          <span style="display:flex;gap:.4rem">
+            <button class="btn btn--tiny" id="downloadP">Download</button>
+            <button class="btn btn--ghost btn--tiny" id="copyP">Copy</button>
+          </span>
+        </div>
+        <pre id="outP">Start typing on the left.</pre>
+      </div>
+      <div class="panel" style="margin-top:1rem;position:static">
+        <div class="panel__top"><h2>Then, on GitHub</h2></div>
+        <div style="padding:1rem;display:grid;gap:.6rem">
+          <a class="btn" href="https://github.com/Cozzymoto/TheMovieOrder/upload/main/src/data/posts" target="_blank" rel="noopener">Upload to GitHub →</a>
+          <a class="btn btn--ghost" id="postLive" href="#" target="_blank" rel="noopener" hidden>View the live post →</a>
+          <button class="btn btn--ghost" id="postDelete" hidden style="color:var(--red);border-color:var(--red)">Delete this post…</button>
+        </div>
+      </div>
+      <div class="steps">
+        <strong>Removing an old post</strong>
+        <p style="margin:.4rem 0 0">Tick <strong>Draft</strong> and re-upload to hide it but keep it. Or <strong>Delete this post</strong> to remove it for good — it can still be restored from GitHub's history.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ TRENDING ============ -->
+<div class="page" id="tab-trending" hidden>
+  <h1>Trending</h1>
+  <p class="lede">The franchises on your homepage, in order. The first four also appear under “Popular right now” and in the footer.</p>
+
+  <div class="cols">
+    <div>
+      <fieldset>
+        <legend>On the homepage now</legend>
+        <ul class="chrono" id="trendList"></ul>
+        <p id="trendCount" style="font-size:.8125rem;color:var(--graphite);margin:.7rem 0 0"></p>
+      </fieldset>
+      <fieldset>
+        <legend>Add a franchise</legend>
+        <div style="display:flex;gap:.5rem">
+          <select id="trendAdd"><option value="">Loading…</option></select>
+          <button class="btn" id="trendAddGo" style="flex:none">Add</button>
         </div>
       </fieldset>
     </div>
     <div>
       <div class="panel">
         <div class="panel__top">
-          <h2>Copy this into your site</h2>
-          <button class="btn btn--tiny" id="copyP">Copy</button>
+          <h2>Save as <code style="font-family:var(--f-code)">trending.json</code></h2>
+          <button class="btn btn--tiny" id="downloadT">Download</button>
         </div>
-        <pre id="outP">Start typing on the left.</pre>
+        <pre id="outT">Loading…</pre>
+      </div>
+      <div class="panel" style="margin-top:1rem;position:static">
+        <div class="panel__top"><h2>Then, on GitHub</h2></div>
+        <div style="padding:1rem;display:grid;gap:.6rem">
+          <a class="btn" href="https://github.com/Cozzymoto/TheMovieOrder/upload/main/src/data" target="_blank" rel="noopener">Upload to GitHub →</a>
+        </div>
       </div>
       <div class="steps">
-        <strong>Where it goes</strong>
-        <ol>
-          <li>Open <code>index.html</code>.</li>
-          <li>Find <code>const POSTS = [</code>.</li>
-          <li>Paste the block straight after that line, so the newest post is first.</li>
-          <li>Add a comma after it. Save.</li>
-        </ol>
+        <strong>Good to know</strong>
+        <p style="margin:.4rem 0 0">Six to ten works best — the homepage shows about six at once and the rest scroll sideways. If a name here ever stops matching a franchise, the build stops and tells you which one.</p>
       </div>
     </div>
   </div>
@@ -411,8 +475,7 @@ const draft = {
 document.querySelectorAll(".tabs button").forEach(b => {
   b.addEventListener("click", () => {
     document.querySelectorAll(".tabs button").forEach(x => x.setAttribute("aria-selected", String(x === b)));
-    $("#tab-franchise").hidden = b.dataset.tab !== "franchise";
-    $("#tab-post").hidden = b.dataset.tab !== "post";
+    document.querySelectorAll('.page[id^="tab-"]').forEach(pg => pg.hidden = pg.id !== "tab-" + b.dataset.tab);
   });
 });
 
@@ -576,28 +639,136 @@ function downloadCard(){
   toast("Saved " + window.__slug + ".json");
 }
 
-/* ---------- blog output ---------- */
-function renderPost(){
-  const title = $("#pTitle").value.trim();
-  const slug = slugify(title);
-  $("#pSlug").value = slug;
-  ["pTitle","pDate","pStand","pBody"].forEach(k => draft.save(k, $("#"+k).value));
+/* ---------- blog posts ---------- */
+window.__postSlug = null;
 
-  const paras = $("#pBody").value.split(/\n\s*\n|\n/).map(s => s.trim()).filter(Boolean);
-  if(!title || !paras.length){
-    $("#outP").textContent = "Add a headline and some body text.";
-    return;
-  }
-  $("#outP").textContent =
-`  {
-    slug:${q(slug)},
-    title:${q(title)},
-    date:${q($("#pDate").value || new Date().toISOString().slice(0,10))},
-    standfirst:${q($("#pStand").value.trim())},
-    body:[
-${paras.map(p => "      " + q(p)).join(",\n")}
-    ]
-  },`;
+function postMarkdown(){
+  const title = $("#pTitle").value.trim();
+  const slug = window.__postSlug || slugify(title);
+  const paras = $("#pBody").value.split(/\n+/).map(x => x.trim()).filter(Boolean);
+  $("#pSlug").value = slug ? "/blog/" + slug + "/" : "";
+  $("#postFile").textContent = (slug || "post") + ".md";
+  $("#postLive").hidden = !window.__postSlug;
+  $("#postDelete").hidden = !window.__postSlug;
+  if(window.__postSlug) $("#postLive").href = "/blog/" + window.__postSlug + "/";
+  ["pTitle","pDate","pStand","pBody"].forEach(k => draft.save(k, $("#"+k).value));
+  if(!title || !paras.length) return { slug, md: null };
+  const md = "---\n" +
+    "title: " + JSON.stringify(title) + "\n" +
+    "date: " + ($("#pDate").value || new Date().toISOString().slice(0,10)) + "\n" +
+    "standfirst: " + JSON.stringify($("#pStand").value.trim() || title) + "\n" +
+    ($("#pDraft").checked ? "draft: true\n" : "") +
+    "---\n\n" + paras.join("\n\n") + "\n";
+  return { slug, md };
+}
+
+function renderPost(){
+  const { md } = postMarkdown();
+  $("#outP").textContent = md || "Add a headline and some body text.";
+}
+
+function parseMd(text){
+  const m = String(text).match(/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/);
+  if(!m) return null;
+  const fm = {};
+  m[1].split("\n").forEach(line => {
+    const i = line.indexOf(":"); if(i < 0) return;
+    const k = line.slice(0, i).trim(); let v = line.slice(i + 1).trim();
+    if(v.startsWith('"')){ try{ v = JSON.parse(v); }catch(e){} }
+    else if(v === "true") v = true; else if(v === "false") v = false;
+    fm[k] = v;
+  });
+  return { fm, body: m[2].trim() };
+}
+
+async function loadPostList(){
+  const sel = $("#postPick");
+  try{
+    const r = await fetch("/posts-index.json", {cache:"no-store"});
+    if(!r.ok) throw 0;
+    const list = await r.json();
+    sel.innerHTML = '<option value="">Choose a post\u2026</option>' + list.map(p =>
+      '<option value="' + p.slug + '">' + p.date + " \u2014 " + String(p.title).replace(/</g,"&lt;") + (p.draft ? " (draft)" : "") + '</option>').join("");
+  }catch(e){ sel.innerHTML = '<option value="">List unavailable \u2014 open this page on themovieorder.com</option>'; }
+}
+
+async function loadPost(){
+  const slug = $("#postPick").value;
+  if(!slug){ toast("Choose a post first"); return; }
+  if(($("#pTitle").value.trim() || $("#pBody").value.trim()) && !confirm("Replace what's in the form with " + slug + "?")) return;
+  try{
+    const r = await fetch("https://raw.githubusercontent.com/Cozzymoto/TheMovieOrder/main/src/data/posts/" + slug + ".md", {cache:"no-store"});
+    if(!r.ok) throw new Error("GitHub returned " + r.status);
+    const doc = parseMd(await r.text());
+    if(!doc) throw new Error("couldn't read that file");
+    window.__postSlug = slug;
+    $("#pTitle").value = doc.fm.title || "";
+    $("#pDate").value  = String(doc.fm.date || "").slice(0,10);
+    $("#pStand").value = doc.fm.standfirst || "";
+    $("#pDraft").checked = doc.fm.draft === true;
+    $("#pBody").value = doc.body.split(/\n\s*\n/).map(x => x.replace(/\n/g, " ").trim()).filter(Boolean).join("\n");
+    $("#postOpened").hidden = false;
+    $("#postOpened").textContent = "Editing " + slug + ".md \u2014 download when done and upload it over the original.";
+    renderPost(); toast("Loaded " + slug);
+  }catch(err){ toast("Couldn't load " + slug + ": " + err.message); }
+}
+
+function blankPost(){
+  if(($("#pTitle").value.trim() || $("#pBody").value.trim()) && !confirm("Clear the form and start a new post?")) return;
+  window.__postSlug = null;
+  ["pTitle","pStand","pBody"].forEach(k => $("#"+k).value = "");
+  $("#pDate").value = new Date().toISOString().slice(0,10);
+  $("#pDraft").checked = false;
+  $("#postOpened").hidden = true;
+  renderPost();
+}
+
+function downloadPost(){
+  const { slug, md } = postMarkdown();
+  if(!md){ toast("Add a headline and some body text first"); return; }
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([md], {type:"text/markdown"}));
+  a.download = slug + ".md"; document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(a.href); toast("Saved " + slug + ".md");
+}
+
+/* ---------- trending ---------- */
+let trend = [], allF = [];
+function renderTrend(){
+  const byS = new Map(allF.map(f => [f.slug, f]));
+  $("#trendList").innerHTML = trend.map((s, i) => {
+    const f = byS.get(s);
+    const name = f ? f.title : s + " \u2014 no such franchise";
+    return '<li><span' + (f ? '' : ' style="color:var(--red);font-weight:600"') + '>' + String(name).replace(/</g,"&lt;") + '</span>' +
+      '<span class="arrows">' +
+      '<button data-tu="' + i + '" ' + (i === 0 ? "disabled" : "") + ' aria-label="Move up">\u2191</button>' +
+      '<button data-td="' + i + '" ' + (i === trend.length - 1 ? "disabled" : "") + ' aria-label="Move down">\u2193</button>' +
+      '<button data-tx="' + i + '" aria-label="Remove">\u00d7</button></span></li>';
+  }).join("");
+  $("#trendList").querySelectorAll("[data-tu]").forEach(b => b.onclick = () => { const i = +b.dataset.tu; [trend[i-1], trend[i]] = [trend[i], trend[i-1]]; renderTrend(); });
+  $("#trendList").querySelectorAll("[data-td]").forEach(b => b.onclick = () => { const i = +b.dataset.td; [trend[i+1], trend[i]] = [trend[i], trend[i+1]]; renderTrend(); });
+  $("#trendList").querySelectorAll("[data-tx]").forEach(b => b.onclick = () => { trend.splice(+b.dataset.tx, 1); renderTrend(); });
+  $("#trendCount").textContent = trend.length + (trend.length === 1 ? " franchise" : " franchises") +
+    (trend.length > 10 ? " \u2014 more than ten gets long" : trend.length < 4 ? " \u2014 add at least four" : "");
+  $("#trendAdd").innerHTML = '<option value="">Choose a franchise\u2026</option>' +
+    allF.filter(f => !trend.includes(f.slug)).map(f => '<option value="' + f.slug + '">' + String(f.title).replace(/</g,"&lt;") + '</option>').join("");
+  $("#outT").textContent = JSON.stringify(trend, null, 2);
+}
+async function loadTrending(){
+  try{
+    const fr = await fetch("/franchises-index.json", {cache:"no-store"}).then(r => r.json());
+    let tr;
+    try{ const r = await fetch("https://raw.githubusercontent.com/Cozzymoto/TheMovieOrder/main/src/data/trending.json", {cache:"no-store"}); if(!r.ok) throw 0; tr = await r.json(); }
+    catch(e){ tr = await fetch("/trending.json", {cache:"no-store"}).then(r => r.json()); }
+    allF = fr; trend = tr; renderTrend();
+  }catch(e){ $("#outT").textContent = "Couldn't load \u2014 open this page on themovieorder.com"; }
+}
+function downloadTrend(){
+  if(!trend.length){ toast("Add at least one franchise"); return; }
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(trend, null, 2) + "\n"], {type:"application/json"}));
+  a.download = "trending.json"; document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(a.href); toast("Saved trending.json");
 }
 
 /* ---------- wiring ---------- */
@@ -843,6 +1014,19 @@ $("#openFile").addEventListener("change", e => {
 $("#copyF").addEventListener("click", () => copyFrom("#outF"));
 $("#downloadF").addEventListener("click", downloadCard);
 $("#copyP").addEventListener("click", () => copyFrom("#outP"));
+$("#downloadP").addEventListener("click", downloadPost);
+$("#postPickGo").addEventListener("click", loadPost);
+$("#postBlank").addEventListener("click", blankPost);
+$("#pDraft").addEventListener("change", renderPost);
+$("#postDelete").addEventListener("click", () => {
+  const slug = window.__postSlug; if(!slug) return;
+  if(confirm("Delete " + slug + ".md?\n\nThis opens GitHub's delete page for that one file. Nothing is removed until you confirm there, and it can be restored from history.\n\nTo hide a post but keep it, tick Draft instead."))
+    window.open("https://github.com/Cozzymoto/TheMovieOrder/delete/main/src/data/posts/" + slug + ".md", "_blank", "noopener");
+});
+$("#trendAddGo").addEventListener("click", () => { const v = $("#trendAdd").value; if(!v) return; trend.push(v); renderTrend(); });
+$("#downloadT").addEventListener("click", downloadTrend);
+loadPostList();
+loadTrending();
 
 if(!$("#pDate").value) $("#pDate").value = new Date().toISOString().slice(0,10);
 nextId = Math.max(0, ...films.map(f => f.id)) + 1;
