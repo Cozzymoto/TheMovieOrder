@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 120,
   "blurb": "A British outbreak story told across decades, with each title counting how long it has been.",
+  "poster": "/sQckQRt17VaWbo39GIu0TMOiszq.jpg",
   "films": {
     "f28days02": {
       "t": "28 Days Later",
       "y": 2002,
-      "set": "Day 28"
+      "set": "Day 28",
+      "poster": "/sQckQRt17VaWbo39GIu0TMOiszq.jpg"
     },
     "f28weeks07": {
       "t": "28 Weeks Later",
       "y": 2007,
-      "set": "Week 28"
+      "set": "Week 28",
+      "poster": "/oix0aNv1lvW3nUGspUyvSIBlpbs.jpg"
     },
     "f28years25": {
       "t": "28 Years Later",
       "y": 2025,
-      "set": "Year 28"
+      "set": "Year 28",
+      "poster": "/n5FygjEppOvac6yEaowi26nTyw3.jpg"
     },
     "f28years26": {
       "t": "28 Years Later: The Bone Temple",
       "y": 2026,
-      "set": "Year 28"
+      "set": "Year 28",
+      "poster": "/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg"
     }
   },
   "release": [

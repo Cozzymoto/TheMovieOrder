@@ -3,16 +3,19 @@
   "short": "Two films, overlapping",
   "hue": 28,
   "blurb": "The Spartans at Thermopylae, and a follow-up that runs before, during and after the same battle at sea.",
+  "poster": "/2soVN5QkjH67F83NBkXEYC41BBh.jpg",
   "films": {
     "f30006": {
       "t": "300",
       "y": 2006,
-      "set": "480 BC"
+      "set": "480 BC",
+      "poster": "/2soVN5QkjH67F83NBkXEYC41BBh.jpg"
     },
     "f300rise14": {
       "t": "300: Rise of an Empire",
       "y": 2014,
-      "set": "490–480 BC"
+      "set": "490–480 BC",
+      "poster": "/wYDdWN1McB1Sio4z1dPSkb40Z78.jpg"
     }
   },
   "release": [

@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 20,
   "blurb": "Two undercover officers far too old for school, sent back anyway — and then to college.",
+  "poster": "/8v3Sqv9UcIUC4ebmpKWROqPBINZ.jpg",
   "films": {
     "f21jump12": {
       "t": "21 Jump Street",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/8v3Sqv9UcIUC4ebmpKWROqPBINZ.jpg"
     },
     "f22jump14": {
       "t": "22 Jump Street",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/850chzYHYbT3IISl6Q7dbBuFP2B.jpg"
     }
   },
   "release": [
