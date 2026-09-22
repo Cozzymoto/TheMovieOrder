@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 340,
   "blurb": "A London womaniser narrating his own life, and a 2004 remake set in New York.",
+  "poster": "/tPUqgfGMkZazRZ1UO41j2Fiib5C.jpg",
   "films": {
     "alfie66": {
       "t": "Alfie",
       "y": 1966,
-      "set": "1966"
+      "set": "1966",
+      "poster": "/tPUqgfGMkZazRZ1UO41j2Fiib5C.jpg"
     },
     "alfie04": {
       "t": "Alfie",
       "y": 2004,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/dvKvkoc2d06cOSheq5hQ7G4FJJX.jpg"
     }
   },
   "release": [

@@ -3,16 +3,19 @@
   "short": "Two cinema films",
   "hue": 56,
   "blurb": "A college fraternity of outcasts fighting back.",
+  "poster": "/v8aETLufi4WIinhQ994oWkehtaC.jpg",
   "films": {
     "revengeof84": {
       "t": "Revenge of the Nerds",
       "y": 1984,
-      "set": "1984"
+      "set": "1984",
+      "poster": "/v8aETLufi4WIinhQ994oWkehtaC.jpg"
     },
     "revengeof87": {
       "t": "Revenge of the Nerds II: Nerds in Paradise",
       "y": 1987,
-      "set": "1987"
+      "set": "1987",
+      "poster": "/cza5sS7AzexM4rLQSvfGzGX8a3N.jpg"
     }
   },
   "release": [

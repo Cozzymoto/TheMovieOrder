@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 8,
   "blurb": "A guitar case, a mariachi and escalating budgets — the first made for a few thousand dollars.",
+  "poster": "/zRh7K4SV1xQ419m8gzGITak51vc.jpg",
   "films": {
     "elmariachi92": {
       "t": "El Mariachi",
       "y": 1992,
-      "set": "1992"
+      "set": "1992",
+      "poster": "/zRh7K4SV1xQ419m8gzGITak51vc.jpg"
     },
     "desperado95": {
       "t": "Desperado",
       "y": 1995,
-      "set": "1995"
+      "set": "1995",
+      "poster": "/e3gwpBeXpvGZsxUya9zNym5QXrw.jpg"
     },
     "onceupon03": {
       "t": "Once Upon a Time in Mexico",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/ETUpGxmLocsfER8GT8w5sOkRG0.jpg"
     }
   },
   "release": [

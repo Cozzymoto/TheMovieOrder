@@ -3,26 +3,31 @@
   "short": "Four 1970s comedies",
   "hue": 340,
   "blurb": "A window cleaner and his relentlessly unlucky escapades, across four films.",
+  "poster": "/7AZjQkQ3gDWpi0p8xjlYkdoufk5.jpg",
   "films": {
     "confessionsof74": {
       "t": "Confessions of a Window Cleaner",
       "y": 1974,
-      "set": "1974"
+      "set": "1974",
+      "poster": "/7AZjQkQ3gDWpi0p8xjlYkdoufk5.jpg"
     },
     "confessionsof75": {
       "t": "Confessions of a Pop Performer",
       "y": 1975,
-      "set": "1975"
+      "set": "1975",
+      "poster": "/mrbn4oeYxQWu8DytLn61Pqzyuf3.jpg"
     },
     "confessionsof76": {
       "t": "Confessions of a Driving Instructor",
       "y": 1976,
-      "set": "1976"
+      "set": "1976",
+      "poster": "/vMTf2j4cvAOMZU9rgpipqnGoe9O.jpg"
     },
     "confessionsfrom77": {
       "t": "Confessions from a Holiday Camp",
       "y": 1977,
-      "set": "1977"
+      "set": "1977",
+      "poster": "/nv8ecPVoCxSf1zy5baudqKlTxzZ.jpg"
     }
   },
   "release": [

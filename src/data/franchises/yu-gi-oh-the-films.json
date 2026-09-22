@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 56,
   "blurb": "Two films made twelve years apart for the card-game series.",
+  "poster": "/3VD5QDTu0rQgRvERBMXtAvg0oIC.jpg",
   "films": {
     "yugi04": {
       "t": "Yu-Gi-Oh! The Movie: Pyramid of Light",
       "y": 2004,
-      "set": "—"
+      "set": "—",
+      "poster": "/3VD5QDTu0rQgRvERBMXtAvg0oIC.jpg"
     },
     "yugi16": {
       "t": "Yu-Gi-Oh!: The Dark Side of Dimensions",
       "y": 2016,
-      "set": "—"
+      "set": "—",
+      "poster": "/ti0CRprP9iSg9IDadTZ3TFnuczS.jpg"
     }
   },
   "release": [

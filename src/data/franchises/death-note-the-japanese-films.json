@@ -3,26 +3,31 @@
   "short": "Four live-action films",
   "hue": 0,
   "blurb": "Live-action adaptations of the manga, plus a spin-off and a later sequel.",
+  "poster": "/xiJPZntaz1BMooXfiwi2iZAMbhY.jpg",
   "films": {
     "deathnote06": {
       "t": "Death Note",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/xiJPZntaz1BMooXfiwi2iZAMbhY.jpg"
     },
     "deathnote06b": {
       "t": "Death Note: The Last Name",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/zFwCNC5LfmPKBsqMuAhzcG5Jubm.jpg"
     },
     "lchange08": {
       "t": "L: Change the World",
       "y": 2008,
-      "set": "2008"
+      "set": "2008",
+      "poster": "/aTV14kh4YVXafBZtyNjQ2GrWsNh.jpg"
     },
     "deathnote16": {
       "t": "Death Note: Light Up the New World",
       "y": 2016,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/cDBV5mIMc8h0dsRHF43rUUk3I0O.jpg"
     }
   },
   "release": [

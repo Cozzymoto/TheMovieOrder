@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 280,
   "blurb": "A disfigured organist taking elaborate revenge, twice.",
+  "poster": "/4853HMKlJl1RozE6OyHBKQemCE0.jpg",
   "films": {
     "theabominable71": {
       "t": "The Abominable Dr. Phibes",
       "y": 1971,
-      "set": "1925"
+      "set": "1925",
+      "poster": "/4853HMKlJl1RozE6OyHBKQemCE0.jpg"
     },
     "drphibes72": {
       "t": "Dr. Phibes Rises Again",
       "y": 1972,
-      "set": "1928"
+      "set": "1928",
+      "poster": "/g0YtuuuMpBHN11qDhQvQnmVGESy.jpg"
     }
   },
   "release": [

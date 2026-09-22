@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 50,
   "blurb": "A Kazakh reporter loose in America, fourteen years apart.",
+  "poster": "/7g9kBHMN2KTr5KUf8aen187Mdn.jpg",
   "films": {
     "borat06": {
       "t": "Borat",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/7g9kBHMN2KTr5KUf8aen187Mdn.jpg"
     },
     "boratsubsequent20": {
       "t": "Borat Subsequent Moviefilm",
       "y": 2020,
-      "set": "2020"
+      "set": "2020",
+      "poster": "/3L1Ml5RWjFVfVq3rQENvgFymT0U.jpg"
     }
   },
   "release": [

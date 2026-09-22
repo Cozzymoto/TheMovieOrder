@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 0,
   "blurb": "Two Boston brothers who appoint themselves vigilantes.",
+  "poster": "/wtLUmkWg41xFLpvmUWAN1mm65f6.jpg",
   "films": {
     "theboondock99": {
       "t": "The Boondock Saints",
       "y": 1999,
-      "set": "1999"
+      "set": "1999",
+      "poster": "/wtLUmkWg41xFLpvmUWAN1mm65f6.jpg"
     },
     "theboondock09": {
       "t": "The Boondock Saints II: All Saints Day",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/jFHtFInp3tYIBxkwWMfNJf1RBZW.jpg"
     }
   },
   "release": [

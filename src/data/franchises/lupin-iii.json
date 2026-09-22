@@ -3,21 +3,25 @@
   "short": "The best-known films",
   "hue": 40,
   "blurb": "A gentleman thief across five decades of animation.",
+  "poster": "/rgxMZcUW9HQOSFy6fzUWFA8BLo1.jpg",
   "films": {
     "lupiniii78": {
       "t": "Lupin III: The Mystery of Mamo",
       "y": 1978,
-      "set": "—"
+      "set": "—",
+      "poster": "/rgxMZcUW9HQOSFy6fzUWFA8BLo1.jpg"
     },
     "lupiniii79": {
       "t": "Lupin III: The Castle of Cagliostro",
       "y": 1979,
-      "set": "—"
+      "set": "—",
+      "poster": "/p7xL3WYeclgtGCLrWfBrXKdBV7d.jpg"
     },
     "lupiniii19": {
       "t": "Lupin III: The First",
       "y": 2019,
-      "set": "—"
+      "set": "—",
+      "poster": "/yEKzkOF0uImcs4CdhPQpF8TwVDE.jpg"
     }
   },
   "release": [

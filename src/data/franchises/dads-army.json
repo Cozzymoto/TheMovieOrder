@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 96,
   "blurb": "A 1971 film of the sitcom, and a 2016 remake with a new cast.",
+  "poster": "/3vc6GWhFciyrL7JyAULko1nUdSu.jpg",
   "films": {
     "dadsarmy71": {
       "t": "Dad's Army",
       "y": 1971,
-      "set": "1940"
+      "set": "1940",
+      "poster": "/3vc6GWhFciyrL7JyAULko1nUdSu.jpg"
     },
     "dadsarmy16": {
       "t": "Dad's Army",
       "y": 2016,
-      "set": "1944"
+      "set": "1944",
+      "poster": "/yPSwUuv7QEJnd9McNoXG5XpF2XY.jpg"
     }
   },
   "release": [

@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 200,
   "blurb": "A Cornish sea-shanty group and the music executive who signs them.",
+  "poster": "/4faFbkPf8aH5nrY4YcNvn40PXLL.jpg",
   "films": {
     "fishermansfriends19": {
       "t": "Fisherman's Friends",
       "y": 2019,
-      "set": "2019"
+      "set": "2019",
+      "poster": "/4faFbkPf8aH5nrY4YcNvn40PXLL.jpg"
     },
     "fishermansfriends22": {
       "t": "Fisherman's Friends: One and All",
       "y": 2022,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/WeMkqQizO3GAdgTvm5wLeQBFUK.jpg"
     }
   },
   "release": [

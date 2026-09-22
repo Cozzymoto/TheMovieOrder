@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 46,
   "blurb": "Stunts and pranks from the television series, on a larger scale.",
+  "poster": "/9Rb659hvGfmef1xm0mMvDHEBqmf.jpg",
   "films": {
     "jackassthe02": {
       "t": "Jackass: The Movie",
       "y": 2002,
-      "set": "2002"
+      "set": "2002",
+      "poster": "/9Rb659hvGfmef1xm0mMvDHEBqmf.jpg"
     },
     "jackassnumber06": {
       "t": "Jackass Number Two",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/u73V8dMqUwjtPL6gWesCE7ji9GU.jpg"
     },
     "jackass3d10": {
       "t": "Jackass 3D",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/uPirN07su7LFixyZyLrNMMQ9u1E.jpg"
     },
     "jackassforever22": {
       "t": "Jackass Forever",
       "y": 2022,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/ruHDFumJfW7F2vEqTZEQQ9xT7CA.jpg"
     }
   },
   "release": [

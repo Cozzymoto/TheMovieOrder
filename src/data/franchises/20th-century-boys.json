@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 44,
   "blurb": "A childhood prophecy coming true decades later, told across three films.",
+  "poster": "/nb1fd4nZyBLUhkjnAQx5607aBMq.jpg",
   "films": {
     "f20thcentury08": {
       "t": "20th Century Boys: Beginning of the End",
       "y": 2008,
-      "set": "1969 & 1997"
+      "set": "1969 & 1997",
+      "poster": "/nb1fd4nZyBLUhkjnAQx5607aBMq.jpg"
     },
     "f20thcentury09": {
       "t": "20th Century Boys 2: The Last Hope",
       "y": 2009,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/ej5rGwbyybno1pKDqqTLy7Gwc1T.jpg"
     },
     "f20thcentury09b": {
       "t": "20th Century Boys 3: Redemption",
       "y": 2009,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/zf5wTUqciMcSEUjPF5E9O8fBNo9.jpg"
     }
   },
   "release": [

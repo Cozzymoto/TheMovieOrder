@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 190,
   "blurb": "The original Japanese series, including a prequel and a rival sequel released the same year.",
+  "poster": "/1YINof6kN5yRdePEbcU5360ejoq.jpg",
   "films": {
     "ring98": {
       "t": "Ring",
       "y": 1998,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/1YINof6kN5yRdePEbcU5360ejoq.jpg"
     },
     "rasen98": {
       "t": "Rasen",
       "y": 1998,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/nSJUlIejc5yL1qAInQBtIgGysaK.jpg"
     },
     "ring299": {
       "t": "Ring 2",
       "y": 1999,
-      "set": "1999"
+      "set": "1999",
+      "poster": "/HREqYQWkGnH2viRQEXupCSX7ID.jpg"
     },
     "ring000": {
       "t": "Ring 0: Birthday",
       "y": 2000,
-      "set": "1968"
+      "set": "1968",
+      "poster": "/nuhEWlaoMD00rTDCiYxdEc7d1tD.jpg"
     }
   },
   "release": [

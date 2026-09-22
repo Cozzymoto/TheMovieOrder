@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 30,
   "blurb": "The 1933 original and its sequel, plus two remakes decades apart.",
+  "poster": "/lHlnxKL5GbgRibyRFI7n1Ey850i.jpg",
   "films": {
     "kingkong33": {
       "t": "King Kong",
       "y": 1933,
-      "set": "1933"
+      "set": "1933",
+      "poster": "/lHlnxKL5GbgRibyRFI7n1Ey850i.jpg"
     },
     "sonof33": {
       "t": "Son of Kong",
       "y": 1933,
-      "set": "1933"
+      "set": "1933",
+      "poster": "/eJ2Qe3tesoKUtWNJRDpHKz1xCJc.jpg"
     },
     "kingkong76": {
       "t": "King Kong",
       "y": 1976,
-      "set": "1976"
+      "set": "1976",
+      "poster": "/paYKhEwUaxKA05vmOfU7FlleTln.jpg"
     },
     "kingkong86": {
       "t": "King Kong Lives",
       "y": 1986,
-      "set": "1986"
+      "set": "1986",
+      "poster": "/gI37vg2otF348OHxsx97hWCVvNI.jpg"
     },
     "kingkong05": {
       "t": "King Kong",
       "y": 2005,
-      "set": "2005"
+      "set": "2005",
+      "poster": "/6a2HY6UmD7XiDD3NokgaBAXEsD2.jpg"
     }
   },
   "release": [

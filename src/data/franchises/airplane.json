@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 200,
   "blurb": "A disaster-film parody, and a sequel that moves it into space.",
+  "poster": "/7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg",
   "films": {
     "airplane80": {
       "t": "Airplane!",
       "y": 1980,
-      "set": "1980"
+      "set": "1980",
+      "poster": "/7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg"
     },
     "airplaneii82": {
       "t": "Airplane II: The Sequel",
       "y": 1982,
-      "set": "1982"
+      "set": "1982",
+      "poster": "/zs7Pjyabt0fwe2XqIx0gnF9Q4np.jpg"
     }
   },
   "release": [

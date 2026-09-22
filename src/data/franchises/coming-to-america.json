@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 40,
   "blurb": "An African prince seeking a wife in Queens, and a sequel thirty-three years later.",
+  "poster": "/djRAvxyvvN2yqlJKDbT3uy4vOBw.jpg",
   "films": {
     "comingto88": {
       "t": "Coming to America",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/djRAvxyvvN2yqlJKDbT3uy4vOBw.jpg"
     },
     "coming221": {
       "t": "Coming 2 America",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/nWBPLkqNApY5pgrJFMiI9joSI30.jpg"
     }
   },
   "release": [

@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 100,
   "blurb": "A country club and the people determined to ruin it.",
+  "poster": "/lXnNz7zOXCsftMDVoU3VSo0Eioi.jpg",
   "films": {
     "caddyshack80": {
       "t": "Caddyshack",
       "y": 1980,
-      "set": "1980"
+      "set": "1980",
+      "poster": "/lXnNz7zOXCsftMDVoU3VSo0Eioi.jpg"
     },
     "caddyshackii88": {
       "t": "Caddyshack II",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/iHvCXCjiLN6bLf39CnKdDzGbku2.jpg"
     }
   },
   "release": [

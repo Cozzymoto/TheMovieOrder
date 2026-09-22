@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 44,
   "blurb": "A high-school basketball player who discovers he's a werewolf.",
+  "poster": "/bv9rY9eoue2Hat6tcvrKVQ0ow8v.jpg",
   "films": {
     "teenwolf85": {
       "t": "Teen Wolf",
       "y": 1985,
-      "set": "1985"
+      "set": "1985",
+      "poster": "/bv9rY9eoue2Hat6tcvrKVQ0ow8v.jpg"
     },
     "teenwolf87": {
       "t": "Teen Wolf Too",
       "y": 1987,
-      "set": "1987"
+      "set": "1987",
+      "poster": "/unfbmoUTIsQzQF09RJZVN1GKr6b.jpg"
     }
   },
   "release": [

@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 160,
   "blurb": "Children born with uncanny powers in an English village, plus a sequel and an American remake.",
+  "poster": "/qcpXud1UjQzlSe9A062w8Wqgira.jpg",
   "films": {
     "villageof60": {
       "t": "Village of the Damned",
       "y": 1960,
-      "set": "1960"
+      "set": "1960",
+      "poster": "/qcpXud1UjQzlSe9A062w8Wqgira.jpg"
     },
     "childrenof64": {
       "t": "Children of the Damned",
       "y": 1964,
-      "set": "1964"
+      "set": "1964",
+      "poster": "/l8zpr1tq03YPqdOz6aAmnSpD7o6.jpg"
     },
     "villageof95": {
       "t": "Village of the Damned",
       "y": 1995,
-      "set": "1995"
+      "set": "1995",
+      "poster": "/hDNZHzYy62mOAsby0PTadKQh7so.jpg"
     }
   },
   "release": [

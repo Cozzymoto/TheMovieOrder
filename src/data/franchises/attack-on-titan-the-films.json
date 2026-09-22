@@ -3,26 +3,31 @@
   "short": "Four compilation films",
   "hue": 8,
   "blurb": "Recaps of the television series, each covering a season in film form.",
+  "poster": "/k4E04qJvSTQYUPOpYp5YYvdrdcc.jpg",
   "films": {
     "attackon14": {
       "t": "Attack on Titan: Crimson Bow and Arrow",
       "y": 2014,
-      "set": "—"
+      "set": "—",
+      "poster": "/k4E04qJvSTQYUPOpYp5YYvdrdcc.jpg"
     },
     "attackon15": {
       "t": "Attack on Titan: Wings of Freedom",
       "y": 2015,
-      "set": "—"
+      "set": "—",
+      "poster": "/53iOetezK5fJsABy1XykJw4WRq3.jpg"
     },
     "attackon18": {
       "t": "Attack on Titan: The Roar of Awakening",
       "y": 2018,
-      "set": "—"
+      "set": "—",
+      "poster": "/tLkdCvfmTOvxirrpSaaOBJD7qsU.jpg"
     },
     "attackon24": {
       "t": "Attack on Titan: The Last Attack",
       "y": 2024,
-      "set": "—"
+      "set": "—",
+      "poster": "/wgwldDDlTDDMrluOMkpSA8lyKjv.jpg"
     }
   },
   "release": [

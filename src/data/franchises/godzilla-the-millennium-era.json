@@ -3,36 +3,43 @@
   "short": "Six films",
   "hue": 132,
   "blurb": "Six films where almost every one is its own separate continuity, each restarting from 1954.",
+  "poster": "/7BrjFxV0j5VzZRfVYeYbFXMUweB.jpg",
   "films": {
     "godzilla200099": {
       "t": "Godzilla 2000: Millennium",
       "y": 1999,
-      "set": "1999"
+      "set": "1999",
+      "poster": "/7BrjFxV0j5VzZRfVYeYbFXMUweB.jpg"
     },
     "godzillavs00": {
       "t": "Godzilla vs. Megaguirus",
       "y": 2000,
-      "set": "2001"
+      "set": "2001",
+      "poster": "/jWOLrfoVmYCogt0FUsQuXSThi1s.jpg"
     },
     "godzillamothra01": {
       "t": "Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack",
       "y": 2001,
-      "set": "2001"
+      "set": "2001",
+      "poster": "/d3lMCQJfjCBlGFy5sWpsEaBnEPl.jpg"
     },
     "godzillaagainst02": {
       "t": "Godzilla Against Mechagodzilla",
       "y": 2002,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/Kg6J3qyf80cwnKkv1YorSjkNaK.jpg"
     },
     "godzillatokyo03": {
       "t": "Godzilla: Tokyo S.O.S.",
       "y": 2003,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/iwRJNFY9yvtPdu0DsTXOJ8sAap3.jpg"
     },
     "godzillafinal04": {
       "t": "Godzilla: Final Wars",
       "y": 2004,
-      "set": "Future"
+      "set": "Future",
+      "poster": "/21lWA4YyYppVnwAPOiBkGrt2FGr.jpg"
     }
   },
   "release": [

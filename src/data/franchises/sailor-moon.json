@@ -3,41 +3,49 @@
   "short": "The films",
   "hue": 320,
   "blurb": "Film outings for the 1990s series, and later two-part films completing the 2010s retelling.",
+  "poster": "/sOsEDVFv2dJ8sI77XzQ2SeqRObZ.jpg",
   "films": {
     "sailormoon93": {
       "t": "Sailor Moon R: The Movie",
       "y": 1993,
-      "set": "—"
+      "set": "—",
+      "poster": "/sOsEDVFv2dJ8sI77XzQ2SeqRObZ.jpg"
     },
     "sailormoon94": {
       "t": "Sailor Moon S: The Movie",
       "y": 1994,
-      "set": "—"
+      "set": "—",
+      "poster": "/8HLrjXHz5LhmIMiahoC3S55bSim.jpg"
     },
     "sailormoon95": {
       "t": "Sailor Moon SuperS: The Movie",
       "y": 1995,
-      "set": "—"
+      "set": "—",
+      "poster": "/11GoqlOv0AqNZ4V9w3oUhBMg86r.jpg"
     },
     "sailormoon21": {
       "t": "Sailor Moon Eternal Part 1",
       "y": 2021,
-      "set": "—"
+      "set": "—",
+      "poster": "/dJaGPwYJh3c6EXNX8JlHBYQH0Ij.jpg"
     },
     "sailormoon21b": {
       "t": "Sailor Moon Eternal Part 2",
       "y": 2021,
-      "set": "—"
+      "set": "—",
+      "poster": "/f91rtk8dODezNLT3grQrELyzFwA.jpg"
     },
     "sailormoon23": {
       "t": "Sailor Moon Cosmos Part 1",
       "y": 2023,
-      "set": "—"
+      "set": "—",
+      "poster": "/8CZm6hQe9kdTaUaFqB3w2GjjwZ0.jpg"
     },
     "sailormoon23b": {
       "t": "Sailor Moon Cosmos Part 2",
       "y": 2023,
-      "set": "—"
+      "set": "—",
+      "poster": "/sHmtdPMhnVtZWHro6f8CuDQuusz.jpg"
     }
   },
   "release": [

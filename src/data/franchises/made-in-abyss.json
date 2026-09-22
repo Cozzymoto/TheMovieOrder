@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 174,
   "blurb": "A vast pit that people descend and rarely return from, in two compilation films and one original.",
+  "poster": "/exLf3eUR7705XwNYR6HFZAMObSR.jpg",
   "films": {
     "madein19": {
       "t": "Made in Abyss: Journey's Dawn",
       "y": 2019,
-      "set": "—"
+      "set": "—",
+      "poster": "/exLf3eUR7705XwNYR6HFZAMObSR.jpg"
     },
     "madein19b": {
       "t": "Made in Abyss: Wandering Twilight",
       "y": 2019,
-      "set": "—"
+      "set": "—",
+      "poster": "/ivEZMkRng0VvDuQUoU8nhtqcfwe.jpg"
     },
     "madein20": {
       "t": "Made in Abyss: Dawn of the Deep Soul",
       "y": 2020,
-      "set": "—"
+      "set": "—",
+      "poster": "/k4riqNEEd5rnkbNytf02wkF4W8i.jpg"
     }
   },
   "release": [

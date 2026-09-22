@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 24,
   "blurb": "A London enforcer returning to Newcastle, and a 2000 remake that relocates to Seattle.",
+  "poster": "/3AytAYzJuPmS4Wo8X3jcsaN4oM3.jpg",
   "films": {
     "getcarter71": {
       "t": "Get Carter",
       "y": 1971,
-      "set": "1971"
+      "set": "1971",
+      "poster": "/3AytAYzJuPmS4Wo8X3jcsaN4oM3.jpg"
     },
     "getcarter00": {
       "t": "Get Carter",
       "y": 2000,
-      "set": "2000"
+      "set": "2000",
+      "poster": "/xGANaRWD6638ch1qQmqgRp395R6.jpg"
     }
   },
   "release": [

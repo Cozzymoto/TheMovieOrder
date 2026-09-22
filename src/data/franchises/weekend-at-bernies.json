@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 190,
   "blurb": "Two employees pretending their dead boss is alive, twice.",
+  "poster": "/4RtjBkBSqHG46uieHgTtM7oKlpo.jpg",
   "films": {
     "weekendat89": {
       "t": "Weekend at Bernie's",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/4RtjBkBSqHG46uieHgTtM7oKlpo.jpg"
     },
     "weekendat93": {
       "t": "Weekend at Bernie's II",
       "y": 1993,
-      "set": "1993"
+      "set": "1993",
+      "poster": "/ylN3DZEPCnn60ecGq01y0AyWsTQ.jpg"
     }
   },
   "release": [

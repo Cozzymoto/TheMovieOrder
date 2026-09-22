@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 4,
   "blurb": "An adopted boy whose behaviour defeats everyone around him.",
+  "poster": "/4cJK28DhybQGEldJJPtTdKlSbWB.jpg",
   "films": {
     "problemchild90": {
       "t": "Problem Child",
       "y": 1990,
-      "set": "1990"
+      "set": "1990",
+      "poster": "/4cJK28DhybQGEldJJPtTdKlSbWB.jpg"
     },
     "problemchild91": {
       "t": "Problem Child 2",
       "y": 1991,
-      "set": "1991"
+      "set": "1991",
+      "poster": "/dnmw3F3rdbxb08zSdfHHMwfXMLI.jpg"
     }
   },
   "release": [

@@ -3,16 +3,19 @@
   "short": "The films",
   "hue": 196,
   "blurb": "Film-length chapters of the ongoing story, each following directly from the television series.",
+  "poster": "/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg",
   "films": {
     "demonslayer20": {
       "t": "Demon Slayer: Mugen Train",
       "y": 2020,
-      "set": "—"
+      "set": "—",
+      "poster": "/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg"
     },
     "demonslayer25": {
       "t": "Demon Slayer: Infinity Castle",
       "y": 2025,
-      "set": "—"
+      "set": "—",
+      "poster": "/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg"
     }
   },
   "release": [

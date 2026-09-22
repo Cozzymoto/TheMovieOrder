@@ -3,31 +3,37 @@
   "short": "Five live-action films, one a prequel",
   "hue": 348,
   "blurb": "A Meiji-era swordsman who has sworn never to kill again, and a fifth film that finally shows why.",
+  "poster": "/vo3Zs07PZfKNsTrU0pcPZONJcN5.jpg",
   "films": {
     "rurounikenshin12": {
       "t": "Rurouni Kenshin",
       "y": 2012,
-      "set": "1878"
+      "set": "1878",
+      "poster": "/vo3Zs07PZfKNsTrU0pcPZONJcN5.jpg"
     },
     "rurounikenshin14": {
       "t": "Rurouni Kenshin: Kyoto Inferno",
       "y": 2014,
-      "set": "1878"
+      "set": "1878",
+      "poster": "/gI2xYpJPQOsmFblvowkW2IgEHkC.jpg"
     },
     "rurounikenshin14b": {
       "t": "Rurouni Kenshin: The Legend Ends",
       "y": 2014,
-      "set": "1878"
+      "set": "1878",
+      "poster": "/3sw2YRF0UR4jeZJ2yvpgk4qvMQK.jpg"
     },
     "rurounikenshin21": {
       "t": "Rurouni Kenshin: The Final",
       "y": 2021,
-      "set": "1879"
+      "set": "1879",
+      "poster": "/7bbEASVf9XWtfxWiuWUMY3uyhTb.jpg"
     },
     "rurounikenshin21b": {
       "t": "Rurouni Kenshin: The Beginning",
       "y": 2021,
-      "set": "1864–1868"
+      "set": "1864–1868",
+      "poster": "/rODS466qSdrwMlGdbUwPENhDN2c.jpg"
     }
   },
   "release": [

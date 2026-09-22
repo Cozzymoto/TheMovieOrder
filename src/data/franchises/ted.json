@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 20,
   "blurb": "A man and his talking teddy bear, refusing to grow up.",
+  "poster": "/1QVZXQQHCEIj8lyUhdBYd2qOYtq.jpg",
   "films": {
     "ted12": {
       "t": "Ted",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/1QVZXQQHCEIj8lyUhdBYd2qOYtq.jpg"
     },
     "ted215": {
       "t": "Ted 2",
       "y": 2015,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/38C91I7Xft0gyY7BITm8i4yvuRb.jpg"
     }
   },
   "release": [

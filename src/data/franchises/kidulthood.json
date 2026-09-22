@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 18,
   "blurb": "West London teenagers followed into adulthood across a decade.",
+  "poster": "/uEZSnTcwBm445NGh8QtVLvPbX9b.jpg",
   "films": {
     "kidulthood06": {
       "t": "Kidulthood",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/uEZSnTcwBm445NGh8QtVLvPbX9b.jpg"
     },
     "adulthood08": {
       "t": "Adulthood",
       "y": 2008,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/pKyfNRTkpY5MmoAOCvL2ZmPoPn1.jpg"
     },
     "brotherhood16": {
       "t": "Brotherhood",
       "y": 2016,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/5oMMBxqqThvmOoUDx1rYOPFHons.jpg"
     }
   },
   "release": [

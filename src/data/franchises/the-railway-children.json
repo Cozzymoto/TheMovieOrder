@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 96,
   "blurb": "The 1970 adaptation, and a 2022 sequel set during the Second World War.",
+  "poster": "/kusEIHfdngzcypY36yjWJVWMShj.jpg",
   "films": {
     "therailway70": {
       "t": "The Railway Children",
       "y": 1970,
-      "set": "1905"
+      "set": "1905",
+      "poster": "/kusEIHfdngzcypY36yjWJVWMShj.jpg"
     },
     "therailway22": {
       "t": "The Railway Children Return",
       "y": 2022,
-      "set": "1944"
+      "set": "1944",
+      "poster": "/sbps2oKs5ixtNSQqEae3r4mBq7x.jpg"
     }
   },
   "release": [

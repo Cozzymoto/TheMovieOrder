@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 210,
   "blurb": "Kenneth Branagh's Hercule Poirot across three adaptations.",
+  "poster": "/7GtdJU6iAg6fjQu3E3zta3bIAQh.jpg",
   "films": {
     "murderon17": {
       "t": "Murder on the Orient Express",
       "y": 2017,
-      "set": "1934"
+      "set": "1934",
+      "poster": "/7GtdJU6iAg6fjQu3E3zta3bIAQh.jpg"
     },
     "deathon22": {
       "t": "Death on the Nile",
       "y": 2022,
-      "set": "1937"
+      "set": "1937",
+      "poster": "/kVr5zIAFSPRQ57Y1zE7KzmhzdMQ.jpg"
     },
     "ahaunting23": {
       "t": "A Haunting in Venice",
       "y": 2023,
-      "set": "1947"
+      "set": "1947",
+      "poster": "/l6iwxT0NbVw6QiF08YTIuTnXS82.jpg"
     }
   },
   "release": [

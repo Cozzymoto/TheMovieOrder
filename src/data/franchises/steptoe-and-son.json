@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 30,
   "blurb": "Two films based on the rag-and-bone sitcom.",
+  "poster": "/ihP86Oyt5qDNssKjtaeVrNXFhKr.jpg",
   "films": {
     "steptoeand72": {
       "t": "Steptoe and Son",
       "y": 1972,
-      "set": "1972"
+      "set": "1972",
+      "poster": "/ihP86Oyt5qDNssKjtaeVrNXFhKr.jpg"
     },
     "steptoeand73": {
       "t": "Steptoe and Son Ride Again",
       "y": 1973,
-      "set": "1973"
+      "set": "1973",
+      "poster": "/uWOESkScPGK5W31E5N5dLBi6jOv.jpg"
     }
   },
   "release": [

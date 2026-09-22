@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 30,
   "blurb": "Two comedians touring restaurants and needling each other, in four countries.",
+  "poster": "/woNVTsjF0cu7gM2j39NGmQiTrht.jpg",
   "films": {
     "thetrip10": {
       "t": "The Trip",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/woNVTsjF0cu7gM2j39NGmQiTrht.jpg"
     },
     "thetrip14": {
       "t": "The Trip to Italy",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/gbdN1MGJI2vIV9yKqDkAsazWQIT.jpg"
     },
     "thetrip17": {
       "t": "The Trip to Spain",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/74RSdBGWdtbdClQ2NGJeTTyO7fq.jpg"
     },
     "thetrip20": {
       "t": "The Trip to Greece",
       "y": 2020,
-      "set": "2020"
+      "set": "2020",
+      "poster": "/jeO1whXLtQrCNAvjlO4XeAea0rP.jpg"
     }
   },
   "release": [

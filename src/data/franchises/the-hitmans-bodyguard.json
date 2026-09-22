@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 4,
   "blurb": "A protection agent forced to escort the assassin who ruined his career.",
+  "poster": "/5CGjlz2vyBhW5xHW4eNOZIdgzYq.jpg",
   "films": {
     "thehitmans17": {
       "t": "The Hitman's Bodyguard",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/5CGjlz2vyBhW5xHW4eNOZIdgzYq.jpg"
     },
     "thehitmans21": {
       "t": "The Hitman's Wife's Bodyguard",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/6zwGWDpY8Zu0L6W4SYWERBR8Msw.jpg"
     }
   },
   "release": [

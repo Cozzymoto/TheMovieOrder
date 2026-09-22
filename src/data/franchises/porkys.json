@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 20,
   "blurb": "1950s Florida teenagers and a bar that won't let them in.",
+  "poster": "/AqCOt1cWfKqCepxK7LIdT812idH.jpg",
   "films": {
     "porkys81": {
       "t": "Porky's",
       "y": 1981,
-      "set": "1954"
+      "set": "1954",
+      "poster": "/AqCOt1cWfKqCepxK7LIdT812idH.jpg"
     },
     "porkysii83": {
       "t": "Porky's II: The Next Day",
       "y": 1983,
-      "set": "1954"
+      "set": "1954",
+      "poster": "/rZjSlaXM8Ez91ZV39frILApGuKg.jpg"
     },
     "porkysrevenge85": {
       "t": "Porky's Revenge!",
       "y": 1985,
-      "set": "1954"
+      "set": "1954",
+      "poster": "/Ad3F9Fm7zdZmBqBSvJIAJRfac9m.jpg"
     }
   },
   "release": [

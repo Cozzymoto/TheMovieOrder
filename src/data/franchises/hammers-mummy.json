@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 40,
   "blurb": "Hammer's mummy cycle, each an independent story rather than a continuing one.",
+  "poster": "/w3XEtgi8W9tuPQnLVFCPVxtweyC.jpg",
   "films": {
     "themummy59": {
       "t": "The Mummy",
       "y": 1959,
-      "set": "1895"
+      "set": "1895",
+      "poster": "/w3XEtgi8W9tuPQnLVFCPVxtweyC.jpg"
     },
     "thecurse64": {
       "t": "The Curse of the Mummy's Tomb",
       "y": 1964,
-      "set": "1900"
+      "set": "1900",
+      "poster": "/1DdEHgHmitZN2dfXoqE4IUgnQx2.jpg"
     },
     "themummys67": {
       "t": "The Mummy's Shroud",
       "y": 1967,
-      "set": "1920"
+      "set": "1920",
+      "poster": "/bHWIncz6asTzkBeQYO1KmxztS9v.jpg"
     },
     "bloodfrom71": {
       "t": "Blood from the Mummy's Tomb",
       "y": 1971,
-      "set": "1970s"
+      "set": "1970s",
+      "poster": "/x2CfNW6RMpUcNMWBMhiZyVE9KLw.jpg"
     }
   },
   "release": [

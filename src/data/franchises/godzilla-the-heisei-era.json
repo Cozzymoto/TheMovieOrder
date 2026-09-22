@@ -3,41 +3,49 @@
   "short": "Seven films",
   "hue": 140,
   "blurb": "A 1984 restart that ignores every sequel after the 1954 original, then runs unbroken to 1995.",
+  "poster": "/j6jPBig1P30VZmFTZJdLzFk3hrL.jpg",
   "films": {
     "thereturn84": {
       "t": "The Return of Godzilla",
       "y": 1984,
-      "set": "1984"
+      "set": "1984",
+      "poster": "/j6jPBig1P30VZmFTZJdLzFk3hrL.jpg"
     },
     "godzillavs89": {
       "t": "Godzilla vs. Biollante",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/dAr3SzPTfKP23uILP4BBiML8MVG.jpg"
     },
     "godzillavs91": {
       "t": "Godzilla vs. King Ghidorah",
       "y": 1991,
-      "set": "1992"
+      "set": "1992",
+      "poster": "/lhJAwiVMflnMWnZGEdVDHWBwIZq.jpg"
     },
     "godzillavs92": {
       "t": "Godzilla vs. Mothra",
       "y": 1992,
-      "set": "1993"
+      "set": "1993",
+      "poster": "/oqhO8Vg8DOTnuen1rmL4BdS2su2.jpg"
     },
     "godzillavs93": {
       "t": "Godzilla vs. Mechagodzilla II",
       "y": 1993,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/ezZnnAit1N1Nj9sewMFQ1xy33YQ.jpg"
     },
     "godzillavs94": {
       "t": "Godzilla vs. SpaceGodzilla",
       "y": 1994,
-      "set": "1995"
+      "set": "1995",
+      "poster": "/9qL56FqqVmavTBWZNw6cetJyevP.jpg"
     },
     "godzillavs95": {
       "t": "Godzilla vs. Destoroyah",
       "y": 1995,
-      "set": "1996"
+      "set": "1996",
+      "poster": "/csebMf1IWokaWOughl5s3uX8p44.jpg"
     }
   },
   "release": [

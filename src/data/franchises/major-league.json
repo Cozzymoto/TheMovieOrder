@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 24,
   "blurb": "A baseball team assembled to lose, who refuse to.",
+  "poster": "/ypUedY9zX4nGGf1lQv1UGc8PhPA.jpg",
   "films": {
     "majorleague89": {
       "t": "Major League",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/ypUedY9zX4nGGf1lQv1UGc8PhPA.jpg"
     },
     "majorleague94": {
       "t": "Major League II",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/2QAb0gZusyMsZ1W5ce85plVciDp.jpg"
     },
     "majorleague98": {
       "t": "Major League: Back to the Minors",
       "y": 1998,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/bxaSidfXSEVw5zM5378m6tm7H51.jpg"
     }
   },
   "release": [

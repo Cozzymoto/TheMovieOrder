@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 196,
   "blurb": "A side story and then a full conclusion to the television series.",
+  "poster": "/3BV1M10SuSi5jOJbSDQQtjX96ov.jpg",
   "films": {
     "violetevergarden19": {
       "t": "Violet Evergarden: Eternity and the Auto Memory Doll",
       "y": 2019,
-      "set": "—"
+      "set": "—",
+      "poster": "/3BV1M10SuSi5jOJbSDQQtjX96ov.jpg"
     },
     "violetevergarden20": {
       "t": "Violet Evergarden: The Movie",
       "y": 2020,
-      "set": "—"
+      "set": "—",
+      "poster": "/bajajkoErDst0JxdFyBkABiF9rW.jpg"
     }
   },
   "release": [

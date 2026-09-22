@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 160,
   "blurb": "Films set between seasons of the television series, including a trilogy of shorter side stories.",
+  "poster": "/rf3aOQwmCs1xTgp2vem5ZQeh4NU.jpg",
   "films": {
     "psychopass15": {
       "t": "Psycho-Pass: The Movie",
       "y": 2015,
-      "set": "—"
+      "set": "—",
+      "poster": "/rf3aOQwmCs1xTgp2vem5ZQeh4NU.jpg"
     },
     "psychopass19": {
       "t": "Psycho-Pass: Sinners of the System – Case.1 Crime and Punishment",
       "y": 2019,
-      "set": "—"
+      "set": "—",
+      "poster": "/qnG8ZcmQoncPB58RZwy3wofxm5y.jpg"
     },
     "psychopass19b": {
       "t": "Psycho-Pass: Sinners of the System – Case.2 First Guardian",
       "y": 2019,
-      "set": "—"
+      "set": "—",
+      "poster": "/qnG8ZcmQoncPB58RZwy3wofxm5y.jpg"
     },
     "psychopass19c": {
       "t": "Psycho-Pass: Sinners of the System – Case.3 On the Other Side of Love and Hate",
       "y": 2019,
-      "set": "—"
+      "set": "—",
+      "poster": "/qnG8ZcmQoncPB58RZwy3wofxm5y.jpg"
     },
     "psychopass23": {
       "t": "Psycho-Pass: Providence",
       "y": 2023,
-      "set": "—"
+      "set": "—",
+      "poster": "/m6T9dPpm8P8jqHIHEnEnKYXlPbW.jpg"
     }
   },
   "release": [

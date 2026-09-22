@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 96,
   "blurb": "A 1973 British classic, an American remake, and a loose 2011 follow-up.",
+  "poster": "/wwtrXRL8SiOWxhwLEvw7iBgYh0g.jpg",
   "films": {
     "thewicker73": {
       "t": "The Wicker Man",
       "y": 1973,
-      "set": "1973"
+      "set": "1973",
+      "poster": "/wwtrXRL8SiOWxhwLEvw7iBgYh0g.jpg"
     },
     "thewicker06": {
       "t": "The Wicker Man",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/xsHrmfgDcEk5fGhSiieKvrDuofq.jpg"
     },
     "thewicker11": {
       "t": "The Wicker Tree",
       "y": 2011,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/vAmjzxeMWKkQRo7Wz6mUupZ4vfN.jpg"
     }
   },
   "release": [

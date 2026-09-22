@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 0,
   "blurb": "A Coventry primary school's Christmas play, and the chaos around it, four times over.",
+  "poster": "/2APY35DdgOmQIJlVpnjI7Kanjyb.jpg",
   "films": {
     "nativity09": {
       "t": "Nativity!",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/2APY35DdgOmQIJlVpnjI7Kanjyb.jpg"
     },
     "nativity212": {
       "t": "Nativity 2: Danger in the Manger",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/6FkBNdHWsRdt45HYMex7QYJOdN8.jpg"
     },
     "nativity314": {
       "t": "Nativity 3: Dude, Where's My Donkey?",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/19Noi6WCSFZJ5YVS6mlSWpiVeXX.jpg"
     },
     "nativityrocks18": {
       "t": "Nativity Rocks!",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/o9sJsP52fC2c6ii5wfVAKlFSN5Y.jpg"
     }
   },
   "release": [

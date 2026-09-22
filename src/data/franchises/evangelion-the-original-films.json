@@ -3,16 +3,19 @@
   "short": "Death & Rebirth and End of Evangelion",
   "hue": 270,
   "blurb": "Two 1997 films that conclude the original television series, one a recap and one an alternative ending.",
+  "poster": "/lXBjqzo6c4NyLuJtqOiH39kswji.jpg",
   "films": {
     "neongenesis97": {
       "t": "Neon Genesis Evangelion: Death & Rebirth",
       "y": 1997,
-      "set": "—"
+      "set": "—",
+      "poster": "/lXBjqzo6c4NyLuJtqOiH39kswji.jpg"
     },
     "theend97": {
       "t": "The End of Evangelion",
       "y": 1997,
-      "set": "—"
+      "set": "—",
+      "poster": "/j6G24dqI4WgUtChhWjfnI4lnmiK.jpg"
     }
   },
   "release": [

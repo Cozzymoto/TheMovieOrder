@@ -3,41 +3,49 @@
   "short": "The Garden of Sinners — eight films",
   "hue": 280,
   "blurb": "Eight films released deliberately out of sequence. The second film is set first, and the first film is set fourth.",
+  "poster": "/bMmHdhAM1xCQTQ4O3XhXLuXQ0k.jpg",
   "films": {
     "thegarden07": {
       "t": "The Garden of Sinners: Overlooking View",
       "y": 2007,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/bMmHdhAM1xCQTQ4O3XhXLuXQ0k.jpg"
     },
     "thegarden07b": {
       "t": "The Garden of Sinners: Murder Speculation Part A",
       "y": 2007,
-      "set": "1995"
+      "set": "1995",
+      "poster": "/zxNZpMkis5XnD81Y3gqJhh9ZOmk.jpg"
     },
     "thegarden08": {
       "t": "The Garden of Sinners: Remaining Sense of Pain",
       "y": 2008,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/3TeeCstvdqb6E72dMPEb43rCD0U.jpg"
     },
     "thegarden08b": {
       "t": "The Garden of Sinners: The Hollow Shrine",
       "y": 2008,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/5jycWY9V9Chf8XlAwrjBSVWONTi.jpg"
     },
     "thegarden08c": {
       "t": "The Garden of Sinners: Paradox Paradigm",
       "y": 2008,
-      "set": "1999"
+      "set": "1999",
+      "poster": "/vScnbrMbDpuwbiRafOcuxHjDKsI.jpg"
     },
     "thegarden08d": {
       "t": "The Garden of Sinners: Oblivion Recording",
       "y": 2008,
-      "set": "1999"
+      "set": "1999",
+      "poster": "/xbjuKoI5pNLpFAhtGSne9mgpW5k.jpg"
     },
     "thegarden09": {
       "t": "The Garden of Sinners: A Study in Murder Part B",
       "y": 2009,
-      "set": "1999"
+      "set": "1999",
+      "poster": "/kiOc87AV2sDlZomxKQtJrvHETiZ.jpg"
     },
     "thegarden09b": {
       "t": "The Garden of Sinners: Epilogue",

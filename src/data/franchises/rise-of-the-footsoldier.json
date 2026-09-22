@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 0,
   "blurb": "British crime films following the Essex underworld and the Rettendon murders.",
+  "poster": "/k8lbsM0Nl0c1Qp7NnARWjS6TTRA.jpg",
   "films": {
     "riseof07": {
       "t": "Rise of the Footsoldier",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/k8lbsM0Nl0c1Qp7NnARWjS6TTRA.jpg"
     },
     "riseof15": {
       "t": "Rise of the Footsoldier Part II",
       "y": 2015,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/lWF5wNTHGzjpKitS4vZ5DxYAm9B.jpg"
     },
     "riseof17": {
       "t": "Rise of the Footsoldier 3: The Pat Tate Story",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/1LgOIQNpTfWKY3wizRrQ6CvNAXK.jpg"
     },
     "riseof19": {
       "t": "Rise of the Footsoldier: Marbella",
       "y": 2019,
-      "set": "2019"
+      "set": "2019",
+      "poster": "/dG6tYDZMZaQIpOHzA44GlpVn2v5.jpg"
     },
     "riseof21": {
       "t": "Rise of the Footsoldier: Origins",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/gHgr6BIYFXhwyjBugQRiNw2h19h.jpg"
     }
   },
   "release": [

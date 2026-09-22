@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 36,
   "blurb": "Four self-contained films made alongside the television series.",
+  "poster": "/1QXGWJ0bsmbMUDBXXfS1RnFadkS.jpg",
   "films": {
     "bleachmemories06": {
       "t": "Bleach: Memories of Nobody",
       "y": 2006,
-      "set": "—"
+      "set": "—",
+      "poster": "/1QXGWJ0bsmbMUDBXXfS1RnFadkS.jpg"
     },
     "bleachthe07": {
       "t": "Bleach: The DiamondDust Rebellion",
       "y": 2007,
-      "set": "—"
+      "set": "—",
+      "poster": "/1PV8OKvHSYvgmdVnU2wcuzQGthP.jpg"
     },
     "bleachfade08": {
       "t": "Bleach: Fade to Black",
       "y": 2008,
-      "set": "—"
+      "set": "—",
+      "poster": "/IfR2DrWLb26AAdQFwGkhvPTflX.jpg"
     },
     "bleachhell10": {
       "t": "Bleach: Hell Verse",
       "y": 2010,
-      "set": "—"
+      "set": "—",
+      "poster": "/pd7V5iCB19VBPJkihxFXFwSRW2M.jpg"
     }
   },
   "release": [

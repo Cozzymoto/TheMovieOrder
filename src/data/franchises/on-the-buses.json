@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 100,
   "blurb": "Films spun off from the television sitcom, made while it was still running.",
+  "poster": "/fKIcELUNmiSlktMelhsslPZkxnH.jpg",
   "films": {
     "onthe71": {
       "t": "On the Buses",
       "y": 1971,
-      "set": "1971"
+      "set": "1971",
+      "poster": "/fKIcELUNmiSlktMelhsslPZkxnH.jpg"
     },
     "mutinyon72": {
       "t": "Mutiny on the Buses",
       "y": 1972,
-      "set": "1972"
+      "set": "1972",
+      "poster": "/4XK9oMfe4Ae53JtXGH45d4c26dG.jpg"
     },
     "holidayon73": {
       "t": "Holiday on the Buses",
       "y": 1973,
-      "set": "1973"
+      "set": "1973",
+      "poster": "/3ewJwuY28E4RzCRf2lklwvzPrsK.jpg"
     }
   },
   "release": [

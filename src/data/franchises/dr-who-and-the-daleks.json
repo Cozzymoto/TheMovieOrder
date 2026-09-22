@@ -3,16 +3,19 @@
   "short": "The two Peter Cushing films",
   "hue": 196,
   "blurb": "Two 1960s films made separately from the television series, with a different Doctor entirely.",
+  "poster": "/qhCHlQFb3DoI0JcofRdN8F1PBSh.jpg",
   "films": {
     "drwho65": {
       "t": "Dr. Who and the Daleks",
       "y": 1965,
-      "set": "—"
+      "set": "—",
+      "poster": "/qhCHlQFb3DoI0JcofRdN8F1PBSh.jpg"
     },
     "daleksinvasion66": {
       "t": "Daleks' Invasion Earth 2150 A.D.",
       "y": 1966,
-      "set": "2150"
+      "set": "2150",
+      "poster": "/y5l0DjqEaqPLkP4A7yaj1a3FXI0.jpg"
     }
   },
   "release": [

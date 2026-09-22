@@ -3,26 +3,31 @@
   "short": "Four live-action films",
   "hue": 30,
   "blurb": "A war orphan rising through the armies of ancient China, adapted from the manga.",
+  "poster": "/bk9R9WOX30ykiUKhdKavk3fZrzD.jpg",
   "films": {
     "kingdom19": {
       "t": "Kingdom",
       "y": 2019,
-      "set": "245 BC"
+      "set": "245 BC",
+      "poster": "/bk9R9WOX30ykiUKhdKavk3fZrzD.jpg"
     },
     "kingdomii22": {
       "t": "Kingdom II: Far and Away",
       "y": 2022,
-      "set": "244 BC"
+      "set": "244 BC",
+      "poster": "/wE4NqJosSPjiyqStBEv67mQbR1b.jpg"
     },
     "kingdomiii23": {
       "t": "Kingdom III: The Flame of Destiny",
       "y": 2023,
-      "set": "243 BC"
+      "set": "243 BC",
+      "poster": "/7cIqNt2YPK1nCf904NFISEScCzk.jpg"
     },
     "kingdomiv24": {
       "t": "Kingdom IV: Return of the Great General",
       "y": 2024,
-      "set": "242 BC"
+      "set": "242 BC",
+      "poster": "/qZKKwXyZ92K0mIRpf2FbCkQa7oO.jpg"
     }
   },
   "release": [

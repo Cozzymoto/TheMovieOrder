@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 210,
   "blurb": "Three compilation films of the 1979 series, and a fully original sequel.",
+  "poster": "/kzyMAqagPK6wuvDzA5FeJU6n71Y.jpg",
   "films": {
     "mobilesuit81": {
       "t": "Mobile Suit Gundam I",
       "y": 1981,
-      "set": "UC 0079"
+      "set": "UC 0079",
+      "poster": "/kzyMAqagPK6wuvDzA5FeJU6n71Y.jpg"
     },
     "mobilesuit81b": {
       "t": "Mobile Suit Gundam II: Soldiers of Sorrow",
       "y": 1981,
-      "set": "UC 0079"
+      "set": "UC 0079",
+      "poster": "/i1J5u0bhbcCghFWnwmvsTi5RzQf.jpg"
     },
     "mobilesuit82": {
       "t": "Mobile Suit Gundam III: Encounters in Space",
       "y": 1982,
-      "set": "UC 0079–0080"
+      "set": "UC 0079–0080",
+      "poster": "/lXeLWEuUV5dVIhHmQt5z5RyawT4.jpg"
     },
     "mobilesuit88": {
       "t": "Mobile Suit Gundam: Char's Counterattack",
       "y": 1988,
-      "set": "UC 0093"
+      "set": "UC 0093",
+      "poster": "/8I8gWpTtzMLt2lBlBoS7lM436nA.jpg"
     }
   },
   "release": [

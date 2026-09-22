@@ -3,16 +3,19 @@
   "short": "The two cinema films",
   "hue": 36,
   "blurb": "A St Bernard and the family who reluctantly keep him.",
+  "poster": "/aSZYXOmQ9SW27gLdHU02PJQGBMH.jpg",
   "films": {
     "beethoven92": {
       "t": "Beethoven",
       "y": 1992,
-      "set": "1992"
+      "set": "1992",
+      "poster": "/aSZYXOmQ9SW27gLdHU02PJQGBMH.jpg"
     },
     "beethovens2nd93": {
       "t": "Beethoven's 2nd",
       "y": 1993,
-      "set": "1993"
+      "set": "1993",
+      "poster": "/biH5hW1BRfEr13oCizuAzpdBf2l.jpg"
     }
   },
   "release": [

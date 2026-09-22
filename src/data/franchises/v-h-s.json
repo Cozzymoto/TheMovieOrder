@@ -3,41 +3,49 @@
   "short": "Seven films",
   "hue": 0,
   "blurb": "Found-footage horror anthologies, each a set of short films inside a framing story.",
+  "poster": "/xVGfCaTwVdZt3lFqtOVhTDqmG58.jpg",
   "films": {
     "vh12": {
       "t": "V/H/S",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/xVGfCaTwVdZt3lFqtOVhTDqmG58.jpg"
     },
     "vh13": {
       "t": "V/H/S/2",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/o4hcWsHaHaNQ9BBReOxLvYJNRhA.jpg"
     },
     "vh14": {
       "t": "V/H/S Viral",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/xe4S3x4Kq1UqCsDZdtLCeYt9moY.jpg"
     },
     "vh21": {
       "t": "V/H/S/94",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/9fSogEkqDfJQTuGHsTFloQz3Tw8.jpg"
     },
     "vh22": {
       "t": "V/H/S/99",
       "y": 2022,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/1bOMmFtnykBmvhFcx8zdXO6bCAa.jpg"
     },
     "vh23": {
       "t": "V/H/S/85",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/aM3wnZTKEuPLDwxuMWcHDibOkiw.jpg"
     },
     "vh24": {
       "t": "V/H/S/Beyond",
       "y": 2024,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/wXaf6VGNHIGU7qivapGOF7o4o4N.jpg"
     }
   },
   "release": [

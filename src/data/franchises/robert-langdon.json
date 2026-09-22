@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 40,
   "blurb": "Dan Brown's symbologist across three cases.",
+  "poster": "/9ejKfNk0LBhSI9AahH4f9NJNZNM.jpg",
   "films": {
     "theda06": {
       "t": "The Da Vinci Code",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/9ejKfNk0LBhSI9AahH4f9NJNZNM.jpg"
     },
     "angelsand09": {
       "t": "Angels & Demons",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/tFZQAuulEOtFTp0gHbVdEXwGrYe.jpg"
     },
     "inferno16": {
       "t": "Inferno",
       "y": 2016,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/5T6iVetK5AB1kgwAEKbDM2hTZJU.jpg"
     }
   },
   "release": [

@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 354,
   "blurb": "Retired intelligence officers dragged back into the field.",
+  "poster": "/8eeK3OB5PeSRQD7BpZcGZKkehG.jpg",
   "films": {
     "red10": {
       "t": "RED",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/8eeK3OB5PeSRQD7BpZcGZKkehG.jpg"
     },
     "red213": {
       "t": "RED 2",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/tbksijr6g340yFWRgI4JfwrtM9h.jpg"
     }
   },
   "release": [

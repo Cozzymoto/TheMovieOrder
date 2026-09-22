@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 280,
   "blurb": "British dance films built around the street and ballet divide.",
+  "poster": "/oqWSenAtDQsWjMLVTMEDvcCtafU.jpg",
   "films": {
     "streetdance3d10": {
       "t": "StreetDance 3D",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/oqWSenAtDQsWjMLVTMEDvcCtafU.jpg"
     },
     "streetdance212": {
       "t": "StreetDance 2",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/bwg8qnQKAbT3EJubK8qyWfi9hTl.jpg"
     }
   },
   "release": [

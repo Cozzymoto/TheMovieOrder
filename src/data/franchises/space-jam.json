@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 24,
   "blurb": "Basketball players drawn into a cartoon world, twenty-five years apart.",
+  "poster": "/4RN5El3Pj2W4gpwgiAGLVfSJv2g.jpg",
   "films": {
     "spacejam96": {
       "t": "Space Jam",
       "y": 1996,
-      "set": "1996"
+      "set": "1996",
+      "poster": "/4RN5El3Pj2W4gpwgiAGLVfSJv2g.jpg"
     },
     "spacejam21": {
       "t": "Space Jam: A New Legacy",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg"
     }
   },
   "release": [

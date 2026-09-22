@@ -3,21 +3,25 @@
   "short": "The three films",
   "hue": 30,
   "blurb": "Police mecha in near-future Tokyo, across three films of steadily increasing seriousness.",
+  "poster": "/dp3CNNo7Oj704cQKiwM4MJqlW0I.jpg",
   "films": {
     "patlaborthe89": {
       "t": "Patlabor: The Movie",
       "y": 1989,
-      "set": "1999"
+      "set": "1999",
+      "poster": "/dp3CNNo7Oj704cQKiwM4MJqlW0I.jpg"
     },
     "patlabor293": {
       "t": "Patlabor 2: The Movie",
       "y": 1993,
-      "set": "2002"
+      "set": "2002",
+      "poster": "/aB7HCqsA3d2TkAoTkiy7sioJZJ9.jpg"
     },
     "wxiiipatlabor02": {
       "t": "WXIII: Patlabor the Movie 3",
       "y": 2002,
-      "set": "2000"
+      "set": "2000",
+      "poster": "/zgitZmF0cejES0dyuS7ZGvJ8NEQ.jpg"
     }
   },
   "release": [

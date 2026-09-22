@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 50,
   "blurb": "A band reunited on a mission from God, and a sequel eighteen years later.",
+  "poster": "/b0hq1d2d7FIvRGNLewKLm79JNTK.jpg",
   "films": {
     "theblues80": {
       "t": "The Blues Brothers",
       "y": 1980,
-      "set": "1980"
+      "set": "1980",
+      "poster": "/b0hq1d2d7FIvRGNLewKLm79JNTK.jpg"
     },
     "bluesbrothers98": {
       "t": "Blues Brothers 2000",
       "y": 1998,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/m8UyxXAaD3aorRKAZxed0LUvTd2.jpg"
     }
   },
   "release": [

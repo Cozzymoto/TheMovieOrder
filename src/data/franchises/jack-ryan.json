@@ -3,31 +3,37 @@
   "short": "Five films, five actors",
   "hue": 212,
   "blurb": "Tom Clancy's CIA analyst, played by a different actor almost every time and never in a shared continuity.",
+  "poster": "/yVl7zidse4KiWtGMqHFtZCx4X3N.jpg",
   "films": {
     "thehunt90": {
       "t": "The Hunt for Red October",
       "y": 1990,
-      "set": "1990"
+      "set": "1990",
+      "poster": "/yVl7zidse4KiWtGMqHFtZCx4X3N.jpg"
     },
     "patriotgames92": {
       "t": "Patriot Games",
       "y": 1992,
-      "set": "1992"
+      "set": "1992",
+      "poster": "/9IT7gnszrRthduYxCLqaIkM55Un.jpg"
     },
     "clearand94": {
       "t": "Clear and Present Danger",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/6xTM8FPxrLRYwz6I3fqtwh7xybs.jpg"
     },
     "thesum02": {
       "t": "The Sum of All Fears",
       "y": 2002,
-      "set": "2002"
+      "set": "2002",
+      "poster": "/3E4LW4bjRhEMDeeXeIsmkJ94v8K.jpg"
     },
     "jackryan14": {
       "t": "Jack Ryan: Shadow Recruit",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/m7HcLUodrD4lM4s0Hui1tzO2pjO.jpg"
     }
   },
   "release": [

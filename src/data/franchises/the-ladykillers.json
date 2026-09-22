@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 120,
   "blurb": "An Ealing comedy about a gang of robbers undone by their landlady, and a Coen brothers remake.",
+  "poster": "/9LJ6ZV59Q92LAJAbmb7xm9dUBGU.jpg",
   "films": {
     "theladykillers55": {
       "t": "The Ladykillers",
       "y": 1955,
-      "set": "1955"
+      "set": "1955",
+      "poster": "/9LJ6ZV59Q92LAJAbmb7xm9dUBGU.jpg"
     },
     "theladykillers04": {
       "t": "The Ladykillers",
       "y": 2004,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/l4g9R39NCp6VaYFrw6q8JwKNW9x.jpg"
     }
   },
   "release": [

@@ -3,16 +3,19 @@
   "short": "Two films, thirty-nine years apart",
   "hue": 0,
   "blurb": "Kubrick's 1980 adaptation, and a 2019 sequel following the boy as an adult.",
+  "poster": "/uAR0AWqhQL1hQa69UDEbb2rE5Wx.jpg",
   "films": {
     "theshining80": {
       "t": "The Shining",
       "y": 1980,
-      "set": "1980"
+      "set": "1980",
+      "poster": "/uAR0AWqhQL1hQa69UDEbb2rE5Wx.jpg"
     },
     "doctorsleep19": {
       "t": "Doctor Sleep",
       "y": 2019,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/p69QzIBbN06aTYqRRiCOY1emNBh.jpg"
     }
   },
   "release": [

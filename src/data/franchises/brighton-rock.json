@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 348,
   "blurb": "A young gangster on the Brighton seafront, filmed in 1948 and again in 2010.",
+  "poster": "/pNzK7KEY30dgI9rfbTvolzNVZie.jpg",
   "films": {
     "brightonrock48": {
       "t": "Brighton Rock",
       "y": 1948,
-      "set": "1930s"
+      "set": "1930s",
+      "poster": "/pNzK7KEY30dgI9rfbTvolzNVZie.jpg"
     },
     "brightonrock10": {
       "t": "Brighton Rock",
       "y": 2010,
-      "set": "1964"
+      "set": "1964",
+      "poster": "/7uq3onOHexPe4Xcj5bdRL7NKkIi.jpg"
     }
   },
   "release": [

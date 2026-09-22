@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 0,
   "blurb": "The manga's Golden Age arc retold across three animated films.",
+  "poster": "/vES8WAzjowrMT8gwnoEaCioZXXk.jpg",
   "films": {
     "berserkthe12": {
       "t": "Berserk: The Egg of the King",
       "y": 2012,
-      "set": "—"
+      "set": "—",
+      "poster": "/vES8WAzjowrMT8gwnoEaCioZXXk.jpg"
     },
     "berserkthe12b": {
       "t": "Berserk: The Battle for Doldrey",
       "y": 2012,
-      "set": "—"
+      "set": "—",
+      "poster": "/emotEtDYn6qA5O5C52yb5bS4TrN.jpg"
     },
     "berserkthe13": {
       "t": "Berserk: The Advent",
       "y": 2013,
-      "set": "—"
+      "set": "—",
+      "poster": "/hZ7bjwg3x4uQHVmeeyoGgifWdyS.jpg"
     }
   },
   "release": [

@@ -3,21 +3,25 @@
   "short": "Three adaptations",
   "hue": 210,
   "blurb": "Three versions of the same chase thriller, fifty years apart.",
+  "poster": "/oC81jK6aAug4MA0xzYVngHmjsZS.jpg",
   "films": {
     "the3935": {
       "t": "The 39 Steps",
       "y": 1935,
-      "set": "1935"
+      "set": "1935",
+      "poster": "/oC81jK6aAug4MA0xzYVngHmjsZS.jpg"
     },
     "the3959": {
       "t": "The 39 Steps",
       "y": 1959,
-      "set": "1959"
+      "set": "1959",
+      "poster": "/4W6uCqZK8X2JSmq3iD5sboJO8XP.jpg"
     },
     "thethirty78": {
       "t": "The Thirty Nine Steps",
       "y": 1978,
-      "set": "1978"
+      "set": "1978",
+      "poster": "/pnUMLpPoce6wslljzhePJQlaEnx.jpg"
     }
   },
   "release": [

@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 56,
   "blurb": "Two adaptations of the Roald Dahl book and a 2023 origin story.",
+  "poster": "/vmpsZkrs4Uvkp9r1atL8B3frA63.jpg",
   "films": {
     "willywonka71": {
       "t": "Willy Wonka & the Chocolate Factory",
       "y": 1971,
-      "set": "1971"
+      "set": "1971",
+      "poster": "/vmpsZkrs4Uvkp9r1atL8B3frA63.jpg"
     },
     "charlieand05": {
       "t": "Charlie and the Chocolate Factory",
       "y": 2005,
-      "set": "2005"
+      "set": "2005",
+      "poster": "/iKP6wg3c6COUe8gYutoGG7qcPnO.jpg"
     },
     "wonka23": {
       "t": "Wonka",
       "y": 2023,
-      "set": "Years earlier"
+      "set": "Years earlier",
+      "poster": "/qhb1qOilapbapxWQn9jtRCMwXJF.jpg"
     }
   },
   "release": [

@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 212,
   "blurb": "A Los Angeles crew and the sheriff's unit chasing them, then a diamond job in Europe.",
+  "poster": "/dAP5NpkrMMczir5dUPjRR6ywqgz.jpg",
   "films": {
     "denof18": {
       "t": "Den of Thieves",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/dAP5NpkrMMczir5dUPjRR6ywqgz.jpg"
     },
     "denof25": {
       "t": "Den of Thieves 2: Pantera",
       "y": 2025,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/rxcyxxarD17xMliStDEhM6y2AYQ.jpg"
     }
   },
   "release": [

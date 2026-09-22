@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 128,
   "blurb": "A separate animated continuity set thousands of years after humanity flees Earth.",
+  "poster": "/hAuZ7g6TqDLv5fOqXIPgYRguOkm.jpg",
   "films": {
     "godzillaplanet17": {
       "t": "Godzilla: Planet of the Monsters",
       "y": 2017,
-      "set": "Far future"
+      "set": "Far future",
+      "poster": "/hAuZ7g6TqDLv5fOqXIPgYRguOkm.jpg"
     },
     "godzillacity18": {
       "t": "Godzilla: City on the Edge of Battle",
       "y": 2018,
-      "set": "Far future"
+      "set": "Far future",
+      "poster": "/2ly3TlqtlKzuhCmMuvAlXZA46e9.jpg"
     },
     "godzillathe18": {
       "t": "Godzilla: The Planet Eater",
       "y": 2018,
-      "set": "Far future"
+      "set": "Far future",
+      "poster": "/fOA44BITFth0u4hMSOUgpK0kM6t.jpg"
     }
   },
   "release": [

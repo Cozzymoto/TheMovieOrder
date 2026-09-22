@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 210,
   "blurb": "A suburban father whose past turns out to be considerably more violent than his present.",
+  "poster": "/oBgWY00bEFeZ9N25wWVyuQddbAo.jpg",
   "films": {
     "nobody21": {
       "t": "Nobody",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/oBgWY00bEFeZ9N25wWVyuQddbAo.jpg"
     },
     "nobody225": {
       "t": "Nobody 2",
       "y": 2025,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/svXVRoRSu6zzFtCzkRsjZS7Lqpd.jpg"
     }
   },
   "release": [

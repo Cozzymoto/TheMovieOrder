@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 56,
   "blurb": "A mask that transforms whoever wears it, and a sequel eleven years later.",
+  "poster": "/jPC2eYub74zwf2tPGVtzSlBW6Oy.jpg",
   "films": {
     "themask94": {
       "t": "The Mask",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/jPC2eYub74zwf2tPGVtzSlBW6Oy.jpg"
     },
     "sonof05": {
       "t": "Son of the Mask",
       "y": 2005,
-      "set": "2005"
+      "set": "2005",
+      "poster": "/Adgnfhm9B8YAQmC0osuP4zO9SRc.jpg"
     }
   },
   "release": [

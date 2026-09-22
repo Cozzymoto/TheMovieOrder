@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 264,
   "blurb": "One route of the visual novel adapted across three films, released over three years.",
+  "poster": "/6nEtmBg07DA5BWjcrmD49rxHsVQ.jpg",
   "films": {
     "fatestay17": {
       "t": "Fate/stay night: Heaven's Feel I. presage flower",
       "y": 2017,
-      "set": "—"
+      "set": "—",
+      "poster": "/6nEtmBg07DA5BWjcrmD49rxHsVQ.jpg"
     },
     "fatestay19": {
       "t": "Fate/stay night: Heaven's Feel II. lost butterfly",
       "y": 2019,
-      "set": "—"
+      "set": "—",
+      "poster": "/4tS0iyKQBDFqVpVcH21MSJwXZdq.jpg"
     },
     "fatestay20": {
       "t": "Fate/stay night: Heaven's Feel III. spring song",
       "y": 2020,
-      "set": "—"
+      "set": "—",
+      "poster": "/hIK5kEdFwOHnHTa06ntTVSfG9im.jpg"
     }
   },
   "release": [

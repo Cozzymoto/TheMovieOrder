@@ -3,16 +3,19 @@
   "short": "Two cinema films",
   "hue": 56,
   "blurb": "Laid-off executives who start a childcare business.",
+  "poster": "/uiey5XUKuPicwpIJMf1OpaOd1jL.jpg",
   "films": {
     "daddyday03": {
       "t": "Daddy Day Care",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/uiey5XUKuPicwpIJMf1OpaOd1jL.jpg"
     },
     "daddyday07": {
       "t": "Daddy Day Camp",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/fhuhSVb3j8SShe6FhnVUAfSRg6h.jpg"
     }
   },
   "release": [

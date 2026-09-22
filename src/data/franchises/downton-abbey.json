@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 36,
   "blurb": "Films continuing the television series into the 1920s and 30s.",
+  "poster": "/pWt1iRuhNpeVDNP2QiUT2C5OiBt.jpg",
   "films": {
     "downtonabbey19": {
       "t": "Downton Abbey",
       "y": 2019,
-      "set": "1927"
+      "set": "1927",
+      "poster": "/pWt1iRuhNpeVDNP2QiUT2C5OiBt.jpg"
     },
     "downtonabbey22": {
       "t": "Downton Abbey: A New Era",
       "y": 2022,
-      "set": "1928"
+      "set": "1928",
+      "poster": "/r5n4CLoIjUcnT3shWDi6MHdJ25a.jpg"
     },
     "downtonabbey25": {
       "t": "Downton Abbey: The Grand Finale",
       "y": 2025,
-      "set": "1930"
+      "set": "1930",
+      "poster": "/m1tLlMTCwc6oK6OjWTOI4b32wnA.jpg"
     }
   },
   "release": [

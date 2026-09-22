@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 150,
   "blurb": "A doctor who can talk to animals, played by three different actors across six decades.",
+  "poster": "/rViuZo27U8wcZHGuRliv9LfmhjV.jpg",
   "films": {
     "doctordolittle67": {
       "t": "Doctor Dolittle",
       "y": 1967,
-      "set": "1967"
+      "set": "1967",
+      "poster": "/rViuZo27U8wcZHGuRliv9LfmhjV.jpg"
     },
     "doctordolittle98": {
       "t": "Doctor Dolittle",
       "y": 1998,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/tLrchGMIkdo1KamQJA6fwvDQEy0.jpg"
     },
     "dolittle20": {
       "t": "Dolittle",
       "y": 2020,
-      "set": "2020"
+      "set": "2020",
+      "poster": "/3Nt3v1uzUgfSuVARD1AnI9g9Zl9.jpg"
     }
   },
   "release": [

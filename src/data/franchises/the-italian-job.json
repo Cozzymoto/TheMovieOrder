@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 44,
   "blurb": "A 1969 caper in Turin, and a 2003 remake that moves the job to Los Angeles and Venice.",
+  "poster": "/8NOw3HPHkcBndJW2K6ofbcSb7WD.jpg",
   "films": {
     "theitalian69": {
       "t": "The Italian Job",
       "y": 1969,
-      "set": "1969"
+      "set": "1969",
+      "poster": "/8NOw3HPHkcBndJW2K6ofbcSb7WD.jpg"
     },
     "theitalian03": {
       "t": "The Italian Job",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/eSkjK4kctyrWpFhxl35GPvSs6tI.jpg"
     }
   },
   "release": [
