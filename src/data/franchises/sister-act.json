@@ -1,0 +1,26 @@
+{
+  "title": "Sister Act",
+  "short": "Two films",
+  "hue": 320,
+  "blurb": "A lounge singer hiding in a convent, who ends up running its choir.",
+  "films": {
+    "sisteract92": {
+      "t": "Sister Act",
+      "y": 1992,
+      "set": "1992"
+    },
+    "sisteract93": {
+      "t": "Sister Act 2: Back in the Habit",
+      "y": 1993,
+      "set": "1993"
+    }
+  },
+  "release": [
+    "sisteract92",
+    "sisteract93"
+  ],
+  "chrono": [
+    "sisteract92",
+    "sisteract93"
+  ]
+}

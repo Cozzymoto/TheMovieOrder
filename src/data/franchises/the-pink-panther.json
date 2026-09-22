@@ -1,0 +1,90 @@
+{
+  "title": "The Pink Panther",
+  "short": "Eleven films",
+  "hue": 330,
+  "blurb": "Inspector Clouseau's bumbling career across four decades, three actors and one cartoon cat.",
+  "films": {
+    "thepink63": {
+      "t": "The Pink Panther",
+      "y": 1963,
+      "set": "1963"
+    },
+    "ashot64": {
+      "t": "A Shot in the Dark",
+      "y": 1964,
+      "set": "1964"
+    },
+    "inspectorclouseau68": {
+      "t": "Inspector Clouseau",
+      "y": 1968,
+      "set": "1968"
+    },
+    "thereturn75": {
+      "t": "The Return of the Pink Panther",
+      "y": 1975,
+      "set": "1975"
+    },
+    "thepink76": {
+      "t": "The Pink Panther Strikes Again",
+      "y": 1976,
+      "set": "1976"
+    },
+    "revengeof78": {
+      "t": "Revenge of the Pink Panther",
+      "y": 1978,
+      "set": "1978"
+    },
+    "trailof82": {
+      "t": "Trail of the Pink Panther",
+      "y": 1982,
+      "set": "1982"
+    },
+    "curseof83": {
+      "t": "Curse of the Pink Panther",
+      "y": 1983,
+      "set": "1983"
+    },
+    "sonof93": {
+      "t": "Son of the Pink Panther",
+      "y": 1993,
+      "set": "1993"
+    },
+    "thepink06": {
+      "t": "The Pink Panther",
+      "y": 2006,
+      "set": "2006"
+    },
+    "thepink09": {
+      "t": "The Pink Panther 2",
+      "y": 2009,
+      "set": "2009"
+    }
+  },
+  "release": [
+    "thepink63",
+    "ashot64",
+    "inspectorclouseau68",
+    "thereturn75",
+    "thepink76",
+    "revengeof78",
+    "trailof82",
+    "curseof83",
+    "sonof93",
+    "thepink06",
+    "thepink09"
+  ],
+  "chrono": [
+    "thepink63",
+    "ashot64",
+    "inspectorclouseau68",
+    "thereturn75",
+    "thepink76",
+    "revengeof78",
+    "trailof82",
+    "curseof83",
+    "sonof93",
+    "thepink06",
+    "thepink09"
+  ],
+  "note": "The Peter Sellers films are the core of the series. Inspector Clouseau (1968) recasts him with Alan Arkin. Trail of the Pink Panther was assembled from outtakes after Sellers died. The 2006 and 2009 films are a separate reboot with Steve Martin."
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Rebuild of Evangelion",
+  "short": "Four films",
+  "hue": 270,
+  "blurb": "A retelling of the landmark anime series that departs further from it with each film.",
+  "films": {
+    "evangelion107": {
+      "t": "Evangelion: 1.0 You Are (Not) Alone",
+      "y": 2007,
+      "set": "—"
+    },
+    "evangelion209": {
+      "t": "Evangelion: 2.0 You Can (Not) Advance",
+      "y": 2009,
+      "set": "—"
+    },
+    "evangelion312": {
+      "t": "Evangelion: 3.0 You Can (Not) Redo",
+      "y": 2012,
+      "set": "—"
+    },
+    "evangelion321": {
+      "t": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+      "y": 2021,
+      "set": "—"
+    }
+  },
+  "release": [
+    "evangelion107",
+    "evangelion209",
+    "evangelion312",
+    "evangelion321"
+  ],
+  "chrono": [
+    "evangelion107",
+    "evangelion209",
+    "evangelion312",
+    "evangelion321"
+  ],
+  "note": "3.0 jumps fourteen years after 2.0, which is disorienting by design. The original series is separate but worth knowing."
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Phantasm",
+  "short": "Five films",
+  "hue": 24,
+  "blurb": "The Tall Man and his flying silver spheres, pursued by the same characters across thirty-seven years.",
+  "films": {
+    "phantasm79": {
+      "t": "Phantasm",
+      "y": 1979,
+      "set": "1979"
+    },
+    "phantasmii88": {
+      "t": "Phantasm II",
+      "y": 1988,
+      "set": "1988"
+    },
+    "phantasmiii94": {
+      "t": "Phantasm III: Lord of the Dead",
+      "y": 1994,
+      "set": "1994"
+    },
+    "phantasmiv98": {
+      "t": "Phantasm IV: Oblivion",
+      "y": 1998,
+      "set": "1998"
+    },
+    "phantasmravager16": {
+      "t": "Phantasm: Ravager",
+      "y": 2016,
+      "set": "2016"
+    }
+  },
+  "release": [
+    "phantasm79",
+    "phantasmii88",
+    "phantasmiii94",
+    "phantasmiv98",
+    "phantasmravager16"
+  ],
+  "chrono": [
+    "phantasm79",
+    "phantasmii88",
+    "phantasmiii94",
+    "phantasmiv98",
+    "phantasmravager16"
+  ]
+}

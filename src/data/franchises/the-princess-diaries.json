@@ -1,0 +1,26 @@
+{
+  "title": "The Princess Diaries",
+  "short": "Two films",
+  "hue": 330,
+  "blurb": "A San Francisco teenager who learns she's heir to a European throne.",
+  "films": {
+    "theprincess01": {
+      "t": "The Princess Diaries",
+      "y": 2001,
+      "set": "2001"
+    },
+    "theprincess04": {
+      "t": "The Princess Diaries 2: Royal Engagement",
+      "y": 2004,
+      "set": "2004"
+    }
+  },
+  "release": [
+    "theprincess01",
+    "theprincess04"
+  ],
+  "chrono": [
+    "theprincess01",
+    "theprincess04"
+  ]
+}

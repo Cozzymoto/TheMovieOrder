@@ -1,0 +1,34 @@
+{
+  "title": "Quatermass",
+  "short": "Three films",
+  "hue": 160,
+  "blurb": "A British scientist confronting alien threats, adapted from the landmark BBC serials.",
+  "films": {
+    "thequatermass55": {
+      "t": "The Quatermass Xperiment",
+      "y": 1955,
+      "set": "1955"
+    },
+    "quatermass257": {
+      "t": "Quatermass 2",
+      "y": 1957,
+      "set": "1957"
+    },
+    "quatermassand67": {
+      "t": "Quatermass and the Pit",
+      "y": 1967,
+      "set": "1967"
+    }
+  },
+  "release": [
+    "thequatermass55",
+    "quatermass257",
+    "quatermassand67"
+  ],
+  "chrono": [
+    "thequatermass55",
+    "quatermass257",
+    "quatermassand67"
+  ],
+  "note": "In the US these were retitled The Creeping Unknown, Enemy from Space and Five Million Years to Earth."
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Taxi",
+  "short": "Luc Besson's French action comedies",
+  "hue": 44,
+  "blurb": "A speed-obsessed Marseille taxi driver and the hopeless detective who relies on him.",
+  "films": {
+    "taxi98": {
+      "t": "Taxi",
+      "y": 1998,
+      "set": "1998"
+    },
+    "taxi200": {
+      "t": "Taxi 2",
+      "y": 2000,
+      "set": "2000"
+    },
+    "taxi303": {
+      "t": "Taxi 3",
+      "y": 2003,
+      "set": "2003"
+    },
+    "taxi407": {
+      "t": "Taxi 4",
+      "y": 2007,
+      "set": "2007"
+    },
+    "taxi518": {
+      "t": "Taxi 5",
+      "y": 2018,
+      "set": "2018"
+    }
+  },
+  "release": [
+    "taxi98",
+    "taxi200",
+    "taxi303",
+    "taxi407",
+    "taxi518"
+  ],
+  "chrono": [
+    "taxi98",
+    "taxi200",
+    "taxi303",
+    "taxi407",
+    "taxi518"
+  ],
+  "note": "Taxi 5 introduces new leads. A 2004 American remake is unrelated."
+}

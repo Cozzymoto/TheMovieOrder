@@ -1,0 +1,26 @@
+{
+  "title": "Scooby-Doo",
+  "short": "The two live-action films",
+  "hue": 270,
+  "blurb": "The Mystery Inc. gang in live action, reunited for one case and then another.",
+  "films": {
+    "scoobydoo02": {
+      "t": "Scooby-Doo",
+      "y": 2002,
+      "set": "2002"
+    },
+    "scoobydoo04": {
+      "t": "Scooby-Doo 2: Monsters Unleashed",
+      "y": 2004,
+      "set": "2004"
+    }
+  },
+  "release": [
+    "scoobydoo02",
+    "scoobydoo04"
+  ],
+  "chrono": [
+    "scoobydoo02",
+    "scoobydoo04"
+  ]
+}

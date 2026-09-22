@@ -1,0 +1,33 @@
+{
+  "title": "Smokey and the Bandit",
+  "short": "Three films",
+  "hue": 38,
+  "blurb": "A bootlegging driver and the sheriff who chases him across the American South.",
+  "films": {
+    "smokeyand77": {
+      "t": "Smokey and the Bandit",
+      "y": 1977,
+      "set": "1977"
+    },
+    "smokeyand80": {
+      "t": "Smokey and the Bandit II",
+      "y": 1980,
+      "set": "1980"
+    },
+    "smokeyand83": {
+      "t": "Smokey and the Bandit Part 3",
+      "y": 1983,
+      "set": "1983"
+    }
+  },
+  "release": [
+    "smokeyand77",
+    "smokeyand80",
+    "smokeyand83"
+  ],
+  "chrono": [
+    "smokeyand77",
+    "smokeyand80",
+    "smokeyand83"
+  ]
+}

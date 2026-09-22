@@ -1,0 +1,48 @@
+{
+  "title": "Step Up",
+  "short": "Five films",
+  "hue": 280,
+  "blurb": "Dance films loosely linked by returning characters and a shared love of choreography.",
+  "films": {
+    "stepup06": {
+      "t": "Step Up",
+      "y": 2006,
+      "set": "2006"
+    },
+    "stepup08": {
+      "t": "Step Up 2: The Streets",
+      "y": 2008,
+      "set": "2008"
+    },
+    "stepup10": {
+      "t": "Step Up 3D",
+      "y": 2010,
+      "set": "2010"
+    },
+    "stepup12": {
+      "t": "Step Up Revolution",
+      "y": 2012,
+      "set": "2012"
+    },
+    "stepup14": {
+      "t": "Step Up: All In",
+      "y": 2014,
+      "set": "2014"
+    }
+  },
+  "release": [
+    "stepup06",
+    "stepup08",
+    "stepup10",
+    "stepup12",
+    "stepup14"
+  ],
+  "chrono": [
+    "stepup06",
+    "stepup08",
+    "stepup10",
+    "stepup12",
+    "stepup14"
+  ],
+  "note": "Step Up Revolution was released in the UK as Step Up 4: Miami Heat. All In brings back characters from across the series."
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Tomb Raider",
+  "short": "Three films",
+  "hue": 36,
+  "blurb": "Lara Croft twice with Angelina Jolie, then a 2018 reboot with Alicia Vikander.",
+  "films": {
+    "laracroft01": {
+      "t": "Lara Croft: Tomb Raider",
+      "y": 2001,
+      "set": "2001"
+    },
+    "laracroft03": {
+      "t": "Lara Croft: Tomb Raider – The Cradle of Life",
+      "y": 2003,
+      "set": "2003"
+    },
+    "tombraider18": {
+      "t": "Tomb Raider",
+      "y": 2018,
+      "set": "2018"
+    }
+  },
+  "release": [
+    "laracroft01",
+    "laracroft03",
+    "tombraider18"
+  ],
+  "chrono": [
+    "laracroft01",
+    "laracroft03",
+    "tombraider18"
+  ],
+  "note": "The 2018 film is a reboot."
+}

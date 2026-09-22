@@ -1,0 +1,55 @@
+{
+  "title": "YRF Spy Universe",
+  "short": "Six films",
+  "hue": 210,
+  "blurb": "Bollywood's shared universe of spies, where separate series start crossing into each other.",
+  "films": {
+    "ektha12": {
+      "t": "Ek Tha Tiger",
+      "y": 2012,
+      "set": "2012"
+    },
+    "tigerzinda17": {
+      "t": "Tiger Zinda Hai",
+      "y": 2017,
+      "set": "2017"
+    },
+    "war19": {
+      "t": "War",
+      "y": 2019,
+      "set": "2019"
+    },
+    "pathaan23": {
+      "t": "Pathaan",
+      "y": 2023,
+      "set": "2023"
+    },
+    "tiger323": {
+      "t": "Tiger 3",
+      "y": 2023,
+      "set": "2023"
+    },
+    "war225": {
+      "t": "War 2",
+      "y": 2025,
+      "set": "2025"
+    }
+  },
+  "release": [
+    "ektha12",
+    "tigerzinda17",
+    "war19",
+    "pathaan23",
+    "tiger323",
+    "war225"
+  ],
+  "chrono": [
+    "ektha12",
+    "tigerzinda17",
+    "war19",
+    "pathaan23",
+    "tiger323",
+    "war225"
+  ],
+  "note": "Pathaan and Tiger 3 feature each other's leads. Release order follows the in-story sequence."
+}

@@ -1,0 +1,48 @@
+{
+  "title": "The Crow",
+  "short": "Five films",
+  "hue": 250,
+  "blurb": "A man returned from the dead to avenge his murder, retold four times with new leads.",
+  "films": {
+    "thecrow94": {
+      "t": "The Crow",
+      "y": 1994,
+      "set": "1994"
+    },
+    "thecrow96": {
+      "t": "The Crow: City of Angels",
+      "y": 1996,
+      "set": "1996"
+    },
+    "thecrow00": {
+      "t": "The Crow: Salvation",
+      "y": 2000,
+      "set": "2000"
+    },
+    "thecrow05": {
+      "t": "The Crow: Wicked Prayer",
+      "y": 2005,
+      "set": "2005"
+    },
+    "thecrow24": {
+      "t": "The Crow",
+      "y": 2024,
+      "set": "2024"
+    }
+  },
+  "release": [
+    "thecrow94",
+    "thecrow96",
+    "thecrow00",
+    "thecrow05",
+    "thecrow24"
+  ],
+  "chrono": [
+    "thecrow94",
+    "thecrow96",
+    "thecrow00",
+    "thecrow05",
+    "thecrow24"
+  ],
+  "note": "Each sequel follows a new character. The 2024 film is a remake of the original."
+}

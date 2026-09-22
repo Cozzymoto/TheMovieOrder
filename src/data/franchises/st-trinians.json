@@ -1,0 +1,62 @@
+{
+  "title": "St Trinian's",
+  "short": "Seven films",
+  "hue": 316,
+  "blurb": "A girls' school where the pupils are more dangerous than anyone who crosses them.",
+  "films": {
+    "thebelles54": {
+      "t": "The Belles of St Trinian's",
+      "y": 1954,
+      "set": "1954"
+    },
+    "bluemurder57": {
+      "t": "Blue Murder at St Trinian's",
+      "y": 1957,
+      "set": "1957"
+    },
+    "thepure60": {
+      "t": "The Pure Hell of St Trinian's",
+      "y": 1960,
+      "set": "1960"
+    },
+    "thegreat66": {
+      "t": "The Great St Trinian's Train Robbery",
+      "y": 1966,
+      "set": "1966"
+    },
+    "thewildcats80": {
+      "t": "The Wildcats of St Trinian's",
+      "y": 1980,
+      "set": "1980"
+    },
+    "sttrinians07": {
+      "t": "St Trinian's",
+      "y": 2007,
+      "set": "2007"
+    },
+    "sttrinians09": {
+      "t": "St Trinian's 2: The Legend of Fritton's Gold",
+      "y": 2009,
+      "set": "2009"
+    }
+  },
+  "release": [
+    "thebelles54",
+    "bluemurder57",
+    "thepure60",
+    "thegreat66",
+    "thewildcats80",
+    "sttrinians07",
+    "sttrinians09"
+  ],
+  "chrono": [
+    "thebelles54",
+    "bluemurder57",
+    "thepure60",
+    "thegreat66",
+    "thewildcats80",
+    "sttrinians07",
+    "sttrinians09"
+  ],
+  "note": "The 2007 and 2009 films are a separate reboot."
+}

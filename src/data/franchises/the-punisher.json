@@ -1,0 +1,34 @@
+{
+  "title": "The Punisher",
+  "short": "Three films",
+  "hue": 0,
+  "blurb": "Marvel's vigilante, attempted three times with three different actors.",
+  "films": {
+    "thepunisher89": {
+      "t": "The Punisher",
+      "y": 1989,
+      "set": "1989"
+    },
+    "thepunisher04": {
+      "t": "The Punisher",
+      "y": 2004,
+      "set": "2004"
+    },
+    "punisherwar08": {
+      "t": "Punisher: War Zone",
+      "y": 2008,
+      "set": "2008"
+    }
+  },
+  "release": [
+    "thepunisher89",
+    "thepunisher04",
+    "punisherwar08"
+  ],
+  "chrono": [
+    "thepunisher89",
+    "thepunisher04",
+    "punisherwar08"
+  ],
+  "note": "None of the three share a continuity."
+}

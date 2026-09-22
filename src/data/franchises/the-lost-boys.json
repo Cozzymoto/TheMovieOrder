@@ -1,0 +1,34 @@
+{
+  "title": "The Lost Boys",
+  "short": "Three films",
+  "hue": 270,
+  "blurb": "Teenage vampires on the California coast, and two sequels made twenty years later.",
+  "films": {
+    "thelost87": {
+      "t": "The Lost Boys",
+      "y": 1987,
+      "set": "1987"
+    },
+    "lostboys08": {
+      "t": "Lost Boys: The Tribe",
+      "y": 2008,
+      "set": "2008"
+    },
+    "lostboys10": {
+      "t": "Lost Boys: The Thirst",
+      "y": 2010,
+      "set": "2010"
+    }
+  },
+  "release": [
+    "thelost87",
+    "lostboys08",
+    "lostboys10"
+  ],
+  "chrono": [
+    "thelost87",
+    "lostboys08",
+    "lostboys10"
+  ],
+  "note": "The sequels were made directly for video and only Corey Feldman returns."
+}

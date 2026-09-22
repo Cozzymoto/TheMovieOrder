@@ -1,0 +1,104 @@
+{
+  "title": "Universal Monsters",
+  "short": "Dracula, Frankenstein and the crossovers",
+  "hue": 200,
+  "blurb": "The studio that invented the shared cinematic universe in the 1930s — separate monster films that eventually collided.",
+  "films": {
+    "dracula31": {
+      "t": "Dracula",
+      "y": 1931,
+      "set": "1931"
+    },
+    "frankenstein31": {
+      "t": "Frankenstein",
+      "y": 1931,
+      "set": "1931"
+    },
+    "themummy32": {
+      "t": "The Mummy",
+      "y": 1932,
+      "set": "1932"
+    },
+    "theinvisible33": {
+      "t": "The Invisible Man",
+      "y": 1933,
+      "set": "1933"
+    },
+    "brideof35": {
+      "t": "Bride of Frankenstein",
+      "y": 1935,
+      "set": "1935"
+    },
+    "draculasdaughter36": {
+      "t": "Dracula's Daughter",
+      "y": 1936,
+      "set": "1936"
+    },
+    "sonof39": {
+      "t": "Son of Frankenstein",
+      "y": 1939,
+      "set": "1939"
+    },
+    "thewolf41": {
+      "t": "The Wolf Man",
+      "y": 1941,
+      "set": "1941"
+    },
+    "theghost42": {
+      "t": "The Ghost of Frankenstein",
+      "y": 1942,
+      "set": "1942"
+    },
+    "frankensteinmeets43": {
+      "t": "Frankenstein Meets the Wolf Man",
+      "y": 1943,
+      "set": "1943"
+    },
+    "houseof44": {
+      "t": "House of Frankenstein",
+      "y": 1944,
+      "set": "1944"
+    },
+    "houseof45": {
+      "t": "House of Dracula",
+      "y": 1945,
+      "set": "1945"
+    },
+    "abbottand48": {
+      "t": "Abbott and Costello Meet Frankenstein",
+      "y": 1948,
+      "set": "1948"
+    }
+  },
+  "release": [
+    "dracula31",
+    "frankenstein31",
+    "themummy32",
+    "theinvisible33",
+    "brideof35",
+    "draculasdaughter36",
+    "sonof39",
+    "thewolf41",
+    "theghost42",
+    "frankensteinmeets43",
+    "houseof44",
+    "houseof45",
+    "abbottand48"
+  ],
+  "chrono": [
+    "dracula31",
+    "frankenstein31",
+    "themummy32",
+    "theinvisible33",
+    "brideof35",
+    "draculasdaughter36",
+    "sonof39",
+    "thewolf41",
+    "theghost42",
+    "frankensteinmeets43",
+    "houseof44",
+    "houseof45",
+    "abbottand48"
+  ],
+  "note": "The crossover run begins with Frankenstein Meets the Wolf Man. The Mummy and The Invisible Man each spawned sequel series of their own, not listed here."
+}

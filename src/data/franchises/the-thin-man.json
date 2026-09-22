@@ -1,0 +1,55 @@
+{
+  "title": "The Thin Man",
+  "short": "Six films",
+  "hue": 40,
+  "blurb": "A married pair of amateur detectives who solve murders between cocktails.",
+  "films": {
+    "thethin34": {
+      "t": "The Thin Man",
+      "y": 1934,
+      "set": "1934"
+    },
+    "afterthe36": {
+      "t": "After the Thin Man",
+      "y": 1936,
+      "set": "1936"
+    },
+    "anotherthin39": {
+      "t": "Another Thin Man",
+      "y": 1939,
+      "set": "1939"
+    },
+    "shadowof41": {
+      "t": "Shadow of the Thin Man",
+      "y": 1941,
+      "set": "1941"
+    },
+    "thethin44": {
+      "t": "The Thin Man Goes Home",
+      "y": 1944,
+      "set": "1944"
+    },
+    "songof47": {
+      "t": "Song of the Thin Man",
+      "y": 1947,
+      "set": "1947"
+    }
+  },
+  "release": [
+    "thethin34",
+    "afterthe36",
+    "anotherthin39",
+    "shadowof41",
+    "thethin44",
+    "songof47"
+  ],
+  "chrono": [
+    "thethin34",
+    "afterthe36",
+    "anotherthin39",
+    "shadowof41",
+    "thethin44",
+    "songof47"
+  ],
+  "note": "The title refers to a suspect in the first film, not the detective — a confusion so common the studio leaned into it."
+}

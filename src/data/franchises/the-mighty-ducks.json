@@ -1,0 +1,34 @@
+{
+  "title": "The Mighty Ducks",
+  "short": "Three films",
+  "hue": 150,
+  "blurb": "A lawyer sentenced to coach a youth ice-hockey team.",
+  "films": {
+    "themighty92": {
+      "t": "The Mighty Ducks",
+      "y": 1992,
+      "set": "1992"
+    },
+    "d2the94": {
+      "t": "D2: The Mighty Ducks",
+      "y": 1994,
+      "set": "1994"
+    },
+    "d3the96": {
+      "t": "D3: The Mighty Ducks",
+      "y": 1996,
+      "set": "1996"
+    }
+  },
+  "release": [
+    "themighty92",
+    "d2the94",
+    "d3the96"
+  ],
+  "chrono": [
+    "themighty92",
+    "d2the94",
+    "d3the96"
+  ],
+  "note": "In the UK the first film was released as Champions."
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Trainspotting",
+  "short": "Two films, twenty years apart",
+  "hue": 32,
+  "blurb": "Four Edinburgh friends in the 1990s, and what's left of them two decades later.",
+  "films": {
+    "trainspotting96": {
+      "t": "Trainspotting",
+      "y": 1996,
+      "set": "1990s"
+    },
+    "t2trainspotting17": {
+      "t": "T2 Trainspotting",
+      "y": 2017,
+      "set": "2016"
+    }
+  },
+  "release": [
+    "trainspotting96",
+    "t2trainspotting17"
+  ],
+  "chrono": [
+    "trainspotting96",
+    "t2trainspotting17"
+  ],
+  "note": "T2 is built around the real passage of time and depends heavily on the first film."
+}

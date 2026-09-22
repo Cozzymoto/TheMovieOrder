@@ -1,0 +1,26 @@
+{
+  "title": "Shaun the Sheep",
+  "short": "Two films",
+  "hue": 100,
+  "blurb": "Aardman's farmyard flock, first loose in the city, then meeting an alien.",
+  "films": {
+    "shaunthe15": {
+      "t": "Shaun the Sheep Movie",
+      "y": 2015,
+      "set": "—"
+    },
+    "ashaun19": {
+      "t": "A Shaun the Sheep Movie: Farmageddon",
+      "y": 2019,
+      "set": "—"
+    }
+  },
+  "release": [
+    "shaunthe15",
+    "ashaun19"
+  ],
+  "chrono": [
+    "shaunthe15",
+    "ashaun19"
+  ]
+}

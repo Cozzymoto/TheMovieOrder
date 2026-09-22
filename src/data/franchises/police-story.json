@@ -1,0 +1,48 @@
+{
+  "title": "Police Story",
+  "short": "Five films",
+  "hue": 210,
+  "blurb": "Jackie Chan's Hong Kong cop and his escalating stunts.",
+  "films": {
+    "policestory85": {
+      "t": "Police Story",
+      "y": 1985,
+      "set": "1985"
+    },
+    "policestory88": {
+      "t": "Police Story 2",
+      "y": 1988,
+      "set": "1988"
+    },
+    "policestory92": {
+      "t": "Police Story 3: Super Cop",
+      "y": 1992,
+      "set": "1992"
+    },
+    "supercop293": {
+      "t": "Supercop 2",
+      "y": 1993,
+      "set": "1993"
+    },
+    "policestory96": {
+      "t": "Police Story 4: First Strike",
+      "y": 1996,
+      "set": "1996"
+    }
+  },
+  "release": [
+    "policestory85",
+    "policestory88",
+    "policestory92",
+    "supercop293",
+    "policestory96"
+  ],
+  "chrono": [
+    "policestory85",
+    "policestory88",
+    "policestory92",
+    "supercop293",
+    "policestory96"
+  ],
+  "note": "Supercop 2 follows Michelle Yeoh's character from the third film rather than Chan's. Later films using the name are unrelated."
+}

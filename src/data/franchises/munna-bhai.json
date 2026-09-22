@@ -1,0 +1,27 @@
+{
+  "title": "Munna Bhai",
+  "short": "Two films",
+  "hue": 36,
+  "blurb": "A Mumbai gangster who fakes his way into medical school, then takes lessons from Gandhi.",
+  "films": {
+    "munnabhai03": {
+      "t": "Munna Bhai M.B.B.S.",
+      "y": 2003,
+      "set": "2003"
+    },
+    "lageraho06": {
+      "t": "Lage Raho Munna Bhai",
+      "y": 2006,
+      "set": "2006"
+    }
+  },
+  "release": [
+    "munnabhai03",
+    "lageraho06"
+  ],
+  "chrono": [
+    "munnabhai03",
+    "lageraho06"
+  ],
+  "note": "The second film is a standalone adventure with the same pair."
+}

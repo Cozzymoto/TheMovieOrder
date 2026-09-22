@@ -1,0 +1,27 @@
+{
+  "title": "The Nutty Professor",
+  "short": "Two films",
+  "hue": 270,
+  "blurb": "Eddie Murphy as a scientist whose formula creates a very different version of himself — and as most of his family.",
+  "films": {
+    "thenutty96": {
+      "t": "The Nutty Professor",
+      "y": 1996,
+      "set": "1996"
+    },
+    "nuttyprofessor00": {
+      "t": "Nutty Professor II: The Klumps",
+      "y": 2000,
+      "set": "2000"
+    }
+  },
+  "release": [
+    "thenutty96",
+    "nuttyprofessor00"
+  ],
+  "chrono": [
+    "thenutty96",
+    "nuttyprofessor00"
+  ],
+  "note": "A remake of the 1963 Jerry Lewis film, which isn't part of this pair."
+}

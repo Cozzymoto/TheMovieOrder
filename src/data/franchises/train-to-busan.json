@@ -1,0 +1,27 @@
+{
+  "title": "Train to Busan",
+  "short": "Two films",
+  "hue": 190,
+  "blurb": "A zombie outbreak on a high-speed train, and a sequel four years later.",
+  "films": {
+    "trainto16": {
+      "t": "Train to Busan",
+      "y": 2016,
+      "set": "2016"
+    },
+    "peninsula20": {
+      "t": "Peninsula",
+      "y": 2020,
+      "set": "2020"
+    }
+  },
+  "release": [
+    "trainto16",
+    "peninsula20"
+  ],
+  "chrono": [
+    "trainto16",
+    "peninsula20"
+  ],
+  "note": "Peninsula is set in the same world with a new cast."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "The Firefly Trilogy",
+  "short": "Rob Zombie's three films",
+  "hue": 24,
+  "blurb": "A family of killers in 1970s Texas, told as a haunted-house film, a road movie and a prison-break sequel.",
+  "films": {
+    "houseof03": {
+      "t": "House of 1000 Corpses",
+      "y": 2003,
+      "set": "1977"
+    },
+    "thedevils05": {
+      "t": "The Devil's Rejects",
+      "y": 2005,
+      "set": "1978"
+    },
+    "f3from19": {
+      "t": "3 from Hell",
+      "y": 2019,
+      "set": "1988"
+    }
+  },
+  "release": [
+    "houseof03",
+    "thedevils05",
+    "f3from19"
+  ],
+  "chrono": [
+    "houseof03",
+    "thedevils05",
+    "f3from19"
+  ]
+}

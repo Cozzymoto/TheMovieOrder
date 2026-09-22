@@ -1,0 +1,41 @@
+{
+  "title": "The Addams Family",
+  "short": "Four films, two continuities",
+  "hue": 280,
+  "blurb": "Two live-action films from the 1990s and two animated films from recent years.",
+  "films": {
+    "theaddams91": {
+      "t": "The Addams Family",
+      "y": 1991,
+      "set": "1991"
+    },
+    "addamsfamily93": {
+      "t": "Addams Family Values",
+      "y": 1993,
+      "set": "1993"
+    },
+    "theaddams19": {
+      "t": "The Addams Family",
+      "y": 2019,
+      "set": "—"
+    },
+    "theaddams21": {
+      "t": "The Addams Family 2",
+      "y": 2021,
+      "set": "—"
+    }
+  },
+  "release": [
+    "theaddams91",
+    "addamsfamily93",
+    "theaddams19",
+    "theaddams21"
+  ],
+  "chrono": [
+    "theaddams91",
+    "addamsfamily93",
+    "theaddams19",
+    "theaddams21"
+  ],
+  "note": "The animated films are a separate continuity. Wednesday, the television series, is separate again."
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Mr. Bean",
+  "short": "The two films",
+  "hue": 0,
+  "blurb": "Rowan Atkinson's near-silent character taken to Los Angeles, then to the south of France.",
+  "films": {
+    "bean97": {
+      "t": "Bean",
+      "y": 1997,
+      "set": "1997"
+    },
+    "mrbeans07": {
+      "t": "Mr. Bean's Holiday",
+      "y": 2007,
+      "set": "2007"
+    }
+  },
+  "release": [
+    "bean97",
+    "mrbeans07"
+  ],
+  "chrono": [
+    "bean97",
+    "mrbeans07"
+  ]
+}

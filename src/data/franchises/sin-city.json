@@ -1,0 +1,27 @@
+{
+  "title": "Sin City",
+  "short": "Two films",
+  "hue": 0,
+  "blurb": "Frank Miller's noir comics, shot almost entirely in black and white.",
+  "films": {
+    "sincity05": {
+      "t": "Sin City",
+      "y": 2005,
+      "set": "2005"
+    },
+    "sincity14": {
+      "t": "Sin City: A Dame to Kill For",
+      "y": 2014,
+      "set": "2014"
+    }
+  },
+  "release": [
+    "sincity05",
+    "sincity14"
+  ],
+  "chrono": [
+    "sincity05",
+    "sincity14"
+  ],
+  "note": "Both films tell several stories out of order, and A Dame to Kill For includes events set before the first film. Release order is best."
+}

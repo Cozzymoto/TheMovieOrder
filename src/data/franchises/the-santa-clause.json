@@ -1,0 +1,34 @@
+{
+  "title": "The Santa Clause",
+  "short": "Three films",
+  "hue": 0,
+  "blurb": "A divorced father who accidentally becomes Father Christmas.",
+  "films": {
+    "thesanta94": {
+      "t": "The Santa Clause",
+      "y": 1994,
+      "set": "1994"
+    },
+    "thesanta02": {
+      "t": "The Santa Clause 2",
+      "y": 2002,
+      "set": "2002"
+    },
+    "thesanta06": {
+      "t": "The Santa Clause 3: The Escape Clause",
+      "y": 2006,
+      "set": "2006"
+    }
+  },
+  "release": [
+    "thesanta94",
+    "thesanta02",
+    "thesanta06"
+  ],
+  "chrono": [
+    "thesanta94",
+    "thesanta02",
+    "thesanta06"
+  ],
+  "note": "The story continues in the television series The Santa Clauses."
+}

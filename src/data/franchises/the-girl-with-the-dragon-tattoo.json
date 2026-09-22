@@ -1,0 +1,48 @@
+{
+  "title": "The Girl with the Dragon Tattoo",
+  "short": "Five films, three casts",
+  "hue": 220,
+  "blurb": "Lisbeth Salander and Mikael Blomkvist, in Sweden's trilogy, Hollywood's remake and a 2018 recast.",
+  "films": {
+    "thegirl09": {
+      "t": "The Girl with the Dragon Tattoo",
+      "y": 2009,
+      "set": "2009"
+    },
+    "thegirl09b": {
+      "t": "The Girl Who Played with Fire",
+      "y": 2009,
+      "set": "2009"
+    },
+    "thegirl09c": {
+      "t": "The Girl Who Kicked the Hornets' Nest",
+      "y": 2009,
+      "set": "2009"
+    },
+    "thegirl11": {
+      "t": "The Girl with the Dragon Tattoo",
+      "y": 2011,
+      "set": "2011"
+    },
+    "thegirl18": {
+      "t": "The Girl in the Spider's Web",
+      "y": 2018,
+      "set": "2018"
+    }
+  },
+  "release": [
+    "thegirl09",
+    "thegirl09b",
+    "thegirl09c",
+    "thegirl11",
+    "thegirl18"
+  ],
+  "chrono": [
+    "thegirl09",
+    "thegirl09b",
+    "thegirl09c",
+    "thegirl11",
+    "thegirl18"
+  ],
+  "note": "The three Swedish films are one continuous story. The 2011 film remakes the first; The Girl in the Spider's Web is a loose follow-up with another new cast."
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Three Colours",
+  "short": "Krzysztof Kieślowski's trilogy",
+  "hue": 220,
+  "blurb": "Blue, White and Red — three films named for the French flag, each taking one of its ideals.",
+  "films": {
+    "threecolours93": {
+      "t": "Three Colours: Blue",
+      "y": 1993,
+      "set": "1993"
+    },
+    "threecolours94": {
+      "t": "Three Colours: White",
+      "y": 1994,
+      "set": "1994"
+    },
+    "threecolours94b": {
+      "t": "Three Colours: Red",
+      "y": 1994,
+      "set": "1994"
+    }
+  },
+  "release": [
+    "threecolours93",
+    "threecolours94",
+    "threecolours94b"
+  ],
+  "chrono": [
+    "threecolours93",
+    "threecolours94",
+    "threecolours94b"
+  ],
+  "note": "Each stands alone, but characters from all three meet in the final scene of Red."
+}

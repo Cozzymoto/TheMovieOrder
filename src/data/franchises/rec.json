@@ -1,0 +1,41 @@
+{
+  "title": "[REC]",
+  "short": "Four Spanish found-footage films",
+  "hue": 14,
+  "blurb": "A TV crew sealed inside a Barcelona apartment building during an outbreak.",
+  "films": {
+    "rec07": {
+      "t": "[REC]",
+      "y": 2007,
+      "set": "2007"
+    },
+    "rec209": {
+      "t": "[REC] 2",
+      "y": 2009,
+      "set": "2009"
+    },
+    "rec312": {
+      "t": "[REC] 3: Genesis",
+      "y": 2012,
+      "set": "2012"
+    },
+    "rec414": {
+      "t": "[REC] 4: Apocalypse",
+      "y": 2014,
+      "set": "2014"
+    }
+  },
+  "release": [
+    "rec07",
+    "rec209",
+    "rec312",
+    "rec414"
+  ],
+  "chrono": [
+    "rec07",
+    "rec209",
+    "rec312",
+    "rec414"
+  ],
+  "note": "[REC] 2 begins minutes after the first ends. Genesis runs at the same time as the first two, at a wedding elsewhere in the city."
+}

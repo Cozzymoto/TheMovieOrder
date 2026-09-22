@@ -1,0 +1,34 @@
+{
+  "title": "Silent Hill",
+  "short": "Three films",
+  "hue": 40,
+  "blurb": "A fog-bound town from the video games, where the missing are never quite gone.",
+  "films": {
+    "silenthill06": {
+      "t": "Silent Hill",
+      "y": 2006,
+      "set": "2006"
+    },
+    "silenthill12": {
+      "t": "Silent Hill: Revelation",
+      "y": 2012,
+      "set": "2012"
+    },
+    "returnto26": {
+      "t": "Return to Silent Hill",
+      "y": 2026,
+      "set": "2026"
+    }
+  },
+  "release": [
+    "silenthill06",
+    "silenthill12",
+    "returnto26"
+  ],
+  "chrono": [
+    "silenthill06",
+    "silenthill12",
+    "returnto26"
+  ],
+  "note": "Revelation continues the first film's story. Return to Silent Hill is a separate adaptation."
+}

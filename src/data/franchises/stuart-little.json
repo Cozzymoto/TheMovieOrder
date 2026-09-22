@@ -1,0 +1,26 @@
+{
+  "title": "Stuart Little",
+  "short": "Two films",
+  "hue": 210,
+  "blurb": "A mouse adopted by a New York family, to the lasting irritation of their cat.",
+  "films": {
+    "stuartlittle99": {
+      "t": "Stuart Little",
+      "y": 1999,
+      "set": "1999"
+    },
+    "stuartlittle02": {
+      "t": "Stuart Little 2",
+      "y": 2002,
+      "set": "2002"
+    }
+  },
+  "release": [
+    "stuartlittle99",
+    "stuartlittle02"
+  ],
+  "chrono": [
+    "stuartlittle99",
+    "stuartlittle02"
+  ]
+}

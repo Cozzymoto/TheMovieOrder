@@ -1,0 +1,41 @@
+{
+  "title": "Monty Python",
+  "short": "The four films",
+  "hue": 60,
+  "blurb": "Four films from the comedy troupe — a sketch compilation, two stories and a return to sketches.",
+  "films": {
+    "andnow71": {
+      "t": "And Now for Something Completely Different",
+      "y": 1971,
+      "set": "1971"
+    },
+    "montypython75": {
+      "t": "Monty Python and the Holy Grail",
+      "y": 1975,
+      "set": "932 AD"
+    },
+    "montypythons79": {
+      "t": "Monty Python's Life of Brian",
+      "y": 1979,
+      "set": "33 AD"
+    },
+    "montypythons83": {
+      "t": "Monty Python's The Meaning of Life",
+      "y": 1983,
+      "set": "1983"
+    }
+  },
+  "release": [
+    "andnow71",
+    "montypython75",
+    "montypythons79",
+    "montypythons83"
+  ],
+  "chrono": [
+    "andnow71",
+    "montypython75",
+    "montypythons79",
+    "montypythons83"
+  ],
+  "note": "No shared story, so any order works. Most people start with Holy Grail."
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Pusher",
+  "short": "Nicolas Winding Refn's trilogy",
+  "hue": 4,
+  "blurb": "Three weeks in the Copenhagen drug trade, each told from a different man's point of view.",
+  "films": {
+    "pusher96": {
+      "t": "Pusher",
+      "y": 1996,
+      "set": "1996"
+    },
+    "withblood04": {
+      "t": "With Blood on My Hands: Pusher II",
+      "y": 2004,
+      "set": "2004"
+    },
+    "imthe05": {
+      "t": "I'm the Angel of Death: Pusher III",
+      "y": 2005,
+      "set": "2005"
+    }
+  },
+  "release": [
+    "pusher96",
+    "withblood04",
+    "imthe05"
+  ],
+  "chrono": [
+    "pusher96",
+    "withblood04",
+    "imthe05"
+  ],
+  "note": "Each film follows a different character from the first. They can be watched in any order but work best in sequence."
+}

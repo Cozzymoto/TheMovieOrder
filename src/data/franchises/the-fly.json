@@ -1,0 +1,48 @@
+{
+  "title": "The Fly",
+  "short": "Five films, two continuities",
+  "hue": 100,
+  "blurb": "A scientist's teleportation experiment, filmed in 1958 and again in 1986.",
+  "films": {
+    "thefly58": {
+      "t": "The Fly",
+      "y": 1958,
+      "set": "1958"
+    },
+    "returnof59": {
+      "t": "Return of the Fly",
+      "y": 1959,
+      "set": "1959"
+    },
+    "curseof65": {
+      "t": "Curse of the Fly",
+      "y": 1965,
+      "set": "1965"
+    },
+    "thefly86": {
+      "t": "The Fly",
+      "y": 1986,
+      "set": "1986"
+    },
+    "thefly89": {
+      "t": "The Fly II",
+      "y": 1989,
+      "set": "1989"
+    }
+  },
+  "release": [
+    "thefly58",
+    "returnof59",
+    "curseof65",
+    "thefly86",
+    "thefly89"
+  ],
+  "chrono": [
+    "thefly58",
+    "returnof59",
+    "curseof65",
+    "thefly86",
+    "thefly89"
+  ],
+  "note": "The 1986 remake and its sequel are unconnected to the three 1950s and 60s films."
+}

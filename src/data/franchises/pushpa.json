@@ -1,0 +1,26 @@
+{
+  "title": "Pushpa",
+  "short": "Two films",
+  "hue": 0,
+  "blurb": "A labourer's rise in the red sandalwood smuggling trade.",
+  "films": {
+    "pushpathe21": {
+      "t": "Pushpa: The Rise",
+      "y": 2021,
+      "set": "2021"
+    },
+    "pushpa224": {
+      "t": "Pushpa 2: The Rule",
+      "y": 2024,
+      "set": "2024"
+    }
+  },
+  "release": [
+    "pushpathe21",
+    "pushpa224"
+  ],
+  "chrono": [
+    "pushpathe21",
+    "pushpa224"
+  ]
+}

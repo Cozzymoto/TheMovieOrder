@@ -1,0 +1,27 @@
+{
+  "title": "Nanny McPhee",
+  "short": "Two films",
+  "hue": 100,
+  "blurb": "A nanny whose lessons are enforced with magic, and who becomes less frightening each time one is learned.",
+  "films": {
+    "nannymcphee05": {
+      "t": "Nanny McPhee",
+      "y": 2005,
+      "set": "Victorian"
+    },
+    "nannymcphee10": {
+      "t": "Nanny McPhee and the Big Bang",
+      "y": 2010,
+      "set": "Second World War"
+    }
+  },
+  "release": [
+    "nannymcphee05",
+    "nannymcphee10"
+  ],
+  "chrono": [
+    "nannymcphee05",
+    "nannymcphee10"
+  ],
+  "note": "The two films follow different families decades apart. The second was released in the US as Nanny McPhee Returns."
+}

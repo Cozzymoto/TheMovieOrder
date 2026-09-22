@@ -1,0 +1,26 @@
+{
+  "title": "Short Circuit",
+  "short": "Two films",
+  "hue": 200,
+  "blurb": "A military robot struck by lightning, which decides it's alive.",
+  "films": {
+    "shortcircuit86": {
+      "t": "Short Circuit",
+      "y": 1986,
+      "set": "1986"
+    },
+    "shortcircuit88": {
+      "t": "Short Circuit 2",
+      "y": 1988,
+      "set": "1988"
+    }
+  },
+  "release": [
+    "shortcircuit86",
+    "shortcircuit88"
+  ],
+  "chrono": [
+    "shortcircuit86",
+    "shortcircuit88"
+  ]
+}
