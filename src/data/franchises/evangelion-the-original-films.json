@@ -1,0 +1,27 @@
+{
+  "title": "Evangelion: The Original Films",
+  "short": "Death & Rebirth and End of Evangelion",
+  "hue": 270,
+  "blurb": "Two 1997 films that conclude the original television series, one a recap and one an alternative ending.",
+  "films": {
+    "neongenesis97": {
+      "t": "Neon Genesis Evangelion: Death & Rebirth",
+      "y": 1997,
+      "set": "—"
+    },
+    "theend97": {
+      "t": "The End of Evangelion",
+      "y": 1997,
+      "set": "—"
+    }
+  },
+  "release": [
+    "neongenesis97",
+    "theend97"
+  ],
+  "chrono": [
+    "neongenesis97",
+    "theend97"
+  ],
+  "note": "Death & Rebirth is largely a recap of the series plus the first half of the finale. End of Evangelion completes it. Watch the television series first. The Rebuild films are a separate retelling."
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Jackass",
+  "short": "Four films",
+  "hue": 46,
+  "blurb": "Stunts and pranks from the television series, on a larger scale.",
+  "films": {
+    "jackassthe02": {
+      "t": "Jackass: The Movie",
+      "y": 2002,
+      "set": "2002"
+    },
+    "jackassnumber06": {
+      "t": "Jackass Number Two",
+      "y": 2006,
+      "set": "2006"
+    },
+    "jackass3d10": {
+      "t": "Jackass 3D",
+      "y": 2010,
+      "set": "2010"
+    },
+    "jackassforever22": {
+      "t": "Jackass Forever",
+      "y": 2022,
+      "set": "2022"
+    }
+  },
+  "release": [
+    "jackassthe02",
+    "jackassnumber06",
+    "jackass3d10",
+    "jackassforever22"
+  ],
+  "chrono": [
+    "jackassthe02",
+    "jackassnumber06",
+    "jackass3d10",
+    "jackassforever22"
+  ],
+  "note": "No story at all, so any order works. Forever is built around the same cast being twenty years older."
+}

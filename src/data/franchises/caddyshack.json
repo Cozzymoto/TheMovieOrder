@@ -1,0 +1,26 @@
+{
+  "title": "Caddyshack",
+  "short": "Two films",
+  "hue": 100,
+  "blurb": "A country club and the people determined to ruin it.",
+  "films": {
+    "caddyshack80": {
+      "t": "Caddyshack",
+      "y": 1980,
+      "set": "1980"
+    },
+    "caddyshackii88": {
+      "t": "Caddyshack II",
+      "y": 1988,
+      "set": "1988"
+    }
+  },
+  "release": [
+    "caddyshack80",
+    "caddyshackii88"
+  ],
+  "chrono": [
+    "caddyshack80",
+    "caddyshackii88"
+  ]
+}

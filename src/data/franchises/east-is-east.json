@@ -1,0 +1,26 @@
+{
+  "title": "East Is East",
+  "short": "Two films",
+  "hue": 26,
+  "blurb": "A Pakistani-British family in 1970s Salford, and a sequel that travels to Pakistan.",
+  "films": {
+    "eastis99": {
+      "t": "East Is East",
+      "y": 1999,
+      "set": "1971"
+    },
+    "westis10": {
+      "t": "West Is West",
+      "y": 2010,
+      "set": "1975"
+    }
+  },
+  "release": [
+    "eastis99",
+    "westis10"
+  ],
+  "chrono": [
+    "eastis99",
+    "westis10"
+  ]
+}

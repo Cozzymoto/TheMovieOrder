@@ -1,0 +1,27 @@
+{
+  "title": "Borat",
+  "short": "Two films",
+  "hue": 50,
+  "blurb": "A Kazakh reporter loose in America, fourteen years apart.",
+  "films": {
+    "borat06": {
+      "t": "Borat",
+      "y": 2006,
+      "set": "2006"
+    },
+    "boratsubsequent20": {
+      "t": "Borat Subsequent Moviefilm",
+      "y": 2020,
+      "set": "2020"
+    }
+  },
+  "release": [
+    "borat06",
+    "boratsubsequent20"
+  ],
+  "chrono": [
+    "borat06",
+    "boratsubsequent20"
+  ],
+  "note": "The sequel is built around the fact that the character is now famous, which the first film depended on him not being."
+}

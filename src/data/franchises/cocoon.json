@@ -1,0 +1,26 @@
+{
+  "title": "Cocoon",
+  "short": "Two films",
+  "hue": 190,
+  "blurb": "Retirement-home residents rejuvenated by aliens, and what happens when they return.",
+  "films": {
+    "cocoon85": {
+      "t": "Cocoon",
+      "y": 1985,
+      "set": "1985"
+    },
+    "cocoonthe88": {
+      "t": "Cocoon: The Return",
+      "y": 1988,
+      "set": "1988"
+    }
+  },
+  "release": [
+    "cocoon85",
+    "cocoonthe88"
+  ],
+  "chrono": [
+    "cocoon85",
+    "cocoonthe88"
+  ]
+}

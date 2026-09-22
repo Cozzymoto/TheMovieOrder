@@ -1,0 +1,27 @@
+{
+  "title": "Anaconda",
+  "short": "Two films",
+  "hue": 110,
+  "blurb": "Giant snakes in the Amazon, then in Borneo.",
+  "films": {
+    "anaconda97": {
+      "t": "Anaconda",
+      "y": 1997,
+      "set": "1997"
+    },
+    "anacondasthe04": {
+      "t": "Anacondas: The Hunt for the Blood Orchid",
+      "y": 2004,
+      "set": "2004"
+    }
+  },
+  "release": [
+    "anaconda97",
+    "anacondasthe04"
+  ],
+  "chrono": [
+    "anaconda97",
+    "anacondasthe04"
+  ],
+  "note": "Later entries went straight to television and share no cast."
+}

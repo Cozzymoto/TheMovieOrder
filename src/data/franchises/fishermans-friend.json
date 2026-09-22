@@ -1,0 +1,26 @@
+{
+  "title": "Fisherman's Friend",
+  "short": "Two films",
+  "hue": 200,
+  "blurb": "A Cornish sea-shanty group and the music executive who signs them.",
+  "films": {
+    "fishermansfriends19": {
+      "t": "Fisherman's Friends",
+      "y": 2019,
+      "set": "2019"
+    },
+    "fishermansfriends22": {
+      "t": "Fisherman's Friends: One and All",
+      "y": 2022,
+      "set": "2022"
+    }
+  },
+  "release": [
+    "fishermansfriends19",
+    "fishermansfriends22"
+  ],
+  "chrono": [
+    "fishermansfriends19",
+    "fishermansfriends22"
+  ]
+}

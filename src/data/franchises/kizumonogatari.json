@@ -1,0 +1,34 @@
+{
+  "title": "Kizumonogatari",
+  "short": "Three films",
+  "hue": 350,
+  "blurb": "A prequel trilogy to the Monogatari series, covering the spring break that starts everything.",
+  "films": {
+    "kizumonogataripart16": {
+      "t": "Kizumonogatari Part 1: Tekketsu",
+      "y": 2016,
+      "set": "—"
+    },
+    "kizumonogataripart16b": {
+      "t": "Kizumonogatari Part 2: Nekketsu",
+      "y": 2016,
+      "set": "—"
+    },
+    "kizumonogataripart17": {
+      "t": "Kizumonogatari Part 3: Reiketsu",
+      "y": 2017,
+      "set": "—"
+    }
+  },
+  "release": [
+    "kizumonogataripart16",
+    "kizumonogataripart16b",
+    "kizumonogataripart17"
+  ],
+  "chrono": [
+    "kizumonogataripart16",
+    "kizumonogataripart16b",
+    "kizumonogataripart17"
+  ],
+  "note": "Chronologically this comes before the Monogatari television series, though it was made years afterwards."
+}

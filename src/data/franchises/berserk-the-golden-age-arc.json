@@ -1,0 +1,34 @@
+{
+  "title": "Berserk: The Golden Age Arc",
+  "short": "Three films",
+  "hue": 0,
+  "blurb": "The manga's Golden Age arc retold across three animated films.",
+  "films": {
+    "berserkthe12": {
+      "t": "Berserk: The Egg of the King",
+      "y": 2012,
+      "set": "—"
+    },
+    "berserkthe12b": {
+      "t": "Berserk: The Battle for Doldrey",
+      "y": 2012,
+      "set": "—"
+    },
+    "berserkthe13": {
+      "t": "Berserk: The Advent",
+      "y": 2013,
+      "set": "—"
+    }
+  },
+  "release": [
+    "berserkthe12",
+    "berserkthe12b",
+    "berserkthe13"
+  ],
+  "chrono": [
+    "berserkthe12",
+    "berserkthe12b",
+    "berserkthe13"
+  ],
+  "note": "One continuous story. The 1997 television series covers much the same ground."
+}

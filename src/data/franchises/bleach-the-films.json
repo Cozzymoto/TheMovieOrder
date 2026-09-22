@@ -1,0 +1,41 @@
+{
+  "title": "Bleach: The Films",
+  "short": "Four films",
+  "hue": 36,
+  "blurb": "Four self-contained films made alongside the television series.",
+  "films": {
+    "bleachmemories06": {
+      "t": "Bleach: Memories of Nobody",
+      "y": 2006,
+      "set": "—"
+    },
+    "bleachthe07": {
+      "t": "Bleach: The DiamondDust Rebellion",
+      "y": 2007,
+      "set": "—"
+    },
+    "bleachfade08": {
+      "t": "Bleach: Fade to Black",
+      "y": 2008,
+      "set": "—"
+    },
+    "bleachhell10": {
+      "t": "Bleach: Hell Verse",
+      "y": 2010,
+      "set": "—"
+    }
+  },
+  "release": [
+    "bleachmemories06",
+    "bleachthe07",
+    "bleachfade08",
+    "bleachhell10"
+  ],
+  "chrono": [
+    "bleachmemories06",
+    "bleachthe07",
+    "bleachfade08",
+    "bleachhell10"
+  ],
+  "note": "None are part of the main story, so they can be watched in any order once you know the cast."
+}

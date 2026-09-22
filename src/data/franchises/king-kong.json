@@ -1,0 +1,48 @@
+{
+  "title": "King Kong",
+  "short": "Five films",
+  "hue": 30,
+  "blurb": "The 1933 original and its sequel, plus two remakes decades apart.",
+  "films": {
+    "kingkong33": {
+      "t": "King Kong",
+      "y": 1933,
+      "set": "1933"
+    },
+    "sonof33": {
+      "t": "Son of Kong",
+      "y": 1933,
+      "set": "1933"
+    },
+    "kingkong76": {
+      "t": "King Kong",
+      "y": 1976,
+      "set": "1976"
+    },
+    "kingkong86": {
+      "t": "King Kong Lives",
+      "y": 1986,
+      "set": "1986"
+    },
+    "kingkong05": {
+      "t": "King Kong",
+      "y": 2005,
+      "set": "2005"
+    }
+  },
+  "release": [
+    "kingkong33",
+    "sonof33",
+    "kingkong76",
+    "kingkong86",
+    "kingkong05"
+  ],
+  "chrono": [
+    "kingkong33",
+    "sonof33",
+    "kingkong76",
+    "kingkong86",
+    "kingkong05"
+  ],
+  "note": "Son of Kong followed nine months after the original. The 1976 and 2005 films are separate remakes, each with its own sequel or none. Kong: Skull Island belongs to the MonsterVerse."
+}

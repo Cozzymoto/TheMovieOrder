@@ -1,0 +1,48 @@
+{
+  "title": "Jack Ryan",
+  "short": "Five films, five actors",
+  "hue": 212,
+  "blurb": "Tom Clancy's CIA analyst, played by a different actor almost every time and never in a shared continuity.",
+  "films": {
+    "thehunt90": {
+      "t": "The Hunt for Red October",
+      "y": 1990,
+      "set": "1990"
+    },
+    "patriotgames92": {
+      "t": "Patriot Games",
+      "y": 1992,
+      "set": "1992"
+    },
+    "clearand94": {
+      "t": "Clear and Present Danger",
+      "y": 1994,
+      "set": "1994"
+    },
+    "thesum02": {
+      "t": "The Sum of All Fears",
+      "y": 2002,
+      "set": "2002"
+    },
+    "jackryan14": {
+      "t": "Jack Ryan: Shadow Recruit",
+      "y": 2014,
+      "set": "2014"
+    }
+  },
+  "release": [
+    "thehunt90",
+    "patriotgames92",
+    "clearand94",
+    "thesum02",
+    "jackryan14"
+  ],
+  "chrono": [
+    "jackryan14",
+    "thehunt90",
+    "patriotgames92",
+    "clearand94",
+    "thesum02"
+  ],
+  "note": "Only Patriot Games and Clear and Present Danger share a cast. The Sum of All Fears and Shadow Recruit each restart with a younger Ryan, which is why Shadow Recruit sits first by story."
+}

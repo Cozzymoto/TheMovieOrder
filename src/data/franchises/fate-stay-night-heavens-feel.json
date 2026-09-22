@@ -1,0 +1,34 @@
+{
+  "title": "Fate/stay night: Heaven's Feel",
+  "short": "Three films",
+  "hue": 264,
+  "blurb": "One route of the visual novel adapted across three films, released over three years.",
+  "films": {
+    "fatestay17": {
+      "t": "Fate/stay night: Heaven's Feel I. presage flower",
+      "y": 2017,
+      "set": "—"
+    },
+    "fatestay19": {
+      "t": "Fate/stay night: Heaven's Feel II. lost butterfly",
+      "y": 2019,
+      "set": "—"
+    },
+    "fatestay20": {
+      "t": "Fate/stay night: Heaven's Feel III. spring song",
+      "y": 2020,
+      "set": "—"
+    }
+  },
+  "release": [
+    "fatestay17",
+    "fatestay19",
+    "fatestay20"
+  ],
+  "chrono": [
+    "fatestay17",
+    "fatestay19",
+    "fatestay20"
+  ],
+  "note": "One continuous story in three parts. The Unlimited Blade Works series covers a different route of the same source."
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Gregory's Girl",
+  "short": "Two films",
+  "hue": 120,
+  "blurb": "A Scottish schoolboy and the girl who takes his place in the football team, then a sequel twenty years on.",
+  "films": {
+    "gregorysgirl81": {
+      "t": "Gregory's Girl",
+      "y": 1981,
+      "set": "1981"
+    },
+    "gregorystwo99": {
+      "t": "Gregory's Two Girls",
+      "y": 1999,
+      "set": "1999"
+    }
+  },
+  "release": [
+    "gregorysgirl81",
+    "gregorystwo99"
+  ],
+  "chrono": [
+    "gregorysgirl81",
+    "gregorystwo99"
+  ]
+}

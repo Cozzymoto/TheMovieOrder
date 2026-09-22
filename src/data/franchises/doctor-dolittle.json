@@ -1,0 +1,34 @@
+{
+  "title": "Doctor Dolittle",
+  "short": "Three films",
+  "hue": 150,
+  "blurb": "A doctor who can talk to animals, played by three different actors across six decades.",
+  "films": {
+    "doctordolittle67": {
+      "t": "Doctor Dolittle",
+      "y": 1967,
+      "set": "1967"
+    },
+    "doctordolittle98": {
+      "t": "Doctor Dolittle",
+      "y": 1998,
+      "set": "1998"
+    },
+    "dolittle20": {
+      "t": "Dolittle",
+      "y": 2020,
+      "set": "2020"
+    }
+  },
+  "release": [
+    "doctordolittle67",
+    "doctordolittle98",
+    "dolittle20"
+  ],
+  "chrono": [
+    "doctordolittle67",
+    "doctordolittle98",
+    "dolittle20"
+  ],
+  "note": "All three adapt the same books independently. The 1998 film had several direct-to-video sequels."
+}

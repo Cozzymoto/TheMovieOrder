@@ -1,0 +1,41 @@
+{
+  "title": "Death Note: The Japanese Films",
+  "short": "Four live-action films",
+  "hue": 0,
+  "blurb": "Live-action adaptations of the manga, plus a spin-off and a later sequel.",
+  "films": {
+    "deathnote06": {
+      "t": "Death Note",
+      "y": 2006,
+      "set": "2006"
+    },
+    "deathnote06b": {
+      "t": "Death Note: The Last Name",
+      "y": 2006,
+      "set": "2006"
+    },
+    "lchange08": {
+      "t": "L: Change the World",
+      "y": 2008,
+      "set": "2008"
+    },
+    "deathnote16": {
+      "t": "Death Note: Light Up the New World",
+      "y": 2016,
+      "set": "2016"
+    }
+  },
+  "release": [
+    "deathnote06",
+    "deathnote06b",
+    "lchange08",
+    "deathnote16"
+  ],
+  "chrono": [
+    "deathnote06",
+    "deathnote06b",
+    "lchange08",
+    "deathnote16"
+  ],
+  "note": "The first two are one story split in half. L: Change the World is a side story branching from the second film's ending, and Light Up the New World jumps ten years ahead. The 2017 American film is unrelated."
+}

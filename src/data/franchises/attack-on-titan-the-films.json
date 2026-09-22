@@ -1,0 +1,41 @@
+{
+  "title": "Attack on Titan: The Films",
+  "short": "Four compilation films",
+  "hue": 8,
+  "blurb": "Recaps of the television series, each covering a season in film form.",
+  "films": {
+    "attackon14": {
+      "t": "Attack on Titan: Crimson Bow and Arrow",
+      "y": 2014,
+      "set": "—"
+    },
+    "attackon15": {
+      "t": "Attack on Titan: Wings of Freedom",
+      "y": 2015,
+      "set": "—"
+    },
+    "attackon18": {
+      "t": "Attack on Titan: The Roar of Awakening",
+      "y": 2018,
+      "set": "—"
+    },
+    "attackon24": {
+      "t": "Attack on Titan: The Last Attack",
+      "y": 2024,
+      "set": "—"
+    }
+  },
+  "release": [
+    "attackon14",
+    "attackon15",
+    "attackon18",
+    "attackon24"
+  ],
+  "chrono": [
+    "attackon14",
+    "attackon15",
+    "attackon18",
+    "attackon24"
+  ],
+  "note": "These condense the series rather than adding to it. If you have time, the television version is the fuller experience."
+}

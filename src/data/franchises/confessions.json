@@ -1,0 +1,41 @@
+{
+  "title": "Confessions",
+  "short": "Four 1970s comedies",
+  "hue": 340,
+  "blurb": "A window cleaner and his relentlessly unlucky escapades, across four films.",
+  "films": {
+    "confessionsof74": {
+      "t": "Confessions of a Window Cleaner",
+      "y": 1974,
+      "set": "1974"
+    },
+    "confessionsof75": {
+      "t": "Confessions of a Pop Performer",
+      "y": 1975,
+      "set": "1975"
+    },
+    "confessionsof76": {
+      "t": "Confessions of a Driving Instructor",
+      "y": 1976,
+      "set": "1976"
+    },
+    "confessionsfrom77": {
+      "t": "Confessions from a Holiday Camp",
+      "y": 1977,
+      "set": "1977"
+    }
+  },
+  "release": [
+    "confessionsof74",
+    "confessionsof75",
+    "confessionsof76",
+    "confessionsfrom77"
+  ],
+  "chrono": [
+    "confessionsof74",
+    "confessionsof75",
+    "confessionsof76",
+    "confessionsfrom77"
+  ],
+  "note": "Robin Askwith plays the same character in all four, each in a new job."
+}

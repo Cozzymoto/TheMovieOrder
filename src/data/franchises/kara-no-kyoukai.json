@@ -1,0 +1,69 @@
+{
+  "title": "Kara no Kyoukai",
+  "short": "The Garden of Sinners — eight films",
+  "hue": 280,
+  "blurb": "Eight films released deliberately out of sequence. The second film is set first, and the first film is set fourth.",
+  "films": {
+    "thegarden07": {
+      "t": "The Garden of Sinners: Overlooking View",
+      "y": 2007,
+      "set": "1998"
+    },
+    "thegarden07b": {
+      "t": "The Garden of Sinners: Murder Speculation Part A",
+      "y": 2007,
+      "set": "1995"
+    },
+    "thegarden08": {
+      "t": "The Garden of Sinners: Remaining Sense of Pain",
+      "y": 2008,
+      "set": "1998"
+    },
+    "thegarden08b": {
+      "t": "The Garden of Sinners: The Hollow Shrine",
+      "y": 2008,
+      "set": "1998"
+    },
+    "thegarden08c": {
+      "t": "The Garden of Sinners: Paradox Paradigm",
+      "y": 2008,
+      "set": "1999"
+    },
+    "thegarden08d": {
+      "t": "The Garden of Sinners: Oblivion Recording",
+      "y": 2008,
+      "set": "1999"
+    },
+    "thegarden09": {
+      "t": "The Garden of Sinners: A Study in Murder Part B",
+      "y": 2009,
+      "set": "1999"
+    },
+    "thegarden09b": {
+      "t": "The Garden of Sinners: Epilogue",
+      "y": 2009,
+      "set": "1999"
+    }
+  },
+  "release": [
+    "thegarden07",
+    "thegarden07b",
+    "thegarden08",
+    "thegarden08b",
+    "thegarden08c",
+    "thegarden08d",
+    "thegarden09",
+    "thegarden09b"
+  ],
+  "chrono": [
+    "thegarden07b",
+    "thegarden08b",
+    "thegarden08",
+    "thegarden07",
+    "thegarden08c",
+    "thegarden08d",
+    "thegarden09",
+    "thegarden09b"
+  ],
+  "note": "This is one of the clearest cases on the whole site. The films were made in a scrambled order on purpose, and the chronological path makes a very different, more linear story. Most viewers are told to watch release order first."
+}

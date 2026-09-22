@@ -1,0 +1,27 @@
+{
+  "title": "Dad's Army",
+  "short": "Two films",
+  "hue": 96,
+  "blurb": "A 1971 film of the sitcom, and a 2016 remake with a new cast.",
+  "films": {
+    "dadsarmy71": {
+      "t": "Dad's Army",
+      "y": 1971,
+      "set": "1940"
+    },
+    "dadsarmy16": {
+      "t": "Dad's Army",
+      "y": 2016,
+      "set": "1944"
+    }
+  },
+  "release": [
+    "dadsarmy71",
+    "dadsarmy16"
+  ],
+  "chrono": [
+    "dadsarmy71",
+    "dadsarmy16"
+  ],
+  "note": "The 1971 film retells how the platoon formed. The 2016 version is a fresh take rather than a continuation."
+}

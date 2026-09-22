@@ -1,0 +1,27 @@
+{
+  "title": "Demon Slayer",
+  "short": "The films",
+  "hue": 196,
+  "blurb": "Film-length chapters of the ongoing story, each following directly from the television series.",
+  "films": {
+    "demonslayer20": {
+      "t": "Demon Slayer: Mugen Train",
+      "y": 2020,
+      "set": "—"
+    },
+    "demonslayer25": {
+      "t": "Demon Slayer: Infinity Castle",
+      "y": 2025,
+      "set": "—"
+    }
+  },
+  "release": [
+    "demonslayer20",
+    "demonslayer25"
+  ],
+  "chrono": [
+    "demonslayer20",
+    "demonslayer25"
+  ],
+  "note": "Both sit inside the television series rather than beside it — Mugen Train continues from season one, and Infinity Castle from the Hashira Training arc."
+}

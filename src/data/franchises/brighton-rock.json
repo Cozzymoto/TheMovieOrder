@@ -1,0 +1,27 @@
+{
+  "title": "Brighton Rock",
+  "short": "Two films",
+  "hue": 348,
+  "blurb": "A young gangster on the Brighton seafront, filmed in 1948 and again in 2010.",
+  "films": {
+    "brightonrock48": {
+      "t": "Brighton Rock",
+      "y": 1948,
+      "set": "1930s"
+    },
+    "brightonrock10": {
+      "t": "Brighton Rock",
+      "y": 2010,
+      "set": "1964"
+    }
+  },
+  "release": [
+    "brightonrock48",
+    "brightonrock10"
+  ],
+  "chrono": [
+    "brightonrock48",
+    "brightonrock10"
+  ],
+  "note": "The 2010 version moves the story to the era of the mods and rockers."
+}

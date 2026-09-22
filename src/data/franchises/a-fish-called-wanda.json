@@ -1,0 +1,27 @@
+{
+  "title": "A Fish Called Wanda",
+  "short": "Two films",
+  "hue": 40,
+  "blurb": "A heist comedy, and a follow-up with the same four leads playing new characters.",
+  "films": {
+    "afish88": {
+      "t": "A Fish Called Wanda",
+      "y": 1988,
+      "set": "1988"
+    },
+    "fiercecreatures97": {
+      "t": "Fierce Creatures",
+      "y": 1997,
+      "set": "1997"
+    }
+  },
+  "release": [
+    "afish88",
+    "fiercecreatures97"
+  ],
+  "chrono": [
+    "afish88",
+    "fiercecreatures97"
+  ],
+  "note": "Fierce Creatures is not a sequel — it reunites the cast in an unconnected story about a zoo."
+}

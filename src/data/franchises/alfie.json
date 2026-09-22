@@ -1,0 +1,26 @@
+{
+  "title": "Alfie",
+  "short": "Two films",
+  "hue": 340,
+  "blurb": "A London womaniser narrating his own life, and a 2004 remake set in New York.",
+  "films": {
+    "alfie66": {
+      "t": "Alfie",
+      "y": 1966,
+      "set": "1966"
+    },
+    "alfie04": {
+      "t": "Alfie",
+      "y": 2004,
+      "set": "2004"
+    }
+  },
+  "release": [
+    "alfie66",
+    "alfie04"
+  ],
+  "chrono": [
+    "alfie66",
+    "alfie04"
+  ]
+}

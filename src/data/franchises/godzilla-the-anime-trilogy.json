@@ -1,0 +1,34 @@
+{
+  "title": "Godzilla: The Anime Trilogy",
+  "short": "Three films",
+  "hue": 128,
+  "blurb": "A separate animated continuity set thousands of years after humanity flees Earth.",
+  "films": {
+    "godzillaplanet17": {
+      "t": "Godzilla: Planet of the Monsters",
+      "y": 2017,
+      "set": "Far future"
+    },
+    "godzillacity18": {
+      "t": "Godzilla: City on the Edge of Battle",
+      "y": 2018,
+      "set": "Far future"
+    },
+    "godzillathe18": {
+      "t": "Godzilla: The Planet Eater",
+      "y": 2018,
+      "set": "Far future"
+    }
+  },
+  "release": [
+    "godzillaplanet17",
+    "godzillacity18",
+    "godzillathe18"
+  ],
+  "chrono": [
+    "godzillaplanet17",
+    "godzillacity18",
+    "godzillathe18"
+  ],
+  "note": "One continuous story, unconnected to any other Godzilla series."
+}

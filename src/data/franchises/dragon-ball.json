@@ -1,0 +1,41 @@
+{
+  "title": "Dragon Ball",
+  "short": "The four canon films",
+  "hue": 40,
+  "blurb": "Dozens of Dragon Ball films exist, but only four sit inside the main story.",
+  "films": {
+    "dragonball13": {
+      "t": "Dragon Ball Z: Battle of Gods",
+      "y": 2013,
+      "set": "—"
+    },
+    "dragonball15": {
+      "t": "Dragon Ball Z: Resurrection 'F'",
+      "y": 2015,
+      "set": "—"
+    },
+    "dragonball18": {
+      "t": "Dragon Ball Super: Broly",
+      "y": 2018,
+      "set": "—"
+    },
+    "dragonball22": {
+      "t": "Dragon Ball Super: Super Hero",
+      "y": 2022,
+      "set": "—"
+    }
+  },
+  "release": [
+    "dragonball13",
+    "dragonball15",
+    "dragonball18",
+    "dragonball22"
+  ],
+  "chrono": [
+    "dragonball13",
+    "dragonball15",
+    "dragonball18",
+    "dragonball22"
+  ],
+  "note": "The earlier films are side stories that contradict the series. These four are part of it — the first two were later retold within Dragon Ball Super."
+}

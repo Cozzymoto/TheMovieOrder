@@ -1,0 +1,34 @@
+{
+  "title": "Lupin III",
+  "short": "The best-known films",
+  "hue": 40,
+  "blurb": "A gentleman thief across five decades of animation.",
+  "films": {
+    "lupiniii78": {
+      "t": "Lupin III: The Mystery of Mamo",
+      "y": 1978,
+      "set": "—"
+    },
+    "lupiniii79": {
+      "t": "Lupin III: The Castle of Cagliostro",
+      "y": 1979,
+      "set": "—"
+    },
+    "lupiniii19": {
+      "t": "Lupin III: The First",
+      "y": 2019,
+      "set": "—"
+    }
+  },
+  "release": [
+    "lupiniii78",
+    "lupiniii79",
+    "lupiniii19"
+  ],
+  "chrono": [
+    "lupiniii78",
+    "lupiniii79",
+    "lupiniii19"
+  ],
+  "note": "Each is self-contained, so any order works. The Castle of Cagliostro was Hayao Miyazaki's first film and is the usual recommendation."
+}

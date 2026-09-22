@@ -1,0 +1,41 @@
+{
+  "title": "Code Geass",
+  "short": "The films",
+  "hue": 44,
+  "blurb": "Three films that retell the television series, and a fourth that continues past it.",
+  "films": {
+    "codegeass17": {
+      "t": "Code Geass: Lelouch of the Rebellion I – Initiation",
+      "y": 2017,
+      "set": "—"
+    },
+    "codegeass18": {
+      "t": "Code Geass: Lelouch of the Rebellion II – Transgression",
+      "y": 2018,
+      "set": "—"
+    },
+    "codegeass18b": {
+      "t": "Code Geass: Lelouch of the Rebellion III – Glorification",
+      "y": 2018,
+      "set": "—"
+    },
+    "codegeass19": {
+      "t": "Code Geass: Lelouch of the Re;surrection",
+      "y": 2019,
+      "set": "—"
+    }
+  },
+  "release": [
+    "codegeass17",
+    "codegeass18",
+    "codegeass18b",
+    "codegeass19"
+  ],
+  "chrono": [
+    "codegeass17",
+    "codegeass18",
+    "codegeass18b",
+    "codegeass19"
+  ],
+  "note": "The first three compress the series with some changes, and Re;surrection follows on from that version rather than the original ending."
+}

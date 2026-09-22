@@ -1,0 +1,62 @@
+{
+  "title": "Godzilla: The Heisei Era",
+  "short": "Seven films",
+  "hue": 140,
+  "blurb": "A 1984 restart that ignores every sequel after the 1954 original, then runs unbroken to 1995.",
+  "films": {
+    "thereturn84": {
+      "t": "The Return of Godzilla",
+      "y": 1984,
+      "set": "1984"
+    },
+    "godzillavs89": {
+      "t": "Godzilla vs. Biollante",
+      "y": 1989,
+      "set": "1989"
+    },
+    "godzillavs91": {
+      "t": "Godzilla vs. King Ghidorah",
+      "y": 1991,
+      "set": "1992"
+    },
+    "godzillavs92": {
+      "t": "Godzilla vs. Mothra",
+      "y": 1992,
+      "set": "1993"
+    },
+    "godzillavs93": {
+      "t": "Godzilla vs. Mechagodzilla II",
+      "y": 1993,
+      "set": "1994"
+    },
+    "godzillavs94": {
+      "t": "Godzilla vs. SpaceGodzilla",
+      "y": 1994,
+      "set": "1995"
+    },
+    "godzillavs95": {
+      "t": "Godzilla vs. Destoroyah",
+      "y": 1995,
+      "set": "1996"
+    }
+  },
+  "release": [
+    "thereturn84",
+    "godzillavs89",
+    "godzillavs91",
+    "godzillavs92",
+    "godzillavs93",
+    "godzillavs94",
+    "godzillavs95"
+  ],
+  "chrono": [
+    "thereturn84",
+    "godzillavs89",
+    "godzillavs91",
+    "godzillavs92",
+    "godzillavs93",
+    "godzillavs94",
+    "godzillavs95"
+  ],
+  "note": "This series is a direct sequel to the 1954 film alone — the whole Showa run in between is treated as never having happened. Unusually for Godzilla, it has genuine continuity throughout."
+}

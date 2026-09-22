@@ -1,0 +1,26 @@
+{
+  "title": "Coming to America",
+  "short": "Two films",
+  "hue": 40,
+  "blurb": "An African prince seeking a wife in Queens, and a sequel thirty-three years later.",
+  "films": {
+    "comingto88": {
+      "t": "Coming to America",
+      "y": 1988,
+      "set": "1988"
+    },
+    "coming221": {
+      "t": "Coming 2 America",
+      "y": 2021,
+      "set": "2021"
+    }
+  },
+  "release": [
+    "comingto88",
+    "coming221"
+  ],
+  "chrono": [
+    "comingto88",
+    "coming221"
+  ]
+}

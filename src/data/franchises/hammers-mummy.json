@@ -1,0 +1,41 @@
+{
+  "title": "Hammer's Mummy",
+  "short": "Four films",
+  "hue": 40,
+  "blurb": "Hammer's mummy cycle, each an independent story rather than a continuing one.",
+  "films": {
+    "themummy59": {
+      "t": "The Mummy",
+      "y": 1959,
+      "set": "1895"
+    },
+    "thecurse64": {
+      "t": "The Curse of the Mummy's Tomb",
+      "y": 1964,
+      "set": "1900"
+    },
+    "themummys67": {
+      "t": "The Mummy's Shroud",
+      "y": 1967,
+      "set": "1920"
+    },
+    "bloodfrom71": {
+      "t": "Blood from the Mummy's Tomb",
+      "y": 1971,
+      "set": "1970s"
+    }
+  },
+  "release": [
+    "themummy59",
+    "thecurse64",
+    "themummys67",
+    "bloodfrom71"
+  ],
+  "chrono": [
+    "themummy59",
+    "thecurse64",
+    "themummys67",
+    "bloodfrom71"
+  ],
+  "note": "These share a studio and a theme but no continuity, so they work in any order."
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Kidulthood",
+  "short": "Three films",
+  "hue": 18,
+  "blurb": "West London teenagers followed into adulthood across a decade.",
+  "films": {
+    "kidulthood06": {
+      "t": "Kidulthood",
+      "y": 2006,
+      "set": "2006"
+    },
+    "adulthood08": {
+      "t": "Adulthood",
+      "y": 2008,
+      "set": "2014"
+    },
+    "brotherhood16": {
+      "t": "Brotherhood",
+      "y": 2016,
+      "set": "2016"
+    }
+  },
+  "release": [
+    "kidulthood06",
+    "adulthood08",
+    "brotherhood16"
+  ],
+  "chrono": [
+    "kidulthood06",
+    "adulthood08",
+    "brotherhood16"
+  ],
+  "note": "One continuous story. Adulthood is set six years after Kidulthood, with the same character released from prison."
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Godzilla: The Millennium Era",
+  "short": "Six films",
+  "hue": 132,
+  "blurb": "Six films where almost every one is its own separate continuity, each restarting from 1954.",
+  "films": {
+    "godzilla200099": {
+      "t": "Godzilla 2000: Millennium",
+      "y": 1999,
+      "set": "1999"
+    },
+    "godzillavs00": {
+      "t": "Godzilla vs. Megaguirus",
+      "y": 2000,
+      "set": "2001"
+    },
+    "godzillamothra01": {
+      "t": "Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack",
+      "y": 2001,
+      "set": "2001"
+    },
+    "godzillaagainst02": {
+      "t": "Godzilla Against Mechagodzilla",
+      "y": 2002,
+      "set": "2003"
+    },
+    "godzillatokyo03": {
+      "t": "Godzilla: Tokyo S.O.S.",
+      "y": 2003,
+      "set": "2004"
+    },
+    "godzillafinal04": {
+      "t": "Godzilla: Final Wars",
+      "y": 2004,
+      "set": "Future"
+    }
+  },
+  "release": [
+    "godzilla200099",
+    "godzillavs00",
+    "godzillamothra01",
+    "godzillaagainst02",
+    "godzillatokyo03",
+    "godzillafinal04"
+  ],
+  "chrono": [
+    "godzilla200099",
+    "godzillavs00",
+    "godzillamothra01",
+    "godzillaagainst02",
+    "godzillatokyo03",
+    "godzillafinal04"
+  ],
+  "note": "Only Godzilla Against Mechagodzilla and Tokyo S.O.S. share a continuity. The rest stand alone, so you can watch any of them in isolation."
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Beethoven",
+  "short": "The two cinema films",
+  "hue": 36,
+  "blurb": "A St Bernard and the family who reluctantly keep him.",
+  "films": {
+    "beethoven92": {
+      "t": "Beethoven",
+      "y": 1992,
+      "set": "1992"
+    },
+    "beethovens2nd93": {
+      "t": "Beethoven's 2nd",
+      "y": 1993,
+      "set": "1993"
+    }
+  },
+  "release": [
+    "beethoven92",
+    "beethovens2nd93"
+  ],
+  "chrono": [
+    "beethoven92",
+    "beethovens2nd93"
+  ],
+  "note": "Several later films went straight to video with a different family."
+}

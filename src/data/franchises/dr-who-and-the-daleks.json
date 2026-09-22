@@ -1,0 +1,27 @@
+{
+  "title": "Dr. Who and the Daleks",
+  "short": "The two Peter Cushing films",
+  "hue": 196,
+  "blurb": "Two 1960s films made separately from the television series, with a different Doctor entirely.",
+  "films": {
+    "drwho65": {
+      "t": "Dr. Who and the Daleks",
+      "y": 1965,
+      "set": "—"
+    },
+    "daleksinvasion66": {
+      "t": "Daleks' Invasion Earth 2150 A.D.",
+      "y": 1966,
+      "set": "2150"
+    }
+  },
+  "release": [
+    "drwho65",
+    "daleksinvasion66"
+  ],
+  "chrono": [
+    "drwho65",
+    "daleksinvasion66"
+  ],
+  "note": "These retell early television stories in colour, with Peter Cushing as a human inventor called Dr. Who. They are not part of the television continuity."
+}

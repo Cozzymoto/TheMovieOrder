@@ -1,0 +1,34 @@
+{
+  "title": "Made in Abyss",
+  "short": "Three films",
+  "hue": 174,
+  "blurb": "A vast pit that people descend and rarely return from, in two compilation films and one original.",
+  "films": {
+    "madein19": {
+      "t": "Made in Abyss: Journey's Dawn",
+      "y": 2019,
+      "set": "—"
+    },
+    "madein19b": {
+      "t": "Made in Abyss: Wandering Twilight",
+      "y": 2019,
+      "set": "—"
+    },
+    "madein20": {
+      "t": "Made in Abyss: Dawn of the Deep Soul",
+      "y": 2020,
+      "set": "—"
+    }
+  },
+  "release": [
+    "madein19",
+    "madein19b",
+    "madein20"
+  ],
+  "chrono": [
+    "madein19",
+    "madein19b",
+    "madein20"
+  ],
+  "note": "The first two recap the television series. Dawn of the Deep Soul continues it and is essential."
+}

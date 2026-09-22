@@ -1,0 +1,27 @@
+{
+  "title": "Matilda",
+  "short": "Two films",
+  "hue": 320,
+  "blurb": "The Roald Dahl story filmed in 1996 and again in 2022 as a musical.",
+  "films": {
+    "matilda96": {
+      "t": "Matilda",
+      "y": 1996,
+      "set": "1996"
+    },
+    "matildathe22": {
+      "t": "Matilda the Musical",
+      "y": 2022,
+      "set": "2022"
+    }
+  },
+  "release": [
+    "matilda96",
+    "matildathe22"
+  ],
+  "chrono": [
+    "matilda96",
+    "matildathe22"
+  ],
+  "note": "The 2022 version adapts the stage musical rather than remaking the 1996 film."
+}

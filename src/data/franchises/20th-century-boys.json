@@ -1,0 +1,34 @@
+{
+  "title": "20th Century Boys",
+  "short": "Three films",
+  "hue": 44,
+  "blurb": "A childhood prophecy coming true decades later, told across three films.",
+  "films": {
+    "f20thcentury08": {
+      "t": "20th Century Boys: Beginning of the End",
+      "y": 2008,
+      "set": "1969 & 1997"
+    },
+    "f20thcentury09": {
+      "t": "20th Century Boys 2: The Last Hope",
+      "y": 2009,
+      "set": "2015"
+    },
+    "f20thcentury09b": {
+      "t": "20th Century Boys 3: Redemption",
+      "y": 2009,
+      "set": "2017"
+    }
+  },
+  "release": [
+    "f20thcentury08",
+    "f20thcentury09",
+    "f20thcentury09b"
+  ],
+  "chrono": [
+    "f20thcentury08",
+    "f20thcentury09",
+    "f20thcentury09b"
+  ],
+  "note": "One continuous story that jumps between decades within each film."
+}

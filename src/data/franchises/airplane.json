@@ -1,0 +1,26 @@
+{
+  "title": "Airplane!",
+  "short": "Two films",
+  "hue": 200,
+  "blurb": "A disaster-film parody, and a sequel that moves it into space.",
+  "films": {
+    "airplane80": {
+      "t": "Airplane!",
+      "y": 1980,
+      "set": "1980"
+    },
+    "airplaneii82": {
+      "t": "Airplane II: The Sequel",
+      "y": 1982,
+      "set": "1982"
+    }
+  },
+  "release": [
+    "airplane80",
+    "airplaneii82"
+  ],
+  "chrono": [
+    "airplane80",
+    "airplaneii82"
+  ]
+}

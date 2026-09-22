@@ -1,0 +1,26 @@
+{
+  "title": "Dr. Phibes",
+  "short": "Two films",
+  "hue": 280,
+  "blurb": "A disfigured organist taking elaborate revenge, twice.",
+  "films": {
+    "theabominable71": {
+      "t": "The Abominable Dr. Phibes",
+      "y": 1971,
+      "set": "1925"
+    },
+    "drphibes72": {
+      "t": "Dr. Phibes Rises Again",
+      "y": 1972,
+      "set": "1928"
+    }
+  },
+  "release": [
+    "theabominable71",
+    "drphibes72"
+  ],
+  "chrono": [
+    "theabominable71",
+    "drphibes72"
+  ]
+}
