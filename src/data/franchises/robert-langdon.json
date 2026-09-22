@@ -1,0 +1,34 @@
+{
+  "title": "Robert Langdon",
+  "short": "Three films",
+  "hue": 40,
+  "blurb": "Dan Brown's symbologist across three cases.",
+  "films": {
+    "theda06": {
+      "t": "The Da Vinci Code",
+      "y": 2006,
+      "set": "2006"
+    },
+    "angelsand09": {
+      "t": "Angels & Demons",
+      "y": 2009,
+      "set": "2009"
+    },
+    "inferno16": {
+      "t": "Inferno",
+      "y": 2016,
+      "set": "2016"
+    }
+  },
+  "release": [
+    "theda06",
+    "angelsand09",
+    "inferno16"
+  ],
+  "chrono": [
+    "theda06",
+    "angelsand09",
+    "inferno16"
+  ],
+  "note": "Angels & Demons is the earlier novel, so the books put it first. The film was made as a sequel and refers back, which is why release order is the one to follow."
+}

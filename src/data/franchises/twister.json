@@ -1,0 +1,27 @@
+{
+  "title": "Twister",
+  "short": "Two films",
+  "hue": 196,
+  "blurb": "Storm chasers in Oklahoma, in 1996 and again in 2024.",
+  "films": {
+    "twister96": {
+      "t": "Twister",
+      "y": 1996,
+      "set": "1996"
+    },
+    "twisters24": {
+      "t": "Twisters",
+      "y": 2024,
+      "set": "2024"
+    }
+  },
+  "release": [
+    "twister96",
+    "twisters24"
+  ],
+  "chrono": [
+    "twister96",
+    "twisters24"
+  ],
+  "note": "Twisters is a standalone follow-up with a new cast rather than a continuation."
+}

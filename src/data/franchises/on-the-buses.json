@@ -1,0 +1,34 @@
+{
+  "title": "On the Buses",
+  "short": "Three films",
+  "hue": 100,
+  "blurb": "Films spun off from the television sitcom, made while it was still running.",
+  "films": {
+    "onthe71": {
+      "t": "On the Buses",
+      "y": 1971,
+      "set": "1971"
+    },
+    "mutinyon72": {
+      "t": "Mutiny on the Buses",
+      "y": 1972,
+      "set": "1972"
+    },
+    "holidayon73": {
+      "t": "Holiday on the Buses",
+      "y": 1973,
+      "set": "1973"
+    }
+  },
+  "release": [
+    "onthe71",
+    "mutinyon72",
+    "holidayon73"
+  ],
+  "chrono": [
+    "onthe71",
+    "mutinyon72",
+    "holidayon73"
+  ],
+  "note": "Each continues from the television series. The first was among the highest-grossing British films of its year."
+}

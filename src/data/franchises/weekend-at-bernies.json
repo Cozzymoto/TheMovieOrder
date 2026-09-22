@@ -1,0 +1,26 @@
+{
+  "title": "Weekend at Bernie's",
+  "short": "Two films",
+  "hue": 190,
+  "blurb": "Two employees pretending their dead boss is alive, twice.",
+  "films": {
+    "weekendat89": {
+      "t": "Weekend at Bernie's",
+      "y": 1989,
+      "set": "1989"
+    },
+    "weekendat93": {
+      "t": "Weekend at Bernie's II",
+      "y": 1993,
+      "set": "1993"
+    }
+  },
+  "release": [
+    "weekendat89",
+    "weekendat93"
+  ],
+  "chrono": [
+    "weekendat89",
+    "weekendat93"
+  ]
+}

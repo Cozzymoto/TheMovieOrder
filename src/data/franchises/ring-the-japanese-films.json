@@ -1,0 +1,41 @@
+{
+  "title": "Ring: The Japanese Films",
+  "short": "Four films",
+  "hue": 190,
+  "blurb": "The original Japanese series, including a prequel and a rival sequel released the same year.",
+  "films": {
+    "ring98": {
+      "t": "Ring",
+      "y": 1998,
+      "set": "1998"
+    },
+    "rasen98": {
+      "t": "Rasen",
+      "y": 1998,
+      "set": "1998"
+    },
+    "ring299": {
+      "t": "Ring 2",
+      "y": 1999,
+      "set": "1999"
+    },
+    "ring000": {
+      "t": "Ring 0: Birthday",
+      "y": 2000,
+      "set": "1968"
+    }
+  },
+  "release": [
+    "ring98",
+    "rasen98",
+    "ring299",
+    "ring000"
+  ],
+  "chrono": [
+    "ring000",
+    "ring98",
+    "rasen98",
+    "ring299"
+  ],
+  "note": "Rasen was made as the official sequel and rejected by audiences, so Ring 2 was produced as a replacement. You only need one of them. Ring 0 is a prequel set thirty years earlier."
+}

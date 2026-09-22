@@ -1,0 +1,41 @@
+{
+  "title": "Nativity!",
+  "short": "Four films",
+  "hue": 0,
+  "blurb": "A Coventry primary school's Christmas play, and the chaos around it, four times over.",
+  "films": {
+    "nativity09": {
+      "t": "Nativity!",
+      "y": 2009,
+      "set": "2009"
+    },
+    "nativity212": {
+      "t": "Nativity 2: Danger in the Manger",
+      "y": 2012,
+      "set": "2012"
+    },
+    "nativity314": {
+      "t": "Nativity 3: Dude, Where's My Donkey?",
+      "y": 2014,
+      "set": "2014"
+    },
+    "nativityrocks18": {
+      "t": "Nativity Rocks!",
+      "y": 2018,
+      "set": "2018"
+    }
+  },
+  "release": [
+    "nativity09",
+    "nativity212",
+    "nativity314",
+    "nativityrocks18"
+  ],
+  "chrono": [
+    "nativity09",
+    "nativity212",
+    "nativity314",
+    "nativityrocks18"
+  ],
+  "note": "Largely improvised, with the cast changing between films. Each works on its own."
+}

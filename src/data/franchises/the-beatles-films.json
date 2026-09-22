@@ -1,0 +1,48 @@
+{
+  "title": "The Beatles Films",
+  "short": "Five films",
+  "hue": 50,
+  "blurb": "The band's own films, from black-and-white comedy to animation to the end.",
+  "films": {
+    "ahard64": {
+      "t": "A Hard Day's Night",
+      "y": 1964,
+      "set": "1964"
+    },
+    "help65": {
+      "t": "Help!",
+      "y": 1965,
+      "set": "1965"
+    },
+    "magicalmystery67": {
+      "t": "Magical Mystery Tour",
+      "y": 1967,
+      "set": "1967"
+    },
+    "yellowsubmarine68": {
+      "t": "Yellow Submarine",
+      "y": 1968,
+      "set": "1968"
+    },
+    "letit70": {
+      "t": "Let It Be",
+      "y": 1970,
+      "set": "1970"
+    }
+  },
+  "release": [
+    "ahard64",
+    "help65",
+    "magicalmystery67",
+    "yellowsubmarine68",
+    "letit70"
+  ],
+  "chrono": [
+    "ahard64",
+    "help65",
+    "magicalmystery67",
+    "yellowsubmarine68",
+    "letit70"
+  ],
+  "note": "No shared story. Yellow Submarine is animated and the band barely appear; Let It Be is a documentary of the final sessions."
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Neighbors",
+  "short": "Two films",
+  "hue": 100,
+  "blurb": "A young family and the fraternity that moves in next door.",
+  "films": {
+    "neighbors14": {
+      "t": "Neighbors",
+      "y": 2014,
+      "set": "2014"
+    },
+    "neighbors216": {
+      "t": "Neighbors 2: Sorority Rising",
+      "y": 2016,
+      "set": "2016"
+    }
+  },
+  "release": [
+    "neighbors14",
+    "neighbors216"
+  ],
+  "chrono": [
+    "neighbors14",
+    "neighbors216"
+  ],
+  "note": "Released in the UK as Bad Neighbours and Bad Neighbours 2, because of an Australian soap of the same name."
+}

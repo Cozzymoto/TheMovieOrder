@@ -1,0 +1,34 @@
+{
+  "title": "The 39 Steps",
+  "short": "Three adaptations",
+  "hue": 210,
+  "blurb": "Three versions of the same chase thriller, fifty years apart.",
+  "films": {
+    "the3935": {
+      "t": "The 39 Steps",
+      "y": 1935,
+      "set": "1935"
+    },
+    "the3959": {
+      "t": "The 39 Steps",
+      "y": 1959,
+      "set": "1959"
+    },
+    "thethirty78": {
+      "t": "The Thirty Nine Steps",
+      "y": 1978,
+      "set": "1978"
+    }
+  },
+  "release": [
+    "the3935",
+    "the3959",
+    "thethirty78"
+  ],
+  "chrono": [
+    "the3935",
+    "the3959",
+    "thethirty78"
+  ],
+  "note": "Each adapts the same novel independently. The 1935 Hitchcock version is the famous one."
+}

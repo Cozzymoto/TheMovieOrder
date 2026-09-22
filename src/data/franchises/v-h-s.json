@@ -1,0 +1,62 @@
+{
+  "title": "V/H/S",
+  "short": "Seven films",
+  "hue": 0,
+  "blurb": "Found-footage horror anthologies, each a set of short films inside a framing story.",
+  "films": {
+    "vh12": {
+      "t": "V/H/S",
+      "y": 2012,
+      "set": "2012"
+    },
+    "vh13": {
+      "t": "V/H/S/2",
+      "y": 2013,
+      "set": "2013"
+    },
+    "vh14": {
+      "t": "V/H/S Viral",
+      "y": 2014,
+      "set": "2014"
+    },
+    "vh21": {
+      "t": "V/H/S/94",
+      "y": 2021,
+      "set": "2021"
+    },
+    "vh22": {
+      "t": "V/H/S/99",
+      "y": 2022,
+      "set": "2022"
+    },
+    "vh23": {
+      "t": "V/H/S/85",
+      "y": 2023,
+      "set": "2023"
+    },
+    "vh24": {
+      "t": "V/H/S/Beyond",
+      "y": 2024,
+      "set": "2024"
+    }
+  },
+  "release": [
+    "vh12",
+    "vh13",
+    "vh14",
+    "vh21",
+    "vh22",
+    "vh23",
+    "vh24"
+  ],
+  "chrono": [
+    "vh12",
+    "vh13",
+    "vh14",
+    "vh21",
+    "vh22",
+    "vh23",
+    "vh24"
+  ],
+  "note": "Each is self-contained with entirely different directors and casts, so any order works. The later ones are named for the year they're set in."
+}

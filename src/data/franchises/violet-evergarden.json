@@ -1,0 +1,27 @@
+{
+  "title": "Violet Evergarden",
+  "short": "Two films",
+  "hue": 196,
+  "blurb": "A side story and then a full conclusion to the television series.",
+  "films": {
+    "violetevergarden19": {
+      "t": "Violet Evergarden: Eternity and the Auto Memory Doll",
+      "y": 2019,
+      "set": "—"
+    },
+    "violetevergarden20": {
+      "t": "Violet Evergarden: The Movie",
+      "y": 2020,
+      "set": "—"
+    }
+  },
+  "release": [
+    "violetevergarden19",
+    "violetevergarden20"
+  ],
+  "chrono": [
+    "violetevergarden19",
+    "violetevergarden20"
+  ],
+  "note": "Both follow the television series. Eternity is a self-contained side story; The Movie is the ending."
+}

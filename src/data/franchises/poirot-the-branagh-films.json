@@ -1,0 +1,34 @@
+{
+  "title": "Poirot: The Branagh Films",
+  "short": "Three films",
+  "hue": 210,
+  "blurb": "Kenneth Branagh's Hercule Poirot across three adaptations.",
+  "films": {
+    "murderon17": {
+      "t": "Murder on the Orient Express",
+      "y": 2017,
+      "set": "1934"
+    },
+    "deathon22": {
+      "t": "Death on the Nile",
+      "y": 2022,
+      "set": "1937"
+    },
+    "ahaunting23": {
+      "t": "A Haunting in Venice",
+      "y": 2023,
+      "set": "1947"
+    }
+  },
+  "release": [
+    "murderon17",
+    "deathon22",
+    "ahaunting23"
+  ],
+  "chrono": [
+    "murderon17",
+    "deathon22",
+    "ahaunting23"
+  ],
+  "note": "Each case is self-contained, though Poirot's own story carries through. Earlier adaptations with Albert Finney and Peter Ustinov are separate."
+}

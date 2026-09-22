@@ -1,0 +1,26 @@
+{
+  "title": "Peter Rabbit",
+  "short": "Two films",
+  "hue": 100,
+  "blurb": "Beatrix Potter's rabbit in live-action and animation hybrid form.",
+  "films": {
+    "peterrabbit18": {
+      "t": "Peter Rabbit",
+      "y": 2018,
+      "set": "—"
+    },
+    "peterrabbit21": {
+      "t": "Peter Rabbit 2: The Runaway",
+      "y": 2021,
+      "set": "—"
+    }
+  },
+  "release": [
+    "peterrabbit18",
+    "peterrabbit21"
+  ],
+  "chrono": [
+    "peterrabbit18",
+    "peterrabbit21"
+  ]
+}

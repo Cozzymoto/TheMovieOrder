@@ -1,0 +1,34 @@
+{
+  "title": "Willy Wonka",
+  "short": "Three films",
+  "hue": 56,
+  "blurb": "Two adaptations of the Roald Dahl book and a 2023 origin story.",
+  "films": {
+    "willywonka71": {
+      "t": "Willy Wonka & the Chocolate Factory",
+      "y": 1971,
+      "set": "1971"
+    },
+    "charlieand05": {
+      "t": "Charlie and the Chocolate Factory",
+      "y": 2005,
+      "set": "2005"
+    },
+    "wonka23": {
+      "t": "Wonka",
+      "y": 2023,
+      "set": "Years earlier"
+    }
+  },
+  "release": [
+    "willywonka71",
+    "charlieand05",
+    "wonka23"
+  ],
+  "chrono": [
+    "willywonka71",
+    "charlieand05",
+    "wonka23"
+  ],
+  "note": "The first two adapt the same book separately. Wonka is a prequel to neither in particular, telling how he started out."
+}

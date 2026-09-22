@@ -1,0 +1,26 @@
+{
+  "title": "The Hitman's Bodyguard",
+  "short": "Two films",
+  "hue": 4,
+  "blurb": "A protection agent forced to escort the assassin who ruined his career.",
+  "films": {
+    "thehitmans17": {
+      "t": "The Hitman's Bodyguard",
+      "y": 2017,
+      "set": "2017"
+    },
+    "thehitmans21": {
+      "t": "The Hitman's Wife's Bodyguard",
+      "y": 2021,
+      "set": "2021"
+    }
+  },
+  "release": [
+    "thehitmans17",
+    "thehitmans21"
+  ],
+  "chrono": [
+    "thehitmans17",
+    "thehitmans21"
+  ]
+}

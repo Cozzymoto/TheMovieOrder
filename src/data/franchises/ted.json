@@ -1,0 +1,26 @@
+{
+  "title": "Ted",
+  "short": "Two films",
+  "hue": 20,
+  "blurb": "A man and his talking teddy bear, refusing to grow up.",
+  "films": {
+    "ted12": {
+      "t": "Ted",
+      "y": 2012,
+      "set": "2012"
+    },
+    "ted215": {
+      "t": "Ted 2",
+      "y": 2015,
+      "set": "2015"
+    }
+  },
+  "release": [
+    "ted12",
+    "ted215"
+  ],
+  "chrono": [
+    "ted12",
+    "ted215"
+  ]
+}

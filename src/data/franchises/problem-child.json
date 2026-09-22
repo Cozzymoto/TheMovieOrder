@@ -1,0 +1,26 @@
+{
+  "title": "Problem Child",
+  "short": "Two films",
+  "hue": 4,
+  "blurb": "An adopted boy whose behaviour defeats everyone around him.",
+  "films": {
+    "problemchild90": {
+      "t": "Problem Child",
+      "y": 1990,
+      "set": "1990"
+    },
+    "problemchild91": {
+      "t": "Problem Child 2",
+      "y": 1991,
+      "set": "1991"
+    }
+  },
+  "release": [
+    "problemchild90",
+    "problemchild91"
+  ],
+  "chrono": [
+    "problemchild90",
+    "problemchild91"
+  ]
+}

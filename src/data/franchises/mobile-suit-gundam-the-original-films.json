@@ -1,0 +1,41 @@
+{
+  "title": "Mobile Suit Gundam: The Original Films",
+  "short": "Four films",
+  "hue": 210,
+  "blurb": "Three compilation films of the 1979 series, and a fully original sequel.",
+  "films": {
+    "mobilesuit81": {
+      "t": "Mobile Suit Gundam I",
+      "y": 1981,
+      "set": "UC 0079"
+    },
+    "mobilesuit81b": {
+      "t": "Mobile Suit Gundam II: Soldiers of Sorrow",
+      "y": 1981,
+      "set": "UC 0079"
+    },
+    "mobilesuit82": {
+      "t": "Mobile Suit Gundam III: Encounters in Space",
+      "y": 1982,
+      "set": "UC 0079–0080"
+    },
+    "mobilesuit88": {
+      "t": "Mobile Suit Gundam: Char's Counterattack",
+      "y": 1988,
+      "set": "UC 0093"
+    }
+  },
+  "release": [
+    "mobilesuit81",
+    "mobilesuit81b",
+    "mobilesuit82",
+    "mobilesuit88"
+  ],
+  "chrono": [
+    "mobilesuit81",
+    "mobilesuit81b",
+    "mobilesuit82",
+    "mobilesuit88"
+  ],
+  "note": "The trilogy condenses the original series and is the usual entry point. Char's Counterattack is set fourteen years later and assumes a great deal."
+}

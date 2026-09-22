@@ -1,0 +1,26 @@
+{
+  "title": "Steptoe and Son",
+  "short": "Two films",
+  "hue": 30,
+  "blurb": "Two films based on the rag-and-bone sitcom.",
+  "films": {
+    "steptoeand72": {
+      "t": "Steptoe and Son",
+      "y": 1972,
+      "set": "1972"
+    },
+    "steptoeand73": {
+      "t": "Steptoe and Son Ride Again",
+      "y": 1973,
+      "set": "1973"
+    }
+  },
+  "release": [
+    "steptoeand72",
+    "steptoeand73"
+  ],
+  "chrono": [
+    "steptoeand72",
+    "steptoeand73"
+  ]
+}

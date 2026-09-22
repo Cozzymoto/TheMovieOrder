@@ -1,0 +1,26 @@
+{
+  "title": "Nobody",
+  "short": "Two films",
+  "hue": 210,
+  "blurb": "A suburban father whose past turns out to be considerably more violent than his present.",
+  "films": {
+    "nobody21": {
+      "t": "Nobody",
+      "y": 2021,
+      "set": "2021"
+    },
+    "nobody225": {
+      "t": "Nobody 2",
+      "y": 2025,
+      "set": "2025"
+    }
+  },
+  "release": [
+    "nobody21",
+    "nobody225"
+  ],
+  "chrono": [
+    "nobody21",
+    "nobody225"
+  ]
+}

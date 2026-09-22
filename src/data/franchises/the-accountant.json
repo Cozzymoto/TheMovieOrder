@@ -1,0 +1,26 @@
+{
+  "title": "The Accountant",
+  "short": "Two films",
+  "hue": 200,
+  "blurb": "A forensic accountant working for dangerous clients, across two films nine years apart.",
+  "films": {
+    "theaccountant16": {
+      "t": "The Accountant",
+      "y": 2016,
+      "set": "2016"
+    },
+    "theaccountant25": {
+      "t": "The Accountant 2",
+      "y": 2025,
+      "set": "2025"
+    }
+  },
+  "release": [
+    "theaccountant16",
+    "theaccountant25"
+  ],
+  "chrono": [
+    "theaccountant16",
+    "theaccountant25"
+  ]
+}

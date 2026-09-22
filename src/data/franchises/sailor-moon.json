@@ -1,0 +1,62 @@
+{
+  "title": "Sailor Moon",
+  "short": "The films",
+  "hue": 320,
+  "blurb": "Film outings for the 1990s series, and later two-part films completing the 2010s retelling.",
+  "films": {
+    "sailormoon93": {
+      "t": "Sailor Moon R: The Movie",
+      "y": 1993,
+      "set": "—"
+    },
+    "sailormoon94": {
+      "t": "Sailor Moon S: The Movie",
+      "y": 1994,
+      "set": "—"
+    },
+    "sailormoon95": {
+      "t": "Sailor Moon SuperS: The Movie",
+      "y": 1995,
+      "set": "—"
+    },
+    "sailormoon21": {
+      "t": "Sailor Moon Eternal Part 1",
+      "y": 2021,
+      "set": "—"
+    },
+    "sailormoon21b": {
+      "t": "Sailor Moon Eternal Part 2",
+      "y": 2021,
+      "set": "—"
+    },
+    "sailormoon23": {
+      "t": "Sailor Moon Cosmos Part 1",
+      "y": 2023,
+      "set": "—"
+    },
+    "sailormoon23b": {
+      "t": "Sailor Moon Cosmos Part 2",
+      "y": 2023,
+      "set": "—"
+    }
+  },
+  "release": [
+    "sailormoon93",
+    "sailormoon94",
+    "sailormoon95",
+    "sailormoon21",
+    "sailormoon21b",
+    "sailormoon23",
+    "sailormoon23b"
+  ],
+  "chrono": [
+    "sailormoon93",
+    "sailormoon94",
+    "sailormoon95",
+    "sailormoon21",
+    "sailormoon21b",
+    "sailormoon23",
+    "sailormoon23b"
+  ],
+  "note": "The three 1990s films are side stories to the original series. Eternal and Cosmos continue the Sailor Moon Crystal retelling and are each one film split in two."
+}

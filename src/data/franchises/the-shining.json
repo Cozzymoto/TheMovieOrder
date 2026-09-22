@@ -1,0 +1,27 @@
+{
+  "title": "The Shining",
+  "short": "Two films, thirty-nine years apart",
+  "hue": 0,
+  "blurb": "Kubrick's 1980 adaptation, and a 2019 sequel following the boy as an adult.",
+  "films": {
+    "theshining80": {
+      "t": "The Shining",
+      "y": 1980,
+      "set": "1980"
+    },
+    "doctorsleep19": {
+      "t": "Doctor Sleep",
+      "y": 2019,
+      "set": "2011"
+    }
+  },
+  "release": [
+    "theshining80",
+    "doctorsleep19"
+  ],
+  "chrono": [
+    "theshining80",
+    "doctorsleep19"
+  ],
+  "note": "Doctor Sleep had to reconcile Kubrick's film with Stephen King's very different novel, and largely manages it."
+}

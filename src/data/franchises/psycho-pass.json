@@ -1,0 +1,48 @@
+{
+  "title": "Psycho-Pass",
+  "short": "Five films",
+  "hue": 160,
+  "blurb": "Films set between seasons of the television series, including a trilogy of shorter side stories.",
+  "films": {
+    "psychopass15": {
+      "t": "Psycho-Pass: The Movie",
+      "y": 2015,
+      "set": "—"
+    },
+    "psychopass19": {
+      "t": "Psycho-Pass: Sinners of the System – Case.1 Crime and Punishment",
+      "y": 2019,
+      "set": "—"
+    },
+    "psychopass19b": {
+      "t": "Psycho-Pass: Sinners of the System – Case.2 First Guardian",
+      "y": 2019,
+      "set": "—"
+    },
+    "psychopass19c": {
+      "t": "Psycho-Pass: Sinners of the System – Case.3 On the Other Side of Love and Hate",
+      "y": 2019,
+      "set": "—"
+    },
+    "psychopass23": {
+      "t": "Psycho-Pass: Providence",
+      "y": 2023,
+      "set": "—"
+    }
+  },
+  "release": [
+    "psychopass15",
+    "psychopass19",
+    "psychopass19b",
+    "psychopass19c",
+    "psychopass23"
+  ],
+  "chrono": [
+    "psychopass15",
+    "psychopass19",
+    "psychopass19b",
+    "psychopass19c",
+    "psychopass23"
+  ],
+  "note": "These slot between television seasons and assume you've watched them. Providence bridges the second and third seasons."
+}

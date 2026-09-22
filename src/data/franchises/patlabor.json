@@ -1,0 +1,34 @@
+{
+  "title": "Patlabor",
+  "short": "The three films",
+  "hue": 30,
+  "blurb": "Police mecha in near-future Tokyo, across three films of steadily increasing seriousness.",
+  "films": {
+    "patlaborthe89": {
+      "t": "Patlabor: The Movie",
+      "y": 1989,
+      "set": "1999"
+    },
+    "patlabor293": {
+      "t": "Patlabor 2: The Movie",
+      "y": 1993,
+      "set": "2002"
+    },
+    "wxiiipatlabor02": {
+      "t": "WXIII: Patlabor the Movie 3",
+      "y": 2002,
+      "set": "2000"
+    }
+  },
+  "release": [
+    "patlaborthe89",
+    "patlabor293",
+    "wxiiipatlabor02"
+  ],
+  "chrono": [
+    "patlaborthe89",
+    "wxiiipatlabor02",
+    "patlabor293"
+  ],
+  "note": "WXIII is set between the first two films and barely features the main cast. The second film is the one most people rate."
+}

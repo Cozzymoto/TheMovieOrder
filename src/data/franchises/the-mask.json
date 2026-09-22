@@ -1,0 +1,27 @@
+{
+  "title": "The Mask",
+  "short": "Two films",
+  "hue": 56,
+  "blurb": "A mask that transforms whoever wears it, and a sequel eleven years later.",
+  "films": {
+    "themask94": {
+      "t": "The Mask",
+      "y": 1994,
+      "set": "1994"
+    },
+    "sonof05": {
+      "t": "Son of the Mask",
+      "y": 2005,
+      "set": "2005"
+    }
+  },
+  "release": [
+    "themask94",
+    "sonof05"
+  ],
+  "chrono": [
+    "themask94",
+    "sonof05"
+  ],
+  "note": "The sequel shares only the mask itself."
+}

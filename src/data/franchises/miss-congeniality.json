@@ -1,0 +1,26 @@
+{
+  "title": "Miss Congeniality",
+  "short": "Two films",
+  "hue": 330,
+  "blurb": "An FBI agent undercover in a beauty pageant, then promoted to its public face.",
+  "films": {
+    "misscongeniality00": {
+      "t": "Miss Congeniality",
+      "y": 2000,
+      "set": "2000"
+    },
+    "misscongeniality05": {
+      "t": "Miss Congeniality 2: Armed and Fabulous",
+      "y": 2005,
+      "set": "2005"
+    }
+  },
+  "release": [
+    "misscongeniality00",
+    "misscongeniality05"
+  ],
+  "chrono": [
+    "misscongeniality00",
+    "misscongeniality05"
+  ]
+}

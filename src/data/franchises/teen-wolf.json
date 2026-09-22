@@ -1,0 +1,27 @@
+{
+  "title": "Teen Wolf",
+  "short": "Two films",
+  "hue": 44,
+  "blurb": "A high-school basketball player who discovers he's a werewolf.",
+  "films": {
+    "teenwolf85": {
+      "t": "Teen Wolf",
+      "y": 1985,
+      "set": "1985"
+    },
+    "teenwolf87": {
+      "t": "Teen Wolf Too",
+      "y": 1987,
+      "set": "1987"
+    }
+  },
+  "release": [
+    "teenwolf85",
+    "teenwolf87"
+  ],
+  "chrono": [
+    "teenwolf85",
+    "teenwolf87"
+  ],
+  "note": "The sequel swaps in a cousin rather than continuing with the original character."
+}

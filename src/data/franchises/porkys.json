@@ -1,0 +1,34 @@
+{
+  "title": "Porky's",
+  "short": "Three films",
+  "hue": 20,
+  "blurb": "1950s Florida teenagers and a bar that won't let them in.",
+  "films": {
+    "porkys81": {
+      "t": "Porky's",
+      "y": 1981,
+      "set": "1954"
+    },
+    "porkysii83": {
+      "t": "Porky's II: The Next Day",
+      "y": 1983,
+      "set": "1954"
+    },
+    "porkysrevenge85": {
+      "t": "Porky's Revenge!",
+      "y": 1985,
+      "set": "1954"
+    }
+  },
+  "release": [
+    "porkys81",
+    "porkysii83",
+    "porkysrevenge85"
+  ],
+  "chrono": [
+    "porkys81",
+    "porkysii83",
+    "porkysrevenge85"
+  ],
+  "note": "The second film picks up the day after the first, as the title says."
+}

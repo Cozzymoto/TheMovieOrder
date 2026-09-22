@@ -1,0 +1,27 @@
+{
+  "title": "Revenge of the Nerds",
+  "short": "Two cinema films",
+  "hue": 56,
+  "blurb": "A college fraternity of outcasts fighting back.",
+  "films": {
+    "revengeof84": {
+      "t": "Revenge of the Nerds",
+      "y": 1984,
+      "set": "1984"
+    },
+    "revengeof87": {
+      "t": "Revenge of the Nerds II: Nerds in Paradise",
+      "y": 1987,
+      "set": "1987"
+    }
+  },
+  "release": [
+    "revengeof84",
+    "revengeof87"
+  ],
+  "chrono": [
+    "revengeof84",
+    "revengeof87"
+  ],
+  "note": "Two further sequels were made for television."
+}

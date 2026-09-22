@@ -1,0 +1,41 @@
+{
+  "title": "The Trip",
+  "short": "Four films",
+  "hue": 30,
+  "blurb": "Two comedians touring restaurants and needling each other, in four countries.",
+  "films": {
+    "thetrip10": {
+      "t": "The Trip",
+      "y": 2010,
+      "set": "2010"
+    },
+    "thetrip14": {
+      "t": "The Trip to Italy",
+      "y": 2014,
+      "set": "2014"
+    },
+    "thetrip17": {
+      "t": "The Trip to Spain",
+      "y": 2017,
+      "set": "2017"
+    },
+    "thetrip20": {
+      "t": "The Trip to Greece",
+      "y": 2020,
+      "set": "2020"
+    }
+  },
+  "release": [
+    "thetrip10",
+    "thetrip14",
+    "thetrip17",
+    "thetrip20"
+  ],
+  "chrono": [
+    "thetrip10",
+    "thetrip14",
+    "thetrip17",
+    "thetrip20"
+  ],
+  "note": "Each is edited down from a television series. They stand alone, though the running jokes build."
+}

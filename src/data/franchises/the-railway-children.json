@@ -1,0 +1,27 @@
+{
+  "title": "The Railway Children",
+  "short": "Two films",
+  "hue": 96,
+  "blurb": "The 1970 adaptation, and a 2022 sequel set during the Second World War.",
+  "films": {
+    "therailway70": {
+      "t": "The Railway Children",
+      "y": 1970,
+      "set": "1905"
+    },
+    "therailway22": {
+      "t": "The Railway Children Return",
+      "y": 2022,
+      "set": "1944"
+    }
+  },
+  "release": [
+    "therailway70",
+    "therailway22"
+  ],
+  "chrono": [
+    "therailway70",
+    "therailway22"
+  ],
+  "note": "The sequel features Jenny Agutter returning as the same character, forty years older."
+}

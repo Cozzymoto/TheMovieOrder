@@ -1,0 +1,34 @@
+{
+  "title": "Village of the Damned",
+  "short": "Three films",
+  "hue": 160,
+  "blurb": "Children born with uncanny powers in an English village, plus a sequel and an American remake.",
+  "films": {
+    "villageof60": {
+      "t": "Village of the Damned",
+      "y": 1960,
+      "set": "1960"
+    },
+    "childrenof64": {
+      "t": "Children of the Damned",
+      "y": 1964,
+      "set": "1964"
+    },
+    "villageof95": {
+      "t": "Village of the Damned",
+      "y": 1995,
+      "set": "1995"
+    }
+  },
+  "release": [
+    "villageof60",
+    "childrenof64",
+    "villageof95"
+  ],
+  "chrono": [
+    "villageof60",
+    "childrenof64",
+    "villageof95"
+  ],
+  "note": "Children of the Damned is a loose follow-up rather than a direct sequel. The 1995 film remakes the original in California."
+}

@@ -1,0 +1,27 @@
+{
+  "title": "The Ladykillers",
+  "short": "Two films",
+  "hue": 120,
+  "blurb": "An Ealing comedy about a gang of robbers undone by their landlady, and a Coen brothers remake.",
+  "films": {
+    "theladykillers55": {
+      "t": "The Ladykillers",
+      "y": 1955,
+      "set": "1955"
+    },
+    "theladykillers04": {
+      "t": "The Ladykillers",
+      "y": 2004,
+      "set": "2004"
+    }
+  },
+  "release": [
+    "theladykillers55",
+    "theladykillers04"
+  ],
+  "chrono": [
+    "theladykillers55",
+    "theladykillers04"
+  ],
+  "note": "The remake moves the story to Mississippi."
+}

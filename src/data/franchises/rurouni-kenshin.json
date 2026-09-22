@@ -1,0 +1,48 @@
+{
+  "title": "Rurouni Kenshin",
+  "short": "Five live-action films, one a prequel",
+  "hue": 348,
+  "blurb": "A Meiji-era swordsman who has sworn never to kill again, and a fifth film that finally shows why.",
+  "films": {
+    "rurounikenshin12": {
+      "t": "Rurouni Kenshin",
+      "y": 2012,
+      "set": "1878"
+    },
+    "rurounikenshin14": {
+      "t": "Rurouni Kenshin: Kyoto Inferno",
+      "y": 2014,
+      "set": "1878"
+    },
+    "rurounikenshin14b": {
+      "t": "Rurouni Kenshin: The Legend Ends",
+      "y": 2014,
+      "set": "1878"
+    },
+    "rurounikenshin21": {
+      "t": "Rurouni Kenshin: The Final",
+      "y": 2021,
+      "set": "1879"
+    },
+    "rurounikenshin21b": {
+      "t": "Rurouni Kenshin: The Beginning",
+      "y": 2021,
+      "set": "1864–1868"
+    }
+  },
+  "release": [
+    "rurounikenshin12",
+    "rurounikenshin14",
+    "rurounikenshin14b",
+    "rurounikenshin21",
+    "rurounikenshin21b"
+  ],
+  "chrono": [
+    "rurounikenshin21b",
+    "rurounikenshin12",
+    "rurounikenshin14",
+    "rurounikenshin14b",
+    "rurounikenshin21"
+  ],
+  "note": "The Beginning is a prequel covering the years that made him who he is. It explains the scar the whole series refers to, so watching it last is the intended experience."
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Rise of the Footsoldier",
+  "short": "Five films",
+  "hue": 0,
+  "blurb": "British crime films following the Essex underworld and the Rettendon murders.",
+  "films": {
+    "riseof07": {
+      "t": "Rise of the Footsoldier",
+      "y": 2007,
+      "set": "2007"
+    },
+    "riseof15": {
+      "t": "Rise of the Footsoldier Part II",
+      "y": 2015,
+      "set": "2015"
+    },
+    "riseof17": {
+      "t": "Rise of the Footsoldier 3: The Pat Tate Story",
+      "y": 2017,
+      "set": "2017"
+    },
+    "riseof19": {
+      "t": "Rise of the Footsoldier: Marbella",
+      "y": 2019,
+      "set": "2019"
+    },
+    "riseof21": {
+      "t": "Rise of the Footsoldier: Origins",
+      "y": 2021,
+      "set": "2021"
+    }
+  },
+  "release": [
+    "riseof07",
+    "riseof15",
+    "riseof17",
+    "riseof19",
+    "riseof21"
+  ],
+  "chrono": [
+    "riseof07",
+    "riseof15",
+    "riseof17",
+    "riseof19",
+    "riseof21"
+  ],
+  "note": "The later films move backwards and sideways rather than forwards, filling in different characters' stories around the same events."
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Wall Street",
+  "short": "Two films",
+  "hue": 140,
+  "blurb": "Gordon Gekko in the 1980s boom, and again after the 2008 crash.",
+  "films": {
+    "wallstreet87": {
+      "t": "Wall Street",
+      "y": 1987,
+      "set": "1985"
+    },
+    "wallstreet10": {
+      "t": "Wall Street: Money Never Sleeps",
+      "y": 2010,
+      "set": "2008"
+    }
+  },
+  "release": [
+    "wallstreet87",
+    "wallstreet10"
+  ],
+  "chrono": [
+    "wallstreet87",
+    "wallstreet10"
+  ]
+}

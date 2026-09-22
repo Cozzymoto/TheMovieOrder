@@ -1,0 +1,34 @@
+{
+  "title": "The Sweeney",
+  "short": "Three films",
+  "hue": 20,
+  "blurb": "Two 1970s spin-offs from the television series, and a 2012 modern reboot.",
+  "films": {
+    "sweeney77": {
+      "t": "Sweeney!",
+      "y": 1977,
+      "set": "1977"
+    },
+    "sweeney278": {
+      "t": "Sweeney 2",
+      "y": 1978,
+      "set": "1978"
+    },
+    "thesweeney12": {
+      "t": "The Sweeney",
+      "y": 2012,
+      "set": "2012"
+    }
+  },
+  "release": [
+    "sweeney77",
+    "sweeney278",
+    "thesweeney12"
+  ],
+  "chrono": [
+    "sweeney77",
+    "sweeney278",
+    "thesweeney12"
+  ],
+  "note": "The first two continue the television series. The 2012 film restarts it with a new cast."
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Thunderbirds",
+  "short": "Three films",
+  "hue": 190,
+  "blurb": "Two 1960s Supermarionation films, and a 2004 live-action version.",
+  "films": {
+    "thunderbirdsare66": {
+      "t": "Thunderbirds Are Go",
+      "y": 1966,
+      "set": "2065"
+    },
+    "thunderbird668": {
+      "t": "Thunderbird 6",
+      "y": 1968,
+      "set": "2068"
+    },
+    "thunderbirds04": {
+      "t": "Thunderbirds",
+      "y": 2004,
+      "set": "2010"
+    }
+  },
+  "release": [
+    "thunderbirdsare66",
+    "thunderbird668",
+    "thunderbirds04"
+  ],
+  "chrono": [
+    "thunderbirdsare66",
+    "thunderbird668",
+    "thunderbirds04"
+  ],
+  "note": "The 2004 film is live action with a young cast and shares nothing with the puppet films beyond the premise."
+}
