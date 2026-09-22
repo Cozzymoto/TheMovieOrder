@@ -1,0 +1,34 @@
+{
+  "title": "Dhoom",
+  "short": "Three films",
+  "hue": 20,
+  "blurb": "A Mumbai cop chasing a different master thief in each film.",
+  "films": {
+    "dhoom04": {
+      "t": "Dhoom",
+      "y": 2004,
+      "set": "2004"
+    },
+    "dhoom206": {
+      "t": "Dhoom 2",
+      "y": 2006,
+      "set": "2006"
+    },
+    "dhoom313": {
+      "t": "Dhoom 3",
+      "y": 2013,
+      "set": "2013"
+    }
+  },
+  "release": [
+    "dhoom04",
+    "dhoom206",
+    "dhoom313"
+  ],
+  "chrono": [
+    "dhoom04",
+    "dhoom206",
+    "dhoom313"
+  ],
+  "note": "The detectives carry through; each film has a new villain."
+}

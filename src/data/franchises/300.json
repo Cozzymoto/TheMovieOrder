@@ -1,0 +1,27 @@
+{
+  "title": "300",
+  "short": "Two films, overlapping",
+  "hue": 28,
+  "blurb": "The Spartans at Thermopylae, and a follow-up that runs before, during and after the same battle at sea.",
+  "films": {
+    "f30006": {
+      "t": "300",
+      "y": 2006,
+      "set": "480 BC"
+    },
+    "f300rise14": {
+      "t": "300: Rise of an Empire",
+      "y": 2014,
+      "set": "490–480 BC"
+    }
+  },
+  "release": [
+    "f30006",
+    "f300rise14"
+  ],
+  "chrono": [
+    "f30006",
+    "f300rise14"
+  ],
+  "note": "Rise of an Empire begins a decade earlier, runs alongside 300 and finishes after it. Release order is simplest."
+}

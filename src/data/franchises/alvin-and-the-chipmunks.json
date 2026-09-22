@@ -1,0 +1,40 @@
+{
+  "title": "Alvin and the Chipmunks",
+  "short": "Four films",
+  "hue": 40,
+  "blurb": "Three singing chipmunks and the songwriter who reluctantly becomes their father.",
+  "films": {
+    "alvinand07": {
+      "t": "Alvin and the Chipmunks",
+      "y": 2007,
+      "set": "2007"
+    },
+    "alvinand09": {
+      "t": "Alvin and the Chipmunks: The Squeakquel",
+      "y": 2009,
+      "set": "2009"
+    },
+    "alvinand11": {
+      "t": "Alvin and the Chipmunks: Chipwrecked",
+      "y": 2011,
+      "set": "2011"
+    },
+    "alvinand15": {
+      "t": "Alvin and the Chipmunks: The Road Chip",
+      "y": 2015,
+      "set": "2015"
+    }
+  },
+  "release": [
+    "alvinand07",
+    "alvinand09",
+    "alvinand11",
+    "alvinand15"
+  ],
+  "chrono": [
+    "alvinand07",
+    "alvinand09",
+    "alvinand11",
+    "alvinand15"
+  ]
+}

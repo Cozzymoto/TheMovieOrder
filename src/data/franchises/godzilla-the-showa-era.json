@@ -1,0 +1,118 @@
+{
+  "title": "Godzilla: The Showa Era",
+  "short": "Toho's first fifteen films",
+  "hue": 148,
+  "blurb": "The original Japanese Godzilla run, from a grave allegory in 1954 to monster wrestling by the 1970s.",
+  "films": {
+    "godzilla54": {
+      "t": "Godzilla",
+      "y": 1954,
+      "set": "1954"
+    },
+    "godzillaraids55": {
+      "t": "Godzilla Raids Again",
+      "y": 1955,
+      "set": "1955"
+    },
+    "kingkong62": {
+      "t": "King Kong vs. Godzilla",
+      "y": 1962,
+      "set": "1962"
+    },
+    "mothravs64": {
+      "t": "Mothra vs. Godzilla",
+      "y": 1964,
+      "set": "1964"
+    },
+    "ghidorahthe64": {
+      "t": "Ghidorah, the Three-Headed Monster",
+      "y": 1964,
+      "set": "1964"
+    },
+    "invasionof65": {
+      "t": "Invasion of Astro-Monster",
+      "y": 1965,
+      "set": "1965"
+    },
+    "ebirahhorror66": {
+      "t": "Ebirah, Horror of the Deep",
+      "y": 1966,
+      "set": "1966"
+    },
+    "sonof67": {
+      "t": "Son of Godzilla",
+      "y": 1967,
+      "set": "1967"
+    },
+    "destroyall68": {
+      "t": "Destroy All Monsters",
+      "y": 1968,
+      "set": "1999"
+    },
+    "allmonsters69": {
+      "t": "All Monsters Attack",
+      "y": 1969,
+      "set": "1969"
+    },
+    "godzillavs71": {
+      "t": "Godzilla vs. Hedorah",
+      "y": 1971,
+      "set": "1971"
+    },
+    "godzillavs72": {
+      "t": "Godzilla vs. Gigan",
+      "y": 1972,
+      "set": "1972"
+    },
+    "godzillavs73": {
+      "t": "Godzilla vs. Megalon",
+      "y": 1973,
+      "set": "1973"
+    },
+    "godzillavs74": {
+      "t": "Godzilla vs. Mechagodzilla",
+      "y": 1974,
+      "set": "1974"
+    },
+    "terrorof75": {
+      "t": "Terror of Mechagodzilla",
+      "y": 1975,
+      "set": "1975"
+    }
+  },
+  "release": [
+    "godzilla54",
+    "godzillaraids55",
+    "kingkong62",
+    "mothravs64",
+    "ghidorahthe64",
+    "invasionof65",
+    "ebirahhorror66",
+    "sonof67",
+    "destroyall68",
+    "allmonsters69",
+    "godzillavs71",
+    "godzillavs72",
+    "godzillavs73",
+    "godzillavs74",
+    "terrorof75"
+  ],
+  "chrono": [
+    "godzilla54",
+    "godzillaraids55",
+    "kingkong62",
+    "mothravs64",
+    "ghidorahthe64",
+    "invasionof65",
+    "ebirahhorror66",
+    "sonof67",
+    "allmonsters69",
+    "godzillavs71",
+    "godzillavs72",
+    "godzillavs73",
+    "godzillavs74",
+    "terrorof75",
+    "destroyall68"
+  ],
+  "note": "Destroy All Monsters is set in 1999, ahead of every film released after it, so it moves to the end. English titles vary between releases. The American MonsterVerse films are on their own page."
+}

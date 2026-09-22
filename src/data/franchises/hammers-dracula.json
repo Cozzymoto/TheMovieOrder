@@ -1,0 +1,76 @@
+{
+  "title": "Hammer's Dracula",
+  "short": "Nine films",
+  "hue": 358,
+  "blurb": "Christopher Lee's Dracula for Hammer Films, running from Victorian Transylvania to 1970s London.",
+  "films": {
+    "dracula58": {
+      "t": "Dracula",
+      "y": 1958,
+      "set": "1885"
+    },
+    "thebrides60": {
+      "t": "The Brides of Dracula",
+      "y": 1960,
+      "set": "Victorian"
+    },
+    "draculaprince66": {
+      "t": "Dracula: Prince of Darkness",
+      "y": 1966,
+      "set": "Victorian"
+    },
+    "draculahas68": {
+      "t": "Dracula Has Risen from the Grave",
+      "y": 1968,
+      "set": "Victorian"
+    },
+    "tastethe70": {
+      "t": "Taste the Blood of Dracula",
+      "y": 1970,
+      "set": "Victorian"
+    },
+    "scarsof70": {
+      "t": "Scars of Dracula",
+      "y": 1970,
+      "set": "Victorian"
+    },
+    "draculaa72": {
+      "t": "Dracula A.D. 1972",
+      "y": 1972,
+      "set": "1872 & 1972"
+    },
+    "thesatanic73": {
+      "t": "The Satanic Rites of Dracula",
+      "y": 1973,
+      "set": "1973"
+    },
+    "thelegend74": {
+      "t": "The Legend of the 7 Golden Vampires",
+      "y": 1974,
+      "set": "1904"
+    }
+  },
+  "release": [
+    "dracula58",
+    "thebrides60",
+    "draculaprince66",
+    "draculahas68",
+    "tastethe70",
+    "scarsof70",
+    "draculaa72",
+    "thesatanic73",
+    "thelegend74"
+  ],
+  "chrono": [
+    "dracula58",
+    "thebrides60",
+    "draculaprince66",
+    "draculahas68",
+    "tastethe70",
+    "scarsof70",
+    "draculaa72",
+    "thesatanic73",
+    "thelegend74"
+  ],
+  "note": "Dracula was released in the US as Horror of Dracula. The Brides of Dracula doesn't feature Dracula at all. Dracula A.D. 1972 opens a century earlier and then jumps to the present day."
+}

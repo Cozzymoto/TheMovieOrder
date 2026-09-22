@@ -1,0 +1,34 @@
+{
+  "title": "Garfield",
+  "short": "Three films",
+  "hue": 30,
+  "blurb": "The lasagne-loving cat in two live-action hybrids and an animated film.",
+  "films": {
+    "garfieldthe04": {
+      "t": "Garfield: The Movie",
+      "y": 2004,
+      "set": "2004"
+    },
+    "garfielda06": {
+      "t": "Garfield: A Tail of Two Kitties",
+      "y": 2006,
+      "set": "2006"
+    },
+    "thegarfield24": {
+      "t": "The Garfield Movie",
+      "y": 2024,
+      "set": "—"
+    }
+  },
+  "release": [
+    "garfieldthe04",
+    "garfielda06",
+    "thegarfield24"
+  ],
+  "chrono": [
+    "garfieldthe04",
+    "garfielda06",
+    "thegarfield24"
+  ],
+  "note": "The 2024 animated film is unconnected to the first two."
+}

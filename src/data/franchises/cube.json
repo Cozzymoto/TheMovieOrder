@@ -1,0 +1,34 @@
+{
+  "title": "Cube",
+  "short": "Three films, one a prequel",
+  "hue": 190,
+  "blurb": "Strangers trapped in a lethal maze of rooms, with no memory of arriving.",
+  "films": {
+    "cube97": {
+      "t": "Cube",
+      "y": 1997,
+      "set": "1997"
+    },
+    "cube202": {
+      "t": "Cube 2: Hypercube",
+      "y": 2002,
+      "set": "2002"
+    },
+    "cubezero04": {
+      "t": "Cube Zero",
+      "y": 2004,
+      "set": "2004"
+    }
+  },
+  "release": [
+    "cube97",
+    "cube202",
+    "cubezero04"
+  ],
+  "chrono": [
+    "cubezero04",
+    "cube97",
+    "cube202"
+  ],
+  "note": "Cube Zero is a prequel following the technicians who run the cube. The films work in any order, but the original is best seen with no explanation at all."
+}

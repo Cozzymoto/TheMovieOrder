@@ -1,0 +1,26 @@
+{
+  "title": "Ghost Rider",
+  "short": "Two films",
+  "hue": 20,
+  "blurb": "A stunt rider who sells his soul and becomes a flaming spirit of vengeance.",
+  "films": {
+    "ghostrider07": {
+      "t": "Ghost Rider",
+      "y": 2007,
+      "set": "2007"
+    },
+    "ghostrider12": {
+      "t": "Ghost Rider: Spirit of Vengeance",
+      "y": 2012,
+      "set": "2012"
+    }
+  },
+  "release": [
+    "ghostrider07",
+    "ghostrider12"
+  ],
+  "chrono": [
+    "ghostrider07",
+    "ghostrider12"
+  ]
+}

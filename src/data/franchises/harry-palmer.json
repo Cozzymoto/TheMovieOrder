@@ -1,0 +1,33 @@
+{
+  "title": "Harry Palmer",
+  "short": "Michael Caine's spy trilogy",
+  "hue": 210,
+  "blurb": "The working-class counterpoint to James Bond — a spy with bills to pay and superiors he can't trust.",
+  "films": {
+    "theipcress65": {
+      "t": "The Ipcress File",
+      "y": 1965,
+      "set": "1965"
+    },
+    "funeralin66": {
+      "t": "Funeral in Berlin",
+      "y": 1966,
+      "set": "1966"
+    },
+    "billiondollar67": {
+      "t": "Billion Dollar Brain",
+      "y": 1967,
+      "set": "1967"
+    }
+  },
+  "release": [
+    "theipcress65",
+    "funeralin66",
+    "billiondollar67"
+  ],
+  "chrono": [
+    "theipcress65",
+    "funeralin66",
+    "billiondollar67"
+  ]
+}

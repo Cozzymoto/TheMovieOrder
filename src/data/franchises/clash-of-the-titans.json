@@ -1,0 +1,27 @@
+{
+  "title": "Clash of the Titans",
+  "short": "Two films",
+  "hue": 40,
+  "blurb": "Perseus against the gods, and a sequel ten years later.",
+  "films": {
+    "clashof10": {
+      "t": "Clash of the Titans",
+      "y": 2010,
+      "set": "Ancient Greece"
+    },
+    "wrathof12": {
+      "t": "Wrath of the Titans",
+      "y": 2012,
+      "set": "Ancient Greece"
+    }
+  },
+  "release": [
+    "clashof10",
+    "wrathof12"
+  ],
+  "chrono": [
+    "clashof10",
+    "wrathof12"
+  ],
+  "note": "A remake of the 1981 original, which stands on its own."
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Doctor in the House",
+  "short": "Seven films",
+  "hue": 196,
+  "blurb": "A medical student and the staff around him, across seven comedies built on Richard Gordon's novels.",
+  "films": {
+    "doctorin54": {
+      "t": "Doctor in the House",
+      "y": 1954,
+      "set": "1954"
+    },
+    "doctorat55": {
+      "t": "Doctor at Sea",
+      "y": 1955,
+      "set": "1955"
+    },
+    "doctorat57": {
+      "t": "Doctor at Large",
+      "y": 1957,
+      "set": "1957"
+    },
+    "doctorin60": {
+      "t": "Doctor in Love",
+      "y": 1960,
+      "set": "1960"
+    },
+    "doctorin63": {
+      "t": "Doctor in Distress",
+      "y": 1963,
+      "set": "1963"
+    },
+    "doctorin66": {
+      "t": "Doctor in Clover",
+      "y": 1966,
+      "set": "1966"
+    },
+    "doctorin70": {
+      "t": "Doctor in Trouble",
+      "y": 1970,
+      "set": "1970"
+    }
+  },
+  "release": [
+    "doctorin54",
+    "doctorat55",
+    "doctorat57",
+    "doctorin60",
+    "doctorin63",
+    "doctorin66",
+    "doctorin70"
+  ],
+  "chrono": [
+    "doctorin54",
+    "doctorat55",
+    "doctorat57",
+    "doctorin60",
+    "doctorin63",
+    "doctorin66",
+    "doctorin70"
+  ],
+  "note": "Dirk Bogarde leads the first three and the fifth. The others centre on different doctors."
+}

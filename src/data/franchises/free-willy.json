@@ -1,0 +1,34 @@
+{
+  "title": "Free Willy",
+  "short": "Three films",
+  "hue": 196,
+  "blurb": "A boy and the captive orca he sets out to free.",
+  "films": {
+    "freewilly93": {
+      "t": "Free Willy",
+      "y": 1993,
+      "set": "1993"
+    },
+    "freewilly95": {
+      "t": "Free Willy 2: The Adventure Home",
+      "y": 1995,
+      "set": "1995"
+    },
+    "freewilly97": {
+      "t": "Free Willy 3: The Rescue",
+      "y": 1997,
+      "set": "1997"
+    }
+  },
+  "release": [
+    "freewilly93",
+    "freewilly95",
+    "freewilly97"
+  ],
+  "chrono": [
+    "freewilly93",
+    "freewilly95",
+    "freewilly97"
+  ],
+  "note": "Later entries went straight to video and follow different characters."
+}

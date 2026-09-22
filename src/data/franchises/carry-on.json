@@ -1,0 +1,230 @@
+{
+  "title": "Carry On",
+  "short": "All 31 films",
+  "hue": 14,
+  "blurb": "Britain's longest-running film series — thirty-one comedies from 1958 to 1992, sharing a cast rather than a story.",
+  "films": {
+    "carryon58": {
+      "t": "Carry On Sergeant",
+      "y": 1958,
+      "set": "1958"
+    },
+    "carryon59": {
+      "t": "Carry On Nurse",
+      "y": 1959,
+      "set": "1959"
+    },
+    "carryon59b": {
+      "t": "Carry On Teacher",
+      "y": 1959,
+      "set": "1959"
+    },
+    "carryon60": {
+      "t": "Carry On Constable",
+      "y": 1960,
+      "set": "1960"
+    },
+    "carryon61": {
+      "t": "Carry On Regardless",
+      "y": 1961,
+      "set": "1961"
+    },
+    "carryon62": {
+      "t": "Carry On Cruising",
+      "y": 1962,
+      "set": "1962"
+    },
+    "carryon63": {
+      "t": "Carry On Cabby",
+      "y": 1963,
+      "set": "1963"
+    },
+    "carryon64": {
+      "t": "Carry On Jack",
+      "y": 1964,
+      "set": "1805"
+    },
+    "carryon64b": {
+      "t": "Carry On Spying",
+      "y": 1964,
+      "set": "1964"
+    },
+    "carryon64c": {
+      "t": "Carry On Cleo",
+      "y": 1964,
+      "set": "Ancient Rome"
+    },
+    "carryon65": {
+      "t": "Carry On Cowboy",
+      "y": 1965,
+      "set": "Wild West"
+    },
+    "carryon66": {
+      "t": "Carry On Screaming!",
+      "y": 1966,
+      "set": "1900s"
+    },
+    "dontlose67": {
+      "t": "Don't Lose Your Head",
+      "y": 1967,
+      "set": "French Revolution"
+    },
+    "followthat67": {
+      "t": "Follow That Camel",
+      "y": 1967,
+      "set": "1900s"
+    },
+    "carryon67": {
+      "t": "Carry On Doctor",
+      "y": 1967,
+      "set": "1967"
+    },
+    "carryon68": {
+      "t": "Carry On Up the Khyber",
+      "y": 1968,
+      "set": "1895"
+    },
+    "carryon69": {
+      "t": "Carry On Camping",
+      "y": 1969,
+      "set": "1969"
+    },
+    "carryon69b": {
+      "t": "Carry On Again Doctor",
+      "y": 1969,
+      "set": "1969"
+    },
+    "carryon70": {
+      "t": "Carry On Up the Jungle",
+      "y": 1970,
+      "set": "Victorian era"
+    },
+    "carryon70b": {
+      "t": "Carry On Loving",
+      "y": 1970,
+      "set": "1970"
+    },
+    "carryon71": {
+      "t": "Carry On Henry",
+      "y": 1971,
+      "set": "Tudor England"
+    },
+    "carryon71b": {
+      "t": "Carry On at Your Convenience",
+      "y": 1971,
+      "set": "1971"
+    },
+    "carryon72": {
+      "t": "Carry On Matron",
+      "y": 1972,
+      "set": "1972"
+    },
+    "carryon72b": {
+      "t": "Carry On Abroad",
+      "y": 1972,
+      "set": "1972"
+    },
+    "carryon73": {
+      "t": "Carry On Girls",
+      "y": 1973,
+      "set": "1973"
+    },
+    "carryon74": {
+      "t": "Carry On Dick",
+      "y": 1974,
+      "set": "1750"
+    },
+    "carryon75": {
+      "t": "Carry On Behind",
+      "y": 1975,
+      "set": "1975"
+    },
+    "carryon76": {
+      "t": "Carry On England",
+      "y": 1976,
+      "set": "1940"
+    },
+    "thatscarry77": {
+      "t": "That's Carry On!",
+      "y": 1977,
+      "set": "1977"
+    },
+    "carryon78": {
+      "t": "Carry On Emmannuelle",
+      "y": 1978,
+      "set": "1978"
+    },
+    "carryon92": {
+      "t": "Carry On Columbus",
+      "y": 1992,
+      "set": "1492"
+    }
+  },
+  "release": [
+    "carryon58",
+    "carryon59",
+    "carryon59b",
+    "carryon60",
+    "carryon61",
+    "carryon62",
+    "carryon63",
+    "carryon64",
+    "carryon64b",
+    "carryon64c",
+    "carryon65",
+    "carryon66",
+    "dontlose67",
+    "followthat67",
+    "carryon67",
+    "carryon68",
+    "carryon69",
+    "carryon69b",
+    "carryon70",
+    "carryon70b",
+    "carryon71",
+    "carryon71b",
+    "carryon72",
+    "carryon72b",
+    "carryon73",
+    "carryon74",
+    "carryon75",
+    "carryon76",
+    "thatscarry77",
+    "carryon78",
+    "carryon92"
+  ],
+  "chrono": [
+    "carryon58",
+    "carryon59",
+    "carryon59b",
+    "carryon60",
+    "carryon61",
+    "carryon62",
+    "carryon63",
+    "carryon64",
+    "carryon64b",
+    "carryon64c",
+    "carryon65",
+    "carryon66",
+    "dontlose67",
+    "followthat67",
+    "carryon67",
+    "carryon68",
+    "carryon69",
+    "carryon69b",
+    "carryon70",
+    "carryon70b",
+    "carryon71",
+    "carryon71b",
+    "carryon72",
+    "carryon72b",
+    "carryon73",
+    "carryon74",
+    "carryon75",
+    "carryon76",
+    "thatscarry77",
+    "carryon78",
+    "carryon92"
+  ],
+  "note": "There's no continuity — each film is a standalone with the same repertory company. That's Carry On! is a compilation of clips. Carry On Columbus was a revival fourteen years after the rest, with a largely new cast."
+}

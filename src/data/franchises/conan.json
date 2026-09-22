@@ -1,0 +1,34 @@
+{
+  "title": "Conan",
+  "short": "Three films",
+  "hue": 24,
+  "blurb": "Robert E. Howard's barbarian, twice with Arnold Schwarzenegger and once in a 2011 reboot.",
+  "films": {
+    "conanthe82": {
+      "t": "Conan the Barbarian",
+      "y": 1982,
+      "set": "—"
+    },
+    "conanthe84": {
+      "t": "Conan the Destroyer",
+      "y": 1984,
+      "set": "—"
+    },
+    "conanthe11": {
+      "t": "Conan the Barbarian",
+      "y": 2011,
+      "set": "—"
+    }
+  },
+  "release": [
+    "conanthe82",
+    "conanthe84",
+    "conanthe11"
+  ],
+  "chrono": [
+    "conanthe82",
+    "conanthe84",
+    "conanthe11"
+  ],
+  "note": "The 2011 film is a reboot."
+}

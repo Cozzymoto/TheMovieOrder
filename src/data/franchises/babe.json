@@ -1,0 +1,26 @@
+{
+  "title": "Babe",
+  "short": "Two films",
+  "hue": 36,
+  "blurb": "A pig raised by sheepdogs who becomes a sheep-herder, and later goes to the city.",
+  "films": {
+    "babe95": {
+      "t": "Babe",
+      "y": 1995,
+      "set": "—"
+    },
+    "babepig98": {
+      "t": "Babe: Pig in the City",
+      "y": 1998,
+      "set": "—"
+    }
+  },
+  "release": [
+    "babe95",
+    "babepig98"
+  ],
+  "chrono": [
+    "babe95",
+    "babepig98"
+  ]
+}

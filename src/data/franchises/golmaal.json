@@ -1,0 +1,41 @@
+{
+  "title": "Golmaal",
+  "short": "Four films",
+  "hue": 46,
+  "blurb": "A Bollywood comedy series with a recurring cast and a new scheme each time.",
+  "films": {
+    "golmaalfun06": {
+      "t": "Golmaal: Fun Unlimited",
+      "y": 2006,
+      "set": "2006"
+    },
+    "golmaalreturns08": {
+      "t": "Golmaal Returns",
+      "y": 2008,
+      "set": "2008"
+    },
+    "golmaal310": {
+      "t": "Golmaal 3",
+      "y": 2010,
+      "set": "2010"
+    },
+    "golmaalagain17": {
+      "t": "Golmaal Again",
+      "y": 2017,
+      "set": "2017"
+    }
+  },
+  "release": [
+    "golmaalfun06",
+    "golmaalreturns08",
+    "golmaal310",
+    "golmaalagain17"
+  ],
+  "chrono": [
+    "golmaalfun06",
+    "golmaalreturns08",
+    "golmaal310",
+    "golmaalagain17"
+  ],
+  "note": "Loosely connected — the cast returns in different roles."
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Battle Royale",
+  "short": "Two films",
+  "hue": 0,
+  "blurb": "Japanese schoolchildren forced to fight to the death on an island.",
+  "films": {
+    "battleroyale00": {
+      "t": "Battle Royale",
+      "y": 2000,
+      "set": "2000"
+    },
+    "battleroyale03": {
+      "t": "Battle Royale II: Requiem",
+      "y": 2003,
+      "set": "2003"
+    }
+  },
+  "release": [
+    "battleroyale00",
+    "battleroyale03"
+  ],
+  "chrono": [
+    "battleroyale00",
+    "battleroyale03"
+  ]
+}

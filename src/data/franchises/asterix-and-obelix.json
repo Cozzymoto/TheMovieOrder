@@ -1,0 +1,48 @@
+{
+  "title": "Asterix & Obelix",
+  "short": "The live-action films",
+  "hue": 50,
+  "blurb": "The Gauls who hold out against Rome with the help of a magic potion.",
+  "films": {
+    "asterixand99": {
+      "t": "Asterix & Obelix Take On Caesar",
+      "y": 1999,
+      "set": "50 BC"
+    },
+    "asterixand02": {
+      "t": "Asterix & Obelix: Mission Cleopatra",
+      "y": 2002,
+      "set": "50 BC"
+    },
+    "asterixat08": {
+      "t": "Asterix at the Olympic Games",
+      "y": 2008,
+      "set": "50 BC"
+    },
+    "asterixand12": {
+      "t": "Asterix & Obelix: God Save Britannia",
+      "y": 2012,
+      "set": "50 BC"
+    },
+    "asterixand23": {
+      "t": "Asterix & Obelix: The Middle Kingdom",
+      "y": 2023,
+      "set": "50 BC"
+    }
+  },
+  "release": [
+    "asterixand99",
+    "asterixand02",
+    "asterixat08",
+    "asterixand12",
+    "asterixand23"
+  ],
+  "chrono": [
+    "asterixand99",
+    "asterixand02",
+    "asterixat08",
+    "asterixand12",
+    "asterixand23"
+  ],
+  "note": "Each is a standalone adventure. The animated films are a separate series."
+}

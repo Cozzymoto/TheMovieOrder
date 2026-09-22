@@ -1,0 +1,26 @@
+{
+  "title": "KGF",
+  "short": "Two films",
+  "hue": 32,
+  "blurb": "A Mumbai gangster's rise through the Kolar gold fields.",
+  "films": {
+    "kgfchapter18": {
+      "t": "KGF: Chapter 1",
+      "y": 2018,
+      "set": "1951–1981"
+    },
+    "kgfchapter22": {
+      "t": "KGF: Chapter 2",
+      "y": 2022,
+      "set": "1981"
+    }
+  },
+  "release": [
+    "kgfchapter18",
+    "kgfchapter22"
+  ],
+  "chrono": [
+    "kgfchapter18",
+    "kgfchapter22"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Krrish",
+  "short": "Three films",
+  "hue": 210,
+  "blurb": "A superhero trilogy that begins as a science-fiction film with a different title.",
+  "films": {
+    "koimil03": {
+      "t": "Koi... Mil Gaya",
+      "y": 2003,
+      "set": "2003"
+    },
+    "krrish06": {
+      "t": "Krrish",
+      "y": 2006,
+      "set": "2006"
+    },
+    "krrish313": {
+      "t": "Krrish 3",
+      "y": 2013,
+      "set": "2013"
+    }
+  },
+  "release": [
+    "koimil03",
+    "krrish06",
+    "krrish313"
+  ],
+  "chrono": [
+    "koimil03",
+    "krrish06",
+    "krrish313"
+  ],
+  "note": "Koi... Mil Gaya is the first part — Krrish follows the son of its lead."
+}

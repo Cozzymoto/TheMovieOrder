@@ -1,0 +1,34 @@
+{
+  "title": "Fright Night",
+  "short": "Three films",
+  "hue": 350,
+  "blurb": "A teenager convinced his new neighbour is a vampire.",
+  "films": {
+    "frightnight85": {
+      "t": "Fright Night",
+      "y": 1985,
+      "set": "1985"
+    },
+    "frightnight88": {
+      "t": "Fright Night Part 2",
+      "y": 1988,
+      "set": "1988"
+    },
+    "frightnight11": {
+      "t": "Fright Night",
+      "y": 2011,
+      "set": "2011"
+    }
+  },
+  "release": [
+    "frightnight85",
+    "frightnight88",
+    "frightnight11"
+  ],
+  "chrono": [
+    "frightnight85",
+    "frightnight88",
+    "frightnight11"
+  ],
+  "note": "The 2011 film is a remake."
+}

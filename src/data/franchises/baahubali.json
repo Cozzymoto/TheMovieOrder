@@ -1,0 +1,27 @@
+{
+  "title": "Baahubali",
+  "short": "Two films",
+  "hue": 30,
+  "blurb": "An epic in two parts about a kingdom, its rightful heir and the man who betrayed his father.",
+  "films": {
+    "baahubalithe15": {
+      "t": "Baahubali: The Beginning",
+      "y": 2015,
+      "set": "2015"
+    },
+    "baahubali217": {
+      "t": "Baahubali 2: The Conclusion",
+      "y": 2017,
+      "set": "2017"
+    }
+  },
+  "release": [
+    "baahubalithe15",
+    "baahubali217"
+  ],
+  "chrono": [
+    "baahubalithe15",
+    "baahubali217"
+  ],
+  "note": "The Conclusion spends much of its length in a flashback set before The Beginning, then resolves both timelines."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Crocodile Dundee",
+  "short": "Three films",
+  "hue": 30,
+  "blurb": "An Australian bushman taken to New York, then home, then to Los Angeles.",
+  "films": {
+    "crocodiledundee86": {
+      "t": "Crocodile Dundee",
+      "y": 1986,
+      "set": "1986"
+    },
+    "crocodiledundee88": {
+      "t": "Crocodile Dundee II",
+      "y": 1988,
+      "set": "1988"
+    },
+    "crocodiledundee01": {
+      "t": "Crocodile Dundee in Los Angeles",
+      "y": 2001,
+      "set": "2001"
+    }
+  },
+  "release": [
+    "crocodiledundee86",
+    "crocodiledundee88",
+    "crocodiledundee01"
+  ],
+  "chrono": [
+    "crocodiledundee86",
+    "crocodiledundee88",
+    "crocodiledundee01"
+  ]
+}

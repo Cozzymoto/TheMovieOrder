@@ -1,0 +1,41 @@
+{
+  "title": "Airport",
+  "short": "Four films",
+  "hue": 200,
+  "blurb": "The disaster films that defined the 1970s, each finding a new way for a flight to go wrong.",
+  "films": {
+    "airport70": {
+      "t": "Airport",
+      "y": 1970,
+      "set": "1970"
+    },
+    "airport197574": {
+      "t": "Airport 1975",
+      "y": 1974,
+      "set": "1974"
+    },
+    "airport7777": {
+      "t": "Airport '77",
+      "y": 1977,
+      "set": "1977"
+    },
+    "theconcorde79": {
+      "t": "The Concorde... Airport '79",
+      "y": 1979,
+      "set": "1979"
+    }
+  },
+  "release": [
+    "airport70",
+    "airport197574",
+    "airport7777",
+    "theconcorde79"
+  ],
+  "chrono": [
+    "airport70",
+    "airport197574",
+    "airport7777",
+    "theconcorde79"
+  ],
+  "note": "Only George Kennedy's character appears in all four. Each disaster is self-contained."
+}

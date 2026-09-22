@@ -1,0 +1,26 @@
+{
+  "title": "Angry Birds",
+  "short": "Two films",
+  "hue": 8,
+  "blurb": "The mobile game's flightless birds and their feud with the pigs next door.",
+  "films": {
+    "theangry16": {
+      "t": "The Angry Birds Movie",
+      "y": 2016,
+      "set": "—"
+    },
+    "theangry19": {
+      "t": "The Angry Birds Movie 2",
+      "y": 2019,
+      "set": "—"
+    }
+  },
+  "release": [
+    "theangry16",
+    "theangry19"
+  ],
+  "chrono": [
+    "theangry16",
+    "theangry19"
+  ]
+}

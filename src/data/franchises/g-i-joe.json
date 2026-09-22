@@ -1,0 +1,34 @@
+{
+  "title": "G.I. Joe",
+  "short": "Three films",
+  "hue": 100,
+  "blurb": "The toy line's special-forces team, and a spin-off about its silent ninja.",
+  "films": {
+    "gi09": {
+      "t": "G.I. Joe: The Rise of Cobra",
+      "y": 2009,
+      "set": "2009"
+    },
+    "gi13": {
+      "t": "G.I. Joe: Retaliation",
+      "y": 2013,
+      "set": "2013"
+    },
+    "snakeeyes21": {
+      "t": "Snake Eyes",
+      "y": 2021,
+      "set": "2021"
+    }
+  },
+  "release": [
+    "gi09",
+    "gi13",
+    "snakeeyes21"
+  ],
+  "chrono": [
+    "gi09",
+    "gi13",
+    "snakeeyes21"
+  ],
+  "note": "Snake Eyes is an origin story that works as a fresh start."
+}

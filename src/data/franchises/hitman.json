@@ -1,0 +1,27 @@
+{
+  "title": "Hitman",
+  "short": "Two films",
+  "hue": 0,
+  "blurb": "Two unconnected attempts to adapt the video game assassin.",
+  "films": {
+    "hitman07": {
+      "t": "Hitman",
+      "y": 2007,
+      "set": "2007"
+    },
+    "hitmanagent15": {
+      "t": "Hitman: Agent 47",
+      "y": 2015,
+      "set": "2015"
+    }
+  },
+  "release": [
+    "hitman07",
+    "hitmanagent15"
+  ],
+  "chrono": [
+    "hitman07",
+    "hitmanagent15"
+  ],
+  "note": "The films don't share a continuity."
+}

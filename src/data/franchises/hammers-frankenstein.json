@@ -1,0 +1,62 @@
+{
+  "title": "Hammer's Frankenstein",
+  "short": "Seven films",
+  "hue": 18,
+  "blurb": "Peter Cushing as a Baron Frankenstein who is the real monster, across seven films for Hammer.",
+  "films": {
+    "thecurse57": {
+      "t": "The Curse of Frankenstein",
+      "y": 1957,
+      "set": "—"
+    },
+    "therevenge58": {
+      "t": "The Revenge of Frankenstein",
+      "y": 1958,
+      "set": "—"
+    },
+    "theevil64": {
+      "t": "The Evil of Frankenstein",
+      "y": 1964,
+      "set": "—"
+    },
+    "frankensteincreated67": {
+      "t": "Frankenstein Created Woman",
+      "y": 1967,
+      "set": "—"
+    },
+    "frankensteinmust69": {
+      "t": "Frankenstein Must Be Destroyed",
+      "y": 1969,
+      "set": "—"
+    },
+    "thehorror70": {
+      "t": "The Horror of Frankenstein",
+      "y": 1970,
+      "set": "—"
+    },
+    "frankensteinand74": {
+      "t": "Frankenstein and the Monster from Hell",
+      "y": 1974,
+      "set": "—"
+    }
+  },
+  "release": [
+    "thecurse57",
+    "therevenge58",
+    "theevil64",
+    "frankensteincreated67",
+    "frankensteinmust69",
+    "thehorror70",
+    "frankensteinand74"
+  ],
+  "chrono": [
+    "thecurse57",
+    "therevenge58",
+    "theevil64",
+    "frankensteincreated67",
+    "frankensteinmust69",
+    "thehorror70",
+    "frankensteinand74"
+  ],
+  "note": "The Horror of Frankenstein is a standalone remake with a different actor. The films' own continuity is loose — The Evil of Frankenstein largely ignores the two before it."
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Crouching Tiger, Hidden Dragon",
+  "short": "Two films",
+  "hue": 100,
+  "blurb": "A stolen sword and the warriors bound up in its fate.",
+  "films": {
+    "crouchingtiger00": {
+      "t": "Crouching Tiger, Hidden Dragon",
+      "y": 2000,
+      "set": "Qing dynasty"
+    },
+    "crouchingtiger16": {
+      "t": "Crouching Tiger, Hidden Dragon: Sword of Destiny",
+      "y": 2016,
+      "set": "Qing dynasty"
+    }
+  },
+  "release": [
+    "crouchingtiger00",
+    "crouchingtiger16"
+  ],
+  "chrono": [
+    "crouchingtiger00",
+    "crouchingtiger16"
+  ],
+  "note": "The sequel is set eighteen years later with a largely new cast."
+}

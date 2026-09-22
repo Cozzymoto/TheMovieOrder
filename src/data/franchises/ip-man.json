@@ -1,0 +1,40 @@
+{
+  "title": "Ip Man",
+  "short": "Four films",
+  "hue": 14,
+  "blurb": "The life of the Wing Chun master who taught Bruce Lee, from wartime Foshan to 1960s San Francisco.",
+  "films": {
+    "ipman08": {
+      "t": "Ip Man",
+      "y": 2008,
+      "set": "1935–1949"
+    },
+    "ipman10": {
+      "t": "Ip Man 2",
+      "y": 2010,
+      "set": "1950s"
+    },
+    "ipman15": {
+      "t": "Ip Man 3",
+      "y": 2015,
+      "set": "1959"
+    },
+    "ipman19": {
+      "t": "Ip Man 4: The Finale",
+      "y": 2019,
+      "set": "1964"
+    }
+  },
+  "release": [
+    "ipman08",
+    "ipman10",
+    "ipman15",
+    "ipman19"
+  ],
+  "chrono": [
+    "ipman08",
+    "ipman10",
+    "ipman15",
+    "ipman19"
+  ]
+}

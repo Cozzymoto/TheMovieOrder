@@ -1,0 +1,33 @@
+{
+  "title": "Friday",
+  "short": "The Ice Cube comedies",
+  "hue": 46,
+  "blurb": "One long day on a Los Angeles street, followed by two more.",
+  "films": {
+    "friday95": {
+      "t": "Friday",
+      "y": 1995,
+      "set": "1995"
+    },
+    "nextfriday00": {
+      "t": "Next Friday",
+      "y": 2000,
+      "set": "2000"
+    },
+    "fridayafter02": {
+      "t": "Friday After Next",
+      "y": 2002,
+      "set": "2002"
+    }
+  },
+  "release": [
+    "friday95",
+    "nextfriday00",
+    "fridayafter02"
+  ],
+  "chrono": [
+    "friday95",
+    "nextfriday00",
+    "fridayafter02"
+  ]
+}

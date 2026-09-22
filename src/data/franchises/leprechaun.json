@@ -1,0 +1,69 @@
+{
+  "title": "Leprechaun",
+  "short": "Eight films",
+  "hue": 110,
+  "blurb": "A murderous leprechaun hunting his gold, in space, in the hood, and back where he started.",
+  "films": {
+    "leprechaun93": {
+      "t": "Leprechaun",
+      "y": 1993,
+      "set": "1993"
+    },
+    "leprechaun294": {
+      "t": "Leprechaun 2",
+      "y": 1994,
+      "set": "1994"
+    },
+    "leprechaun395": {
+      "t": "Leprechaun 3",
+      "y": 1995,
+      "set": "1995"
+    },
+    "leprechaun496": {
+      "t": "Leprechaun 4: In Space",
+      "y": 1996,
+      "set": "1996"
+    },
+    "leprechaunin00": {
+      "t": "Leprechaun in the Hood",
+      "y": 2000,
+      "set": "2000"
+    },
+    "leprechaunback03": {
+      "t": "Leprechaun: Back 2 tha Hood",
+      "y": 2003,
+      "set": "2003"
+    },
+    "leprechaunorigins14": {
+      "t": "Leprechaun: Origins",
+      "y": 2014,
+      "set": "2014"
+    },
+    "leprechaunreturns18": {
+      "t": "Leprechaun Returns",
+      "y": 2018,
+      "set": "2018"
+    }
+  },
+  "release": [
+    "leprechaun93",
+    "leprechaun294",
+    "leprechaun395",
+    "leprechaun496",
+    "leprechaunin00",
+    "leprechaunback03",
+    "leprechaunorigins14",
+    "leprechaunreturns18"
+  ],
+  "chrono": [
+    "leprechaun93",
+    "leprechaun294",
+    "leprechaun395",
+    "leprechaun496",
+    "leprechaunin00",
+    "leprechaunback03",
+    "leprechaunorigins14",
+    "leprechaunreturns18"
+  ],
+  "note": "Continuity is loose throughout. Origins is a reboot, and Leprechaun Returns is a direct sequel to the first film."
+}

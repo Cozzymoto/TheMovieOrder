@@ -1,0 +1,90 @@
+{
+  "title": "Hellraiser",
+  "short": "Eleven films",
+  "hue": 2,
+  "blurb": "Clive Barker's puzzle box and the beings it summons, across a series that spans four centuries.",
+  "films": {
+    "hellraiser87": {
+      "t": "Hellraiser",
+      "y": 1987,
+      "set": "1987"
+    },
+    "hellboundhellraiser88": {
+      "t": "Hellbound: Hellraiser II",
+      "y": 1988,
+      "set": "1988"
+    },
+    "hellraiseriii92": {
+      "t": "Hellraiser III: Hell on Earth",
+      "y": 1992,
+      "set": "1992"
+    },
+    "hellraiserbloodline96": {
+      "t": "Hellraiser: Bloodline",
+      "y": 1996,
+      "set": "1796, 1996 & 2127"
+    },
+    "hellraiserinferno00": {
+      "t": "Hellraiser: Inferno",
+      "y": 2000,
+      "set": "2000"
+    },
+    "hellraiserhellseeker02": {
+      "t": "Hellraiser: Hellseeker",
+      "y": 2002,
+      "set": "2002"
+    },
+    "hellraiserdeader05": {
+      "t": "Hellraiser: Deader",
+      "y": 2005,
+      "set": "2005"
+    },
+    "hellraiserhellworld05": {
+      "t": "Hellraiser: Hellworld",
+      "y": 2005,
+      "set": "2005"
+    },
+    "hellraiserrevelations11": {
+      "t": "Hellraiser: Revelations",
+      "y": 2011,
+      "set": "2011"
+    },
+    "hellraiserjudgment18": {
+      "t": "Hellraiser: Judgment",
+      "y": 2018,
+      "set": "2018"
+    },
+    "hellraiser22": {
+      "t": "Hellraiser",
+      "y": 2022,
+      "set": "2022"
+    }
+  },
+  "release": [
+    "hellraiser87",
+    "hellboundhellraiser88",
+    "hellraiseriii92",
+    "hellraiserbloodline96",
+    "hellraiserinferno00",
+    "hellraiserhellseeker02",
+    "hellraiserdeader05",
+    "hellraiserhellworld05",
+    "hellraiserrevelations11",
+    "hellraiserjudgment18",
+    "hellraiser22"
+  ],
+  "chrono": [
+    "hellraiser87",
+    "hellboundhellraiser88",
+    "hellraiseriii92",
+    "hellraiserbloodline96",
+    "hellraiserinferno00",
+    "hellraiserhellseeker02",
+    "hellraiserdeader05",
+    "hellraiserhellworld05",
+    "hellraiserrevelations11",
+    "hellraiserjudgment18",
+    "hellraiser22"
+  ],
+  "note": "Bloodline tells three stories centuries apart, so it can't be placed in one spot. From Inferno onwards most were made directly for video and share little. The 2022 film is a reboot."
+}

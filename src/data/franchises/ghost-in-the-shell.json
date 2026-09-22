@@ -1,0 +1,34 @@
+{
+  "title": "Ghost in the Shell",
+  "short": "Three films",
+  "hue": 196,
+  "blurb": "A cyborg officer questioning where her humanity ends, in two anime films and a live-action remake.",
+  "films": {
+    "ghostin95": {
+      "t": "Ghost in the Shell",
+      "y": 1995,
+      "set": "2029"
+    },
+    "ghostin04": {
+      "t": "Ghost in the Shell 2: Innocence",
+      "y": 2004,
+      "set": "2032"
+    },
+    "ghostin17": {
+      "t": "Ghost in the Shell",
+      "y": 2017,
+      "set": "—"
+    }
+  },
+  "release": [
+    "ghostin95",
+    "ghostin04",
+    "ghostin17"
+  ],
+  "chrono": [
+    "ghostin95",
+    "ghostin04",
+    "ghostin17"
+  ],
+  "note": "The 2017 live-action film is unconnected to the anime. Several anime series expand the world separately."
+}

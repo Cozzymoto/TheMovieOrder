@@ -1,0 +1,26 @@
+{
+  "title": "Cheaper by the Dozen",
+  "short": "Two films",
+  "hue": 44,
+  "blurb": "A family of twelve children and the parents trying to keep up.",
+  "films": {
+    "cheaperby03": {
+      "t": "Cheaper by the Dozen",
+      "y": 2003,
+      "set": "2003"
+    },
+    "cheaperby05": {
+      "t": "Cheaper by the Dozen 2",
+      "y": 2005,
+      "set": "2005"
+    }
+  },
+  "release": [
+    "cheaperby03",
+    "cheaperby05"
+  ],
+  "chrono": [
+    "cheaperby03",
+    "cheaperby05"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Alien vs. Predator",
+  "short": "Two films",
+  "hue": 150,
+  "blurb": "Two separate monster franchises collide on Earth.",
+  "films": {
+    "avpalien04": {
+      "t": "AVP: Alien vs. Predator",
+      "y": 2004,
+      "set": "2004"
+    },
+    "aliensvs07": {
+      "t": "Aliens vs. Predator: Requiem",
+      "y": 2007,
+      "set": "2004"
+    }
+  },
+  "release": [
+    "avpalien04",
+    "aliensvs07"
+  ],
+  "chrono": [
+    "avpalien04",
+    "aliensvs07"
+  ],
+  "note": "These sit between the Alien and Predator series without fitting neatly into either. Requiem picks up where the first ends."
+}

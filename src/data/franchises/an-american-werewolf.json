@@ -1,0 +1,27 @@
+{
+  "title": "An American Werewolf",
+  "short": "Two films",
+  "hue": 20,
+  "blurb": "American backpackers bitten while travelling in Europe.",
+  "films": {
+    "anamerican81": {
+      "t": "An American Werewolf in London",
+      "y": 1981,
+      "set": "1981"
+    },
+    "anamerican97": {
+      "t": "An American Werewolf in Paris",
+      "y": 1997,
+      "set": "1997"
+    }
+  },
+  "release": [
+    "anamerican81",
+    "anamerican97"
+  ],
+  "chrono": [
+    "anamerican81",
+    "anamerican97"
+  ],
+  "note": "The Paris film is a loose follow-up with new characters."
+}

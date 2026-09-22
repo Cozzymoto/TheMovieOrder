@@ -1,0 +1,33 @@
+{
+  "title": "Barbershop",
+  "short": "Three films",
+  "hue": 20,
+  "blurb": "A South Side Chicago barbershop and the regulars who treat it as home.",
+  "films": {
+    "barbershop02": {
+      "t": "Barbershop",
+      "y": 2002,
+      "set": "2002"
+    },
+    "barbershop204": {
+      "t": "Barbershop 2: Back in Business",
+      "y": 2004,
+      "set": "2004"
+    },
+    "barbershopthe16": {
+      "t": "Barbershop: The Next Cut",
+      "y": 2016,
+      "set": "2016"
+    }
+  },
+  "release": [
+    "barbershop02",
+    "barbershop204",
+    "barbershopthe16"
+  ],
+  "chrono": [
+    "barbershop02",
+    "barbershop204",
+    "barbershopthe16"
+  ]
+}

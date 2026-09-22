@@ -1,0 +1,55 @@
+{
+  "title": "Death Wish",
+  "short": "Six films",
+  "hue": 4,
+  "blurb": "An architect turned vigilante, across five films and a 2018 remake.",
+  "films": {
+    "deathwish74": {
+      "t": "Death Wish",
+      "y": 1974,
+      "set": "1974"
+    },
+    "deathwish82": {
+      "t": "Death Wish II",
+      "y": 1982,
+      "set": "1982"
+    },
+    "deathwish85": {
+      "t": "Death Wish 3",
+      "y": 1985,
+      "set": "1985"
+    },
+    "deathwish87": {
+      "t": "Death Wish 4: The Crackdown",
+      "y": 1987,
+      "set": "1987"
+    },
+    "deathwish94": {
+      "t": "Death Wish V: The Face of Death",
+      "y": 1994,
+      "set": "1994"
+    },
+    "deathwish18": {
+      "t": "Death Wish",
+      "y": 2018,
+      "set": "2018"
+    }
+  },
+  "release": [
+    "deathwish74",
+    "deathwish82",
+    "deathwish85",
+    "deathwish87",
+    "deathwish94",
+    "deathwish18"
+  ],
+  "chrono": [
+    "deathwish74",
+    "deathwish82",
+    "deathwish85",
+    "deathwish87",
+    "deathwish94",
+    "deathwish18"
+  ],
+  "note": "The 2018 film is a remake and unconnected to the first five."
+}
