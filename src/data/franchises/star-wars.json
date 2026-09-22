@@ -4,61 +4,73 @@
   "hue": 212,
   "blurb": "The argument that started every argument. Release order protects the biggest twist in cinema; chronological order gives you a clean nine-part story with two side trips.",
   "rank": 2,
+  "poster": "/fai0rspsNeJCS69wHNjOdWxcI7P.jpg",
   "films": {
     "anh": {
       "t": "Star Wars: A New Hope",
       "y": 1977,
-      "set": "0 BBY"
+      "set": "0 BBY",
+      "poster": "/fai0rspsNeJCS69wHNjOdWxcI7P.jpg"
     },
     "esb": {
       "t": "The Empire Strikes Back",
       "y": 1980,
-      "set": "3 ABY"
+      "set": "3 ABY",
+      "poster": "/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg"
     },
     "rotj": {
       "t": "Return of the Jedi",
       "y": 1983,
-      "set": "4 ABY"
+      "set": "4 ABY",
+      "poster": "/jQYlydvHm3kUix1f8prMucrplhm.jpg"
     },
     "tpm": {
       "t": "The Phantom Menace",
       "y": 1999,
-      "set": "32 BBY"
+      "set": "32 BBY",
+      "poster": "/6wkfovpn7Eq8dYNKaG5PY3q2oq6.jpg"
     },
     "aotc": {
       "t": "Attack of the Clones",
       "y": 2002,
-      "set": "22 BBY"
+      "set": "22 BBY",
+      "poster": "/oZNPzxqM2s5DyVWab09NTQScDQt.jpg"
     },
     "rots": {
       "t": "Revenge of the Sith",
       "y": 2005,
-      "set": "19 BBY"
+      "set": "19 BBY",
+      "poster": "/xfSAoBEm9MNBjmlNcDYLvLSMlnq.jpg"
     },
     "tfa": {
       "t": "The Force Awakens",
       "y": 2015,
-      "set": "34 ABY"
+      "set": "34 ABY",
+      "poster": "/wqnLdwVXoBjKibFRR5U3y0aDUhs.jpg"
     },
     "rogue": {
       "t": "Rogue One",
       "y": 2016,
-      "set": "0 BBY"
+      "set": "0 BBY",
+      "poster": "/i0yw1mFbB7sNGHCs7EXZPzFkdA1.jpg"
     },
     "tlj": {
       "t": "The Last Jedi",
       "y": 2017,
-      "set": "34 ABY"
+      "set": "34 ABY",
+      "poster": "/kOVEVeg59E0wsnXmF9nrh6OmWII.jpg"
     },
     "solo": {
       "t": "Solo",
       "y": 2018,
-      "set": "13–10 BBY"
+      "set": "13–10 BBY",
+      "poster": "/4oD6VEccFkorEBTEDXtpLAaz0Rl.jpg"
     },
     "tros": {
       "t": "The Rise of Skywalker",
       "y": 2019,
-      "set": "35 ABY"
+      "set": "35 ABY",
+      "poster": "/db32LaOibwEliAmSL2jjDF6oDdj.jpg"
     }
   },
   "release": [
