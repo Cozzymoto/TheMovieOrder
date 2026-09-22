@@ -1,0 +1,48 @@
+yaml
+name: Add missing posters
+
+# Run this by hand from the Actions tab. It never runs on its own.
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview only — look things up but change nothing"
+        type: boolean
+        default: false
+      only_first:
+        description: "Only do the first N franchises (0 = all). Use 3 for a trial run."
+        type: string
+        default: "0"
+
+permissions:
+  contents: write
+
+jobs:
+  posters:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Look up posters on TMDB
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          ONLY_FIRST: ${{ inputs.only_first }}
+        run: node scripts/add-posters.mjs
+
+      - name: Commit the updated cards
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes — every film already had a poster."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/franchises
+          git commit -m "Add posters from TMDB"
+          git push
