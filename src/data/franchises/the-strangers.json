@@ -1,0 +1,41 @@
+{
+  "title": "The Strangers",
+  "short": "Four films",
+  "hue": 222,
+  "blurb": "Two films about masked home invaders, then a new trilogy that starts again from the beginning.",
+  "films": {
+    "thestrangers08": {
+      "t": "The Strangers",
+      "y": 2008,
+      "set": "2008"
+    },
+    "thestrangers18": {
+      "t": "The Strangers: Prey at Night",
+      "y": 2018,
+      "set": "2018"
+    },
+    "thestrangers24": {
+      "t": "The Strangers: Chapter 1",
+      "y": 2024,
+      "set": "2024"
+    },
+    "thestrangers25": {
+      "t": "The Strangers: Chapter 2",
+      "y": 2025,
+      "set": "2025"
+    }
+  },
+  "release": [
+    "thestrangers08",
+    "thestrangers18",
+    "thestrangers24",
+    "thestrangers25"
+  ],
+  "chrono": [
+    "thestrangers08",
+    "thestrangers18",
+    "thestrangers24",
+    "thestrangers25"
+  ],
+  "note": "Chapter 1 begins a separate story and is not a continuation of the first two films."
+}

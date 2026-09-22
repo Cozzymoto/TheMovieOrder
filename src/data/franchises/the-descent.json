@@ -1,0 +1,27 @@
+{
+  "title": "The Descent",
+  "short": "Two films",
+  "hue": 24,
+  "blurb": "A British caving horror, and a sequel that picks up where the American cut left off.",
+  "films": {
+    "thedescent05": {
+      "t": "The Descent",
+      "y": 2005,
+      "set": "2005"
+    },
+    "thedescent09": {
+      "t": "The Descent Part 2",
+      "y": 2009,
+      "set": "2009"
+    }
+  },
+  "release": [
+    "thedescent05",
+    "thedescent09"
+  ],
+  "chrono": [
+    "thedescent05",
+    "thedescent09"
+  ],
+  "note": "The original has two endings. The UK version ends darker; the US version cuts it short. Part 2 continues from the US ending, which confuses British viewers."
+}

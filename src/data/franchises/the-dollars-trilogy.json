@@ -1,0 +1,34 @@
+{
+  "title": "The Dollars Trilogy",
+  "short": "Sergio Leone's westerns",
+  "hue": 32,
+  "blurb": "Three westerns with the same unnamed gunman — and a long-running argument that the most famous one is a prequel.",
+  "films": {
+    "afistful64": {
+      "t": "A Fistful of Dollars",
+      "y": 1964,
+      "set": "—"
+    },
+    "fora65": {
+      "t": "For a Few Dollars More",
+      "y": 1965,
+      "set": "—"
+    },
+    "thegood66": {
+      "t": "The Good, the Bad and the Ugly",
+      "y": 1966,
+      "set": "1862"
+    }
+  },
+  "release": [
+    "afistful64",
+    "fora65",
+    "thegood66"
+  ],
+  "chrono": [
+    "thegood66",
+    "afistful64",
+    "fora65"
+  ],
+  "note": "The prequel reading comes from The Good, the Bad and the Ugly being set during the Civil War and ending with the character acquiring his poncho. It's a popular theory rather than anything the films state. Release order works perfectly well."
+}

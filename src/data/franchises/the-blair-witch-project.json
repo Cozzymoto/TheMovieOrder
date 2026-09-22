@@ -1,0 +1,34 @@
+{
+  "title": "The Blair Witch Project",
+  "short": "Three films",
+  "hue": 66,
+  "blurb": "The film that invented found-footage horror as we know it, plus two follow-ups.",
+  "films": {
+    "theblair99": {
+      "t": "The Blair Witch Project",
+      "y": 1999,
+      "set": "1994"
+    },
+    "bookof00": {
+      "t": "Book of Shadows: Blair Witch 2",
+      "y": 2000,
+      "set": "2000"
+    },
+    "blairwitch16": {
+      "t": "Blair Witch",
+      "y": 2016,
+      "set": "2014"
+    }
+  },
+  "release": [
+    "theblair99",
+    "bookof00",
+    "blairwitch16"
+  ],
+  "chrono": [
+    "theblair99",
+    "bookof00",
+    "blairwitch16"
+  ],
+  "note": "Blair Witch (2016) is a direct sequel to the original and ignores Book of Shadows."
+}

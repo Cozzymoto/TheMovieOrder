@@ -1,0 +1,27 @@
+{
+  "title": "Wallace & Gromit",
+  "short": "The two feature films",
+  "hue": 44,
+  "blurb": "The feature-length adventures of Aardman's inventor and his long-suffering dog.",
+  "films": {
+    "wallaceand05": {
+      "t": "Wallace & Gromit: The Curse of the Were-Rabbit",
+      "y": 2005,
+      "set": "—"
+    },
+    "wallaceand24": {
+      "t": "Wallace & Gromit: Vengeance Most Fowl",
+      "y": 2024,
+      "set": "—"
+    }
+  },
+  "release": [
+    "wallaceand05",
+    "wallaceand24"
+  ],
+  "chrono": [
+    "wallaceand05",
+    "wallaceand24"
+  ],
+  "note": "Most of their adventures are shorts. Vengeance Most Fowl brings back the villain of The Wrong Trousers (1993), which is worth watching first."
+}

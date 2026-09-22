@@ -1,0 +1,26 @@
+{
+  "title": "Zoolander",
+  "short": "Two films",
+  "hue": 320,
+  "blurb": "A male model manipulated into an assassination plot, and a sequel fifteen years on.",
+  "films": {
+    "zoolander01": {
+      "t": "Zoolander",
+      "y": 2001,
+      "set": "2001"
+    },
+    "zoolander216": {
+      "t": "Zoolander 2",
+      "y": 2016,
+      "set": "2016"
+    }
+  },
+  "release": [
+    "zoolander01",
+    "zoolander216"
+  ],
+  "chrono": [
+    "zoolander01",
+    "zoolander216"
+  ]
+}

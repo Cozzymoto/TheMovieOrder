@@ -1,0 +1,55 @@
+{
+  "title": "The Exorcist",
+  "short": "Six films, two versions of one prequel",
+  "hue": 40,
+  "blurb": "The original, two sequels, a prequel filmed twice by two different directors, and a 2023 follow-up that ignores most of it.",
+  "films": {
+    "theexorcist73": {
+      "t": "The Exorcist",
+      "y": 1973,
+      "set": "1973"
+    },
+    "exorcistii77": {
+      "t": "Exorcist II: The Heretic",
+      "y": 1977,
+      "set": "1977"
+    },
+    "theexorcist90": {
+      "t": "The Exorcist III",
+      "y": 1990,
+      "set": "1990"
+    },
+    "exorcistthe04": {
+      "t": "Exorcist: The Beginning",
+      "y": 2004,
+      "set": "1949"
+    },
+    "dominionprequel05": {
+      "t": "Dominion: Prequel to the Exorcist",
+      "y": 2005,
+      "set": "1947"
+    },
+    "theexorcist23": {
+      "t": "The Exorcist: Believer",
+      "y": 2023,
+      "set": "2023"
+    }
+  },
+  "release": [
+    "theexorcist73",
+    "exorcistii77",
+    "theexorcist90",
+    "exorcistthe04",
+    "dominionprequel05",
+    "theexorcist23"
+  ],
+  "chrono": [
+    "dominionprequel05",
+    "exorcistthe04",
+    "theexorcist73",
+    "exorcistii77",
+    "theexorcist90",
+    "theexorcist23"
+  ],
+  "note": "Exorcist: The Beginning and Dominion are two versions of the same prequel — the studio rejected the first cut, reshot it, then released both. You only need one. Believer is a sequel to the 1973 film and ignores the rest."
+}

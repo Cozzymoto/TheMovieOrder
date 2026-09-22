@@ -1,0 +1,48 @@
+{
+  "title": "Scary Movie",
+  "short": "Five films",
+  "hue": 4,
+  "blurb": "Parodies of whatever horror films were popular at the time — which makes each one a small time capsule.",
+  "films": {
+    "scarymovie00": {
+      "t": "Scary Movie",
+      "y": 2000,
+      "set": "2000"
+    },
+    "scarymovie01": {
+      "t": "Scary Movie 2",
+      "y": 2001,
+      "set": "2001"
+    },
+    "scarymovie03": {
+      "t": "Scary Movie 3",
+      "y": 2003,
+      "set": "2003"
+    },
+    "scarymovie06": {
+      "t": "Scary Movie 4",
+      "y": 2006,
+      "set": "2006"
+    },
+    "scarymovie13": {
+      "t": "Scary Movie 5",
+      "y": 2013,
+      "set": "2013"
+    }
+  },
+  "release": [
+    "scarymovie00",
+    "scarymovie01",
+    "scarymovie03",
+    "scarymovie06",
+    "scarymovie13"
+  ],
+  "chrono": [
+    "scarymovie00",
+    "scarymovie01",
+    "scarymovie03",
+    "scarymovie06",
+    "scarymovie13"
+  ],
+  "note": "There's no real continuity, but the jokes land better if you've seen the films each one mocks."
+}

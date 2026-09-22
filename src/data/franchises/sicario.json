@@ -1,0 +1,27 @@
+{
+  "title": "Sicario",
+  "short": "Two films",
+  "hue": 30,
+  "blurb": "A cartel thriller, and a sequel that drops its original lead to follow the two men who shadowed her.",
+  "films": {
+    "sicario15": {
+      "t": "Sicario",
+      "y": 2015,
+      "set": "2015"
+    },
+    "sicarioday18": {
+      "t": "Sicario: Day of the Soldado",
+      "y": 2018,
+      "set": "2018"
+    }
+  },
+  "release": [
+    "sicario15",
+    "sicarioday18"
+  ],
+  "chrono": [
+    "sicario15",
+    "sicarioday18"
+  ],
+  "note": "Day of the Soldado follows the supporting characters rather than the first film's protagonist, so it works as its own story."
+}

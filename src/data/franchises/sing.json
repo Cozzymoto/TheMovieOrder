@@ -1,0 +1,26 @@
+{
+  "title": "Sing",
+  "short": "Two films",
+  "hue": 290,
+  "blurb": "A theatre-owning koala who stages a singing competition to save his venue.",
+  "films": {
+    "sing16": {
+      "t": "Sing",
+      "y": 2016,
+      "set": "—"
+    },
+    "sing221": {
+      "t": "Sing 2",
+      "y": 2021,
+      "set": "—"
+    }
+  },
+  "release": [
+    "sing16",
+    "sing221"
+  ],
+  "chrono": [
+    "sing16",
+    "sing221"
+  ]
+}

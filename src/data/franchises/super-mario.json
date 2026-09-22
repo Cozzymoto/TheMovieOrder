@@ -1,0 +1,27 @@
+{
+  "title": "Super Mario",
+  "short": "The animated films",
+  "hue": 4,
+  "blurb": "Nintendo's plumber in animated form.",
+  "films": {
+    "thesuper23": {
+      "t": "The Super Mario Bros. Movie",
+      "y": 2023,
+      "set": "—"
+    },
+    "thesuper26": {
+      "t": "The Super Mario Galaxy Movie",
+      "y": 2026,
+      "set": "—"
+    }
+  },
+  "release": [
+    "thesuper23",
+    "thesuper26"
+  ],
+  "chrono": [
+    "thesuper23",
+    "thesuper26"
+  ],
+  "note": "The 1993 live-action Super Mario Bros. is an unrelated earlier attempt."
+}

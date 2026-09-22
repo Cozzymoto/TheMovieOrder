@@ -1,0 +1,26 @@
+{
+  "title": "Wayne's World",
+  "short": "Two films",
+  "hue": 330,
+  "blurb": "A public-access TV show broadcast from a basement, spun out of a sketch.",
+  "films": {
+    "waynesworld92": {
+      "t": "Wayne's World",
+      "y": 1992,
+      "set": "1992"
+    },
+    "waynesworld93": {
+      "t": "Wayne's World 2",
+      "y": 1993,
+      "set": "1993"
+    }
+  },
+  "release": [
+    "waynesworld92",
+    "waynesworld93"
+  ],
+  "chrono": [
+    "waynesworld92",
+    "waynesworld93"
+  ]
+}

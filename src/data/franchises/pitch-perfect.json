@@ -1,0 +1,33 @@
+{
+  "title": "Pitch Perfect",
+  "short": "Three films",
+  "hue": 340,
+  "blurb": "A university a cappella group followed from auditions to life after graduation.",
+  "films": {
+    "pitchperfect12": {
+      "t": "Pitch Perfect",
+      "y": 2012,
+      "set": "2012"
+    },
+    "pitchperfect15": {
+      "t": "Pitch Perfect 2",
+      "y": 2015,
+      "set": "2015"
+    },
+    "pitchperfect17": {
+      "t": "Pitch Perfect 3",
+      "y": 2017,
+      "set": "2017"
+    }
+  },
+  "release": [
+    "pitchperfect12",
+    "pitchperfect15",
+    "pitchperfect17"
+  ],
+  "chrono": [
+    "pitchperfect12",
+    "pitchperfect15",
+    "pitchperfect17"
+  ]
+}

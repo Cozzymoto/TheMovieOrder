@@ -1,0 +1,27 @@
+{
+  "title": "Spider-Verse",
+  "short": "The animated Miles Morales films",
+  "hue": 330,
+  "blurb": "An animated series about a different Spider-Man, which turns the idea of multiple Spider-Men into its whole premise.",
+  "films": {
+    "spiderman18": {
+      "t": "Spider-Man: Into the Spider-Verse",
+      "y": 2018,
+      "set": "—"
+    },
+    "spiderman23": {
+      "t": "Spider-Man: Across the Spider-Verse",
+      "y": 2023,
+      "set": "—"
+    }
+  },
+  "release": [
+    "spiderman18",
+    "spiderman23"
+  ],
+  "chrono": [
+    "spiderman18",
+    "spiderman23"
+  ],
+  "note": "Across the Spider-Verse ends on a cliffhanger and is the first half of a two-part story."
+}

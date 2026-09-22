@@ -1,0 +1,26 @@
+{
+  "title": "Sinister",
+  "short": "Two films",
+  "hue": 20,
+  "blurb": "A true-crime writer's discovery, and a sequel following what it left behind.",
+  "films": {
+    "sinister12": {
+      "t": "Sinister",
+      "y": 2012,
+      "set": "2012"
+    },
+    "sinister215": {
+      "t": "Sinister 2",
+      "y": 2015,
+      "set": "2015"
+    }
+  },
+  "release": [
+    "sinister12",
+    "sinister215"
+  ],
+  "chrono": [
+    "sinister12",
+    "sinister215"
+  ]
+}

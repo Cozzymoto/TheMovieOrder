@@ -1,0 +1,27 @@
+{
+  "title": "Wicked",
+  "short": "Two films",
+  "hue": 130,
+  "blurb": "The musical's story told across two films — the untold history of the witches of Oz.",
+  "films": {
+    "wicked24": {
+      "t": "Wicked",
+      "y": 2024,
+      "set": "—"
+    },
+    "wickedfor25": {
+      "t": "Wicked: For Good",
+      "y": 2025,
+      "set": "—"
+    }
+  },
+  "release": [
+    "wicked24",
+    "wickedfor25"
+  ],
+  "chrono": [
+    "wicked24",
+    "wickedfor25"
+  ],
+  "note": "Wicked is a prequel to The Wizard of Oz (1939), and the second part runs alongside it."
+}

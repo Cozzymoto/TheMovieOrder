@@ -1,0 +1,33 @@
+{
+  "title": "The Equalizer",
+  "short": "Three films",
+  "hue": 210,
+  "blurb": "Three films about a retired operative who can't stop intervening, each in a different city.",
+  "films": {
+    "theequalizer14": {
+      "t": "The Equalizer",
+      "y": 2014,
+      "set": "2014"
+    },
+    "theequalizer18": {
+      "t": "The Equalizer 2",
+      "y": 2018,
+      "set": "2018"
+    },
+    "theequalizer23": {
+      "t": "The Equalizer 3",
+      "y": 2023,
+      "set": "2023"
+    }
+  },
+  "release": [
+    "theequalizer14",
+    "theequalizer18",
+    "theequalizer23"
+  ],
+  "chrono": [
+    "theequalizer14",
+    "theequalizer18",
+    "theequalizer23"
+  ]
+}

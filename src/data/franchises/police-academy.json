@@ -1,0 +1,61 @@
+{
+  "title": "Police Academy",
+  "short": "Seven films",
+  "hue": 210,
+  "blurb": "Seven films in ten years following the same misfit recruits long after they graduate.",
+  "films": {
+    "policeacademy84": {
+      "t": "Police Academy",
+      "y": 1984,
+      "set": "1984"
+    },
+    "policeacademy85": {
+      "t": "Police Academy 2: Their First Assignment",
+      "y": 1985,
+      "set": "1985"
+    },
+    "policeacademy86": {
+      "t": "Police Academy 3: Back in Training",
+      "y": 1986,
+      "set": "1986"
+    },
+    "policeacademy87": {
+      "t": "Police Academy 4: Citizens on Patrol",
+      "y": 1987,
+      "set": "1987"
+    },
+    "policeacademy88": {
+      "t": "Police Academy 5: Assignment Miami Beach",
+      "y": 1988,
+      "set": "1988"
+    },
+    "policeacademy89": {
+      "t": "Police Academy 6: City Under Siege",
+      "y": 1989,
+      "set": "1989"
+    },
+    "policeacademy94": {
+      "t": "Police Academy: Mission to Moscow",
+      "y": 1994,
+      "set": "1994"
+    }
+  },
+  "release": [
+    "policeacademy84",
+    "policeacademy85",
+    "policeacademy86",
+    "policeacademy87",
+    "policeacademy88",
+    "policeacademy89",
+    "policeacademy94"
+  ],
+  "chrono": [
+    "policeacademy84",
+    "policeacademy85",
+    "policeacademy86",
+    "policeacademy87",
+    "policeacademy88",
+    "policeacademy89",
+    "policeacademy94"
+  ]
+}

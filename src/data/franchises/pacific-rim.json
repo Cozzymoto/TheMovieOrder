@@ -1,0 +1,26 @@
+{
+  "title": "Pacific Rim",
+  "short": "Two films",
+  "hue": 196,
+  "blurb": "Giant robots against giant monsters, with a ten-year jump between the two films.",
+  "films": {
+    "pacificrim13": {
+      "t": "Pacific Rim",
+      "y": 2013,
+      "set": "2020–2025"
+    },
+    "pacificrim18": {
+      "t": "Pacific Rim Uprising",
+      "y": 2018,
+      "set": "2035"
+    }
+  },
+  "release": [
+    "pacificrim13",
+    "pacificrim18"
+  ],
+  "chrono": [
+    "pacificrim13",
+    "pacificrim18"
+  ]
+}

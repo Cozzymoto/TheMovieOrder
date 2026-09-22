@@ -1,0 +1,55 @@
+{
+  "title": "Superman",
+  "short": "The Reeve films, Returns and the 2025 reboot",
+  "hue": 0,
+  "blurb": "Four films with Christopher Reeve, a 2006 film that pretends two of them never happened, and a fresh start in 2025.",
+  "films": {
+    "superman78": {
+      "t": "Superman",
+      "y": 1978,
+      "set": "—"
+    },
+    "supermanii80": {
+      "t": "Superman II",
+      "y": 1980,
+      "set": "—"
+    },
+    "supermaniii83": {
+      "t": "Superman III",
+      "y": 1983,
+      "set": "—"
+    },
+    "supermaniv87": {
+      "t": "Superman IV: The Quest for Peace",
+      "y": 1987,
+      "set": "—"
+    },
+    "supermanreturns06": {
+      "t": "Superman Returns",
+      "y": 2006,
+      "set": "—"
+    },
+    "superman25": {
+      "t": "Superman",
+      "y": 2025,
+      "set": "—"
+    }
+  },
+  "release": [
+    "superman78",
+    "supermanii80",
+    "supermaniii83",
+    "supermaniv87",
+    "supermanreturns06",
+    "superman25"
+  ],
+  "chrono": [
+    "superman78",
+    "supermanii80",
+    "supermaniii83",
+    "supermaniv87",
+    "supermanreturns06",
+    "superman25"
+  ],
+  "note": "Superman Returns is a sequel to Superman II and ignores the third and fourth films. The 2025 film begins a new continuity. Henry Cavill's Superman is on the DC Extended Universe page."
+}

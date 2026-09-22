@@ -1,0 +1,40 @@
+{
+  "title": "The Expendables",
+  "short": "Four films",
+  "hue": 24,
+  "blurb": "An ensemble series that gathers action stars from across four decades into one team.",
+  "films": {
+    "theexpendables10": {
+      "t": "The Expendables",
+      "y": 2010,
+      "set": "2010"
+    },
+    "theexpendables12": {
+      "t": "The Expendables 2",
+      "y": 2012,
+      "set": "2012"
+    },
+    "theexpendables14": {
+      "t": "The Expendables 3",
+      "y": 2014,
+      "set": "2014"
+    },
+    "expend4bles23": {
+      "t": "Expend4bles",
+      "y": 2023,
+      "set": "2023"
+    }
+  },
+  "release": [
+    "theexpendables10",
+    "theexpendables12",
+    "theexpendables14",
+    "expend4bles23"
+  ],
+  "chrono": [
+    "theexpendables10",
+    "theexpendables12",
+    "theexpendables14",
+    "expend4bles23"
+  ]
+}

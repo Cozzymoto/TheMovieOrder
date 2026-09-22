@@ -1,0 +1,27 @@
+{
+  "title": "The Fugitive",
+  "short": "Two films",
+  "hue": 206,
+  "blurb": "A man wrongly convicted on the run, and a follow-up centred on the marshal who chased him.",
+  "films": {
+    "thefugitive93": {
+      "t": "The Fugitive",
+      "y": 1993,
+      "set": "1993"
+    },
+    "us98": {
+      "t": "U.S. Marshals",
+      "y": 1998,
+      "set": "1998"
+    }
+  },
+  "release": [
+    "thefugitive93",
+    "us98"
+  ],
+  "chrono": [
+    "thefugitive93",
+    "us98"
+  ],
+  "note": "U.S. Marshals follows Tommy Lee Jones's character, not Harrison Ford's, and works on its own."
+}

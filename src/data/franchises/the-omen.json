@@ -1,0 +1,48 @@
+{
+  "title": "The Omen",
+  "short": "Five films including The First Omen",
+  "hue": 4,
+  "blurb": "A 1970s trilogy following one child into adulthood, a 2006 remake, and a 2024 prequel showing how he came to exist.",
+  "films": {
+    "theomen76": {
+      "t": "The Omen",
+      "y": 1976,
+      "set": "1976"
+    },
+    "damienomen78": {
+      "t": "Damien: Omen II",
+      "y": 1978,
+      "set": "1978"
+    },
+    "omeniii81": {
+      "t": "Omen III: The Final Conflict",
+      "y": 1981,
+      "set": "1981"
+    },
+    "theomen06": {
+      "t": "The Omen",
+      "y": 2006,
+      "set": "2006"
+    },
+    "thefirst24": {
+      "t": "The First Omen",
+      "y": 2024,
+      "set": "1971"
+    }
+  },
+  "release": [
+    "theomen76",
+    "damienomen78",
+    "omeniii81",
+    "theomen06",
+    "thefirst24"
+  ],
+  "chrono": [
+    "thefirst24",
+    "theomen76",
+    "damienomen78",
+    "omeniii81",
+    "theomen06"
+  ],
+  "note": "The First Omen leads directly into the 1976 film. The 2006 version is a near shot-for-shot remake and adds nothing new to the story."
+}

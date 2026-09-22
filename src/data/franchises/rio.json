@@ -1,0 +1,26 @@
+{
+  "title": "Rio",
+  "short": "Two films",
+  "hue": 160,
+  "blurb": "A domesticated macaw flown to Brazil, and a sequel in the Amazon.",
+  "films": {
+    "rio11": {
+      "t": "Rio",
+      "y": 2011,
+      "set": "—"
+    },
+    "rio214": {
+      "t": "Rio 2",
+      "y": 2014,
+      "set": "—"
+    }
+  },
+  "release": [
+    "rio11",
+    "rio214"
+  ],
+  "chrono": [
+    "rio11",
+    "rio214"
+  ]
+}

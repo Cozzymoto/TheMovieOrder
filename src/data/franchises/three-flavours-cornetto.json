@@ -1,0 +1,34 @@
+{
+  "title": "Three Flavours Cornetto",
+  "short": "Shaun of the Dead, Hot Fuzz, The World's End",
+  "hue": 8,
+  "blurb": "Three British comedies by the same director and stars that share themes and running jokes rather than a story.",
+  "films": {
+    "shaunof04": {
+      "t": "Shaun of the Dead",
+      "y": 2004,
+      "set": "2004"
+    },
+    "hotfuzz07": {
+      "t": "Hot Fuzz",
+      "y": 2007,
+      "set": "2007"
+    },
+    "theworlds13": {
+      "t": "The World's End",
+      "y": 2013,
+      "set": "2013"
+    }
+  },
+  "release": [
+    "shaunof04",
+    "hotfuzz07",
+    "theworlds13"
+  ],
+  "chrono": [
+    "shaunof04",
+    "hotfuzz07",
+    "theworlds13"
+  ],
+  "note": "There's no shared plot, so they work in any order. Release order lets you catch the callbacks."
+}

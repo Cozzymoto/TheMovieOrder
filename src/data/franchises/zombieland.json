@@ -1,0 +1,26 @@
+{
+  "title": "Zombieland",
+  "short": "Two films",
+  "hue": 30,
+  "blurb": "A zombie road trip governed by survival rules, and a sequel set ten years later.",
+  "films": {
+    "zombieland09": {
+      "t": "Zombieland",
+      "y": 2009,
+      "set": "2009"
+    },
+    "zombielanddouble19": {
+      "t": "Zombieland: Double Tap",
+      "y": 2019,
+      "set": "2019"
+    }
+  },
+  "release": [
+    "zombieland09",
+    "zombielanddouble19"
+  ],
+  "chrono": [
+    "zombieland09",
+    "zombielanddouble19"
+  ]
+}

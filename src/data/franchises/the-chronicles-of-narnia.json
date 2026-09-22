@@ -1,0 +1,34 @@
+{
+  "title": "The Chronicles of Narnia",
+  "short": "Three films",
+  "hue": 40,
+  "blurb": "Three of the seven books adapted, before the series stopped.",
+  "films": {
+    "thechronicles05": {
+      "t": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      "y": 2005,
+      "set": "1940"
+    },
+    "thechronicles08": {
+      "t": "The Chronicles of Narnia: Prince Caspian",
+      "y": 2008,
+      "set": "1941"
+    },
+    "thechronicles10": {
+      "t": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
+      "y": 2010,
+      "set": "1942"
+    }
+  },
+  "release": [
+    "thechronicles05",
+    "thechronicles08",
+    "thechronicles10"
+  ],
+  "chrono": [
+    "thechronicles05",
+    "thechronicles08",
+    "thechronicles10"
+  ],
+  "note": "The books have their own chronological order, which starts with The Magician's Nephew — but that was never filmed. For the films, release order is the only order."
+}

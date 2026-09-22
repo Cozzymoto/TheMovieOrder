@@ -1,0 +1,27 @@
+{
+  "title": "The Raid",
+  "short": "Two films",
+  "hue": 4,
+  "blurb": "An Indonesian action film set in a single tower block, and a sequel that expands into a crime epic.",
+  "films": {
+    "theraid11": {
+      "t": "The Raid",
+      "y": 2011,
+      "set": "2011"
+    },
+    "theraid14": {
+      "t": "The Raid 2",
+      "y": 2014,
+      "set": "2014"
+    }
+  },
+  "release": [
+    "theraid11",
+    "theraid14"
+  ],
+  "chrono": [
+    "theraid11",
+    "theraid14"
+  ],
+  "note": "The Raid 2 begins hours after the first film. In the US the original was released as The Raid: Redemption."
+}

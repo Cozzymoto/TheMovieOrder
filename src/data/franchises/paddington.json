@@ -1,0 +1,34 @@
+{
+  "title": "Paddington",
+  "short": "Three films",
+  "hue": 20,
+  "blurb": "A bear from Peru who arrives in London with a label round his neck, and never really leaves.",
+  "films": {
+    "paddington14": {
+      "t": "Paddington",
+      "y": 2014,
+      "set": "2014"
+    },
+    "paddington217": {
+      "t": "Paddington 2",
+      "y": 2017,
+      "set": "2017"
+    },
+    "paddingtonin24": {
+      "t": "Paddington in Peru",
+      "y": 2024,
+      "set": "2024"
+    }
+  },
+  "release": [
+    "paddington14",
+    "paddington217",
+    "paddingtonin24"
+  ],
+  "chrono": [
+    "paddington14",
+    "paddington217",
+    "paddingtonin24"
+  ],
+  "note": "Paddington 2 is often cited as one of the best-reviewed films ever made, and it rewards having seen the first."
+}

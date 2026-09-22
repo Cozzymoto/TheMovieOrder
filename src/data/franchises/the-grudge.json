@@ -1,0 +1,41 @@
+{
+  "title": "The Grudge",
+  "short": "Four American films",
+  "hue": 270,
+  "blurb": "American versions of a Japanese curse story, with a 2020 entry that runs alongside the first film rather than after it.",
+  "films": {
+    "thegrudge04": {
+      "t": "The Grudge",
+      "y": 2004,
+      "set": "2004"
+    },
+    "thegrudge06": {
+      "t": "The Grudge 2",
+      "y": 2006,
+      "set": "2006"
+    },
+    "thegrudge09": {
+      "t": "The Grudge 3",
+      "y": 2009,
+      "set": "2009"
+    },
+    "thegrudge20": {
+      "t": "The Grudge",
+      "y": 2020,
+      "set": "2004–2006"
+    }
+  },
+  "release": [
+    "thegrudge04",
+    "thegrudge06",
+    "thegrudge09",
+    "thegrudge20"
+  ],
+  "chrono": [
+    "thegrudge04",
+    "thegrudge06",
+    "thegrudge09",
+    "thegrudge20"
+  ],
+  "note": "The 2020 film's timeline overlaps with the 2004 original, spreading the same curse to a different house."
+}

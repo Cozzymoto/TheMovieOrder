@@ -1,0 +1,34 @@
+{
+  "title": "Terrifier",
+  "short": "Three films",
+  "hue": 2,
+  "blurb": "A low-budget slasher series about a silent clown that became a word-of-mouth phenomenon.",
+  "films": {
+    "terrifier16": {
+      "t": "Terrifier",
+      "y": 2016,
+      "set": "2016"
+    },
+    "terrifier222": {
+      "t": "Terrifier 2",
+      "y": 2022,
+      "set": "2022"
+    },
+    "terrifier324": {
+      "t": "Terrifier 3",
+      "y": 2024,
+      "set": "2024"
+    }
+  },
+  "release": [
+    "terrifier16",
+    "terrifier222",
+    "terrifier324"
+  ],
+  "chrono": [
+    "terrifier16",
+    "terrifier222",
+    "terrifier324"
+  ],
+  "note": "Notoriously graphic, even by the standards of the genre."
+}

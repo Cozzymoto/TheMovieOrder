@@ -1,0 +1,33 @@
+{
+  "title": "The Hangover",
+  "short": "Three films",
+  "hue": 40,
+  "blurb": "Three disastrous nights out, each reconstructed after the fact from the wreckage.",
+  "films": {
+    "thehangover09": {
+      "t": "The Hangover",
+      "y": 2009,
+      "set": "2009"
+    },
+    "thehangover11": {
+      "t": "The Hangover Part II",
+      "y": 2011,
+      "set": "2011"
+    },
+    "thehangover13": {
+      "t": "The Hangover Part III",
+      "y": 2013,
+      "set": "2013"
+    }
+  },
+  "release": [
+    "thehangover09",
+    "thehangover11",
+    "thehangover13"
+  ],
+  "chrono": [
+    "thehangover09",
+    "thehangover11",
+    "thehangover13"
+  ]
+}

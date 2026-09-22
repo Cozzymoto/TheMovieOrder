@@ -1,0 +1,26 @@
+{
+  "title": "Sherlock Holmes",
+  "short": "The Guy Ritchie films",
+  "hue": 34,
+  "blurb": "Two Victorian action-mysteries that treat Holmes as a brawler as much as a detective.",
+  "films": {
+    "sherlockholmes09": {
+      "t": "Sherlock Holmes",
+      "y": 2009,
+      "set": "1890"
+    },
+    "sherlockholmes11": {
+      "t": "Sherlock Holmes: A Game of Shadows",
+      "y": 2011,
+      "set": "1891"
+    }
+  },
+  "release": [
+    "sherlockholmes09",
+    "sherlockholmes11"
+  ],
+  "chrono": [
+    "sherlockholmes09",
+    "sherlockholmes11"
+  ]
+}

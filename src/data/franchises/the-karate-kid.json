@@ -1,0 +1,55 @@
+{
+  "title": "The Karate Kid",
+  "short": "Six films",
+  "hue": 4,
+  "blurb": "Four original films, a 2010 remake set in Beijing, and a 2025 film that brings both together.",
+  "films": {
+    "thekarate84": {
+      "t": "The Karate Kid",
+      "y": 1984,
+      "set": "1984"
+    },
+    "thekarate86": {
+      "t": "The Karate Kid Part II",
+      "y": 1986,
+      "set": "1986"
+    },
+    "thekarate89": {
+      "t": "The Karate Kid Part III",
+      "y": 1989,
+      "set": "1989"
+    },
+    "thenext94": {
+      "t": "The Next Karate Kid",
+      "y": 1994,
+      "set": "1994"
+    },
+    "thekarate10": {
+      "t": "The Karate Kid",
+      "y": 2010,
+      "set": "2010"
+    },
+    "karatekid25": {
+      "t": "Karate Kid: Legends",
+      "y": 2025,
+      "set": "2025"
+    }
+  },
+  "release": [
+    "thekarate84",
+    "thekarate86",
+    "thekarate89",
+    "thenext94",
+    "thekarate10",
+    "karatekid25"
+  ],
+  "chrono": [
+    "thekarate84",
+    "thekarate86",
+    "thekarate89",
+    "thenext94",
+    "thekarate10",
+    "karatekid25"
+  ],
+  "note": "Part II begins immediately after the first film. The story continues in the television series Cobra Kai, which Legends acknowledges."
+}

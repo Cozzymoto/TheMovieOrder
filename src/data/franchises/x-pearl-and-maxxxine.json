@@ -1,0 +1,34 @@
+{
+  "title": "X, Pearl & MaXXXine",
+  "short": "Three films, one a prequel",
+  "hue": 340,
+  "blurb": "A horror trilogy where the middle film released first and the prequel arrived the same year.",
+  "films": {
+    "x22": {
+      "t": "X",
+      "y": 2022,
+      "set": "1979"
+    },
+    "pearl22": {
+      "t": "Pearl",
+      "y": 2022,
+      "set": "1918"
+    },
+    "maxxxine24": {
+      "t": "MaXXXine",
+      "y": 2024,
+      "set": "1985"
+    }
+  },
+  "release": [
+    "x22",
+    "pearl22",
+    "maxxxine24"
+  ],
+  "chrono": [
+    "pearl22",
+    "x22",
+    "maxxxine24"
+  ],
+  "note": "Pearl was shot back to back with X and released months later. It tells the origin of X's villain and works well either before or after."
+}

@@ -1,0 +1,26 @@
+{
+  "title": "The Croods",
+  "short": "Two films",
+  "hue": 26,
+  "blurb": "A prehistoric family forced out of their cave and into a world changing faster than they can.",
+  "films": {
+    "thecroods13": {
+      "t": "The Croods",
+      "y": 2013,
+      "set": "—"
+    },
+    "thecroods20": {
+      "t": "The Croods: A New Age",
+      "y": 2020,
+      "set": "—"
+    }
+  },
+  "release": [
+    "thecroods13",
+    "thecroods20"
+  ],
+  "chrono": [
+    "thecroods13",
+    "thecroods20"
+  ]
+}

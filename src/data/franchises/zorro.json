@@ -1,0 +1,26 @@
+{
+  "title": "Zorro",
+  "short": "Two films",
+  "hue": 10,
+  "blurb": "A masked hero passing the role to a successor, then having to live with his choice.",
+  "films": {
+    "themask98": {
+      "t": "The Mask of Zorro",
+      "y": 1998,
+      "set": "1821"
+    },
+    "thelegend05": {
+      "t": "The Legend of Zorro",
+      "y": 2005,
+      "set": "1850"
+    }
+  },
+  "release": [
+    "themask98",
+    "thelegend05"
+  ],
+  "chrono": [
+    "themask98",
+    "thelegend05"
+  ]
+}

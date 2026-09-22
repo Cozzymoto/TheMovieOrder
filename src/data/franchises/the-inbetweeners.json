@@ -1,0 +1,27 @@
+{
+  "title": "The Inbetweeners",
+  "short": "Two films",
+  "hue": 200,
+  "blurb": "Two films following four school friends from the television series — first to Malia, then to Australia.",
+  "films": {
+    "theinbetweeners11": {
+      "t": "The Inbetweeners Movie",
+      "y": 2011,
+      "set": "2011"
+    },
+    "theinbetweeners14": {
+      "t": "The Inbetweeners 2",
+      "y": 2014,
+      "set": "2014"
+    }
+  },
+  "release": [
+    "theinbetweeners11",
+    "theinbetweeners14"
+  ],
+  "chrono": [
+    "theinbetweeners11",
+    "theinbetweeners14"
+  ],
+  "note": "Both continue on from the television series, which is worth watching first."
+}

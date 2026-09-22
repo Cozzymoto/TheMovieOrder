@@ -1,0 +1,27 @@
+{
+  "title": "The Incredibles",
+  "short": "Two films, fourteen years apart",
+  "hue": 14,
+  "blurb": "Two films released fourteen years apart, with the second picking up the moment the first ends.",
+  "films": {
+    "theincredibles04": {
+      "t": "The Incredibles",
+      "y": 2004,
+      "set": "—"
+    },
+    "incredibles218": {
+      "t": "Incredibles 2",
+      "y": 2018,
+      "set": "—"
+    }
+  },
+  "release": [
+    "theincredibles04",
+    "incredibles218"
+  ],
+  "chrono": [
+    "theincredibles04",
+    "incredibles218"
+  ],
+  "note": "Despite the gap in release, no time passes between them — Incredibles 2 opens mid-scene from the first film's final minute."
+}

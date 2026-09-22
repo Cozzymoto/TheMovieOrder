@@ -1,0 +1,48 @@
+{
+  "title": "Spy Kids",
+  "short": "Five films",
+  "hue": 200,
+  "blurb": "Two children who discover their parents are spies, followed by sequels and a 2023 reboot.",
+  "films": {
+    "spykids01": {
+      "t": "Spy Kids",
+      "y": 2001,
+      "set": "2001"
+    },
+    "spykids02": {
+      "t": "Spy Kids 2: The Island of Lost Dreams",
+      "y": 2002,
+      "set": "2002"
+    },
+    "spykids03": {
+      "t": "Spy Kids 3-D: Game Over",
+      "y": 2003,
+      "set": "2003"
+    },
+    "spykids11": {
+      "t": "Spy Kids: All the Time in the World",
+      "y": 2011,
+      "set": "2011"
+    },
+    "spykids23": {
+      "t": "Spy Kids: Armageddon",
+      "y": 2023,
+      "set": "2023"
+    }
+  },
+  "release": [
+    "spykids01",
+    "spykids02",
+    "spykids03",
+    "spykids11",
+    "spykids23"
+  ],
+  "chrono": [
+    "spykids01",
+    "spykids02",
+    "spykids03",
+    "spykids11",
+    "spykids23"
+  ],
+  "note": "Armageddon is a reboot with a new family."
+}

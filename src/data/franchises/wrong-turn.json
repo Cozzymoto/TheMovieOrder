@@ -1,0 +1,55 @@
+{
+  "title": "Wrong Turn",
+  "short": "Six films, with a prequel in the middle",
+  "hue": 96,
+  "blurb": "A backwoods horror series whose fourth film goes back to the 1970s to explain its killers.",
+  "films": {
+    "wrongturn03": {
+      "t": "Wrong Turn",
+      "y": 2003,
+      "set": "2003"
+    },
+    "wrongturn07": {
+      "t": "Wrong Turn 2: Dead End",
+      "y": 2007,
+      "set": "2007"
+    },
+    "wrongturn09": {
+      "t": "Wrong Turn 3: Left for Dead",
+      "y": 2009,
+      "set": "2009"
+    },
+    "wrongturn11": {
+      "t": "Wrong Turn 4: Bloody Beginnings",
+      "y": 2011,
+      "set": "1974 & 2003"
+    },
+    "wrongturn12": {
+      "t": "Wrong Turn 5: Bloodlines",
+      "y": 2012,
+      "set": "2012"
+    },
+    "wrongturn21": {
+      "t": "Wrong Turn",
+      "y": 2021,
+      "set": "2021"
+    }
+  },
+  "release": [
+    "wrongturn03",
+    "wrongturn07",
+    "wrongturn09",
+    "wrongturn11",
+    "wrongturn12",
+    "wrongturn21"
+  ],
+  "chrono": [
+    "wrongturn11",
+    "wrongturn03",
+    "wrongturn07",
+    "wrongturn09",
+    "wrongturn12",
+    "wrongturn21"
+  ],
+  "note": "The series never kept a consistent timeline, and the fifth film contradicts earlier ones. Bloody Beginnings is the only entry with a clear place at the start. The 2021 film is an unrelated reboot."
+}

@@ -1,0 +1,34 @@
+{
+  "title": "The Before Trilogy",
+  "short": "Before Sunrise, Sunset and Midnight",
+  "hue": 34,
+  "blurb": "Two people who meet on a train, followed across eighteen years in films made nine years apart — as the characters age, so do the actors.",
+  "films": {
+    "beforesunrise95": {
+      "t": "Before Sunrise",
+      "y": 1995,
+      "set": "1994"
+    },
+    "beforesunset04": {
+      "t": "Before Sunset",
+      "y": 2004,
+      "set": "2003"
+    },
+    "beforemidnight13": {
+      "t": "Before Midnight",
+      "y": 2013,
+      "set": "2012"
+    }
+  },
+  "release": [
+    "beforesunrise95",
+    "beforesunset04",
+    "beforemidnight13"
+  ],
+  "chrono": [
+    "beforesunrise95",
+    "beforesunset04",
+    "beforemidnight13"
+  ],
+  "note": "Each film is set roughly nine years after the last, matching the real gap between them."
+}

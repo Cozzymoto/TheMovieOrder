@@ -1,0 +1,33 @@
+{
+  "title": "Sonic the Hedgehog",
+  "short": "Three films",
+  "hue": 214,
+  "blurb": "Sega's speedster on Earth, gathering allies from the games as the series goes on.",
+  "films": {
+    "sonicthe20": {
+      "t": "Sonic the Hedgehog",
+      "y": 2020,
+      "set": "2020"
+    },
+    "sonicthe22": {
+      "t": "Sonic the Hedgehog 2",
+      "y": 2022,
+      "set": "2022"
+    },
+    "sonicthe24": {
+      "t": "Sonic the Hedgehog 3",
+      "y": 2024,
+      "set": "2024"
+    }
+  },
+  "release": [
+    "sonicthe20",
+    "sonicthe22",
+    "sonicthe24"
+  ],
+  "chrono": [
+    "sonicthe20",
+    "sonicthe22",
+    "sonicthe24"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Percy Jackson",
+  "short": "Two films",
+  "hue": 204,
+  "blurb": "A teenager who discovers his father is a Greek god.",
+  "films": {
+    "percyjackson10": {
+      "t": "Percy Jackson & the Olympians: The Lightning Thief",
+      "y": 2010,
+      "set": "2010"
+    },
+    "percyjackson13": {
+      "t": "Percy Jackson: Sea of Monsters",
+      "y": 2013,
+      "set": "2013"
+    }
+  },
+  "release": [
+    "percyjackson10",
+    "percyjackson13"
+  ],
+  "chrono": [
+    "percyjackson10",
+    "percyjackson13"
+  ],
+  "note": "The story was later restarted as a television series."
+}

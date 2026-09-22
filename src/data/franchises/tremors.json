@@ -1,0 +1,62 @@
+{
+  "title": "Tremors",
+  "short": "Seven films, one set in 1889",
+  "hue": 36,
+  "blurb": "A cult monster series that keeps going, with a fourth film that jumps back a century to show where it all began.",
+  "films": {
+    "tremors90": {
+      "t": "Tremors",
+      "y": 1990,
+      "set": "1990"
+    },
+    "tremors296": {
+      "t": "Tremors 2: Aftershocks",
+      "y": 1996,
+      "set": "1996"
+    },
+    "tremors301": {
+      "t": "Tremors 3: Back to Perfection",
+      "y": 2001,
+      "set": "2001"
+    },
+    "tremors404": {
+      "t": "Tremors 4: The Legend Begins",
+      "y": 2004,
+      "set": "1889"
+    },
+    "tremors515": {
+      "t": "Tremors 5: Bloodlines",
+      "y": 2015,
+      "set": "2015"
+    },
+    "tremorsa18": {
+      "t": "Tremors: A Cold Day in Hell",
+      "y": 2018,
+      "set": "2018"
+    },
+    "tremorsshrieker20": {
+      "t": "Tremors: Shrieker Island",
+      "y": 2020,
+      "set": "2020"
+    }
+  },
+  "release": [
+    "tremors90",
+    "tremors296",
+    "tremors301",
+    "tremors404",
+    "tremors515",
+    "tremorsa18",
+    "tremorsshrieker20"
+  ],
+  "chrono": [
+    "tremors404",
+    "tremors90",
+    "tremors296",
+    "tremors301",
+    "tremors515",
+    "tremorsa18",
+    "tremorsshrieker20"
+  ],
+  "note": "The Legend Begins follows the ancestor of a character from the main films. It works as a curiosity rather than an opener."
+}

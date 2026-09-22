@@ -1,0 +1,48 @@
+{
+  "title": "The Lion King",
+  "short": "Five films, two continuities",
+  "hue": 40,
+  "blurb": "The animated original with two follow-ups, plus the 2019 remake and a 2024 prequel to it.",
+  "films": {
+    "thelion94": {
+      "t": "The Lion King",
+      "y": 1994,
+      "set": "—"
+    },
+    "thelion98": {
+      "t": "The Lion King II: Simba's Pride",
+      "y": 1998,
+      "set": "—"
+    },
+    "thelion04": {
+      "t": "The Lion King 1½",
+      "y": 2004,
+      "set": "Before & during the original"
+    },
+    "thelion19": {
+      "t": "The Lion King",
+      "y": 2019,
+      "set": "—"
+    },
+    "mufasathe24": {
+      "t": "Mufasa: The Lion King",
+      "y": 2024,
+      "set": "Before the 2019 film"
+    }
+  },
+  "release": [
+    "thelion94",
+    "thelion98",
+    "thelion04",
+    "thelion19",
+    "mufasathe24"
+  ],
+  "chrono": [
+    "thelion04",
+    "thelion94",
+    "thelion98",
+    "mufasathe24",
+    "thelion19"
+  ],
+  "note": "The Lion King 1½ retells the original from Timon and Pumbaa's side, starting before it — in the UK it was released as The Lion King 3: Hakuna Matata. Mufasa is a prequel to the 2019 remake specifically."
+}

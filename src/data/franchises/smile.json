@@ -1,0 +1,26 @@
+{
+  "title": "Smile",
+  "short": "Two films",
+  "hue": 46,
+  "blurb": "A curse passed from person to person, and a sequel that follows it to a pop star.",
+  "films": {
+    "smile22": {
+      "t": "Smile",
+      "y": 2022,
+      "set": "2022"
+    },
+    "smile224": {
+      "t": "Smile 2",
+      "y": 2024,
+      "set": "2024"
+    }
+  },
+  "release": [
+    "smile22",
+    "smile224"
+  ],
+  "chrono": [
+    "smile22",
+    "smile224"
+  ]
+}

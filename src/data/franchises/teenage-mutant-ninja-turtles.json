@@ -1,0 +1,62 @@
+{
+  "title": "Teenage Mutant Ninja Turtles",
+  "short": "Seven films",
+  "hue": 104,
+  "blurb": "A live-action trilogy, an animated follow-up, two Michael Bay-produced films, and an animated reboot.",
+  "films": {
+    "teenagemutant90": {
+      "t": "Teenage Mutant Ninja Turtles",
+      "y": 1990,
+      "set": "—"
+    },
+    "teenagemutant91": {
+      "t": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
+      "y": 1991,
+      "set": "—"
+    },
+    "teenagemutant93": {
+      "t": "Teenage Mutant Ninja Turtles III",
+      "y": 1993,
+      "set": "—"
+    },
+    "tmnt07": {
+      "t": "TMNT",
+      "y": 2007,
+      "set": "—"
+    },
+    "teenagemutant14": {
+      "t": "Teenage Mutant Ninja Turtles",
+      "y": 2014,
+      "set": "—"
+    },
+    "teenagemutant16": {
+      "t": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+      "y": 2016,
+      "set": "—"
+    },
+    "teenagemutant23": {
+      "t": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+      "y": 2023,
+      "set": "—"
+    }
+  },
+  "release": [
+    "teenagemutant90",
+    "teenagemutant91",
+    "teenagemutant93",
+    "tmnt07",
+    "teenagemutant14",
+    "teenagemutant16",
+    "teenagemutant23"
+  ],
+  "chrono": [
+    "teenagemutant90",
+    "teenagemutant91",
+    "teenagemutant93",
+    "tmnt07",
+    "teenagemutant14",
+    "teenagemutant16",
+    "teenagemutant23"
+  ],
+  "note": "TMNT (2007) is loosely a continuation of the original trilogy. The 2014 and 2023 films are separate reboots."
+}

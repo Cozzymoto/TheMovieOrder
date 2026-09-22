@@ -1,0 +1,27 @@
+{
+  "title": "Zootropolis",
+  "short": "Two films",
+  "hue": 30,
+  "blurb": "A rabbit police officer and a fox con artist in a city built for animals.",
+  "films": {
+    "zootropolis16": {
+      "t": "Zootropolis",
+      "y": 2016,
+      "set": "—"
+    },
+    "zootropolis225": {
+      "t": "Zootropolis 2",
+      "y": 2025,
+      "set": "—"
+    }
+  },
+  "release": [
+    "zootropolis16",
+    "zootropolis225"
+  ],
+  "chrono": [
+    "zootropolis16",
+    "zootropolis225"
+  ],
+  "note": "Released in the US as Zootopia."
+}

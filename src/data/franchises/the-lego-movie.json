@@ -1,0 +1,41 @@
+{
+  "title": "The Lego Movie",
+  "short": "Four films",
+  "hue": 50,
+  "blurb": "Two main films and two spin-offs set in the same toy universe.",
+  "films": {
+    "thelego14": {
+      "t": "The Lego Movie",
+      "y": 2014,
+      "set": "—"
+    },
+    "thelego17": {
+      "t": "The Lego Batman Movie",
+      "y": 2017,
+      "set": "—"
+    },
+    "thelego17b": {
+      "t": "The Lego Ninjago Movie",
+      "y": 2017,
+      "set": "—"
+    },
+    "thelego19": {
+      "t": "The Lego Movie 2: The Second Part",
+      "y": 2019,
+      "set": "—"
+    }
+  },
+  "release": [
+    "thelego14",
+    "thelego17",
+    "thelego17b",
+    "thelego19"
+  ],
+  "chrono": [
+    "thelego14",
+    "thelego17",
+    "thelego17b",
+    "thelego19"
+  ],
+  "note": "The two spin-offs are standalone. The Second Part picks up directly from the first film's final scene."
+}
