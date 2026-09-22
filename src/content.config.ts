@@ -48,4 +48,16 @@ const franchises = defineCollection({
   })
 });
 
-export const collections = { franchises };
+/* Blog posts: one Markdown file each in src/data/posts/.
+   Set draft: true to hide a post without deleting it. */
+const posts = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/data/posts' }),
+  schema: z.object({
+    title: z.string().min(1),
+    date: z.coerce.date(),
+    standfirst: z.string().min(1),
+    draft: z.boolean().optional()
+  })
+});
+
+export const collections = { franchises, posts };

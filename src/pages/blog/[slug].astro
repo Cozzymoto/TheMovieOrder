@@ -1,19 +1,20 @@
 ---
+import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { POSTS } from '../../data/posts.js';
+import { allPosts, fmtDate, isoDate } from '../../lib/posts.js';
 
-export function getStaticPaths(){
-  return POSTS.map(p => ({ params: { slug: p.slug }, props: { p } }));
+export async function getStaticPaths(){
+  return (await allPosts()).map(p => ({ params: { slug: p.slug }, props: { p } }));
 }
 const { p } = Astro.props;
-const fmt = d => new Date(d + 'T00:00:00').toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' });
+const { Content } = await render(p.entry);
 
 const jsonld = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": p.title,
   "description": p.standfirst,
-  "datePublished": p.date,
+  "datePublished": isoDate(p.date),
   "publisher": { "@type": "Organization", "name": "Order of Movies" }
 };
 ---
@@ -21,10 +22,10 @@ const jsonld = {
   <div class="wrap">
     <nav class="crumb"><a href="/blog/">Blog</a> / {p.title}</nav>
     <article class="article">
-      <time datetime={p.date}>{fmt(p.date)}</time>
+      <time datetime={isoDate(p.date)}>{fmtDate(p.date)}</time>
       <h1>{p.title}</h1>
       <p style="color:var(--graphite);font-size:var(--step-2);line-height:1.45">{p.standfirst}</p>
-      {p.body.map(par => <p>{par}</p>)}
+      <Content />
     </article>
     <div class="slot" style="max-width:66ch"><b>In-article ad slot</b>300 × 250</div>
   </div>

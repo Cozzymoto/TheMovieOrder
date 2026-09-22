@@ -514,3 +514,16 @@ button{font:inherit;color:inherit}
 }
 .credit a{color:var(--graphite)}
 .credit a:hover{color:var(--red)}
+
+/* Trending: always one line. Wider screens show about six;
+   the rest are a swipe or scroll away rather than a second row. */
+.rail{
+  --g:clamp(1rem,2.5vw,1.75rem);
+  display:grid;grid-auto-flow:column;gap:var(--g);
+  grid-auto-columns:max(150px, calc((100% - 5 * var(--g)) / 6));
+  overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;
+  padding-bottom:.9rem;scrollbar-width:thin;scrollbar-color:var(--hairline) transparent;
+}
+.rail > *{scroll-snap-align:start}
+.rail::-webkit-scrollbar{height:6px}
+.rail::-webkit-scrollbar-thumb{background:var(--hairline);border-radius:999px}

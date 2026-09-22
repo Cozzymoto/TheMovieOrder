@@ -1,22 +1,23 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { POSTS } from '../../data/posts.js';
-const sorted = [...POSTS].sort((a,b) => b.date.localeCompare(a.date));
-const fmt = d => new Date(d + 'T00:00:00').toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' });
+import { allPosts, fmtDate, isoDate } from '../../lib/posts.js';
+const posts = await allPosts();
 ---
 <Base title="Blog" description="Arguments about watch orders, franchise timelines and which films you can safely skip.">
   <section class="section">
     <div class="wrap">
       <div class="section__head"><h2>Blog</h2></div>
-      <ul class="posts">
-        {sorted.map(p => (
-          <li><a class="post-link" href={`/blog/${p.slug}/`}>
-            <time datetime={p.date}>{fmt(p.date)}</time>
-            <h3>{p.title}</h3>
-            <p>{p.standfirst}</p>
-          </a></li>
-        ))}
-      </ul>
+      {posts.length ? (
+        <ul class="posts">
+          {posts.map(p => (
+            <li><a class="post-link" href={`/blog/${p.slug}/`}>
+              <time datetime={isoDate(p.date)}>{fmtDate(p.date)}</time>
+              <h3>{p.title}</h3>
+              <p>{p.standfirst}</p>
+            </a></li>
+          ))}
+        </ul>
+      ) : <p class="empty">No posts yet.</p>}
     </div>
   </section>
 </Base>

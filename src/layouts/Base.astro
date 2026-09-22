@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
-import { allFranchises } from '../lib/franchise.js';
-const popular = (await allFranchises()).slice(0, 4);
+import { trending } from '../lib/franchise.js';
+const popular = (await trending()).slice(0, 4);
 const {
   title,
   description = 'The right order to watch every film franchise. Release order or in-universe chronology, side by side.',
