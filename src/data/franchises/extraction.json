@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 38,
   "blurb": "A mercenary hired to rescue people from impossible places.",
+  "poster": "/nygOUcBKPHFTbxsYRFZVePqgPK6.jpg",
   "films": {
     "extraction20": {
       "t": "Extraction",
       "y": 2020,
-      "set": "2020"
+      "set": "2020",
+      "poster": "/nygOUcBKPHFTbxsYRFZVePqgPK6.jpg"
     },
     "extraction223": {
       "t": "Extraction 2",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/7gKI9hpEMcZUQpNgKrkDzJpbnNS.jpg"
     }
   },
   "release": [

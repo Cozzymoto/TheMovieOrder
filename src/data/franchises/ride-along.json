@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 214,
   "blurb": "A security guard trying to impress his girlfriend's brother, a hard-nosed detective.",
+  "poster": "/qrt65VVaP5DEEBZgB5XYctA82Qv.jpg",
   "films": {
     "ridealong14": {
       "t": "Ride Along",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/qrt65VVaP5DEEBZgB5XYctA82Qv.jpg"
     },
     "ridealong16": {
       "t": "Ride Along 2",
       "y": 2016,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/qKvVUHdiwqkXdlRsW4fHO7SAZef.jpg"
     }
   },
   "release": [

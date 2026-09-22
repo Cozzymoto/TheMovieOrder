@@ -3,31 +3,37 @@
   "short": "Five films including The Scorpion King",
   "hue": 40,
   "blurb": "Three adventure films, a spin-off set five thousand years earlier, and a 2017 reboot with no connection to any of them.",
+  "poster": "/yhIsVvcUm7QxzLfT6HW2wLf5ajY.jpg",
   "films": {
     "m99": {
       "t": "The Mummy",
       "y": 1999,
-      "set": "1926"
+      "set": "1926",
+      "poster": "/yhIsVvcUm7QxzLfT6HW2wLf5ajY.jpg"
     },
     "m01": {
       "t": "The Mummy Returns",
       "y": 2001,
-      "set": "1933"
+      "set": "1933",
+      "poster": "/kdJsW7hcy1lrj7tdMPycTAQPAiR.jpg"
     },
     "m02": {
       "t": "The Scorpion King",
       "y": 2002,
-      "set": "3067 BC"
+      "set": "3067 BC",
+      "poster": "/aITIsX20tACn6jgtyDcCYpRT216.jpg"
     },
     "m08": {
       "t": "The Mummy: Tomb of the Dragon Emperor",
       "y": 2008,
-      "set": "1946"
+      "set": "1946",
+      "poster": "/A3acM1lX5PNWQa6r5qeMAJOxbnT.jpg"
     },
     "m17": {
       "t": "The Mummy",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/zxkY8byBnCsXodEYpK8tmwEGXBI.jpg"
     }
   },
   "release": [

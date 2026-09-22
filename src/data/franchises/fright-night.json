@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 350,
   "blurb": "A teenager convinced his new neighbour is a vampire.",
+  "poster": "/euIh75MwNDrYkTEVSkw7VXWGXoE.jpg",
   "films": {
     "frightnight85": {
       "t": "Fright Night",
       "y": 1985,
-      "set": "1985"
+      "set": "1985",
+      "poster": "/euIh75MwNDrYkTEVSkw7VXWGXoE.jpg"
     },
     "frightnight88": {
       "t": "Fright Night Part 2",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/yvbRJTnZbGkGy2VHMfTTTFV8Io2.jpg"
     },
     "frightnight11": {
       "t": "Fright Night",
       "y": 2011,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/ySQ3v4Fzpy3fePs86eoLiDzwLYM.jpg"
     }
   },
   "release": [

@@ -3,41 +3,49 @@
   "short": "Seven films, two continuities",
   "hue": 132,
   "blurb": "Six films following Alice in a straight line, then a reboot that restarts from the games instead.",
+  "poster": "/1UKNef590A0ZaMnxsscIcWuK1Em.jpg",
   "films": {
     "r02": {
       "t": "Resident Evil",
       "y": 2002,
-      "set": "2002"
+      "set": "2002",
+      "poster": "/1UKNef590A0ZaMnxsscIcWuK1Em.jpg"
     },
     "r04": {
       "t": "Resident Evil: Apocalypse",
       "y": 2004,
-      "set": "2002"
+      "set": "2002",
+      "poster": "/way9dOm4dM2sm9UMcu2PEXMTX0q.jpg"
     },
     "r07": {
       "t": "Resident Evil: Extinction",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/6yaLr7Ymg5cvbtSVi5hHwBKx35I.jpg"
     },
     "r10": {
       "t": "Resident Evil: Afterlife",
       "y": 2010,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/qZHDnt8bnsD2cSJfIbjWbCkIq3G.jpg"
     },
     "r12": {
       "t": "Resident Evil: Retribution",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/ohdUDWVlcbuWphaLu6wS91xdJ73.jpg"
     },
     "r16": {
       "t": "Resident Evil: The Final Chapter",
       "y": 2016,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/7glPlA0xPpxPxBu0TnY4ulQVCV1.jpg"
     },
     "r21": {
       "t": "Resident Evil: Welcome to Raccoon City",
       "y": 2021,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/bArhvjRHl535XMaSh9VjInF2mSZ.jpg"
     }
   },
   "release": [

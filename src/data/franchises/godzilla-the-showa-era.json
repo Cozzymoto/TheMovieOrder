@@ -3,81 +3,97 @@
   "short": "Toho's first fifteen films",
   "hue": 148,
   "blurb": "The original Japanese Godzilla run, from a grave allegory in 1954 to monster wrestling by the 1970s.",
+  "poster": "/2W0Yw0qrgVMgdsSCZRKtfvaAh0i.jpg",
   "films": {
     "godzilla54": {
       "t": "Godzilla",
       "y": 1954,
-      "set": "1954"
+      "set": "1954",
+      "poster": "/2W0Yw0qrgVMgdsSCZRKtfvaAh0i.jpg"
     },
     "godzillaraids55": {
       "t": "Godzilla Raids Again",
       "y": 1955,
-      "set": "1955"
+      "set": "1955",
+      "poster": "/bBYdh9tDCyLaArBOzE38QCA7C3y.jpg"
     },
     "kingkong62": {
       "t": "King Kong vs. Godzilla",
       "y": 1962,
-      "set": "1962"
+      "set": "1962",
+      "poster": "/dmCfyzUl0Ylk8Rpi6dYyWuBrnNr.jpg"
     },
     "mothravs64": {
       "t": "Mothra vs. Godzilla",
       "y": 1964,
-      "set": "1964"
+      "set": "1964",
+      "poster": "/y49vvM03gpuyhpyMc1f55VrNkP3.jpg"
     },
     "ghidorahthe64": {
       "t": "Ghidorah, the Three-Headed Monster",
       "y": 1964,
-      "set": "1964"
+      "set": "1964",
+      "poster": "/qkI5nhvxx3233gQmoQvv0W3MB7A.jpg"
     },
     "invasionof65": {
       "t": "Invasion of Astro-Monster",
       "y": 1965,
-      "set": "1965"
+      "set": "1965",
+      "poster": "/70gwaushxXcpGRvadHtLD0YLHC1.jpg"
     },
     "ebirahhorror66": {
       "t": "Ebirah, Horror of the Deep",
       "y": 1966,
-      "set": "1966"
+      "set": "1966",
+      "poster": "/rYGsvMKjIBU5CAQrfHOv9xIfYhn.jpg"
     },
     "sonof67": {
       "t": "Son of Godzilla",
       "y": 1967,
-      "set": "1967"
+      "set": "1967",
+      "poster": "/ueVb71Om2KaDcbeSLA8IHQtJ7oJ.jpg"
     },
     "destroyall68": {
       "t": "Destroy All Monsters",
       "y": 1968,
-      "set": "1999"
+      "set": "1999",
+      "poster": "/24r1hsRisfUidwLF67J0iMuWh7p.jpg"
     },
     "allmonsters69": {
       "t": "All Monsters Attack",
       "y": 1969,
-      "set": "1969"
+      "set": "1969",
+      "poster": "/f0LQ38Z1eAM0Hz8EbfyTF0oZZYF.jpg"
     },
     "godzillavs71": {
       "t": "Godzilla vs. Hedorah",
       "y": 1971,
-      "set": "1971"
+      "set": "1971",
+      "poster": "/mWVRlVwWK3sUCGd9lzMMWUa7CBu.jpg"
     },
     "godzillavs72": {
       "t": "Godzilla vs. Gigan",
       "y": 1972,
-      "set": "1972"
+      "set": "1972",
+      "poster": "/pNQro37cFrg4Lfz5DUbRFZlMG3y.jpg"
     },
     "godzillavs73": {
       "t": "Godzilla vs. Megalon",
       "y": 1973,
-      "set": "1973"
+      "set": "1973",
+      "poster": "/au8CGZeCjgoxHe33gZWO0DDvndL.jpg"
     },
     "godzillavs74": {
       "t": "Godzilla vs. Mechagodzilla",
       "y": 1974,
-      "set": "1974"
+      "set": "1974",
+      "poster": "/ai92jga3nzkeWdPIeZBo6vyhUj5.jpg"
     },
     "terrorof75": {
       "t": "Terror of Mechagodzilla",
       "y": 1975,
-      "set": "1975"
+      "set": "1975",
+      "poster": "/kHBJNwdxTJ4ub01bWg6WFpS3WF2.jpg"
     }
   },
   "release": [

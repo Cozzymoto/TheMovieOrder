@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 20,
   "blurb": "A Mumbai cop chasing a different master thief in each film.",
+  "poster": "/A3GBoQROHP0WjU9RXzlDU0iG3be.jpg",
   "films": {
     "dhoom04": {
       "t": "Dhoom",
       "y": 2004,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/A3GBoQROHP0WjU9RXzlDU0iG3be.jpg"
     },
     "dhoom206": {
       "t": "Dhoom 2",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/3zJLnrP9g9LSMpX5C1wau49gGUv.jpg"
     },
     "dhoom313": {
       "t": "Dhoom 3",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/rUVTM5EQUQ2I0fcfE46AkvBYWae.jpg"
     }
   },
   "release": [

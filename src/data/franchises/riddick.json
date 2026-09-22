@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 172,
   "blurb": "A small, low-budget survival film that unexpectedly grew into a space opera and then shrank back again.",
+  "poster": "/3AnlxZ5CZnhKKzjgFyY6EHxmOyl.jpg",
   "films": {
     "r00": {
       "t": "Pitch Black",
       "y": 2000,
-      "set": "2000s"
+      "set": "2000s",
+      "poster": "/3AnlxZ5CZnhKKzjgFyY6EHxmOyl.jpg"
     },
     "r04": {
       "t": "The Chronicles of Riddick",
       "y": 2004,
-      "set": "5 years later"
+      "set": "5 years later",
+      "poster": "/bVO1r90diKfFLzvZ5D3qK6Z558O.jpg"
     },
     "r13": {
       "t": "Riddick",
       "y": 2013,
-      "set": "5 years later"
+      "set": "5 years later",
+      "poster": "/pUul9pGWOKT7X0smkTvsIEIQxcP.jpg"
     }
   },
   "release": [

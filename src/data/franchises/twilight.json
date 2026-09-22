@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 264,
   "blurb": "Five films from four books, with the last split in two — a straight run with no prequels or detours.",
+  "poster": "/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg",
   "films": {
     "t08": {
       "t": "Twilight",
       "y": 2008,
-      "set": "2005"
+      "set": "2005",
+      "poster": "/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg"
     },
     "t09": {
       "t": "The Twilight Saga: New Moon",
       "y": 2009,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/k2qTooPlHffgNABNWxeJdGMglPK.jpg"
     },
     "t10": {
       "t": "The Twilight Saga: Eclipse",
       "y": 2010,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/dK4Gi1UdMiHzHc7r7CZQG4IQ9Sr.jpg"
     },
     "t11": {
       "t": "The Twilight Saga: Breaking Dawn – Part 1",
       "y": 2011,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/qs8LsHKYlVRmJbFUiSUhhRAygwj.jpg"
     },
     "t12": {
       "t": "The Twilight Saga: Breaking Dawn – Part 2",
       "y": 2012,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/7IGdPaKujv0BjI0Zd0m0a4CzEjJ.jpg"
     }
   },
   "release": [

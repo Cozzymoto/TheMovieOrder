@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 0,
   "blurb": "Two unconnected attempts to adapt the video game assassin.",
+  "poster": "/h69UJOOKlrHcvhl5H2LY74N61DQ.jpg",
   "films": {
     "hitman07": {
       "t": "Hitman",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/h69UJOOKlrHcvhl5H2LY74N61DQ.jpg"
     },
     "hitmanagent15": {
       "t": "Hitman: Agent 47",
       "y": 2015,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/cx9AOBOv9Qf5ufZYQMbfTV7w7VY.jpg"
     }
   },
   "release": [

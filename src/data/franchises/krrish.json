@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 210,
   "blurb": "A superhero trilogy that begins as a science-fiction film with a different title.",
+  "poster": "/2iJVauDYcYxRRGciTmAOSjiATf9.jpg",
   "films": {
     "koimil03": {
       "t": "Koi... Mil Gaya",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/2iJVauDYcYxRRGciTmAOSjiATf9.jpg"
     },
     "krrish06": {
       "t": "Krrish",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/Apd4UKesyTmpDutEjNVHP45kvBi.jpg"
     },
     "krrish313": {
       "t": "Krrish 3",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/tuHHTj59CNXGhI9eRZM47aa3zuC.jpg"
     }
   },
   "release": [

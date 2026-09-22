@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 210,
   "blurb": "A French secret agent as confident as he is clueless, in affectionate 1950s and 60s pastiches.",
+  "poster": "/dDVHVZVEbTV4JsB8ZjdXNmMK7rA.jpg",
   "films": {
     "oss11706": {
       "t": "OSS 117: Cairo, Nest of Spies",
       "y": 2006,
-      "set": "1955"
+      "set": "1955",
+      "poster": "/dDVHVZVEbTV4JsB8ZjdXNmMK7rA.jpg"
     },
     "oss11709": {
       "t": "OSS 117: Lost in Rio",
       "y": 2009,
-      "set": "1967"
+      "set": "1967",
+      "poster": "/rhv06T3gTFOShIVkQ0UipZFIyDw.jpg"
     },
     "oss11721": {
       "t": "OSS 117: From Africa with Love",
       "y": 2021,
-      "set": "1981"
+      "set": "1981",
+      "poster": "/8KZun0DjBSVJtAEb7ytNKIKO0SL.jpg"
     }
   },
   "release": [

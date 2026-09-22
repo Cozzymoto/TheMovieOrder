@@ -3,16 +3,19 @@
   "short": "The two feature films",
   "hue": 44,
   "blurb": "The feature-length adventures of Aardman's inventor and his long-suffering dog.",
+  "poster": "/cMQ2lNd7sBe6PCf6zF5QxrKzbRG.jpg",
   "films": {
     "wallaceand05": {
       "t": "Wallace & Gromit: The Curse of the Were-Rabbit",
       "y": 2005,
-      "set": "—"
+      "set": "—",
+      "poster": "/cMQ2lNd7sBe6PCf6zF5QxrKzbRG.jpg"
     },
     "wallaceand24": {
       "t": "Wallace & Gromit: Vengeance Most Fowl",
       "y": 2024,
-      "set": "—"
+      "set": "—",
+      "poster": "/jUWFSBxTOiCinPdTOh3IDUXVemZ.jpg"
     }
   },
   "release": [

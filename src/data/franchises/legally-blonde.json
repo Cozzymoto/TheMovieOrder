@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 330,
   "blurb": "A sorority president who talks her way into Harvard Law, and then into Congress.",
+  "poster": "/9ohlMrJHQqKhfUKh7Zr3JQqHNLZ.jpg",
   "films": {
     "legallyblonde01": {
       "t": "Legally Blonde",
       "y": 2001,
-      "set": "2001"
+      "set": "2001",
+      "poster": "/9ohlMrJHQqKhfUKh7Zr3JQqHNLZ.jpg"
     },
     "legallyblonde03": {
       "t": "Legally Blonde 2: Red, White & Blonde",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/4kC0UGTuJgFnlZq2ZM6OiY7nuY8.jpg"
     }
   },
   "release": [

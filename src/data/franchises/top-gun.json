@@ -3,16 +3,19 @@
   "short": "Two films, thirty-six years apart",
   "hue": 198,
   "blurb": "A 1986 original and a sequel that waits until 2022 and makes the wait part of the story.",
+  "poster": "/xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg",
   "films": {
     "t86": {
       "t": "Top Gun",
       "y": 1986,
-      "set": "1986"
+      "set": "1986",
+      "poster": "/xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg"
     },
     "t22": {
       "t": "Top Gun: Maverick",
       "y": 2022,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/n0YuM4f5lvGAP6MAW2kBIzugXnc.jpg"
     }
   },
   "release": [

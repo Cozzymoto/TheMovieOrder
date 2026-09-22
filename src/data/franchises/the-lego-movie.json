@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 50,
   "blurb": "Two main films and two spin-offs set in the same toy universe.",
+  "poster": "/lbctonEnewCYZ4FYoTZhs8cidAl.jpg",
   "films": {
     "thelego14": {
       "t": "The Lego Movie",
       "y": 2014,
-      "set": "—"
+      "set": "—",
+      "poster": "/lbctonEnewCYZ4FYoTZhs8cidAl.jpg"
     },
     "thelego17": {
       "t": "The Lego Batman Movie",
       "y": 2017,
-      "set": "—"
+      "set": "—",
+      "poster": "/e1TliRWOdXQ73pRunbpFiGst6Kd.jpg"
     },
     "thelego17b": {
       "t": "The Lego Ninjago Movie",
       "y": 2017,
-      "set": "—"
+      "set": "—",
+      "poster": "/vUo0pNXGhp2ffTJxiStWt6fHL7F.jpg"
     },
     "thelego19": {
       "t": "The Lego Movie 2: The Second Part",
       "y": 2019,
-      "set": "—"
+      "set": "—",
+      "poster": "/QTESAsBVZwjtGJNDP7utiGV37z.jpg"
     }
   },
   "release": [

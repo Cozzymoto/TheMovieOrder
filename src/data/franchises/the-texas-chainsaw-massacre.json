@@ -3,51 +3,61 @@
   "short": "Nine films, three continuities",
   "hue": 34,
   "blurb": "Three separate attempts to continue the 1974 original, each ignoring the others. The 2017 prequel reaches back furthest.",
+  "poster": "/mpgkRPH1GNkMCgdPk2OMyHzAks7.jpg",
   "films": {
     "t74": {
       "t": "The Texas Chain Saw Massacre",
       "y": 1974,
-      "set": "1973"
+      "set": "1973",
+      "poster": "/mpgkRPH1GNkMCgdPk2OMyHzAks7.jpg"
     },
     "t86": {
       "t": "The Texas Chainsaw Massacre 2",
       "y": 1986,
-      "set": "1986"
+      "set": "1986",
+      "poster": "/cO1Dvg7k87lHSPOdumn3ddJEKdX.jpg"
     },
     "t90": {
       "t": "Leatherface: The Texas Chainsaw Massacre III",
       "y": 1990,
-      "set": "1990"
+      "set": "1990",
+      "poster": "/4Vhv0vRqirhvbudRcNctFgxoFtI.jpg"
     },
     "t95": {
       "t": "The Texas Chainsaw Massacre: The Next Generation",
       "y": 1995,
-      "set": "1995"
+      "set": "1995",
+      "poster": "/e1ikqofvLBddrZJ73IjmJWhUYus.jpg"
     },
     "t03": {
       "t": "The Texas Chainsaw Massacre",
       "y": 2003,
-      "set": "1973"
+      "set": "1973",
+      "poster": "/781px1eOtfVt1RdIsL4Dt1s3x7R.jpg"
     },
     "t06": {
       "t": "The Texas Chainsaw Massacre: The Beginning",
       "y": 2006,
-      "set": "1969"
+      "set": "1969",
+      "poster": "/hTBueN0Ru3R7brwtONenDyEMNYe.jpg"
     },
     "t13": {
       "t": "Texas Chainsaw 3D",
       "y": 2013,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/dwIQ7WDCSiIcNdbferTcU7uI0KV.jpg"
     },
     "t17": {
       "t": "Leatherface",
       "y": 2017,
-      "set": "1955–1965"
+      "set": "1955–1965",
+      "poster": "/nV7LPlyhUxKn5y0nuItCr8D1OSu.jpg"
     },
     "t22": {
       "t": "Texas Chainsaw Massacre",
       "y": 2022,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/7sKiGNWFM15WNyY7LYd5vmb3brO.jpg"
     }
   },
   "release": [

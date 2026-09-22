@@ -4,61 +4,73 @@
   "hue": 140,
   "blurb": "One film sat out of order for nine years before the series quietly caught up with it. Tokyo Drift is the whole reason this list exists.",
   "rank": 6,
+  "poster": "/gqY0ITBgT7A82poL9jv851qdnIb.jpg",
   "films": {
     "f1": {
       "t": "The Fast and the Furious",
       "y": 2001,
-      "set": "2001"
+      "set": "2001",
+      "poster": "/gqY0ITBgT7A82poL9jv851qdnIb.jpg"
     },
     "f2": {
       "t": "2 Fast 2 Furious",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/6nDZExrDKIXvSAghsFKVFRVJuSf.jpg"
     },
     "f3": {
       "t": "The Fast and the Furious: Tokyo Drift",
       "y": 2006,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/46xqGOwHbh2TH2avWSw3SMXph4E.jpg"
     },
     "f4": {
       "t": "Fast & Furious",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/lUtVoRukW7WNtUySwd8hWlByBds.jpg"
     },
     "f5": {
       "t": "Fast Five",
       "y": 2011,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/gEfQjjQwY7fh5bI4GlG0RrBu7Pz.jpg"
     },
     "f6": {
       "t": "Fast & Furious 6",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/thSmnRdrzPBBospIOJjLZBReqzo.jpg"
     },
     "f7": {
       "t": "Furious 7",
       "y": 2015,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/ktofZ9Htrjiy0P6LEowsDaxd3Ri.jpg"
     },
     "f8": {
       "t": "The Fate of the Furious",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/dImWM7GJqryWJO9LHa3XQ8DD5NH.jpg"
     },
     "hs": {
       "t": "Hobbs & Shaw",
       "y": 2019,
-      "set": "2019"
+      "set": "2019",
+      "poster": "/qRyy2UmjC5ur9bDi3kpNNRCc5nc.jpg"
     },
     "f9": {
       "t": "F9",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/deEmLILTPejEb6OGsXRJ5MCvyDW.jpg"
     },
     "fx": {
       "t": "Fast X",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/fiVW06jE7z9YnO4trhaMEdclSiC.jpg"
     }
   },
   "release": [

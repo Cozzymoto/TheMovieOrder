@@ -3,31 +3,37 @@
   "short": "Five films, two continuities",
   "hue": 100,
   "blurb": "A scientist's teleportation experiment, filmed in 1958 and again in 1986.",
+  "poster": "/kXdBcDh2EbgSIf4Oo1dxKapZM2f.jpg",
   "films": {
     "thefly58": {
       "t": "The Fly",
       "y": 1958,
-      "set": "1958"
+      "set": "1958",
+      "poster": "/kXdBcDh2EbgSIf4Oo1dxKapZM2f.jpg"
     },
     "returnof59": {
       "t": "Return of the Fly",
       "y": 1959,
-      "set": "1959"
+      "set": "1959",
+      "poster": "/a6w010kxAZfr0wsW7OiZgvkMwtN.jpg"
     },
     "curseof65": {
       "t": "Curse of the Fly",
       "y": 1965,
-      "set": "1965"
+      "set": "1965",
+      "poster": "/vxHiDzbLPkYzYv9muxXrjZSf6SX.jpg"
     },
     "thefly86": {
       "t": "The Fly",
       "y": 1986,
-      "set": "1986"
+      "set": "1986",
+      "poster": "/8gZWMhJHRvaXdXsNhERtqNHYpH3.jpg"
     },
     "thefly89": {
       "t": "The Fly II",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/gORksEPahEgO409HYJOZlNVyEpe.jpg"
     }
   },
   "release": [

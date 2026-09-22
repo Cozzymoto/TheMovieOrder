@@ -4,41 +4,49 @@
   "hue": 96,
   "blurb": "Six live-action films and one animated prequel spanning nearly two hundred years of Third Age history.",
   "rank": 7,
+  "poster": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
   "films": {
     "fotr": {
       "t": "The Lord of the Rings: The Fellowship of the Ring",
       "y": 2001,
-      "set": "3018 TA"
+      "set": "3018 TA",
+      "poster": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
     },
     "ttt": {
       "t": "The Lord of the Rings: The Two Towers",
       "y": 2002,
-      "set": "3019 TA"
+      "set": "3019 TA",
+      "poster": "/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg"
     },
     "rotk": {
       "t": "The Lord of the Rings: The Return of the King",
       "y": 2003,
-      "set": "3019 TA"
+      "set": "3019 TA",
+      "poster": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"
     },
     "auj": {
       "t": "The Hobbit: An Unexpected Journey",
       "y": 2012,
-      "set": "2941 TA"
+      "set": "2941 TA",
+      "poster": "/yHA9Fc37VmpUA5UncTxxo3rTGVA.jpg"
     },
     "dos": {
       "t": "The Hobbit: The Desolation of Smaug",
       "y": 2013,
-      "set": "2941 TA"
+      "set": "2941 TA",
+      "poster": "/xQYiXsheRCDBA39DOrmaw1aSpbk.jpg"
     },
     "bofa": {
       "t": "The Hobbit: The Battle of the Five Armies",
       "y": 2014,
-      "set": "2941 TA"
+      "set": "2941 TA",
+      "poster": "/xT98tLqatZPQApyRmlPL12LtiWp.jpg"
     },
     "rohirrim": {
       "t": "The War of the Rohirrim",
       "y": 2024,
-      "set": "2758 TA"
+      "set": "2758 TA",
+      "poster": "/23WCoDo6wzBfzbX7BGTNwVUqZfi.jpg"
     }
   },
   "release": [

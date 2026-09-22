@@ -3,36 +3,43 @@
   "short": "George A. Romero's six zombie films",
   "hue": 100,
   "blurb": "Six films by the director who created the modern zombie, each one a separate outbreak with a new cast.",
+  "poster": "/rb2NWyb008u1EcKCOyXs2Nmj0ra.jpg",
   "films": {
     "nightof68": {
       "t": "Night of the Living Dead",
       "y": 1968,
-      "set": "1968"
+      "set": "1968",
+      "poster": "/rb2NWyb008u1EcKCOyXs2Nmj0ra.jpg"
     },
     "dawnof78": {
       "t": "Dawn of the Dead",
       "y": 1978,
-      "set": "1978"
+      "set": "1978",
+      "poster": "/70MY8H0bLMvXf8ED2SgVMPhDVVM.jpg"
     },
     "dayof85": {
       "t": "Day of the Dead",
       "y": 1985,
-      "set": "1985"
+      "set": "1985",
+      "poster": "/bi7SO5F4VyyGQTlxQirbH1dwKzW.jpg"
     },
     "landof05": {
       "t": "Land of the Dead",
       "y": 2005,
-      "set": "2005"
+      "set": "2005",
+      "poster": "/xxp0qcZ3n2YA53SIzWilDSfIaA4.jpg"
     },
     "diaryof07": {
       "t": "Diary of the Dead",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/tGktSJW5dPf8QIjmcqum4KOEZPZ.jpg"
     },
     "survivalof09": {
       "t": "Survival of the Dead",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/2BmqSRt10J2mpJmCgZbo5YYkQLj.jpg"
     }
   },
   "release": [

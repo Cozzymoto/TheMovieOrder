@@ -3,36 +3,43 @@
   "short": "Venom, Morbius, Madame Web and Kraven",
   "hue": 280,
   "blurb": "Six films built around Spider-Man characters without Spider-Man in them. One is set two decades before the rest.",
+  "poster": "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
   "films": {
     "v18": {
       "t": "Venom",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg"
     },
     "v21": {
       "t": "Venom: Let There Be Carnage",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/pzKsRuKLFmYrW5Q0q8E8G78Tcgo.jpg"
     },
     "mo22": {
       "t": "Morbius",
       "y": 2022,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/Av8Z2jZhEm1FLkFzMThzz9hndJF.jpg"
     },
     "mw24": {
       "t": "Madame Web",
       "y": 2024,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/rULWuutDcN5NvtiZi4FRPzRYWSh.jpg"
     },
     "kr24": {
       "t": "Kraven the Hunter",
       "y": 2024,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/1GvBhRxY6MELDfxFrete6BNhBB5.jpg"
     },
     "v24": {
       "t": "Venom: The Last Dance",
       "y": 2024,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/vGXptEdgZIhPg3cGlc7e8sNPC2e.jpg"
     }
   },
   "release": [

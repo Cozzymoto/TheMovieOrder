@@ -3,71 +3,85 @@
   "short": "Thirteen films, two timelines",
   "hue": 216,
   "blurb": "Ten films with the original and Next Generation crews, plus three set in an alternate reality that begins over a century earlier.",
+  "poster": "/wfiAfNwH6CMKxz4vRaW8CPTabtk.jpg",
   "films": {
     "t79": {
       "t": "Star Trek: The Motion Picture",
       "y": 1979,
-      "set": "2273"
+      "set": "2273",
+      "poster": "/wfiAfNwH6CMKxz4vRaW8CPTabtk.jpg"
     },
     "t82": {
       "t": "Star Trek II: The Wrath of Khan",
       "y": 1982,
-      "set": "2285"
+      "set": "2285",
+      "poster": "/uPyLsKl8Z0LOoxeaFXsY5MxhR5s.jpg"
     },
     "t84": {
       "t": "Star Trek III: The Search for Spock",
       "y": 1984,
-      "set": "2285"
+      "set": "2285",
+      "poster": "/yqEj0oPfKBMCz7YcCARHDgH7VFm.jpg"
     },
     "t86": {
       "t": "Star Trek IV: The Voyage Home",
       "y": 1986,
-      "set": "2286"
+      "set": "2286",
+      "poster": "/xY5TzGXJOB3L9rhZ1MbbPyVlW5J.jpg"
     },
     "t89": {
       "t": "Star Trek V: The Final Frontier",
       "y": 1989,
-      "set": "2287"
+      "set": "2287",
+      "poster": "/uiXr41VLYsuug3CZbFrKLSNahuZ.jpg"
     },
     "t91": {
       "t": "Star Trek VI: The Undiscovered Country",
       "y": 1991,
-      "set": "2293"
+      "set": "2293",
+      "poster": "/tvTOJD7Gz668GLy2nNdLRQvpPsv.jpg"
     },
     "t94": {
       "t": "Star Trek Generations",
       "y": 1994,
-      "set": "2371"
+      "set": "2371",
+      "poster": "/gh0ZZRwSmlzEZTIZee3ZCN9Jssx.jpg"
     },
     "t96": {
       "t": "Star Trek: First Contact",
       "y": 1996,
-      "set": "2373"
+      "set": "2373",
+      "poster": "/iqhHe893Vcf07jNkNQ31tu85dKG.jpg"
     },
     "t98": {
       "t": "Star Trek: Insurrection",
       "y": 1998,
-      "set": "2375"
+      "set": "2375",
+      "poster": "/xQCMAHeg5M9HpDIqanYbWdr4brB.jpg"
     },
     "t02": {
       "t": "Star Trek: Nemesis",
       "y": 2002,
-      "set": "2379"
+      "set": "2379",
+      "poster": "/cldAwhvBmOv9jrd3bXWuqRHoXyq.jpg"
     },
     "k09": {
       "t": "Star Trek",
       "y": 2009,
-      "set": "2233–2258"
+      "set": "2233–2258",
+      "poster": "/lV5OpzAss1z06YNagOVap1I35mH.jpg"
     },
     "k13": {
       "t": "Star Trek Into Darkness",
       "y": 2013,
-      "set": "2259"
+      "set": "2259",
+      "poster": "/Aim3kVNh1MPIxPEFeJrl9e9Uf1a.jpg"
     },
     "k16": {
       "t": "Star Trek Beyond",
       "y": 2016,
-      "set": "2263"
+      "set": "2263",
+      "poster": "/wI5VghYNYLktDRPUa5rrVcVA1h7.jpg"
     }
   },
   "release": [

@@ -3,26 +3,31 @@
   "short": "Four films, three continuities",
   "hue": 218,
   "blurb": "Two films in the mid-2000s, a 2015 reboot, and a 2025 version set in a retro-futuristic 1960s.",
+  "poster": "/4YMcYEFS8sFuW3soP1HVmgR3cSm.jpg",
   "films": {
     "fantasticfour05": {
       "t": "Fantastic Four",
       "y": 2005,
-      "set": "—"
+      "set": "—",
+      "poster": "/4YMcYEFS8sFuW3soP1HVmgR3cSm.jpg"
     },
     "fantasticfour07": {
       "t": "Fantastic Four: Rise of the Silver Surfer",
       "y": 2007,
-      "set": "—"
+      "set": "—",
+      "poster": "/pyk3c1a4U6nxRJPljPQbP8elTSU.jpg"
     },
     "fantasticfour15": {
       "t": "Fantastic Four",
       "y": 2015,
-      "set": "—"
+      "set": "—",
+      "poster": "/cDroz5qSlP8xZ6tOpeYoPkBvKyL.jpg"
     },
     "thefantastic25": {
       "t": "The Fantastic Four: First Steps",
       "y": 2025,
-      "set": "Retro-futuristic 1960s"
+      "set": "Retro-futuristic 1960s",
+      "poster": "/nf5qaSEvyYSNeFH0YhSs5EsBLX9.jpg"
     }
   },
   "release": [

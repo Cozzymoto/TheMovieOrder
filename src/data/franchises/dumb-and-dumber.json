@@ -3,21 +3,25 @@
   "short": "Three films, one a prequel",
   "hue": 200,
   "blurb": "The original, a prequel made without its stars, and a sequel twenty years later with them back.",
+  "poster": "/4LdpBXiCyGKkR8FGHgjKlphrfUc.jpg",
   "films": {
     "dumband94": {
       "t": "Dumb and Dumber",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/4LdpBXiCyGKkR8FGHgjKlphrfUc.jpg"
     },
     "dumband03": {
       "t": "Dumb and Dumberer: When Harry Met Lloyd",
       "y": 2003,
-      "set": "1986"
+      "set": "1986",
+      "poster": "/qxD6P3UXASFCdbrVavceZzgOfI9.jpg"
     },
     "dumband14": {
       "t": "Dumb and Dumber To",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/cvEi0xV7TUkabJGuzulhvbMjrHi.jpg"
     }
   },
   "release": [

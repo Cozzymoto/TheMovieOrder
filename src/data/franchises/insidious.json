@@ -3,31 +3,37 @@
   "short": "Five films, two of them prequels",
   "hue": 250,
   "blurb": "A textbook case of a series folding back on itself — the third and fourth films both take place before the first.",
+  "poster": "/tmlDFIUpGRKiuWm9Ixc6CYDk4y0.jpg",
   "films": {
     "i10": {
       "t": "Insidious",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/tmlDFIUpGRKiuWm9Ixc6CYDk4y0.jpg"
     },
     "i13": {
       "t": "Insidious: Chapter 2",
       "y": 2013,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/w5JjiB3O1CLDXbTJe1QpU5RHmlU.jpg"
     },
     "i15": {
       "t": "Insidious: Chapter 3",
       "y": 2015,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/iDdGfdNvY1EX0uDdA4Ru77fwMfc.jpg"
     },
     "i18": {
       "t": "Insidious: The Last Key",
       "y": 2018,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/6c9ti2JcR3dHyR3qFXoZqVMx0SH.jpg"
     },
     "i23": {
       "t": "Insidious: The Red Door",
       "y": 2023,
-      "set": "2019"
+      "set": "2019",
+      "poster": "/d07phJqCx6z5wILDYqkyraorDPi.jpg"
     }
   },
   "release": [

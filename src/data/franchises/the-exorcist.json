@@ -3,36 +3,43 @@
   "short": "Six films, two versions of one prequel",
   "hue": 40,
   "blurb": "The original, two sequels, a prequel filmed twice by two different directors, and a 2023 follow-up that ignores most of it.",
+  "poster": "/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
   "films": {
     "theexorcist73": {
       "t": "The Exorcist",
       "y": 1973,
-      "set": "1973"
+      "set": "1973",
+      "poster": "/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg"
     },
     "exorcistii77": {
       "t": "Exorcist II: The Heretic",
       "y": 1977,
-      "set": "1977"
+      "set": "1977",
+      "poster": "/g9i3LTMYLRHvCYSKimZEfd1Vqy7.jpg"
     },
     "theexorcist90": {
       "t": "The Exorcist III",
       "y": 1990,
-      "set": "1990"
+      "set": "1990",
+      "poster": "/275gw2JA5YCk10o6n84rZdZBycM.jpg"
     },
     "exorcistthe04": {
       "t": "Exorcist: The Beginning",
       "y": 2004,
-      "set": "1949"
+      "set": "1949",
+      "poster": "/4b7Mhc4HZN7XzMMLukaQ9C0x1Dx.jpg"
     },
     "dominionprequel05": {
       "t": "Dominion: Prequel to the Exorcist",
       "y": 2005,
-      "set": "1947"
+      "set": "1947",
+      "poster": "/nEkB6Y7DdEvWNCKWsHis76XYciR.jpg"
     },
     "theexorcist23": {
       "t": "The Exorcist: Believer",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/fFXkAlMH2iQrNknv4eq7LGTkcti.jpg"
     }
   },
   "release": [

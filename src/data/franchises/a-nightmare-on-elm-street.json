@@ -3,51 +3,61 @@
   "short": "Nine films including the crossover",
   "hue": 210,
   "blurb": "A straightforward run of sequels with one film that steps outside the story entirely to comment on it.",
+  "poster": "/tI0RQFYevX97NSdDSYmn0Z19i3r.jpg",
   "films": {
     "n84": {
       "t": "A Nightmare on Elm Street",
       "y": 1984,
-      "set": "1984"
+      "set": "1984",
+      "poster": "/tI0RQFYevX97NSdDSYmn0Z19i3r.jpg"
     },
     "n85": {
       "t": "A Nightmare on Elm Street 2: Freddy's Revenge",
       "y": 1985,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/53kxYw0G3o55yJ23K7s7KMaOyAM.jpg"
     },
     "n87": {
       "t": "A Nightmare on Elm Street 3: Dream Warriors",
       "y": 1987,
-      "set": "1987"
+      "set": "1987",
+      "poster": "/qbtZewU6EGvxi8yFVzwZ31NijLX.jpg"
     },
     "n88": {
       "t": "A Nightmare on Elm Street 4: The Dream Master",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/boStYG7jKdoIZTduiOOsUVknD13.jpg"
     },
     "n89": {
       "t": "A Nightmare on Elm Street 5: The Dream Child",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/kizvpgXQfrAgN8FhOd87LbKk6kO.jpg"
     },
     "n91": {
       "t": "Freddy's Dead: The Final Nightmare",
       "y": 1991,
-      "set": "2001"
+      "set": "2001",
+      "poster": "/e4qh58n2WaG4Gyh9VhjOUeN9Mhv.jpg"
     },
     "n94": {
       "t": "Wes Craven's New Nightmare",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/glM7dFY5Pvd9y6y7Avd6Nfu1CFt.jpg"
     },
     "fvj": {
       "t": "Freddy vs. Jason",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/f9ZASRUfl8Jlco7rgRx3ujPR0P7.jpg"
     },
     "n10": {
       "t": "A Nightmare on Elm Street",
       "y": 2010,
-      "set": "Remake"
+      "set": "Remake",
+      "poster": "/nsmW28GcNabCUZfP5YtUEe8Li0f.jpg"
     }
   },
   "release": [

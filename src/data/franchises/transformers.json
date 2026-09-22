@@ -3,41 +3,49 @@
   "short": "The live-action films",
   "hue": 8,
   "blurb": "Five Bay films, then a 1987 prequel that quietly reset the continuity, then a 1994 sequel to the prequel.",
+  "poster": "/lkZ9gqCEjzX85lKR6Jjd1uGAXNp.jpg",
   "films": {
     "tf1": {
       "t": "Transformers",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/lkZ9gqCEjzX85lKR6Jjd1uGAXNp.jpg"
     },
     "rotf": {
       "t": "Transformers: Revenge of the Fallen",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/pLBb0whOzVDtJvyD4DPeQyQNOqp.jpg"
     },
     "dotm": {
       "t": "Transformers: Dark of the Moon",
       "y": 2011,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/28YlCLrFhONteYSs9hKjD1Km0Cj.jpg"
     },
     "aoe": {
       "t": "Transformers: Age of Extinction",
       "y": 2014,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/jyzrfx2WaeY60kYZpPYepSjGz4S.jpg"
     },
     "tlk": {
       "t": "Transformers: The Last Knight",
       "y": 2017,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/s5HQf2Gb3lIO2cRcFwNL9sn1o1o.jpg"
     },
     "bum": {
       "t": "Bumblebee",
       "y": 2018,
-      "set": "1987"
+      "set": "1987",
+      "poster": "/fw02ONlDhrYjTSZV8XO6hhU3ds3.jpg"
     },
     "rotb": {
       "t": "Transformers: Rise of the Beasts",
       "y": 2023,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/gPbM0MK8CP8A174rmUwGsADNYKD.jpg"
     }
   },
   "release": [

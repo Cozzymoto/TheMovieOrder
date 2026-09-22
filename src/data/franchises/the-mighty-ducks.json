@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 150,
   "blurb": "A lawyer sentenced to coach a youth ice-hockey team.",
+  "poster": "/zxaCHxKDFNi6frh1Q0dj19L216o.jpg",
   "films": {
     "themighty92": {
       "t": "The Mighty Ducks",
       "y": 1992,
-      "set": "1992"
+      "set": "1992",
+      "poster": "/zxaCHxKDFNi6frh1Q0dj19L216o.jpg"
     },
     "d2the94": {
       "t": "D2: The Mighty Ducks",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/veGW1N6QUglP4osDdOUI6CZCcBI.jpg"
     },
     "d3the96": {
       "t": "D3: The Mighty Ducks",
       "y": 1996,
-      "set": "1996"
+      "set": "1996",
+      "poster": "/wltMr1loUKSCaEV4EDgh21eCRI3.jpg"
     }
   },
   "release": [

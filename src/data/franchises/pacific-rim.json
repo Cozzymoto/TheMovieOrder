@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 196,
   "blurb": "Giant robots against giant monsters, with a ten-year jump between the two films.",
+  "poster": "/8wo4eN8dWKaKlxhSvBz19uvj8gA.jpg",
   "films": {
     "pacificrim13": {
       "t": "Pacific Rim",
       "y": 2013,
-      "set": "2020–2025"
+      "set": "2020–2025",
+      "poster": "/8wo4eN8dWKaKlxhSvBz19uvj8gA.jpg"
     },
     "pacificrim18": {
       "t": "Pacific Rim Uprising",
       "y": 2018,
-      "set": "2035"
+      "set": "2035",
+      "poster": "/nFWhttU8PM50t25NPdy7PE7rv3G.jpg"
     }
   },
   "release": [

@@ -3,41 +3,49 @@
   "short": "Seven films, mostly prequels",
   "hue": 200,
   "blurb": "Almost every sequel goes backwards. The third film reaches furthest, landing in 1988.",
+  "poster": "/tmclkEpjeo4Zu564gf3KrwIOuKw.jpg",
   "films": {
     "p07": {
       "t": "Paranormal Activity",
       "y": 2007,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/tmclkEpjeo4Zu564gf3KrwIOuKw.jpg"
     },
     "p10": {
       "t": "Paranormal Activity 2",
       "y": 2010,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/gfdrkBZAyUUXJJ2iLQe03SAYRD3.jpg"
     },
     "p11": {
       "t": "Paranormal Activity 3",
       "y": 2011,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/9nYranPiWdNmbD5PRPPSL7VUFTS.jpg"
     },
     "p12": {
       "t": "Paranormal Activity 4",
       "y": 2012,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/na5tAslm1kGNcft083AIXMTOsYR.jpg"
     },
     "p14": {
       "t": "Paranormal Activity: The Marked Ones",
       "y": 2014,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/2o4vBAnORr9UnLMvWHhULGDHfzH.jpg"
     },
     "p15": {
       "t": "Paranormal Activity: The Ghost Dimension",
       "y": 2015,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/1YpFQ2MQKzlDoa8diLWkapdRI8t.jpg"
     },
     "p21": {
       "t": "Paranormal Activity: Next of Kin",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/wRy3SwJFE55iL2bfKqECzP2qyrd.jpg"
     }
   },
   "release": [

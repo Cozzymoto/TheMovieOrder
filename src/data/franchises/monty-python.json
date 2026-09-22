@@ -3,26 +3,31 @@
   "short": "The four films",
   "hue": 60,
   "blurb": "Four films from the comedy troupe — a sketch compilation, two stories and a return to sketches.",
+  "poster": "/ajbdFQLvJTlNu4LnVWGnNMb4mZ8.jpg",
   "films": {
     "andnow71": {
       "t": "And Now for Something Completely Different",
       "y": 1971,
-      "set": "1971"
+      "set": "1971",
+      "poster": "/ajbdFQLvJTlNu4LnVWGnNMb4mZ8.jpg"
     },
     "montypython75": {
       "t": "Monty Python and the Holy Grail",
       "y": 1975,
-      "set": "932 AD"
+      "set": "932 AD",
+      "poster": "/7nTkHjETdGMYK1phHwDbPsrzbYl.jpg"
     },
     "montypythons79": {
       "t": "Monty Python's Life of Brian",
       "y": 1979,
-      "set": "33 AD"
+      "set": "33 AD",
+      "poster": "/lSSA64WF0M0BXnjwr2quMh6shCl.jpg"
     },
     "montypythons83": {
       "t": "Monty Python's The Meaning of Life",
       "y": 1983,
-      "set": "1983"
+      "set": "1983",
+      "poster": "/9yavZ9WgEZIpWi2EbVW8At9RPdo.jpg"
     }
   },
   "release": [

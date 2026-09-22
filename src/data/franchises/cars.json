@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 8,
   "blurb": "A racing car stranded in a forgotten town, then taken abroad, then pushed towards retirement.",
+  "poster": "/2Touk3m5gzsqr1VsvxypdyHY5ci.jpg",
   "films": {
     "cars06": {
       "t": "Cars",
       "y": 2006,
-      "set": "—"
+      "set": "—",
+      "poster": "/2Touk3m5gzsqr1VsvxypdyHY5ci.jpg"
     },
     "cars211": {
       "t": "Cars 2",
       "y": 2011,
-      "set": "—"
+      "set": "—",
+      "poster": "/okIz1HyxeVOMzYwwHUjH2pHi74I.jpg"
     },
     "cars317": {
       "t": "Cars 3",
       "y": 2017,
-      "set": "—"
+      "set": "—",
+      "poster": "/zg5RDxvIIAKsucjuU2EZJIHEIvz.jpg"
     }
   },
   "release": [

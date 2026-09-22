@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 10,
   "blurb": "A masked hero passing the role to a successor, then having to live with his choice.",
+  "poster": "/bdMufwGDDzqu4kTSQwrKc5WR4bu.jpg",
   "films": {
     "themask98": {
       "t": "The Mask of Zorro",
       "y": 1998,
-      "set": "1821"
+      "set": "1821",
+      "poster": "/bdMufwGDDzqu4kTSQwrKc5WR4bu.jpg"
     },
     "thelegend05": {
       "t": "The Legend of Zorro",
       "y": 2005,
-      "set": "1850"
+      "set": "1850",
+      "poster": "/93iEBX1QbsxAv8eSybe8lhLXY1A.jpg"
     }
   },
   "release": [

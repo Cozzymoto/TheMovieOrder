@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 52,
   "blurb": "A Detroit detective loose in Beverly Hills, across three films in ten years and a fourth thirty years later.",
+  "poster": "/eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg",
   "films": {
     "beverlyhills84": {
       "t": "Beverly Hills Cop",
       "y": 1984,
-      "set": "1984"
+      "set": "1984",
+      "poster": "/eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg"
     },
     "beverlyhills87": {
       "t": "Beverly Hills Cop II",
       "y": 1987,
-      "set": "1987"
+      "set": "1987",
+      "poster": "/egDakU8O5yUwpUJP9IMAUVtIDll.jpg"
     },
     "beverlyhills94": {
       "t": "Beverly Hills Cop III",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/7vIpCkgGEfk5LZwm78nMxswLJRH.jpg"
     },
     "beverlyhills24": {
       "t": "Beverly Hills Cop: Axel F",
       "y": 2024,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/yE0iZBxkL8aKYNkkeHoUzx5M88c.jpg"
     }
   },
   "release": [

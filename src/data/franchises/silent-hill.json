@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 40,
   "blurb": "A fog-bound town from the video games, where the missing are never quite gone.",
+  "poster": "/r0bEDWO2w4a43K2xTNSF284qOsc.jpg",
   "films": {
     "silenthill06": {
       "t": "Silent Hill",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/r0bEDWO2w4a43K2xTNSF284qOsc.jpg"
     },
     "silenthill12": {
       "t": "Silent Hill: Revelation",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/rkAh9cPkb5PoTzEGWfBkhdFNIsf.jpg"
     },
     "returnto26": {
       "t": "Return to Silent Hill",
       "y": 2026,
-      "set": "2026"
+      "set": "2026",
+      "poster": "/mdw7bSnE11WpwWf3ViXtnavuqiT.jpg"
     }
   },
   "release": [

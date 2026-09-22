@@ -3,31 +3,37 @@
   "short": "Luc Besson's French action comedies",
   "hue": 44,
   "blurb": "A speed-obsessed Marseille taxi driver and the hopeless detective who relies on him.",
+  "poster": "/egBxj3ude84theXc3cLbBHrWOkQ.jpg",
   "films": {
     "taxi98": {
       "t": "Taxi",
       "y": 1998,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/egBxj3ude84theXc3cLbBHrWOkQ.jpg"
     },
     "taxi200": {
       "t": "Taxi 2",
       "y": 2000,
-      "set": "2000"
+      "set": "2000",
+      "poster": "/z0js1eYtKxfw4RBxiTukO7q66Rf.jpg"
     },
     "taxi303": {
       "t": "Taxi 3",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/6Yk3O5mNIYpIKIKaB2l4TJBDdlS.jpg"
     },
     "taxi407": {
       "t": "Taxi 4",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/zqjMGQzdMohCL66uCqbyvWBP896.jpg"
     },
     "taxi518": {
       "t": "Taxi 5",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/A9xqSAKN0gAa8GIoHwAC7IsmCw5.jpg"
     }
   },
   "release": [

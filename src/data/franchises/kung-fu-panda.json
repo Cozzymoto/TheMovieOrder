@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 58,
   "blurb": "Four films in order, each one widening the story of where the main character came from.",
+  "poster": "/wWt4JYXTg5Wr3xBW2phBrMKgp3x.jpg",
   "films": {
     "k08": {
       "t": "Kung Fu Panda",
       "y": 2008,
-      "set": "—"
+      "set": "—",
+      "poster": "/wWt4JYXTg5Wr3xBW2phBrMKgp3x.jpg"
     },
     "k11": {
       "t": "Kung Fu Panda 2",
       "y": 2011,
-      "set": "—"
+      "set": "—",
+      "poster": "/mtqqD00vB4PGRt20gWtGqFhrkd0.jpg"
     },
     "k16": {
       "t": "Kung Fu Panda 3",
       "y": 2016,
-      "set": "—"
+      "set": "—",
+      "poster": "/oajNi4Su39WAByHI6EONu8G8HYn.jpg"
     },
     "k24": {
       "t": "Kung Fu Panda 4",
       "y": 2024,
-      "set": "—"
+      "set": "—",
+      "poster": "/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg"
     }
   },
   "release": [

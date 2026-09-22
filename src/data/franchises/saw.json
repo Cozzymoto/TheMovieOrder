@@ -3,56 +3,67 @@
   "short": "Ten films of nested flashbacks",
   "hue": 348,
   "blurb": "A series built almost entirely out of reveals about earlier films, plus a tenth entry dropped straight into the gap after the first.",
+  "poster": "/rLNSOudrayDBo1uqXjrhxcjODIC.jpg",
   "films": {
     "s1": {
       "t": "Saw",
       "y": 2004,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/rLNSOudrayDBo1uqXjrhxcjODIC.jpg"
     },
     "s2": {
       "t": "Saw II",
       "y": 2005,
-      "set": "2005"
+      "set": "2005",
+      "poster": "/gTnaTysN8HsvVQqTRUh8m35mmUA.jpg"
     },
     "s3": {
       "t": "Saw III",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/4iO9n24Rb10peXV0JH2EldIOrAp.jpg"
     },
     "s4": {
       "t": "Saw IV",
       "y": 2007,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/ku1QdCXOU4ckz3zxLLlis8MIJVm.jpg"
     },
     "s5": {
       "t": "Saw V",
       "y": 2008,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/rKl79KqLXg60KFyKsLe4wSSjQ08.jpg"
     },
     "s6": {
       "t": "Saw VI",
       "y": 2009,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/jBr7bBPA4PYPaf4O6nfjYViyRWK.jpg"
     },
     "s3d": {
       "t": "Saw 3D",
       "y": 2010,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/qHCZ6LjtmqWDfXXN28TlIC9OppK.jpg"
     },
     "jig": {
       "t": "Jigsaw",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/7RwHxhdUNS996JPFNB9a7CJtlwR.jpg"
     },
     "spi": {
       "t": "Spiral",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/3rJvo14V6Tnv3h97oDKpU8Bdb5l.jpg"
     },
     "sx": {
       "t": "Saw X",
       "y": 2023,
-      "set": "Between I and II"
+      "set": "Between I and II",
+      "poster": "/u7Lp1Hi8aBS73jv4KRMIv5aK4ax.jpg"
     }
   },
   "release": [

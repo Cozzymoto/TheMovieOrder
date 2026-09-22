@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 320,
   "blurb": "A lounge singer hiding in a convent, who ends up running its choir.",
+  "poster": "/xZvVSZ0RTxIjblLV87vs7ADM12m.jpg",
   "films": {
     "sisteract92": {
       "t": "Sister Act",
       "y": 1992,
-      "set": "1992"
+      "set": "1992",
+      "poster": "/xZvVSZ0RTxIjblLV87vs7ADM12m.jpg"
     },
     "sisteract93": {
       "t": "Sister Act 2: Back in the Habit",
       "y": 1993,
-      "set": "1993"
+      "set": "1993",
+      "poster": "/dlkBp5S6Ei5f54031rAhyb4IwML.jpg"
     }
   },
   "release": [

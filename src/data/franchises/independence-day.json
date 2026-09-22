@@ -3,16 +3,19 @@
   "short": "Two films, twenty years apart",
   "hue": 8,
   "blurb": "An alien invasion in 1996, and a sequel set twenty years later in a world rebuilt from the wreckage.",
+  "poster": "/p0BPQGSPoSa8Ml0DAf2mB2kCU0R.jpg",
   "films": {
     "independenceday96": {
       "t": "Independence Day",
       "y": 1996,
-      "set": "1996"
+      "set": "1996",
+      "poster": "/p0BPQGSPoSa8Ml0DAf2mB2kCU0R.jpg"
     },
     "independenceday16": {
       "t": "Independence Day: Resurgence",
       "y": 2016,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/9S50foUIYGwiNPWOxi1WJF6IPwI.jpg"
     }
   },
   "release": [

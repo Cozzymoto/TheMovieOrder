@@ -3,21 +3,25 @@
   "short": "Three loosely linked films",
   "hue": 190,
   "blurb": "An anthology rather than a series — three films sharing a name and, arguably, a cause.",
+  "poster": "/qIegUGJqyMMCRjkKV1s7A9MqdJ8.jpg",
   "films": {
     "c08": {
       "t": "Cloverfield",
       "y": 2008,
-      "set": "2008"
+      "set": "2008",
+      "poster": "/qIegUGJqyMMCRjkKV1s7A9MqdJ8.jpg"
     },
     "c16": {
       "t": "10 Cloverfield Lane",
       "y": 2016,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/q8A39vcBDruhvoDTJd6L8a4lnTi.jpg"
     },
     "c18": {
       "t": "The Cloverfield Paradox",
       "y": 2018,
-      "set": "2028"
+      "set": "2028",
+      "poster": "/vJi2ExTcWdJR3150VPKqqtdGxsT.jpg"
     }
   },
   "release": [

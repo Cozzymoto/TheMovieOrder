@@ -3,61 +3,73 @@
   "short": "Eleven films",
   "hue": 2,
   "blurb": "Clive Barker's puzzle box and the beings it summons, across a series that spans four centuries.",
+  "poster": "/3Z0oPHyLnk3Vx6ZMC1MiVwIrKhO.jpg",
   "films": {
     "hellraiser87": {
       "t": "Hellraiser",
       "y": 1987,
-      "set": "1987"
+      "set": "1987",
+      "poster": "/3Z0oPHyLnk3Vx6ZMC1MiVwIrKhO.jpg"
     },
     "hellboundhellraiser88": {
       "t": "Hellbound: Hellraiser II",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/auPOq1wgZuYSaADejOskBKG6fuV.jpg"
     },
     "hellraiseriii92": {
       "t": "Hellraiser III: Hell on Earth",
       "y": 1992,
-      "set": "1992"
+      "set": "1992",
+      "poster": "/qnXEJp6KP6aIGWhNrg1fOKza4kp.jpg"
     },
     "hellraiserbloodline96": {
       "t": "Hellraiser: Bloodline",
       "y": 1996,
-      "set": "1796, 1996 & 2127"
+      "set": "1796, 1996 & 2127",
+      "poster": "/tCQsVackQil2fl5TzOYrCAI6All.jpg"
     },
     "hellraiserinferno00": {
       "t": "Hellraiser: Inferno",
       "y": 2000,
-      "set": "2000"
+      "set": "2000",
+      "poster": "/yyiuRnEIDCjr0g2Fsal0isi9GcU.jpg"
     },
     "hellraiserhellseeker02": {
       "t": "Hellraiser: Hellseeker",
       "y": 2002,
-      "set": "2002"
+      "set": "2002",
+      "poster": "/ge4qvedBvuOBgNACtDJK6vGBbSv.jpg"
     },
     "hellraiserdeader05": {
       "t": "Hellraiser: Deader",
       "y": 2005,
-      "set": "2005"
+      "set": "2005",
+      "poster": "/mWOiwo2mA1rDJzR2idMZCFhSizy.jpg"
     },
     "hellraiserhellworld05": {
       "t": "Hellraiser: Hellworld",
       "y": 2005,
-      "set": "2005"
+      "set": "2005",
+      "poster": "/jyeet52vADTNTw9X29e2AnSv49r.jpg"
     },
     "hellraiserrevelations11": {
       "t": "Hellraiser: Revelations",
       "y": 2011,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/lnCmYyYqpwXQAll5AUfNxlnvQk0.jpg"
     },
     "hellraiserjudgment18": {
       "t": "Hellraiser: Judgment",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/nYlSoysJVSvfKhMMKB6PLbXuWUK.jpg"
     },
     "hellraiser22": {
       "t": "Hellraiser",
       "y": 2022,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/f9ZAIUxTTk23vo1BC9Ur1Rx5c2E.jpg"
     }
   },
   "release": [

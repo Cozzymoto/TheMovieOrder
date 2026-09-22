@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 44,
   "blurb": "Three films spanning eighty years, where the second tells two stories at once — one moving forward, one reaching back to 1901.",
+  "poster": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
   "films": {
     "g72": {
       "t": "The Godfather",
       "y": 1972,
-      "set": "1945–1955"
+      "set": "1945–1955",
+      "poster": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
     },
     "g74": {
       "t": "The Godfather Part II",
       "y": 1974,
-      "set": "1901–1959"
+      "set": "1901–1959",
+      "poster": "/8a1lJs7mFyGhGhZZDT1azJUoQiZ.jpg"
     },
     "g90": {
       "t": "The Godfather Part III",
       "y": 1990,
-      "set": "1979"
+      "set": "1979",
+      "poster": "/lm3pQ2QoQ16pextRsmnUbG2onES.jpg"
     }
   },
   "release": [

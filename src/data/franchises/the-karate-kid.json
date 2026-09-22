@@ -3,36 +3,43 @@
   "short": "Six films",
   "hue": 4,
   "blurb": "Four original films, a 2010 remake set in Beijing, and a 2025 film that brings both together.",
+  "poster": "/1mp4ViklKvA0WXXsNvNx0RBuiit.jpg",
   "films": {
     "thekarate84": {
       "t": "The Karate Kid",
       "y": 1984,
-      "set": "1984"
+      "set": "1984",
+      "poster": "/1mp4ViklKvA0WXXsNvNx0RBuiit.jpg"
     },
     "thekarate86": {
       "t": "The Karate Kid Part II",
       "y": 1986,
-      "set": "1986"
+      "set": "1986",
+      "poster": "/k0OwgRR6PNu7h3SiqpCbRdZWNaG.jpg"
     },
     "thekarate89": {
       "t": "The Karate Kid Part III",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/lVZ3r0iDwGejlCvFEvXGzhQB9ds.jpg"
     },
     "thenext94": {
       "t": "The Next Karate Kid",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/wI3gCi9w1cuUJCiwhviAy46we9Q.jpg"
     },
     "thekarate10": {
       "t": "The Karate Kid",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/b1RBy3l297N0c7PHjlz35cClWju.jpg"
     },
     "karatekid25": {
       "t": "Karate Kid: Legends",
       "y": 2025,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/c90Lt7OQGsOmhv6x4JoFdoHzw5l.jpg"
     }
   },
   "release": [

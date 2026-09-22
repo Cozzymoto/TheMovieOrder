@@ -3,21 +3,25 @@
   "short": "The live-action films",
   "hue": 40,
   "blurb": "A satire of military propaganda disguised as a war film against giant bugs.",
+  "poster": "/cxCmv23O7p3hyHwqoktHYkZcGsY.jpg",
   "films": {
     "starshiptroopers97": {
       "t": "Starship Troopers",
       "y": 1997,
-      "set": "Future"
+      "set": "Future",
+      "poster": "/cxCmv23O7p3hyHwqoktHYkZcGsY.jpg"
     },
     "starshiptroopers04": {
       "t": "Starship Troopers 2: Hero of the Federation",
       "y": 2004,
-      "set": "Future"
+      "set": "Future",
+      "poster": "/9iqrqOjLaFcGNnSQlJxYLfgrhqn.jpg"
     },
     "starshiptroopers08": {
       "t": "Starship Troopers 3: Marauder",
       "y": 2008,
-      "set": "Future"
+      "set": "Future",
+      "poster": "/vh5nospDpMOxZhyhRiXWWMmSFQe.jpg"
     }
   },
   "release": [

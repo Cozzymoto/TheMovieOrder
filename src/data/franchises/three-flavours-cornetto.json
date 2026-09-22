@@ -3,21 +3,25 @@
   "short": "Shaun of the Dead, Hot Fuzz, The World's End",
   "hue": 8,
   "blurb": "Three British comedies by the same director and stars that share themes and running jokes rather than a story.",
+  "poster": "/dgXPhzNJH8HFTBjXPB177yNx6RI.jpg",
   "films": {
     "shaunof04": {
       "t": "Shaun of the Dead",
       "y": 2004,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/dgXPhzNJH8HFTBjXPB177yNx6RI.jpg"
     },
     "hotfuzz07": {
       "t": "Hot Fuzz",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/zPib4ukTSdXvHP9pxGkFCe34f3y.jpg"
     },
     "theworlds13": {
       "t": "The World's End",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/kpglnOBYmKn0AkkWDzGxzKHDbds.jpg"
     }
   },
   "release": [

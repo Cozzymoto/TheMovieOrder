@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 20,
   "blurb": "A true-crime writer's discovery, and a sequel following what it left behind.",
+  "poster": "/nzx10sca3arCeYBAomHan4Q6wa1.jpg",
   "films": {
     "sinister12": {
       "t": "Sinister",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/nzx10sca3arCeYBAomHan4Q6wa1.jpg"
     },
     "sinister215": {
       "t": "Sinister 2",
       "y": 2015,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/hF6ORyihtAWHqKkIQI8BSpLQyON.jpg"
     }
   },
   "release": [

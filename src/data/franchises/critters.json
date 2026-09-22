@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 90,
   "blurb": "Small, hungry alien creatures, followed from a Kansas farm to a space station.",
+  "poster": "/dxBy4WePZY06Bk5KvXb4K3UnjCy.jpg",
   "films": {
     "critters86": {
       "t": "Critters",
       "y": 1986,
-      "set": "1986"
+      "set": "1986",
+      "poster": "/dxBy4WePZY06Bk5KvXb4K3UnjCy.jpg"
     },
     "critters288": {
       "t": "Critters 2",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/5rR3dVJXnXskkBBWKbLg5EDKWtT.jpg"
     },
     "critters391": {
       "t": "Critters 3",
       "y": 1991,
-      "set": "1991"
+      "set": "1991",
+      "poster": "/frjklbq23pRgBjhekEq6drQkrZm.jpg"
     },
     "critters492": {
       "t": "Critters 4",
       "y": 1992,
-      "set": "2045"
+      "set": "2045",
+      "poster": "/k1Xio02tnxgyFA9PnlP2OSCIK2C.jpg"
     }
   },
   "release": [

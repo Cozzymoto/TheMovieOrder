@@ -3,31 +3,37 @@
   "short": "Five films, one medieval prequel",
   "hue": 196,
   "blurb": "A vampire-versus-werewolf war told out of order, with the third film jumping back six hundred years to explain how it began.",
+  "poster": "/zsnQ41UZ3jo1wEeemF0eA9cAIU0.jpg",
   "films": {
     "u03": {
       "t": "Underworld",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/zsnQ41UZ3jo1wEeemF0eA9cAIU0.jpg"
     },
     "u06": {
       "t": "Underworld: Evolution",
       "y": 2006,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/oJaQG353uOzOqffQ5K2hg03k4Vp.jpg"
     },
     "u09": {
       "t": "Underworld: Rise of the Lycans",
       "y": 2009,
-      "set": "1402"
+      "set": "1402",
+      "poster": "/yW9gF7rGn8EoV8B8rxOx1xjxVZf.jpg"
     },
     "u12": {
       "t": "Underworld: Awakening",
       "y": 2012,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/jN0uuc8U6M3sTg9zEaliJV60Stf.jpg"
     },
     "u16": {
       "t": "Underworld: Blood Wars",
       "y": 2016,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/v1ciDCWMG47gdT4kMyjyQbnLQQn.jpg"
     }
   },
   "release": [

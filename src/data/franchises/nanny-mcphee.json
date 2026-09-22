@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 100,
   "blurb": "A nanny whose lessons are enforced with magic, and who becomes less frightening each time one is learned.",
+  "poster": "/8tommndfI0W62teXwSmXdmVZ7gz.jpg",
   "films": {
     "nannymcphee05": {
       "t": "Nanny McPhee",
       "y": 2005,
-      "set": "Victorian"
+      "set": "Victorian",
+      "poster": "/8tommndfI0W62teXwSmXdmVZ7gz.jpg"
     },
     "nannymcphee10": {
       "t": "Nanny McPhee and the Big Bang",
       "y": 2010,
-      "set": "Second World War"
+      "set": "Second World War",
+      "poster": "/9cgHfgBXVZmVR63AhwJ82R1kAFS.jpg"
     }
   },
   "release": [

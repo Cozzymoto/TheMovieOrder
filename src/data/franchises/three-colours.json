@@ -3,21 +3,25 @@
   "short": "Krzysztof Kieślowski's trilogy",
   "hue": 220,
   "blurb": "Blue, White and Red — three films named for the French flag, each taking one of its ideals.",
+  "poster": "/33wsWxzsNstI8N7dvuwzFmj1qBd.jpg",
   "films": {
     "threecolours93": {
       "t": "Three Colours: Blue",
       "y": 1993,
-      "set": "1993"
+      "set": "1993",
+      "poster": "/33wsWxzsNstI8N7dvuwzFmj1qBd.jpg"
     },
     "threecolours94": {
       "t": "Three Colours: White",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/6r09mQLfJmQes0uFD4yTa8NAKPj.jpg"
     },
     "threecolours94b": {
       "t": "Three Colours: Red",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/JHmsBiX1tjCKqAul1lzC20WcAW.jpg"
     }
   },
   "release": [

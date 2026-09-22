@@ -3,26 +3,31 @@
   "short": "Four Spanish found-footage films",
   "hue": 14,
   "blurb": "A TV crew sealed inside a Barcelona apartment building during an outbreak.",
+  "poster": "/hgyJR4sgMsee6xMFM3xYiG6cDCh.jpg",
   "films": {
     "rec07": {
       "t": "[REC]",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/hgyJR4sgMsee6xMFM3xYiG6cDCh.jpg"
     },
     "rec209": {
       "t": "[REC] 2",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/n9okN1DnWQWI2fuByXTrv9DCL7u.jpg"
     },
     "rec312": {
       "t": "[REC] 3: Genesis",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/tI1534q0Up7PBcLdXdFerLmIXn3.jpg"
     },
     "rec414": {
       "t": "[REC] 4: Apocalypse",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/vbflx4rDj3YrRAAk4HSWsEgZVlK.jpg"
     }
   },
   "release": [

@@ -3,41 +3,49 @@
   "short": "Seven films, one set in 1889",
   "hue": 36,
   "blurb": "A cult monster series that keeps going, with a fourth film that jumps back a century to show where it all began.",
+  "poster": "/cA4ggkZ3r1d5r9hOAUWC8x5ul2i.jpg",
   "films": {
     "tremors90": {
       "t": "Tremors",
       "y": 1990,
-      "set": "1990"
+      "set": "1990",
+      "poster": "/cA4ggkZ3r1d5r9hOAUWC8x5ul2i.jpg"
     },
     "tremors296": {
       "t": "Tremors 2: Aftershocks",
       "y": 1996,
-      "set": "1996"
+      "set": "1996",
+      "poster": "/hvBYCgG62Fk8cYIsUtrfP5iw3K8.jpg"
     },
     "tremors301": {
       "t": "Tremors 3: Back to Perfection",
       "y": 2001,
-      "set": "2001"
+      "set": "2001",
+      "poster": "/mnMryfLgC2fuW3nfY36QfWx0hBL.jpg"
     },
     "tremors404": {
       "t": "Tremors 4: The Legend Begins",
       "y": 2004,
-      "set": "1889"
+      "set": "1889",
+      "poster": "/yhh1zMGoy6nYSXMgrsYoNRbclJn.jpg"
     },
     "tremors515": {
       "t": "Tremors 5: Bloodlines",
       "y": 2015,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/xGoCQeYGW63Is0iaAxVEcpCFNwY.jpg"
     },
     "tremorsa18": {
       "t": "Tremors: A Cold Day in Hell",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/aFOdiHaRjeTmHG67e5B7md2Q1cq.jpg"
     },
     "tremorsshrieker20": {
       "t": "Tremors: Shrieker Island",
       "y": 2020,
-      "set": "2020"
+      "set": "2020",
+      "poster": "/46qwaON7l11M407rqh8lD4vXcAR.jpg"
     }
   },
   "release": [

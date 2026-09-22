@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 26,
   "blurb": "Three films that each find a new reason for the same man to make the same phone call.",
+  "poster": "/ognkaUSNgJe1a2pjB4UNdzEo5jT.jpg",
   "films": {
     "t08": {
       "t": "Taken",
       "y": 2008,
-      "set": "2008"
+      "set": "2008",
+      "poster": "/ognkaUSNgJe1a2pjB4UNdzEo5jT.jpg"
     },
     "t12": {
       "t": "Taken 2",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/yzAlcuJhpnxRPjaj7AHBRbNPQCJ.jpg"
     },
     "t14": {
       "t": "Taken 3",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/vzvMXMypMq7ieDofKThsxjHj9hn.jpg"
     }
   },
   "release": [

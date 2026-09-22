@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 200,
   "blurb": "An original trilogy set in a near-future Detroit, and a 2014 remake that starts from scratch.",
+  "poster": "/hHtOgGb3NihlyRATHlKPaFApbrd.jpg",
   "films": {
     "robocop87": {
       "t": "RoboCop",
       "y": 1987,
-      "set": "Near future"
+      "set": "Near future",
+      "poster": "/hHtOgGb3NihlyRATHlKPaFApbrd.jpg"
     },
     "robocop290": {
       "t": "RoboCop 2",
       "y": 1990,
-      "set": "Near future"
+      "set": "Near future",
+      "poster": "/nhqBxhOJXUJeFsyLxTFkctH9H5F.jpg"
     },
     "robocop393": {
       "t": "RoboCop 3",
       "y": 1993,
-      "set": "Near future"
+      "set": "Near future",
+      "poster": "/ppLSSwCuC5ERRWbu9H3R8SPL9AM.jpg"
     },
     "robocop14": {
       "t": "RoboCop",
       "y": 2014,
-      "set": "2028"
+      "set": "2028",
+      "poster": "/gM5ql3BKYmHG3WtZ0buKXN7xY8O.jpg"
     }
   },
   "release": [

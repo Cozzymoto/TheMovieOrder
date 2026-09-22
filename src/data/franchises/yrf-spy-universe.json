@@ -3,36 +3,43 @@
   "short": "Six films",
   "hue": 210,
   "blurb": "Bollywood's shared universe of spies, where separate series start crossing into each other.",
+  "poster": "/jGTyeAH5KZuCX6Qat1VcTBXnqth.jpg",
   "films": {
     "ektha12": {
       "t": "Ek Tha Tiger",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/jGTyeAH5KZuCX6Qat1VcTBXnqth.jpg"
     },
     "tigerzinda17": {
       "t": "Tiger Zinda Hai",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/mdzNLFfCfuBoJz43l0SmMWWdu5t.jpg"
     },
     "war19": {
       "t": "War",
       "y": 2019,
-      "set": "2019"
+      "set": "2019",
+      "poster": "/yUtaHkL2SDIAZhRApZAyQrAXygn.jpg"
     },
     "pathaan23": {
       "t": "Pathaan",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/arf00BkwvXo0CFKbaD9OpqdE4Nu.jpg"
     },
     "tiger323": {
       "t": "Tiger 3",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/7wgED7Yx9VLcNWSO91VgwicHmMD.jpg"
     },
     "war225": {
       "t": "War 2",
       "y": 2025,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/fxxVbjhIOl8ZPS69dH8xeeuxvmh.jpg"
     }
   },
   "release": [

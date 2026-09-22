@@ -3,16 +3,19 @@
   "short": "Two films, twenty-seven years apart in the story",
   "hue": 0,
   "blurb": "The same group of friends facing the same thing twice — as children in the 1980s, then as adults.",
+  "poster": "/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg",
   "films": {
     "it17": {
       "t": "It",
       "y": 2017,
-      "set": "1988–1989"
+      "set": "1988–1989",
+      "poster": "/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg"
     },
     "itchapter19": {
       "t": "It Chapter Two",
       "y": 2019,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/zfE0R94v1E8cuKAerbskfD3VfUt.jpg"
     }
   },
   "release": [

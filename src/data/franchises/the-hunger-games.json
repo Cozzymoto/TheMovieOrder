@@ -3,31 +3,37 @@
   "short": "Including The Ballad of Songbirds & Snakes",
   "hue": 38,
   "blurb": "Four films about Katniss, and one set sixty-four years earlier that quietly changes how you read the villain.",
+  "poster": "/apa5G43Hha7kH7wJG0gkkHT7FA9.jpg",
   "films": {
     "hg1": {
       "t": "The Hunger Games",
       "y": 2012,
-      "set": "74th Games"
+      "set": "74th Games",
+      "poster": "/apa5G43Hha7kH7wJG0gkkHT7FA9.jpg"
     },
     "cf": {
       "t": "The Hunger Games: Catching Fire",
       "y": 2013,
-      "set": "75th Games"
+      "set": "75th Games",
+      "poster": "/vrQHDXjVmbYzadOXQ0UaObunoy2.jpg"
     },
     "mj1": {
       "t": "The Hunger Games: Mockingjay – Part 1",
       "y": 2014,
-      "set": "After the 75th"
+      "set": "After the 75th",
+      "poster": "/4FAA18ZIja70d1Tu5hr5cj2q1sB.jpg"
     },
     "mj2": {
       "t": "The Hunger Games: Mockingjay – Part 2",
       "y": 2015,
-      "set": "The rebellion"
+      "set": "The rebellion",
+      "poster": "/lImKHDfExAulp16grYm8zD5eONE.jpg"
     },
     "ballad": {
       "t": "The Hunger Games: The Ballad of Songbirds & Snakes",
       "y": 2023,
-      "set": "10th Games"
+      "set": "10th Games",
+      "poster": "/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg"
     }
   },
   "release": [

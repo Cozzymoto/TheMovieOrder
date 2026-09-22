@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 200,
   "blurb": "A 1950s high school musical, and a sequel at the same school two years later.",
+  "poster": "/2rM7fQKpb7cs1Iq7IBqub9LFDzJ.jpg",
   "films": {
     "grease78": {
       "t": "Grease",
       "y": 1978,
-      "set": "1958–1959"
+      "set": "1958–1959",
+      "poster": "/2rM7fQKpb7cs1Iq7IBqub9LFDzJ.jpg"
     },
     "grease282": {
       "t": "Grease 2",
       "y": 1982,
-      "set": "1961"
+      "set": "1961",
+      "poster": "/ufWc8AR5D66lwB2UZvZ9xvGcDSD.jpg"
     }
   },
   "release": [

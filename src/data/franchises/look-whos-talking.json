@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 330,
   "blurb": "A romantic comedy narrated by a baby, then by a toddler, then by the family dogs.",
+  "poster": "/uVM0D7Q6U9H6xMSZmMdfwECih5h.jpg",
   "films": {
     "lookwhos89": {
       "t": "Look Who's Talking",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/uVM0D7Q6U9H6xMSZmMdfwECih5h.jpg"
     },
     "lookwhos90": {
       "t": "Look Who's Talking Too",
       "y": 1990,
-      "set": "1990"
+      "set": "1990",
+      "poster": "/m409mVHmvDOZJltNzHJYigUthsW.jpg"
     },
     "lookwhos93": {
       "t": "Look Who's Talking Now",
       "y": 1993,
-      "set": "1993"
+      "set": "1993",
+      "poster": "/73JahFiizkMVsrrslXInmNK54nC.jpg"
     }
   },
   "release": [

@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 210,
   "blurb": "Three films about a retired operative who can't stop intervening, each in a different city.",
+  "poster": "/9u4yW7yPA0BQ2pv9XwiNzItwvp8.jpg",
   "films": {
     "theequalizer14": {
       "t": "The Equalizer",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/9u4yW7yPA0BQ2pv9XwiNzItwvp8.jpg"
     },
     "theequalizer18": {
       "t": "The Equalizer 2",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/cQvc9N6JiMVKqol3wcYrGshsIdZ.jpg"
     },
     "theequalizer23": {
       "t": "The Equalizer 3",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg"
     }
   },
   "release": [

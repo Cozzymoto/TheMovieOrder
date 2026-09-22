@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 196,
   "blurb": "A cyborg officer questioning where her humanity ends, in two anime films and a live-action remake.",
+  "poster": "/9gC88zYUBARRSThcG93MvW14sqx.jpg",
   "films": {
     "ghostin95": {
       "t": "Ghost in the Shell",
       "y": 1995,
-      "set": "2029"
+      "set": "2029",
+      "poster": "/9gC88zYUBARRSThcG93MvW14sqx.jpg"
     },
     "ghostin04": {
       "t": "Ghost in the Shell 2: Innocence",
       "y": 2004,
-      "set": "2032"
+      "set": "2032",
+      "poster": "/1ZJRbLDVr90KLtKdmTT4WZhT26E.jpg"
     },
     "ghostin17": {
       "t": "Ghost in the Shell",
       "y": 2017,
-      "set": "—"
+      "set": "—",
+      "poster": "/zCtL3UBgCoZzd7XTVGhvl6XY75E.jpg"
     }
   },
   "release": [

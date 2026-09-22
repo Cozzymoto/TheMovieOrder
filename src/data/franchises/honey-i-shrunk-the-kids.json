@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 150,
   "blurb": "Three films about the same inventor's experiments going wrong in escalating ways.",
+  "poster": "/omQOzahi2NIeiYznNxHFDvNbvo6.jpg",
   "films": {
     "honeyi89": {
       "t": "Honey, I Shrunk the Kids",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/omQOzahi2NIeiYznNxHFDvNbvo6.jpg"
     },
     "honeyi92": {
       "t": "Honey, I Blew Up the Kid",
       "y": 1992,
-      "set": "1992"
+      "set": "1992",
+      "poster": "/4EGqDo2pP2ZL0TCcYDGnwsU8liQ.jpg"
     },
     "honeywe97": {
       "t": "Honey, We Shrunk Ourselves",
       "y": 1997,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/nbU3UgIjxNTrSSe2gcOSGQjf55a.jpg"
     }
   },
   "release": [

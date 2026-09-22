@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 222,
   "blurb": "Two films with the same anti-hero breaking into two different walled-off American cities.",
+  "poster": "/vH9llaphjAssRGi0k7e75tD40Ce.jpg",
   "films": {
     "escapefrom81": {
       "t": "Escape from New York",
       "y": 1981,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/vH9llaphjAssRGi0k7e75tD40Ce.jpg"
     },
     "escapefrom96": {
       "t": "Escape from L.A.",
       "y": 1996,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/3L9lL2eUsmLNNfENPwNOc82Hzpw.jpg"
     }
   },
   "release": [

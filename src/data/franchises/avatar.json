@@ -3,21 +3,25 @@
   "short": "Three films on Pandora",
   "hue": 192,
   "blurb": "Three films set on one moon, with a thirteen-year gap between the first two that the story matches almost exactly.",
+  "poster": "/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg",
   "films": {
     "avatar09": {
       "t": "Avatar",
       "y": 2009,
-      "set": "2154"
+      "set": "2154",
+      "poster": "/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg"
     },
     "avatarthe22": {
       "t": "Avatar: The Way of Water",
       "y": 2022,
-      "set": "2170"
+      "set": "2170",
+      "poster": "/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg"
     },
     "avatarfire25": {
       "t": "Avatar: Fire and Ash",
       "y": 2025,
-      "set": "2170"
+      "set": "2170",
+      "poster": "/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg"
     }
   },
   "release": [

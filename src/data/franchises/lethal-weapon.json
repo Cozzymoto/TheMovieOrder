@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 36,
   "blurb": "Four films across eleven years, with the same pair ageing in real time alongside the audience.",
+  "poster": "/6gt44oqb4nE8vflPElffeGwsHVl.jpg",
   "films": {
     "l87": {
       "t": "Lethal Weapon",
       "y": 1987,
-      "set": "1987"
+      "set": "1987",
+      "poster": "/6gt44oqb4nE8vflPElffeGwsHVl.jpg"
     },
     "l89": {
       "t": "Lethal Weapon 2",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/1EEIUw0tkX7AJZ1ikZrtKZZKlC6.jpg"
     },
     "l92": {
       "t": "Lethal Weapon 3",
       "y": 1992,
-      "set": "1992"
+      "set": "1992",
+      "poster": "/8FnOudDHPOY7MFJnvQMR1qpuyek.jpg"
     },
     "l98": {
       "t": "Lethal Weapon 4",
       "y": 1998,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/pTLliHRoG0Qwp6qycmrMB4bD3mr.jpg"
     }
   },
   "release": [

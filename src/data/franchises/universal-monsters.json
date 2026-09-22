@@ -3,71 +3,85 @@
   "short": "Dracula, Frankenstein and the crossovers",
   "hue": 200,
   "blurb": "The studio that invented the shared cinematic universe in the 1930s — separate monster films that eventually collided.",
+  "poster": "/ueVSPt7vAba0XScHWTDWS5tNxYX.jpg",
   "films": {
     "dracula31": {
       "t": "Dracula",
       "y": 1931,
-      "set": "1931"
+      "set": "1931",
+      "poster": "/ueVSPt7vAba0XScHWTDWS5tNxYX.jpg"
     },
     "frankenstein31": {
       "t": "Frankenstein",
       "y": 1931,
-      "set": "1931"
+      "set": "1931",
+      "poster": "/mu6wHwH0IwCCaEYtpqujuPJYat1.jpg"
     },
     "themummy32": {
       "t": "The Mummy",
       "y": 1932,
-      "set": "1932"
+      "set": "1932",
+      "poster": "/vSKpbZVvzqQcw6htiyEinbCY9vq.jpg"
     },
     "theinvisible33": {
       "t": "The Invisible Man",
       "y": 1933,
-      "set": "1933"
+      "set": "1933",
+      "poster": "/ejoVwGmEbTBrf78tqnTSO5g8iVz.jpg"
     },
     "brideof35": {
       "t": "Bride of Frankenstein",
       "y": 1935,
-      "set": "1935"
+      "set": "1935",
+      "poster": "/5241zUwe7rC17MNc2QpCBKKdp1N.jpg"
     },
     "draculasdaughter36": {
       "t": "Dracula's Daughter",
       "y": 1936,
-      "set": "1936"
+      "set": "1936",
+      "poster": "/y7xBkkRLcg1I0fXHO4yYC5SwBCX.jpg"
     },
     "sonof39": {
       "t": "Son of Frankenstein",
       "y": 1939,
-      "set": "1939"
+      "set": "1939",
+      "poster": "/oefhX4T3iWo2XFvaOunR7azWAo3.jpg"
     },
     "thewolf41": {
       "t": "The Wolf Man",
       "y": 1941,
-      "set": "1941"
+      "set": "1941",
+      "poster": "/vG8fu5syTtQLzK1hQXyi3ugOPNF.jpg"
     },
     "theghost42": {
       "t": "The Ghost of Frankenstein",
       "y": 1942,
-      "set": "1942"
+      "set": "1942",
+      "poster": "/aGKJ2kjNXHCLyWKMx3b8D5kKCag.jpg"
     },
     "frankensteinmeets43": {
       "t": "Frankenstein Meets the Wolf Man",
       "y": 1943,
-      "set": "1943"
+      "set": "1943",
+      "poster": "/eitxewmvmZXY7qoKpiVhdaFmwMz.jpg"
     },
     "houseof44": {
       "t": "House of Frankenstein",
       "y": 1944,
-      "set": "1944"
+      "set": "1944",
+      "poster": "/9HPcPasdgxjlSMlnyzIWrnGodOz.jpg"
     },
     "houseof45": {
       "t": "House of Dracula",
       "y": 1945,
-      "set": "1945"
+      "set": "1945",
+      "poster": "/x2HZq0CjGJbU90Q8Bm7jDKBM7ZG.jpg"
     },
     "abbottand48": {
       "t": "Abbott and Costello Meet Frankenstein",
       "y": 1948,
-      "set": "1948"
+      "set": "1948",
+      "poster": "/tCMtyjL7aFRalXBDkHKz1bMVRHm.jpg"
     }
   },
   "release": [

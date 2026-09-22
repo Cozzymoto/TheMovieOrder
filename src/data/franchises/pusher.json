@@ -3,21 +3,25 @@
   "short": "Nicolas Winding Refn's trilogy",
   "hue": 4,
   "blurb": "Three weeks in the Copenhagen drug trade, each told from a different man's point of view.",
+  "poster": "/9Myfvq4e2BySE5aosX8UzV9cUME.jpg",
   "films": {
     "pusher96": {
       "t": "Pusher",
       "y": 1996,
-      "set": "1996"
+      "set": "1996",
+      "poster": "/9Myfvq4e2BySE5aosX8UzV9cUME.jpg"
     },
     "withblood04": {
       "t": "With Blood on My Hands: Pusher II",
       "y": 2004,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/qxvyw5NZBphzWliVdSzn7gSxUel.jpg"
     },
     "imthe05": {
       "t": "I'm the Angel of Death: Pusher III",
       "y": 2005,
-      "set": "2005"
+      "set": "2005",
+      "poster": "/kLBQtXaKv9LDh7ie4yIvgrv5TmD.jpg"
     }
   },
   "release": [

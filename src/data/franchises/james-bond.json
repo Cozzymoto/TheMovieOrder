@@ -3,131 +3,157 @@
   "short": "All 25 Eon films",
   "hue": 216,
   "blurb": "Six actors, sixty years, and almost no continuity until 2006 — which is why release order is the only order that means anything here.",
+  "poster": "/9zCOLJmLNst0sCPZlkW1IRoH65E.jpg",
   "films": {
     "b01": {
       "t": "Dr. No",
       "y": 1962,
-      "set": "1962"
+      "set": "1962",
+      "poster": "/9zCOLJmLNst0sCPZlkW1IRoH65E.jpg"
     },
     "b02": {
       "t": "From Russia with Love",
       "y": 1963,
-      "set": "1963"
+      "set": "1963",
+      "poster": "/zx4V17FP8oclNvOpTgs2iCCtiYk.jpg"
     },
     "b03": {
       "t": "Goldfinger",
       "y": 1964,
-      "set": "1964"
+      "set": "1964",
+      "poster": "/aKNFzaqQgPzsGXnsMc4kJH5hFIV.jpg"
     },
     "b04": {
       "t": "Thunderball",
       "y": 1965,
-      "set": "1965"
+      "set": "1965",
+      "poster": "/wCc4qllaTDsQN8zgGkAgQrKO6N9.jpg"
     },
     "b05": {
       "t": "You Only Live Twice",
       "y": 1967,
-      "set": "1967"
+      "set": "1967",
+      "poster": "/gIhS0VC7YzI8pj6zfS3KxsxV0dS.jpg"
     },
     "b06": {
       "t": "On Her Majesty's Secret Service",
       "y": 1969,
-      "set": "1969"
+      "set": "1969",
+      "poster": "/m3KfbxvqaiAvRJ6MpguA3GuLdDQ.jpg"
     },
     "b07": {
       "t": "Diamonds Are Forever",
       "y": 1971,
-      "set": "1971"
+      "set": "1971",
+      "poster": "/ooDT0eKrWCxJCsn9JehPkD0QYNj.jpg"
     },
     "b08": {
       "t": "Live and Let Die",
       "y": 1973,
-      "set": "1973"
+      "set": "1973",
+      "poster": "/39qkrjqMZs6utwNmihVImC3ghas.jpg"
     },
     "b09": {
       "t": "The Man with the Golden Gun",
       "y": 1974,
-      "set": "1974"
+      "set": "1974",
+      "poster": "/xVkbKwGnBVNQ122GN5bCTMyPbWz.jpg"
     },
     "b10": {
       "t": "The Spy Who Loved Me",
       "y": 1977,
-      "set": "1977"
+      "set": "1977",
+      "poster": "/3ZxHKFxMYvAko680DsRgAZKWcLi.jpg"
     },
     "b11": {
       "t": "Moonraker",
       "y": 1979,
-      "set": "1979"
+      "set": "1979",
+      "poster": "/6LrJdXNmu5uHOVALZxVYd44Lva0.jpg"
     },
     "b12": {
       "t": "For Your Eyes Only",
       "y": 1981,
-      "set": "1981"
+      "set": "1981",
+      "poster": "/xV4Nnr6DjjERlqNikqDQX8LUgua.jpg"
     },
     "b13": {
       "t": "Octopussy",
       "y": 1983,
-      "set": "1983"
+      "set": "1983",
+      "poster": "/yoosZitM9igSk3Sd0sBXIhKlAh1.jpg"
     },
     "b14": {
       "t": "A View to a Kill",
       "y": 1985,
-      "set": "1985"
+      "set": "1985",
+      "poster": "/arJF829RP9cYvh0NU70dC5TtXSa.jpg"
     },
     "b15": {
       "t": "The Living Daylights",
       "y": 1987,
-      "set": "1987"
+      "set": "1987",
+      "poster": "/1oRlmWX9hewpn2B44wawBjHd7dx.jpg"
     },
     "b16": {
       "t": "Licence to Kill",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/8nzJve63EXA79HGAyidZwivZrQ2.jpg"
     },
     "b17": {
       "t": "GoldenEye",
       "y": 1995,
-      "set": "1995"
+      "set": "1995",
+      "poster": "/z0ljRnNxIO7CRBhLEO0DvLgAFPR.jpg"
     },
     "b18": {
       "t": "Tomorrow Never Dies",
       "y": 1997,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/gZm002w7q9yLOkltxT76TWGfdZX.jpg"
     },
     "b19": {
       "t": "The World Is Not Enough",
       "y": 1999,
-      "set": "1999"
+      "set": "1999",
+      "poster": "/wCb2msgoZPK01WIqry24M4xsM73.jpg"
     },
     "b20": {
       "t": "Die Another Day",
       "y": 2002,
-      "set": "2002"
+      "set": "2002",
+      "poster": "/bZmGqOhMhaLn8AoFMvFDct4tbrL.jpg"
     },
     "b21": {
       "t": "Casino Royale",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/lMrxYKKhd4lqRzwUHAy5gcx9PSO.jpg"
     },
     "b22": {
       "t": "Quantum of Solace",
       "y": 2008,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/e3DXXLJHGqMx9yYpXsql1XNljmM.jpg"
     },
     "b23": {
       "t": "Skyfall",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg"
     },
     "b24": {
       "t": "Spectre",
       "y": 2015,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/zj8ongFhtWNsVlfjOGo8pSr7PQg.jpg"
     },
     "b25": {
       "t": "No Time to Die",
       "y": 2021,
-      "set": "2020"
+      "set": "2020",
+      "poster": "/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg"
     }
   },
   "release": [

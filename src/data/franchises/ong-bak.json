@@ -3,21 +3,25 @@
   "short": "Three films, two of them prequels",
   "hue": 36,
   "blurb": "A Thai martial-arts breakthrough, and two follow-ups set six centuries earlier with no connection to it.",
+  "poster": "/oagqAwp48dMPoCT94yDJUDOCVPi.jpg",
   "films": {
     "ongbak03": {
       "t": "Ong-Bak",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/oagqAwp48dMPoCT94yDJUDOCVPi.jpg"
     },
     "ongbak08": {
       "t": "Ong-Bak 2",
       "y": 2008,
-      "set": "1431"
+      "set": "1431",
+      "poster": "/l6bfgohUpmhQtlhL0qREEuTLxjA.jpg"
     },
     "ongbak10": {
       "t": "Ong-Bak 3",
       "y": 2010,
-      "set": "1431"
+      "set": "1431",
+      "poster": "/sIVrOJVeLqPz9NwNa0e4FpqJCWK.jpg"
     }
   },
   "release": [

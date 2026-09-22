@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 270,
   "blurb": "Adaptations of the horror game, set in an abandoned family pizzeria.",
+  "poster": "/7BpNtNfxuocYEVREzVMO75hso1l.jpg",
   "films": {
     "fivenights23": {
       "t": "Five Nights at Freddy's",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/7BpNtNfxuocYEVREzVMO75hso1l.jpg"
     },
     "fivenights25": {
       "t": "Five Nights at Freddy's 2",
       "y": 2025,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/udAxQEORq2I5wxI97N2TEqdhzBE.jpg"
     }
   },
   "release": [

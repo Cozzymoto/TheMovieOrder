@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 46,
   "blurb": "Two films about ordinary people who try to become superheroes, with predictably messy results.",
+  "poster": "/iHMbrTHJwocsNvo5murCBw0CwTo.jpg",
   "films": {
     "kickass10": {
       "t": "Kick-Ass",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/iHMbrTHJwocsNvo5murCBw0CwTo.jpg"
     },
     "kickass13": {
       "t": "Kick-Ass 2",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/1go2A3gdQjaMuHWquybgoJlQRcX.jpg"
     }
   },
   "release": [

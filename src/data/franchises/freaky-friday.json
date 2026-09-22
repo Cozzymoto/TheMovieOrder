@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 320,
   "blurb": "A mother and daughter who swap bodies, and a sequel twenty-two years later that swaps four.",
+  "poster": "/y6kn3tUb4qrNZvV4TDIIjskZ9eV.jpg",
   "films": {
     "freakyfriday03": {
       "t": "Freaky Friday",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/y6kn3tUb4qrNZvV4TDIIjskZ9eV.jpg"
     },
     "freakierfriday25": {
       "t": "Freakier Friday",
       "y": 2025,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/9wV65OmsjLAqBfDnYTkMPutXH8j.jpg"
     }
   },
   "release": [

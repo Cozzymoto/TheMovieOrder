@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 30,
   "blurb": "A rabbit police officer and a fox con artist in a city built for animals.",
+  "poster": "/hlK0e0wAQ3VLuJcsfIYPvb4JVud.jpg",
   "films": {
     "zootropolis16": {
       "t": "Zootropolis",
       "y": 2016,
-      "set": "—"
+      "set": "—",
+      "poster": "/hlK0e0wAQ3VLuJcsfIYPvb4JVud.jpg"
     },
     "zootropolis225": {
       "t": "Zootropolis 2",
       "y": 2025,
-      "set": "—"
+      "set": "—",
+      "poster": "/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg"
     }
   },
   "release": [

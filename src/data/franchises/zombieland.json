@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 30,
   "blurb": "A zombie road trip governed by survival rules, and a sequel set ten years later.",
+  "poster": "/dUkAmAyPVqubSBNRjRqCgHggZcK.jpg",
   "films": {
     "zombieland09": {
       "t": "Zombieland",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/dUkAmAyPVqubSBNRjRqCgHggZcK.jpg"
     },
     "zombielanddouble19": {
       "t": "Zombieland: Double Tap",
       "y": 2019,
-      "set": "2019"
+      "set": "2019",
+      "poster": "/dtRbVsUb5O12WWO54SRpiMtHKC0.jpg"
     }
   },
   "release": [

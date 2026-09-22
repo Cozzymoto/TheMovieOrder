@@ -3,31 +3,37 @@
   "short": "Five films, three casts",
   "hue": 220,
   "blurb": "Lisbeth Salander and Mikael Blomkvist, in Sweden's trilogy, Hollywood's remake and a 2018 recast.",
+  "poster": "/r2pFUXKK20KD9RE3yybpQsNynRE.jpg",
   "films": {
     "thegirl09": {
       "t": "The Girl with the Dragon Tattoo",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/r2pFUXKK20KD9RE3yybpQsNynRE.jpg"
     },
     "thegirl09b": {
       "t": "The Girl Who Played with Fire",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/A8UjhPjINIBgmoH37aqt40u53PQ.jpg"
     },
     "thegirl09c": {
       "t": "The Girl Who Kicked the Hornets' Nest",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/92byRQBuuiLcfKnBi5NOuipSgV8.jpg"
     },
     "thegirl11": {
       "t": "The Girl with the Dragon Tattoo",
       "y": 2011,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/8bokS83zGdhaXgN9tjidUKmAftW.jpg"
     },
     "thegirl18": {
       "t": "The Girl in the Spider's Web",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/w4ibr8R702DCjwYniry1D1XwQXj.jpg"
     }
   },
   "release": [

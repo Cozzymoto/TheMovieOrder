@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 204,
   "blurb": "A teenager who discovers his father is a Greek god.",
+  "poster": "/brzpTyZ5bnM7s53C1KSk1TmrMO6.jpg",
   "films": {
     "percyjackson10": {
       "t": "Percy Jackson & the Olympians: The Lightning Thief",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/brzpTyZ5bnM7s53C1KSk1TmrMO6.jpg"
     },
     "percyjackson13": {
       "t": "Percy Jackson: Sea of Monsters",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/tAu90qEpLqwqiZLsMqpaMVr55oN.jpg"
     }
   },
   "release": [

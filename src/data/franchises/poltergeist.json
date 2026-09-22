@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 60,
   "blurb": "A trilogy following one haunted family through three houses, and a 2015 remake.",
+  "poster": "/4eMN3GANH5GG4kXdHkrTZEUuQ9M.jpg",
   "films": {
     "poltergeist82": {
       "t": "Poltergeist",
       "y": 1982,
-      "set": "1982"
+      "set": "1982",
+      "poster": "/4eMN3GANH5GG4kXdHkrTZEUuQ9M.jpg"
     },
     "poltergeistii86": {
       "t": "Poltergeist II: The Other Side",
       "y": 1986,
-      "set": "1986"
+      "set": "1986",
+      "poster": "/tVQPv69XWIgzF5n1MRrTuhPyNr5.jpg"
     },
     "poltergeistiii88": {
       "t": "Poltergeist III",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/pLewUibOJLGISvMqB94mAMdjz2q.jpg"
     },
     "poltergeist15": {
       "t": "Poltergeist",
       "y": 2015,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/jBXupXZ7WEPUpkYFpkQsdipwBQn.jpg"
     }
   },
   "release": [

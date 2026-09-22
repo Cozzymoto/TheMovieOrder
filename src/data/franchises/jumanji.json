@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 124,
   "blurb": "A 1995 original about a board game, and two sequels decades later that turn it into a video game.",
+  "poster": "/bdHG5Mo83VPobeZZdlSz0Y7HQHB.jpg",
   "films": {
     "jumanji95": {
       "t": "Jumanji",
       "y": 1995,
-      "set": "1969 & 1995"
+      "set": "1969 & 1995",
+      "poster": "/bdHG5Mo83VPobeZZdlSz0Y7HQHB.jpg"
     },
     "jumanjiwelcome17": {
       "t": "Jumanji: Welcome to the Jungle",
       "y": 2017,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/pSgXKPU5h6U89ipF7HBYajvYt7j.jpg"
     },
     "jumanjithe19": {
       "t": "Jumanji: The Next Level",
       "y": 2019,
-      "set": "2019"
+      "set": "2019",
+      "poster": "/jyw8VKYEiM1UDzPB7NsisUgBeJ8.jpg"
     }
   },
   "release": [

@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 160,
   "blurb": "A British scientist confronting alien threats, adapted from the landmark BBC serials.",
+  "poster": "/lm6cQiUjJ0AUUqESI9WWM7veIbp.jpg",
   "films": {
     "thequatermass55": {
       "t": "The Quatermass Xperiment",
       "y": 1955,
-      "set": "1955"
+      "set": "1955",
+      "poster": "/lm6cQiUjJ0AUUqESI9WWM7veIbp.jpg"
     },
     "quatermass257": {
       "t": "Quatermass 2",
       "y": 1957,
-      "set": "1957"
+      "set": "1957",
+      "poster": "/hJJtV5puzYAODgck0JTWVX8zjKu.jpg"
     },
     "quatermassand67": {
       "t": "Quatermass and the Pit",
       "y": 1967,
-      "set": "1967"
+      "set": "1967",
+      "poster": "/AvruSt4xRIbXO8gVxPzHupbf5A2.jpg"
     }
   },
   "release": [

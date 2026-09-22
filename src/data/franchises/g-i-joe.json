@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 100,
   "blurb": "The toy line's special-forces team, and a spin-off about its silent ninja.",
+  "poster": "/mc9b25IAprHfsaOz0wTshOwGHcY.jpg",
   "films": {
     "gi09": {
       "t": "G.I. Joe: The Rise of Cobra",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/mc9b25IAprHfsaOz0wTshOwGHcY.jpg"
     },
     "gi13": {
       "t": "G.I. Joe: Retaliation",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/3rWIZMzTKcCtV0eHJ70Z4Ru659f.jpg"
     },
     "snakeeyes21": {
       "t": "Snake Eyes",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg"
     }
   },
   "release": [

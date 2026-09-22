@@ -4,71 +4,85 @@
   "hue": 28,
   "blurb": "Two casts, one timeline, and a time-travel film in the middle that quietly rewrites half of it. Chronological order here is a genuine untangling job.",
   "rank": 4,
+  "poster": "/bRDAc4GogyS9ci3ow7UnInOcriN.jpg",
   "films": {
     "x1": {
       "t": "X-Men",
       "y": 2000,
-      "set": "2000s"
+      "set": "2000s",
+      "poster": "/bRDAc4GogyS9ci3ow7UnInOcriN.jpg"
     },
     "x2": {
       "t": "X2",
       "y": 2003,
-      "set": "2000s"
+      "set": "2000s",
+      "poster": "/bst4alFUXCxISwdRUKSMhhkrX1M.jpg"
     },
     "x3": {
       "t": "X-Men: The Last Stand",
       "y": 2006,
-      "set": "2000s"
+      "set": "2000s",
+      "poster": "/a2xicU8DpKtRizOHjQLC1JyCSRS.jpg"
     },
     "origins": {
       "t": "X-Men Origins: Wolverine",
       "y": 2009,
-      "set": "1845–1979"
+      "set": "1845–1979",
+      "poster": "/yj8LbTju1p7CUJg7US2unSBk33s.jpg"
     },
     "fc": {
       "t": "X-Men: First Class",
       "y": 2011,
-      "set": "1962"
+      "set": "1962",
+      "poster": "/hNEokmUke0dazoBhttFN0o3L7Xv.jpg"
     },
     "wolverine": {
       "t": "The Wolverine",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/t2wVAcoRlKvEIVSbiYDb8d0QqqS.jpg"
     },
     "dofp": {
       "t": "X-Men: Days of Future Past",
       "y": 2014,
-      "set": "1973 & 2023"
+      "set": "1973 & 2023",
+      "poster": "/tYfijzolzgoMOtegh1Y7j2Enorg.jpg"
     },
     "dp": {
       "t": "Deadpool",
       "y": 2016,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/3E53WEZJqP6aM84D8CckXx4pIHw.jpg"
     },
     "apoc": {
       "t": "X-Men: Apocalypse",
       "y": 2016,
-      "set": "1983"
+      "set": "1983",
+      "poster": "/ikA8UhYdTGpqbatFa93nIf6noSr.jpg"
     },
     "logan": {
       "t": "Logan",
       "y": 2017,
-      "set": "2029"
+      "set": "2029",
+      "poster": "/fnbjcRDYn6YviCcePDnGdyAkYsB.jpg"
     },
     "dp2": {
       "t": "Deadpool 2",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg"
     },
     "phoenix": {
       "t": "Dark Phoenix",
       "y": 2019,
-      "set": "1992"
+      "set": "1992",
+      "poster": "/cCTJPelKGLhALq3r51A9uMonxKj.jpg"
     },
     "mutants": {
       "t": "The New Mutants",
       "y": 2020,
-      "set": "2010s"
+      "set": "2010s",
+      "poster": "/xiDGcXJTvu1lazFRYip6g1eLt9c.jpg"
     }
   },
   "release": [

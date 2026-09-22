@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 48,
   "blurb": "A time-travel trilogy where release order and story order match perfectly, despite visiting 1885, 1955, 1985 and 2015.",
+  "poster": "/vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg",
   "films": {
     "b85": {
       "t": "Back to the Future",
       "y": 1985,
-      "set": "1985 & 1955"
+      "set": "1985 & 1955",
+      "poster": "/vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg"
     },
     "b89": {
       "t": "Back to the Future Part II",
       "y": 1989,
-      "set": "2015 & 1955"
+      "set": "2015 & 1955",
+      "poster": "/hQq8xZe5uLjFzSBt4LanNP7SQjl.jpg"
     },
     "b90": {
       "t": "Back to the Future Part III",
       "y": 1990,
-      "set": "1885"
+      "set": "1885",
+      "poster": "/crzoVQnMzIrRfHtQw0tLBirNfVg.jpg"
     }
   },
   "release": [

@@ -3,51 +3,61 @@
   "short": "Nine films over five decades",
   "hue": 100,
   "blurb": "Six films about one boxer, then three about the son of his greatest rival — one continuous story running from 1976 to the present.",
+  "poster": "/xSI0dbKLDETwhiVUy6hGE8KXUln.jpg",
   "films": {
     "r76": {
       "t": "Rocky",
       "y": 1976,
-      "set": "1976"
+      "set": "1976",
+      "poster": "/xSI0dbKLDETwhiVUy6hGE8KXUln.jpg"
     },
     "r79": {
       "t": "Rocky II",
       "y": 1979,
-      "set": "1979"
+      "set": "1979",
+      "poster": "/nMaiiu0CzT77U4JZkUYV7KqdAjK.jpg"
     },
     "r82": {
       "t": "Rocky III",
       "y": 1982,
-      "set": "1982"
+      "set": "1982",
+      "poster": "/uqw16i2kmwVqkJHzjzbDU4xZ0Pl.jpg"
     },
     "r85": {
       "t": "Rocky IV",
       "y": 1985,
-      "set": "1985"
+      "set": "1985",
+      "poster": "/2MHUit4H6OK5adcOjnCN6suCKOl.jpg"
     },
     "r90": {
       "t": "Rocky V",
       "y": 1990,
-      "set": "1990"
+      "set": "1990",
+      "poster": "/tevHaVxtrMTaUi8f3YjLWYSSY8A.jpg"
     },
     "r06": {
       "t": "Rocky Balboa",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/byBlJvZwCqgtIwrZNv0pyE974jC.jpg"
     },
     "c15": {
       "t": "Creed",
       "y": 2015,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/1BfTsk5VWuw8FCocAhCyqnRbEzq.jpg"
     },
     "c18": {
       "t": "Creed II",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/v3QyboWRoA4O9RbcsqH8tJMe8EB.jpg"
     },
     "c23": {
       "t": "Creed III",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/cvsXj3I9Q2iyyIo95AecSd1tad7.jpg"
     }
   },
   "release": [

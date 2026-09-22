@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 196,
   "blurb": "A boy and the captive orca he sets out to free.",
+  "poster": "/9iBgd9gi9ztWiVcYSG6zl8wDFBN.jpg",
   "films": {
     "freewilly93": {
       "t": "Free Willy",
       "y": 1993,
-      "set": "1993"
+      "set": "1993",
+      "poster": "/9iBgd9gi9ztWiVcYSG6zl8wDFBN.jpg"
     },
     "freewilly95": {
       "t": "Free Willy 2: The Adventure Home",
       "y": 1995,
-      "set": "1995"
+      "set": "1995",
+      "poster": "/3wpug3W5rYBdqeAnhc1UeXLE5ZF.jpg"
     },
     "freewilly97": {
       "t": "Free Willy 3: The Rescue",
       "y": 1997,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/xzca4bxgP2aEMlPTyq5vqhsunFB.jpg"
     }
   },
   "release": [

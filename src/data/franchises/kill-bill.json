@@ -3,16 +3,19 @@
   "short": "One film in two volumes",
   "hue": 48,
   "blurb": "A single revenge story split into two releases, told in chapters that jump around in time.",
+  "poster": "/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
   "films": {
     "killbill03": {
       "t": "Kill Bill: Volume 1",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg"
     },
     "killbill04": {
       "t": "Kill Bill: Volume 2",
       "y": 2004,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg"
     }
   },
   "release": [

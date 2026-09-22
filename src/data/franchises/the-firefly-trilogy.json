@@ -3,21 +3,25 @@
   "short": "Rob Zombie's three films",
   "hue": 24,
   "blurb": "A family of killers in 1970s Texas, told as a haunted-house film, a road movie and a prison-break sequel.",
+  "poster": "/29c2qgXmSREosLBevOILEuMWzQC.jpg",
   "films": {
     "houseof03": {
       "t": "House of 1000 Corpses",
       "y": 2003,
-      "set": "1977"
+      "set": "1977",
+      "poster": "/29c2qgXmSREosLBevOILEuMWzQC.jpg"
     },
     "thedevils05": {
       "t": "The Devil's Rejects",
       "y": 2005,
-      "set": "1978"
+      "set": "1978",
+      "poster": "/drZz4AuI7trq6BxlH9Xa4v4O0Pb.jpg"
     },
     "f3from19": {
       "t": "3 from Hell",
       "y": 2019,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/iaURDnsqwTpFdg7RuizUp0nI2I4.jpg"
     }
   },
   "release": [

@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 14,
   "blurb": "A bus that cannot slow down, and a sequel that swaps it for a cruise ship.",
+  "poster": "/82PkCE4R95KhHICUDF7G4Ly2z3l.jpg",
   "films": {
     "speed94": {
       "t": "Speed",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/82PkCE4R95KhHICUDF7G4Ly2z3l.jpg"
     },
     "speed297": {
       "t": "Speed 2: Cruise Control",
       "y": 1997,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/gnK1ocpwUTj24zAktzomOJsD2bu.jpg"
     }
   },
   "release": [

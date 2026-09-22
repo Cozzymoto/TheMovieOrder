@@ -3,61 +3,73 @@
   "short": "Eleven films",
   "hue": 330,
   "blurb": "Inspector Clouseau's bumbling career across four decades, three actors and one cartoon cat.",
+  "poster": "/aCjJ0sKayks2uL7MJBzdp2i67NI.jpg",
   "films": {
     "thepink63": {
       "t": "The Pink Panther",
       "y": 1963,
-      "set": "1963"
+      "set": "1963",
+      "poster": "/aCjJ0sKayks2uL7MJBzdp2i67NI.jpg"
     },
     "ashot64": {
       "t": "A Shot in the Dark",
       "y": 1964,
-      "set": "1964"
+      "set": "1964",
+      "poster": "/pR6tNqNLYIbRRYC5TFKWVWaVvvK.jpg"
     },
     "inspectorclouseau68": {
       "t": "Inspector Clouseau",
       "y": 1968,
-      "set": "1968"
+      "set": "1968",
+      "poster": "/gpL8PDb0dzXkqZaevYvO1hAidS8.jpg"
     },
     "thereturn75": {
       "t": "The Return of the Pink Panther",
       "y": 1975,
-      "set": "1975"
+      "set": "1975",
+      "poster": "/cDi6lHXmY12SxtjcP6IdK7mB3W1.jpg"
     },
     "thepink76": {
       "t": "The Pink Panther Strikes Again",
       "y": 1976,
-      "set": "1976"
+      "set": "1976",
+      "poster": "/GGCch9LNAKwp4ZADAcNz1hd1dn.jpg"
     },
     "revengeof78": {
       "t": "Revenge of the Pink Panther",
       "y": 1978,
-      "set": "1978"
+      "set": "1978",
+      "poster": "/pvFiI8Kkq6JIf9uxDUU5FEvet7f.jpg"
     },
     "trailof82": {
       "t": "Trail of the Pink Panther",
       "y": 1982,
-      "set": "1982"
+      "set": "1982",
+      "poster": "/l2Gv4I8CN28aflcqecPgb0NKh63.jpg"
     },
     "curseof83": {
       "t": "Curse of the Pink Panther",
       "y": 1983,
-      "set": "1983"
+      "set": "1983",
+      "poster": "/vd4bjWY1wJrjjl0c0ar2wccGT96.jpg"
     },
     "sonof93": {
       "t": "Son of the Pink Panther",
       "y": 1993,
-      "set": "1993"
+      "set": "1993",
+      "poster": "/vSBzy0XtZvJQ4N9KLoWvblprZY2.jpg"
     },
     "thepink06": {
       "t": "The Pink Panther",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/57ViRkdsddHLK32W8Nf3ZPLSAu4.jpg"
     },
     "thepink09": {
       "t": "The Pink Panther 2",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/aPg6iZjnBUlsmnCSGHX85T82AJ4.jpg"
     }
   },
   "release": [

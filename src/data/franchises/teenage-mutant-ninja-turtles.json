@@ -3,41 +3,49 @@
   "short": "Seven films",
   "hue": 104,
   "blurb": "A live-action trilogy, an animated follow-up, two Michael Bay-produced films, and an animated reboot.",
+  "poster": "/shfAU6xIIEAEtsloIT3n9Fscz2E.jpg",
   "films": {
     "teenagemutant90": {
       "t": "Teenage Mutant Ninja Turtles",
       "y": 1990,
-      "set": "—"
+      "set": "—",
+      "poster": "/shfAU6xIIEAEtsloIT3n9Fscz2E.jpg"
     },
     "teenagemutant91": {
       "t": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
       "y": 1991,
-      "set": "—"
+      "set": "—",
+      "poster": "/Hyvvz9Z3le1is8a0EeFJQm0aSC.jpg"
     },
     "teenagemutant93": {
       "t": "Teenage Mutant Ninja Turtles III",
       "y": 1993,
-      "set": "—"
+      "set": "—",
+      "poster": "/fwX5RdPDBFsbEAXc46DrvRz5Bca.jpg"
     },
     "tmnt07": {
       "t": "TMNT",
       "y": 2007,
-      "set": "—"
+      "set": "—",
+      "poster": "/4gqJP2kr9dCvCHCrCjtbp1k0SU7.jpg"
     },
     "teenagemutant14": {
       "t": "Teenage Mutant Ninja Turtles",
       "y": 2014,
-      "set": "—"
+      "set": "—",
+      "poster": "/azL2ThbJMIkts3ZMt3j1YgBUeDB.jpg"
     },
     "teenagemutant16": {
       "t": "Teenage Mutant Ninja Turtles: Out of the Shadows",
       "y": 2016,
-      "set": "—"
+      "set": "—",
+      "poster": "/euVaCiCWz3AALcQXHT6aUqdGUo6.jpg"
     },
     "teenagemutant23": {
       "t": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
       "y": 2023,
-      "set": "—"
+      "set": "—",
+      "poster": "/gyh0eECE2IqrW8GWl3KoHBfc45j.jpg"
     }
   },
   "release": [

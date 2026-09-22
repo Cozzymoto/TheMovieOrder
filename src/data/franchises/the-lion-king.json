@@ -3,31 +3,37 @@
   "short": "Five films, two continuities",
   "hue": 40,
   "blurb": "The animated original with two follow-ups, plus the 2019 remake and a 2024 prequel to it.",
+  "poster": "/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
   "films": {
     "thelion94": {
       "t": "The Lion King",
       "y": 1994,
-      "set": "—"
+      "set": "—",
+      "poster": "/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg"
     },
     "thelion98": {
       "t": "The Lion King II: Simba's Pride",
       "y": 1998,
-      "set": "—"
+      "set": "—",
+      "poster": "/sWR1x6UCMCGN9xEf8RGhPS934X0.jpg"
     },
     "thelion04": {
       "t": "The Lion King 1½",
       "y": 2004,
-      "set": "Before & during the original"
+      "set": "Before & during the original",
+      "poster": "/u2hN0WT7Dz46HfhQbr6uzSYfVW4.jpg"
     },
     "thelion19": {
       "t": "The Lion King",
       "y": 2019,
-      "set": "—"
+      "set": "—",
+      "poster": "/dzBtMocZuJbjLOXvrl4zGYigDzh.jpg"
     },
     "mufasathe24": {
       "t": "Mufasa: The Lion King",
       "y": 2024,
-      "set": "Before the 2019 film"
+      "set": "Before the 2019 film",
+      "poster": "/jbOSUAWMGzGL1L4EaUF8K6zYFo7.jpg"
     }
   },
   "release": [

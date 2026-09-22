@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 40,
   "blurb": "Perseus against the gods, and a sequel ten years later.",
+  "poster": "/6iHYLipwEyZUPNO8MM3l1yHDaFE.jpg",
   "films": {
     "clashof10": {
       "t": "Clash of the Titans",
       "y": 2010,
-      "set": "Ancient Greece"
+      "set": "Ancient Greece",
+      "poster": "/6iHYLipwEyZUPNO8MM3l1yHDaFE.jpg"
     },
     "wrathof12": {
       "t": "Wrath of the Titans",
       "y": 2012,
-      "set": "Ancient Greece"
+      "set": "Ancient Greece",
+      "poster": "/b9n2R3xZWQ8MVZgndQoV34stS0h.jpg"
     }
   },
   "release": [

@@ -3,21 +3,25 @@
   "short": "Three films, one a prequel",
   "hue": 220,
   "blurb": "A police mole inside the triads and a triad mole inside the police, each hunting the other.",
+  "poster": "/gix9thDBXfjJ8M7rYbihqbQGBcP.jpg",
   "films": {
     "infernalaffairs02": {
       "t": "Infernal Affairs",
       "y": 2002,
-      "set": "2002"
+      "set": "2002",
+      "poster": "/gix9thDBXfjJ8M7rYbihqbQGBcP.jpg"
     },
     "infernalaffairs03": {
       "t": "Infernal Affairs II",
       "y": 2003,
-      "set": "1991–1997"
+      "set": "1991–1997",
+      "poster": "/q9MCjc4CMXju59slJEzYEtr7F3W.jpg"
     },
     "infernalaffairs03b": {
       "t": "Infernal Affairs III",
       "y": 2003,
-      "set": "Before & after the first film"
+      "set": "Before & after the first film",
+      "poster": "/kXTHj16K8Lr1EgwdzuzAB1j4Cy5.jpg"
     }
   },
   "release": [

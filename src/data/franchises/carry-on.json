@@ -3,161 +3,193 @@
   "short": "All 31 films",
   "hue": 14,
   "blurb": "Britain's longest-running film series — thirty-one comedies from 1958 to 1992, sharing a cast rather than a story.",
+  "poster": "/5nb596JUBIugTkBFugD9Ek6TKJl.jpg",
   "films": {
     "carryon58": {
       "t": "Carry On Sergeant",
       "y": 1958,
-      "set": "1958"
+      "set": "1958",
+      "poster": "/5nb596JUBIugTkBFugD9Ek6TKJl.jpg"
     },
     "carryon59": {
       "t": "Carry On Nurse",
       "y": 1959,
-      "set": "1959"
+      "set": "1959",
+      "poster": "/5Na65YOj6s9HQM7e1YOhz0Upl13.jpg"
     },
     "carryon59b": {
       "t": "Carry On Teacher",
       "y": 1959,
-      "set": "1959"
+      "set": "1959",
+      "poster": "/lzbezW3U4PzopuEGSGVjHfiPdpJ.jpg"
     },
     "carryon60": {
       "t": "Carry On Constable",
       "y": 1960,
-      "set": "1960"
+      "set": "1960",
+      "poster": "/pXdjlhYe3bjKLDebwib5SPkxEea.jpg"
     },
     "carryon61": {
       "t": "Carry On Regardless",
       "y": 1961,
-      "set": "1961"
+      "set": "1961",
+      "poster": "/axFLimJw7un1RKFcPjGeoonmU0b.jpg"
     },
     "carryon62": {
       "t": "Carry On Cruising",
       "y": 1962,
-      "set": "1962"
+      "set": "1962",
+      "poster": "/uGdrTIuUQK5NkEwVjts1BLn9w9X.jpg"
     },
     "carryon63": {
       "t": "Carry On Cabby",
       "y": 1963,
-      "set": "1963"
+      "set": "1963",
+      "poster": "/3S9fkzkl3kqgnlZUvBF1SqYKVm0.jpg"
     },
     "carryon64": {
       "t": "Carry On Jack",
       "y": 1964,
-      "set": "1805"
+      "set": "1805",
+      "poster": "/bbX36nhu01POs4ZQjJVXrNP53CP.jpg"
     },
     "carryon64b": {
       "t": "Carry On Spying",
       "y": 1964,
-      "set": "1964"
+      "set": "1964",
+      "poster": "/tjzKu4m1XEGi2rmzzP3LOrHyChu.jpg"
     },
     "carryon64c": {
       "t": "Carry On Cleo",
       "y": 1964,
-      "set": "Ancient Rome"
+      "set": "Ancient Rome",
+      "poster": "/7Qsuxb8TkKKJDIWqMdRsKTML9IL.jpg"
     },
     "carryon65": {
       "t": "Carry On Cowboy",
       "y": 1965,
-      "set": "Wild West"
+      "set": "Wild West",
+      "poster": "/22EXyio02raVcI6dt6X69NoxBSy.jpg"
     },
     "carryon66": {
       "t": "Carry On Screaming!",
       "y": 1966,
-      "set": "1900s"
+      "set": "1900s",
+      "poster": "/wdx7B9BjOBSmMJYYdmdbY55JquJ.jpg"
     },
     "dontlose67": {
       "t": "Don't Lose Your Head",
       "y": 1967,
-      "set": "French Revolution"
+      "set": "French Revolution",
+      "poster": "/tZE4PPIX1qhUZjyajzDLwsEZtVT.jpg"
     },
     "followthat67": {
       "t": "Follow That Camel",
       "y": 1967,
-      "set": "1900s"
+      "set": "1900s",
+      "poster": "/v6JcQoUgI33c3qKfYw8SMWA7qag.jpg"
     },
     "carryon67": {
       "t": "Carry On Doctor",
       "y": 1967,
-      "set": "1967"
+      "set": "1967",
+      "poster": "/97lWSFqD1LU13Acj4TS1um4ltMH.jpg"
     },
     "carryon68": {
       "t": "Carry On Up the Khyber",
       "y": 1968,
-      "set": "1895"
+      "set": "1895",
+      "poster": "/onwpgb0KjgmKbclw3XUE2XgkZfM.jpg"
     },
     "carryon69": {
       "t": "Carry On Camping",
       "y": 1969,
-      "set": "1969"
+      "set": "1969",
+      "poster": "/t1lFHqOXCJW5yo6MK5d7EdnnJsL.jpg"
     },
     "carryon69b": {
       "t": "Carry On Again Doctor",
       "y": 1969,
-      "set": "1969"
+      "set": "1969",
+      "poster": "/qOmUS5fdhjT8nnQI1WiMOyGDm9J.jpg"
     },
     "carryon70": {
       "t": "Carry On Up the Jungle",
       "y": 1970,
-      "set": "Victorian era"
+      "set": "Victorian era",
+      "poster": "/r8zrAhPIwY6oh7IN4TZkNfFVPla.jpg"
     },
     "carryon70b": {
       "t": "Carry On Loving",
       "y": 1970,
-      "set": "1970"
+      "set": "1970",
+      "poster": "/adUhM6u0drfMqEMBsc8ybXMICgO.jpg"
     },
     "carryon71": {
       "t": "Carry On Henry",
       "y": 1971,
-      "set": "Tudor England"
+      "set": "Tudor England",
+      "poster": "/sU2OyxyGsZm2c9h3MkxQO2wg33h.jpg"
     },
     "carryon71b": {
       "t": "Carry On at Your Convenience",
       "y": 1971,
-      "set": "1971"
+      "set": "1971",
+      "poster": "/8BRVvZOWEO86tsey3KsGNucpmgH.jpg"
     },
     "carryon72": {
       "t": "Carry On Matron",
       "y": 1972,
-      "set": "1972"
+      "set": "1972",
+      "poster": "/6Nuin5NRIPYgnJkfd23XGZmraGj.jpg"
     },
     "carryon72b": {
       "t": "Carry On Abroad",
       "y": 1972,
-      "set": "1972"
+      "set": "1972",
+      "poster": "/2x2D6yhDJHz5hKM9tWHjP6IIFdU.jpg"
     },
     "carryon73": {
       "t": "Carry On Girls",
       "y": 1973,
-      "set": "1973"
+      "set": "1973",
+      "poster": "/lSRcLXg4pz5yg7KQ3fhrRxSXgT3.jpg"
     },
     "carryon74": {
       "t": "Carry On Dick",
       "y": 1974,
-      "set": "1750"
+      "set": "1750",
+      "poster": "/3ShJqgijkZHHrk0WiSkHhxeLzyn.jpg"
     },
     "carryon75": {
       "t": "Carry On Behind",
       "y": 1975,
-      "set": "1975"
+      "set": "1975",
+      "poster": "/a8IglMzitC581htTQ1Vsb0cRSJ8.jpg"
     },
     "carryon76": {
       "t": "Carry On England",
       "y": 1976,
-      "set": "1940"
+      "set": "1940",
+      "poster": "/e44o6rtxR1W3fLa9jumnff2bHXv.jpg"
     },
     "thatscarry77": {
       "t": "That's Carry On!",
       "y": 1977,
-      "set": "1977"
+      "set": "1977",
+      "poster": "/kvkjy9qN6p3CEtJnDZyUpTjB5az.jpg"
     },
     "carryon78": {
       "t": "Carry On Emmannuelle",
       "y": 1978,
-      "set": "1978"
+      "set": "1978",
+      "poster": "/7rqbcS8SVPDI50JfhyeV5J0tFWx.jpg"
     },
     "carryon92": {
       "t": "Carry On Columbus",
       "y": 1992,
-      "set": "1492"
+      "set": "1492",
+      "poster": "/i2xYxXo2j8RCqxDQCs0c2xxqw8s.jpg"
     }
   },
   "release": [

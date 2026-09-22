@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 30,
   "blurb": "An epic in two parts about a kingdom, its rightful heir and the man who betrayed his father.",
+  "poster": "/9BAjt8nSSms62uOVYn1t3C3dVto.jpg",
   "films": {
     "baahubalithe15": {
       "t": "Baahubali: The Beginning",
       "y": 2015,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/9BAjt8nSSms62uOVYn1t3C3dVto.jpg"
     },
     "baahubali217": {
       "t": "Baahubali 2: The Conclusion",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/21sC2assImQIYCEDA84Qh9d1RsK.jpg"
     }
   },
   "release": [

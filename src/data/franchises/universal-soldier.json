@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 200,
   "blurb": "Dead soldiers reanimated as super-soldiers, in a series that rewrites itself halfway through.",
+  "poster": "/fp0mWrHl1SW9PhP8QcsgYPoVYFc.jpg",
   "films": {
     "universalsoldier92": {
       "t": "Universal Soldier",
       "y": 1992,
-      "set": "1992"
+      "set": "1992",
+      "poster": "/fp0mWrHl1SW9PhP8QcsgYPoVYFc.jpg"
     },
     "universalsoldier99": {
       "t": "Universal Soldier: The Return",
       "y": 1999,
-      "set": "1999"
+      "set": "1999",
+      "poster": "/qlcPJK0Me8aUtDPwk3TqN2RdKH4.jpg"
     },
     "universalsoldier09": {
       "t": "Universal Soldier: Regeneration",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/hYLzRwCcCyTVKGBRAiHEW7NOEni.jpg"
     },
     "universalsoldier12": {
       "t": "Universal Soldier: Day of Reckoning",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/4fMTRrkCwACBTunF3L36Rao365u.jpg"
     }
   },
   "release": [

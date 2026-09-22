@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 20,
   "blurb": "A bear from Peru who arrives in London with a label round his neck, and never really leaves.",
+  "poster": "/wpchRGhRhvhtU083PfX2yixXtiw.jpg",
   "films": {
     "paddington14": {
       "t": "Paddington",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/wpchRGhRhvhtU083PfX2yixXtiw.jpg"
     },
     "paddington217": {
       "t": "Paddington 2",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/1OJ9vkD5xPt3skC6KguyXAgagRZ.jpg"
     },
     "paddingtonin24": {
       "t": "Paddington in Peru",
       "y": 2024,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/1ffZAucqfvQu36x1C49XfOdjuOG.jpg"
     }
   },
   "release": [

@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 16,
   "blurb": "A 1970s newsreader, and a sequel that follows him into the birth of 24-hour news.",
+  "poster": "/mhZIcRePT7U8viFQVjt1ZjYIsR4.jpg",
   "films": {
     "anchormanthe04": {
       "t": "Anchorman: The Legend of Ron Burgundy",
       "y": 2004,
-      "set": "1970s"
+      "set": "1970s",
+      "poster": "/mhZIcRePT7U8viFQVjt1ZjYIsR4.jpg"
     },
     "anchorman213": {
       "t": "Anchorman 2: The Legend Continues",
       "y": 2013,
-      "set": "1980"
+      "set": "1980",
+      "poster": "/BAdmxMdCqzjs6hx3KuEtnoWP8d.jpg"
     }
   },
   "release": [

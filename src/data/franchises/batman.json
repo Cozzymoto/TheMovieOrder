@@ -3,46 +3,55 @@
   "short": "Every live-action Batman film",
   "hue": 212,
   "blurb": "Three separate Batmen across four decades — Burton's, Nolan's and Reeves's — none of which acknowledge the others.",
+  "poster": "/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg",
   "films": {
     "batman89": {
       "t": "Batman",
       "y": 1989,
-      "set": "—"
+      "set": "—",
+      "poster": "/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg"
     },
     "batmanreturns92": {
       "t": "Batman Returns",
       "y": 1992,
-      "set": "—"
+      "set": "—",
+      "poster": "/jKBjeXM7iBBV9UkUcOXx3m7FSHY.jpg"
     },
     "batmanforever95": {
       "t": "Batman Forever",
       "y": 1995,
-      "set": "—"
+      "set": "—",
+      "poster": "/i0fJS8M5UKoETjjJ0zwUiKaR8tr.jpg"
     },
     "batmanand97": {
       "t": "Batman & Robin",
       "y": 1997,
-      "set": "—"
+      "set": "—",
+      "poster": "/i7hEUpDuMN2LOrCEifFyGSHZQSY.jpg"
     },
     "batmanbegins05": {
       "t": "Batman Begins",
       "y": 2005,
-      "set": "—"
+      "set": "—",
+      "poster": "/sPX89Td70IDDjVr85jdSBb4rWGr.jpg"
     },
     "thedark08": {
       "t": "The Dark Knight",
       "y": 2008,
-      "set": "—"
+      "set": "—",
+      "poster": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
     },
     "thedark12": {
       "t": "The Dark Knight Rises",
       "y": 2012,
-      "set": "—"
+      "set": "—",
+      "poster": "/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg"
     },
     "thebatman22": {
       "t": "The Batman",
       "y": 2022,
-      "set": "—"
+      "set": "—",
+      "poster": "/74xTEgt7R36Fpooo50r9T25onhq.jpg"
     }
   },
   "release": [

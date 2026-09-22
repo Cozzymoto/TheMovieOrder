@@ -3,21 +3,25 @@
   "short": "Three films, one a prequel",
   "hue": 190,
   "blurb": "Strangers trapped in a lethal maze of rooms, with no memory of arriving.",
+  "poster": "/x4BTjxdrOKC27FcSkBh8KPEgnum.jpg",
   "films": {
     "cube97": {
       "t": "Cube",
       "y": 1997,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/x4BTjxdrOKC27FcSkBh8KPEgnum.jpg"
     },
     "cube202": {
       "t": "Cube 2: Hypercube",
       "y": 2002,
-      "set": "2002"
+      "set": "2002",
+      "poster": "/bEqqwtwUP7lm56VyeVONhv9JtYu.jpg"
     },
     "cubezero04": {
       "t": "Cube Zero",
       "y": 2004,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/m5ODgUYh5lMvRumBY63QJ4eVYp5.jpg"
     }
   },
   "release": [

@@ -3,31 +3,37 @@
   "short": "Five films including Lightyear",
   "hue": 206,
   "blurb": "Four films about the same toys, plus one that claims to be the film that made one of them a toy in the first place.",
+  "poster": "/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
   "films": {
     "t95": {
       "t": "Toy Story",
       "y": 1995,
-      "set": "1995"
+      "set": "1995",
+      "poster": "/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg"
     },
     "t99": {
       "t": "Toy Story 2",
       "y": 1999,
-      "set": "1999"
+      "set": "1999",
+      "poster": "/4rbcp3ng8n1MKHjpeqW0L7Fnpzz.jpg"
     },
     "t10": {
       "t": "Toy Story 3",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/AbbXspMOwdvwWZgVN0nabZq03Ec.jpg"
     },
     "t19": {
       "t": "Toy Story 4",
       "y": 2019,
-      "set": "2019"
+      "set": "2019",
+      "poster": "/w9kR8qbmQ01HwnvK4alvnQ2ca0L.jpg"
     },
     "lb22": {
       "t": "Lightyear",
       "y": 2022,
-      "set": "In-universe film"
+      "set": "In-universe film",
+      "poster": "/ox4goZd956BxqJH6iLwhWPL9ct4.jpg"
     }
   },
   "release": [

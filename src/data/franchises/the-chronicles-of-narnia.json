@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 40,
   "blurb": "Three of the seven books adapted, before the series stopped.",
+  "poster": "/iREd0rNCjYdf5Ar0vfaW32yrkm.jpg",
   "films": {
     "thechronicles05": {
       "t": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
       "y": 2005,
-      "set": "1940"
+      "set": "1940",
+      "poster": "/iREd0rNCjYdf5Ar0vfaW32yrkm.jpg"
     },
     "thechronicles08": {
       "t": "The Chronicles of Narnia: Prince Caspian",
       "y": 2008,
-      "set": "1941"
+      "set": "1941",
+      "poster": "/qxz3WIyjZiSKUhaTIEJ3c1GcC9z.jpg"
     },
     "thechronicles10": {
       "t": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
       "y": 2010,
-      "set": "1942"
+      "set": "1942",
+      "poster": "/pP27zlm9yeKrCeDZLFLP2HKELot.jpg"
     }
   },
   "release": [

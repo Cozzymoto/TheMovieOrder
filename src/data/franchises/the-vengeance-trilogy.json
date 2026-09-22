@@ -3,21 +3,25 @@
   "short": "Park Chan-wook's three films",
   "hue": 0,
   "blurb": "Three unconnected Korean revenge stories linked by theme rather than plot.",
+  "poster": "/uj42ubGbgVL65T10SvPVr0p9mJc.jpg",
   "films": {
     "sympathyfor02": {
       "t": "Sympathy for Mr. Vengeance",
       "y": 2002,
-      "set": "2002"
+      "set": "2002",
+      "poster": "/uj42ubGbgVL65T10SvPVr0p9mJc.jpg"
     },
     "oldboy03": {
       "t": "Oldboy",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg"
     },
     "ladyvengeance05": {
       "t": "Lady Vengeance",
       "y": 2005,
-      "set": "2005"
+      "set": "2005",
+      "poster": "/ifcxaKfzNQ6W8uSLpnGo7AfiSL8.jpg"
     }
   },
   "release": [

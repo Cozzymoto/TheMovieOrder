@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 100,
   "blurb": "A Christmas creature feature and a sequel that becomes a parody of itself.",
+  "poster": "/6m0F7fsXjQvUbCZrPWcJNrjvIui.jpg",
   "films": {
     "gremlins84": {
       "t": "Gremlins",
       "y": 1984,
-      "set": "1984"
+      "set": "1984",
+      "poster": "/6m0F7fsXjQvUbCZrPWcJNrjvIui.jpg"
     },
     "gremlins290": {
       "t": "Gremlins 2: The New Batch",
       "y": 1990,
-      "set": "1990"
+      "set": "1990",
+      "poster": "/35F5yD7MljvBE2AC0NHAVCoPGEi.jpg"
     }
   },
   "release": [

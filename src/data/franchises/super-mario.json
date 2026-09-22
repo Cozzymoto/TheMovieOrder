@@ -3,16 +3,19 @@
   "short": "The animated films",
   "hue": 4,
   "blurb": "Nintendo's plumber in animated form.",
+  "poster": "/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
   "films": {
     "thesuper23": {
       "t": "The Super Mario Bros. Movie",
       "y": 2023,
-      "set": "—"
+      "set": "—",
+      "poster": "/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg"
     },
     "thesuper26": {
       "t": "The Super Mario Galaxy Movie",
       "y": 2026,
-      "set": "—"
+      "set": "—",
+      "poster": "/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg"
     }
   },
   "release": [

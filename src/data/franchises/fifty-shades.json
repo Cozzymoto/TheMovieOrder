@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 220,
   "blurb": "Three films adapted from the novel trilogy.",
+  "poster": "/63kGofUkt1Mx0SIL4XI4Z5AoSgt.jpg",
   "films": {
     "fiftyshades15": {
       "t": "Fifty Shades of Grey",
       "y": 2015,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/63kGofUkt1Mx0SIL4XI4Z5AoSgt.jpg"
     },
     "fiftyshades17": {
       "t": "Fifty Shades Darker",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/w3qa274gvca9t8pkUoG8nfQgTU3.jpg"
     },
     "fiftyshades18": {
       "t": "Fifty Shades Freed",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/jjPJ4s3DWZZvI4vw8Xfi4Vqa1Q8.jpg"
     }
   },
   "release": [

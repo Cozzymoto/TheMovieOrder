@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 0,
   "blurb": "A basketball star and a maths prodigy who audition for the school musical.",
+  "poster": "/1DGmWZjUJPeKGFRHGCA6VPFUBML.jpg",
   "films": {
     "highschool06": {
       "t": "High School Musical",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/1DGmWZjUJPeKGFRHGCA6VPFUBML.jpg"
     },
     "highschool07": {
       "t": "High School Musical 2",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/kqImEYXsDIlzPpu0KxyTXIx7smW.jpg"
     },
     "highschool08": {
       "t": "High School Musical 3: Senior Year",
       "y": 2008,
-      "set": "2008"
+      "set": "2008",
+      "poster": "/aq2o1wT0crBOTxof36O6KTyjpgE.jpg"
     }
   },
   "release": [

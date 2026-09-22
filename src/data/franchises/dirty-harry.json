@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 30,
   "blurb": "A San Francisco detective with his own methods, across seventeen years.",
+  "poster": "/scl2JDHzYoIEs5xyYy5ITCfyY0G.jpg",
   "films": {
     "dirtyharry71": {
       "t": "Dirty Harry",
       "y": 1971,
-      "set": "1971"
+      "set": "1971",
+      "poster": "/scl2JDHzYoIEs5xyYy5ITCfyY0G.jpg"
     },
     "magnumforce73": {
       "t": "Magnum Force",
       "y": 1973,
-      "set": "1973"
+      "set": "1973",
+      "poster": "/1uX1uzn09seCftG3rTGLPyFXxV6.jpg"
     },
     "theenforcer76": {
       "t": "The Enforcer",
       "y": 1976,
-      "set": "1976"
+      "set": "1976",
+      "poster": "/l0W85fpnsfnpLSSF3D6bKKlH1dD.jpg"
     },
     "suddenimpact83": {
       "t": "Sudden Impact",
       "y": 1983,
-      "set": "1983"
+      "set": "1983",
+      "poster": "/fSADY0EEM7ntpK5IwumcGS4UNNE.jpg"
     },
     "thedead88": {
       "t": "The Dead Pool",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/krxLLDnFuDtjagN7KrCjuH6QrcW.jpg"
     }
   },
   "release": [

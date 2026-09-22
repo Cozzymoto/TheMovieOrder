@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 340,
   "blurb": "A university a cappella group followed from auditions to life after graduation.",
+  "poster": "/gsFoJk9g8W3zgaipRrrURk7LbiF.jpg",
   "films": {
     "pitchperfect12": {
       "t": "Pitch Perfect",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/gsFoJk9g8W3zgaipRrrURk7LbiF.jpg"
     },
     "pitchperfect15": {
       "t": "Pitch Perfect 2",
       "y": 2015,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/fQaEGzFmvTYu3G641WV0Tg9auAt.jpg"
     },
     "pitchperfect17": {
       "t": "Pitch Perfect 3",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/v4tbRRX0OSOHcgz2869rEjcBwOJ.jpg"
     }
   },
   "release": [

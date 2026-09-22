@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 100,
   "blurb": "Childhood friends reunited as adults with families of their own.",
+  "poster": "/cQGM5k1NtU85n4TUlrOrwijSCcm.jpg",
   "films": {
     "grownups10": {
       "t": "Grown Ups",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/cQGM5k1NtU85n4TUlrOrwijSCcm.jpg"
     },
     "grownups13": {
       "t": "Grown Ups 2",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/hT6ijOtjtYrnyDhN7VA2QWyGFAm.jpg"
     }
   },
   "release": [

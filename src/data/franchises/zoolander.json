@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 320,
   "blurb": "A male model manipulated into an assassination plot, and a sequel fifteen years on.",
+  "poster": "/qdrbSneHZjJG2Dj0hhBxzzAo4HB.jpg",
   "films": {
     "zoolander01": {
       "t": "Zoolander",
       "y": 2001,
-      "set": "2001"
+      "set": "2001",
+      "poster": "/qdrbSneHZjJG2Dj0hhBxzzAo4HB.jpg"
     },
     "zoolander216": {
       "t": "Zoolander 2",
       "y": 2016,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/n8AJzALlTPBwe9Tkv3tdxbiAr9i.jpg"
     }
   },
   "release": [

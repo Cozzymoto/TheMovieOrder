@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 0,
   "blurb": "Teenagers with attitude, twice in the 1990s and once in a 2017 reboot.",
+  "poster": "/pcLbHqs80dchv0byHivhdwHKEup.jpg",
   "films": {
     "mightymorphin95": {
       "t": "Mighty Morphin Power Rangers: The Movie",
       "y": 1995,
-      "set": "1995"
+      "set": "1995",
+      "poster": "/pcLbHqs80dchv0byHivhdwHKEup.jpg"
     },
     "turboa97": {
       "t": "Turbo: A Power Rangers Movie",
       "y": 1997,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/4mau5EXQoKUTiS5wx3Wocwrh5hG.jpg"
     },
     "powerrangers17": {
       "t": "Power Rangers",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/bKYKyyIv5YnisxjZtDreWtYA386.jpg"
     }
   },
   "release": [

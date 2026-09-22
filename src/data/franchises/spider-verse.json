@@ -3,16 +3,19 @@
   "short": "The animated Miles Morales films",
   "hue": 330,
   "blurb": "An animated series about a different Spider-Man, which turns the idea of multiple Spider-Men into its whole premise.",
+  "poster": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
   "films": {
     "spiderman18": {
       "t": "Spider-Man: Into the Spider-Verse",
       "y": 2018,
-      "set": "—"
+      "set": "—",
+      "poster": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg"
     },
     "spiderman23": {
       "t": "Spider-Man: Across the Spider-Verse",
       "y": 2023,
-      "set": "—"
+      "set": "—",
+      "poster": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
     }
   },
   "release": [

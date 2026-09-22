@@ -3,26 +3,31 @@
   "short": "Four films, one out of place",
   "hue": 32,
   "blurb": "A creature that feeds every twenty-third spring, and a third film that slots in between the first two.",
+  "poster": "/g410Y1U1ELbmJG14Zru3UAimm1G.jpg",
   "films": {
     "jeeperscreepers01": {
       "t": "Jeepers Creepers",
       "y": 2001,
-      "set": "2001"
+      "set": "2001",
+      "poster": "/g410Y1U1ELbmJG14Zru3UAimm1G.jpg"
     },
     "jeeperscreepers03": {
       "t": "Jeepers Creepers 2",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/u2ghDfjcs3y5c8ata3COc4pWiAN.jpg"
     },
     "jeeperscreepers17": {
       "t": "Jeepers Creepers 3",
       "y": 2017,
-      "set": "2001"
+      "set": "2001",
+      "poster": "/pK7ge28ubs45av9aGEbVWW7ZbA8.jpg"
     },
     "jeeperscreepers22": {
       "t": "Jeepers Creepers: Reborn",
       "y": 2022,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/aGBuiirBIQ7o64FmJxO53eYDuro.jpg"
     }
   },
   "release": [

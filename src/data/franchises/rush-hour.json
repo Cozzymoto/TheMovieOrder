@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 52,
   "blurb": "Three films set in Los Angeles, Hong Kong and Paris, in that order.",
+  "poster": "/nwPhAsfnb7f46bZkWLG7IRP5HXr.jpg",
   "films": {
     "r98": {
       "t": "Rush Hour",
       "y": 1998,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/nwPhAsfnb7f46bZkWLG7IRP5HXr.jpg"
     },
     "r01": {
       "t": "Rush Hour 2",
       "y": 2001,
-      "set": "2001"
+      "set": "2001",
+      "poster": "/aBQf2vMiCINeVC9v6BGVYKXurTh.jpg"
     },
     "r07": {
       "t": "Rush Hour 3",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/mp9CzKxLa2i7yblMXUrzVfGqsCo.jpg"
     }
   },
   "release": [

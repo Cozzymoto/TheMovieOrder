@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 250,
   "blurb": "A man returned from the dead to avenge his murder, retold four times with new leads.",
+  "poster": "/rMMB3v6jYHjsvXRNJYESacoTD7j.jpg",
   "films": {
     "thecrow94": {
       "t": "The Crow",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/rMMB3v6jYHjsvXRNJYESacoTD7j.jpg"
     },
     "thecrow96": {
       "t": "The Crow: City of Angels",
       "y": 1996,
-      "set": "1996"
+      "set": "1996",
+      "poster": "/ppOoLiO2JY0BJQdixs08xrQuAA6.jpg"
     },
     "thecrow00": {
       "t": "The Crow: Salvation",
       "y": 2000,
-      "set": "2000"
+      "set": "2000",
+      "poster": "/5JkLJ0HS1hGxZHok9pjBcLCpLuX.jpg"
     },
     "thecrow05": {
       "t": "The Crow: Wicked Prayer",
       "y": 2005,
-      "set": "2005"
+      "set": "2005",
+      "poster": "/l6TfZVVzvrlGjxDlZK3CoHwaccc.jpg"
     },
     "thecrow24": {
       "t": "The Crow",
       "y": 2024,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/g8TbOXrNMuqq7AaKqdvqS2oG4ob.jpg"
     }
   },
   "release": [

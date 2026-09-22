@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 26,
   "blurb": "A prehistoric family forced out of their cave and into a world changing faster than they can.",
+  "poster": "/27zvjVOtOi5ped1HSlJKNsKXkFH.jpg",
   "films": {
     "thecroods13": {
       "t": "The Croods",
       "y": 2013,
-      "set": "—"
+      "set": "—",
+      "poster": "/27zvjVOtOi5ped1HSlJKNsKXkFH.jpg"
     },
     "thecroods20": {
       "t": "The Croods: A New Age",
       "y": 2020,
-      "set": "—"
+      "set": "—",
+      "poster": "/tbVZ3Sq88dZaCANlUcewQuHQOaE.jpg"
     }
   },
   "release": [

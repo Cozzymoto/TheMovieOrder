@@ -3,41 +3,49 @@
   "short": "Seven films",
   "hue": 18,
   "blurb": "Peter Cushing as a Baron Frankenstein who is the real monster, across seven films for Hammer.",
+  "poster": "/r9PDkqKhzdo54aqnOL88wUJY49B.jpg",
   "films": {
     "thecurse57": {
       "t": "The Curse of Frankenstein",
       "y": 1957,
-      "set": "—"
+      "set": "—",
+      "poster": "/r9PDkqKhzdo54aqnOL88wUJY49B.jpg"
     },
     "therevenge58": {
       "t": "The Revenge of Frankenstein",
       "y": 1958,
-      "set": "—"
+      "set": "—",
+      "poster": "/3SKLAELeQFislTtdXF9r1aVp4a7.jpg"
     },
     "theevil64": {
       "t": "The Evil of Frankenstein",
       "y": 1964,
-      "set": "—"
+      "set": "—",
+      "poster": "/yJBzyHZ6m9fOisiAtrtUjNidZ1k.jpg"
     },
     "frankensteincreated67": {
       "t": "Frankenstein Created Woman",
       "y": 1967,
-      "set": "—"
+      "set": "—",
+      "poster": "/1gT7sSKIITCchwCQopAuvxUctDU.jpg"
     },
     "frankensteinmust69": {
       "t": "Frankenstein Must Be Destroyed",
       "y": 1969,
-      "set": "—"
+      "set": "—",
+      "poster": "/rLCCdYBhCm4ATkupOTf4yRbFgm6.jpg"
     },
     "thehorror70": {
       "t": "The Horror of Frankenstein",
       "y": 1970,
-      "set": "—"
+      "set": "—",
+      "poster": "/8lFv0ABZqINbHijXjCc41AmrRlm.jpg"
     },
     "frankensteinand74": {
       "t": "Frankenstein and the Monster from Hell",
       "y": 1974,
-      "set": "—"
+      "set": "—",
+      "poster": "/lKcAIHSOHquRgit3F59Z81vdMdl.jpg"
     }
   },
   "release": [

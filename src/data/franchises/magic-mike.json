@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 20,
   "blurb": "A stripper trying to leave the business, and two films that follow him after he does.",
+  "poster": "/cfRv1INLSSumjvxAqEGOP6b0Aw1.jpg",
   "films": {
     "magicmike12": {
       "t": "Magic Mike",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/cfRv1INLSSumjvxAqEGOP6b0Aw1.jpg"
     },
     "magicmike15": {
       "t": "Magic Mike XXL",
       "y": 2015,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/jkuCNd3wOmf4sDlZ89HEt8jmsqr.jpg"
     },
     "magicmikes23": {
       "t": "Magic Mike's Last Dance",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/9a9pyJZRhUWUSBT8BQqWihtqbI8.jpg"
     }
   },
   "release": [

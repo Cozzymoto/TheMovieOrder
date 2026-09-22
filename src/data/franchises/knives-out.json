@@ -3,21 +3,25 @@
   "short": "Three Benoit Blanc mysteries",
   "hue": 40,
   "blurb": "Three standalone murder mysteries sharing only their detective.",
+  "poster": "/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
   "films": {
     "knivesout19": {
       "t": "Knives Out",
       "y": 2019,
-      "set": "2019"
+      "set": "2019",
+      "poster": "/pThyQovXQrw2m0s9x82twj48Jq4.jpg"
     },
     "glassonion22": {
       "t": "Glass Onion: A Knives Out Mystery",
       "y": 2022,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/vDGr1YdrlfbU9wxTOdpf3zChmv9.jpg"
     },
     "wakeup25": {
       "t": "Wake Up Dead Man: A Knives Out Mystery",
       "y": 2025,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/iV9LM8aUb83BjCCx2RUnKE5sSQg.jpg"
     }
   },
   "release": [

@@ -4,61 +4,73 @@
   "hue": 44,
   "blurb": "Eleven films across seventy in-universe years. Release order puts Harry first; chronological order starts sixty-five years earlier in 1920s New York.",
   "rank": 5,
+  "poster": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
   "films": {
     "ps": {
       "t": "Harry Potter and the Philosopher's Stone",
       "y": 2001,
-      "set": "1991"
+      "set": "1991",
+      "poster": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg"
     },
     "cos": {
       "t": "Harry Potter and the Chamber of Secrets",
       "y": 2002,
-      "set": "1992"
+      "set": "1992",
+      "poster": "/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg"
     },
     "poa": {
       "t": "Harry Potter and the Prisoner of Azkaban",
       "y": 2004,
-      "set": "1993"
+      "set": "1993",
+      "poster": "/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg"
     },
     "gof": {
       "t": "Harry Potter and the Goblet of Fire",
       "y": 2005,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg"
     },
     "ootp": {
       "t": "Harry Potter and the Order of the Phoenix",
       "y": 2007,
-      "set": "1995"
+      "set": "1995",
+      "poster": "/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg"
     },
     "hbp": {
       "t": "Harry Potter and the Half-Blood Prince",
       "y": 2009,
-      "set": "1996"
+      "set": "1996",
+      "poster": "/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg"
     },
     "dh1": {
       "t": "Harry Potter and the Deathly Hallows: Part 1",
       "y": 2010,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg"
     },
     "dh2": {
       "t": "Harry Potter and the Deathly Hallows: Part 2",
       "y": 2011,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/c54HpQmuwXjHq2C9wmoACjxoom3.jpg"
     },
     "fb1": {
       "t": "Fantastic Beasts and Where to Find Them",
       "y": 2016,
-      "set": "1926"
+      "set": "1926",
+      "poster": "/h6NYfVUyM6CDURtZSnBpz647Ldd.jpg"
     },
     "fb2": {
       "t": "Fantastic Beasts: The Crimes of Grindelwald",
       "y": 2018,
-      "set": "1927"
+      "set": "1927",
+      "poster": "/fMMrl8fD9gRCFJvsx0SuFwkEOop.jpg"
     },
     "fb3": {
       "t": "Fantastic Beasts: The Secrets of Dumbledore",
       "y": 2022,
-      "set": "1932"
+      "set": "1932",
+      "poster": "/3c5GNLB4yRSLBby0trHoA1DSQxQ.jpg"
     }
   },
   "release": [

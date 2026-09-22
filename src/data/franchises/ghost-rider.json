@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 20,
   "blurb": "A stunt rider who sells his soul and becomes a flaming spirit of vengeance.",
+  "poster": "/4quwR1VwZouD0YF9AaD72kQAjxH.jpg",
   "films": {
     "ghostrider07": {
       "t": "Ghost Rider",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/4quwR1VwZouD0YF9AaD72kQAjxH.jpg"
     },
     "ghostrider12": {
       "t": "Ghost Rider: Spirit of Vengeance",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/9NirHQwqC8HD39eiKdJu3LbYBa8.jpg"
     }
   },
   "release": [

@@ -3,51 +3,61 @@
   "short": "Nine films",
   "hue": 358,
   "blurb": "Christopher Lee's Dracula for Hammer Films, running from Victorian Transylvania to 1970s London.",
+  "poster": "/9UHOATvzXQWbElSGygOY1ar3vpp.jpg",
   "films": {
     "dracula58": {
       "t": "Dracula",
       "y": 1958,
-      "set": "1885"
+      "set": "1885",
+      "poster": "/9UHOATvzXQWbElSGygOY1ar3vpp.jpg"
     },
     "thebrides60": {
       "t": "The Brides of Dracula",
       "y": 1960,
-      "set": "Victorian"
+      "set": "Victorian",
+      "poster": "/yJYJmxZZIAkrn0BaMcYnvEB8wVk.jpg"
     },
     "draculaprince66": {
       "t": "Dracula: Prince of Darkness",
       "y": 1966,
-      "set": "Victorian"
+      "set": "Victorian",
+      "poster": "/9uSP0h1jYZSLd3fZw1b4H1w3cPo.jpg"
     },
     "draculahas68": {
       "t": "Dracula Has Risen from the Grave",
       "y": 1968,
-      "set": "Victorian"
+      "set": "Victorian",
+      "poster": "/yo7FPlWRAevH0Pz60MHwGodg1NG.jpg"
     },
     "tastethe70": {
       "t": "Taste the Blood of Dracula",
       "y": 1970,
-      "set": "Victorian"
+      "set": "Victorian",
+      "poster": "/hhK8KDZgtuvMYhC55keOrEsTwt1.jpg"
     },
     "scarsof70": {
       "t": "Scars of Dracula",
       "y": 1970,
-      "set": "Victorian"
+      "set": "Victorian",
+      "poster": "/yS06u6RqaY3saimoVr6ZVZP9K7s.jpg"
     },
     "draculaa72": {
       "t": "Dracula A.D. 1972",
       "y": 1972,
-      "set": "1872 & 1972"
+      "set": "1872 & 1972",
+      "poster": "/rUgVTCBLnXngVlpOaVWZupxwmHZ.jpg"
     },
     "thesatanic73": {
       "t": "The Satanic Rites of Dracula",
       "y": 1973,
-      "set": "1973"
+      "set": "1973",
+      "poster": "/ixkF1HcgQ8wlafCok5hHzi3iYI0.jpg"
     },
     "thelegend74": {
       "t": "The Legend of the 7 Golden Vampires",
       "y": 1974,
-      "set": "1904"
+      "set": "1904",
+      "poster": "/xPhesvQhGKxTsiLsdZFvKabVzlp.jpg"
     }
   },
   "release": [

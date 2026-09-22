@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 20,
   "blurb": "American backpackers bitten while travelling in Europe.",
+  "poster": "/hVEqUASJmCQaolkKFEySCHZ8uKG.jpg",
   "films": {
     "anamerican81": {
       "t": "An American Werewolf in London",
       "y": 1981,
-      "set": "1981"
+      "set": "1981",
+      "poster": "/hVEqUASJmCQaolkKFEySCHZ8uKG.jpg"
     },
     "anamerican97": {
       "t": "An American Werewolf in Paris",
       "y": 1997,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/1NUOprbP7LLfKPArLJY7wziUiHT.jpg"
     }
   },
   "release": [

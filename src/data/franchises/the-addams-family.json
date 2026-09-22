@@ -3,26 +3,31 @@
   "short": "Four films, two continuities",
   "hue": 280,
   "blurb": "Two live-action films from the 1990s and two animated films from recent years.",
+  "poster": "/qFf8anju5f2epI0my8RdwwIXFIP.jpg",
   "films": {
     "theaddams91": {
       "t": "The Addams Family",
       "y": 1991,
-      "set": "1991"
+      "set": "1991",
+      "poster": "/qFf8anju5f2epI0my8RdwwIXFIP.jpg"
     },
     "addamsfamily93": {
       "t": "Addams Family Values",
       "y": 1993,
-      "set": "1993"
+      "set": "1993",
+      "poster": "/sdxT2VjVSx9DRicwnuECUdBHeE7.jpg"
     },
     "theaddams19": {
       "t": "The Addams Family",
       "y": 2019,
-      "set": "—"
+      "set": "—",
+      "poster": "/q1epO0eO8DWu8Vo8tPfvVlzW48T.jpg"
     },
     "theaddams21": {
       "t": "The Addams Family 2",
       "y": 2021,
-      "set": "—"
+      "set": "—",
+      "poster": "/ld7YB9vBRp1GM1DT3KmFWSmtBPB.jpg"
     }
   },
   "release": [

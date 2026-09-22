@@ -3,31 +3,37 @@
   "short": "Five films, two continuities",
   "hue": 64,
   "blurb": "Two 1980s films, a 2016 reboot that stands alone, and two later sequels that ignore the reboot entirely.",
+  "poster": "/7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg",
   "films": {
     "g84": {
       "t": "Ghostbusters",
       "y": 1984,
-      "set": "1984"
+      "set": "1984",
+      "poster": "/7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg"
     },
     "g89": {
       "t": "Ghostbusters II",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/iUZPi31KDP0n5ycpycEsvl51BdV.jpg"
     },
     "g16": {
       "t": "Ghostbusters",
       "y": 2016,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/wJmWliwXIgZOCCVOcGRBhce7xPS.jpg"
     },
     "g21": {
       "t": "Ghostbusters: Afterlife",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/sg4xJaufDiQl7caFEskBtQXfD4x.jpg"
     },
     "g24": {
       "t": "Ghostbusters: Frozen Empire",
       "y": 2024,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/e1J2oNzSBdou01sUvriVuoYp0pJ.jpg"
     }
   },
   "release": [

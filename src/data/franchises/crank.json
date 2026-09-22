@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 60,
   "blurb": "Two films built around a man who must keep his adrenaline up or die.",
+  "poster": "/rsKmhnvzJezjwC1Ud2Hh37oNpdQ.jpg",
   "films": {
     "crank06": {
       "t": "Crank",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/rsKmhnvzJezjwC1Ud2Hh37oNpdQ.jpg"
     },
     "crankhigh09": {
       "t": "Crank: High Voltage",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/tzTC4EEvF0OPL63frEiogxL2T8M.jpg"
     }
   },
   "release": [

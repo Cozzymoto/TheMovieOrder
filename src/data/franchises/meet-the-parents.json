@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 46,
   "blurb": "A nurse, his fiancée's formidable father, and the escalating disasters of joining a family.",
+  "poster": "/5tXJ9ctuyEOMUFLaeqRisbXowWs.jpg",
   "films": {
     "meetthe00": {
       "t": "Meet the Parents",
       "y": 2000,
-      "set": "2000"
+      "set": "2000",
+      "poster": "/5tXJ9ctuyEOMUFLaeqRisbXowWs.jpg"
     },
     "meetthe04": {
       "t": "Meet the Fockers",
       "y": 2004,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/59fXm6N2x7QSbvt6BaBxTNBXGL8.jpg"
     },
     "littlefockers10": {
       "t": "Little Fockers",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/90mwPRNMmX9RUGVgKMJMJNQnYX8.jpg"
     }
   },
   "release": [

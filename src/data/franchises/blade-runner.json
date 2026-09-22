@@ -3,16 +3,19 @@
   "short": "Two films, thirty years apart",
   "hue": 206,
   "blurb": "A 1982 original set in 2019, and a sequel made in 2017 set in 2049 — the rare series where real time nearly caught up with the fiction.",
+  "poster": "/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
   "films": {
     "b82": {
       "t": "Blade Runner",
       "y": 1982,
-      "set": "2019"
+      "set": "2019",
+      "poster": "/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg"
     },
     "b17": {
       "t": "Blade Runner 2049",
       "y": 2017,
-      "set": "2049"
+      "set": "2049",
+      "poster": "/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg"
     }
   },
   "release": [

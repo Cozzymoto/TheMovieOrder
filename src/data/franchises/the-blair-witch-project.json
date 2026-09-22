@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 66,
   "blurb": "The film that invented found-footage horror as we know it, plus two follow-ups.",
+  "poster": "/9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
   "films": {
     "theblair99": {
       "t": "The Blair Witch Project",
       "y": 1999,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/9050VGrYjYrEjpOvDZVAngLbg1f.jpg"
     },
     "bookof00": {
       "t": "Book of Shadows: Blair Witch 2",
       "y": 2000,
-      "set": "2000"
+      "set": "2000",
+      "poster": "/l1jF93S9FYbzp3Byh5VUA1KApSJ.jpg"
     },
     "blairwitch16": {
       "t": "Blair Witch",
       "y": 2016,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/Ai73frMEz68bibFGRlPKdWBaIaq.jpg"
     }
   },
   "release": [

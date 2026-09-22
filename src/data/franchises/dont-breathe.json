@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 200,
   "blurb": "Burglars who pick the wrong blind man's house.",
+  "poster": "/dSxHyPZ2nipSfvdft4IhQKjk5eZ.jpg",
   "films": {
     "dontbreathe16": {
       "t": "Don't Breathe",
       "y": 2016,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/dSxHyPZ2nipSfvdft4IhQKjk5eZ.jpg"
     },
     "dontbreathe21": {
       "t": "Don't Breathe 2",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/aOu6PJVO9RyGAzdUwG6fupu0gpz.jpg"
     }
   },
   "release": [

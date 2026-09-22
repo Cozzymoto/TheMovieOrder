@@ -3,31 +3,37 @@
   "short": "Five films, 1935 to 1969",
   "hue": 32,
   "blurb": "Only one film moves, but it moves to the front — Temple of Doom is a prequel to Raiders by a single year.",
+  "poster": "/ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
   "films": {
     "raiders": {
       "t": "Raiders of the Lost Ark",
       "y": 1981,
-      "set": "1936"
+      "set": "1936",
+      "poster": "/ceG9VzoRAVGwivFU403Wc3AHRys.jpg"
     },
     "doom": {
       "t": "Indiana Jones and the Temple of Doom",
       "y": 1984,
-      "set": "1935"
+      "set": "1935",
+      "poster": "/gpdVNUaa4LhRMLfJOPj1AZdhAZ3.jpg"
     },
     "crusade": {
       "t": "Indiana Jones and the Last Crusade",
       "y": 1989,
-      "set": "1938"
+      "set": "1938",
+      "poster": "/sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg"
     },
     "skull": {
       "t": "Indiana Jones and the Kingdom of the Crystal Skull",
       "y": 2008,
-      "set": "1957"
+      "set": "1957",
+      "poster": "/56As6XEM1flWvprX4LgkPl8ii4K.jpg"
     },
     "dial": {
       "t": "Indiana Jones and the Dial of Destiny",
       "y": 2023,
-      "set": "1969"
+      "set": "1969",
+      "poster": "/Af4bXE63pVsb2FtbW8uYIyPBadD.jpg"
     }
   },
   "release": [

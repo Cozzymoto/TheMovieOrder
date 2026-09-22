@@ -3,16 +3,19 @@
   "short": "Two films, twenty-nine years apart",
   "hue": 104,
   "blurb": "A failed hockey player turned golfer, and a sequel nearly three decades later.",
+  "poster": "/4RnCeRzvI1xk5tuNWjpDKzSnJDk.jpg",
   "films": {
     "happygilmore96": {
       "t": "Happy Gilmore",
       "y": 1996,
-      "set": "1996"
+      "set": "1996",
+      "poster": "/4RnCeRzvI1xk5tuNWjpDKzSnJDk.jpg"
     },
     "happygilmore25": {
       "t": "Happy Gilmore 2",
       "y": 2025,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/E3dPHPJigkXwuiE0n1vzz0se8a.jpg"
     }
   },
   "release": [

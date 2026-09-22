@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 340,
   "blurb": "Two films in the nineties and early two-thousands, then a seventeen-year gap the third film makes the point of.",
+  "poster": "/x1ygBecKHfXX4M2kRhmFKWfWbJc.jpg",
   "films": {
     "b95": {
       "t": "Bad Boys",
       "y": 1995,
-      "set": "1995"
+      "set": "1995",
+      "poster": "/x1ygBecKHfXX4M2kRhmFKWfWbJc.jpg"
     },
     "b03": {
       "t": "Bad Boys II",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/yCvB5fG5aEPqa1St7ihY6KEAsHD.jpg"
     },
     "b20": {
       "t": "Bad Boys for Life",
       "y": 2020,
-      "set": "2020"
+      "set": "2020",
+      "poster": "/y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg"
     },
     "b24": {
       "t": "Bad Boys: Ride or Die",
       "y": 2024,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/oGythE98MYleE6mZlGs5oBGkux1.jpg"
     }
   },
   "release": [

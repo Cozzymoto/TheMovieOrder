@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 100,
   "blurb": "A stolen sword and the warriors bound up in its fate.",
+  "poster": "/iNDVBFNz4XyYzM9Lwip6atSTFqf.jpg",
   "films": {
     "crouchingtiger00": {
       "t": "Crouching Tiger, Hidden Dragon",
       "y": 2000,
-      "set": "Qing dynasty"
+      "set": "Qing dynasty",
+      "poster": "/iNDVBFNz4XyYzM9Lwip6atSTFqf.jpg"
     },
     "crouchingtiger16": {
       "t": "Crouching Tiger, Hidden Dragon: Sword of Destiny",
       "y": 2016,
-      "set": "Qing dynasty"
+      "set": "Qing dynasty",
+      "poster": "/te3aeAyhkfqgpa5BSTq3oNxGqQD.jpg"
     }
   },
   "release": [

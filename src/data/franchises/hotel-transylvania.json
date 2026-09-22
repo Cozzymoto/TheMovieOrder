@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 278,
   "blurb": "Dracula runs a hotel for monsters and tries to keep humans out of it.",
+  "poster": "/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
   "films": {
     "hoteltransylvania12": {
       "t": "Hotel Transylvania",
       "y": 2012,
-      "set": "—"
+      "set": "—",
+      "poster": "/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg"
     },
     "hoteltransylvania15": {
       "t": "Hotel Transylvania 2",
       "y": 2015,
-      "set": "—"
+      "set": "—",
+      "poster": "/3nFnrivNgipSKZ8LZJJbRSlAcTR.jpg"
     },
     "hoteltransylvania18": {
       "t": "Hotel Transylvania 3: Summer Vacation",
       "y": 2018,
-      "set": "—"
+      "set": "—",
+      "poster": "/lzE5BwGQea1nek7TPXUuC5AZ6rq.jpg"
     },
     "hoteltransylvania22": {
       "t": "Hotel Transylvania: Transformania",
       "y": 2022,
-      "set": "—"
+      "set": "—",
+      "poster": "/teCy1egGQa0y8ULJvlrDHQKnxBL.jpg"
     }
   },
   "release": [

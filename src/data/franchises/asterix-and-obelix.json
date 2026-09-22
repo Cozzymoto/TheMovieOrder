@@ -3,31 +3,37 @@
   "short": "The live-action films",
   "hue": 50,
   "blurb": "The Gauls who hold out against Rome with the help of a magic potion.",
+  "poster": "/sJ4zNakOuWcsW6ssH1qk80JehQ2.jpg",
   "films": {
     "asterixand99": {
       "t": "Asterix & Obelix Take On Caesar",
       "y": 1999,
-      "set": "50 BC"
+      "set": "50 BC",
+      "poster": "/sJ4zNakOuWcsW6ssH1qk80JehQ2.jpg"
     },
     "asterixand02": {
       "t": "Asterix & Obelix: Mission Cleopatra",
       "y": 2002,
-      "set": "50 BC"
+      "set": "50 BC",
+      "poster": "/i4k9LPyy2j5d6m5bzDaZj0E7eR7.jpg"
     },
     "asterixat08": {
       "t": "Asterix at the Olympic Games",
       "y": 2008,
-      "set": "50 BC"
+      "set": "50 BC",
+      "poster": "/eNB2SrqmTJLByRDq3akDzA6Z9rC.jpg"
     },
     "asterixand12": {
       "t": "Asterix & Obelix: God Save Britannia",
       "y": 2012,
-      "set": "50 BC"
+      "set": "50 BC",
+      "poster": "/rbdGCkvLPxuSvfVwHDK4PmOqmIm.jpg"
     },
     "asterixand23": {
       "t": "Asterix & Obelix: The Middle Kingdom",
       "y": 2023,
-      "set": "50 BC"
+      "set": "50 BC",
+      "poster": "/ifOqT5SmA4ANjmyEacLw3KAFKUd.jpg"
     }
   },
   "release": [

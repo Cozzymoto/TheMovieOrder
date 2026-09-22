@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 150,
   "blurb": "Two separate monster franchises collide on Earth.",
+  "poster": "/ySWu5bCnnmgV1cVacvFnFIhgOjp.jpg",
   "films": {
     "avpalien04": {
       "t": "AVP: Alien vs. Predator",
       "y": 2004,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/ySWu5bCnnmgV1cVacvFnFIhgOjp.jpg"
     },
     "aliensvs07": {
       "t": "Aliens vs. Predator: Requiem",
       "y": 2007,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/5iTwPDNtvK6ZZF607BHBbU3HO0B.jpg"
     }
   },
   "release": [

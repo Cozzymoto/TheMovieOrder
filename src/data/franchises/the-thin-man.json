@@ -3,36 +3,43 @@
   "short": "Six films",
   "hue": 40,
   "blurb": "A married pair of amateur detectives who solve murders between cocktails.",
+  "poster": "/6cL89ok9t8xEKboOjOVga2W66jj.jpg",
   "films": {
     "thethin34": {
       "t": "The Thin Man",
       "y": 1934,
-      "set": "1934"
+      "set": "1934",
+      "poster": "/6cL89ok9t8xEKboOjOVga2W66jj.jpg"
     },
     "afterthe36": {
       "t": "After the Thin Man",
       "y": 1936,
-      "set": "1936"
+      "set": "1936",
+      "poster": "/1fkCHOffEkPOY0UwSrvzG6YKDVp.jpg"
     },
     "anotherthin39": {
       "t": "Another Thin Man",
       "y": 1939,
-      "set": "1939"
+      "set": "1939",
+      "poster": "/zmOjn9qg9Cun7P9YAKr5ajNZBcK.jpg"
     },
     "shadowof41": {
       "t": "Shadow of the Thin Man",
       "y": 1941,
-      "set": "1941"
+      "set": "1941",
+      "poster": "/sYiasULoMJj84A5zheNyChGuhHY.jpg"
     },
     "thethin44": {
       "t": "The Thin Man Goes Home",
       "y": 1944,
-      "set": "1944"
+      "set": "1944",
+      "poster": "/xKnTU1LOeRU8AubY2LO5lGRiPpv.jpg"
     },
     "songof47": {
       "t": "Song of the Thin Man",
       "y": 1947,
-      "set": "1947"
+      "set": "1947",
+      "poster": "/wlj6IQrYRtHAQdIY08gicGOBp49.jpg"
     }
   },
   "release": [

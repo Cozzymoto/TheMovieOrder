@@ -3,16 +3,19 @@
   "short": "Two films, fourteen years apart",
   "hue": 14,
   "blurb": "Two films released fourteen years apart, with the second picking up the moment the first ends.",
+  "poster": "/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
   "films": {
     "theincredibles04": {
       "t": "The Incredibles",
       "y": 2004,
-      "set": "—"
+      "set": "—",
+      "poster": "/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg"
     },
     "incredibles218": {
       "t": "Incredibles 2",
       "y": 2018,
-      "set": "—"
+      "set": "—",
+      "poster": "/9lFKBtaVIhP7E2Pk0IY1CwTKTMZ.jpg"
     }
   },
   "release": [

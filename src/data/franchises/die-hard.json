@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 14,
   "blurb": "Five films following one policeman through progressively larger disasters, in a straight line.",
+  "poster": "/7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg",
   "films": {
     "d88": {
       "t": "Die Hard",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg"
     },
     "d90": {
       "t": "Die Hard 2",
       "y": 1990,
-      "set": "1990"
+      "set": "1990",
+      "poster": "/ybki0UWO3OPhaM6MSniuKC7sy1R.jpg"
     },
     "d95": {
       "t": "Die Hard with a Vengeance",
       "y": 1995,
-      "set": "1995"
+      "set": "1995",
+      "poster": "/buqmCdFQEWwEpL3agGgg2GVjN2d.jpg"
     },
     "d07": {
       "t": "Live Free or Die Hard",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/31TT47YjBl7a7uvJ3ff1nrirXhP.jpg"
     },
     "d13": {
       "t": "A Good Day to Die Hard",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/qJ0csDXAVFMsNn0cRcjy6W6PxAK.jpg"
     }
   },
   "release": [

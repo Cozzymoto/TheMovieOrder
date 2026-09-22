@@ -3,16 +3,19 @@
   "short": "Two films, twenty years apart",
   "hue": 32,
   "blurb": "Four Edinburgh friends in the 1990s, and what's left of them two decades later.",
+  "poster": "/1jUC02qsqS2NxBMFarbIhcQtazV.jpg",
   "films": {
     "trainspotting96": {
       "t": "Trainspotting",
       "y": 1996,
-      "set": "1990s"
+      "set": "1990s",
+      "poster": "/1jUC02qsqS2NxBMFarbIhcQtazV.jpg"
     },
     "t2trainspotting17": {
       "t": "T2 Trainspotting",
       "y": 2017,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/xlbpCwa9OXXIiNgXcwuompHFIk9.jpg"
     }
   },
   "release": [

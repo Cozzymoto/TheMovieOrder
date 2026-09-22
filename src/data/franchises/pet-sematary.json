@@ -3,26 +3,31 @@
   "short": "Four films, two continuities",
   "hue": 90,
   "blurb": "A 1989 adaptation with a sequel, a 2019 remake, and a 2023 prequel to that remake set in 1969.",
+  "poster": "/8ZtH1V4rhrtP53ezlEWrCaMALXF.jpg",
   "films": {
     "petsematary89": {
       "t": "Pet Sematary",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/8ZtH1V4rhrtP53ezlEWrCaMALXF.jpg"
     },
     "petsematary92": {
       "t": "Pet Sematary Two",
       "y": 1992,
-      "set": "1992"
+      "set": "1992",
+      "poster": "/9g6ngNlHOfMfQnaKkw9468p67d4.jpg"
     },
     "petsematary19": {
       "t": "Pet Sematary",
       "y": 2019,
-      "set": "2019"
+      "set": "2019",
+      "poster": "/7SPhr7Qj39vbnfF9O2qHRYaKHAL.jpg"
     },
     "petsematary23": {
       "t": "Pet Sematary: Bloodlines",
       "y": 2023,
-      "set": "1969"
+      "set": "1969",
+      "poster": "/oO7945lhCDTBQ8n5uuye2874tiS.jpg"
     }
   },
   "release": [

@@ -3,16 +3,19 @@
   "short": "Two films, the prequel far better",
   "hue": 280,
   "blurb": "A 2014 film, and a prequel two years later set in 1967 that is widely considered the better of the two.",
+  "poster": "/gwjHlGjK2xXKpjd65BWyAMwzTWC.jpg",
   "films": {
     "ouija14": {
       "t": "Ouija",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/gwjHlGjK2xXKpjd65BWyAMwzTWC.jpg"
     },
     "ouijaorigin16": {
       "t": "Ouija: Origin of Evil",
       "y": 2016,
-      "set": "1967"
+      "set": "1967",
+      "poster": "/gwynHc2RrOFaplYMMpQRpr3TIA4.jpg"
     }
   },
   "release": [

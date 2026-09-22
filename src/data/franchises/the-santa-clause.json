@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 0,
   "blurb": "A divorced father who accidentally becomes Father Christmas.",
+  "poster": "/hvV2rI60qOYELT7tHHLpxtafnBZ.jpg",
   "films": {
     "thesanta94": {
       "t": "The Santa Clause",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/hvV2rI60qOYELT7tHHLpxtafnBZ.jpg"
     },
     "thesanta02": {
       "t": "The Santa Clause 2",
       "y": 2002,
-      "set": "2002"
+      "set": "2002",
+      "poster": "/2EAMkz0z1pbr9weOY1Y7buy2AxV.jpg"
     },
     "thesanta06": {
       "t": "The Santa Clause 3: The Escape Clause",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/pvaWMSRzRwtcxyHKNLX6phiQp8d.jpg"
     }
   },
   "release": [

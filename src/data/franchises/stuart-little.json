@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 210,
   "blurb": "A mouse adopted by a New York family, to the lasting irritation of their cat.",
+  "poster": "/362lcwTJlNyAhitTlp2UraECISR.jpg",
   "films": {
     "stuartlittle99": {
       "t": "Stuart Little",
       "y": 1999,
-      "set": "1999"
+      "set": "1999",
+      "poster": "/362lcwTJlNyAhitTlp2UraECISR.jpg"
     },
     "stuartlittle02": {
       "t": "Stuart Little 2",
       "y": 2002,
-      "set": "2002"
+      "set": "2002",
+      "poster": "/1vdPKC35IOjEAJEr9Y2rjEeyCcW.jpg"
     }
   },
   "release": [

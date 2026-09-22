@@ -3,31 +3,37 @@
   "short": "Godzilla and Kong",
   "hue": 160,
   "blurb": "Five films where the second one jumps back to 1973, and every entry after it builds towards the same collision.",
+  "poster": "/tphkjmQq8WebuVwNXelmjLUXuPJ.jpg",
   "films": {
     "g14": {
       "t": "Godzilla",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/tphkjmQq8WebuVwNXelmjLUXuPJ.jpg"
     },
     "k17": {
       "t": "Kong: Skull Island",
       "y": 2017,
-      "set": "1973"
+      "set": "1973",
+      "poster": "/r2517Vz9EhDhj88qwbDVj8DCRZN.jpg"
     },
     "g19": {
       "t": "Godzilla: King of the Monsters",
       "y": 2019,
-      "set": "2019"
+      "set": "2019",
+      "poster": "/mzOHg7Q5q9yUmY0b9Esu8Qe6Nnm.jpg"
     },
     "gk21": {
       "t": "Godzilla vs. Kong",
       "y": 2021,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg"
     },
     "gk24": {
       "t": "Godzilla x Kong: The New Empire",
       "y": 2024,
-      "set": "2027"
+      "set": "2027",
+      "poster": "/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg"
     }
   },
   "release": [

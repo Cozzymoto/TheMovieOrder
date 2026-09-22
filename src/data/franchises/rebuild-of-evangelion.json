@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 270,
   "blurb": "A retelling of the landmark anime series that departs further from it with each film.",
+  "poster": "/pETU4GurpeEjBOM8oytMH0yNBHx.jpg",
   "films": {
     "evangelion107": {
       "t": "Evangelion: 1.0 You Are (Not) Alone",
       "y": 2007,
-      "set": "—"
+      "set": "—",
+      "poster": "/pETU4GurpeEjBOM8oytMH0yNBHx.jpg"
     },
     "evangelion209": {
       "t": "Evangelion: 2.0 You Can (Not) Advance",
       "y": 2009,
-      "set": "—"
+      "set": "—",
+      "poster": "/7VLYN2CfJpB6PrcuzDKKqdGSUi6.jpg"
     },
     "evangelion312": {
       "t": "Evangelion: 3.0 You Can (Not) Redo",
       "y": 2012,
-      "set": "—"
+      "set": "—",
+      "poster": "/d0s1xvykzl0kz7fP5S2ROYqphdz.jpg"
     },
     "evangelion321": {
       "t": "Evangelion: 3.0+1.0 Thrice Upon a Time",
       "y": 2021,
-      "set": "—"
+      "set": "—",
+      "poster": "/md5wZRRj8biHrGtyitgBZo7674t.jpg"
     }
   },
   "release": [

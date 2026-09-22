@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 206,
   "blurb": "A man wrongly convicted on the run, and a follow-up centred on the marshal who chased him.",
+  "poster": "/b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
   "films": {
     "thefugitive93": {
       "t": "The Fugitive",
       "y": 1993,
-      "set": "1993"
+      "set": "1993",
+      "poster": "/b3rEtLKyOnF89mcK75GXDXdmOEf.jpg"
     },
     "us98": {
       "t": "U.S. Marshals",
       "y": 1998,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/5ST0BydDSXtW5AtfDDhTVS13pTt.jpg"
     }
   },
   "release": [

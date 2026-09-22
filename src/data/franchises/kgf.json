@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 32,
   "blurb": "A Mumbai gangster's rise through the Kolar gold fields.",
+  "poster": "/ltHlJwvxKv7d0ooCiKSAvfwV9tX.jpg",
   "films": {
     "kgfchapter18": {
       "t": "KGF: Chapter 1",
       "y": 2018,
-      "set": "1951–1981"
+      "set": "1951–1981",
+      "poster": "/ltHlJwvxKv7d0ooCiKSAvfwV9tX.jpg"
     },
     "kgfchapter22": {
       "t": "KGF: Chapter 2",
       "y": 2022,
-      "set": "1981"
+      "set": "1981",
+      "poster": "/khNVygolU0TxLIDWff5tQlAhZ23.jpg"
     }
   },
   "release": [

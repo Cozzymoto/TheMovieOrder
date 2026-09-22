@@ -3,36 +3,43 @@
   "short": "Six films, several timelines",
   "hue": 198,
   "blurb": "Every sequel after the second one branches into its own timeline, so a single chronological line is a polite fiction. Here it is anyway.",
+  "poster": "/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
   "films": {
     "t1": {
       "t": "The Terminator",
       "y": 1984,
-      "set": "1984"
+      "set": "1984",
+      "poster": "/qvktm0BHcnmDpul4Hz01GIazWPr.jpg"
     },
     "t2": {
       "t": "Terminator 2: Judgment Day",
       "y": 1991,
-      "set": "1995"
+      "set": "1995",
+      "poster": "/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg"
     },
     "t3": {
       "t": "Terminator 3: Rise of the Machines",
       "y": 2003,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/vvevzdYIrk2636maNW4qeWmlPFG.jpg"
     },
     "gen": {
       "t": "Terminator Genisys",
       "y": 2015,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/oZRVDpNtmHk8M1VYy1aeOWUXgbC.jpg"
     },
     "sal": {
       "t": "Terminator Salvation",
       "y": 2009,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/gw6JhlekZgtKUFlDTezq3j5JEPK.jpg"
     },
     "dark": {
       "t": "Terminator: Dark Fate",
       "y": 2019,
-      "set": "2020"
+      "set": "2020",
+      "poster": "/vqzNJRH4YyquRiWxCCOH0aXggHI.jpg"
     }
   },
   "release": [

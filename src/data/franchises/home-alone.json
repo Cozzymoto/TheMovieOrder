@@ -3,21 +3,25 @@
   "short": "The three theatrical films",
   "hue": 0,
   "blurb": "A boy left behind at Christmas, twice, and a third film with an entirely new family.",
+  "poster": "/onTSipZ8R3bliBdKfPtsDuHTdlL.jpg",
   "films": {
     "homealone90": {
       "t": "Home Alone",
       "y": 1990,
-      "set": "1990"
+      "set": "1990",
+      "poster": "/onTSipZ8R3bliBdKfPtsDuHTdlL.jpg"
     },
     "homealone92": {
       "t": "Home Alone 2: Lost in New York",
       "y": 1992,
-      "set": "1992"
+      "set": "1992",
+      "poster": "/uuitWHpJwxD1wruFl2nZHIb4UGN.jpg"
     },
     "homealone97": {
       "t": "Home Alone 3",
       "y": 1997,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/6uOadrCfle0n2LOOxHbgWEdnrm2.jpg"
     }
   },
   "release": [

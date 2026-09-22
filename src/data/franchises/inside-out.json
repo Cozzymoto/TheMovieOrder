@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 176,
   "blurb": "The emotions running one girl's head, and what happens when she turns thirteen.",
+  "poster": "/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",
   "films": {
     "insideout15": {
       "t": "Inside Out",
       "y": 2015,
-      "set": "—"
+      "set": "—",
+      "poster": "/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg"
     },
     "insideout24": {
       "t": "Inside Out 2",
       "y": 2024,
-      "set": "—"
+      "set": "—",
+      "poster": "/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg"
     }
   },
   "release": [

@@ -3,31 +3,37 @@
   "short": "Five films, one told twice",
   "hue": 8,
   "blurb": "A series where the same novel was filmed twice, sixteen years apart, and the prequel arrived last.",
+  "poster": "/6rb24x39vV8n5301IelC8rCPJTH.jpg",
   "films": {
     "h86": {
       "t": "Manhunter",
       "y": 1986,
-      "set": "1980s"
+      "set": "1980s",
+      "poster": "/6rb24x39vV8n5301IelC8rCPJTH.jpg"
     },
     "h91": {
       "t": "The Silence of the Lambs",
       "y": 1991,
-      "set": "1991"
+      "set": "1991",
+      "poster": "/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg"
     },
     "h01": {
       "t": "Hannibal",
       "y": 2001,
-      "set": "1999"
+      "set": "1999",
+      "poster": "/v5wAZwRqpGWmyAaaJ8BBHYuNXnj.jpg"
     },
     "h02": {
       "t": "Red Dragon",
       "y": 2002,
-      "set": "1980s"
+      "set": "1980s",
+      "poster": "/ou9ZKA2cms02b7CdCdVqGkKu0O0.jpg"
     },
     "h07": {
       "t": "Hannibal Rising",
       "y": 2007,
-      "set": "1944–1950s"
+      "set": "1944–1950s",
+      "poster": "/7FTDMQoac0uqJUquZk4KenDzLMZ.jpg"
     }
   },
   "release": [

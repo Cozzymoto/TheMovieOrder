@@ -3,81 +3,97 @@
   "short": "Man of Steel to Aquaman 2",
   "hue": 204,
   "blurb": "Fifteen films made across a decade with the timeline worked out afterwards. Two of them are period pieces, one of them rewrites the lot.",
+  "poster": "/8GFtkImmK0K1VaUChR0n9O61CFU.jpg",
   "films": {
     "mos": {
       "t": "Man of Steel",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/8GFtkImmK0K1VaUChR0n9O61CFU.jpg"
     },
     "bvs": {
       "t": "Batman v Superman: Dawn of Justice",
       "y": 2016,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/5UsK3grJvtQrtzEgqNlDljJW96w.jpg"
     },
     "ss": {
       "t": "Suicide Squad",
       "y": 2016,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/sk3FZgh3sRrmr8vyhaitNobMcfh.jpg"
     },
     "ww": {
       "t": "Wonder Woman",
       "y": 2017,
-      "set": "1918"
+      "set": "1918",
+      "poster": "/v4ncgZjG2Zu8ZW5al1vIZTsSjqX.jpg"
     },
     "jl": {
       "t": "Justice League",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/eifGNCSDuxJeS1loAXil5bIGgvC.jpg"
     },
     "aq": {
       "t": "Aquaman",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/ufl63EFcc5XpByEV2Ecdw6WJZAI.jpg"
     },
     "shz": {
       "t": "Shazam!",
       "y": 2019,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/xnopI5Xtky18MPhK40cZAGAOVeV.jpg"
     },
     "bop": {
       "t": "Birds of Prey",
       "y": 2020,
-      "set": "2020"
+      "set": "2020",
+      "poster": "/h4VB6m0RwcicVEZvzftYZyKXs6K.jpg"
     },
     "ww84": {
       "t": "Wonder Woman 1984",
       "y": 2020,
-      "set": "1984"
+      "set": "1984",
+      "poster": "/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg"
     },
     "tss": {
       "t": "The Suicide Squad",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/q61qEyssk2ku3okWICKArlAdhBn.jpg"
     },
     "ba": {
       "t": "Black Adam",
       "y": 2022,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/rCtreCr4xiYEWDQTebybolIh6Xe.jpg"
     },
     "shz2": {
       "t": "Shazam! Fury of the Gods",
       "y": 2023,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/3GrRgt6CiLIUXUtoktcv1g2iwT5.jpg"
     },
     "flash": {
       "t": "The Flash",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg"
     },
     "bb": {
       "t": "Blue Beetle",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/mXLOHHc1Zeuwsl4xYKjKh2280oL.jpg"
     },
     "aq2": {
       "t": "Aquaman and the Lost Kingdom",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg"
     }
   },
   "release": [

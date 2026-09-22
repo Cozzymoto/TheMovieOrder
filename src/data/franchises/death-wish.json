@@ -3,36 +3,43 @@
   "short": "Six films",
   "hue": 4,
   "blurb": "An architect turned vigilante, across five films and a 2018 remake.",
+  "poster": "/rNksI6UiuTgLtBy69WvKT1PrG0R.jpg",
   "films": {
     "deathwish74": {
       "t": "Death Wish",
       "y": 1974,
-      "set": "1974"
+      "set": "1974",
+      "poster": "/rNksI6UiuTgLtBy69WvKT1PrG0R.jpg"
     },
     "deathwish82": {
       "t": "Death Wish II",
       "y": 1982,
-      "set": "1982"
+      "set": "1982",
+      "poster": "/lt91fEbThol6K8JDW6jFgPgxCjN.jpg"
     },
     "deathwish85": {
       "t": "Death Wish 3",
       "y": 1985,
-      "set": "1985"
+      "set": "1985",
+      "poster": "/mc33TytXxkC9cSKyztDJzwF3lbn.jpg"
     },
     "deathwish87": {
       "t": "Death Wish 4: The Crackdown",
       "y": 1987,
-      "set": "1987"
+      "set": "1987",
+      "poster": "/r8HwJQJyKRyJ2JypwiVR5p0ZV84.jpg"
     },
     "deathwish94": {
       "t": "Death Wish V: The Face of Death",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/5gcpHxQh93M6CKTIMpngErxxq0D.jpg"
     },
     "deathwish18": {
       "t": "Death Wish",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/g0eEEZAqMf98ULQnoiORuazjOpn.jpg"
     }
   },
   "release": [

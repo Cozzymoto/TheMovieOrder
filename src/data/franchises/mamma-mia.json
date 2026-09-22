@@ -3,16 +3,19 @@
   "short": "Two films, the second half a prequel",
   "hue": 196,
   "blurb": "An ABBA musical on a Greek island, and a sequel that splits its time between the present and 1979.",
+  "poster": "/xYLiCWmAMHJubx5jNZ7HuXKjAbV.jpg",
   "films": {
     "mammamia08": {
       "t": "Mamma Mia!",
       "y": 2008,
-      "set": "2008"
+      "set": "2008",
+      "poster": "/xYLiCWmAMHJubx5jNZ7HuXKjAbV.jpg"
     },
     "mammamia18": {
       "t": "Mamma Mia! Here We Go Again",
       "y": 2018,
-      "set": "1979 & present"
+      "set": "1979 & present",
+      "poster": "/aWicerX4Y7n7tUwRAVHsVcBBpj2.jpg"
     }
   },
   "release": [

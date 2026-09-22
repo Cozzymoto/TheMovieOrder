@@ -3,16 +3,19 @@
   "short": "Two films, thirty-six years apart",
   "hue": 96,
   "blurb": "A ghost for hire, and a sequel that finds the same family three generations on.",
+  "poster": "/nnl6OWkyPpuMm595hmAxNW3rZFn.jpg",
   "films": {
     "beetlejuice88": {
       "t": "Beetlejuice",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/nnl6OWkyPpuMm595hmAxNW3rZFn.jpg"
     },
     "beetlejuicebeetlejuice24": {
       "t": "Beetlejuice Beetlejuice",
       "y": 2024,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/kKgQzkUCnQmeTPkyIwHly2t6ZFI.jpg"
     }
   },
   "release": [

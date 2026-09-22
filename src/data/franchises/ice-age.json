@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 196,
   "blurb": "An unlikely herd surviving one prehistoric catastrophe after another.",
+  "poster": "/gLhHHZUzeseRXShoDyC4VqLgsNv.jpg",
   "films": {
     "iceage02": {
       "t": "Ice Age",
       "y": 2002,
-      "set": "—"
+      "set": "—",
+      "poster": "/gLhHHZUzeseRXShoDyC4VqLgsNv.jpg"
     },
     "iceage06": {
       "t": "Ice Age: The Meltdown",
       "y": 2006,
-      "set": "—"
+      "set": "—",
+      "poster": "/zDduhCHasKQ9YOTvlOreHem7Wbi.jpg"
     },
     "iceage09": {
       "t": "Ice Age: Dawn of the Dinosaurs",
       "y": 2009,
-      "set": "—"
+      "set": "—",
+      "poster": "/cXOLaxcNjNAYmEx1trZxOTKhK3Q.jpg"
     },
     "iceage12": {
       "t": "Ice Age: Continental Drift",
       "y": 2012,
-      "set": "—"
+      "set": "—",
+      "poster": "/dfp1BZF7FxbBUyzHvMOI9t8NWDD.jpg"
     },
     "iceage16": {
       "t": "Ice Age: Collision Course",
       "y": 2016,
-      "set": "—"
+      "set": "—",
+      "poster": "/tFzUkdhPOForVrEfvxydXfPLrZR.jpg"
     }
   },
   "release": [

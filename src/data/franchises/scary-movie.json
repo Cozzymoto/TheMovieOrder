@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 4,
   "blurb": "Parodies of whatever horror films were popular at the time — which makes each one a small time capsule.",
+  "poster": "/fVQFPRuw3yWXojYDJvA5EoFjUOY.jpg",
   "films": {
     "scarymovie00": {
       "t": "Scary Movie",
       "y": 2000,
-      "set": "2000"
+      "set": "2000",
+      "poster": "/fVQFPRuw3yWXojYDJvA5EoFjUOY.jpg"
     },
     "scarymovie01": {
       "t": "Scary Movie 2",
       "y": 2001,
-      "set": "2001"
+      "set": "2001",
+      "poster": "/7Eb1JWK0Cb0rbfsYjwfc9g0PbQH.jpg"
     },
     "scarymovie03": {
       "t": "Scary Movie 3",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/8dLsax5KSwlCY5uWXETKjud5k6U.jpg"
     },
     "scarymovie06": {
       "t": "Scary Movie 4",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/dEwlu8S0z1AibuX1weLwUyiRWFl.jpg"
     },
     "scarymovie13": {
       "t": "Scary Movie 5",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/vBqLLxE6GaAPhO6v9EFvFbLZ7Ap.jpg"
     }
   },
   "release": [

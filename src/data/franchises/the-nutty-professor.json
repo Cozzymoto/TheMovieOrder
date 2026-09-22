@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 270,
   "blurb": "Eddie Murphy as a scientist whose formula creates a very different version of himself — and as most of his family.",
+  "poster": "/fMtb5aZoLRNbMnCkatFsTmPRfl5.jpg",
   "films": {
     "thenutty96": {
       "t": "The Nutty Professor",
       "y": 1996,
-      "set": "1996"
+      "set": "1996",
+      "poster": "/fMtb5aZoLRNbMnCkatFsTmPRfl5.jpg"
     },
     "nuttyprofessor00": {
       "t": "Nutty Professor II: The Klumps",
       "y": 2000,
-      "set": "2000"
+      "set": "2000",
+      "poster": "/v8gI95Eio7kAjixyqYHxNKmJTmm.jpg"
     }
   },
   "release": [

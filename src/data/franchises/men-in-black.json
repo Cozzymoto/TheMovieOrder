@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 220,
   "blurb": "Three films with the original pair, and a spin-off with a new team that keeps the world but drops the cast.",
+  "poster": "/uLOmOF5IzWoyrgIF5MfUnh5pa1X.jpg",
   "films": {
     "m97": {
       "t": "Men in Black",
       "y": 1997,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/uLOmOF5IzWoyrgIF5MfUnh5pa1X.jpg"
     },
     "m02": {
       "t": "Men in Black II",
       "y": 2002,
-      "set": "2002"
+      "set": "2002",
+      "poster": "/enA22EPyzc2WQ1VVyY7zxresQQr.jpg"
     },
     "m12": {
       "t": "Men in Black 3",
       "y": 2012,
-      "set": "2012 & 1969"
+      "set": "2012 & 1969",
+      "poster": "/90DdoEStzeObs96fsYf4GG544iN.jpg"
     },
     "m19": {
       "t": "Men in Black: International",
       "y": 2019,
-      "set": "2019"
+      "set": "2019",
+      "poster": "/dPrUPFcgLfNbmDL8V69vcrTyEfb.jpg"
     }
   },
   "release": [

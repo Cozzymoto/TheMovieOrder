@@ -3,21 +3,25 @@
   "short": "Three films, one a prequel",
   "hue": 340,
   "blurb": "A horror trilogy where the middle film released first and the prequel arrived the same year.",
+  "poster": "/lopZSVtXzhFY603E9OqF7O1YKsh.jpg",
   "films": {
     "x22": {
       "t": "X",
       "y": 2022,
-      "set": "1979"
+      "set": "1979",
+      "poster": "/lopZSVtXzhFY603E9OqF7O1YKsh.jpg"
     },
     "pearl22": {
       "t": "Pearl",
       "y": 2022,
-      "set": "1918"
+      "set": "1918",
+      "poster": "/z5uIG81pXyHKg7cUFIu84Wjn4NS.jpg"
     },
     "maxxxine24": {
       "t": "MaXXXine",
       "y": 2024,
-      "set": "1985"
+      "set": "1985",
+      "poster": "/ArvoFK6nlouZRxYmtIOUzKIrg90.jpg"
     }
   },
   "release": [

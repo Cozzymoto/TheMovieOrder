@@ -3,36 +3,43 @@
   "short": "Including the Minions films",
   "hue": 48,
   "blurb": "Four films about Gru and two about the Minions, which between them reach back to 1968.",
+  "poster": "/b1BT309QWjtFUlJPLmXmrcHOWEL.jpg",
   "films": {
     "dm1": {
       "t": "Despicable Me",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/b1BT309QWjtFUlJPLmXmrcHOWEL.jpg"
     },
     "dm2": {
       "t": "Despicable Me 2",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/5Fh4NdoEnCjCK9wLjdJ9DJNFl2b.jpg"
     },
     "min": {
       "t": "Minions",
       "y": 2015,
-      "set": "1968"
+      "set": "1968",
+      "poster": "/dr02BdCNAUPVU07aOodwPYv6HCf.jpg"
     },
     "dm3": {
       "t": "Despicable Me 3",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/e72KCMHNkbZ6USRJmABeqwmaJ5n.jpg"
     },
     "gru": {
       "t": "Minions: The Rise of Gru",
       "y": 2022,
-      "set": "1976"
+      "set": "1976",
+      "poster": "/wKiOkZTN9lUUUNZLmtnwubZYONg.jpg"
     },
     "dm4": {
       "t": "Despicable Me 4",
       "y": 2024,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/wWba3TaojhK7NdycRhoQpsG0FaH.jpg"
     }
   },
   "release": [

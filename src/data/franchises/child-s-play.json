@@ -3,46 +3,55 @@
   "short": "Eight films of Chucky",
   "hue": 2,
   "blurb": "A rare horror series where the same doll, and the same actor voicing it, carry an unbroken story across thirty-five years.",
+  "poster": "/wvpgvcWNkF2HLuTEMIM7K83MvZ.jpg",
   "films": {
     "c88": {
       "t": "Child's Play",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/wvpgvcWNkF2HLuTEMIM7K83MvZ.jpg"
     },
     "c90": {
       "t": "Child's Play 2",
       "y": 1990,
-      "set": "1990"
+      "set": "1990",
+      "poster": "/2tPQbPQeHEYAGoXFSW61IWNmoce.jpg"
     },
     "c91": {
       "t": "Child's Play 3",
       "y": 1991,
-      "set": "1999"
+      "set": "1999",
+      "poster": "/6toMk9OCuDYEEf733Bzlq3yiw3z.jpg"
     },
     "c98": {
       "t": "Bride of Chucky",
       "y": 1998,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/yaIPNOcC7ZRuwH3maNwP9qzIo5G.jpg"
     },
     "c04": {
       "t": "Seed of Chucky",
       "y": 2004,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/vd9K93gQ9whMKjXzADZanxWpIXM.jpg"
     },
     "c13": {
       "t": "Curse of Chucky",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/x9DzkDWp8O82Wzxk6otuD9bce9a.jpg"
     },
     "c17": {
       "t": "Cult of Chucky",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/r5JUiMYfatwYeDkxkLWYUx5GIjY.jpg"
     },
     "c19": {
       "t": "Child's Play",
       "y": 2019,
-      "set": "Remake"
+      "set": "Remake",
+      "poster": "/rpS7ROczWulqfaXG2klYapULXKm.jpg"
     }
   },
   "release": [

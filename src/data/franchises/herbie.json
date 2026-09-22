@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 8,
   "blurb": "A Volkswagen Beetle with a mind of its own, across five films and four decades.",
+  "poster": "/9Lc1efdYZUZia2zsRWcUkiD1KdN.jpg",
   "films": {
     "thelove68": {
       "t": "The Love Bug",
       "y": 1968,
-      "set": "1968"
+      "set": "1968",
+      "poster": "/9Lc1efdYZUZia2zsRWcUkiD1KdN.jpg"
     },
     "herbierides74": {
       "t": "Herbie Rides Again",
       "y": 1974,
-      "set": "1974"
+      "set": "1974",
+      "poster": "/1k14PPykkUQfhjn3xXDrc55lfHl.jpg"
     },
     "herbiegoes77": {
       "t": "Herbie Goes to Monte Carlo",
       "y": 1977,
-      "set": "1977"
+      "set": "1977",
+      "poster": "/4gMplOTJWAj1oNrv0QJG6SGhBNQ.jpg"
     },
     "herbiegoes80": {
       "t": "Herbie Goes Bananas",
       "y": 1980,
-      "set": "1980"
+      "set": "1980",
+      "poster": "/7cBOYLDhHMA351ndLthSxBCwO5N.jpg"
     },
     "herbiefully05": {
       "t": "Herbie: Fully Loaded",
       "y": 2005,
-      "set": "2005"
+      "set": "2005",
+      "poster": "/7lTfTZ8CDfXw09eAv3OOvsbCVgs.jpg"
     }
   },
   "release": [

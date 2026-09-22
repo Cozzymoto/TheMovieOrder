@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 280,
   "blurb": "Dance films loosely linked by returning characters and a shared love of choreography.",
+  "poster": "/fmw52kXk2kN8AQil7tgOD41gt4Q.jpg",
   "films": {
     "stepup06": {
       "t": "Step Up",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/fmw52kXk2kN8AQil7tgOD41gt4Q.jpg"
     },
     "stepup08": {
       "t": "Step Up 2: The Streets",
       "y": 2008,
-      "set": "2008"
+      "set": "2008",
+      "poster": "/vYdlRTvA5fneB88NchV3sirzCE1.jpg"
     },
     "stepup10": {
       "t": "Step Up 3D",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/rPcqa5TZ7S63RNmCuY45ZizFBen.jpg"
     },
     "stepup12": {
       "t": "Step Up Revolution",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/jMpwxmk3r7Aq36GcqMbCuP9DJYQ.jpg"
     },
     "stepup14": {
       "t": "Step Up: All In",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/hgAjyJyEvj5S9CeztXs39iEUJKS.jpg"
     }
   },
   "release": [

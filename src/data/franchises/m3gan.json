@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 310,
   "blurb": "A robotic doll built to protect a child, and a sequel that turns her into an unlikely ally.",
+  "poster": "/d9nBoowhjiiYc4FBNtQkPY7c11H.jpg",
   "films": {
     "m3gan22": {
       "t": "M3GAN",
       "y": 2022,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/d9nBoowhjiiYc4FBNtQkPY7c11H.jpg"
     },
     "m3gan225": {
       "t": "M3GAN 2.0",
       "y": 2025,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/oekamLQrwlJjRNmfaBE4llIvkir.jpg"
     }
   },
   "release": [

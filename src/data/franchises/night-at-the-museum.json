@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 40,
   "blurb": "A night watchman whose museum comes to life after closing.",
+  "poster": "/pDsAAYf6Zn0yiAGJ6lYGs6hoZ4E.jpg",
   "films": {
     "nightat06": {
       "t": "Night at the Museum",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/pDsAAYf6Zn0yiAGJ6lYGs6hoZ4E.jpg"
     },
     "nightat09": {
       "t": "Night at the Museum: Battle of the Smithsonian",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/l9yAQn6TyrA3gv5xZZkiMMoZsiw.jpg"
     },
     "nightat14": {
       "t": "Night at the Museum: Secret of the Tomb",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/xwgy305K6qDs3D20xUO4OZu1HPY.jpg"
     }
   },
   "release": [

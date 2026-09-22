@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 24,
   "blurb": "A British caving horror, and a sequel that picks up where the American cut left off.",
+  "poster": "/mxFPI4KYBk5ri9cPteIS8jiDFgj.jpg",
   "films": {
     "thedescent05": {
       "t": "The Descent",
       "y": 2005,
-      "set": "2005"
+      "set": "2005",
+      "poster": "/mxFPI4KYBk5ri9cPteIS8jiDFgj.jpg"
     },
     "thedescent09": {
       "t": "The Descent Part 2",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/dOURlcw2MO0xys0Dl2NiAcUxlWA.jpg"
     }
   },
   "release": [

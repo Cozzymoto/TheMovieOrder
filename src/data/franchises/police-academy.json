@@ -3,41 +3,49 @@
   "short": "Seven films",
   "hue": 210,
   "blurb": "Seven films in ten years following the same misfit recruits long after they graduate.",
+  "poster": "/3PriqoVUQcPwcyvk0SJRiMTdBJK.jpg",
   "films": {
     "policeacademy84": {
       "t": "Police Academy",
       "y": 1984,
-      "set": "1984"
+      "set": "1984",
+      "poster": "/3PriqoVUQcPwcyvk0SJRiMTdBJK.jpg"
     },
     "policeacademy85": {
       "t": "Police Academy 2: Their First Assignment",
       "y": 1985,
-      "set": "1985"
+      "set": "1985",
+      "poster": "/9E6tigDzRptEtkZl07bCIKzuOXL.jpg"
     },
     "policeacademy86": {
       "t": "Police Academy 3: Back in Training",
       "y": 1986,
-      "set": "1986"
+      "set": "1986",
+      "poster": "/pBxGgWSR0CMaCVMA2kQS5MWU1z3.jpg"
     },
     "policeacademy87": {
       "t": "Police Academy 4: Citizens on Patrol",
       "y": 1987,
-      "set": "1987"
+      "set": "1987",
+      "poster": "/vvk5aWBJE3EqDX2ln6M4J4UiUXr.jpg"
     },
     "policeacademy88": {
       "t": "Police Academy 5: Assignment Miami Beach",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/4m1qfTiVxdEDv0fgUf0FI7CA9Fe.jpg"
     },
     "policeacademy89": {
       "t": "Police Academy 6: City Under Siege",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/gRFJ3xLewH1rwEplZBfKS4vGpFV.jpg"
     },
     "policeacademy94": {
       "t": "Police Academy: Mission to Moscow",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/3517XQ9LpoEykyYq2TuDNS45MPP.jpg"
     }
   },
   "release": [

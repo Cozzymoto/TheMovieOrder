@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 8,
   "blurb": "Three deadpan police spoofs with Leslie Nielsen, and a 2025 film following his character's son.",
+  "poster": "/zT0mhZqZQJE1gSY5Eg9qcGP4NYo.jpg",
   "films": {
     "thenaked88": {
       "t": "The Naked Gun: From the Files of Police Squad!",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/zT0mhZqZQJE1gSY5Eg9qcGP4NYo.jpg"
     },
     "thenaked91": {
       "t": "The Naked Gun 2½: The Smell of Fear",
       "y": 1991,
-      "set": "1991"
+      "set": "1991",
+      "poster": "/v9niLQWVzVPB1cP1ThNdEaLZG1Q.jpg"
     },
     "nakedgun94": {
       "t": "Naked Gun 33⅓: The Final Insult",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/p0AYsdgkudR9P5fNV5AjzbwQt8W.jpg"
     },
     "thenaked25": {
       "t": "The Naked Gun",
       "y": 2025,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/rwla9vqzrKVVKVKiOuROTIXGsxj.jpg"
     }
   },
   "release": [

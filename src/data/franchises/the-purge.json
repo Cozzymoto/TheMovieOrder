@@ -3,31 +3,37 @@
   "short": "Five films, one prequel",
   "hue": 56,
   "blurb": "Four films moving forward through a collapsing America, plus a fourth entry that goes back to the night it all started.",
+  "poster": "/46X1ei9uf13nkkr0OhWldGyr5Uh.jpg",
   "films": {
     "g13": {
       "t": "The Purge",
       "y": 2013,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/46X1ei9uf13nkkr0OhWldGyr5Uh.jpg"
     },
     "g14": {
       "t": "The Purge: Anarchy",
       "y": 2014,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/qwqHHZLZSUvMkAMQ47ymtfjEifY.jpg"
     },
     "g16": {
       "t": "The Purge: Election Year",
       "y": 2016,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/gg7tlp45xqGWMra0sqQVPvybje2.jpg"
     },
     "g18": {
       "t": "The First Purge",
       "y": 2018,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/litjsBoiydO6JlO70uOX4N3WnNL.jpg"
     },
     "g21": {
       "t": "The Forever Purge",
       "y": 2021,
-      "set": "2048"
+      "set": "2048",
+      "poster": "/lB068qa6bQ0QKYKyC2xnYGvYjl7.jpg"
     }
   },
   "release": [

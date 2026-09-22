@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 88,
   "blurb": "A quiet character study about a damaged veteran, followed by four films that mostly forget it was one.",
+  "poster": "/a9sa6ERZCpplbPEO7OMWE763CLD.jpg",
   "films": {
     "r82": {
       "t": "First Blood",
       "y": 1982,
-      "set": "1982"
+      "set": "1982",
+      "poster": "/a9sa6ERZCpplbPEO7OMWE763CLD.jpg"
     },
     "r85": {
       "t": "Rambo: First Blood Part II",
       "y": 1985,
-      "set": "1985"
+      "set": "1985",
+      "poster": "/fVwRtWqEPdsCH21BVDGqgkAQcff.jpg"
     },
     "r88": {
       "t": "Rambo III",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/1eSQvGuD25ezKaiaQsyDDG3e9iN.jpg"
     },
     "r08": {
       "t": "Rambo",
       "y": 2008,
-      "set": "2008"
+      "set": "2008",
+      "poster": "/3mInub5c8o00H7EJ1TrjAqOzIuc.jpg"
     },
     "r19": {
       "t": "Rambo: Last Blood",
       "y": 2019,
-      "set": "2019"
+      "set": "2019",
+      "poster": "/kTQ3J8oTTKofAVLYnds2cHUz9KO.jpg"
     }
   },
   "release": [

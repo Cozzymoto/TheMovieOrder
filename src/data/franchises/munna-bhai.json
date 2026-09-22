@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 36,
   "blurb": "A Mumbai gangster who fakes his way into medical school, then takes lessons from Gandhi.",
+  "poster": "/OjJ2eZFMr0InHxjYCQXwxDoo4v.jpg",
   "films": {
     "munnabhai03": {
       "t": "Munna Bhai M.B.B.S.",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/OjJ2eZFMr0InHxjYCQXwxDoo4v.jpg"
     },
     "lageraho06": {
       "t": "Lage Raho Munna Bhai",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/lgSn1tXDstMXSHJYkSibKkHqW8y.jpg"
     }
   },
   "release": [

@@ -3,21 +3,25 @@
   "short": "Sergio Leone's westerns",
   "hue": 32,
   "blurb": "Three westerns with the same unnamed gunman — and a long-running argument that the most famous one is a prequel.",
+  "poster": "/lBwOEpwVeUAmrmglcstnaGcJq3Y.jpg",
   "films": {
     "afistful64": {
       "t": "A Fistful of Dollars",
       "y": 1964,
-      "set": "—"
+      "set": "—",
+      "poster": "/lBwOEpwVeUAmrmglcstnaGcJq3Y.jpg"
     },
     "fora65": {
       "t": "For a Few Dollars More",
       "y": 1965,
-      "set": "—"
+      "set": "—",
+      "poster": "/ooqASvA7qxlTVKL3KwOzBwy57Dh.jpg"
     },
     "thegood66": {
       "t": "The Good, the Bad and the Ugly",
       "y": 1966,
-      "set": "1862"
+      "set": "1862",
+      "poster": "/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg"
     }
   },
   "release": [

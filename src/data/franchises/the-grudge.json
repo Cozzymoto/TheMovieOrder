@@ -3,26 +3,31 @@
   "short": "Four American films",
   "hue": 270,
   "blurb": "American versions of a Japanese curse story, with a 2020 entry that runs alongside the first film rather than after it.",
+  "poster": "/7vPAVPKYexQVmvC578wPLn2CGCL.jpg",
   "films": {
     "thegrudge04": {
       "t": "The Grudge",
       "y": 2004,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/7vPAVPKYexQVmvC578wPLn2CGCL.jpg"
     },
     "thegrudge06": {
       "t": "The Grudge 2",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/6fWhibnDKEJvDEz33CuNyl4FQgj.jpg"
     },
     "thegrudge09": {
       "t": "The Grudge 3",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/uEOWWRr8BbgPM0BiJiSTwHGaRx4.jpg"
     },
     "thegrudge20": {
       "t": "The Grudge",
       "y": 2020,
-      "set": "2004–2006"
+      "set": "2004–2006",
+      "poster": "/vN7JHlHOT9rHNDU27tfYqhABBj5.jpg"
     }
   },
   "release": [

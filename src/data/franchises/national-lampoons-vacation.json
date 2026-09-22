@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 46,
   "blurb": "The Griswold family's disastrous holidays, from a road trip to Christmas at home.",
+  "poster": "/q3DvoqY06yZnRp9faH6uge7n7VP.jpg",
   "films": {
     "nationallampoons83": {
       "t": "National Lampoon's Vacation",
       "y": 1983,
-      "set": "1983"
+      "set": "1983",
+      "poster": "/q3DvoqY06yZnRp9faH6uge7n7VP.jpg"
     },
     "nationallampoons85": {
       "t": "National Lampoon's European Vacation",
       "y": 1985,
-      "set": "1985"
+      "set": "1985",
+      "poster": "/hZL7g1oSDrA0Lx5wcHpEl99MYKi.jpg"
     },
     "nationallampoons89": {
       "t": "National Lampoon's Christmas Vacation",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/oat42hUw8XzKYUmfy0YLAxYd484.jpg"
     },
     "vegasvacation97": {
       "t": "Vegas Vacation",
       "y": 1997,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/jUOreo2AWDnPuRJsUp6T1i66tUe.jpg"
     },
     "vacation15": {
       "t": "Vacation",
       "y": 2015,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/fYDALvoCt3DBlSWN6pSAnGQ9ld7.jpg"
     }
   },
   "release": [

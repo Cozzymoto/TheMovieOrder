@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 0,
   "blurb": "Japanese schoolchildren forced to fight to the death on an island.",
+  "poster": "/aLGKAQKgzWpJ6egyWzzC11jXBRJ.jpg",
   "films": {
     "battleroyale00": {
       "t": "Battle Royale",
       "y": 2000,
-      "set": "2000"
+      "set": "2000",
+      "poster": "/aLGKAQKgzWpJ6egyWzzC11jXBRJ.jpg"
     },
     "battleroyale03": {
       "t": "Battle Royale II: Requiem",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/ynk3exf5wJ63cMzco6WnbNpn9YH.jpg"
     }
   },
   "release": [

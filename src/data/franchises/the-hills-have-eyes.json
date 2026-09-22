@@ -3,26 +3,31 @@
   "short": "Four films, two continuities",
   "hue": 28,
   "blurb": "A 1977 original with a sequel, and a 2006 remake with a sequel of its own.",
+  "poster": "/1G2DBIEkoS0JdCiOFIeR3mD8ROE.jpg",
   "films": {
     "thehills77": {
       "t": "The Hills Have Eyes",
       "y": 1977,
-      "set": "1977"
+      "set": "1977",
+      "poster": "/1G2DBIEkoS0JdCiOFIeR3mD8ROE.jpg"
     },
     "thehills84": {
       "t": "The Hills Have Eyes Part II",
       "y": 1984,
-      "set": "1984"
+      "set": "1984",
+      "poster": "/cGLzgE2BTcHHyCXxS1lMxyY0iuc.jpg"
     },
     "thehills06": {
       "t": "The Hills Have Eyes",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/2eJL1Ccr1FN3dm9OSDwyd8uaX1b.jpg"
     },
     "thehills07": {
       "t": "The Hills Have Eyes 2",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/3SX2UGSmAjIZsVACpshPpKtjbDr.jpg"
     }
   },
   "release": [

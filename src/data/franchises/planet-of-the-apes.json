@@ -3,56 +3,67 @@
   "short": "Ten films, two continuities, one time loop",
   "hue": 30,
   "blurb": "The original series travels backwards in time to cause its own beginning. The modern films restart from scratch and run forwards.",
+  "poster": "/2r9iKnlSYEk4daQadsXfcjHfIjQ.jpg",
   "films": {
     "a68": {
       "t": "Planet of the Apes",
       "y": 1968,
-      "set": "3978"
+      "set": "3978",
+      "poster": "/2r9iKnlSYEk4daQadsXfcjHfIjQ.jpg"
     },
     "a70": {
       "t": "Beneath the Planet of the Apes",
       "y": 1970,
-      "set": "3979"
+      "set": "3979",
+      "poster": "/szHCeYwi4ubewuYnlnz0YGqWnQC.jpg"
     },
     "a71": {
       "t": "Escape from the Planet of the Apes",
       "y": 1971,
-      "set": "1973"
+      "set": "1973",
+      "poster": "/vqD7qjBRizY7sPVIHbFRUZwgEXL.jpg"
     },
     "a72": {
       "t": "Conquest of the Planet of the Apes",
       "y": 1972,
-      "set": "1991"
+      "set": "1991",
+      "poster": "/tzKZRY2opw5MruSkevffgT5ocun.jpg"
     },
     "a73": {
       "t": "Battle for the Planet of the Apes",
       "y": 1973,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/dP5dYjLp5p2CG103cJMio4Nj29d.jpg"
     },
     "b01": {
       "t": "Planet of the Apes",
       "y": 2001,
-      "set": "2029"
+      "set": "2029",
+      "poster": "/3ZWsuP5rExMSji7erxnb1P5SK6F.jpg"
     },
     "a11": {
       "t": "Rise of the Planet of the Apes",
       "y": 2011,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/oqA45qMyyo1TtrnVEBKxqmTPhbN.jpg"
     },
     "a14": {
       "t": "Dawn of the Planet of the Apes",
       "y": 2014,
-      "set": "2026"
+      "set": "2026",
+      "poster": "/mSmAc9G25fhOHH45SLEeagR0qi7.jpg"
     },
     "a17": {
       "t": "War for the Planet of the Apes",
       "y": 2017,
-      "set": "2028"
+      "set": "2028",
+      "poster": "/3vYhLLxrTtZLysXtIWktmd57Snv.jpg"
     },
     "a24": {
       "t": "Kingdom of the Planet of the Apes",
       "y": 2024,
-      "set": "c. 2328"
+      "set": "c. 2328",
+      "poster": "/gKkl37BQuKTanygYQG1pyYgLVgf.jpg"
     }
   },
   "release": [

@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 220,
   "blurb": "A British secret agent whose confidence vastly outstrips his competence.",
+  "poster": "/mmzW88tnkB2MnOV3Un2F9IUxSnZ.jpg",
   "films": {
     "johnnyenglish03": {
       "t": "Johnny English",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/mmzW88tnkB2MnOV3Un2F9IUxSnZ.jpg"
     },
     "johnnyenglish11": {
       "t": "Johnny English Reborn",
       "y": 2011,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/zDbrU0eSnRGh5gHc1iqTACTNNyT.jpg"
     },
     "johnnyenglish18": {
       "t": "Johnny English Strikes Again",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/tCBxnZwLiY1BOKw3tH6AxHZdqPh.jpg"
     }
   },
   "release": [

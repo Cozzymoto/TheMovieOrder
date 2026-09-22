@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 200,
   "blurb": "Two films following four school friends from the television series — first to Malia, then to Australia.",
+  "poster": "/nePYsVp0qU8EbSXeUdr3xEkHlzN.jpg",
   "films": {
     "theinbetweeners11": {
       "t": "The Inbetweeners Movie",
       "y": 2011,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/nePYsVp0qU8EbSXeUdr3xEkHlzN.jpg"
     },
     "theinbetweeners14": {
       "t": "The Inbetweeners 2",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/xP328XWLccsitiTTClWGTNlwz48.jpg"
     }
   },
   "release": [

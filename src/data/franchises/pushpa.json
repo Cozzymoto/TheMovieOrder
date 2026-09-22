@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 0,
   "blurb": "A labourer's rise in the red sandalwood smuggling trade.",
+  "poster": "/cLCPRzTFBM9azgD46m2MxYSx5wX.jpg",
   "films": {
     "pushpathe21": {
       "t": "Pushpa: The Rise",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/cLCPRzTFBM9azgD46m2MxYSx5wX.jpg"
     },
     "pushpa224": {
       "t": "Pushpa 2: The Rule",
       "y": 2024,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/1T21FblunT0y8fz7YaW8JMYgUKm.jpg"
     }
   },
   "release": [

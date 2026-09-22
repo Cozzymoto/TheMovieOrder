@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 345,
   "blurb": "A vampire-hunter trilogy that arrived two years before the modern superhero boom and helped cause it.",
+  "poster": "/oWT70TvbsmQaqyphCZpsnQR7R32.jpg",
   "films": {
     "blade98": {
       "t": "Blade",
       "y": 1998,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/oWT70TvbsmQaqyphCZpsnQR7R32.jpg"
     },
     "bladeii02": {
       "t": "Blade II",
       "y": 2002,
-      "set": "2002"
+      "set": "2002",
+      "poster": "/wAn6VYamKbnOtfyTZ6arVtkMzDv.jpg"
     },
     "bladetrinity04": {
       "t": "Blade: Trinity",
       "y": 2004,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/6f7iXvPOnf83MaLB1JmPzUor1rr.jpg"
     }
   },
   "release": [

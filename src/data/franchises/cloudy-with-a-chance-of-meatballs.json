@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 100,
   "blurb": "An inventor whose machine turns weather into food, and the island it creates.",
+  "poster": "/qhOhIKf7QEyQ5dMrRUqs5eTX1Oq.jpg",
   "films": {
     "cloudywith09": {
       "t": "Cloudy with a Chance of Meatballs",
       "y": 2009,
-      "set": "—"
+      "set": "—",
+      "poster": "/qhOhIKf7QEyQ5dMrRUqs5eTX1Oq.jpg"
     },
     "cloudywith13": {
       "t": "Cloudy with a Chance of Meatballs 2",
       "y": 2013,
-      "set": "—"
+      "set": "—",
+      "poster": "/ss5NcK2NWFg2YcKKYXLrk8q1myS.jpg"
     }
   },
   "release": [

@@ -3,41 +3,49 @@
   "short": "Seven films",
   "hue": 316,
   "blurb": "A girls' school where the pupils are more dangerous than anyone who crosses them.",
+  "poster": "/fKqPAMTJA7df8bHiPPbpV7RzEl8.jpg",
   "films": {
     "thebelles54": {
       "t": "The Belles of St Trinian's",
       "y": 1954,
-      "set": "1954"
+      "set": "1954",
+      "poster": "/fKqPAMTJA7df8bHiPPbpV7RzEl8.jpg"
     },
     "bluemurder57": {
       "t": "Blue Murder at St Trinian's",
       "y": 1957,
-      "set": "1957"
+      "set": "1957",
+      "poster": "/eeINGxCFRck14wYmYLFF4pc6vsB.jpg"
     },
     "thepure60": {
       "t": "The Pure Hell of St Trinian's",
       "y": 1960,
-      "set": "1960"
+      "set": "1960",
+      "poster": "/39k98SM5HZIObHqf2F4cnk5ft2i.jpg"
     },
     "thegreat66": {
       "t": "The Great St Trinian's Train Robbery",
       "y": 1966,
-      "set": "1966"
+      "set": "1966",
+      "poster": "/gtqktwlZVseDW3XkuGQEYGSKTcj.jpg"
     },
     "thewildcats80": {
       "t": "The Wildcats of St Trinian's",
       "y": 1980,
-      "set": "1980"
+      "set": "1980",
+      "poster": "/ucTA4b8CsNazrf2FwT5CI13Zmdq.jpg"
     },
     "sttrinians07": {
       "t": "St Trinian's",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/aOVxLigLjkix69vq6iiu0XXPnai.jpg"
     },
     "sttrinians09": {
       "t": "St Trinian's 2: The Legend of Fritton's Gold",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/pkLP6uusA3RlgKHUZZ1uWVwbucc.jpg"
     }
   },
   "release": [

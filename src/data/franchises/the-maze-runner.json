@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 58,
   "blurb": "A trilogy that starts as a mystery inside a maze and ends as a war outside it.",
+  "poster": "/ode14q7WtDugFDp78fo9lCsmay9.jpg",
   "films": {
     "themaze14": {
       "t": "The Maze Runner",
       "y": 2014,
-      "set": "—"
+      "set": "—",
+      "poster": "/ode14q7WtDugFDp78fo9lCsmay9.jpg"
     },
     "mazerunner15": {
       "t": "Maze Runner: The Scorch Trials",
       "y": 2015,
-      "set": "—"
+      "set": "—",
+      "poster": "/mYw7ZyejqSCPFlrT2jHZOESZDU3.jpg"
     },
     "mazerunner18": {
       "t": "Maze Runner: The Death Cure",
       "y": 2018,
-      "set": "—"
+      "set": "—",
+      "poster": "/s8K0US4tUEoOrQ1LDh0eppuwGDx.jpg"
     }
   },
   "release": [

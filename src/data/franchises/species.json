@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 170,
   "blurb": "A human-alien hybrid, created in a lab, who escapes it.",
+  "poster": "/cT5wdyo8kT7dycqjrolJ2sHWkFx.jpg",
   "films": {
     "species95": {
       "t": "Species",
       "y": 1995,
-      "set": "1995"
+      "set": "1995",
+      "poster": "/cT5wdyo8kT7dycqjrolJ2sHWkFx.jpg"
     },
     "speciesii98": {
       "t": "Species II",
       "y": 1998,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/8LSBi0bHACZtIiVErUBQ2UXNYLA.jpg"
     },
     "speciesiii04": {
       "t": "Species III",
       "y": 2004,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/8BelHo8qmaurZjPS9hipSQ79Rr6.jpg"
     },
     "speciesthe07": {
       "t": "Species: The Awakening",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/wPsu2NM0eUpoqycgjjnRJIwxK13.jpg"
     }
   },
   "release": [

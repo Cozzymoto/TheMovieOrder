@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 210,
   "blurb": "Jackie Chan's Hong Kong cop and his escalating stunts.",
+  "poster": "/1eFB0Iy1TMU4VO5hMcoCE064JAT.jpg",
   "films": {
     "policestory85": {
       "t": "Police Story",
       "y": 1985,
-      "set": "1985"
+      "set": "1985",
+      "poster": "/1eFB0Iy1TMU4VO5hMcoCE064JAT.jpg"
     },
     "policestory88": {
       "t": "Police Story 2",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/kjq1FXtHh9i2sIuM0JaoYf43FDU.jpg"
     },
     "policestory92": {
       "t": "Police Story 3: Super Cop",
       "y": 1992,
-      "set": "1992"
+      "set": "1992",
+      "poster": "/mUJOyCd4g0pNsU8thYI7UGrIpkl.jpg"
     },
     "supercop293": {
       "t": "Supercop 2",
       "y": 1993,
-      "set": "1993"
+      "set": "1993",
+      "poster": "/wYGXe2BRIyNX2z7Y6UdQoiw8yfk.jpg"
     },
     "policestory96": {
       "t": "Police Story 4: First Strike",
       "y": 1996,
-      "set": "1996"
+      "set": "1996",
+      "poster": "/dOZJQTn8Ys57pH5trpG5y9DaUBq.jpg"
     }
   },
   "release": [

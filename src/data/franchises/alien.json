@@ -4,41 +4,49 @@
   "hue": 180,
   "blurb": "A 1979 original, two prequels made thirty years later, and a 2024 entry that drops straight into the gap between the first two films.",
   "rank": 8,
+  "poster": "/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg",
   "films": {
     "a1": {
       "t": "Alien",
       "y": 1979,
-      "set": "2122"
+      "set": "2122",
+      "poster": "/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg"
     },
     "a2": {
       "t": "Aliens",
       "y": 1986,
-      "set": "2179"
+      "set": "2179",
+      "poster": "/r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg"
     },
     "a3": {
       "t": "Alien 3",
       "y": 1992,
-      "set": "2179"
+      "set": "2179",
+      "poster": "/xh5wI0UoW7DfS1IyLy3d2CgrCEP.jpg"
     },
     "a4": {
       "t": "Alien Resurrection",
       "y": 1997,
-      "set": "2381"
+      "set": "2381",
+      "poster": "/9aRDMlU5Zwpysilm0WCWzU2PCFv.jpg"
     },
     "prom": {
       "t": "Prometheus",
       "y": 2012,
-      "set": "2093"
+      "set": "2093",
+      "poster": "/qsYQflQhOuhDpQ0W2aOcwqgDAeI.jpg"
     },
     "cov": {
       "t": "Alien: Covenant",
       "y": 2017,
-      "set": "2104"
+      "set": "2104",
+      "poster": "/zecMELPbU5YMQpC81Z8ImaaXuf9.jpg"
     },
     "rom": {
       "t": "Alien: Romulus",
       "y": 2024,
-      "set": "2142"
+      "set": "2142",
+      "poster": "/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg"
     }
   },
   "release": [

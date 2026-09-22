@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 200,
   "blurb": "A 1990s slasher with a sequel, a standalone follow-up, and a 2025 legacy film that brings back the original cast.",
+  "poster": "/dQyaJx0SptDqvQcAewAr8FAtLB2.jpg",
   "films": {
     "iknow97": {
       "t": "I Know What You Did Last Summer",
       "y": 1997,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/dQyaJx0SptDqvQcAewAr8FAtLB2.jpg"
     },
     "istill98": {
       "t": "I Still Know What You Did Last Summer",
       "y": 1998,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/eg3d6hvTaOmW3lNErFfutBmWmAR.jpg"
     },
     "illalways06": {
       "t": "I'll Always Know What You Did Last Summer",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/4gDbZ60YJ6WDstT0XOBABq4bQtO.jpg"
     },
     "iknow25": {
       "t": "I Know What You Did Last Summer",
       "y": 2025,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/8FP2ObEGIiQYQCf83gL4ZVzwZF8.jpg"
     }
   },
   "release": [

@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 180,
   "blurb": "A trilogy with a continuous story, followed by two more loosely attached adventures.",
+  "poster": "/poHwCZeWzJCShH7tOjg8RIoyjcw.jpg",
   "films": {
     "p03": {
       "t": "Pirates of the Caribbean: The Curse of the Black Pearl",
       "y": 2003,
-      "set": "1720s"
+      "set": "1720s",
+      "poster": "/poHwCZeWzJCShH7tOjg8RIoyjcw.jpg"
     },
     "p06": {
       "t": "Pirates of the Caribbean: Dead Man's Chest",
       "y": 2006,
-      "set": "1720s"
+      "set": "1720s",
+      "poster": "/uXEqmloGyP7UXAiphJUu2v2pcuE.jpg"
     },
     "p07": {
       "t": "Pirates of the Caribbean: At World's End",
       "y": 2007,
-      "set": "1720s"
+      "set": "1720s",
+      "poster": "/jGWpG4YhpQwVmjyHEGkxEkeRf0S.jpg"
     },
     "p11": {
       "t": "Pirates of the Caribbean: On Stranger Tides",
       "y": 2011,
-      "set": "1750s"
+      "set": "1750s",
+      "poster": "/keGfSvCmYj7CvdRx36OdVrAEibE.jpg"
     },
     "p17": {
       "t": "Pirates of the Caribbean: Dead Men Tell No Tales",
       "y": 2017,
-      "set": "1750s"
+      "set": "1750s",
+      "poster": "/6lAPOAFYFWIO3SQRemEY2wInQMC.jpg"
     }
   },
   "release": [

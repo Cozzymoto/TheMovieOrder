@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 14,
   "blurb": "A video game villain who wants to be the hero, and his trip into the internet.",
+  "poster": "/nrEupcBwf4O1zihCM34NoXusZDq.jpg",
   "films": {
     "wreckit12": {
       "t": "Wreck-It Ralph",
       "y": 2012,
-      "set": "—"
+      "set": "—",
+      "poster": "/nrEupcBwf4O1zihCM34NoXusZDq.jpg"
     },
     "ralphbreaks18": {
       "t": "Ralph Breaks the Internet",
       "y": 2018,
-      "set": "—"
+      "set": "—",
+      "poster": "/iVCrhBcpDaHGvv7CLYbK6PuXZo1.jpg"
     }
   },
   "release": [

@@ -3,41 +3,49 @@
   "short": "Seven films",
   "hue": 110,
   "blurb": "Three films about a failed park, three about a successful one, and a seventh that starts again.",
+  "poster": "/d9mtMGQDLANKieb9PbD3yK7xxzo.jpg",
   "films": {
     "j93": {
       "t": "Jurassic Park",
       "y": 1993,
-      "set": "1993"
+      "set": "1993",
+      "poster": "/d9mtMGQDLANKieb9PbD3yK7xxzo.jpg"
     },
     "j97": {
       "t": "The Lost World: Jurassic Park",
       "y": 1997,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/s4RkAQWI9hgzctXgNFos8sJUnXJ.jpg"
     },
     "j01": {
       "t": "Jurassic Park III",
       "y": 2001,
-      "set": "2001"
+      "set": "2001",
+      "poster": "/oQXj4NUfS3r3gHXtDOzcJgj1lLc.jpg"
     },
     "j15": {
       "t": "Jurassic World",
       "y": 2015,
-      "set": "2015"
+      "set": "2015",
+      "poster": "/rhr4y79GpxQF9IsfJItRXVaoGs4.jpg"
     },
     "j18": {
       "t": "Jurassic World: Fallen Kingdom",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/x2Us3jR6ToMJjbcPbLimYoxf6xr.jpg"
     },
     "j22": {
       "t": "Jurassic World Dominion",
       "y": 2022,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/jbAvCACjLf1ZG0unB2tdmx5HAf1.jpg"
     },
     "j25": {
       "t": "Jurassic World Rebirth",
       "y": 2025,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/1RICxzeoNCAO5NpcRMIgg1XT6fm.jpg"
     }
   },
   "release": [

@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 200,
   "blurb": "The disaster films that defined the 1970s, each finding a new way for a flight to go wrong.",
+  "poster": "/6iOKluJfyiU1SLZbGYrY7Z0i6k0.jpg",
   "films": {
     "airport70": {
       "t": "Airport",
       "y": 1970,
-      "set": "1970"
+      "set": "1970",
+      "poster": "/6iOKluJfyiU1SLZbGYrY7Z0i6k0.jpg"
     },
     "airport197574": {
       "t": "Airport 1975",
       "y": 1974,
-      "set": "1974"
+      "set": "1974",
+      "poster": "/etfUuwVCvywq8mGspT94CBeLpSz.jpg"
     },
     "airport7777": {
       "t": "Airport '77",
       "y": 1977,
-      "set": "1977"
+      "set": "1977",
+      "poster": "/m9b3frZR0Wu8I3ayN3QPrxfZMvC.jpg"
     },
     "theconcorde79": {
       "t": "The Concorde... Airport '79",
       "y": 1979,
-      "set": "1979"
+      "set": "1979",
+      "poster": "/bsKUgMi01dme7IDdEWRJSMBNj6R.jpg"
     }
   },
   "release": [

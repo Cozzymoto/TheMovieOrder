@@ -3,21 +3,25 @@
   "short": "The three American films",
   "hue": 190,
   "blurb": "Three American films built on the Japanese original, following a cursed tape and whoever watches it.",
+  "poster": "/AeRpUynJKDpJveklBJipOYrVxCS.jpg",
   "films": {
     "thering02": {
       "t": "The Ring",
       "y": 2002,
-      "set": "2002"
+      "set": "2002",
+      "poster": "/AeRpUynJKDpJveklBJipOYrVxCS.jpg"
     },
     "thering05": {
       "t": "The Ring Two",
       "y": 2005,
-      "set": "2005"
+      "set": "2005",
+      "poster": "/bHbz7z2pecTawhkqLpuC2m0qywe.jpg"
     },
     "rings17": {
       "t": "Rings",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/yp4CDOVpVmNwiPoZKQeFCpW8CFo.jpg"
     }
   },
   "release": [

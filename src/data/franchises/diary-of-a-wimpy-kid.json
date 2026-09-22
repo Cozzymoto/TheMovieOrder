@@ -3,26 +3,31 @@
   "short": "The four live-action films",
   "hue": 196,
   "blurb": "A middle-schooler's cartoon journal of his own misadventures.",
+  "poster": "/iLAGiPnSuODt9cn332bkFElrRig.jpg",
   "films": {
     "diaryof10": {
       "t": "Diary of a Wimpy Kid",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/iLAGiPnSuODt9cn332bkFElrRig.jpg"
     },
     "diaryof11": {
       "t": "Diary of a Wimpy Kid: Rodrick Rules",
       "y": 2011,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/w77ZoDmHNf6lnk8NWsXqWYOQqnp.jpg"
     },
     "diaryof12": {
       "t": "Diary of a Wimpy Kid: Dog Days",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/7pTvjELxw0f0E6sUPGtPEl4WD0S.jpg"
     },
     "diaryof17": {
       "t": "Diary of a Wimpy Kid: The Long Haul",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/ivRrDm5PlOndteVZgjhQenzKU5t.jpg"
     }
   },
   "release": [

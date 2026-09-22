@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 270,
   "blurb": "Teenage vampires on the California coast, and two sequels made twenty years later.",
+  "poster": "/nH1lvyQvfbL5GKScTtT6zkIvDEn.jpg",
   "films": {
     "thelost87": {
       "t": "The Lost Boys",
       "y": 1987,
-      "set": "1987"
+      "set": "1987",
+      "poster": "/nH1lvyQvfbL5GKScTtT6zkIvDEn.jpg"
     },
     "lostboys08": {
       "t": "Lost Boys: The Tribe",
       "y": 2008,
-      "set": "2008"
+      "set": "2008",
+      "poster": "/9JNiL8IIvDTs1M4eFw8IUKmItKk.jpg"
     },
     "lostboys10": {
       "t": "Lost Boys: The Thirst",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/sKeaELcJyoCFzU5QeiIhjbNagIN.jpg"
     }
   },
   "release": [

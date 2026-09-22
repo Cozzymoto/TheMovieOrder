@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 14,
   "blurb": "The fighting game's tournament to decide the fate of Earth.",
+  "poster": "/9YhpvhhvLrtL1wlwEfpVL16GI9d.jpg",
   "films": {
     "mortalkombat95": {
       "t": "Mortal Kombat",
       "y": 1995,
-      "set": "1995"
+      "set": "1995",
+      "poster": "/9YhpvhhvLrtL1wlwEfpVL16GI9d.jpg"
     },
     "mortalkombat97": {
       "t": "Mortal Kombat: Annihilation",
       "y": 1997,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/ttryglcY2osWZE3sRYBf3ewTZsW.jpg"
     },
     "mortalkombat21": {
       "t": "Mortal Kombat",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/nkayOAUBUu4mMvyNf9iHSUiPjF1.jpg"
     }
   },
   "release": [

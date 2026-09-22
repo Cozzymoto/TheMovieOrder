@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 290,
   "blurb": "A theatre-owning koala who stages a singing competition to save his venue.",
+  "poster": "/rwopfpHqPCYBSgBuZwkaXXqHp14.jpg",
   "films": {
     "sing16": {
       "t": "Sing",
       "y": 2016,
-      "set": "—"
+      "set": "—",
+      "poster": "/rwopfpHqPCYBSgBuZwkaXXqHp14.jpg"
     },
     "sing221": {
       "t": "Sing 2",
       "y": 2021,
-      "set": "—"
+      "set": "—",
+      "poster": "/aWeKITRFbbwY8txG5uCj4rMCfSP.jpg"
     }
   },
   "release": [

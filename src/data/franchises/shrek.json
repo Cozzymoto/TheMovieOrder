@@ -3,36 +3,43 @@
   "short": "Six films including Puss in Boots",
   "hue": 104,
   "blurb": "Four films about an ogre and two about the cat who joins him in the second — one of which is set before they met.",
+  "poster": "/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
   "films": {
     "s01": {
       "t": "Shrek",
       "y": 2001,
-      "set": "—"
+      "set": "—",
+      "poster": "/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg"
     },
     "s04": {
       "t": "Shrek 2",
       "y": 2004,
-      "set": "—"
+      "set": "—",
+      "poster": "/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg"
     },
     "s07": {
       "t": "Shrek the Third",
       "y": 2007,
-      "set": "—"
+      "set": "—",
+      "poster": "/n4SexGGQzI26E269tfpa80MZaGV.jpg"
     },
     "s10": {
       "t": "Shrek Forever After",
       "y": 2010,
-      "set": "—"
+      "set": "—",
+      "poster": "/6HrfPZtKcGmX2tUWW3cnciZTaSD.jpg"
     },
     "pb11": {
       "t": "Puss in Boots",
       "y": 2011,
-      "set": "Before Shrek 2"
+      "set": "Before Shrek 2",
+      "poster": "/7a5Jzjr9TmffGy76y1SZhn3sCiz.jpg"
     },
     "pb22": {
       "t": "Puss in Boots: The Last Wish",
       "y": 2022,
-      "set": "After Shrek Forever After"
+      "set": "After Shrek Forever After",
+      "poster": "/kuf6dutpsT0vSVehic3EZIqkOBt.jpg"
     }
   },
   "release": [

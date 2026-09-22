@@ -3,16 +3,19 @@
   "short": "Two films, one novel",
   "hue": 38,
   "blurb": "A single book split across two films, released three years apart.",
+  "poster": "/v1tRXZ4JtD2Iv6fjkPvT4GiwslV.jpg",
   "films": {
     "d21": {
       "t": "Dune",
       "y": 2021,
-      "set": "10191 AG"
+      "set": "10191 AG",
+      "poster": "/v1tRXZ4JtD2Iv6fjkPvT4GiwslV.jpg"
     },
     "d24": {
       "t": "Dune: Part Two",
       "y": 2024,
-      "set": "10191–10193 AG"
+      "set": "10191–10193 AG",
+      "poster": "/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg"
     }
   },
   "release": [

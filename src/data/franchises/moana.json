@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 186,
   "blurb": "A voyager who sails beyond her island's reef, and later goes much further.",
+  "poster": "/4JeejGugONWpJkbnvL12hVoYEDa.jpg",
   "films": {
     "moana16": {
       "t": "Moana",
       "y": 2016,
-      "set": "—"
+      "set": "—",
+      "poster": "/4JeejGugONWpJkbnvL12hVoYEDa.jpg"
     },
     "moana224": {
       "t": "Moana 2",
       "y": 2024,
-      "set": "—"
+      "set": "—",
+      "poster": "/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg"
     }
   },
   "release": [

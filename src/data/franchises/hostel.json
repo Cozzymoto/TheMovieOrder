@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 14,
   "blurb": "Three films about tourists lured into a business that sells violence.",
+  "poster": "/cdY2pYMAoHIlfi4tSNyAvPaUeB2.jpg",
   "films": {
     "hostel05": {
       "t": "Hostel",
       "y": 2005,
-      "set": "2005"
+      "set": "2005",
+      "poster": "/cdY2pYMAoHIlfi4tSNyAvPaUeB2.jpg"
     },
     "hostelpart07": {
       "t": "Hostel: Part II",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/qB20aiY8Ah3pQikkBxm3j7jQVc8.jpg"
     },
     "hostelpart11": {
       "t": "Hostel: Part III",
       "y": 2011,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/ieO49ludO6DxRVV8u1LKMjtrDLN.jpg"
     }
   },
   "release": [

@@ -4,56 +4,67 @@
   "hue": 276,
   "blurb": "The most scrambled timeline in modern horror. The films were released in one order and set in almost the reverse, hopping between 1952 and 1986.",
   "rank": 3,
+  "poster": "/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
   "films": {
     "c1": {
       "t": "The Conjuring",
       "y": 2013,
-      "set": "1971"
+      "set": "1971",
+      "poster": "/wVYREutTvI2tmxr6ujrHT704wGF.jpg"
     },
     "ann": {
       "t": "Annabelle",
       "y": 2014,
-      "set": "1967"
+      "set": "1967",
+      "poster": "/yLsuU2P2SpDYFwtZQ7dtfVAf6TE.jpg"
     },
     "c2": {
       "t": "The Conjuring 2",
       "y": 2016,
-      "set": "1977"
+      "set": "1977",
+      "poster": "/zEqyD0SBt6HL7W9JQoWwtd5Do1T.jpg"
     },
     "creation": {
       "t": "Annabelle: Creation",
       "y": 2017,
-      "set": "1943 & 1955"
+      "set": "1943 & 1955",
+      "poster": "/tb86j8jVCVsdZnzf8I6cIi65IeM.jpg"
     },
     "nun": {
       "t": "The Nun",
       "y": 2018,
-      "set": "1952"
+      "set": "1952",
+      "poster": "/sFC1ElvoKGdHJIWRpNB3xWJ9lJA.jpg"
     },
     "home": {
       "t": "Annabelle Comes Home",
       "y": 2019,
-      "set": "1972"
+      "set": "1972",
+      "poster": "/qWsHMrbg9DsBY3bCMk9jyYCRVRs.jpg"
     },
     "llorona": {
       "t": "The Curse of La Llorona",
       "y": 2019,
-      "set": "1973"
+      "set": "1973",
+      "poster": "/hETrPpoKs6BwoilK64YJ7Z5GcRT.jpg"
     },
     "devil": {
       "t": "The Conjuring: The Devil Made Me Do It",
       "y": 2021,
-      "set": "1981"
+      "set": "1981",
+      "poster": "/xbSuFiJbbBWCkyCCKIMfuDCA4yV.jpg"
     },
     "nun2": {
       "t": "The Nun II",
       "y": 2023,
-      "set": "1956"
+      "set": "1956",
+      "poster": "/5gzzkR7y3hnY8AD1wXjCnVlHba5.jpg"
     },
     "rites": {
       "t": "The Conjuring: Last Rites",
       "y": 2025,
-      "set": "1986"
+      "set": "1986",
+      "poster": "/byWgphT74ClOVa8EOGzYDkl8DVL.jpg"
     }
   },
   "release": [

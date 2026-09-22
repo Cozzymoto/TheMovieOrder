@@ -3,36 +3,43 @@
   "short": "Six films, with a prequel in the middle",
   "hue": 96,
   "blurb": "A backwoods horror series whose fourth film goes back to the 1970s to explain its killers.",
+  "poster": "/12G5V0dTmljnv7RFMT144dJ2chh.jpg",
   "films": {
     "wrongturn03": {
       "t": "Wrong Turn",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/12G5V0dTmljnv7RFMT144dJ2chh.jpg"
     },
     "wrongturn07": {
       "t": "Wrong Turn 2: Dead End",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/ow3IMhTVLryZuCEoQznVTTmFYuu.jpg"
     },
     "wrongturn09": {
       "t": "Wrong Turn 3: Left for Dead",
       "y": 2009,
-      "set": "2009"
+      "set": "2009",
+      "poster": "/84s4LMWuGbm4xPWW5PSbHyQhh33.jpg"
     },
     "wrongturn11": {
       "t": "Wrong Turn 4: Bloody Beginnings",
       "y": 2011,
-      "set": "1974 & 2003"
+      "set": "1974 & 2003",
+      "poster": "/l1vD4GY7tlT420KJ3xWTzyQ2Aa9.jpg"
     },
     "wrongturn12": {
       "t": "Wrong Turn 5: Bloodlines",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/8fABep8FSRpeo8Ea4j3rfnoVgkg.jpg"
     },
     "wrongturn21": {
       "t": "Wrong Turn",
       "y": 2021,
-      "set": "2021"
+      "set": "2021",
+      "poster": "/4U1SBHmwHkNA0eHZ2n1CuiC1K1g.jpg"
     }
   },
   "release": [

@@ -3,66 +3,79 @@
   "short": "Twelve films, one set in 2455",
   "hue": 96,
   "blurb": "Ten sequels that run in a straight line, plus one that launches Jason into deep space four centuries later.",
+  "poster": "/uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
   "films": {
     "f80": {
       "t": "Friday the 13th",
       "y": 1980,
-      "set": "1979"
+      "set": "1979",
+      "poster": "/uGGpnWHOmWTARVN9wbC1nPxNgps.jpg"
     },
     "f81": {
       "t": "Friday the 13th Part 2",
       "y": 1981,
-      "set": "1984"
+      "set": "1984",
+      "poster": "/92rGctBMTv4uaSlIBVnhz01kRWL.jpg"
     },
     "f82": {
       "t": "Friday the 13th Part III",
       "y": 1982,
-      "set": "1984"
+      "set": "1984",
+      "poster": "/9kukTSlgFgXnQGdpcHvHcpTDiUc.jpg"
     },
     "f84": {
       "t": "Friday the 13th: The Final Chapter",
       "y": 1984,
-      "set": "1984"
+      "set": "1984",
+      "poster": "/1J7zudfR3VLPwAf9lK5YPfSu0n6.jpg"
     },
     "f85": {
       "t": "Friday the 13th: A New Beginning",
       "y": 1985,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/ewnIs4aCuWnKQ13Eaj8f3ybrQc8.jpg"
     },
     "f86": {
       "t": "Friday the 13th Part VI: Jason Lives",
       "y": 1986,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/6vdUpHvkspQonXBdWcLWW5ciEPJ.jpg"
     },
     "f88": {
       "t": "Friday the 13th Part VII: The New Blood",
       "y": 1988,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/rUzk9Qnyz2FZGxHMBrq6DYIQZkO.jpg"
     },
     "f89": {
       "t": "Friday the 13th Part VIII: Jason Takes Manhattan",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/6ezOsZ9UzqGnbDokaatxdOWP6e9.jpg"
     },
     "f93": {
       "t": "Jason Goes to Hell: The Final Friday",
       "y": 1993,
-      "set": "1993"
+      "set": "1993",
+      "poster": "/Aacq05foqiWdXqetFv02HBvMoJy.jpg"
     },
     "f01": {
       "t": "Jason X",
       "y": 2001,
-      "set": "2455"
+      "set": "2455",
+      "poster": "/ggOND0hfoE0f3K857joSzEeIchb.jpg"
     },
     "fvj": {
       "t": "Freddy vs. Jason",
       "y": 2003,
-      "set": "2003"
+      "set": "2003",
+      "poster": "/f9ZASRUfl8Jlco7rgRx3ujPR0P7.jpg"
     },
     "f09": {
       "t": "Friday the 13th",
       "y": 2009,
-      "set": "Remake"
+      "set": "Remake",
+      "poster": "/88wlJ4teYlck4hJ2bnlxBrAVh0m.jpg"
     }
   },
   "release": [

@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 272,
   "blurb": "Heist films in which the thieves are stage magicians.",
+  "poster": "/tWsNYbrqy1p1w6K9zRk0mSchztT.jpg",
   "films": {
     "nowyou13": {
       "t": "Now You See Me",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/tWsNYbrqy1p1w6K9zRk0mSchztT.jpg"
     },
     "nowyou16": {
       "t": "Now You See Me 2",
       "y": 2016,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/A81kDB6a1K86YLlcOtZB27jriJh.jpg"
     },
     "nowyou25": {
       "t": "Now You See Me: Now You Don't",
       "y": 2025,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/oD3Eey4e4Z259XLm3eD3WGcoJAh.jpg"
     }
   },
   "release": [

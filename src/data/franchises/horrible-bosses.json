@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 24,
   "blurb": "Three friends who decide their bosses need to go, then start a business of their own.",
+  "poster": "/uQkUwgyFHAm0jGQERPG6Z9o9Zbj.jpg",
   "films": {
     "horriblebosses11": {
       "t": "Horrible Bosses",
       "y": 2011,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/uQkUwgyFHAm0jGQERPG6Z9o9Zbj.jpg"
     },
     "horriblebosses14": {
       "t": "Horrible Bosses 2",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/boBOkwIqgrs8noxBUSDkkicKa4K.jpg"
     }
   },
   "release": [

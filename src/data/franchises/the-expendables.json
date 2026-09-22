@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 24,
   "blurb": "An ensemble series that gathers action stars from across four decades into one team.",
+  "poster": "/j09ZkH6R4JWVylBcDai1laCmGw7.jpg",
   "films": {
     "theexpendables10": {
       "t": "The Expendables",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/j09ZkH6R4JWVylBcDai1laCmGw7.jpg"
     },
     "theexpendables12": {
       "t": "The Expendables 2",
       "y": 2012,
-      "set": "2012"
+      "set": "2012",
+      "poster": "/74rTIGyGoIu5KSxDVMdr8H3MtMo.jpg"
     },
     "theexpendables14": {
       "t": "The Expendables 3",
       "y": 2014,
-      "set": "2014"
+      "set": "2014",
+      "poster": "/utS5euWHlEdKBNnEFwjpZ2oGuhF.jpg"
     },
     "expend4bles23": {
       "t": "Expend4bles",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg"
     }
   },
   "release": [

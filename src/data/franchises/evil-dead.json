@@ -3,31 +3,37 @@
   "short": "Five films across four decades",
   "hue": 126,
   "blurb": "Starts as straight horror, turns into slapstick, then restarts as straight horror again. The second film is half remake, half sequel.",
+  "poster": "/54C1qdaiSijIU5NeNb4WsPJdNkG.jpg",
   "films": {
     "e81": {
       "t": "The Evil Dead",
       "y": 1981,
-      "set": "1981"
+      "set": "1981",
+      "poster": "/54C1qdaiSijIU5NeNb4WsPJdNkG.jpg"
     },
     "e87": {
       "t": "Evil Dead II",
       "y": 1987,
-      "set": "1987"
+      "set": "1987",
+      "poster": "/4zqCKJVHUolGs6C5AZwAZqLWixW.jpg"
     },
     "e92": {
       "t": "Army of Darkness",
       "y": 1992,
-      "set": "1300 AD"
+      "set": "1300 AD",
+      "poster": "/xsgTuAtR2zSH8Umg3jWZcZjlDpe.jpg"
     },
     "e13": {
       "t": "Evil Dead",
       "y": 2013,
-      "set": "2013"
+      "set": "2013",
+      "poster": "/1gDV0Lm9y8ufIKzyf0h0GBgb9Zj.jpg"
     },
     "e23": {
       "t": "Evil Dead Rise",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg"
     }
   },
   "release": [

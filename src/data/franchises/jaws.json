@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 200,
   "blurb": "The first summer blockbuster, followed by three sequels of steeply declining ambition.",
+  "poster": "/lxM6kqilAdpdhqUl2biYp5frUxE.jpg",
   "films": {
     "jaws75": {
       "t": "Jaws",
       "y": 1975,
-      "set": "1975"
+      "set": "1975",
+      "poster": "/lxM6kqilAdpdhqUl2biYp5frUxE.jpg"
     },
     "jaws278": {
       "t": "Jaws 2",
       "y": 1978,
-      "set": "1978"
+      "set": "1978",
+      "poster": "/cN3ijEwsn4kBaRuHfcJpAQJbeWe.jpg"
     },
     "jaws383": {
       "t": "Jaws 3-D",
       "y": 1983,
-      "set": "1983"
+      "set": "1983",
+      "poster": "/kqDXj53F9paqVGJLGfHtz7giJ3s.jpg"
     },
     "jawsthe87": {
       "t": "Jaws: The Revenge",
       "y": 1987,
-      "set": "1987"
+      "set": "1987",
+      "poster": "/ebYw9tR0iqBzDGA6HVBhtd2xJM3.jpg"
     }
   },
   "release": [

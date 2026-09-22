@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 320,
   "blurb": "A relentlessly cheerful musical series about a kingdom of trolls and the grumpy one among them.",
+  "poster": "/9VlK2j0THZWzhQPq0W3Oc0IIdBB.jpg",
   "films": {
     "trolls16": {
       "t": "Trolls",
       "y": 2016,
-      "set": "—"
+      "set": "—",
+      "poster": "/9VlK2j0THZWzhQPq0W3Oc0IIdBB.jpg"
     },
     "trollsworld20": {
       "t": "Trolls World Tour",
       "y": 2020,
-      "set": "—"
+      "set": "—",
+      "poster": "/7W0G3YECgDAfnuiHG91r8WqgIOe.jpg"
     },
     "trollsband23": {
       "t": "Trolls Band Together",
       "y": 2023,
-      "set": "—"
+      "set": "—",
+      "poster": "/3ySgD2xwasTHOK6R9bNZiEwKgYo.jpg"
     }
   },
   "release": [

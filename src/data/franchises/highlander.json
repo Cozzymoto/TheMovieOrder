@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 120,
   "blurb": "Immortals who can only die by beheading, fighting until one remains — across sequels that keep rewriting the rules.",
+  "poster": "/8Z8dptJEypuLoOQro1WugD855YE.jpg",
   "films": {
     "highlander86": {
       "t": "Highlander",
       "y": 1986,
-      "set": "1986"
+      "set": "1986",
+      "poster": "/8Z8dptJEypuLoOQro1WugD855YE.jpg"
     },
     "highlanderii91": {
       "t": "Highlander II: The Quickening",
       "y": 1991,
-      "set": "1991"
+      "set": "1991",
+      "poster": "/qxKeykPNGbKAK0DJijMUaZ5cVPo.jpg"
     },
     "highlanderiii94": {
       "t": "Highlander III: The Sorcerer",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/o4GKLReSGRR0rulOBS9SrfFAXOz.jpg"
     },
     "highlanderendgame00": {
       "t": "Highlander: Endgame",
       "y": 2000,
-      "set": "2000"
+      "set": "2000",
+      "poster": "/u7kIXMyagqcek2SaS9svfPTTGVT.jpg"
     },
     "highlanderthe07": {
       "t": "Highlander: The Source",
       "y": 2007,
-      "set": "2007"
+      "set": "2007",
+      "poster": "/1d0pKQuk6KUHaK5LL6ZNvSp6vS8.jpg"
     }
   },
   "release": [

@@ -3,36 +3,43 @@
   "short": "Six films, one continuous story",
   "hue": 346,
   "blurb": "Unusually disciplined for a slasher series — every film follows directly from the last, with no prequels and no reboots.",
+  "poster": "/lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
   "films": {
     "s96": {
       "t": "Scream",
       "y": 1996,
-      "set": "1996"
+      "set": "1996",
+      "poster": "/lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg"
     },
     "s97": {
       "t": "Scream 2",
       "y": 1997,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/dORlVasiaDkJXTqt9bdH7nFNs6C.jpg"
     },
     "s00": {
       "t": "Scream 3",
       "y": 2000,
-      "set": "2000"
+      "set": "2000",
+      "poster": "/qpH8ToZVlFD1bakL04LkEKodyDI.jpg"
     },
     "s11": {
       "t": "Scream 4",
       "y": 2011,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/3cf8p2qw9qnsaaFWc64AG6U05eT.jpg"
     },
     "s22": {
       "t": "Scream",
       "y": 2022,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg"
     },
     "s23": {
       "t": "Scream VI",
       "y": 2023,
-      "set": "2023"
+      "set": "2023",
+      "poster": "/wDWwtvkRRlgTiUr6TyLSMX8FCuZ.jpg"
     }
   },
   "release": [

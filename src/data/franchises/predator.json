@@ -3,36 +3,43 @@
   "short": "The main Predator films",
   "hue": 86,
   "blurb": "A 1987 action film that spent thirty-five years getting sequels before a prequel set in 1719 turned out to be the best of them.",
+  "poster": "/k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg",
   "films": {
     "p1": {
       "t": "Predator",
       "y": 1987,
-      "set": "1987"
+      "set": "1987",
+      "poster": "/k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg"
     },
     "p2": {
       "t": "Predator 2",
       "y": 1990,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/83X4VwY9sdSJykskmsplIVG0a4h.jpg"
     },
     "preds": {
       "t": "Predators",
       "y": 2010,
-      "set": "2010"
+      "set": "2010",
+      "poster": "/wdniP8NDaJIydi1hMxhpbJMUfr6.jpg"
     },
     "p18": {
       "t": "The Predator",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/a3eWGF6YPF7No5Rbtjc8QpDvz7l.jpg"
     },
     "prey": {
       "t": "Prey",
       "y": 2022,
-      "set": "1719"
+      "set": "1719",
+      "poster": "/2FKjLRt7oK1bRRIrxgWmthbBdFh.jpg"
     },
     "bad": {
       "t": "Predator: Badlands",
       "y": 2025,
-      "set": "Far future"
+      "set": "Far future",
+      "poster": "/pHpq9yNUIo6aDoCXEBzjSolywgz.jpg"
     }
   },
   "release": [

@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 214,
   "blurb": "Sega's speedster on Earth, gathering allies from the games as the series goes on.",
+  "poster": "/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg",
   "films": {
     "sonicthe20": {
       "t": "Sonic the Hedgehog",
       "y": 2020,
-      "set": "2020"
+      "set": "2020",
+      "poster": "/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg"
     },
     "sonicthe22": {
       "t": "Sonic the Hedgehog 2",
       "y": 2022,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg"
     },
     "sonicthe24": {
       "t": "Sonic the Hedgehog 3",
       "y": 2024,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/d8Ryb8AunYAuycVKDp5HpdWPKgC.jpg"
     }
   },
   "release": [

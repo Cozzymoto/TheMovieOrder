@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 340,
   "blurb": "An FBI agent working undercover as a formidable grandmother.",
+  "poster": "/5YoSFqpTz5qIxsX61CPMGKONQIY.jpg",
   "films": {
     "bigmommas00": {
       "t": "Big Momma's House",
       "y": 2000,
-      "set": "2000"
+      "set": "2000",
+      "poster": "/5YoSFqpTz5qIxsX61CPMGKONQIY.jpg"
     },
     "bigmommas06": {
       "t": "Big Momma's House 2",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/wlbov6pkgySqYZilZcO54f29Dg1.jpg"
     },
     "bigmommas11": {
       "t": "Big Mommas: Like Father, Like Son",
       "y": 2011,
-      "set": "2011"
+      "set": "2011",
+      "poster": "/n1GSxFcDaZ6lMVf21M0KloPfuhu.jpg"
     }
   },
   "release": [

@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 0,
   "blurb": "Marvel's vigilante, attempted three times with three different actors.",
+  "poster": "/tA0O0hYyHX7Hl2Fl8VEtGtfBtjI.jpg",
   "films": {
     "thepunisher89": {
       "t": "The Punisher",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/tA0O0hYyHX7Hl2Fl8VEtGtfBtjI.jpg"
     },
     "thepunisher04": {
       "t": "The Punisher",
       "y": 2004,
-      "set": "2004"
+      "set": "2004",
+      "poster": "/7rmA1HwYp2GKM85BL0cVwCaosGr.jpg"
     },
     "punisherwar08": {
       "t": "Punisher: War Zone",
       "y": 2008,
-      "set": "2008"
+      "set": "2008",
+      "poster": "/oOvKJgYUIpfswGHAdW6159bPbvM.jpg"
     }
   },
   "release": [
