@@ -1,0 +1,26 @@
+{
+  "title": "48 Hrs.",
+  "short": "Two films",
+  "hue": 20,
+  "blurb": "A cop and a convict forced to work together, twice.",
+  "films": {
+    "f48hrs82": {
+      "t": "48 Hrs.",
+      "y": 1982,
+      "set": "1982"
+    },
+    "another4890": {
+      "t": "Another 48 Hrs.",
+      "y": 1990,
+      "set": "1990"
+    }
+  },
+  "release": [
+    "f48hrs82",
+    "another4890"
+  ],
+  "chrono": [
+    "f48hrs82",
+    "another4890"
+  ]
+}

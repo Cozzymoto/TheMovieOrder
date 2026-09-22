@@ -1,0 +1,27 @@
+{
+  "title": "Mamma Mia!",
+  "short": "Two films, the second half a prequel",
+  "hue": 196,
+  "blurb": "An ABBA musical on a Greek island, and a sequel that splits its time between the present and 1979.",
+  "films": {
+    "mammamia08": {
+      "t": "Mamma Mia!",
+      "y": 2008,
+      "set": "2008"
+    },
+    "mammamia18": {
+      "t": "Mamma Mia! Here We Go Again",
+      "y": 2018,
+      "set": "1979 & present"
+    }
+  },
+  "release": [
+    "mammamia08",
+    "mammamia18"
+  ],
+  "chrono": [
+    "mammamia08",
+    "mammamia18"
+  ],
+  "note": "Here We Go Again cuts between a prequel story in 1979 and a sequel in the present, so it can't be placed wholly before or after. Watch in release order."
+}

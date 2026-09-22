@@ -1,0 +1,33 @@
+{
+  "title": "Night at the Museum",
+  "short": "Three films",
+  "hue": 40,
+  "blurb": "A night watchman whose museum comes to life after closing.",
+  "films": {
+    "nightat06": {
+      "t": "Night at the Museum",
+      "y": 2006,
+      "set": "2006"
+    },
+    "nightat09": {
+      "t": "Night at the Museum: Battle of the Smithsonian",
+      "y": 2009,
+      "set": "2009"
+    },
+    "nightat14": {
+      "t": "Night at the Museum: Secret of the Tomb",
+      "y": 2014,
+      "set": "2014"
+    }
+  },
+  "release": [
+    "nightat06",
+    "nightat09",
+    "nightat14"
+  ],
+  "chrono": [
+    "nightat06",
+    "nightat09",
+    "nightat14"
+  ]
+}

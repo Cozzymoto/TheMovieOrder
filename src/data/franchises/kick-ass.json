@@ -1,0 +1,26 @@
+{
+  "title": "Kick-Ass",
+  "short": "Two films",
+  "hue": 46,
+  "blurb": "Two films about ordinary people who try to become superheroes, with predictably messy results.",
+  "films": {
+    "kickass10": {
+      "t": "Kick-Ass",
+      "y": 2010,
+      "set": "2010"
+    },
+    "kickass13": {
+      "t": "Kick-Ass 2",
+      "y": 2013,
+      "set": "2013"
+    }
+  },
+  "release": [
+    "kickass10",
+    "kickass13"
+  ],
+  "chrono": [
+    "kickass10",
+    "kickass13"
+  ]
+}

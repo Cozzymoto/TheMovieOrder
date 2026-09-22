@@ -1,0 +1,41 @@
+{
+  "title": "Hellboy",
+  "short": "Four films, three continuities",
+  "hue": 10,
+  "blurb": "Two films by Guillermo del Toro, a 2019 reboot, and a 2024 film set in 1959 that starts over again.",
+  "films": {
+    "hellboy04": {
+      "t": "Hellboy",
+      "y": 2004,
+      "set": "2004"
+    },
+    "hellboyii08": {
+      "t": "Hellboy II: The Golden Army",
+      "y": 2008,
+      "set": "2008"
+    },
+    "hellboy19": {
+      "t": "Hellboy",
+      "y": 2019,
+      "set": "2019"
+    },
+    "hellboythe24": {
+      "t": "Hellboy: The Crooked Man",
+      "y": 2024,
+      "set": "1959"
+    }
+  },
+  "release": [
+    "hellboy04",
+    "hellboyii08",
+    "hellboy19",
+    "hellboythe24"
+  ],
+  "chrono": [
+    "hellboythe24",
+    "hellboy04",
+    "hellboyii08",
+    "hellboy19"
+  ],
+  "note": "Only the two del Toro films share a continuity. The Crooked Man is set earliest but belongs to none of the others, so its chronological position is by date alone."
+}

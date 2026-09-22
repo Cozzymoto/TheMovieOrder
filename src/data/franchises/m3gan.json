@@ -1,0 +1,26 @@
+{
+  "title": "M3GAN",
+  "short": "Two films",
+  "hue": 310,
+  "blurb": "A robotic doll built to protect a child, and a sequel that turns her into an unlikely ally.",
+  "films": {
+    "m3gan22": {
+      "t": "M3GAN",
+      "y": 2022,
+      "set": "2022"
+    },
+    "m3gan225": {
+      "t": "M3GAN 2.0",
+      "y": 2025,
+      "set": "2025"
+    }
+  },
+  "release": [
+    "m3gan22",
+    "m3gan225"
+  ],
+  "chrono": [
+    "m3gan22",
+    "m3gan225"
+  ]
+}

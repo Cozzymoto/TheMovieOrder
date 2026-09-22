@@ -1,0 +1,34 @@
+{
+  "title": "Jumanji",
+  "short": "Three films",
+  "hue": 124,
+  "blurb": "A 1995 original about a board game, and two sequels decades later that turn it into a video game.",
+  "films": {
+    "jumanji95": {
+      "t": "Jumanji",
+      "y": 1995,
+      "set": "1969 & 1995"
+    },
+    "jumanjiwelcome17": {
+      "t": "Jumanji: Welcome to the Jungle",
+      "y": 2017,
+      "set": "2016"
+    },
+    "jumanjithe19": {
+      "t": "Jumanji: The Next Level",
+      "y": 2019,
+      "set": "2019"
+    }
+  },
+  "release": [
+    "jumanji95",
+    "jumanjiwelcome17",
+    "jumanjithe19"
+  ],
+  "chrono": [
+    "jumanji95",
+    "jumanjiwelcome17",
+    "jumanjithe19"
+  ],
+  "note": "Zathura (2005) comes from the same author and is sometimes grouped here, but it isn't part of this story."
+}

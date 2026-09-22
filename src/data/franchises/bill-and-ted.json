@@ -1,0 +1,33 @@
+{
+  "title": "Bill & Ted",
+  "short": "Three films",
+  "hue": 200,
+  "blurb": "Two amiable slackers destined to save the world through music, across three decades.",
+  "films": {
+    "billand89": {
+      "t": "Bill & Ted's Excellent Adventure",
+      "y": 1989,
+      "set": "1989"
+    },
+    "billand91": {
+      "t": "Bill & Ted's Bogus Journey",
+      "y": 1991,
+      "set": "1991"
+    },
+    "billand20": {
+      "t": "Bill & Ted Face the Music",
+      "y": 2020,
+      "set": "2020"
+    }
+  },
+  "release": [
+    "billand89",
+    "billand91",
+    "billand20"
+  ],
+  "chrono": [
+    "billand89",
+    "billand91",
+    "billand20"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Moana",
+  "short": "Two films",
+  "hue": 186,
+  "blurb": "A voyager who sails beyond her island's reef, and later goes much further.",
+  "films": {
+    "moana16": {
+      "t": "Moana",
+      "y": 2016,
+      "set": "—"
+    },
+    "moana224": {
+      "t": "Moana 2",
+      "y": 2024,
+      "set": "—"
+    }
+  },
+  "release": [
+    "moana16",
+    "moana224"
+  ],
+  "chrono": [
+    "moana16",
+    "moana224"
+  ],
+  "note": "Moana 2 is set three years after the first film."
+}

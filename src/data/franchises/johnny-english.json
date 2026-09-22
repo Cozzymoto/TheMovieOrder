@@ -1,0 +1,33 @@
+{
+  "title": "Johnny English",
+  "short": "Three films",
+  "hue": 220,
+  "blurb": "A British secret agent whose confidence vastly outstrips his competence.",
+  "films": {
+    "johnnyenglish03": {
+      "t": "Johnny English",
+      "y": 2003,
+      "set": "2003"
+    },
+    "johnnyenglish11": {
+      "t": "Johnny English Reborn",
+      "y": 2011,
+      "set": "2011"
+    },
+    "johnnyenglish18": {
+      "t": "Johnny English Strikes Again",
+      "y": 2018,
+      "set": "2018"
+    }
+  },
+  "release": [
+    "johnnyenglish03",
+    "johnnyenglish11",
+    "johnnyenglish18"
+  ],
+  "chrono": [
+    "johnnyenglish03",
+    "johnnyenglish11",
+    "johnnyenglish18"
+  ]
+}

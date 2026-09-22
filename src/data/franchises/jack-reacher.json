@@ -1,0 +1,26 @@
+{
+  "title": "Jack Reacher",
+  "short": "Two films",
+  "hue": 220,
+  "blurb": "Two adaptations of the novels about a drifter and former military policeman.",
+  "films": {
+    "jackreacher12": {
+      "t": "Jack Reacher",
+      "y": 2012,
+      "set": "2012"
+    },
+    "jackreacher16": {
+      "t": "Jack Reacher: Never Go Back",
+      "y": 2016,
+      "set": "2016"
+    }
+  },
+  "release": [
+    "jackreacher12",
+    "jackreacher16"
+  ],
+  "chrono": [
+    "jackreacher12",
+    "jackreacher16"
+  ]
+}

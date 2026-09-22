@@ -1,0 +1,26 @@
+{
+  "title": "Chicken Run",
+  "short": "Two films",
+  "hue": 36,
+  "blurb": "Aardman's farmyard escape film, and a sequel twenty-three years later.",
+  "films": {
+    "chickenrun00": {
+      "t": "Chicken Run",
+      "y": 2000,
+      "set": "—"
+    },
+    "chickenrun23": {
+      "t": "Chicken Run: Dawn of the Nugget",
+      "y": 2023,
+      "set": "—"
+    }
+  },
+  "release": [
+    "chickenrun00",
+    "chickenrun23"
+  ],
+  "chrono": [
+    "chickenrun00",
+    "chickenrun23"
+  ]
+}

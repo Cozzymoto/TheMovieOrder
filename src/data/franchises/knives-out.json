@@ -1,0 +1,34 @@
+{
+  "title": "Knives Out",
+  "short": "Three Benoit Blanc mysteries",
+  "hue": 40,
+  "blurb": "Three standalone murder mysteries sharing only their detective.",
+  "films": {
+    "knivesout19": {
+      "t": "Knives Out",
+      "y": 2019,
+      "set": "2019"
+    },
+    "glassonion22": {
+      "t": "Glass Onion: A Knives Out Mystery",
+      "y": 2022,
+      "set": "2022"
+    },
+    "wakeup25": {
+      "t": "Wake Up Dead Man: A Knives Out Mystery",
+      "y": 2025,
+      "set": "2025"
+    }
+  },
+  "release": [
+    "knivesout19",
+    "glassonion22",
+    "wakeup25"
+  ],
+  "chrono": [
+    "knivesout19",
+    "glassonion22",
+    "wakeup25"
+  ],
+  "note": "Each case is self-contained, so these can be watched in any order."
+}

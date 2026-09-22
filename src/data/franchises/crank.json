@@ -1,0 +1,27 @@
+{
+  "title": "Crank",
+  "short": "Two films",
+  "hue": 60,
+  "blurb": "Two films built around a man who must keep his adrenaline up or die.",
+  "films": {
+    "crank06": {
+      "t": "Crank",
+      "y": 2006,
+      "set": "2006"
+    },
+    "crankhigh09": {
+      "t": "Crank: High Voltage",
+      "y": 2009,
+      "set": "2009"
+    }
+  },
+  "release": [
+    "crank06",
+    "crankhigh09"
+  ],
+  "chrono": [
+    "crank06",
+    "crankhigh09"
+  ],
+  "note": "High Voltage begins the instant the first film ends."
+}

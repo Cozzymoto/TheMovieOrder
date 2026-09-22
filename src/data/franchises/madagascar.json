@@ -1,0 +1,41 @@
+{
+  "title": "Madagascar",
+  "short": "Four films including the Penguins",
+  "hue": 36,
+  "blurb": "Four zoo animals who escape New York and keep failing to get back.",
+  "films": {
+    "madagascar05": {
+      "t": "Madagascar",
+      "y": 2005,
+      "set": "—"
+    },
+    "madagascarescape08": {
+      "t": "Madagascar: Escape 2 Africa",
+      "y": 2008,
+      "set": "—"
+    },
+    "madagascar312": {
+      "t": "Madagascar 3: Europe's Most Wanted",
+      "y": 2012,
+      "set": "—"
+    },
+    "penguinsof14": {
+      "t": "Penguins of Madagascar",
+      "y": 2014,
+      "set": "—"
+    }
+  },
+  "release": [
+    "madagascar05",
+    "madagascarescape08",
+    "madagascar312",
+    "penguinsof14"
+  ],
+  "chrono": [
+    "madagascar05",
+    "madagascarescape08",
+    "madagascar312",
+    "penguinsof14"
+  ],
+  "note": "Penguins of Madagascar is a spin-off that follows its own story after the third film."
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Ace Ventura",
+  "short": "Two films",
+  "hue": 60,
+  "blurb": "A detective who only takes cases involving animals.",
+  "films": {
+    "aceventura94": {
+      "t": "Ace Ventura: Pet Detective",
+      "y": 1994,
+      "set": "1994"
+    },
+    "aceventura95": {
+      "t": "Ace Ventura: When Nature Calls",
+      "y": 1995,
+      "set": "1995"
+    }
+  },
+  "release": [
+    "aceventura94",
+    "aceventura95"
+  ],
+  "chrono": [
+    "aceventura94",
+    "aceventura95"
+  ]
+}

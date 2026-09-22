@@ -1,0 +1,41 @@
+{
+  "title": "American Pie",
+  "short": "The four theatrical films",
+  "hue": 12,
+  "blurb": "One group of friends followed from school to their reunion, across four films.",
+  "films": {
+    "americanpie99": {
+      "t": "American Pie",
+      "y": 1999,
+      "set": "1999"
+    },
+    "americanpie01": {
+      "t": "American Pie 2",
+      "y": 2001,
+      "set": "2001"
+    },
+    "americanwedding03": {
+      "t": "American Wedding",
+      "y": 2003,
+      "set": "2003"
+    },
+    "americanreunion12": {
+      "t": "American Reunion",
+      "y": 2012,
+      "set": "2012"
+    }
+  },
+  "release": [
+    "americanpie99",
+    "americanpie01",
+    "americanwedding03",
+    "americanreunion12"
+  ],
+  "chrono": [
+    "americanpie99",
+    "americanpie01",
+    "americanwedding03",
+    "americanreunion12"
+  ],
+  "note": "There are also several direct-to-video American Pie Presents films. They follow different characters and aren't part of this story."
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Jeepers Creepers",
+  "short": "Four films, one out of place",
+  "hue": 32,
+  "blurb": "A creature that feeds every twenty-third spring, and a third film that slots in between the first two.",
+  "films": {
+    "jeeperscreepers01": {
+      "t": "Jeepers Creepers",
+      "y": 2001,
+      "set": "2001"
+    },
+    "jeeperscreepers03": {
+      "t": "Jeepers Creepers 2",
+      "y": 2003,
+      "set": "2003"
+    },
+    "jeeperscreepers17": {
+      "t": "Jeepers Creepers 3",
+      "y": 2017,
+      "set": "2001"
+    },
+    "jeeperscreepers22": {
+      "t": "Jeepers Creepers: Reborn",
+      "y": 2022,
+      "set": "2022"
+    }
+  },
+  "release": [
+    "jeeperscreepers01",
+    "jeeperscreepers03",
+    "jeeperscreepers17",
+    "jeeperscreepers22"
+  ],
+  "chrono": [
+    "jeeperscreepers01",
+    "jeeperscreepers17",
+    "jeeperscreepers03",
+    "jeeperscreepers22"
+  ],
+  "note": "Jeepers Creepers 3 picks up the day after the first film ends, which puts it before the second."
+}

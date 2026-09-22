@@ -1,0 +1,41 @@
+{
+  "title": "Candyman",
+  "short": "Four films",
+  "hue": 18,
+  "blurb": "A 1992 original, two sequels, and a 2021 film that returns to the same Chicago housing project as a direct follow-up.",
+  "films": {
+    "candyman92": {
+      "t": "Candyman",
+      "y": 1992,
+      "set": "1992"
+    },
+    "candymanfarewell95": {
+      "t": "Candyman: Farewell to the Flesh",
+      "y": 1995,
+      "set": "1995"
+    },
+    "candymanday99": {
+      "t": "Candyman: Day of the Dead",
+      "y": 1999,
+      "set": "1999"
+    },
+    "candyman21": {
+      "t": "Candyman",
+      "y": 2021,
+      "set": "2021"
+    }
+  },
+  "release": [
+    "candyman92",
+    "candymanfarewell95",
+    "candymanday99",
+    "candyman21"
+  ],
+  "chrono": [
+    "candyman92",
+    "candymanfarewell95",
+    "candymanday99",
+    "candyman21"
+  ],
+  "note": "The 2021 film is a direct sequel to the 1992 original and ignores the two in between."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Meet the Parents",
+  "short": "Three films",
+  "hue": 46,
+  "blurb": "A nurse, his fiancée's formidable father, and the escalating disasters of joining a family.",
+  "films": {
+    "meetthe00": {
+      "t": "Meet the Parents",
+      "y": 2000,
+      "set": "2000"
+    },
+    "meetthe04": {
+      "t": "Meet the Fockers",
+      "y": 2004,
+      "set": "2004"
+    },
+    "littlefockers10": {
+      "t": "Little Fockers",
+      "y": 2010,
+      "set": "2010"
+    }
+  },
+  "release": [
+    "meetthe00",
+    "meetthe04",
+    "littlefockers10"
+  ],
+  "chrono": [
+    "meetthe00",
+    "meetthe04",
+    "littlefockers10"
+  ]
+}

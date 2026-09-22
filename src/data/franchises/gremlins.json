@@ -1,0 +1,26 @@
+{
+  "title": "Gremlins",
+  "short": "Two films",
+  "hue": 100,
+  "blurb": "A Christmas creature feature and a sequel that becomes a parody of itself.",
+  "films": {
+    "gremlins84": {
+      "t": "Gremlins",
+      "y": 1984,
+      "set": "1984"
+    },
+    "gremlins290": {
+      "t": "Gremlins 2: The New Batch",
+      "y": 1990,
+      "set": "1990"
+    }
+  },
+  "release": [
+    "gremlins84",
+    "gremlins290"
+  ],
+  "chrono": [
+    "gremlins84",
+    "gremlins290"
+  ]
+}

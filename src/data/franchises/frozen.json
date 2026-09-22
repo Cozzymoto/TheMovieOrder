@@ -1,0 +1,27 @@
+{
+  "title": "Frozen",
+  "short": "Two films",
+  "hue": 200,
+  "blurb": "Two sisters, a kingdom and a curse, followed by a sequel about where the curse came from.",
+  "films": {
+    "frozen13": {
+      "t": "Frozen",
+      "y": 2013,
+      "set": "—"
+    },
+    "frozenii19": {
+      "t": "Frozen II",
+      "y": 2019,
+      "set": "—"
+    }
+  },
+  "release": [
+    "frozen13",
+    "frozenii19"
+  ],
+  "chrono": [
+    "frozen13",
+    "frozenii19"
+  ],
+  "note": "Frozen II is set three years after the first film."
+}

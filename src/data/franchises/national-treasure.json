@@ -1,0 +1,26 @@
+{
+  "title": "National Treasure",
+  "short": "Two films",
+  "hue": 42,
+  "blurb": "Historical treasure hunts built around real American documents and landmarks.",
+  "films": {
+    "nationaltreasure04": {
+      "t": "National Treasure",
+      "y": 2004,
+      "set": "2004"
+    },
+    "nationaltreasure07": {
+      "t": "National Treasure: Book of Secrets",
+      "y": 2007,
+      "set": "2007"
+    }
+  },
+  "release": [
+    "nationaltreasure04",
+    "nationaltreasure07"
+  ],
+  "chrono": [
+    "nationaltreasure04",
+    "nationaltreasure07"
+  ]
+}

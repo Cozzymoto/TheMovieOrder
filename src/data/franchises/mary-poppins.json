@@ -1,0 +1,26 @@
+{
+  "title": "Mary Poppins",
+  "short": "Two films",
+  "hue": 10,
+  "blurb": "A nanny who arrives on the wind, and returns for the next generation.",
+  "films": {
+    "marypoppins64": {
+      "t": "Mary Poppins",
+      "y": 1964,
+      "set": "1910"
+    },
+    "marypoppins18": {
+      "t": "Mary Poppins Returns",
+      "y": 2018,
+      "set": "1930s"
+    }
+  },
+  "release": [
+    "marypoppins64",
+    "marypoppins18"
+  ],
+  "chrono": [
+    "marypoppins64",
+    "marypoppins18"
+  ]
+}

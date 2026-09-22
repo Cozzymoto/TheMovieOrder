@@ -1,0 +1,26 @@
+{
+  "title": "Independence Day",
+  "short": "Two films, twenty years apart",
+  "hue": 8,
+  "blurb": "An alien invasion in 1996, and a sequel set twenty years later in a world rebuilt from the wreckage.",
+  "films": {
+    "independenceday96": {
+      "t": "Independence Day",
+      "y": 1996,
+      "set": "1996"
+    },
+    "independenceday16": {
+      "t": "Independence Day: Resurgence",
+      "y": 2016,
+      "set": "2016"
+    }
+  },
+  "release": [
+    "independenceday96",
+    "independenceday16"
+  ],
+  "chrono": [
+    "independenceday96",
+    "independenceday16"
+  ]
+}

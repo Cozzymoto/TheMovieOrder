@@ -1,0 +1,27 @@
+{
+  "title": "It",
+  "short": "Two films, twenty-seven years apart in the story",
+  "hue": 0,
+  "blurb": "The same group of friends facing the same thing twice — as children in the 1980s, then as adults.",
+  "films": {
+    "it17": {
+      "t": "It",
+      "y": 2017,
+      "set": "1988–1989"
+    },
+    "itchapter19": {
+      "t": "It Chapter Two",
+      "y": 2019,
+      "set": "2016"
+    }
+  },
+  "release": [
+    "it17",
+    "itchapter19"
+  ],
+  "chrono": [
+    "it17",
+    "itchapter19"
+  ],
+  "note": "Chapter Two leans heavily on flashbacks to the first film, which is essential viewing beforehand."
+}

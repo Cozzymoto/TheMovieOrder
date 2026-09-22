@@ -1,0 +1,48 @@
+{
+  "title": "National Lampoon's Vacation",
+  "short": "Five films",
+  "hue": 46,
+  "blurb": "The Griswold family's disastrous holidays, from a road trip to Christmas at home.",
+  "films": {
+    "nationallampoons83": {
+      "t": "National Lampoon's Vacation",
+      "y": 1983,
+      "set": "1983"
+    },
+    "nationallampoons85": {
+      "t": "National Lampoon's European Vacation",
+      "y": 1985,
+      "set": "1985"
+    },
+    "nationallampoons89": {
+      "t": "National Lampoon's Christmas Vacation",
+      "y": 1989,
+      "set": "1989"
+    },
+    "vegasvacation97": {
+      "t": "Vegas Vacation",
+      "y": 1997,
+      "set": "1997"
+    },
+    "vacation15": {
+      "t": "Vacation",
+      "y": 2015,
+      "set": "2015"
+    }
+  },
+  "release": [
+    "nationallampoons83",
+    "nationallampoons85",
+    "nationallampoons89",
+    "vegasvacation97",
+    "vacation15"
+  ],
+  "chrono": [
+    "nationallampoons83",
+    "nationallampoons85",
+    "nationallampoons89",
+    "vegasvacation97",
+    "vacation15"
+  ],
+  "note": "The children are recast in almost every film. Christmas Vacation stands on its own and is the one most people have seen."
+}

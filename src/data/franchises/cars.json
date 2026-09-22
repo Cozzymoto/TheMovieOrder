@@ -1,0 +1,34 @@
+{
+  "title": "Cars",
+  "short": "Three films",
+  "hue": 8,
+  "blurb": "A racing car stranded in a forgotten town, then taken abroad, then pushed towards retirement.",
+  "films": {
+    "cars06": {
+      "t": "Cars",
+      "y": 2006,
+      "set": "—"
+    },
+    "cars211": {
+      "t": "Cars 2",
+      "y": 2011,
+      "set": "—"
+    },
+    "cars317": {
+      "t": "Cars 3",
+      "y": 2017,
+      "set": "—"
+    }
+  },
+  "release": [
+    "cars06",
+    "cars211",
+    "cars317"
+  ],
+  "chrono": [
+    "cars06",
+    "cars211",
+    "cars317"
+  ],
+  "note": "The Planes films share the same world but are separate spin-offs."
+}

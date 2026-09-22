@@ -1,0 +1,27 @@
+{
+  "title": "Cloudy with a Chance of Meatballs",
+  "short": "Two films",
+  "hue": 100,
+  "blurb": "An inventor whose machine turns weather into food, and the island it creates.",
+  "films": {
+    "cloudywith09": {
+      "t": "Cloudy with a Chance of Meatballs",
+      "y": 2009,
+      "set": "—"
+    },
+    "cloudywith13": {
+      "t": "Cloudy with a Chance of Meatballs 2",
+      "y": 2013,
+      "set": "—"
+    }
+  },
+  "release": [
+    "cloudywith09",
+    "cloudywith13"
+  ],
+  "chrono": [
+    "cloudywith09",
+    "cloudywith13"
+  ],
+  "note": "The sequel begins immediately after the first film ends."
+}

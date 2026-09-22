@@ -1,0 +1,26 @@
+{
+  "title": "Grease",
+  "short": "Two films",
+  "hue": 200,
+  "blurb": "A 1950s high school musical, and a sequel at the same school two years later.",
+  "films": {
+    "grease78": {
+      "t": "Grease",
+      "y": 1978,
+      "set": "1958–1959"
+    },
+    "grease282": {
+      "t": "Grease 2",
+      "y": 1982,
+      "set": "1961"
+    }
+  },
+  "release": [
+    "grease78",
+    "grease282"
+  ],
+  "chrono": [
+    "grease78",
+    "grease282"
+  ]
+}

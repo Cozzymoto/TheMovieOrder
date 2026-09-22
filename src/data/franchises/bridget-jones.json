@@ -1,0 +1,40 @@
+{
+  "title": "Bridget Jones",
+  "short": "Four films",
+  "hue": 350,
+  "blurb": "One Londoner's diary kept across twenty-four years of film, from her thirties into widowhood.",
+  "films": {
+    "bridgetjoness01": {
+      "t": "Bridget Jones's Diary",
+      "y": 2001,
+      "set": "2001"
+    },
+    "bridgetjones04": {
+      "t": "Bridget Jones: The Edge of Reason",
+      "y": 2004,
+      "set": "2004"
+    },
+    "bridgetjoness16": {
+      "t": "Bridget Jones's Baby",
+      "y": 2016,
+      "set": "2016"
+    },
+    "bridgetjones25": {
+      "t": "Bridget Jones: Mad About the Boy",
+      "y": 2025,
+      "set": "2025"
+    }
+  },
+  "release": [
+    "bridgetjoness01",
+    "bridgetjones04",
+    "bridgetjoness16",
+    "bridgetjones25"
+  ],
+  "chrono": [
+    "bridgetjoness01",
+    "bridgetjones04",
+    "bridgetjoness16",
+    "bridgetjones25"
+  ]
+}

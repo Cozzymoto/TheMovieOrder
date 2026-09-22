@@ -1,0 +1,33 @@
+{
+  "title": "Has Fallen",
+  "short": "Olympus, London and Angel",
+  "hue": 0,
+  "blurb": "Three films following one Secret Service agent through three attacks on three different targets.",
+  "films": {
+    "olympushas13": {
+      "t": "Olympus Has Fallen",
+      "y": 2013,
+      "set": "2013"
+    },
+    "londonhas16": {
+      "t": "London Has Fallen",
+      "y": 2016,
+      "set": "2016"
+    },
+    "angelhas19": {
+      "t": "Angel Has Fallen",
+      "y": 2019,
+      "set": "2019"
+    }
+  },
+  "release": [
+    "olympushas13",
+    "londonhas16",
+    "angelhas19"
+  ],
+  "chrono": [
+    "olympushas13",
+    "londonhas16",
+    "angelhas19"
+  ]
+}

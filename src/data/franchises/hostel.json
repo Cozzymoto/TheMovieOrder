@@ -1,0 +1,34 @@
+{
+  "title": "Hostel",
+  "short": "Three films",
+  "hue": 14,
+  "blurb": "Three films about tourists lured into a business that sells violence.",
+  "films": {
+    "hostel05": {
+      "t": "Hostel",
+      "y": 2005,
+      "set": "2005"
+    },
+    "hostelpart07": {
+      "t": "Hostel: Part II",
+      "y": 2007,
+      "set": "2007"
+    },
+    "hostelpart11": {
+      "t": "Hostel: Part III",
+      "y": 2011,
+      "set": "2011"
+    }
+  },
+  "release": [
+    "hostel05",
+    "hostelpart07",
+    "hostelpart11"
+  ],
+  "chrono": [
+    "hostel05",
+    "hostelpart07",
+    "hostelpart11"
+  ],
+  "note": "Part II opens moments after the first film ends."
+}

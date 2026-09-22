@@ -1,0 +1,26 @@
+{
+  "title": "Inside Out",
+  "short": "Two films",
+  "hue": 176,
+  "blurb": "The emotions running one girl's head, and what happens when she turns thirteen.",
+  "films": {
+    "insideout15": {
+      "t": "Inside Out",
+      "y": 2015,
+      "set": "—"
+    },
+    "insideout24": {
+      "t": "Inside Out 2",
+      "y": 2024,
+      "set": "—"
+    }
+  },
+  "release": [
+    "insideout15",
+    "insideout24"
+  ],
+  "chrono": [
+    "insideout15",
+    "insideout24"
+  ]
+}

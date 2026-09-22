@@ -1,0 +1,33 @@
+{
+  "title": "Austin Powers",
+  "short": "Three films",
+  "hue": 300,
+  "blurb": "A 1960s spy frozen and thawed in the 1990s, followed by two sequels built on time travel.",
+  "films": {
+    "austinpowers97": {
+      "t": "Austin Powers: International Man of Mystery",
+      "y": 1997,
+      "set": "1967 & 1997"
+    },
+    "austinpowers99": {
+      "t": "Austin Powers: The Spy Who Shagged Me",
+      "y": 1999,
+      "set": "1969 & 1999"
+    },
+    "austinpowers02": {
+      "t": "Austin Powers in Goldmember",
+      "y": 2002,
+      "set": "1975 & 2002"
+    }
+  },
+  "release": [
+    "austinpowers97",
+    "austinpowers99",
+    "austinpowers02"
+  ],
+  "chrono": [
+    "austinpowers97",
+    "austinpowers99",
+    "austinpowers02"
+  ]
+}

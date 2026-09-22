@@ -1,0 +1,69 @@
+{
+  "title": "Batman",
+  "short": "Every live-action Batman film",
+  "hue": 212,
+  "blurb": "Three separate Batmen across four decades — Burton's, Nolan's and Reeves's — none of which acknowledge the others.",
+  "films": {
+    "batman89": {
+      "t": "Batman",
+      "y": 1989,
+      "set": "—"
+    },
+    "batmanreturns92": {
+      "t": "Batman Returns",
+      "y": 1992,
+      "set": "—"
+    },
+    "batmanforever95": {
+      "t": "Batman Forever",
+      "y": 1995,
+      "set": "—"
+    },
+    "batmanand97": {
+      "t": "Batman & Robin",
+      "y": 1997,
+      "set": "—"
+    },
+    "batmanbegins05": {
+      "t": "Batman Begins",
+      "y": 2005,
+      "set": "—"
+    },
+    "thedark08": {
+      "t": "The Dark Knight",
+      "y": 2008,
+      "set": "—"
+    },
+    "thedark12": {
+      "t": "The Dark Knight Rises",
+      "y": 2012,
+      "set": "—"
+    },
+    "thebatman22": {
+      "t": "The Batman",
+      "y": 2022,
+      "set": "—"
+    }
+  },
+  "release": [
+    "batman89",
+    "batmanreturns92",
+    "batmanforever95",
+    "batmanand97",
+    "batmanbegins05",
+    "thedark08",
+    "thedark12",
+    "thebatman22"
+  ],
+  "chrono": [
+    "batman89",
+    "batmanreturns92",
+    "batmanforever95",
+    "batmanand97",
+    "batmanbegins05",
+    "thedark08",
+    "thedark12",
+    "thebatman22"
+  ],
+  "note": "These are three unconnected continuities, so release order is the only sensible order. Ben Affleck's Batman lives on the DC Extended Universe page. The Nolan trilogy is the most self-contained run and the best place to start."
+}

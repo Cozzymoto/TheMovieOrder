@@ -1,0 +1,26 @@
+{
+  "title": "Five Nights at Freddy's",
+  "short": "Two films",
+  "hue": 270,
+  "blurb": "Adaptations of the horror game, set in an abandoned family pizzeria.",
+  "films": {
+    "fivenights23": {
+      "t": "Five Nights at Freddy's",
+      "y": 2023,
+      "set": "2023"
+    },
+    "fivenights25": {
+      "t": "Five Nights at Freddy's 2",
+      "y": 2025,
+      "set": "2025"
+    }
+  },
+  "release": [
+    "fivenights23",
+    "fivenights25"
+  ],
+  "chrono": [
+    "fivenights23",
+    "fivenights25"
+  ]
+}

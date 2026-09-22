@@ -1,0 +1,33 @@
+{
+  "title": "Magic Mike",
+  "short": "Three films",
+  "hue": 20,
+  "blurb": "A stripper trying to leave the business, and two films that follow him after he does.",
+  "films": {
+    "magicmike12": {
+      "t": "Magic Mike",
+      "y": 2012,
+      "set": "2012"
+    },
+    "magicmike15": {
+      "t": "Magic Mike XXL",
+      "y": 2015,
+      "set": "2015"
+    },
+    "magicmikes23": {
+      "t": "Magic Mike's Last Dance",
+      "y": 2023,
+      "set": "2023"
+    }
+  },
+  "release": [
+    "magicmike12",
+    "magicmike15",
+    "magicmikes23"
+  ],
+  "chrono": [
+    "magicmike12",
+    "magicmike15",
+    "magicmikes23"
+  ]
+}

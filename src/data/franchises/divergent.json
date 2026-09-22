@@ -1,0 +1,34 @@
+{
+  "title": "Divergent",
+  "short": "Three films",
+  "hue": 354,
+  "blurb": "A trilogy adapted from four books — the final film was cancelled before it could finish the story.",
+  "films": {
+    "divergent14": {
+      "t": "Divergent",
+      "y": 2014,
+      "set": "—"
+    },
+    "thedivergent15": {
+      "t": "The Divergent Series: Insurgent",
+      "y": 2015,
+      "set": "—"
+    },
+    "thedivergent16": {
+      "t": "The Divergent Series: Allegiant",
+      "y": 2016,
+      "set": "—"
+    }
+  },
+  "release": [
+    "divergent14",
+    "thedivergent15",
+    "thedivergent16"
+  ],
+  "chrono": [
+    "divergent14",
+    "thedivergent15",
+    "thedivergent16"
+  ],
+  "note": "Allegiant was meant to be the first of two parts. The concluding film was never made, so the series ends unresolved."
+}

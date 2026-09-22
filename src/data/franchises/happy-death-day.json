@@ -1,0 +1,27 @@
+{
+  "title": "Happy Death Day",
+  "short": "Two films",
+  "hue": 330,
+  "blurb": "A slasher built around a time loop, and a sequel that explains the loop.",
+  "films": {
+    "happydeath17": {
+      "t": "Happy Death Day",
+      "y": 2017,
+      "set": "2017"
+    },
+    "happydeath19": {
+      "t": "Happy Death Day 2U",
+      "y": 2019,
+      "set": "2019"
+    }
+  },
+  "release": [
+    "happydeath17",
+    "happydeath19"
+  ],
+  "chrono": [
+    "happydeath17",
+    "happydeath19"
+  ],
+  "note": "2U picks up the day after the first film ends."
+}

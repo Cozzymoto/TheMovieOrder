@@ -1,0 +1,41 @@
+{
+  "title": "Jaws",
+  "short": "Four films",
+  "hue": 200,
+  "blurb": "The first summer blockbuster, followed by three sequels of steeply declining ambition.",
+  "films": {
+    "jaws75": {
+      "t": "Jaws",
+      "y": 1975,
+      "set": "1975"
+    },
+    "jaws278": {
+      "t": "Jaws 2",
+      "y": 1978,
+      "set": "1978"
+    },
+    "jaws383": {
+      "t": "Jaws 3-D",
+      "y": 1983,
+      "set": "1983"
+    },
+    "jawsthe87": {
+      "t": "Jaws: The Revenge",
+      "y": 1987,
+      "set": "1987"
+    }
+  },
+  "release": [
+    "jaws75",
+    "jaws278",
+    "jaws383",
+    "jawsthe87"
+  ],
+  "chrono": [
+    "jaws75",
+    "jaws278",
+    "jaws383",
+    "jawsthe87"
+  ],
+  "note": "Jaws: The Revenge ignores the events of Jaws 3-D. The original stands entirely on its own."
+}

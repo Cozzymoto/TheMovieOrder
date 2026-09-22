@@ -1,0 +1,26 @@
+{
+  "title": "Extraction",
+  "short": "Two films",
+  "hue": 38,
+  "blurb": "A mercenary hired to rescue people from impossible places.",
+  "films": {
+    "extraction20": {
+      "t": "Extraction",
+      "y": 2020,
+      "set": "2020"
+    },
+    "extraction223": {
+      "t": "Extraction 2",
+      "y": 2023,
+      "set": "2023"
+    }
+  },
+  "release": [
+    "extraction20",
+    "extraction223"
+  ],
+  "chrono": [
+    "extraction20",
+    "extraction223"
+  ]
+}

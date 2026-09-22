@@ -1,0 +1,27 @@
+{
+  "title": "Freaky Friday",
+  "short": "Two films",
+  "hue": 320,
+  "blurb": "A mother and daughter who swap bodies, and a sequel twenty-two years later that swaps four.",
+  "films": {
+    "freakyfriday03": {
+      "t": "Freaky Friday",
+      "y": 2003,
+      "set": "2003"
+    },
+    "freakierfriday25": {
+      "t": "Freakier Friday",
+      "y": 2025,
+      "set": "2025"
+    }
+  },
+  "release": [
+    "freakyfriday03",
+    "freakierfriday25"
+  ],
+  "chrono": [
+    "freakyfriday03",
+    "freakierfriday25"
+  ],
+  "note": "The 2003 film is itself a remake of a 1976 original, which isn't part of this story."
+}

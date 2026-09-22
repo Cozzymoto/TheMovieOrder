@@ -1,0 +1,41 @@
+{
+  "title": "Fear Street",
+  "short": "Four films, three centuries",
+  "hue": 4,
+  "blurb": "A trilogy released weekly that runs backwards through time — 1994, then 1978, then 1666 — plus a later standalone set in 1988.",
+  "films": {
+    "fearstreet21": {
+      "t": "Fear Street: Part One – 1994",
+      "y": 2021,
+      "set": "1994"
+    },
+    "fearstreet21b": {
+      "t": "Fear Street: Part Two – 1978",
+      "y": 2021,
+      "set": "1978"
+    },
+    "fearstreet21c": {
+      "t": "Fear Street: Part Three – 1666",
+      "y": 2021,
+      "set": "1666 & 1994"
+    },
+    "fearstreet25": {
+      "t": "Fear Street: Prom Queen",
+      "y": 2025,
+      "set": "1988"
+    }
+  },
+  "release": [
+    "fearstreet21",
+    "fearstreet21b",
+    "fearstreet21c",
+    "fearstreet25"
+  ],
+  "chrono": [
+    "fearstreet21c",
+    "fearstreet21b",
+    "fearstreet25",
+    "fearstreet21"
+  ],
+  "note": "The trilogy was designed to be watched in release order. Part Three spends half its time in 1666 and half back in 1994, where it resolves the story — watching it first gives away the ending."
+}

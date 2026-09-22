@@ -1,0 +1,47 @@
+{
+  "title": "Dirty Harry",
+  "short": "Five films",
+  "hue": 30,
+  "blurb": "A San Francisco detective with his own methods, across seventeen years.",
+  "films": {
+    "dirtyharry71": {
+      "t": "Dirty Harry",
+      "y": 1971,
+      "set": "1971"
+    },
+    "magnumforce73": {
+      "t": "Magnum Force",
+      "y": 1973,
+      "set": "1973"
+    },
+    "theenforcer76": {
+      "t": "The Enforcer",
+      "y": 1976,
+      "set": "1976"
+    },
+    "suddenimpact83": {
+      "t": "Sudden Impact",
+      "y": 1983,
+      "set": "1983"
+    },
+    "thedead88": {
+      "t": "The Dead Pool",
+      "y": 1988,
+      "set": "1988"
+    }
+  },
+  "release": [
+    "dirtyharry71",
+    "magnumforce73",
+    "theenforcer76",
+    "suddenimpact83",
+    "thedead88"
+  ],
+  "chrono": [
+    "dirtyharry71",
+    "magnumforce73",
+    "theenforcer76",
+    "suddenimpact83",
+    "thedead88"
+  ]
+}

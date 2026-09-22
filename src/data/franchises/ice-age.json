@@ -1,0 +1,47 @@
+{
+  "title": "Ice Age",
+  "short": "Five films",
+  "hue": 196,
+  "blurb": "An unlikely herd surviving one prehistoric catastrophe after another.",
+  "films": {
+    "iceage02": {
+      "t": "Ice Age",
+      "y": 2002,
+      "set": "—"
+    },
+    "iceage06": {
+      "t": "Ice Age: The Meltdown",
+      "y": 2006,
+      "set": "—"
+    },
+    "iceage09": {
+      "t": "Ice Age: Dawn of the Dinosaurs",
+      "y": 2009,
+      "set": "—"
+    },
+    "iceage12": {
+      "t": "Ice Age: Continental Drift",
+      "y": 2012,
+      "set": "—"
+    },
+    "iceage16": {
+      "t": "Ice Age: Collision Course",
+      "y": 2016,
+      "set": "—"
+    }
+  },
+  "release": [
+    "iceage02",
+    "iceage06",
+    "iceage09",
+    "iceage12",
+    "iceage16"
+  ],
+  "chrono": [
+    "iceage02",
+    "iceage06",
+    "iceage09",
+    "iceage12",
+    "iceage16"
+  ]
+}
