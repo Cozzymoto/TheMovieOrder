@@ -1,0 +1,216 @@
+{
+  "title": "Detective Conan",
+  "short": "All 29 films",
+  "hue": 348,
+  "blurb": "A teenage detective shrunk into the body of a child, in a film released every April since 1997.",
+  "films": {
+    "detectiveconan97": {
+      "t": "Detective Conan: The Time Bombed Skyscraper",
+      "y": 1997,
+      "set": "—"
+    },
+    "detectiveconan98": {
+      "t": "Detective Conan: The Fourteenth Target",
+      "y": 1998,
+      "set": "—"
+    },
+    "detectiveconan99": {
+      "t": "Detective Conan: The Last Wizard of the Century",
+      "y": 1999,
+      "set": "—"
+    },
+    "detectiveconan00": {
+      "t": "Detective Conan: Captured in Her Eyes",
+      "y": 2000,
+      "set": "—"
+    },
+    "detectiveconan01": {
+      "t": "Detective Conan: Countdown to Heaven",
+      "y": 2001,
+      "set": "—"
+    },
+    "detectiveconan02": {
+      "t": "Detective Conan: The Phantom of Baker Street",
+      "y": 2002,
+      "set": "—"
+    },
+    "detectiveconan03": {
+      "t": "Detective Conan: Crossroad in the Ancient Capital",
+      "y": 2003,
+      "set": "—"
+    },
+    "detectiveconan04": {
+      "t": "Detective Conan: Magician of the Silver Sky",
+      "y": 2004,
+      "set": "—"
+    },
+    "detectiveconan05": {
+      "t": "Detective Conan: Strategy Above the Depths",
+      "y": 2005,
+      "set": "—"
+    },
+    "detectiveconan06": {
+      "t": "Detective Conan: The Private Eyes' Requiem",
+      "y": 2006,
+      "set": "—"
+    },
+    "detectiveconan07": {
+      "t": "Detective Conan: Jolly Roger in the Deep Azure",
+      "y": 2007,
+      "set": "—"
+    },
+    "detectiveconan08": {
+      "t": "Detective Conan: Full Score of Fear",
+      "y": 2008,
+      "set": "—"
+    },
+    "detectiveconan09": {
+      "t": "Detective Conan: The Raven Chaser",
+      "y": 2009,
+      "set": "—"
+    },
+    "detectiveconan10": {
+      "t": "Detective Conan: The Lost Ship in the Sky",
+      "y": 2010,
+      "set": "—"
+    },
+    "detectiveconan11": {
+      "t": "Detective Conan: Quarter of Silence",
+      "y": 2011,
+      "set": "—"
+    },
+    "detectiveconan12": {
+      "t": "Detective Conan: The Eleventh Striker",
+      "y": 2012,
+      "set": "—"
+    },
+    "detectiveconan13": {
+      "t": "Detective Conan: Private Eye in the Distant Sea",
+      "y": 2013,
+      "set": "—"
+    },
+    "detectiveconan14": {
+      "t": "Detective Conan: Dimensional Sniper",
+      "y": 2014,
+      "set": "—"
+    },
+    "detectiveconan15": {
+      "t": "Detective Conan: Sunflowers of Inferno",
+      "y": 2015,
+      "set": "—"
+    },
+    "detectiveconan16": {
+      "t": "Detective Conan: The Darkest Nightmare",
+      "y": 2016,
+      "set": "—"
+    },
+    "detectiveconan17": {
+      "t": "Detective Conan: The Crimson Love Letter",
+      "y": 2017,
+      "set": "—"
+    },
+    "detectiveconan18": {
+      "t": "Detective Conan: Zero the Enforcer",
+      "y": 2018,
+      "set": "—"
+    },
+    "detectiveconan19": {
+      "t": "Detective Conan: The Fist of Blue Sapphire",
+      "y": 2019,
+      "set": "—"
+    },
+    "detectiveconan21": {
+      "t": "Detective Conan: The Scarlet Bullet",
+      "y": 2021,
+      "set": "—"
+    },
+    "detectiveconan22": {
+      "t": "Detective Conan: The Bride of Halloween",
+      "y": 2022,
+      "set": "—"
+    },
+    "detectiveconan23": {
+      "t": "Detective Conan: Black Iron Submarine",
+      "y": 2023,
+      "set": "—"
+    },
+    "detectiveconan24": {
+      "t": "Detective Conan: The Million-Dollar Pentagram",
+      "y": 2024,
+      "set": "—"
+    },
+    "detectiveconan25": {
+      "t": "Detective Conan: One-Eyed Flashback",
+      "y": 2025,
+      "set": "—"
+    },
+    "detectiveconan26": {
+      "t": "Detective Conan: Fallen Angel of the Highway",
+      "y": 2026,
+      "set": "—"
+    }
+  },
+  "release": [
+    "detectiveconan97",
+    "detectiveconan98",
+    "detectiveconan99",
+    "detectiveconan00",
+    "detectiveconan01",
+    "detectiveconan02",
+    "detectiveconan03",
+    "detectiveconan04",
+    "detectiveconan05",
+    "detectiveconan06",
+    "detectiveconan07",
+    "detectiveconan08",
+    "detectiveconan09",
+    "detectiveconan10",
+    "detectiveconan11",
+    "detectiveconan12",
+    "detectiveconan13",
+    "detectiveconan14",
+    "detectiveconan15",
+    "detectiveconan16",
+    "detectiveconan17",
+    "detectiveconan18",
+    "detectiveconan19",
+    "detectiveconan21",
+    "detectiveconan22",
+    "detectiveconan23",
+    "detectiveconan24",
+    "detectiveconan25",
+    "detectiveconan26"
+  ],
+  "chrono": [
+    "detectiveconan97",
+    "detectiveconan98",
+    "detectiveconan99",
+    "detectiveconan00",
+    "detectiveconan01",
+    "detectiveconan02",
+    "detectiveconan03",
+    "detectiveconan04",
+    "detectiveconan05",
+    "detectiveconan06",
+    "detectiveconan07",
+    "detectiveconan08",
+    "detectiveconan09",
+    "detectiveconan10",
+    "detectiveconan11",
+    "detectiveconan12",
+    "detectiveconan13",
+    "detectiveconan14",
+    "detectiveconan15",
+    "detectiveconan16",
+    "detectiveconan17",
+    "detectiveconan18",
+    "detectiveconan19",
+    "detectiveconan21",
+    "detectiveconan22",
+    "detectiveconan23",
+    "detectiveconan24",
+    "detectiveconan25",
+    "detectiveconan26"
+  ],
+  "note": "Each film is a self-contained case, so you can start almost anywhere. There was no film in 2020 — The Scarlet Bullet was delayed a year by the pandemic. A handful move the wider story about the Black Organisation forward, and those are the ones long-time fans point newcomers towards rather than starting at 1997. Known as Case Closed in North America. There are also several television specials and a crossover with Lupin III, none of which are counted among the numbered films."
+}

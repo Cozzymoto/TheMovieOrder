@@ -1,0 +1,188 @@
+{
+  "title": "Pokémon",
+  "short": "All 23 animated films plus Detective Pikachu",
+  "hue": 52,
+  "blurb": "A film almost every year from 1998 to 2020, each built around a legendary Pokémon, plus one live-action outing.",
+  "films": {
+    "pokmon98": {
+      "t": "Pokémon: The First Movie - Mewtwo Strikes Back",
+      "y": 1998,
+      "set": "—"
+    },
+    "pokmon99": {
+      "t": "Pokémon the Movie 2000: The Power of One",
+      "y": 1999,
+      "set": "—"
+    },
+    "pokmon00": {
+      "t": "Pokémon 3: The Movie - Spell of the Unown",
+      "y": 2000,
+      "set": "—"
+    },
+    "pokmon01": {
+      "t": "Pokémon 4Ever: Celebi - Voice of the Forest",
+      "y": 2001,
+      "set": "—"
+    },
+    "pokmon02": {
+      "t": "Pokémon Heroes: Latios and Latias",
+      "y": 2002,
+      "set": "—"
+    },
+    "pokmon03": {
+      "t": "Pokémon: Jirachi, Wish Maker",
+      "y": 2003,
+      "set": "—"
+    },
+    "pokmon04": {
+      "t": "Pokémon: Destiny Deoxys",
+      "y": 2004,
+      "set": "—"
+    },
+    "pokmon05": {
+      "t": "Pokémon: Lucario and the Mystery of Mew",
+      "y": 2005,
+      "set": "—"
+    },
+    "pokmon06": {
+      "t": "Pokémon Ranger and the Temple of the Sea",
+      "y": 2006,
+      "set": "—"
+    },
+    "pokmon07": {
+      "t": "Pokémon: The Rise of Darkrai",
+      "y": 2007,
+      "set": "—"
+    },
+    "pokmon08": {
+      "t": "Pokémon: Giratina and the Sky Warrior",
+      "y": 2008,
+      "set": "—"
+    },
+    "pokmon09": {
+      "t": "Pokémon: Arceus and the Jewel of Life",
+      "y": 2009,
+      "set": "—"
+    },
+    "pokmon10": {
+      "t": "Pokémon: Zoroark - Master of Illusions",
+      "y": 2010,
+      "set": "—"
+    },
+    "pokmon11": {
+      "t": "Pokémon the Movie: Black - Victini and Reshiram",
+      "y": 2011,
+      "set": "—"
+    },
+    "pokmon11b": {
+      "t": "Pokémon the Movie: White - Victini and Zekrom",
+      "y": 2011,
+      "set": "—"
+    },
+    "pokmon12": {
+      "t": "Pokémon the Movie: Kyurem vs. the Sword of Justice",
+      "y": 2012,
+      "set": "—"
+    },
+    "pokmon13": {
+      "t": "Pokémon the Movie: Genesect and the Legend Awakened",
+      "y": 2013,
+      "set": "—"
+    },
+    "pokmon14": {
+      "t": "Pokémon the Movie: Diancie and the Cocoon of Destruction",
+      "y": 2014,
+      "set": "—"
+    },
+    "pokmon15": {
+      "t": "Pokémon the Movie: Hoopa and the Clash of Ages",
+      "y": 2015,
+      "set": "—"
+    },
+    "pokmon16": {
+      "t": "Pokémon the Movie: Volcanion and the Mechanical Marvel",
+      "y": 2016,
+      "set": "—"
+    },
+    "pokmon17": {
+      "t": "Pokémon the Movie: I Choose You!",
+      "y": 2017,
+      "set": "—"
+    },
+    "pokmon18": {
+      "t": "Pokémon the Movie: The Power of Us",
+      "y": 2018,
+      "set": "—"
+    },
+    "pokmon19": {
+      "t": "Pokémon: Mewtwo Strikes Back - Evolution",
+      "y": 2019,
+      "set": "—"
+    },
+    "pokmon19b": {
+      "t": "Pokémon Detective Pikachu",
+      "y": 2019,
+      "set": "—"
+    },
+    "pokmon20": {
+      "t": "Pokémon the Movie: Secrets of the Jungle",
+      "y": 2020,
+      "set": "—"
+    }
+  },
+  "release": [
+    "pokmon98",
+    "pokmon99",
+    "pokmon00",
+    "pokmon01",
+    "pokmon02",
+    "pokmon03",
+    "pokmon04",
+    "pokmon05",
+    "pokmon06",
+    "pokmon07",
+    "pokmon08",
+    "pokmon09",
+    "pokmon10",
+    "pokmon11",
+    "pokmon11b",
+    "pokmon12",
+    "pokmon13",
+    "pokmon14",
+    "pokmon15",
+    "pokmon16",
+    "pokmon17",
+    "pokmon18",
+    "pokmon19",
+    "pokmon19b",
+    "pokmon20"
+  ],
+  "chrono": [
+    "pokmon98",
+    "pokmon99",
+    "pokmon00",
+    "pokmon01",
+    "pokmon02",
+    "pokmon03",
+    "pokmon04",
+    "pokmon05",
+    "pokmon06",
+    "pokmon07",
+    "pokmon08",
+    "pokmon09",
+    "pokmon10",
+    "pokmon11",
+    "pokmon11b",
+    "pokmon12",
+    "pokmon13",
+    "pokmon14",
+    "pokmon15",
+    "pokmon16",
+    "pokmon17",
+    "pokmon18",
+    "pokmon19",
+    "pokmon19b",
+    "pokmon20"
+  ],
+  "note": "Almost every film is self-contained, so the order rarely matters. Three exceptions are worth knowing. Black and White are the same film with different legendary Pokémon — pick one. I Choose You!, The Power of Us and Secrets of the Jungle are set in a separate continuity from the television series. And Mewtwo Strikes Back - Evolution is a computer-animated remake of the 1998 original rather than a new story. Detective Pikachu is live action and unconnected to any of them."
+}

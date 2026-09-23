@@ -1,0 +1,118 @@
+{
+  "title": "One Piece",
+  "short": "All 15 animated films",
+  "hue": 32,
+  "blurb": "Fifteen films made alongside the series since 2000, most of them side stories that sit outside the main voyage.",
+  "films": {
+    "onepiece00": {
+      "t": "One Piece: The Movie",
+      "y": 2000,
+      "set": "—"
+    },
+    "onepiece01": {
+      "t": "One Piece: Clockwork Island Adventure",
+      "y": 2001,
+      "set": "—"
+    },
+    "onepiece02": {
+      "t": "One Piece: Chopper's Kingdom on the Island of Strange Animals",
+      "y": 2002,
+      "set": "—"
+    },
+    "onepiece03": {
+      "t": "One Piece: Dead End Adventure",
+      "y": 2003,
+      "set": "—"
+    },
+    "onepiece04": {
+      "t": "One Piece: The Cursed Holy Sword",
+      "y": 2004,
+      "set": "—"
+    },
+    "onepiece05": {
+      "t": "One Piece: Baron Omatsuri and the Secret Island",
+      "y": 2005,
+      "set": "—"
+    },
+    "onepiece06": {
+      "t": "One Piece: The Giant Mechanical Soldier of Karakuri Castle",
+      "y": 2006,
+      "set": "—"
+    },
+    "onepiece07": {
+      "t": "One Piece: Episode of Alabasta",
+      "y": 2007,
+      "set": "—"
+    },
+    "onepiece08": {
+      "t": "One Piece: Episode of Chopper Plus",
+      "y": 2008,
+      "set": "—"
+    },
+    "onepiece09": {
+      "t": "One Piece Film: Strong World",
+      "y": 2009,
+      "set": "—"
+    },
+    "onepiece11": {
+      "t": "One Piece 3D: Straw Hat Chase",
+      "y": 2011,
+      "set": "—"
+    },
+    "onepiece12": {
+      "t": "One Piece Film: Z",
+      "y": 2012,
+      "set": "—"
+    },
+    "onepiece16": {
+      "t": "One Piece Film: Gold",
+      "y": 2016,
+      "set": "—"
+    },
+    "onepiece19": {
+      "t": "One Piece: Stampede",
+      "y": 2019,
+      "set": "—"
+    },
+    "onepiece22": {
+      "t": "One Piece Film: Red",
+      "y": 2022,
+      "set": "—"
+    }
+  },
+  "release": [
+    "onepiece00",
+    "onepiece01",
+    "onepiece02",
+    "onepiece03",
+    "onepiece04",
+    "onepiece05",
+    "onepiece06",
+    "onepiece07",
+    "onepiece08",
+    "onepiece09",
+    "onepiece11",
+    "onepiece12",
+    "onepiece16",
+    "onepiece19",
+    "onepiece22"
+  ],
+  "chrono": [
+    "onepiece00",
+    "onepiece01",
+    "onepiece02",
+    "onepiece03",
+    "onepiece04",
+    "onepiece05",
+    "onepiece06",
+    "onepiece07",
+    "onepiece08",
+    "onepiece09",
+    "onepiece11",
+    "onepiece12",
+    "onepiece16",
+    "onepiece19",
+    "onepiece22"
+  ],
+  "note": "Most are non-canonical adventures that work in any order once you know the crew. Strong World, Z and Red were made with the manga's author and are the ones usually recommended. Episode of Alabasta and Episode of Chopper Plus retell arcs from the television series rather than adding to it. Four of the earliest were shown as double features and run under an hour."
+}
