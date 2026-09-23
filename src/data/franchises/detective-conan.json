@@ -3,151 +3,181 @@
   "short": "All 29 films",
   "hue": 348,
   "blurb": "A teenage detective shrunk into the body of a child, in a film released every April since 1997.",
+  "poster": "/h6xyd2XwrriAhkYpXpbfffWq09N.jpg",
   "films": {
     "detectiveconan97": {
       "t": "Detective Conan: The Time Bombed Skyscraper",
       "y": 1997,
-      "set": "—"
+      "set": "—",
+      "poster": "/h6xyd2XwrriAhkYpXpbfffWq09N.jpg"
     },
     "detectiveconan98": {
       "t": "Detective Conan: The Fourteenth Target",
       "y": 1998,
-      "set": "—"
+      "set": "—",
+      "poster": "/2W1FwcYpHarzO5GKBYucoGnDffA.jpg"
     },
     "detectiveconan99": {
       "t": "Detective Conan: The Last Wizard of the Century",
       "y": 1999,
-      "set": "—"
+      "set": "—",
+      "poster": "/q2v6JmGMVQR0UhUirXuuzXUcAnN.jpg"
     },
     "detectiveconan00": {
       "t": "Detective Conan: Captured in Her Eyes",
       "y": 2000,
-      "set": "—"
+      "set": "—",
+      "poster": "/o0ta1yBaKQRjEWLhOU8jmE9TdGa.jpg"
     },
     "detectiveconan01": {
       "t": "Detective Conan: Countdown to Heaven",
       "y": 2001,
-      "set": "—"
+      "set": "—",
+      "poster": "/1giFCODG6Bnik84NsyjHwvuX9Da.jpg"
     },
     "detectiveconan02": {
       "t": "Detective Conan: The Phantom of Baker Street",
       "y": 2002,
-      "set": "—"
+      "set": "—",
+      "poster": "/AbgADjLIYoLAc3mayVWGBWSbjT.jpg"
     },
     "detectiveconan03": {
       "t": "Detective Conan: Crossroad in the Ancient Capital",
       "y": 2003,
-      "set": "—"
+      "set": "—",
+      "poster": "/qsP5o8Z5xPgjnerByjHzOq1MUI0.jpg"
     },
     "detectiveconan04": {
       "t": "Detective Conan: Magician of the Silver Sky",
       "y": 2004,
-      "set": "—"
+      "set": "—",
+      "poster": "/y23gqg2y2ckCcqjhe4WKlIHq63B.jpg"
     },
     "detectiveconan05": {
       "t": "Detective Conan: Strategy Above the Depths",
       "y": 2005,
-      "set": "—"
+      "set": "—",
+      "poster": "/enhiUd7MOuLjKa4NkZmLaN7dDWH.jpg"
     },
     "detectiveconan06": {
       "t": "Detective Conan: The Private Eyes' Requiem",
       "y": 2006,
-      "set": "—"
+      "set": "—",
+      "poster": "/4nWSBZBOP6NSGuBoGQEiIg03lJg.jpg"
     },
     "detectiveconan07": {
       "t": "Detective Conan: Jolly Roger in the Deep Azure",
       "y": 2007,
-      "set": "—"
+      "set": "—",
+      "poster": "/3qiBRbIsfpw6O32TfD1FZ81MiKw.jpg"
     },
     "detectiveconan08": {
       "t": "Detective Conan: Full Score of Fear",
       "y": 2008,
-      "set": "—"
+      "set": "—",
+      "poster": "/qxq2TfGy1Vfh9miCjKPo0nNxmW6.jpg"
     },
     "detectiveconan09": {
       "t": "Detective Conan: The Raven Chaser",
       "y": 2009,
-      "set": "—"
+      "set": "—",
+      "poster": "/1rqrypnOq4cuwzobGW9gQgarkSr.jpg"
     },
     "detectiveconan10": {
       "t": "Detective Conan: The Lost Ship in the Sky",
       "y": 2010,
-      "set": "—"
+      "set": "—",
+      "poster": "/kthV4ZwXO37pfCFTbX1cHOYie4r.jpg"
     },
     "detectiveconan11": {
       "t": "Detective Conan: Quarter of Silence",
       "y": 2011,
-      "set": "—"
+      "set": "—",
+      "poster": "/9bNsqXpPKSdcqPeBgWg9HsrwYJe.jpg"
     },
     "detectiveconan12": {
       "t": "Detective Conan: The Eleventh Striker",
       "y": 2012,
-      "set": "—"
+      "set": "—",
+      "poster": "/9wUk85WRQrAxTOgxjdPwrmVQ2Se.jpg"
     },
     "detectiveconan13": {
       "t": "Detective Conan: Private Eye in the Distant Sea",
       "y": 2013,
-      "set": "—"
+      "set": "—",
+      "poster": "/4QtpfeGuxWbfLMgBiP3u3MVws9M.jpg"
     },
     "detectiveconan14": {
       "t": "Detective Conan: Dimensional Sniper",
       "y": 2014,
-      "set": "—"
+      "set": "—",
+      "poster": "/d08RKnmdcoCwlHOezazli8hmJH6.jpg"
     },
     "detectiveconan15": {
       "t": "Detective Conan: Sunflowers of Inferno",
       "y": 2015,
-      "set": "—"
+      "set": "—",
+      "poster": "/phTv5vD6nLCLrtUKWRHMBJGU7Bi.jpg"
     },
     "detectiveconan16": {
       "t": "Detective Conan: The Darkest Nightmare",
       "y": 2016,
-      "set": "—"
+      "set": "—",
+      "poster": "/pXYeXuomi8EpXsXO4cvt5mdfSCD.jpg"
     },
     "detectiveconan17": {
       "t": "Detective Conan: The Crimson Love Letter",
       "y": 2017,
-      "set": "—"
+      "set": "—",
+      "poster": "/7tulrto9RCvIoLdp7xQuADVmTk2.jpg"
     },
     "detectiveconan18": {
       "t": "Detective Conan: Zero the Enforcer",
       "y": 2018,
-      "set": "—"
+      "set": "—",
+      "poster": "/yQ61Qk5oKljPPqfv1kIyU9WUXNc.jpg"
     },
     "detectiveconan19": {
       "t": "Detective Conan: The Fist of Blue Sapphire",
       "y": 2019,
-      "set": "—"
+      "set": "—",
+      "poster": "/IkaZMxpOEFG9lk0T3fpDGAUv3.jpg"
     },
     "detectiveconan21": {
       "t": "Detective Conan: The Scarlet Bullet",
       "y": 2021,
-      "set": "—"
+      "set": "—",
+      "poster": "/wowJzvF1KqEFSZoArkgngRy1r4L.jpg"
     },
     "detectiveconan22": {
       "t": "Detective Conan: The Bride of Halloween",
       "y": 2022,
-      "set": "—"
+      "set": "—",
+      "poster": "/zfsLhI6yAHH9pdhY6EConmUCumX.jpg"
     },
     "detectiveconan23": {
       "t": "Detective Conan: Black Iron Submarine",
       "y": 2023,
-      "set": "—"
+      "set": "—",
+      "poster": "/ksQ8uNgoWsVH6a0oPB6zx08pOwU.jpg"
     },
     "detectiveconan24": {
       "t": "Detective Conan: The Million-Dollar Pentagram",
       "y": 2024,
-      "set": "—"
+      "set": "—",
+      "poster": "/ctboIRYQHYJMge6M6fgcwrhREsj.jpg"
     },
     "detectiveconan25": {
       "t": "Detective Conan: One-Eyed Flashback",
       "y": 2025,
-      "set": "—"
+      "set": "—",
+      "poster": "/1wl6eAHbIDSz61tGwYTOKlSRvZb.jpg"
     },
     "detectiveconan26": {
       "t": "Detective Conan: Fallen Angel of the Highway",
       "y": 2026,
-      "set": "—"
+      "set": "—",
+      "poster": "/vvOk7a7k7Sp6UdHcqV4baRlK6CC.jpg"
     }
   },
   "release": [

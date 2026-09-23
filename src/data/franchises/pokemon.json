@@ -3,131 +3,157 @@
   "short": "All 23 animated films plus Detective Pikachu",
   "hue": 52,
   "blurb": "A film almost every year from 1998 to 2020, each built around a legendary Pokémon, plus one live-action outing.",
+  "poster": "/6YPzBcMH0aPNTvdXNCDLY0zdE1g.jpg",
   "films": {
     "pokmon98": {
       "t": "Pokémon: The First Movie - Mewtwo Strikes Back",
       "y": 1998,
-      "set": "—"
+      "set": "—",
+      "poster": "/6YPzBcMH0aPNTvdXNCDLY0zdE1g.jpg"
     },
     "pokmon99": {
       "t": "Pokémon the Movie 2000: The Power of One",
       "y": 1999,
-      "set": "—"
+      "set": "—",
+      "poster": "/6u65C8aG4krAVyHsTjAMF7ucTDH.jpg"
     },
     "pokmon00": {
       "t": "Pokémon 3: The Movie - Spell of the Unown",
       "y": 2000,
-      "set": "—"
+      "set": "—",
+      "poster": "/hrBWiMWnD7mheMx846ycUWA3ohs.jpg"
     },
     "pokmon01": {
       "t": "Pokémon 4Ever: Celebi - Voice of the Forest",
       "y": 2001,
-      "set": "—"
+      "set": "—",
+      "poster": "/thz83PS9twtVBEEAM59J1bh75nU.jpg"
     },
     "pokmon02": {
       "t": "Pokémon Heroes: Latios and Latias",
       "y": 2002,
-      "set": "—"
+      "set": "—",
+      "poster": "/eySv5rdYLW1k6LxepxCNl8ND26R.jpg"
     },
     "pokmon03": {
       "t": "Pokémon: Jirachi, Wish Maker",
       "y": 2003,
-      "set": "—"
+      "set": "—",
+      "poster": "/jbH0tIEymhyd6uk4xV4vrS6qybV.jpg"
     },
     "pokmon04": {
       "t": "Pokémon: Destiny Deoxys",
       "y": 2004,
-      "set": "—"
+      "set": "—",
+      "poster": "/3UV4evNh70gvPZB9KJEoh3a9B6I.jpg"
     },
     "pokmon05": {
       "t": "Pokémon: Lucario and the Mystery of Mew",
       "y": 2005,
-      "set": "—"
+      "set": "—",
+      "poster": "/3A3WiPXPmWVhXC7bGSiqtsYY9z6.jpg"
     },
     "pokmon06": {
       "t": "Pokémon Ranger and the Temple of the Sea",
       "y": 2006,
-      "set": "—"
+      "set": "—",
+      "poster": "/jZOi06xHjsG1VqbiIwS8GkyrAOn.jpg"
     },
     "pokmon07": {
       "t": "Pokémon: The Rise of Darkrai",
       "y": 2007,
-      "set": "—"
+      "set": "—",
+      "poster": "/yElGG6lxLtQXcgBVzF7Xxq7YRa2.jpg"
     },
     "pokmon08": {
       "t": "Pokémon: Giratina and the Sky Warrior",
       "y": 2008,
-      "set": "—"
+      "set": "—",
+      "poster": "/e3T08IL68EVcrUPiJLVN9KSGlXs.jpg"
     },
     "pokmon09": {
       "t": "Pokémon: Arceus and the Jewel of Life",
       "y": 2009,
-      "set": "—"
+      "set": "—",
+      "poster": "/tpqguVMKyPbINe0GYmMwduoaUar.jpg"
     },
     "pokmon10": {
       "t": "Pokémon: Zoroark - Master of Illusions",
       "y": 2010,
-      "set": "—"
+      "set": "—",
+      "poster": "/tWgH64RZmm2rIHtO2DNnfN3DZa8.jpg"
     },
     "pokmon11": {
       "t": "Pokémon the Movie: Black - Victini and Reshiram",
       "y": 2011,
-      "set": "—"
+      "set": "—",
+      "poster": "/SuIAXmxlbImWHobCkCWCHAeg03.jpg"
     },
     "pokmon11b": {
       "t": "Pokémon the Movie: White - Victini and Zekrom",
       "y": 2011,
-      "set": "—"
+      "set": "—",
+      "poster": "/J5AsLGUAqMgq0MjoyWldqqMPs1.jpg"
     },
     "pokmon12": {
       "t": "Pokémon the Movie: Kyurem vs. the Sword of Justice",
       "y": 2012,
-      "set": "—"
+      "set": "—",
+      "poster": "/7gQEAR8aaCQRtJi7wq26ST5hukn.jpg"
     },
     "pokmon13": {
       "t": "Pokémon the Movie: Genesect and the Legend Awakened",
       "y": 2013,
-      "set": "—"
+      "set": "—",
+      "poster": "/l921PT8ZDeAD4YWDaB5Uke89r9b.jpg"
     },
     "pokmon14": {
       "t": "Pokémon the Movie: Diancie and the Cocoon of Destruction",
       "y": 2014,
-      "set": "—"
+      "set": "—",
+      "poster": "/rA0KbJZbBt2fMmZs8bwPZnzFfDc.jpg"
     },
     "pokmon15": {
       "t": "Pokémon the Movie: Hoopa and the Clash of Ages",
       "y": 2015,
-      "set": "—"
+      "set": "—",
+      "poster": "/6kXRevMC1XSywmxqqRHuBcZlROT.jpg"
     },
     "pokmon16": {
       "t": "Pokémon the Movie: Volcanion and the Mechanical Marvel",
       "y": 2016,
-      "set": "—"
+      "set": "—",
+      "poster": "/4hdbuM6qBrHH0hX4sD8pNsXmalm.jpg"
     },
     "pokmon17": {
       "t": "Pokémon the Movie: I Choose You!",
       "y": 2017,
-      "set": "—"
+      "set": "—",
+      "poster": "/7vWiCtO1pa0oSG6QTyVKd8eyLLk.jpg"
     },
     "pokmon18": {
       "t": "Pokémon the Movie: The Power of Us",
       "y": 2018,
-      "set": "—"
+      "set": "—",
+      "poster": "/5oXKbOQOsPaLscHCqHjvi7hegOJ.jpg"
     },
     "pokmon19": {
       "t": "Pokémon: Mewtwo Strikes Back - Evolution",
       "y": 2019,
-      "set": "—"
+      "set": "—",
+      "poster": "/rtlyO2oIMcCx2DbOM52XO2rAcgn.jpg"
     },
     "pokmon19b": {
       "t": "Pokémon Detective Pikachu",
       "y": 2019,
-      "set": "—"
+      "set": "—",
+      "poster": "/uhWvnFgg3BNlcUz0Re1HfQqIcCD.jpg"
     },
     "pokmon20": {
       "t": "Pokémon the Movie: Secrets of the Jungle",
       "y": 2020,
-      "set": "—"
+      "set": "—",
+      "poster": "/9Ow7PJcAHMMxgSIjCW6RnRqE9OA.jpg"
     }
   },
   "release": [

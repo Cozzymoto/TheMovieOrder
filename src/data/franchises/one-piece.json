@@ -3,81 +3,97 @@
   "short": "All 15 animated films",
   "hue": 32,
   "blurb": "Fifteen films made alongside the series since 2000, most of them side stories that sit outside the main voyage.",
+  "poster": "/6QOrTYafoqzXPWLnR2K8129jTHH.jpg",
   "films": {
     "onepiece00": {
       "t": "One Piece: The Movie",
       "y": 2000,
-      "set": "—"
+      "set": "—",
+      "poster": "/6QOrTYafoqzXPWLnR2K8129jTHH.jpg"
     },
     "onepiece01": {
       "t": "One Piece: Clockwork Island Adventure",
       "y": 2001,
-      "set": "—"
+      "set": "—",
+      "poster": "/phrVSY5cpUkybc0gU41crWi2XIP.jpg"
     },
     "onepiece02": {
       "t": "One Piece: Chopper's Kingdom on the Island of Strange Animals",
       "y": 2002,
-      "set": "—"
+      "set": "—",
+      "poster": "/9YFUMvTV4zOkpUsPAiPgjaMKWYd.jpg"
     },
     "onepiece03": {
       "t": "One Piece: Dead End Adventure",
       "y": 2003,
-      "set": "—"
+      "set": "—",
+      "poster": "/tEJBIHzaW1IoOVHtgblXy76kj4G.jpg"
     },
     "onepiece04": {
       "t": "One Piece: The Cursed Holy Sword",
       "y": 2004,
-      "set": "—"
+      "set": "—",
+      "poster": "/fSqxVnjHE7zGAdWkhnQNYLJ2FUj.jpg"
     },
     "onepiece05": {
       "t": "One Piece: Baron Omatsuri and the Secret Island",
       "y": 2005,
-      "set": "—"
+      "set": "—",
+      "poster": "/ueIR4LM4k8eKhSB8gGT9NMhCwGW.jpg"
     },
     "onepiece06": {
       "t": "One Piece: The Giant Mechanical Soldier of Karakuri Castle",
       "y": 2006,
-      "set": "—"
+      "set": "—",
+      "poster": "/4Pu26TQNiyl8kjNe1sI3NMG2OQG.jpg"
     },
     "onepiece07": {
       "t": "One Piece: Episode of Alabasta",
       "y": 2007,
-      "set": "—"
+      "set": "—",
+      "poster": "/qryaZLg7DkBkZtwKWTH6dfXjT3r.jpg"
     },
     "onepiece08": {
       "t": "One Piece: Episode of Chopper Plus",
       "y": 2008,
-      "set": "—"
+      "set": "—",
+      "poster": "/rGgZ3nIJt1anC1hOT4Do5mCOqAJ.jpg"
     },
     "onepiece09": {
       "t": "One Piece Film: Strong World",
       "y": 2009,
-      "set": "—"
+      "set": "—",
+      "poster": "/z9S39hH4IOX9Hmtn3zho3Wdqem8.jpg"
     },
     "onepiece11": {
       "t": "One Piece 3D: Straw Hat Chase",
       "y": 2011,
-      "set": "—"
+      "set": "—",
+      "poster": "/2ubbxlzBBER7n3OJ55368SfI81h.jpg"
     },
     "onepiece12": {
       "t": "One Piece Film: Z",
       "y": 2012,
-      "set": "—"
+      "set": "—",
+      "poster": "/dd0HwfxstffjRgbBcQvtw3uqS6O.jpg"
     },
     "onepiece16": {
       "t": "One Piece Film: Gold",
       "y": 2016,
-      "set": "—"
+      "set": "—",
+      "poster": "/9PgiOFTLZXP7emlwcIt0yRasJ9h.jpg"
     },
     "onepiece19": {
       "t": "One Piece: Stampede",
       "y": 2019,
-      "set": "—"
+      "set": "—",
+      "poster": "/4E2lyUGLEr3yH4q6kJxPkQUhX7n.jpg"
     },
     "onepiece22": {
       "t": "One Piece Film: Red",
       "y": 2022,
-      "set": "—"
+      "set": "—",
+      "poster": "/8ibfhe4P7rhmn3lrPhOZzIJHA2B.jpg"
     }
   },
   "release": [
