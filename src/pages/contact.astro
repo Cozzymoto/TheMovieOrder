@@ -1,0 +1,110 @@
+---
+import Base from '../layouts/Base.astro';
+import { CONFIG } from '../config.js';
+import { allFranchises } from '../lib/franchise.js';
+
+const email = CONFIG.contactEmail;
+if (!email && import.meta.env.PROD) {
+  throw new Error('The Contact page needs an address. Set contactEmail in src/config.js.');
+}
+const titles = (await allFranchises()).map(f => f.title);
+---
+<Base title="Contact" description="Report a mistake in a watch order, or suggest a film or franchise for Order of Movies to add.">
+  <div class="wrap"><section class="section prose">
+    <h1>Contact</h1>
+    <p>Spotted a film in the wrong place, or a franchise we're missing? Tell us and we'll look into it.</p>
+
+    {!email && <p class="slot"><b>No contact address yet</b>Set <code>contactEmail</code> in src/config.js.</p>}
+
+    <form class="contact" id="contact" data-email={email} data-franchises={JSON.stringify(titles)}>
+      <fieldset class="contact__types">
+        <legend>What's it about?</legend>
+        <label><input type="radio" name="type" value="problem" checked> Report a problem</label>
+        <label><input type="radio" name="type" value="film"> Suggest a film</label>
+        <label><input type="radio" name="type" value="franchise"> Suggest a franchise</label>
+        <label><input type="radio" name="type" value="other"> Something else</label>
+      </fieldset>
+
+      <div class="contact__field" data-for="problem film">
+        <label for="c-franchise">Which franchise?</label>
+        <input id="c-franchise" name="franchise" list="c-franchises" autocomplete="off" placeholder="Start typing a franchise">
+        <datalist id="c-franchises">{titles.map(t => <option value={t} />)}</datalist>
+      </div>
+
+      <div class="contact__field" data-for="franchise">
+        <label for="c-new">Franchise name</label>
+        <input id="c-new" name="newFranchise" autocomplete="off" placeholder="e.g. Mission: Impossible">
+      </div>
+
+      <div class="contact__field">
+        <label for="c-message" id="c-message-label">What's wrong?</label>
+        <textarea id="c-message" name="message" rows="6" required></textarea>
+        <small id="c-hint">Which film is out of place, and where should it go? A source helps if you have one.</small>
+      </div>
+
+      <div class="contact__field">
+        <label for="c-name">Your name <span>(optional)</span></label>
+        <input id="c-name" name="name" autocomplete="name">
+      </div>
+
+      <button class="contact__send" type="submit">Open in your email app</button>
+      <p class="contact__note">This opens your email app with your message filled in, ready to send.</p>
+    </form>
+
+    {email && <p class="contact__direct">Email not working? Write to us directly at <a href={`mailto:${email}`}>{email}</a>.</p>}
+  </section></div>
+
+  <script is:inline>
+    (function(){
+      const form = document.getElementById('contact');
+      const email = form.dataset.email;
+      const known = JSON.parse(form.dataset.franchises);
+      const label = document.getElementById('c-message-label');
+      const hint = document.getElementById('c-hint');
+      const copy = {
+        problem:   ['What’s wrong?', 'Which film is out of place, and where should it go? A source helps if you have one.', 'Problem'],
+        film:      ['Which film is missing?', 'Its title and year, and where it fits in the order if you know.', 'Film suggestion'],
+        franchise: ['Which films are in it?', 'List the films you’d include, in any order.', 'Franchise suggestion'],
+        other:     ['Your message', '', 'Message']
+      };
+      const type = () => form.elements.type.value;
+
+      function update(){
+        const t = type();
+        form.querySelectorAll('[data-for]').forEach(el => {
+          el.hidden = !el.dataset.for.split(' ').includes(t);
+        });
+        label.textContent = copy[t][0];
+        hint.textContent = copy[t][1];
+        hint.hidden = !copy[t][1];
+      }
+
+      // Franchise pages link here as /contact/?type=problem&franchise=Star%20Wars
+      const q = new URLSearchParams(location.search);
+      if (copy[q.get('type')]) form.elements.type.value = q.get('type');
+      if (known.includes(q.get('franchise'))) form.elements.franchise.value = q.get('franchise');
+      update();
+      form.addEventListener('change', e => { if (e.target.name === 'type') update(); });
+
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        if (!email) return;
+        const t = type();
+        const f = form.elements;
+        const about = t === 'franchise' ? f.newFranchise.value.trim()
+                    : (t === 'problem' || t === 'film') ? f.franchise.value.trim() : '';
+        const subject = copy[t][2] + (about ? ': ' + about : '');
+        const body = [
+          about && (t === 'franchise' ? 'Franchise: ' : 'About: ') + about,
+          '',
+          f.message.value.trim(),
+          '',
+          f.name.value.trim() && '— ' + f.name.value.trim()
+        ].filter(x => x !== false && x !== undefined).join('\n').trim();
+        location.href = 'mailto:' + email +
+          '?subject=' + encodeURIComponent(subject) +
+          '&body=' + encodeURIComponent(body);
+      });
+    })();
+  </script>
+</Base>

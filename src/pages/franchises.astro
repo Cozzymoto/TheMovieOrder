@@ -19,7 +19,8 @@ for (const f of sorted) {
   if (!groups.has(l)) groups.set(l, []);
   groups.get(l).push(f);
 }
-const letters = '#ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').filter(l => l !== '#' || groups.has('#'));
+// Numbers and symbols go last, after Z.
+const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ#'.split('').filter(l => l !== '#' || groups.has('#'));
 const films = all.reduce((n, f) => n + f.release.length, 0);
 ---
 <Base title="All franchises" description={`Every franchise on Order of Movies — ${all.length} watch orders covering ${films} films, listed A to Z.`}>
@@ -36,7 +37,7 @@ const films = all.reduce((n, f) => n + f.release.length, 0);
           : <span aria-hidden="true">{l}</span>)}
       </nav>
 
-      {[...groups].map(([letter, list]) => (
+      {letters.filter(l => groups.has(l)).map(letter => [letter, groups.get(letter)]).map(([letter, list]) => (
         <>
           <div class="letter" id={`letter-${letter === '#' ? 'num' : letter}`}>
             <h2>{letter}</h2>

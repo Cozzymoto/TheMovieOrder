@@ -122,9 +122,14 @@ button{font:inherit;color:inherit}
   color:var(--graphite);
 }
 .theme-btn:hover{color:var(--ink);border-color:var(--ink)}
+.wordmark{white-space:nowrap}
 @media (max-width:640px){
-  .nav{gap:1rem}
-  .nav a{font-size:.75rem}
+  /* Two rows on phones: wordmark and theme button, then the menu */
+  html{scroll-padding-top:calc(104px + env(safe-area-inset-top,0px))}
+  .masthead__in{height:auto;flex-wrap:wrap;row-gap:0;padding-top:.6rem}
+  .nav{order:3;width:100%;gap:1.25rem;overflow-x:auto;scrollbar-width:none;padding-bottom:.35rem}
+  .nav::-webkit-scrollbar{display:none}
+  .nav a{font-size:.8125rem;white-space:nowrap}
 }
 
 /* ============================================================
@@ -527,3 +532,41 @@ button{font:inherit;color:inherit}
 .rail > *{scroll-snap-align:start}
 .rail::-webkit-scrollbar{height:6px}
 .rail::-webkit-scrollbar-thumb{background:var(--hairline);border-radius:999px}
+
+/* ============================================================
+   CONTACT
+   ============================================================ */
+.contact{display:grid;gap:1.4rem;margin-top:2rem}
+.contact__types{border:0;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}
+.contact__types legend{font-weight:600;margin-bottom:.6rem;padding:0}
+.contact__types label{
+  display:inline-flex;align-items:center;gap:.45rem;cursor:pointer;
+  border:1px solid var(--hairline);border-radius:999px;padding:.45rem .95rem;
+  font-size:var(--step--1);font-weight:500;
+}
+.contact__types label:hover{border-color:var(--ink)}
+.contact__types label:has(input:checked){border-color:var(--red);background:var(--red-wash)}
+.contact__types input{accent-color:var(--red);margin:0}
+.contact__field{display:grid;gap:.4rem}
+.contact__field[hidden]{display:none}
+.contact__field label{font-weight:600}
+.contact__field label span{font-weight:400;color:var(--graphite)}
+.contact__field small{color:var(--graphite);font-size:var(--step--1)}
+.contact__field small[hidden]{display:none}
+.contact input:not([type="radio"]),.contact textarea{
+  font:inherit;color:var(--ink);background:var(--paper);width:100%;
+  border:1px solid var(--hairline);border-radius:var(--radius);padding:.7rem .85rem;
+}
+.contact textarea{resize:vertical;min-height:8rem}
+.contact input:not([type="radio"]):focus,.contact textarea:focus{
+  outline:none;border-color:var(--red);box-shadow:0 0 0 4px var(--red-wash);
+}
+.contact__send{
+  justify-self:start;cursor:pointer;border:0;border-radius:999px;
+  background:var(--red);color:var(--on-red);font-weight:600;padding:.8rem 1.5rem;
+}
+.contact__send:hover{filter:brightness(1.08)}
+.contact__note{margin:-.8rem 0 0;font-size:var(--step--1) !important;color:var(--graphite)}
+.contact__direct{margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid var(--hairline)}
+.note-link{font-size:var(--step--1);color:var(--graphite)}
+.note-link a{color:var(--red)}

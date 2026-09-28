@@ -1,7 +1,8 @@
 // The only file you edit once you have accounts set up.
 export const CONFIG = {
   region: "uk",      // "uk" or "us" — sets the JustWatch and Amazon region
-  amazonTag: ""      // e.g. "themovieorder-21" once Amazon Associates approve you
+  amazonTag: "",     // e.g. "themovieorder-21" once Amazon Associates approve you
+  contactEmail: "conwaytong@hotmail.com" // where the Contact page sends reports and suggestions
 };
 
 export function watchURL(title){
