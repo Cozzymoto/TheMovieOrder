@@ -1,0 +1,62 @@
+[
+  {
+    "label": "Alien & Predator",
+    "franchises": ["alien", "predator", "alien-vs-predator"]
+  },
+  {
+    "label": "Godzilla",
+    "franchises": ["godzilla-the-showa-era", "godzilla-the-heisei-era", "godzilla-the-millennium-era", "godzilla-the-anime-trilogy", "monsterverse"]
+  },
+  {
+    "label": "King Kong",
+    "franchises": ["king-kong", "monsterverse", "godzilla-the-showa-era"]
+  },
+  {
+    "label": "Spider-Man",
+    "franchises": ["spider-man", "marvel-cinematic-universe", "sony-spider-man-universe", "spider-verse"]
+  },
+  {
+    "label": "Marvel",
+    "franchises": ["marvel-cinematic-universe", "x-men", "spider-man", "fantastic-four", "blade", "ghost-rider", "the-punisher"]
+  },
+  {
+    "label": "DC",
+    "franchises": ["dc-extended-universe", "batman", "superman"]
+  },
+  {
+    "label": "Freddy vs. Jason",
+    "franchises": ["a-nightmare-on-elm-street", "friday-the-13th"]
+  },
+  {
+    "label": "Ring",
+    "franchises": ["ring-the-japanese-films", "the-ring"]
+  },
+  {
+    "label": "Evangelion",
+    "franchises": ["evangelion-the-original-films", "rebuild-of-evangelion"]
+  },
+  {
+    "label": "Type-Moon",
+    "franchises": ["kara-no-kyoukai", "fate-stay-night-heavens-feel"]
+  },
+  {
+    "label": "Hammer Horror",
+    "franchises": ["hammers-dracula", "hammers-frankenstein", "hammers-mummy", "quatermass"]
+  },
+  {
+    "label": "Classic monsters",
+    "franchises": ["universal-monsters", "the-mummy", "hammers-dracula", "hammers-frankenstein", "hammers-mummy"]
+  },
+  {
+    "label": "Aardman",
+    "franchises": ["wallace-and-gromit", "shaun-the-sheep", "chicken-run"]
+  },
+  {
+    "label": "Stephen King",
+    "franchises": ["it", "the-shining", "pet-sematary"]
+  },
+  {
+    "label": "Roald Dahl",
+    "franchises": ["matilda", "willy-wonka"]
+  }
+]

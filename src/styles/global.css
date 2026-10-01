@@ -570,3 +570,17 @@ button{font:inherit;color:inherit}
 .contact__direct{margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid var(--hairline)}
 .note-link{font-size:var(--step--1);color:var(--graphite)}
 .note-link a{color:var(--red)}
+
+/* ============================================================
+   RELATED FRANCHISES
+   ============================================================ */
+.related{margin-top:3rem;padding-top:2rem;border-top:1px solid var(--hairline)}
+.related > h2{
+  font-family:var(--f-display);font-variation-settings:"wdth" 84;
+  font-weight:800;font-size:var(--step-3);letter-spacing:-0.02em;margin:0 0 1.25rem;
+}
+.related > h3{
+  font-size:var(--step--1);font-weight:600;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--graphite);margin:1.75rem 0 .9rem;
+}
+.related > h2 + h3{margin-top:0}

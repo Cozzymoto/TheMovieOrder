@@ -1,5 +1,6 @@
 import { getCollection } from 'astro:content';
 import trendingSlugs from '../data/trending.json';
+import relatedGroups from '../data/related.json';
 
 // Every franchise, alphabetical. Refuses to build if two cards share a title.
 export async function allFranchises(){
@@ -30,4 +31,26 @@ export async function trending(){
   }
   const list = trendingSlugs.map(s => bySlug.get(s));
   return list.length ? list : all.slice(0, 8);
+}
+
+/* Related franchises come from src/data/related.json: groups of franchise
+   file names that belong together (shared universe, crossovers, remakes).
+   Every franchise in a group links to the others. Returns the groups this
+   franchise is in, each with the other franchises, skipping repeats. */
+export async function related(slug){
+  const all = await allFranchises();
+  const bySlug = new Map(all.map(f => [f.slug, f]));
+  const missing = relatedGroups.flatMap(g => g.franchises).filter(s => !bySlug.has(s));
+  if (missing.length) {
+    throw new Error(`related.json names ${[...new Set(missing)].join(', ')}, but there is no franchise file with that name. Check the spelling against src/data/franchises/.`);
+  }
+  const shown = new Set([slug]);
+  const groups = [];
+  for (const g of relatedGroups) {
+    if (!g.franchises.includes(slug)) continue;
+    const list = g.franchises.filter(s => !shown.has(s)).map(s => bySlug.get(s));
+    list.forEach(f => shown.add(f.slug));
+    if (list.length) groups.push({ label: g.label, list });
+  }
+  return groups;
 }
