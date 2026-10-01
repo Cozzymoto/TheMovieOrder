@@ -1,0 +1,92 @@
+[
+  {
+    "id": "spoils",
+    "title": "Get it wrong and you spoil something",
+    "intro": "Chronological order gives away a twist, a reveal or an ending the films were built around. Watch these in release order the first time.",
+    "franchises": [
+      { "slug": "star-wars", "verdict": "release", "why": "Starting with the prequels tells you who Luke's father is six hours before Luke finds out." },
+      { "slug": "kara-no-kyoukai", "verdict": "release", "why": "Made in a scrambled order on purpose. Straightened out, it becomes a different and far plainer story." },
+      { "slug": "planet-of-the-apes", "verdict": "release", "why": "The original five form a time loop, so any chronological start is arbitrary, and it gives away the most famous ending in sci-fi." },
+      { "slug": "saw", "verdict": "release", "why": "Saw III and IV end on the same moment from different angles. The reveals only land in the order they were made." },
+      { "slug": "final-destination", "verdict": "release", "why": "Final Destination 5 ends by leading straight into the first film. Watch it first and the twist is gone." },
+      { "slug": "fear-street", "verdict": "release", "why": "Part Three resolves the whole trilogy back in 1994. Starting in 1666 hands you the ending." },
+      { "slug": "the-hunger-games", "verdict": "release", "why": "Watch the prequel first and Snow is a tragedy. Watch it last and he's a monster whose origins you finally understand." },
+      { "slug": "rurouni-kenshin", "verdict": "release", "why": "The Beginning explains the scar the whole series keeps referring to. Watching it last is the intended experience." },
+      { "slug": "wizarding-world", "verdict": "release", "why": "Fantastic Beasts assumes you already know who Dumbledore and Grindelwald are. Chronologically right, dramatically backwards." },
+      { "slug": "x-men", "verdict": "release", "why": "Days of Future Past resets the timeline. The reset only means something if you've watched what it erases." },
+      { "slug": "marvel-cinematic-universe", "verdict": "release", "why": "Captain Marvel and The First Avenger make a slow start, and the Infinity Saga was built to be followed as it came out." },
+      { "slug": "infernal-affairs", "verdict": "release", "why": "The prequel is written for people who already know how the first film ends." },
+      { "slug": "cube", "verdict": "release", "why": "Cube Zero explains the cube. The original is at its best with no explanation at all." },
+      { "slug": "underworld", "verdict": "release", "why": "Rise of the Lycans shows what the first two films reveal in flashback. Save it, then rewatch chronologically: the war is easier to follow." },
+      { "slug": "toy-story", "verdict": "release", "why": "Lightyear is the film Andy watched in 1995. It makes almost no sense if you haven't met Buzz yet." },
+      { "slug": "alien", "verdict": "release", "why": "Prometheus explains what Alien wisely leaves unexplained. Meet the creature first." }
+    ]
+  },
+  {
+    "id": "chrono",
+    "title": "Where chronological order wins",
+    "intro": "The rare cases where following the story's own timeline is the better watch, even first time round.",
+    "franchises": [
+      { "slug": "fast-and-furious", "verdict": "chrono", "why": "Tokyo Drift belongs after Fast & Furious 6. Watched there, Han's fate lands as the series intended." },
+      { "slug": "star-trek", "verdict": "chrono", "why": "The 2009 film branches into its own timeline, and the three Kelvin films are the easiest way in for a newcomer." },
+      { "slug": "insidious", "verdict": "chrono", "why": "The Last Key ends minutes before the first film begins. An unusually smooth run for a series that arrived this out of order." },
+      { "slug": "jeepers-creepers", "verdict": "chrono", "why": "Part 3 picks up the day after the first film ends, so it belongs before Part 2." },
+      { "slug": "john-wick", "verdict": "chrono", "why": "Ballerina runs alongside Chapter 3, so it fits neatly before Chapter 4." },
+      { "slug": "monsterverse", "verdict": "chrono", "why": "Skull Island introduces the organisation that runs through everything else. It works perfectly first." }
+    ]
+  },
+  {
+    "id": "pick",
+    "title": "There is no single order",
+    "intro": "Reboots, remakes and sequels that ignore each other. Choose a timeline and stick to it.",
+    "franchises": [
+      { "slug": "halloween", "verdict": "pick", "why": "The 2018 film ignores everything after 1978, H20 ignores 4 to 6, Rob Zombie remade it, and Halloween III has no Michael Myers at all." },
+      { "slug": "the-texas-chainsaw-massacre", "verdict": "pick", "why": "Two origin stories for the same killer, and two sequels to the 1974 film that ignore each other." },
+      { "slug": "terminator", "verdict": "pick", "why": "Dark Fate follows Judgment Day and ignores the three films between. For one clean story: 1, 2, Dark Fate." },
+      { "slug": "mad-max", "verdict": "pick", "why": "George Miller calls them legends retold, not a fixed sequence. Only Furiosa's place is certain." },
+      { "slug": "transformers", "verdict": "pick", "why": "Bumblebee contradicts the 2007 film. Whether it's a prequel or a soft reboot has never been settled." },
+      { "slug": "the-exorcist", "verdict": "pick", "why": "The Beginning and Dominion are two cuts of the same prequel. Believer ignores everything after 1973." },
+      { "slug": "ring-the-japanese-films", "verdict": "pick", "why": "Rasen and Ring 2 are rival sequels to the same film. You only need one." },
+      { "slug": "hannibal-lecter", "verdict": "pick", "why": "Manhunter and Red Dragon adapt the same novel. Choose one, and Hannibal Rising is easily skipped." },
+      { "slug": "dc-extended-universe", "verdict": "pick", "why": "The Flash scrambles its own timeline and the line was retired soon after. Any chronology is a best reading." },
+      { "slug": "cloverfield", "verdict": "pick", "why": "The Paradox implies the creatures leaked across time. The chronology is deliberately unresolved." },
+      { "slug": "pet-sematary", "verdict": "pick", "why": "Two separate pairs: the 1989 film and its sequel, and the 2019 remake and its prequel." },
+      { "slug": "the-lion-king", "verdict": "pick", "why": "Mufasa is a prequel to the 2019 remake, not the 1994 film. 1½ retells the original from Timon and Pumbaa's side." },
+      { "slug": "ghostbusters", "verdict": "pick", "why": "The 2016 film stands alone. Afterlife picks up from Ghostbusters II, thirty-two years later." },
+      { "slug": "hellboy", "verdict": "pick", "why": "Only the two del Toro films share a continuity. The rest each start again." },
+      { "slug": "jack-ryan", "verdict": "pick", "why": "Four actors, three continuities. Shadow Recruit sits first by story only because it restarts with a younger Ryan." },
+      { "slug": "wrong-turn", "verdict": "pick", "why": "The series never kept a consistent timeline, and the 2021 film is an unrelated reboot." }
+    ]
+  },
+  {
+    "id": "either",
+    "title": "It barely matters",
+    "intro": "The order differs on paper, but nothing big is lost either way. Where we lean one way, we say so.",
+    "franchises": [
+      { "slug": "the-conjuring-universe", "verdict": "either", "why": "Spin-offs reach back to the 1950s, but each film stands up on its own." },
+      { "slug": "x-pearl-and-maxxxine", "verdict": "either", "why": "Pearl is the origin of X's villain and works well before or after." },
+      { "slug": "a-quiet-place", "verdict": "either", "why": "Day One expands a flashback from Part II. It works in either position." },
+      { "slug": "predator", "verdict": "either", "why": "Prey is set in 1719 and needs nothing else. It's a fine first film or a fine fifth." },
+      { "slug": "the-purge", "verdict": "either", "why": "The First Purge shows the original experiment. A good opener if you already know the premise." },
+      { "slug": "middle-earth", "verdict": "release", "why": "The Hobbit first is fine for children, but the Rings trilogy is the reason anyone comes back." },
+      { "slug": "the-omen", "verdict": "release", "why": "The First Omen leads straight into the 1976 film and lands harder once you've seen it." },
+      { "slug": "indiana-jones", "verdict": "release", "why": "Temple of Doom is a prequel, but Raiders is the better introduction to Indy." },
+      { "slug": "the-dollars-trilogy", "verdict": "release", "why": "The prequel reading is a popular fan theory, not something the films say." },
+      { "slug": "paranormal-activity", "verdict": "release", "why": "The first two films interlock rather than follow each other. Release order is the simplest path." },
+      { "slug": "the-mummy", "verdict": "release", "why": "The Scorpion King expands a character from The Mummy Returns. Meet him there first." },
+      { "slug": "kingsman", "verdict": "release", "why": "The King's Man is far more serious than the others. Starting there misrepresents the series." },
+      { "slug": "shrek", "verdict": "release", "why": "Puss in Boots is a prequel, but he works best introduced in Shrek 2." },
+      { "slug": "despicable-me", "verdict": "release", "why": "Minions is first by story, but the joke works better once you know the Minions." },
+      { "slug": "godzilla-the-showa-era", "verdict": "either", "why": "Destroy All Monsters is set in 1999, so it moves to the end. Nothing else changes." },
+      { "slug": "sony-spider-man-universe", "verdict": "either", "why": "Only the three Venom films need to be watched in order." },
+      { "slug": "tremors", "verdict": "release", "why": "The Legend Begins follows an ancestor. A curiosity, not an opener." },
+      { "slug": "ong-bak", "verdict": "either", "why": "Parts 2 and 3 are a separate story set in 1431." },
+      { "slug": "patlabor", "verdict": "either", "why": "WXIII sits between the first two films and barely features the main cast." },
+      { "slug": "friday-the-13th", "verdict": "either", "why": "Only Jason X moves, and only because it's set in 2455." },
+      { "slug": "a-nightmare-on-elm-street", "verdict": "either", "why": "New Nightmare is set in the real world, outside the story." },
+      { "slug": "dumb-and-dumber", "verdict": "either", "why": "The prequel recasts both leads, and the sequel ignores it." },
+      { "slug": "ouija", "verdict": "either", "why": "Origin of Evil stands alone and is the one to watch if you only watch one." },
+      { "slug": "monsters-inc", "verdict": "either", "why": "University works first, though the original assumes you're meeting them for the first time." }
+    ]
+  }
+]

@@ -584,3 +584,49 @@ button{font:inherit;color:inherit}
   color:var(--graphite);margin:1.75rem 0 .9rem;
 }
 .related > h2 + h3{margin-top:0}
+
+/* ============================================================
+   WHEN THE ORDER MATTERS
+   ============================================================ */
+.om-head{padding-top:clamp(2rem,6vw,3.5rem)}
+.om-head h1{margin-bottom:1rem}
+.om-jump{
+  display:grid;gap:.6rem;margin:2rem 0 1rem;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+}
+.om-jump a{
+  display:flex;align-items:center;gap:.75rem;text-decoration:none;
+  border:1px solid var(--hairline);border-radius:var(--radius);padding:.75rem .9rem;
+  font-size:var(--step--1);font-weight:500;line-height:1.3;
+}
+.om-jump a:hover{border-color:var(--ink)}
+.om-jump b{
+  font-family:var(--f-display);font-weight:800;font-size:var(--step-2);color:var(--red);min-width:1.6em;
+}
+.om-section{padding-top:2.5rem;margin-top:1.5rem;border-top:1px solid var(--hairline)}
+.om-section h2{
+  font-family:var(--f-display);font-variation-settings:"wdth" 84;
+  font-weight:800;font-size:var(--step-3);letter-spacing:-0.02em;line-height:1.1;margin:0 0 .5rem;
+}
+.om-section__intro{margin:0 0 1.5rem;color:var(--graphite);max-width:62ch;font-size:var(--step-1)}
+.om-list{list-style:none;margin:0;padding:0;display:grid;gap:.25rem}
+.om-item{
+  display:flex;gap:1rem;align-items:flex-start;text-decoration:none;
+  padding:.9rem;margin-inline:-.9rem;border-radius:var(--radius);
+}
+.om-item:hover{background:var(--paper-2)}
+.om-item:hover h3{color:var(--red)}
+.om-item .poster{width:56px;flex:none;padding:4px;font-size:.45rem}
+.om-item__body{min-width:0;flex:1}
+.om-item__top{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem .75rem}
+.om-item h3{margin:0;font-size:var(--step-1);font-weight:600;line-height:1.3}
+.om-item p{margin:.3rem 0 .25rem;max-width:68ch;line-height:1.55}
+.om-item small{font-size:var(--step--1);color:var(--graphite)}
+.om-verdict{
+  font-size:.6875rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;
+  border-radius:999px;padding:.2rem .6rem;white-space:nowrap;border:1px solid var(--hairline);color:var(--graphite);
+}
+.om-verdict--release{background:var(--red-wash);border-color:transparent;color:var(--red)}
+.om-verdict--chrono{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.om-verdict--pick{border-color:var(--ink);color:var(--ink)}
+.om-foot{margin:3rem 0 0}

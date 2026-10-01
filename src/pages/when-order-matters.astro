@@ -1,0 +1,65 @@
+---
+import Base from '../layouts/Base.astro';
+import Poster from '../components/Poster.astro';
+import { orderMatters } from '../lib/franchise.js';
+
+const sections = await orderMatters();
+const count = sections.reduce((n, s) => n + s.franchises.length, 0);
+const label = { release: 'Release order', chrono: 'Chronological', pick: 'Pick a timeline', either: 'Either' };
+
+const title = 'When the watch order actually matters';
+const description = `${count} film franchises where release and chronological order differ, sorted by how much it matters: which ones a chronological watch spoils, where it wins, and which have no single order at all.`;
+const jsonld = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": title,
+  "numberOfItems": count,
+  "itemListElement": sections.flatMap(s => s.franchises).map((e, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "url": new URL(`/${e.slug}/`, Astro.site).href,
+    "name": e.f.title
+  }))
+};
+---
+<Base title="When the watch order matters" description={description} jsonld={jsonld}>
+  <div class="wrap">
+    <header class="om-head prose">
+      <h1>When the watch order actually matters</h1>
+      <p>Most film series play the same whichever way you watch them. Every other site lists release order and chronological order side by side and leaves you to it.</p>
+      <p>We've been through every franchise on the site. In {count} of them the two orders differ. Here they are, sorted by how much that matters, with the way we'd watch each one.</p>
+    </header>
+
+    <nav class="om-jump" aria-label="Sections">
+      {sections.map(s => (
+        <a href={`#${s.id}`}><b>{s.franchises.length}</b>{s.title}</a>
+      ))}
+    </nav>
+
+    {sections.map(s => (
+      <section class="om-section" id={s.id} aria-labelledby={`${s.id}-h`}>
+        <h2 id={`${s.id}-h`}>{s.title}</h2>
+        <p class="om-section__intro">{s.intro}</p>
+        <ol class="om-list">
+          {s.franchises.map(e => (
+            <li>
+              <a class="om-item" href={`/${e.slug}/`}>
+                <Poster hue={e.f.hue} label={e.f.title} poster={e.f.poster} size="w154" />
+                <div class="om-item__body">
+                  <div class="om-item__top">
+                    <h3>{e.f.title}</h3>
+                    <span class={`om-verdict om-verdict--${e.verdict}`}>{label[e.verdict]}</span>
+                  </div>
+                  <p>{e.why}</p>
+                  <small>{e.moved} of {e.films} films change place</small>
+                </div>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))}
+
+    <p class="note-link om-foot">Think we've got one wrong? <a href="/contact/?type=problem">Tell us why</a>.</p>
+  </div>
+</Base>

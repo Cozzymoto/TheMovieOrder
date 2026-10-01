@@ -1,6 +1,7 @@
 import { getCollection } from 'astro:content';
 import trendingSlugs from '../data/trending.json';
 import relatedGroups from '../data/related.json';
+import orderMattersData from '../data/order-matters.json';
 
 // Every franchise, alphabetical. Refuses to build if two cards share a title.
 export async function allFranchises(){
@@ -53,4 +54,31 @@ export async function related(slug){
     if (list.length) groups.push({ label: g.label, list });
   }
   return groups;
+}
+
+/* The "order matters" page comes from src/data/order-matters.json: sections
+   of franchises where release and chronological order differ, each with a
+   verdict and a one-line reason. Names are checked like trending.json. */
+export async function orderMatters(){
+  const all = await allFranchises();
+  const bySlug = new Map(all.map(f => [f.slug, f]));
+  const listed = orderMattersData.flatMap(s => s.franchises.map(e => e.slug));
+  const missing = listed.filter(s => !bySlug.has(s));
+  if (missing.length) {
+    throw new Error(`order-matters.json names ${missing.join(', ')}, but there is no franchise file with that name. Check the spelling against src/data/franchises/.`);
+  }
+  const dupes = listed.filter((s, i) => listed.indexOf(s) !== i);
+  if (dupes.length) throw new Error(`order-matters.json lists ${dupes.join(', ')} more than once.`);
+
+  const moved = f => f.release.filter((id, i) => f.chrono.indexOf(id) !== i).length;
+  const unlisted = all.filter(f => moved(f) > 0 && !listed.includes(f.slug)).map(f => f.slug);
+  if (unlisted.length) console.warn(`[order-matters] Orders differ but not on the page yet: ${unlisted.join(', ')}`);
+
+  return orderMattersData.map(s => ({
+    ...s,
+    franchises: s.franchises.map(e => {
+      const f = bySlug.get(e.slug);
+      return { ...e, f, moved: moved(f), films: f.release.length };
+    })
+  }));
 }
