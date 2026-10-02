@@ -1,0 +1,23 @@
+name: Find missing films
+
+on:
+  workflow_dispatch:
+    inputs:
+      since:
+        description: 'Report films released from this year onwards.'
+        required: false
+        default: '2025'
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check every franchise against TMDB (changes nothing)
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          SINCE: ${{ github.event.inputs.since }}
+        run: node scripts/find-missing-films.mjs

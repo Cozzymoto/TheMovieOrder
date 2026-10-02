@@ -3,8 +3,8 @@
    and year), and franchises are ranked by how many of their films are
    trending and how high. Any empty spots are filled from the current list,
    so the homepage row is always full. Nothing else is touched. */
-import { readdir, readFile, writeFile } from 'node:fs/promises';
-import path from 'node:path';
+import { readFile, writeFile } from 'node:fs/promises';
+import { tmdbClient, sleep, siteFilms } from './lib/tmdb.mjs';
 
 const KEY   = process.env.TMDB_API_KEY;
 const BASE  = process.env.TMDB_BASE || 'https://api.themoviedb.org/3';
@@ -14,66 +14,9 @@ const DRY   = process.env.DRY_RUN === 'true';
 const SLOTS = Number(process.env.SLOTS || 8);
 const PAGES = 5;                                   // 20 films a page, so the top 100
 
-if (!KEY) { console.error('No TMDB_API_KEY set. Add it as a repository secret.'); process.exit(1); }
-
-const sleep = ms => new Promise(r => setTimeout(r, ms));
-
-async function tmdb(pathAndQuery, attempt = 1){
-  const url = `${BASE}${pathAndQuery}&api_key=${encodeURIComponent(KEY)}`;
-  let res;
-  try { res = await fetch(url); }
-  catch (e) {
-    if (attempt < 3) { await sleep(1000 * attempt); return tmdb(pathAndQuery, attempt + 1); }
-    throw e;
-  }
-  if (res.status === 429) {
-    if (attempt > 4) throw new Error('TMDB rate limit, gave up');
-    await sleep(2000 * attempt);
-    return tmdb(pathAndQuery, attempt + 1);
-  }
-  if (res.status === 401) throw new Error('TMDB rejected the key. Check it is the API Key (v3), not the Read Access Token.');
-  if (!res.ok) throw new Error(`TMDB returned ${res.status}`);
-  return res.json();
-}
-
-// "Mission: Impossible – Dead Reckoning" and "Mission Impossible Dead Reckoning"
-// are the same film, and so are "Fantastic 4" and "Fantastic Four".
-const NUMBERS = ['zero','one','two','three','four','five','six','seven','eight','nine','ten'];
-const norm = t => t.toLowerCase().normalize('NFKD').replace(/\p{M}/gu, '')
-  .replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, ' ').trim()
-  .split(' ').map(w => NUMBERS.includes(w) ? String(NUMBERS.indexOf(w)) : w).join(' ');
-
-// Every film on the site, with the franchises it appears in.
-const films = [];
-for (const file of (await readdir(DIR)).filter(f => f.endsWith('.json')).sort()){
-  const slug = file.replace(/\.json$/, '');
-  const card = JSON.parse(await readFile(path.join(DIR, file), 'utf8'));
-  for (const m of Object.values(card.films)) films.push({ slug, title: card.title, t: m.t, n: norm(m.t), y: m.y });
-}
+const tmdb = tmdbClient(KEY, BASE);
+const { films, matches, byFranchiseName } = await siteFilms(DIR);
 const slugs = new Set(films.map(f => f.slug));
-
-// Same year (or one either side, as release dates vary by country), and the
-// same title, or every word of the shorter title inside the longer one
-// ("Star Wars" / "Star Wars: A New Hope", "Demon Slayer: Infinity Castle" /
-// "Demon Slayer: Kimetsu no Yaiba Infinity Castle"). The shorter title needs two
-// real words, or "The Ring" would match The Fellowship of the Ring, and a
-// Japanese title that strips down to "0 0" would match M3GAN 2.0.
-const FILLER = new Set(['the', 'a', 'an', 'of', 'and']);
-function sameTitle(a, b){
-  if (a === b) return true;
-  const [short, long] = a.length <= b.length ? [a, b] : [b, a];
-  const shortWords = short.split(' ');
-  const real = new Set(shortWords.filter(w => !FILLER.has(w) && /[a-z]/.test(w)));
-  if (real.size < 2) return false;
-  const words = new Set(long.split(' '));
-  return shortWords.every(w => words.has(w));
-}
-function matches(movie){
-  const year = Number((movie.release_date || '').slice(0, 4));
-  if (!year) return [];
-  const names = [...new Set([movie.title, movie.original_title].filter(Boolean).map(norm))];
-  return films.filter(f => Math.abs(f.y - year) <= 1 && names.some(n => sameTitle(n, f.n)));
-}
 
 const trending = [];
 for (let page = 1; page <= PAGES; page++){
@@ -102,16 +45,6 @@ async function franchisesFor(movie){
     if (slugs.size) return { slugs, via: c.name };
   }
   return { slugs: byFranchiseName(movie), via: 'franchise name' };
-}
-
-// Last resort: the film is named after the franchise. "Resident Evil" (2026)
-// or "Moana" (2026) exactly, or "Toy Story 5" starting with a two-word name.
-const franchiseNames = [...new Map(films.map(f => [f.slug, norm(f.title)]))];
-function byFranchiseName(movie){
-  const n = norm(movie.title);
-  return new Set(franchiseNames.filter(([, name]) =>
-    n === name || (name.split(' ').filter(w => !FILLER.has(w)).length >= 2 && n.startsWith(name + ' '))
-  ).map(([slug]) => slug));
 }
 
 const found = [];
