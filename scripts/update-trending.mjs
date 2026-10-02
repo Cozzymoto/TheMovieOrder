@@ -96,7 +96,10 @@ const ranked = [...score.keys()].sort((a, b) => score.get(b) - score.get(a));
 const current = JSON.parse(await readFile(OUT, 'utf8')).filter(s => slugs.has(s));
 const next = [...new Set([...ranked, ...current])].slice(0, SLOTS);
 
-console.log(`Checked ${trending.length} trending films against ${films.length} films on the site.\n`);
+console.log(`This week's top 25 on TMDB (✓ = a film on the site):`);
+trending.slice(0, 25).forEach((m, i) => console.log(
+  `  ${matches(m).length ? '✓' : ' '} ${String(i + 1).padStart(2)}. ${m.title} (${(m.release_date || '').slice(0, 4) || '?'})`));
+console.log(`\nChecked ${trending.length} trending films against ${films.length} films on the site.\n`);
 next.forEach((slug, i) => console.log(
   `${String(i + 1).padStart(2)}. ${slug.padEnd(36)} ${why.has(slug) ? why.get(slug).join(', ') : '(kept from the previous list)'}`));
 
