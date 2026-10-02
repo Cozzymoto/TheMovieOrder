@@ -1,8 +1,8 @@
 {
   "title": "Marvel Cinematic Universe",
-  "short": "The Infinity Saga",
+  "short": "Every film, Iron Man to Brand New Day",
   "hue": 352,
-  "blurb": "Twenty-three films built to be watched in the order they came out — but the flashbacks to 1943 and 1995 mean the in-universe timeline looks very different.",
+  "blurb": "Thirty-eight films built to be watched in the order they came out — but the flashbacks to 1943 and 1995 mean the in-universe timeline looks very different. The Infinity Saga runs to Far From Home; the Multiverse Saga picks up from there.",
   "rank": 1,
   "poster": "/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
   "films": {
@@ -143,6 +143,81 @@
       "y": 2019,
       "set": "2024",
       "poster": "/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg"
+    },
+    "bw": {
+      "t": "Black Widow",
+      "y": 2021,
+      "set": "2016"
+    },
+    "shangchi": {
+      "t": "Shang-Chi and the Legend of the Ten Rings",
+      "y": 2021,
+      "set": "2024"
+    },
+    "eternals": {
+      "t": "Eternals",
+      "y": 2021,
+      "set": "2024"
+    },
+    "nwh": {
+      "t": "Spider-Man: No Way Home",
+      "y": 2021,
+      "set": "2024"
+    },
+    "mom": {
+      "t": "Doctor Strange in the Multiverse of Madness",
+      "y": 2022,
+      "set": "2024"
+    },
+    "lat": {
+      "t": "Thor: Love and Thunder",
+      "y": 2022,
+      "set": "2025"
+    },
+    "wf": {
+      "t": "Black Panther: Wakanda Forever",
+      "y": 2022,
+      "set": "2025"
+    },
+    "quant": {
+      "t": "Ant-Man and the Wasp: Quantumania",
+      "y": 2023,
+      "set": "2025"
+    },
+    "gotg3": {
+      "t": "Guardians of the Galaxy Vol. 3",
+      "y": 2023,
+      "set": "2026"
+    },
+    "marvels": {
+      "t": "The Marvels",
+      "y": 2023,
+      "set": "2026"
+    },
+    "dpw": {
+      "t": "Deadpool & Wolverine",
+      "y": 2024,
+      "set": "2026"
+    },
+    "bnw": {
+      "t": "Captain America: Brave New World",
+      "y": 2025,
+      "set": "2027"
+    },
+    "tbolts": {
+      "t": "Thunderbolts*",
+      "y": 2025,
+      "set": "2027"
+    },
+    "ff": {
+      "t": "The Fantastic Four: First Steps",
+      "y": 2025,
+      "set": "Another universe"
+    },
+    "bnd": {
+      "t": "Spider-Man: Brand New Day",
+      "y": 2026,
+      "set": "2028"
     }
   },
   "release": [
@@ -168,7 +243,22 @@
     "wasp",
     "marvel",
     "endgame",
-    "ffh"
+    "ffh",
+    "bw",
+    "shangchi",
+    "eternals",
+    "nwh",
+    "mom",
+    "lat",
+    "wf",
+    "quant",
+    "gotg3",
+    "marvels",
+    "dpw",
+    "bnw",
+    "tbolts",
+    "ff",
+    "bnd"
   ],
   "chrono": [
     "cap1",
@@ -186,6 +276,7 @@
     "ultron",
     "antman",
     "cw",
+    "bw",
     "panther",
     "homecoming",
     "strange",
@@ -193,7 +284,21 @@
     "wasp",
     "iw",
     "endgame",
-    "ffh"
+    "shangchi",
+    "eternals",
+    "ffh",
+    "nwh",
+    "mom",
+    "wf",
+    "lat",
+    "quant",
+    "gotg3",
+    "marvels",
+    "dpw",
+    "bnw",
+    "tbolts",
+    "ff",
+    "bnd"
   ],
-  "note": "Doctor Strange and Black Panther overlap messily with the films either side of them. Most people watch the Infinity Saga in release order first and save the chronological run for a rewatch."
+  "note": "Doctor Strange and Black Panther overlap messily with the films either side of them. Most people watch the Infinity Saga in release order first and save the chronological run for a rewatch. After Endgame the films broadly follow release order: Black Widow is the only later film set earlier, just after Civil War, and The Fantastic Four: First Steps takes place in another universe entirely."
 }
