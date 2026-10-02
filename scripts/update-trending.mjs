@@ -93,13 +93,25 @@ async function franchisesFor(movie){
   const details = await tmdb(`/movie/${movie.id}?language=en-US`);
   await sleep(60);
   const c = details.belongs_to_collection;
-  if (!c) return { slugs: direct, via: null };
-  if (!collections.has(c.id)){
-    collections.set(c.id, (await tmdb(`/collection/${c.id}?language=en-US`)).parts || []);
-    await sleep(60);
+  if (c){
+    if (!collections.has(c.id)){
+      collections.set(c.id, (await tmdb(`/collection/${c.id}?language=en-US`)).parts || []);
+      await sleep(60);
+    }
+    const slugs = new Set(collections.get(c.id).filter(p => p.id !== movie.id).flatMap(p => matches(p).map(f => f.slug)));
+    if (slugs.size) return { slugs, via: c.name };
   }
-  const slugs = new Set(collections.get(c.id).filter(p => p.id !== movie.id).flatMap(p => matches(p).map(f => f.slug)));
-  return { slugs, via: c.name };
+  return { slugs: byFranchiseName(movie), via: 'franchise name' };
+}
+
+// Last resort: the film is named after the franchise. "Resident Evil" (2026)
+// or "Moana" (2026) exactly, or "Toy Story 5" starting with a two-word name.
+const franchiseNames = [...new Map(films.map(f => [f.slug, norm(f.title)]))];
+function byFranchiseName(movie){
+  const n = norm(movie.title);
+  return new Set(franchiseNames.filter(([, name]) =>
+    n === name || (name.split(' ').filter(w => !FILLER.has(w)).length >= 2 && n.startsWith(name + ' '))
+  ).map(([slug]) => slug));
 }
 
 const found = [];
