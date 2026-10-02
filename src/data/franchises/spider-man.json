@@ -1,8 +1,8 @@
 {
   "title": "Spider-Man",
-  "short": "All eight live-action films",
+  "short": "All nine live-action films",
   "hue": 356,
-  "blurb": "Three separate Spider-Men across twenty years, and a final film that pulls all three together. The most-asked watch order on the internet for good reason.",
+  "blurb": "Three separate Spider-Men across twenty-four years, and a film that pulls all three together. The most-asked watch order on the internet for good reason.",
   "poster": "/or6XJBVpcEbIkma0V9zshnbEtx4.jpg",
   "films": {
     "r02": {
@@ -52,6 +52,11 @@
       "y": 2021,
       "set": "2024",
       "poster": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
+    },
+    "m26": {
+      "t": "Spider-Man: Brand New Day",
+      "y": 2026,
+      "set": "2028"
     }
   },
   "release": [
@@ -62,7 +67,8 @@
     "w14",
     "m17",
     "m19",
-    "m21"
+    "m21",
+    "m26"
   ],
   "chrono": [
     "r02",
@@ -72,7 +78,8 @@
     "w14",
     "m17",
     "m19",
-    "m21"
+    "m21",
+    "m26"
   ],
-  "note": "These are three unconnected continuities, not one timeline — so release order is also the only sensible order. No Way Home depends on having met all three, which is exactly why it lands the way it does. The Marvel films also sit inside the wider MCU."
+  "note": "These are three unconnected continuities, not one timeline — so release order is also the only sensible order. No Way Home depends on having met all three, which is exactly why it lands the way it does. The Marvel films also sit inside the wider MCU. Brand New Day picks up four years after No Way Home."
 }

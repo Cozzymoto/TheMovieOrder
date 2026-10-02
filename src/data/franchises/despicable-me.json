@@ -2,7 +2,7 @@
   "title": "Despicable Me",
   "short": "Including the Minions films",
   "hue": 48,
-  "blurb": "Four films about Gru and two about the Minions, which between them reach back to 1968.",
+  "blurb": "Four films about Gru and three about the Minions, which between them reach back to 1920s Hollywood.",
   "poster": "/b1BT309QWjtFUlJPLmXmrcHOWEL.jpg",
   "films": {
     "dm1": {
@@ -40,6 +40,11 @@
       "y": 2024,
       "set": "2024",
       "poster": "/wWba3TaojhK7NdycRhoQpsG0FaH.jpg"
+    },
+    "mm26": {
+      "t": "Minions & Monsters",
+      "y": 2026,
+      "set": "1920s"
     }
   },
   "release": [
@@ -48,9 +53,11 @@
     "min",
     "dm3",
     "gru",
-    "dm4"
+    "dm4",
+    "mm26"
   ],
   "chrono": [
+    "mm26",
     "min",
     "gru",
     "dm1",
@@ -58,5 +65,5 @@
     "dm3",
     "dm4"
   ],
-  "note": "Minions opens with a prologue running from the dawn of life to the 1960s, so chronologically it is both the first and the longest-reaching film in the series."
+  "note": "Minions & Monsters is set in 1920s Hollywood and is billed as a prequel to the other Minions films. Minions itself opens with a prologue running from the dawn of life to the 1960s, so the two overlap rather than sit neatly in a line."
 }

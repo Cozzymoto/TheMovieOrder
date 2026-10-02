@@ -1,8 +1,8 @@
 {
   "title": "Resident Evil",
-  "short": "Seven films, two continuities",
+  "short": "Eight films, three continuities",
   "hue": 132,
-  "blurb": "Six films following Alice in a straight line, then a reboot that restarts from the games instead.",
+  "blurb": "Six films following Alice in a straight line, then two reboots that restart from the games instead.",
   "poster": "/1UKNef590A0ZaMnxsscIcWuK1Em.jpg",
   "films": {
     "r02": {
@@ -46,6 +46,11 @@
       "y": 2021,
       "set": "1998",
       "poster": "/bArhvjRHl535XMaSh9VjInF2mSZ.jpg"
+    },
+    "r26": {
+      "t": "Resident Evil",
+      "y": 2026,
+      "set": "1998"
     }
   },
   "release": [
@@ -55,7 +60,8 @@
     "r10",
     "r12",
     "r16",
-    "r21"
+    "r21",
+    "r26"
   ],
   "chrono": [
     "r02",
@@ -64,7 +70,8 @@
     "r10",
     "r12",
     "r16",
-    "r21"
+    "r21",
+    "r26"
   ],
-  "note": "Welcome to Raccoon City is a reboot that follows the games closely and shares no continuity with the six films before it, despite being set earliest."
+  "note": "Welcome to Raccoon City is a reboot that follows the games closely and shares no continuity with the six films before it, despite being set earliest. Resident Evil (2026) is a third fresh start, with new characters caught in Raccoon City during the 1998 outbreak."
 }

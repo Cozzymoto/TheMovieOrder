@@ -1,6 +1,6 @@
 {
   "title": "Mortal Kombat",
-  "short": "Three films",
+  "short": "Four films",
   "hue": 14,
   "blurb": "The fighting game's tournament to decide the fate of Earth.",
   "poster": "/9YhpvhhvLrtL1wlwEfpVL16GI9d.jpg",
@@ -22,17 +22,24 @@
       "y": 2021,
       "set": "2021",
       "poster": "/nkayOAUBUu4mMvyNf9iHSUiPjF1.jpg"
+    },
+    "mortalkombat26": {
+      "t": "Mortal Kombat II",
+      "y": 2026,
+      "set": "2026"
     }
   },
   "release": [
     "mortalkombat95",
     "mortalkombat97",
-    "mortalkombat21"
+    "mortalkombat21",
+    "mortalkombat26"
   ],
   "chrono": [
     "mortalkombat95",
     "mortalkombat97",
-    "mortalkombat21"
+    "mortalkombat21",
+    "mortalkombat26"
   ],
-  "note": "The 2021 film is a reboot. A sequel to it was scheduled for 2026 — worth checking whether it has been released."
+  "note": "The 2021 film is a reboot, and Mortal Kombat II (2026) follows directly on from it. The 1990s films are a separate continuity."
 }

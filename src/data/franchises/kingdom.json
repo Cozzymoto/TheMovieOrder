@@ -1,6 +1,6 @@
 {
   "title": "Kingdom",
-  "short": "Four live-action films",
+  "short": "Five live-action films",
   "hue": 30,
   "blurb": "A war orphan rising through the armies of ancient China, adapted from the manga.",
   "poster": "/bk9R9WOX30ykiUKhdKavk3fZrzD.jpg",
@@ -28,19 +28,26 @@
       "y": 2024,
       "set": "242 BC",
       "poster": "/qZKKwXyZ92K0mIRpf2FbCkQa7oO.jpg"
+    },
+    "kingdomv26": {
+      "t": "Kingdom 5: The Clash of Souls",
+      "y": 2026,
+      "set": "241 BC"
     }
   },
   "release": [
     "kingdom19",
     "kingdomii22",
     "kingdomiii23",
-    "kingdomiv24"
+    "kingdomiv24",
+    "kingdomv26"
   ],
   "chrono": [
     "kingdom19",
     "kingdomii22",
     "kingdomiii23",
-    "kingdomiv24"
+    "kingdomiv24",
+    "kingdomv26"
   ],
   "note": "One continuous story. Each film follows directly from the last."
 }

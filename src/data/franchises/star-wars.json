@@ -2,7 +2,7 @@
   "title": "Star Wars",
   "short": "The Skywalker Saga & spin-offs",
   "hue": 212,
-  "blurb": "The argument that started every argument. Release order protects the biggest twist in cinema; chronological order gives you a clean nine-part story with two side trips.",
+  "blurb": "The argument that started every argument. Release order protects the biggest twist in cinema; chronological order gives you a clean nine-part story with three side trips.",
   "rank": 2,
   "poster": "/fai0rspsNeJCS69wHNjOdWxcI7P.jpg",
   "films": {
@@ -71,6 +71,11 @@
       "y": 2019,
       "set": "35 ABY",
       "poster": "/db32LaOibwEliAmSL2jjDF6oDdj.jpg"
+    },
+    "mando26": {
+      "t": "The Mandalorian and Grogu",
+      "y": 2026,
+      "set": "c. 12 ABY"
     }
   },
   "release": [
@@ -84,7 +89,8 @@
     "rogue",
     "tlj",
     "solo",
-    "tros"
+    "tros",
+    "mando26"
   ],
   "chrono": [
     "tpm",
@@ -95,6 +101,7 @@
     "anh",
     "esb",
     "rotj",
+    "mando26",
     "tfa",
     "tlj",
     "tros"

@@ -1,6 +1,6 @@
 {
   "title": "The Strangers",
-  "short": "Four films",
+  "short": "Five films",
   "hue": 222,
   "blurb": "Two films about masked home invaders, then a new trilogy that starts again from the beginning.",
   "poster": "/gwsg4qFmLOvlhwXj4OZuxfFUdP0.jpg",
@@ -28,19 +28,26 @@
       "y": 2025,
       "set": "2025",
       "poster": "/pqADzs5SJvI2jC0DThPVMuNJcWS.jpg"
+    },
+    "thestrangers26": {
+      "t": "The Strangers: Chapter 3",
+      "y": 2026,
+      "set": "2026"
     }
   },
   "release": [
     "thestrangers08",
     "thestrangers18",
     "thestrangers24",
-    "thestrangers25"
+    "thestrangers25",
+    "thestrangers26"
   ],
   "chrono": [
     "thestrangers08",
     "thestrangers18",
     "thestrangers24",
-    "thestrangers25"
+    "thestrangers25",
+    "thestrangers26"
   ],
   "note": "Chapter 1 begins a separate story and is not a continuation of the first two films."
 }

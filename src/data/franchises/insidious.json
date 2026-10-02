@@ -1,6 +1,6 @@
 {
   "title": "Insidious",
-  "short": "Five films, two of them prequels",
+  "short": "Six films, two of them prequels",
   "hue": 250,
   "blurb": "A textbook case of a series folding back on itself — the third and fourth films both take place before the first.",
   "poster": "/tmlDFIUpGRKiuWm9Ixc6CYDk4y0.jpg",
@@ -34,6 +34,11 @@
       "y": 2023,
       "set": "2019",
       "poster": "/d07phJqCx6z5wILDYqkyraorDPi.jpg"
+    },
+    "i26": {
+      "t": "Insidious: Out of the Further",
+      "y": 2026,
+      "set": "c. 2019"
     }
   },
   "release": [
@@ -41,14 +46,16 @@
     "i13",
     "i15",
     "i18",
-    "i23"
+    "i23",
+    "i26"
   ],
   "chrono": [
     "i15",
     "i18",
     "i10",
     "i13",
-    "i23"
+    "i23",
+    "i26"
   ],
-  "note": "The Last Key ends minutes before the first film begins, making the chronological run unusually smooth for a series that arrived so out of order."
+  "note": "The Last Key ends minutes before the first film begins, making the chronological run unusually smooth for a series that arrived so out of order. Out of the Further follows The Red Door but moves on to a new family."
 }

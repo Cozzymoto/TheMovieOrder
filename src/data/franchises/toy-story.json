@@ -1,8 +1,8 @@
 {
   "title": "Toy Story",
-  "short": "Five films including Lightyear",
+  "short": "Six films including Lightyear",
   "hue": 206,
-  "blurb": "Four films about the same toys, plus one that claims to be the film that made one of them a toy in the first place.",
+  "blurb": "Five films about the same toys, plus one that claims to be the film that made one of them a toy in the first place.",
   "poster": "/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
   "films": {
     "t95": {
@@ -34,6 +34,11 @@
       "y": 2022,
       "set": "In-universe film",
       "poster": "/ox4goZd956BxqJH6iLwhWPL9ct4.jpg"
+    },
+    "t26": {
+      "t": "Toy Story 5",
+      "y": 2026,
+      "set": "2026"
     }
   },
   "release": [
@@ -41,14 +46,16 @@
     "t99",
     "t10",
     "t19",
-    "lb22"
+    "lb22",
+    "t26"
   ],
   "chrono": [
     "lb22",
     "t95",
     "t99",
     "t10",
-    "t19"
+    "t19",
+    "t26"
   ],
   "note": "Lightyear is presented as the film Andy saw in 1995 that made him want the toy, so it technically comes first. It makes almost no sense in that position if you haven't met Buzz already."
 }

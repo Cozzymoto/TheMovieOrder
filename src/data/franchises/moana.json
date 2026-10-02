@@ -1,6 +1,6 @@
 {
   "title": "Moana",
-  "short": "Two films",
+  "short": "Three films",
   "hue": 186,
   "blurb": "A voyager who sails beyond her island's reef, and later goes much further.",
   "poster": "/4JeejGugONWpJkbnvL12hVoYEDa.jpg",
@@ -16,15 +16,22 @@
       "y": 2024,
       "set": "—",
       "poster": "/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg"
+    },
+    "moana26": {
+      "t": "Moana",
+      "y": 2026,
+      "set": "—"
     }
   },
   "release": [
     "moana16",
-    "moana224"
+    "moana224",
+    "moana26"
   ],
   "chrono": [
     "moana16",
-    "moana224"
+    "moana224",
+    "moana26"
   ],
-  "note": "Moana 2 is set three years after the first film."
+  "note": "Moana 2 is set three years after the first film. The 2026 film is a live-action remake of the first, not a continuation."
 }

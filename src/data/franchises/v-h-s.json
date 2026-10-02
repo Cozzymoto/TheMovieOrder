@@ -1,6 +1,6 @@
 {
   "title": "V/H/S",
-  "short": "Seven films",
+  "short": "Eight films",
   "hue": 0,
   "blurb": "Found-footage horror anthologies, each a set of short films inside a framing story.",
   "poster": "/xVGfCaTwVdZt3lFqtOVhTDqmG58.jpg",
@@ -46,6 +46,11 @@
       "y": 2024,
       "set": "2024",
       "poster": "/wXaf6VGNHIGU7qivapGOF7o4o4N.jpg"
+    },
+    "vh25": {
+      "t": "V/H/S/Halloween",
+      "y": 2025,
+      "set": "Halloween"
     }
   },
   "release": [
@@ -55,7 +60,8 @@
     "vh21",
     "vh22",
     "vh23",
-    "vh24"
+    "vh24",
+    "vh25"
   ],
   "chrono": [
     "vh12",
@@ -64,7 +70,8 @@
     "vh21",
     "vh22",
     "vh23",
-    "vh24"
+    "vh24",
+    "vh25"
   ],
   "note": "Each is self-contained with entirely different directors and casts, so any order works. The later ones are named for the year they're set in."
 }

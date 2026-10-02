@@ -1,6 +1,6 @@
 {
   "title": "Jackass",
-  "short": "Four films",
+  "short": "Five films",
   "hue": 46,
   "blurb": "Stunts and pranks from the television series, on a larger scale.",
   "poster": "/9Rb659hvGfmef1xm0mMvDHEBqmf.jpg",
@@ -28,19 +28,26 @@
       "y": 2022,
       "set": "2022",
       "poster": "/ruHDFumJfW7F2vEqTZEQQ9xT7CA.jpg"
+    },
+    "jackassbest26": {
+      "t": "Jackass: Best and Last",
+      "y": 2026,
+      "set": "2026"
     }
   },
   "release": [
     "jackassthe02",
     "jackassnumber06",
     "jackass3d10",
-    "jackassforever22"
+    "jackassforever22",
+    "jackassbest26"
   ],
   "chrono": [
     "jackassthe02",
     "jackassnumber06",
     "jackass3d10",
-    "jackassforever22"
+    "jackassforever22",
+    "jackassbest26"
   ],
-  "note": "No story at all, so any order works. Forever is built around the same cast being twenty years older."
+  "note": "No story at all, so any order works. Forever is built around the same cast being twenty years older. Best and Last is billed as the final film."
 }

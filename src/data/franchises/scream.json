@@ -1,6 +1,6 @@
 {
   "title": "Scream",
-  "short": "Six films, one continuous story",
+  "short": "Seven films, one continuous story",
   "hue": 346,
   "blurb": "Unusually disciplined for a slasher series — every film follows directly from the last, with no prequels and no reboots.",
   "poster": "/lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
@@ -40,6 +40,11 @@
       "y": 2023,
       "set": "2023",
       "poster": "/wDWwtvkRRlgTiUr6TyLSMX8FCuZ.jpg"
+    },
+    "s26": {
+      "t": "Scream 7",
+      "y": 2026,
+      "set": "2026"
     }
   },
   "release": [
@@ -48,7 +53,8 @@
     "s00",
     "s11",
     "s22",
-    "s23"
+    "s23",
+    "s26"
   ],
   "chrono": [
     "s96",
@@ -56,7 +62,8 @@
     "s00",
     "s11",
     "s22",
-    "s23"
+    "s23",
+    "s26"
   ],
   "note": "The 2022 film is a direct sequel rather than a remake despite sharing a title. Watch in order — the series is built almost entirely from callbacks."
 }

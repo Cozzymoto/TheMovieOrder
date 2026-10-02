@@ -1,8 +1,8 @@
 {
   "title": "Anaconda",
-  "short": "Two films",
+  "short": "Three films",
   "hue": 110,
-  "blurb": "Giant snakes in the Amazon, then in Borneo.",
+  "blurb": "Giant snakes in the Amazon, then in Borneo, then a 2025 comedy about old friends trying to remake the first film.",
   "poster": "/33NysOnLpLZY0ewHTcfpalzAsRG.jpg",
   "films": {
     "anaconda97": {
@@ -16,15 +16,22 @@
       "y": 2004,
       "set": "2004",
       "poster": "/apAZ6o1SyYgcC8R2LqTCYnBe1lK.jpg"
+    },
+    "anaconda25": {
+      "t": "Anaconda",
+      "y": 2025,
+      "set": "2025"
     }
   },
   "release": [
     "anaconda97",
-    "anacondasthe04"
+    "anacondasthe04",
+    "anaconda25"
   ],
   "chrono": [
     "anaconda97",
-    "anacondasthe04"
+    "anacondasthe04",
+    "anaconda25"
   ],
   "note": "Later entries went straight to television and share no cast."
 }

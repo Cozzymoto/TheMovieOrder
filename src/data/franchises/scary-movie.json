@@ -1,6 +1,6 @@
 {
   "title": "Scary Movie",
-  "short": "Five films",
+  "short": "Six films",
   "hue": 4,
   "blurb": "Parodies of whatever horror films were popular at the time — which makes each one a small time capsule.",
   "poster": "/fVQFPRuw3yWXojYDJvA5EoFjUOY.jpg",
@@ -34,6 +34,11 @@
       "y": 2013,
       "set": "2013",
       "poster": "/vBqLLxE6GaAPhO6v9EFvFbLZ7Ap.jpg"
+    },
+    "scarymovie26": {
+      "t": "Scary Movie",
+      "y": 2026,
+      "set": "2026"
     }
   },
   "release": [
@@ -41,14 +46,16 @@
     "scarymovie01",
     "scarymovie03",
     "scarymovie06",
-    "scarymovie13"
+    "scarymovie13",
+    "scarymovie26"
   ],
   "chrono": [
     "scarymovie00",
     "scarymovie01",
     "scarymovie03",
     "scarymovie06",
-    "scarymovie13"
+    "scarymovie13",
+    "scarymovie26"
   ],
-  "note": "There's no real continuity, but the jokes land better if you've seen the films each one mocks."
+  "note": "There's no real continuity, but the jokes land better if you've seen the films each one mocks. The 2026 film brings back the original cast, twenty-six years after the first."
 }

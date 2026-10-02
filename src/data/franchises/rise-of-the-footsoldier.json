@@ -1,6 +1,6 @@
 {
   "title": "Rise of the Footsoldier",
-  "short": "Five films",
+  "short": "Seven films",
   "hue": 0,
   "blurb": "British crime films following the Essex underworld and the Rettendon murders.",
   "poster": "/k8lbsM0Nl0c1Qp7NnARWjS6TTRA.jpg",
@@ -8,32 +8,42 @@
     "riseof07": {
       "t": "Rise of the Footsoldier",
       "y": 2007,
-      "set": "2007",
+      "set": "1980s–1995",
       "poster": "/k8lbsM0Nl0c1Qp7NnARWjS6TTRA.jpg"
     },
     "riseof15": {
       "t": "Rise of the Footsoldier Part II",
       "y": 2015,
-      "set": "2015",
+      "set": "Late 1990s",
       "poster": "/lWF5wNTHGzjpKitS4vZ5DxYAm9B.jpg"
     },
     "riseof17": {
       "t": "Rise of the Footsoldier 3: The Pat Tate Story",
       "y": 2017,
-      "set": "2017",
+      "set": "Early 1990s",
       "poster": "/1LgOIQNpTfWKY3wizRrQ6CvNAXK.jpg"
     },
     "riseof19": {
       "t": "Rise of the Footsoldier: Marbella",
       "y": 2019,
-      "set": "2019",
+      "set": "1990s",
       "poster": "/dG6tYDZMZaQIpOHzA44GlpVn2v5.jpg"
     },
     "riseof21": {
       "t": "Rise of the Footsoldier: Origins",
       "y": 2021,
-      "set": "2021",
+      "set": "1980s",
       "poster": "/gHgr6BIYFXhwyjBugQRiNw2h19h.jpg"
+    },
+    "riseof23": {
+      "t": "Rise of the Footsoldier: Vengeance",
+      "y": 2023,
+      "set": "1990s"
+    },
+    "riseof26": {
+      "t": "Rise of the Footsoldier: Retribution",
+      "y": 2026,
+      "set": "1990s"
     }
   },
   "release": [
@@ -41,14 +51,18 @@
     "riseof15",
     "riseof17",
     "riseof19",
-    "riseof21"
+    "riseof21",
+    "riseof23",
+    "riseof26"
   ],
   "chrono": [
-    "riseof07",
-    "riseof15",
+    "riseof21",
     "riseof17",
     "riseof19",
-    "riseof21"
+    "riseof23",
+    "riseof26",
+    "riseof07",
+    "riseof15"
   ],
-  "note": "The later films move backwards and sideways rather than forwards, filling in different characters' stories around the same events."
+  "note": "The Pat Tate films (Origins, The Pat Tate Story, Marbella, Vengeance and Retribution) are prequels, leading up to the 1995 murders the 2007 original is built around. Start with the original anyway: the prequels assume you know how it ends."
 }
