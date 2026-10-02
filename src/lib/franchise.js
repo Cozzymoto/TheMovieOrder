@@ -21,7 +21,8 @@ export async function allFranchises(){
 export async function byTitle(){ return allFranchises(); }
 
 /* Trending comes from src/data/trending.json — an ordered list of franchise
-   file names. Change that one file to change the homepage. A name that
+   file names. A GitHub Action (update-trending.yml) rewrites it every Monday
+   from TMDB's trending films; you can still edit it by hand. A name that
    doesn't match a franchise stops the build rather than silently vanishing. */
 export async function trending(){
   const all = await allFranchises();

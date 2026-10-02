@@ -18,6 +18,10 @@ The Content Studio at `/studio.html` generates correctly-formatted entries to pa
 
 `src/config.js` holds the region and the Amazon Associates tag.
 
+`src/data/trending.json` sets the homepage's trending row. The "Update trending franchises"
+GitHub Action rewrites it every Monday from TMDB's weekly trending films. Run it by hand
+from the Actions tab (type `true` for a preview that changes nothing).
+
 ## Pages
 
 One page is generated per franchise at `/<slug>/`, plus the homepage,
