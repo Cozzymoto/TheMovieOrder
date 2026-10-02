@@ -1,0 +1,38 @@
+{
+  "_about": "Films the weekly 'Find missing films' report should stop flagging, by franchise file name and TMDB id. Add to this when the report suggests something that doesn't belong.",
+  "babe": [{ "id": 1707281, "title": "Babe (2025)", "why": "Unrelated Spanish film" }],
+  "carry-on": [{ "id": 1522333, "title": "Carry On Jatta 4", "why": "Unrelated Punjabi series" }],
+  "confessions": [{ "id": 1598770, "title": "Confessions (2026)", "why": "Unrelated film" }],
+  "detective-conan": [{ "id": 1777750, "title": "The Counterfeit Case of Ultra 30", "why": "TV special" }],
+  "diary-of-a-wimpy-kid": [
+    { "id": 1392796, "title": "The Last Straw", "why": "Animated; page covers the live-action films" },
+    { "id": 1519780, "title": "The Getaway", "why": "Animated; page covers the live-action films" }
+  ],
+  "ip-man": [{ "id": 1628071, "title": "Ip Man: Kung Fu Legend", "why": "Not part of the Donnie Yen series" }],
+  "kingdom": [{ "id": 1124838, "title": "Kingdom (2025)", "why": "Unrelated Telugu film" }],
+  "nobody": [{ "id": 1304434, "title": "Nobody (2025)", "why": "Unrelated Chinese animation" }],
+  "one-piece": [
+    { "id": 1765513, "title": "One Piece: Into the Grand Line", "why": "TV episodes shown in cinemas" },
+    { "id": 1659389, "title": "One Piece Heroines", "why": "Short" }
+  ],
+  "ouija": [{ "id": 1675237, "title": "Ouija (2025)", "why": "Unrelated film" }],
+  "pirates-of-the-caribbean": [{ "id": 1522074, "title": "Disneyland Resort ride video", "why": "Not a film" }],
+  "shaun-the-sheep": [{ "id": 1477104, "title": "The Beast of Mossy Bottom", "why": "TV special" }],
+  "short-circuit": [{ "id": 1406354, "title": "Short Circuit (2025)", "why": "Unrelated film" }],
+  "smile": [{ "id": 1667503, "title": "SMILE! (2026)", "why": "Unrelated film" }],
+  "species": [{ "id": 1468846, "title": "Species (2026)", "why": "Unrelated film" }],
+  "spider-man": [{ "id": 911916, "title": "Beyond the Spider-Verse", "why": "Animated; it belongs on the Spider-Verse page" }],
+  "star-trek": [{ "id": 1114894, "title": "Section 31", "why": "Streaming film; page covers cinema releases" }],
+  "taken": [{ "id": 1679022, "title": "Taken (2025)", "why": "Unrelated film" }],
+  "teenage-mutant-ninja-turtles": [{ "id": 1488195, "title": "Chrome Alone 2", "why": "Short" }],
+  "the-crow": [{ "id": 1544203, "title": "The Crow (2026)", "why": "Not an official entry" }],
+  "the-fly": [{ "id": 1758349, "title": "The Fly (2026)", "why": "Unrelated film" }],
+  "the-lion-king": [{ "id": 1304800, "title": "The Lion King at the Hollywood Bowl", "why": "Concert" }],
+  "the-mummy": [{ "id": 1662599, "title": "The Mummy (2026)", "why": "Not part of this series" }],
+  "the-raid": [{ "id": 1607593, "title": "The Raid (2026)", "why": "Unrelated film" }],
+  "the-strangers": [{ "id": 1630746, "title": "The Strangers (2026)", "why": "Re-listing of Chapter 1" }],
+  "the-trip": [{ "id": 1586841, "title": "The Trip 8", "why": "Unrelated film" }],
+  "toy-story": [{ "id": 1713524, "title": "Toy Story: 30 Years and Beyond", "why": "TV documentary" }],
+  "the-accountant": [{ "id": 870028, "title": "The Accountant²", "why": "Already listed as The Accountant 2" }],
+  "zootropolis": [{ "id": 1084242, "title": "Zootopia 2", "why": "Already listed as Zootropolis 2" }]
+}

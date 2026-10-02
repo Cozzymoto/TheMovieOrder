@@ -1,6 +1,8 @@
 name: Add missing posters
 
 on:
+  schedule:
+    - cron: '30 6 * * 1'  # every Monday, 06:30 UTC, after the trending update
   workflow_dispatch:
     inputs:
       dry_run:
@@ -40,4 +42,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/franchises
           git commit -m "Add posters from TMDB"
+          git pull --rebase
           git push

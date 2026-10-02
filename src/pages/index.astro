@@ -6,6 +6,18 @@ import { allPosts, fmtDate, isoDate } from '../lib/posts.js';
 
 const total = (await allFranchises()).length;
 const hot = await trending();
+
+// Trending cards show their newest film's poster, since that's usually why
+// the franchise is trending. If an earlier card already uses that poster
+// (MCU and Spider-Man share Brand New Day), fall back to the next newest.
+const used = new Set();
+const covers = hot.map(f => {
+  const newestFirst = f.release.map(id => f.films[id]).filter(m => m.poster)
+    .map((m, i) => ({ ...m, i })).sort((a, b) => b.y - a.y || b.i - a.i).map(m => m.poster);
+  const pick = newestFirst.find(p => !used.has(p)) || f.poster;
+  used.add(pick);
+  return pick;
+});
 const posts = (await allPosts()).slice(0, 3);
 ---
 <Base description="Every film franchise laid out twice — the order they came out, and the order they happen. Find the right watch order in seconds.">
@@ -39,7 +51,7 @@ const posts = (await allPosts()).slice(0, 3);
         <h2>Trending franchises</h2>
         <a href="/franchises/">See all {total}</a>
       </div>
-      <div class="rail">{hot.map(f => <Card f={f} />)}</div>
+      <div class="rail">{hot.map((f, i) => <Card f={f} cover={covers[i]} />)}</div>
     </div>
   </section>
 

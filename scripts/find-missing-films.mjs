@@ -6,7 +6,7 @@
    SINCE that isn't on the page is reported. Then each franchise's own name is
    searched for in recent years, to catch reboots TMDB files separately
    (Resident Evil, 2026). */
-import { readdir, readFile } from 'node:fs/promises';
+import { readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { tmdbClient, sleep, siteFilms, norm, FILLER } from './lib/tmdb.mjs';
 
@@ -14,6 +14,8 @@ const KEY   = process.env.TMDB_API_KEY;
 const BASE  = process.env.TMDB_BASE || 'https://api.themoviedb.org/3';
 const DIR   = process.env.FRANCHISE_DIR || 'src/data/franchises';
 const SINCE = Number(process.env.SINCE || 2025);
+const REPORT = process.env.REPORT_FILE || '';      // when set, write a Markdown summary here if anything released is missing
+const IGNORE = JSON.parse(await readFile(process.env.IGNORE_FILE || 'scripts/missing-films-ignore.json', 'utf8'));
 const today = new Date().toISOString().slice(0, 10);
 
 const tmdb = tmdbClient(KEY, BASE);
@@ -22,6 +24,7 @@ const { matches } = await siteFilms(DIR);
 const year = d => Number((d || '').slice(0, 4));
 const found = new Map();                           // slug -> Map(tmdb id -> film)
 function report(slug, m, via){
+  if ((IGNORE[slug] || []).some(x => x.id === m.id)) return;
   if (!found.has(slug)) found.set(slug, new Map());
   if (found.get(slug).has(m.id)) return;
   found.get(slug).set(m.id, {
@@ -63,7 +66,10 @@ for (const file of files){
   }
   for (const id of ids){
     const { name, parts } = collections.get(id);
-    for (const p of parts) if (year(p.release_date) >= SINCE && !matches(p).length) report(slug, p, `collection: ${name}`);
+    // Skip parts from a year this franchise already has a film for: almost always
+    // the same film under another title (Zootopia 2 is Zootropolis 2 in the UK).
+    const years = new Set(Object.values(card.films).map(m => m.y));
+    for (const p of parts) if (year(p.release_date) >= SINCE && !years.has(year(p.release_date)) && !matches(p).length) report(slug, p, `collection: ${name}`);
   }
 
   // 2. Recent films named after the franchise ("Resident Evil", "Toy Story 5").
@@ -94,6 +100,23 @@ for (const [slug, list] of [...found].sort()){
   }
 }
 console.log(`\n${count} films across ${found.size} franchises. ● released   ○ not out yet`);
+
+// A Markdown summary for the weekly GitHub issue. Only written when a film
+// that's already out is missing; films still to come are listed underneath.
+const all = [...found].sort().flatMap(([slug, list]) => [...list.values()].map(f => ({ slug, ...f })));
+const out = all.filter(f => f.status === 'released'), soon = all.filter(f => f.status === 'upcoming');
+if (REPORT && out.length){
+  const line = f => `- **${f.title}** (${f.date || 'no date'}) → \`${f.slug}\` · [TMDB](https://www.themoviedb.org/movie/${f.id})`;
+  const md = [
+    `${out.length} film${out.length === 1 ? '' : 's'} released since ${SINCE} ${out.length === 1 ? 'isn\'t' : 'aren\'t'} on their franchise page yet.`,
+    '', '## Out now', ...out.map(line),
+    ...(soon.length ? ['', '<details><summary>Coming later (' + soon.length + ')</summary>', '', ...soon.map(line), '', '</details>'] : []),
+    '', 'If one of these doesn\'t belong, add its TMDB id to `scripts/missing-films-ignore.json` and it won\'t be flagged again.',
+    '', `_Checked ${today} by the "Find missing films" workflow._`
+  ].join('\n');
+  await writeFile(REPORT, md + '\n');
+  console.log(`\nWrote ${REPORT}.`);
+}
 
 // Machine-readable copy, for adding the films.
 console.log('\n----- JSON -----');

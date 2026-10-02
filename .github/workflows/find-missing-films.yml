@@ -1,12 +1,27 @@
 name: Find missing films
 
+# Every Monday after the trending update, check every franchise against TMDB.
+# If a film that's already out is missing from its franchise page, open (or
+# update) a GitHub issue listing them, which emails the repository owner.
+# When nothing is missing any more, the issue is closed.
+
 on:
+  schedule:
+    - cron: '0 7 * * 1'   # every Monday, 07:00 UTC
   workflow_dispatch:
     inputs:
       since:
         description: 'Report films released from this year onwards.'
         required: false
         default: '2025'
+      open_issue:
+        description: 'Open or update the GitHub issue. Type false to only print the list.'
+        required: false
+        default: 'true'
+
+permissions:
+  contents: read
+  issues: write
 
 jobs:
   report:
@@ -19,5 +34,30 @@ jobs:
       - name: Check every franchise against TMDB (changes nothing)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-          SINCE: ${{ github.event.inputs.since }}
+          SINCE: ${{ github.event.inputs.since || '2025' }}
+          REPORT_FILE: missing-films.md
         run: node scripts/find-missing-films.mjs
+      - name: Open, update or close the issue
+        if: github.event.inputs.open_issue != 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          gh label create missing-films --color C8102E --description "Films to add to franchise pages" --force
+          open=$(gh issue list --label missing-films --state open --json number -q '.[0].number')
+          if [ -f missing-films.md ]; then
+            printf '@%s\n\n' "$OWNER" | cat - missing-films.md > body.md
+            if [ -z "$open" ]; then
+              gh issue create --title "New films to add to franchise pages" --label missing-films --body-file body.md
+            elif ! diff -q <(gh issue view "$open" --json body -q .body | grep -v '^_Checked' | sed 's/[[:space:]]*$//') \
+                           <(grep -v '^_Checked' body.md | sed 's/[[:space:]]*$//') >/dev/null; then
+              gh issue edit "$open" --body-file body.md
+              gh issue comment "$open" --body "@$OWNER The list has changed this week. See the updated list above."
+            else
+              echo "Same list as last week. Issue #$open left as it is."
+            fi
+          elif [ -n "$open" ]; then
+            gh issue close "$open" --comment "Nothing is missing any more. Closing."
+          else
+            echo "Nothing missing. No issue needed."
+          fi
