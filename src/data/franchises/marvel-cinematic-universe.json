@@ -147,77 +147,92 @@
     "bw": {
       "t": "Black Widow",
       "y": 2021,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg"
     },
     "shangchi": {
       "t": "Shang-Chi and the Legend of the Ten Rings",
       "y": 2021,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/9f2Q0U3IOsLgrI2HkvldwSABZy5.jpg"
     },
     "eternals": {
       "t": "Eternals",
       "y": 2021,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/lFByFSLV5WDJEv3KabbdAF959F2.jpg"
     },
     "nwh": {
       "t": "Spider-Man: No Way Home",
       "y": 2021,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
     },
     "mom": {
       "t": "Doctor Strange in the Multiverse of Madness",
       "y": 2022,
-      "set": "2024"
+      "set": "2024",
+      "poster": "/ddJcSKbcp4rKZTmuyWaMhuwcfMz.jpg"
     },
     "lat": {
       "t": "Thor: Love and Thunder",
       "y": 2022,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg"
     },
     "wf": {
       "t": "Black Panther: Wakanda Forever",
       "y": 2022,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/sv1xJUazXeYqALzczSZ3O6nkH75.jpg"
     },
     "quant": {
       "t": "Ant-Man and the Wasp: Quantumania",
       "y": 2023,
-      "set": "2025"
+      "set": "2025",
+      "poster": "/qnqGbB22YJ7dSs4o6M7exTpNxPz.jpg"
     },
     "gotg3": {
       "t": "Guardians of the Galaxy Vol. 3",
       "y": 2023,
-      "set": "2026"
+      "set": "2026",
+      "poster": "/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg"
     },
     "marvels": {
       "t": "The Marvels",
       "y": 2023,
-      "set": "2026"
+      "set": "2026",
+      "poster": "/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg"
     },
     "dpw": {
       "t": "Deadpool & Wolverine",
       "y": 2024,
-      "set": "2026"
+      "set": "2026",
+      "poster": "/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg"
     },
     "bnw": {
       "t": "Captain America: Brave New World",
       "y": 2025,
-      "set": "2027"
+      "set": "2027",
+      "poster": "/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg"
     },
     "tbolts": {
       "t": "Thunderbolts*",
       "y": 2025,
-      "set": "2027"
+      "set": "2027",
+      "poster": "/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg"
     },
     "ff": {
       "t": "The Fantastic Four: First Steps",
       "y": 2025,
-      "set": "Another universe"
+      "set": "Another universe",
+      "poster": "/nf5qaSEvyYSNeFH0YhSs5EsBLX9.jpg"
     },
     "bnd": {
       "t": "Spider-Man: Brand New Day",
       "y": 2026,
-      "set": "2028"
+      "set": "2028",
+      "poster": "/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg"
     }
   },
   "release": [
