@@ -2,7 +2,7 @@
 export const CONFIG = {
   region: "uk",      // "uk" or "us" — sets the JustWatch and Amazon region
   amazonTag: "",     // e.g. "themovieorder-21" once Amazon Associates approve you
-  contactEmail: "conwaytong@hotmail.com" // where the Contact page sends reports and suggestions
+  contactEmail: "hello@themovieorder.com" // where the Contact page sends reports and suggestions
 };
 
 export function watchURL(title){
