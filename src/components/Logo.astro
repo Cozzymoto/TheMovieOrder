@@ -1,0 +1,19 @@
+---
+/* Three film frames stepping up, numbered in watch order. Frames take the
+   site red; numerals take the colour that sits on red, so it works in both themes.
+   public/favicon.svg is the same drawing with fixed colours. */
+const { size = 34 } = Astro.props;
+---
+<svg class="logo" width={size} height={size} viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+  <g fill="var(--red)">
+    <rect x="1" y="16" width="9" height="15" rx="2"/>
+    <rect x="11.5" y="9" width="9" height="22" rx="2"/>
+    <rect x="22" y="2" width="9" height="29" rx="2"/>
+  </g>
+  <g fill="var(--on-red)"><rect x="2.6" y="17.6" width="2" height="2" rx=".4"/><rect x="6.4" y="17.6" width="2" height="2" rx=".4"/><rect x="13.1" y="10.6" width="2" height="2" rx=".4"/><rect x="16.9" y="10.6" width="2" height="2" rx=".4"/><rect x="23.6" y="3.6" width="2" height="2" rx=".4"/><rect x="27.4" y="3.6" width="2" height="2" rx=".4"/></g>
+  <g fill="var(--on-red)" font-family="Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="9" text-anchor="middle">
+    <text x="5.5" y="28">1</text>
+    <text x="16" y="28">2</text>
+    <text x="26.5" y="28">3</text>
+  </g>
+</svg>

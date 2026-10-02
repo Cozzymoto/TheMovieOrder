@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Logo from '../components/Logo.astro';
 import { trending } from '../lib/franchise.js';
 const popular = (await trending()).slice(0, 4);
 const {
@@ -8,7 +9,7 @@ const {
   jsonld = null
 } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
-const full = title ? `${title} — Order of Movies` : 'Order of Movies — franchise watch orders';
+const full = title ? `${title} — The Movie Order` : 'The Movie Order — franchise watch orders';
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -22,10 +23,10 @@ const full = title ? `${title} — Order of Movies` : 'Order of Movies — franc
 <meta property="og:title" content={full}>
 <meta property="og:description" content={description}>
 <meta property="og:url" content={canonical}>
-<meta property="og:site_name" content="Order of Movies">
+<meta property="og:site_name" content="The Movie Order">
 <meta name="twitter:card" content="summary">
 <link rel="sitemap" href="/sitemap-index.xml">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -39,7 +40,7 @@ const full = title ? `${title} — Order of Movies` : 'Order of Movies — franc
 
 <header class="masthead">
   <div class="masthead__in">
-    <a class="wordmark" href="/"><b>Order of</b><i>Movies</i></a>
+    <a class="wordmark" href="/" aria-label="The Movie Order, home"><Logo /><span><b>The Movie</b> <i>Order</i></span></a>
     <nav class="nav" aria-label="Main">
       <a href="/franchises/" aria-current={Astro.url.pathname.startsWith('/franchises') ? 'page' : undefined}>Franchises</a>
       <a href="/blog/" aria-current={Astro.url.pathname.startsWith('/blog') ? 'page' : undefined}>Blog</a>
@@ -58,7 +59,7 @@ const full = title ? `${title} — Order of Movies` : 'Order of Movies — franc
   <div class="wrap">
     <div class="foot__cols">
       <div>
-        <h4>Order of Movies</h4>
+        <h4>The Movie Order</h4>
         <p style="margin:0;max-width:30ch">The right order to watch every franchise — in release order or in-universe chronology.</p>
       </div>
       <div>
@@ -80,7 +81,7 @@ const full = title ? `${title} — Order of Movies` : 'Order of Movies — franc
     </div>
     <p class="credit">Film data and posters from <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a>. This product uses the TMDb API but is not endorsed or certified by TMDb.</p>
     <div class="foot__legal">
-      <span>&copy; {new Date().getFullYear()} Order of Movies</span>
+      <span>&copy; {new Date().getFullYear()} The Movie Order</span>
       <span>Some links earn us a commission. It never changes what we recommend or what you pay.</span>
     </div>
   </div>
