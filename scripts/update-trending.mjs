@@ -55,14 +55,16 @@ const slugs = new Set(films.map(f => f.slug));
 // Same year (or one either side, as release dates vary by country), and the
 // same title, or every word of the shorter title inside the longer one
 // ("Star Wars" / "Star Wars: A New Hope", "Demon Slayer: Infinity Castle" /
-// "Demon Slayer: Kimetsu no Yaiba Infinity Castle"). One-word titles must match
-// exactly, or "The Ring" would match The Fellowship of the Ring.
+// "Demon Slayer: Kimetsu no Yaiba Infinity Castle"). The shorter title needs two
+// real words, or "The Ring" would match The Fellowship of the Ring, and a
+// Japanese title that strips down to "0 0" would match M3GAN 2.0.
 const FILLER = new Set(['the', 'a', 'an', 'of', 'and']);
 function sameTitle(a, b){
   if (a === b) return true;
   const [short, long] = a.length <= b.length ? [a, b] : [b, a];
   const shortWords = short.split(' ');
-  if (shortWords.filter(w => !FILLER.has(w)).length < 2) return false;
+  const real = new Set(shortWords.filter(w => !FILLER.has(w) && /[a-z]/.test(w)));
+  if (real.size < 2) return false;
   const words = new Set(long.split(' '));
   return shortWords.every(w => words.has(w));
 }
