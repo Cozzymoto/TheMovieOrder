@@ -58,5 +58,25 @@
     "e23",
     "e26"
   ],
+  "groups": [
+    {
+      "title": "The Ash trilogy",
+      "note": "Evil Dead II re-stages the first film in its opening minutes, then carries on.",
+      "films": [
+        "e81",
+        "e87",
+        "e92"
+      ]
+    },
+    {
+      "title": "The later films",
+      "note": "Three separate stories that share the same cursed book. None needs the others.",
+      "films": [
+        "e13",
+        "e23",
+        "e26"
+      ]
+    }
+  ],
   "note": "Evil Dead II re-stages the first film's events in its opening minutes, so some people skip straight to it. The 2013 film, Evil Dead Rise and Evil Dead Burn are separate stories sharing the same cursed book."
 }

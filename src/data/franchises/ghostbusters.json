@@ -50,5 +50,24 @@
     "g24",
     "g16"
   ],
+  "groups": [
+    {
+      "title": "The original timeline",
+      "note": "Afterlife picks up from Ghostbusters II, thirty-two years later, and Frozen Empire follows on.",
+      "films": [
+        "g84",
+        "g89",
+        "g21",
+        "g24"
+      ]
+    },
+    {
+      "title": "The 2016 reboot",
+      "note": "A fresh start with a new cast, unconnected to the other four.",
+      "films": [
+        "g16"
+      ]
+    }
+  ],
   "note": "The 2016 film is a complete reboot with a different cast and no connection to the others. Afterlife picks up directly from Ghostbusters II, thirty-two years later."
 }
