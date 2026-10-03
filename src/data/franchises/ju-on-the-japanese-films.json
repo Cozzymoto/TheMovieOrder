@@ -3,51 +3,61 @@
   "short": "Nine films, four continuities",
   "hue": 350,
   "blurb": "The original Japanese curse films, told in jumbled chapters that hop around in time, then restarted twice and finally crossed over with Ring.",
+  "poster": "/4nUFl3f2OwwDMWtdSr49Q0xiafO.jpg",
   "films": {
     "juon00a": {
       "t": "Ju-On: The Curse",
       "y": 2000,
-      "set": "—"
+      "set": "—",
+      "poster": "/4nUFl3f2OwwDMWtdSr49Q0xiafO.jpg"
     },
     "juon00b": {
       "t": "Ju-On: The Curse 2",
       "y": 2000,
-      "set": "—"
+      "set": "—",
+      "poster": "/8cgf6nczK5kSbSHmvIUtig58uQT.jpg"
     },
     "juon02": {
       "t": "Ju-On: The Grudge",
       "y": 2002,
-      "set": "—"
+      "set": "—",
+      "poster": "/6q1hlBC6rudc3mHwXsbMBR2xAT6.jpg"
     },
     "juon03": {
       "t": "Ju-On: The Grudge 2",
       "y": 2003,
-      "set": "—"
+      "set": "—",
+      "poster": "/agI9bflzv44lVsbah2dtdkkUqoW.jpg"
     },
     "juon09w": {
       "t": "Ju-On: White Ghost",
       "y": 2009,
-      "set": "—"
+      "set": "—",
+      "poster": "/7rQTZ4BM5yDbOOYxYCtxZb2qkch.jpg"
     },
     "juon09b": {
       "t": "Ju-On: Black Ghost",
       "y": 2009,
-      "set": "—"
+      "set": "—",
+      "poster": "/4p92Qh9aXeeV1ZoB5gurETs2X3g.jpg"
     },
     "juon14": {
       "t": "Ju-On: The Beginning of the End",
       "y": 2014,
-      "set": "—"
+      "set": "—",
+      "poster": "/d9AWoR6Goi1ZQH9K8EZy8VDi0zF.jpg"
     },
     "juon15": {
       "t": "Ju-On: The Final Curse",
       "y": 2015,
-      "set": "—"
+      "set": "—",
+      "poster": "/A95Q8XlMK9MsJKJAMbmi4JjMiNj.jpg"
     },
     "svk16": {
       "t": "Sadako vs. Kayako",
       "y": 2016,
-      "set": "—"
+      "set": "—",
+      "poster": "/bRNL8q6utwEc2Vog5GwTFgm5NEQ.jpg"
     }
   },
   "release": [

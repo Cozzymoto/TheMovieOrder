@@ -3,16 +3,19 @@
   "short": "Two films",
   "hue": 95,
   "blurb": "A folklore thriller about land, gods and the forest in coastal Karnataka, then a prequel that goes back centuries to the myth behind it.",
+  "poster": "/jIsKmkxMzdCZ0Ux1GVSnu8m6Na6.jpg",
   "films": {
     "kan22": {
       "t": "Kantara",
       "y": 2022,
-      "set": "Late 20th century"
+      "set": "Late 20th century",
+      "poster": "/jIsKmkxMzdCZ0Ux1GVSnu8m6Na6.jpg"
     },
     "kan25": {
       "t": "Kantara: Chapter 1",
       "y": 2025,
-      "set": "Kadamba era"
+      "set": "Kadamba era",
+      "poster": "/ehQPboTPaIMkMUOoNOh8e7pZ5Rp.jpg"
     }
   },
   "release": [

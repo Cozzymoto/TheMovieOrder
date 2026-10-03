@@ -3,36 +3,42 @@
   "short": "Five films, three continuities",
   "hue": 10,
   "blurb": "Two anime films that each belong to a different TV series, and a live-action trilogy that retells the story from scratch.",
+  "poster": "/kdovrjrKighUFEh9ZRQul0Evx6L.jpg",
   "films": {
     "fma05": {
       "t": "Fullmetal Alchemist the Movie: Conqueror of Shamballa",
       "y": 2005,
       "set": "1923",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/kdovrjrKighUFEh9ZRQul0Evx6L.jpg"
     },
     "fma11": {
       "t": "Fullmetal Alchemist: The Sacred Star of Milos",
       "y": 2011,
       "set": "During Brotherhood",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/7RvBQOTZGhCoPvLiF3Ugp2Q94Ux.jpg"
     },
     "fma17": {
       "t": "Fullmetal Alchemist",
       "y": 2017,
       "set": "—",
-      "format": "live-action"
+      "format": "live-action",
+      "poster": "/kWJtS0XFHxH2ADkWX8P7WISDnX3.jpg"
     },
     "fma22a": {
       "t": "Fullmetal Alchemist: The Revenge of Scar",
       "y": 2022,
       "set": "—",
-      "format": "live-action"
+      "format": "live-action",
+      "poster": "/c5OwwBNyJkwyroIOIJL9IiRjydR.jpg"
     },
     "fma22b": {
       "t": "Fullmetal Alchemist: The Final Alchemy",
       "y": 2022,
       "set": "—",
-      "format": "live-action"
+      "format": "live-action",
+      "poster": "/AeyiuQUUs78bPkz18FY3AzNFF8b.jpg"
     }
   },
   "release": [

@@ -3,46 +3,55 @@
   "short": "Eight films, one New Jersey",
   "hue": 45,
   "blurb": "Kevin Smith's interlinked comedies, held together by Jay and Silent Bob, the Quick Stop and a lot of running jokes that pay off films later.",
+  "poster": "/9IiSgiq4h4siTIS9H3o4nZ3h5L9.jpg",
   "films": {
     "va95": {
       "t": "Mallrats",
       "y": 1995,
-      "set": "1994, the day before Clerks"
+      "set": "1994, the day before Clerks",
+      "poster": "/2ip0sGIMPN0XEN6q3lQIoaNI6tP.jpg"
     },
     "va94": {
       "t": "Clerks",
       "y": 1994,
-      "set": "1994"
+      "set": "1994",
+      "poster": "/9IiSgiq4h4siTIS9H3o4nZ3h5L9.jpg"
     },
     "va97": {
       "t": "Chasing Amy",
       "y": 1997,
-      "set": "1997"
+      "set": "1997",
+      "poster": "/tqydORBcNlQxy3ijgSpPurgDHM2.jpg"
     },
     "va99": {
       "t": "Dogma",
       "y": 1999,
-      "set": "1999"
+      "set": "1999",
+      "poster": "/oxhHl2YokTqcP44QK5tiTgjgLgk.jpg"
     },
     "va01": {
       "t": "Jay and Silent Bob Strike Back",
       "y": 2001,
-      "set": "2001"
+      "set": "2001",
+      "poster": "/aEsAdMAhwKYFgnHHxMOknktQYKK.jpg"
     },
     "va06": {
       "t": "Clerks II",
       "y": 2006,
-      "set": "2006"
+      "set": "2006",
+      "poster": "/cLSW0nW94XT0DmBS69ublcLfQ9c.jpg"
     },
     "va19": {
       "t": "Jay and Silent Bob Reboot",
       "y": 2019,
-      "set": "2019"
+      "set": "2019",
+      "poster": "/5uGl5lbcpGLTvtLwBMnfRC0Az5u.jpg"
     },
     "va22": {
       "t": "Clerks III",
       "y": 2022,
-      "set": "2022"
+      "set": "2022",
+      "poster": "/apzIqZIQLc8fNx5nbbcSSfPFtax.jpg"
     }
   },
   "release": [

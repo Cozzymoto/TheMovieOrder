@@ -3,24 +3,28 @@
   "short": "Three films, two studios",
   "hue": 75,
   "blurb": "The 1970s attempts at Tolkien: a Rankin/Bass Hobbit, Ralph Bakshi's unfinished Lord of the Rings, and a Return of the King that finishes the job.",
+  "poster": "/2ohvyMPhvjftLrM6S6Ljr6QrL0u.jpg",
   "films": {
     "mea77": {
       "t": "The Hobbit",
       "y": 1977,
       "set": "Third Age 2941",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/2ohvyMPhvjftLrM6S6Ljr6QrL0u.jpg"
     },
     "mea78": {
       "t": "The Lord of the Rings",
       "y": 1978,
       "set": "Third Age 3018–19",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/liW0mjvTyLs7UCumaHhx3PpU4VT.jpg"
     },
     "mea80": {
       "t": "The Return of the King",
       "y": 1980,
       "set": "Third Age 3019",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/lTwUT4NsSyUQlHV20Mx3C96JHq4.jpg"
     }
   },
   "release": [

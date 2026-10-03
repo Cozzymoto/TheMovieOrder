@@ -3,21 +3,25 @@
   "short": "Three films, one hidden universe",
   "hue": 215,
   "blurb": "A superhero film with no costumes, a thriller that turns out to share its world, and the film that brings them together nineteen years later.",
+  "poster": "/mLuehrGLiK5zFCyRmDDOH6gbfPf.jpg",
   "films": {
     "unb00": {
       "t": "Unbreakable",
       "y": 2000,
-      "set": "2000"
+      "set": "2000",
+      "poster": "/mLuehrGLiK5zFCyRmDDOH6gbfPf.jpg"
     },
     "spl16": {
       "t": "Split",
       "y": 2016,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/8nn3m1wyu3woLg2tW1CAr44q53K.jpg"
     },
     "gla19": {
       "t": "Glass",
       "y": 2019,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/svIDTNUoajS8dLEo7EosxvyAsgJ.jpg"
     }
   },
   "release": [

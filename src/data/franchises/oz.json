@@ -3,36 +3,43 @@
   "short": "Six films, four continuities",
   "hue": 120,
   "blurb": "The 1939 classic, a dark Disney sequel, a soul musical, a Disney prequel and Wicked, which tells the other side of Dorothy's story.",
+  "poster": "/uCC3j4pV9eOZwzDUWp2ilbcTf1f.jpg",
   "films": {
     "oz39": {
       "t": "The Wizard of Oz",
       "y": 1939,
-      "set": "1930s"
+      "set": "1930s",
+      "poster": "/uCC3j4pV9eOZwzDUWp2ilbcTf1f.jpg"
     },
     "wiz78": {
       "t": "The Wiz",
       "y": 1978,
-      "set": "1970s"
+      "set": "1970s",
+      "poster": "/rgfB8hBRSwbEb0SK7pt9mW9jsyP.jpg"
     },
     "oz85": {
       "t": "Return to Oz",
       "y": 1985,
-      "set": "Six months after Dorothy's first trip"
+      "set": "Six months after Dorothy's first trip",
+      "poster": "/dyMwaXA9nVhPiA5wYHsvfUAnbaB.jpg"
     },
     "ozgp13": {
       "t": "Oz the Great and Powerful",
       "y": 2013,
-      "set": "1905"
+      "set": "1905",
+      "poster": "/nr0deOZ4h7HkCzfc09fIgK7cxTG.jpg"
     },
     "wk24": {
       "t": "Wicked",
       "y": 2024,
-      "set": "Before Dorothy arrives"
+      "set": "Before Dorothy arrives",
+      "poster": "/xDGbZ0JJ3mYaGKy4Nzd9Kph6M9L.jpg"
     },
     "wk25": {
       "t": "Wicked: For Good",
       "y": 2025,
-      "set": "Before and during Dorothy's visit"
+      "set": "Before and during Dorothy's visit",
+      "poster": "/si9tolnefLSUKaqQEGz1bWArOaL.jpg"
     }
   },
   "release": [

@@ -3,31 +3,37 @@
   "short": "Five films, three continuities",
   "hue": 250,
   "blurb": "Hitchcock's original, two sequels that follow Norman after his release, a fourth film that ignores both, and a shot-for-shot remake.",
+  "poster": "/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg",
   "films": {
     "ps60": {
       "t": "Psycho",
       "y": 1960,
-      "set": "1960"
+      "set": "1960",
+      "poster": "/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg"
     },
     "ps83": {
       "t": "Psycho II",
       "y": 1983,
-      "set": "1982"
+      "set": "1982",
+      "poster": "/sJAPRj3vHmjV4z97YK84iDovYlm.jpg"
     },
     "ps86": {
       "t": "Psycho III",
       "y": 1986,
-      "set": "1983"
+      "set": "1983",
+      "poster": "/tgV4eeW0X7os7p3SYbNwDI0NYGa.jpg"
     },
     "ps90": {
       "t": "Psycho IV: The Beginning",
       "y": 1990,
-      "set": "1990, with flashbacks to the 1940s–50s"
+      "set": "1990, with flashbacks to the 1940s–50s",
+      "poster": "/vxWTkQRAvTvA6rbBhsdC4pdnHuq.jpg"
     },
     "ps98": {
       "t": "Psycho",
       "y": 1998,
-      "set": "1998"
+      "set": "1998",
+      "poster": "/6pQpZu6JjPsbHzjhG545OsjU2TG.jpg"
     }
   },
   "release": [

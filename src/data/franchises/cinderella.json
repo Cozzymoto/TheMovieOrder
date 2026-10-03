@@ -3,31 +3,36 @@
   "short": "Four films, two continuities",
   "hue": 300,
   "blurb": "The 1950 original, a sequel of short stories, a third film that literally rewinds time, and the 2015 remake.",
+  "poster": "/4nssBcQUBadCTBjrAkX46mVEKts.jpg",
   "films": {
     "cin50": {
       "t": "Cinderella",
       "y": 1950,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/4nssBcQUBadCTBjrAkX46mVEKts.jpg"
     },
     "cin02": {
       "t": "Cinderella II: Dreams Come True",
       "y": 2002,
       "set": "After the wedding",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/kEDbtKhZsqPo7ypCzoz3fkq73Pc.jpg"
     },
     "cin07": {
       "t": "Cinderella III: A Twist in Time",
       "y": 2007,
       "set": "A year after the wedding",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/9QzKXbQfPp59iZ3rwnkKEAkPaXx.jpg"
     },
     "cin15": {
       "t": "Cinderella",
       "y": 2015,
       "set": "—",
       "format": "live-action",
-      "remake": true
+      "remake": true,
+      "poster": "/j91LJmcWo16CArFOoapsz84bwxb.jpg"
     }
   },
   "release": [

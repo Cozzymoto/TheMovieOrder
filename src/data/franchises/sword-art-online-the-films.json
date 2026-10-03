@@ -3,24 +3,28 @@
   "short": "Three films",
   "hue": 200,
   "blurb": "One film set after the anime's first two seasons, then two that go back to the very beginning and retell the first floors of Aincrad.",
+  "poster": "/2szdEK0Mr0RG0nWGFVTseNQHbnP.jpg",
   "films": {
     "sao17": {
       "t": "Sword Art Online the Movie: Ordinal Scale",
       "y": 2017,
       "set": "2026",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/2szdEK0Mr0RG0nWGFVTseNQHbnP.jpg"
     },
     "sao21": {
       "t": "Sword Art Online Progressive: Aria of a Starless Night",
       "y": 2021,
       "set": "2022",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/yD9RhgIVydQNBK7OLEbCWYcWMUd.jpg"
     },
     "sao22": {
       "t": "Sword Art Online Progressive: Scherzo of Deep Night",
       "y": 2022,
       "set": "2023",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/a8B3bagkYRULdmnhgKMcxXaVcFm.jpg"
     }
   },
   "release": [

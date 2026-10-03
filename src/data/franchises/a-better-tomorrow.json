@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 5,
   "blurb": "John Woo's heroic bloodshed classic, a sequel that bends over backwards to bring back a dead character, and a prequel set in Saigon.",
+  "poster": "/uxZIWxOm2yonHyjLARzW37aEZjF.jpg",
   "films": {
     "abt86": {
       "t": "A Better Tomorrow",
       "y": 1986,
-      "set": "1980s"
+      "set": "1980s",
+      "poster": "/uxZIWxOm2yonHyjLARzW37aEZjF.jpg"
     },
     "abt87": {
       "t": "A Better Tomorrow II",
       "y": 1987,
-      "set": "1980s"
+      "set": "1980s",
+      "poster": "/e8352Dw1SeM4rNAGYDZVkQ0aenz.jpg"
     },
     "abt89": {
       "t": "A Better Tomorrow III: Love & Death in Saigon",
       "y": 1989,
-      "set": "1974"
+      "set": "1974",
+      "poster": "/cKvP5yunS8HxA66qlxw6AhFuAbN.jpg"
     }
   },
   "release": [

@@ -3,102 +3,119 @@
   "short": "Sixteen films, one continuity",
   "hue": 230,
   "blurb": "Sixteen animated DC films that form one connected story, started by a time-travel reset and ended by Apokolips War.",
+  "poster": "/hg6RYpSb3vU4i3yQDtE1YhSZNh5.jpg",
   "films": {
     "f13": {
       "t": "Justice League: The Flashpoint Paradox",
       "y": 2013,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/hg6RYpSb3vU4i3yQDtE1YhSZNh5.jpg"
     },
     "w14": {
       "t": "Justice League: War",
       "y": 2014,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/pdNprWYdgcB8z4FLD3BhRmhEys1.jpg"
     },
     "sob14": {
       "t": "Son of Batman",
       "y": 2014,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/yHx8OLSKc3VtIBB5lIe90c0fHOX.jpg"
     },
     "toa15": {
       "t": "Justice League: Throne of Atlantis",
       "y": 2015,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/iaYZA8teYeIxmR8wRrEED5wwR0u.jpg"
     },
     "bvr15": {
       "t": "Batman vs. Robin",
       "y": 2015,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/aGp9XDXmVM5lCKHWtgBC15S7XLr.jpg"
     },
     "bb16": {
       "t": "Batman: Bad Blood",
       "y": 2016,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/ktjbGsGm5GKlHDvvwQajXvDW2BN.jpg"
     },
     "jltt16": {
       "t": "Justice League vs. Teen Titans",
       "y": 2016,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/mrphHnLo1ywe7yGcA5WhYlx9v3n.jpg"
     },
     "jld17": {
       "t": "Justice League Dark",
       "y": 2017,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/gWcTaDFXDrOAPfVzfBFz0Aya5BE.jpg"
     },
     "tjc17": {
       "t": "Teen Titans: The Judas Contract",
       "y": 2017,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/nuGIlNAJUati4qEAH1nrYKUA3xa.jpg"
     },
     "ssq18": {
       "t": "Suicide Squad: Hell to Pay",
       "y": 2018,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/va1IgsZeWBbKLsZcFwz3CM1MkMu.jpg"
     },
     "dos18": {
       "t": "The Death of Superman",
       "y": 2018,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/y0uxSHaSFmt6XaBJgjkeLqe7aM.jpg"
     },
     "con18": {
       "t": "Constantine: City of Demons – The Movie",
       "y": 2018,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/tZIMe2pYug1cS9e7AZnd1bTTidM.jpg"
     },
     "ros19": {
       "t": "Reign of the Supermen",
       "y": 2019,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/e9TzqscNRUaG8HqEP3K1jUvi8pC.jpg"
     },
     "hush19": {
       "t": "Batman: Hush",
       "y": 2019,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/eiVQORVyVuNNZHPAELuWtlXoQsD.jpg"
     },
     "wwb19": {
       "t": "Wonder Woman: Bloodlines",
       "y": 2019,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/w1SBqj0fn1j72ST5i1jauWo3swT.jpg"
     },
     "apw20": {
       "t": "Justice League Dark: Apokolips War",
       "y": 2020,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/c01Y4suApJ1Wic2xLmaq1QYcfoZ.jpg"
     }
   },
   "release": [

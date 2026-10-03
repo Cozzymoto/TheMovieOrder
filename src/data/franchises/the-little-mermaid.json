@@ -3,31 +3,36 @@
   "short": "Four films, two continuities",
   "hue": 185,
   "blurb": "The film that started Disney's revival, two straight-to-video follow-ups, one of which is a prequel, and a live-action remake.",
+  "poster": "/plcZXvI310FkbwIptvd6rqk63LP.jpg",
   "films": {
     "lm89": {
       "t": "The Little Mermaid",
       "y": 1989,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/plcZXvI310FkbwIptvd6rqk63LP.jpg"
     },
     "lm00": {
       "t": "The Little Mermaid II: Return to the Sea",
       "y": 2000,
       "set": "Twelve years later",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/k3UHxvYv8ZgWLL0lM45f979OSo7.jpg"
     },
     "lm08": {
       "t": "The Little Mermaid: Ariel's Beginning",
       "y": 2008,
       "set": "Before the original",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/6EwcdQH134T4HGr0W3m2FnLjTnc.jpg"
     },
     "lm23": {
       "t": "The Little Mermaid",
       "y": 2023,
       "set": "—",
       "format": "live-action",
-      "remake": true
+      "remake": true,
+      "poster": "/ym1dxyOk4jFcSl4Q2zmRrA5BEEN.jpg"
     }
   },
   "release": [

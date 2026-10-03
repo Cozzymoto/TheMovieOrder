@@ -3,26 +3,31 @@
   "short": "Four films",
   "hue": 345,
   "blurb": "Comedy mysteries across Bangkok, New York and Tokyo, then a prequel set in 1900 San Francisco about the detectives' ancestors.",
+  "poster": "/sYmdUFpcpRqlmeETqhcMrYJbjbN.jpg",
   "films": {
     "dc15": {
       "t": "Detective Chinatown",
       "y": 2015,
-      "set": "Bangkok, 2015"
+      "set": "Bangkok, 2015",
+      "poster": "/sYmdUFpcpRqlmeETqhcMrYJbjbN.jpg"
     },
     "dc18": {
       "t": "Detective Chinatown 2",
       "y": 2018,
-      "set": "New York, 2018"
+      "set": "New York, 2018",
+      "poster": "/p88dG7zfvne14Fn2UHFa2lqijyE.jpg"
     },
     "dc21": {
       "t": "Detective Chinatown 3",
       "y": 2021,
-      "set": "Tokyo, 2021"
+      "set": "Tokyo, 2021",
+      "poster": "/jPF7uzdrJ3gynLAgNdCG9CevqAS.jpg"
     },
     "dc25": {
       "t": "Detective Chinatown 1900",
       "y": 2025,
-      "set": "San Francisco, 1900"
+      "set": "San Francisco, 1900",
+      "poster": "/g3GsgIlH3fA4RxhNOAMvSbVWyfW.jpg"
     }
   },
   "release": [

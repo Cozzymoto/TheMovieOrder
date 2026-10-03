@@ -3,21 +3,25 @@
   "short": "Three films, two continuities",
   "hue": 195,
   "blurb": "Two adaptations of the same novella, thirty years apart, and a 2011 prequel that ends exactly where the 1982 film begins.",
+  "poster": "/rm2w8dEhOGDuckB6i0Spz9lTzpR.jpg",
   "films": {
     "thing51": {
       "t": "The Thing from Another World",
       "y": 1951,
-      "set": "1950s Arctic"
+      "set": "1950s Arctic",
+      "poster": "/rm2w8dEhOGDuckB6i0Spz9lTzpR.jpg"
     },
     "thing82": {
       "t": "The Thing",
       "y": 1982,
-      "set": "1982, Antarctica"
+      "set": "1982, Antarctica",
+      "poster": "/tzGY49kseSE9QAKk47uuDGwnSCu.jpg"
     },
     "thing11": {
       "t": "The Thing",
       "y": 2011,
-      "set": "1982, the days before"
+      "set": "1982, the days before",
+      "poster": "/dmn2nVo8h7LMnk694JxCRIwK06p.jpg"
     }
   },
   "release": [

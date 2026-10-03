@@ -3,36 +3,42 @@
   "short": "Five films",
   "hue": 260,
   "blurb": "The films that grew out of Batman: The Animated Series, from Mask of the Phantasm to a Justice League film made twenty-five years later.",
+  "poster": "/hT4ehUteagUrhUOHAtmYiY7mp5l.jpg",
   "films": {
     "dcau93": {
       "t": "Batman: Mask of the Phantasm",
       "y": 1993,
       "set": "During Batman: The Animated Series",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/hT4ehUteagUrhUOHAtmYiY7mp5l.jpg"
     },
     "dcau98": {
       "t": "Batman & Mr. Freeze: SubZero",
       "y": 1998,
       "set": "Between the first two Batman series",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/kjjz8mVNrwNUa9uz8IMnqS79rxj.jpg"
     },
     "dcau00": {
       "t": "Batman Beyond: Return of the Joker",
       "y": 2000,
       "set": "c. 2040, the Batman Beyond era",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/zH9fR6DLwiqXfpuNh4kecrgeOpd.jpg"
     },
     "dcau03": {
       "t": "Batman: Mystery of the Batwoman",
       "y": 2003,
       "set": "During The New Batman Adventures",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/mlmhpUArJdpRPO211v3lETe3uzg.jpg"
     },
     "dcau19": {
       "t": "Justice League vs. the Fatal Five",
       "y": 2019,
       "set": "During Justice League Unlimited",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/xXC0HrmyQDXlYTiHP7Tq6nzurDI.jpg"
     }
   },
   "release": [

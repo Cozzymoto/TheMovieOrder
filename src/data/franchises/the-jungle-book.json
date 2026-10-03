@@ -3,37 +3,43 @@
   "short": "Five films, four continuities",
   "hue": 110,
   "blurb": "Disney's animated classic and its sequel, a 1994 live-action adventure, the 2016 remake, and Andy Serkis's darker take, none of them connected.",
+  "poster": "/yN1kuupnPTLUprgfvC5WapgrxG4.jpg",
   "films": {
     "jb67": {
       "t": "The Jungle Book",
       "y": 1967,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/yN1kuupnPTLUprgfvC5WapgrxG4.jpg"
     },
     "jb03": {
       "t": "The Jungle Book 2",
       "y": 2003,
       "set": "Shortly after",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/21GanxizOIL1CN0HLx7j3je8k87.jpg"
     },
     "jb94": {
       "t": "Rudyard Kipling's The Jungle Book",
       "y": 1994,
       "set": "—",
-      "format": "live-action"
+      "format": "live-action",
+      "poster": "/lFMxUrByUG2LcRAIsqrGti1zGIu.jpg"
     },
     "jb16": {
       "t": "The Jungle Book",
       "y": 2016,
       "set": "—",
       "format": "live-action",
-      "remake": true
+      "remake": true,
+      "poster": "/2Epx7F9X7DrFptn4seqn4mzBVks.jpg"
     },
     "jb18": {
       "t": "Mowgli: Legend of the Jungle",
       "y": 2018,
       "set": "—",
-      "format": "live-action"
+      "format": "live-action",
+      "poster": "/clRnzMsFoMIdC7I5JsG6dnnHH8l.jpg"
     }
   },
   "release": [

@@ -3,31 +3,37 @@
   "short": "Five films",
   "hue": 30,
   "blurb": "A spin-off from The Mummy Returns that became its own straight-to-video saga, with a prequel about the warrior's youth.",
+  "poster": "/aITIsX20tACn6jgtyDcCYpRT216.jpg",
   "films": {
     "sk02": {
       "t": "The Scorpion King",
       "y": 2002,
-      "set": "Ancient Egypt"
+      "set": "Ancient Egypt",
+      "poster": "/aITIsX20tACn6jgtyDcCYpRT216.jpg"
     },
     "sk08": {
       "t": "The Scorpion King 2: Rise of a Warrior",
       "y": 2008,
-      "set": "Mathayus's youth"
+      "set": "Mathayus's youth",
+      "poster": "/osZ6HJJBPwptZLTXFYbGQ0Jc7WB.jpg"
     },
     "sk12": {
       "t": "The Scorpion King 3: Battle for Redemption",
       "y": 2012,
-      "set": "After the first film"
+      "set": "After the first film",
+      "poster": "/mFckPp0eU02Rqix62sqZDkIxFXd.jpg"
     },
     "sk15": {
       "t": "The Scorpion King 4: Quest for Power",
       "y": 2015,
-      "set": "After the first film"
+      "set": "After the first film",
+      "poster": "/yIvSKp0zM9AwmEdCataPogrBp31.jpg"
     },
     "sk18": {
       "t": "The Scorpion King: Book of Souls",
       "y": 2018,
-      "set": "After the first film"
+      "set": "After the first film",
+      "poster": "/mSviUMejPmerwoQxdj7wR4Ky1Fd.jpg"
     }
   },
   "release": [

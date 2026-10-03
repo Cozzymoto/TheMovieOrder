@@ -3,26 +3,31 @@
   "short": "Four films, two timelines",
   "hue": 140,
   "blurb": "A cult summer-camp slasher with one of horror's most notorious endings, two jokey sequels, and a belated sequel that pretends those never happened.",
+  "poster": "/icRAuGsmXl62Ns0qrTuo9uiP6U1.jpg",
   "films": {
     "sc83": {
       "t": "Sleepaway Camp",
       "y": 1983,
-      "set": "1983"
+      "set": "1983",
+      "poster": "/icRAuGsmXl62Ns0qrTuo9uiP6U1.jpg"
     },
     "sc88": {
       "t": "Sleepaway Camp II: Unhappy Campers",
       "y": 1988,
-      "set": "1988"
+      "set": "1988",
+      "poster": "/iXQNeUSB7pVLu4S3VRj9S3UFPrV.jpg"
     },
     "sc89": {
       "t": "Sleepaway Camp III: Teenage Wasteland",
       "y": 1989,
-      "set": "1989"
+      "set": "1989",
+      "poster": "/2YQFABNldAEdMVZOjfKUp4Ig4yp.jpg"
     },
     "sc08": {
       "t": "Return to Sleepaway Camp",
       "y": 2008,
-      "set": "2008"
+      "set": "2008",
+      "poster": "/p6V97pjGwN0fENR6mlBeUoAT73z.jpg"
     }
   },
   "release": [

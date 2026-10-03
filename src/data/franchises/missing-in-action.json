@@ -3,21 +3,25 @@
   "short": "Three films",
   "hue": 85,
   "blurb": "Chuck Norris goes back to Vietnam for American prisoners, then a prequel shows his own years in a prison camp.",
+  "poster": "/nBrDcnNQca88ed1gRwZ1Q5cjNxE.jpg",
   "films": {
     "mia84": {
       "t": "Missing in Action",
       "y": 1984,
-      "set": "1980s"
+      "set": "1980s",
+      "poster": "/nBrDcnNQca88ed1gRwZ1Q5cjNxE.jpg"
     },
     "mia85": {
       "t": "Missing in Action 2: The Beginning",
       "y": 1985,
-      "set": "1970s"
+      "set": "1970s",
+      "poster": "/vOgiL2KQYyTHJ225lT5QB5B9kO0.jpg"
     },
     "mia88": {
       "t": "Braddock: Missing in Action III",
       "y": 1988,
-      "set": "1980s"
+      "set": "1980s",
+      "poster": "/y8Gp0TAQr8Z2Cy4ROSYzvOiMEMf.jpg"
     }
   },
   "release": [

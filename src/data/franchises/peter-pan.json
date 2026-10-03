@@ -3,79 +3,92 @@
   "short": "Twelve films, six of them Tinker Bell prequels",
   "hue": 160,
   "blurb": "Disney's animated Peter Pan, a sequel, six Tinker Bell prequels, and four unrelated takes from a grown-up Peter to an origin story.",
+  "poster": "/fJJOs1iyrhKfZceANxoPxPwNGF1.jpg",
   "films": {
     "pp53": {
       "t": "Peter Pan",
       "y": 1953,
       "set": "Edwardian London",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/fJJOs1iyrhKfZceANxoPxPwNGF1.jpg"
     },
     "pp02": {
       "t": "Return to Never Land",
       "y": 2002,
       "set": "1940s London",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/wB3r2b8sxUZspqNyr8copMlt7se.jpg"
     },
     "tb08": {
       "t": "Tinker Bell",
       "y": 2008,
       "set": "Before Peter Pan",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/3Ma0r1n8kfH7UaQMS7bJ9KsYUjT.jpg"
     },
     "tb09": {
       "t": "Tinker Bell and the Lost Treasure",
       "y": 2009,
       "set": "Before Peter Pan",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/hg1959yuBkHb4BKbIvETQSfxGCT.jpg"
     },
     "tb10": {
       "t": "Tinker Bell and the Great Fairy Rescue",
       "y": 2010,
       "set": "Before Peter Pan",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/cb7PrVIYbwIadQqWxgSU6CGHJjj.jpg"
     },
     "tb12": {
       "t": "Secret of the Wings",
       "y": 2012,
       "set": "Before Peter Pan",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/aPudKEzwwmwc5lS8sdxvG3WX86t.jpg"
     },
     "tb14a": {
       "t": "The Pirate Fairy",
       "y": 2014,
       "set": "Before Peter Pan",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/81oxrsugqqs8sAVNX9fdlz57cVU.jpg"
     },
     "tb14b": {
       "t": "Tinker Bell and the Legend of the NeverBeast",
       "y": 2014,
       "set": "Before Peter Pan",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/3S0mmmpYStB3GqodRghcfOt81wQ.jpg"
     },
     "hook91": {
       "t": "Hook",
       "y": 1991,
       "set": "1990s",
-      "format": "live-action"
+      "format": "live-action",
+      "poster": "/a6rB1lGXoGms7gWxRfJneQmAjNV.jpg"
     },
     "pp03": {
       "t": "Peter Pan",
       "y": 2003,
       "set": "Edwardian London",
-      "format": "live-action"
+      "format": "live-action",
+      "poster": "/6QdU3TZZrIvXFzoHOwafZAynFjB.jpg"
     },
     "pan15": {
       "t": "Pan",
       "y": 2015,
       "set": "1940s London",
-      "format": "live-action"
+      "format": "live-action",
+      "poster": "/w8i0mZR7MEL7c3bXSsuYg7VJsew.jpg"
     },
     "ppw23": {
       "t": "Peter Pan & Wendy",
       "y": 2023,
       "set": "Edwardian London",
       "format": "live-action",
-      "remake": true
+      "remake": true,
+      "poster": "/9NXAlFEE7WDssbXSMgdacsUD58Y.jpg"
     }
   },
   "release": [

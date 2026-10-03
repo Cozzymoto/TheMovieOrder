@@ -3,31 +3,37 @@
   "short": "The main films",
   "hue": 15,
   "blurb": "The haunted house on Ocean Avenue: the 1979 hit, a prequel about the murders that came before it, and decades of loose follow-ups.",
+  "poster": "/7VMscq0659xKmcXzd86de1DGV4W.jpg",
   "films": {
     "am79": {
       "t": "The Amityville Horror",
       "y": 1979,
-      "set": "1975"
+      "set": "1975",
+      "poster": "/7VMscq0659xKmcXzd86de1DGV4W.jpg"
     },
     "am82": {
       "t": "Amityville II: The Possession",
       "y": 1982,
-      "set": "1974"
+      "set": "1974",
+      "poster": "/xx9K2m2Arr5EZUQtmggKtEK1f2a.jpg"
     },
     "am83": {
       "t": "Amityville 3-D",
       "y": 1983,
-      "set": "1980s"
+      "set": "1980s",
+      "poster": "/gYvFL6REedBvjTSzVAhyk5imJgq.jpg"
     },
     "am05": {
       "t": "The Amityville Horror",
       "y": 2005,
-      "set": "1975"
+      "set": "1975",
+      "poster": "/4D246dpe7yy2GvHI2IbpeqkUXry.jpg"
     },
     "am17": {
       "t": "Amityville: The Awakening",
       "y": 2017,
-      "set": "2017"
+      "set": "2017",
+      "poster": "/c9Nyu8YZfLsWWbze4DEGPbnwCcT.jpg"
     }
   },
   "release": [

@@ -3,66 +3,79 @@
   "short": "Twelve films, three continuities",
   "hue": 130,
   "blurb": "Daiei's flying, fire-breathing turtle: a run of colourful children's monster films, a far darker 1990s trilogy, and a gentle 2006 reboot.",
+  "poster": "/iwjp6qJaWNGOLDU9zzar0SMcPjl.jpg",
   "films": {
     "g65": {
       "t": "Gamera, the Giant Monster",
       "y": 1965,
-      "set": "—"
+      "set": "—",
+      "poster": "/iwjp6qJaWNGOLDU9zzar0SMcPjl.jpg"
     },
     "g66": {
       "t": "Gamera vs. Barugon",
       "y": 1966,
-      "set": "—"
+      "set": "—",
+      "poster": "/tXHVZDyeZPMtd3ggxZEpjmDIdWg.jpg"
     },
     "g67": {
       "t": "Gamera vs. Gyaos",
       "y": 1967,
-      "set": "—"
+      "set": "—",
+      "poster": "/sQFFSD4ie6BqbXX7GWre7OikqmD.jpg"
     },
     "g68": {
       "t": "Gamera vs. Viras",
       "y": 1968,
-      "set": "—"
+      "set": "—",
+      "poster": "/cVrmsX0O071tWBUQBtjSnIBFYk4.jpg"
     },
     "g69": {
       "t": "Gamera vs. Guiron",
       "y": 1969,
-      "set": "—"
+      "set": "—",
+      "poster": "/13Hn8vS45Ua0ex5dpVED5eQlqZi.jpg"
     },
     "g70": {
       "t": "Gamera vs. Jiger",
       "y": 1970,
-      "set": "—"
+      "set": "—",
+      "poster": "/4nIUsyeNTJXpsTi4Hc6Fkwr6y3l.jpg"
     },
     "g71": {
       "t": "Gamera vs. Zigra",
       "y": 1971,
-      "set": "—"
+      "set": "—",
+      "poster": "/nL7CjKEQlsegz9FstfkzI05eGXt.jpg"
     },
     "g80": {
       "t": "Gamera: Super Monster",
       "y": 1980,
-      "set": "—"
+      "set": "—",
+      "poster": "/A4NQ0diDbvrGtJHYjCEH8keAhZK.jpg"
     },
     "g95": {
       "t": "Gamera: Guardian of the Universe",
       "y": 1995,
-      "set": "—"
+      "set": "—",
+      "poster": "/iZ8yFxavjqsZXfZhkfPqrc4NauY.jpg"
     },
     "g96": {
       "t": "Gamera 2: Attack of Legion",
       "y": 1996,
-      "set": "—"
+      "set": "—",
+      "poster": "/xPBtoCLUN0raEKywuiSId6SSRAc.jpg"
     },
     "g99": {
       "t": "Gamera 3: Revenge of Iris",
       "y": 1999,
-      "set": "—"
+      "set": "—",
+      "poster": "/yeUzjv04YdWS3Er5m1gPJJS1D10.jpg"
     },
     "g06": {
       "t": "Gamera the Brave",
       "y": 2006,
-      "set": "—"
+      "set": "—",
+      "poster": "/l54UBF2L5eEULpaoXtHhs6ffHSQ.jpg"
     }
   },
   "release": [

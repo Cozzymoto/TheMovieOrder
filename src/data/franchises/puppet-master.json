@@ -3,81 +3,97 @@
   "short": "Fifteen films, three continuities",
   "hue": 280,
   "blurb": "Full Moon's killer-puppet series, which went backwards to the 1900s and the Second World War, contradicting itself along the way.",
+  "poster": "/zHc8auN3ewIXw3CzuwUzkdXFNyR.jpg",
   "films": {
     "pm89": {
       "t": "Puppet Master",
       "y": 1989,
-      "set": "1939 and present day"
+      "set": "1939 and present day",
+      "poster": "/zHc8auN3ewIXw3CzuwUzkdXFNyR.jpg"
     },
     "pm90": {
       "t": "Puppet Master II",
       "y": 1990,
-      "set": "Present day"
+      "set": "Present day",
+      "poster": "/dy5tzZFWFTjbNyG4KNP6yMjZ6l9.jpg"
     },
     "pm91": {
       "t": "Puppet Master III: Toulon's Revenge",
       "y": 1991,
-      "set": "1941"
+      "set": "1941",
+      "poster": "/rRzjn3XTt98bhrbAtSSGjV4MgM.jpg"
     },
     "pm93": {
       "t": "Puppet Master 4",
       "y": 1993,
-      "set": "Present day"
+      "set": "Present day",
+      "poster": "/fRIpNpZVL73MGJ7E2ZYt03tggeX.jpg"
     },
     "pm94": {
       "t": "Puppet Master 5: The Final Chapter",
       "y": 1994,
-      "set": "Present day"
+      "set": "Present day",
+      "poster": "/cqA1w7IwFCwA4fAD9R8vwOm1w5l.jpg"
     },
     "pm98": {
       "t": "Curse of the Puppet Master",
       "y": 1998,
-      "set": "Present day"
+      "set": "Present day",
+      "poster": "/5ILnKSbE9IwKj0b9dquTfUgjR23.jpg"
     },
     "pm99": {
       "t": "Retro Puppet Master",
       "y": 1999,
-      "set": "1902"
+      "set": "1902",
+      "poster": "/r4J5dCugH8ENtkFoNM0vNINDCBl.jpg"
     },
     "pm03": {
       "t": "Puppet Master: The Legacy",
       "y": 2003,
-      "set": "Present day"
+      "set": "Present day",
+      "poster": "/gMmSStLICth9rhfi697yzflmPWV.jpg"
     },
     "pm04": {
       "t": "Puppet Master vs Demonic Toys",
       "y": 2004,
-      "set": "Present day"
+      "set": "Present day",
+      "poster": "/zCjUOjIPOtu3gmEozedxrMY0gaB.jpg"
     },
     "pm10": {
       "t": "Puppet Master: Axis of Evil",
       "y": 2010,
-      "set": "Second World War"
+      "set": "Second World War",
+      "poster": "/xQ2gDpZIOFavS7WH3fq9uIxqiLf.jpg"
     },
     "pm12": {
       "t": "Puppet Master X: Axis Rising",
       "y": 2012,
-      "set": "Second World War"
+      "set": "Second World War",
+      "poster": "/aRKkCKwPCrXe3mZdCgLZnWy6wCn.jpg"
     },
     "pm17": {
       "t": "Puppet Master: Axis Termination",
       "y": 2017,
-      "set": "Second World War"
+      "set": "Second World War",
+      "poster": "/vSuRNNwX8wuO1DeEA1lghao6Tcj.jpg"
     },
     "pm18": {
       "t": "Puppet Master: The Littlest Reich",
       "y": 2018,
-      "set": "Present day"
+      "set": "Present day",
+      "poster": "/85r4oIFdr065RXpRHINjjkXEBkN.jpg"
     },
     "pm20": {
       "t": "Blade: The Iron Cross",
       "y": 2020,
-      "set": "Second World War"
+      "set": "Second World War",
+      "poster": "/diEqF0ewIr0hPBH1syCzpKitwBr.jpg"
     },
     "pm22": {
       "t": "Puppet Master: Doktor Death",
       "y": 2022,
-      "set": "Present day"
+      "set": "Present day",
+      "poster": "/bXyrjIQEONIaz6FBjfhjY8y8XYf.jpg"
     }
   },
   "release": [

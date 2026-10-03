@@ -3,37 +3,43 @@
   "short": "Five films, two continuities",
   "hue": 190,
   "blurb": "The 2002 original, three follow-ups that arrived out of order around a TV series, and the 2025 live-action remake.",
+  "poster": "/cFuLvQJPoZpuruAtN3rVnMmLIH8.jpg",
   "films": {
     "ls02": {
       "t": "Lilo & Stitch",
       "y": 2002,
       "set": "—",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/cFuLvQJPoZpuruAtN3rVnMmLIH8.jpg"
     },
     "ls03": {
       "t": "Stitch! The Movie",
       "y": 2003,
       "set": "After Stitch Has a Glitch",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/flwMGZcOO80lqsnZ6lIwsKja5N.jpg"
     },
     "ls05": {
       "t": "Lilo & Stitch 2: Stitch Has a Glitch",
       "y": 2005,
       "set": "Shortly after the original",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/p2R4mhZcikWEBlqv80VfJ7M9xql.jpg"
     },
     "ls06": {
       "t": "Leroy & Stitch",
       "y": 2006,
       "set": "After the TV series",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/1LCfRArffse3PnqkACooOHkWcry.jpg"
     },
     "ls25": {
       "t": "Lilo & Stitch",
       "y": 2025,
       "set": "—",
       "format": "live-action",
-      "remake": true
+      "remake": true,
+      "poster": "/ckQzKpQJO4ZQDCN5evdpKcfm7Ys.jpg"
     }
   },
   "release": [

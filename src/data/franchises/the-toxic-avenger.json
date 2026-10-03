@@ -3,31 +3,37 @@
   "short": "Five films, three timelines",
   "hue": 100,
   "blurb": "Troma's gross-out superhero: the 1984 original, two sequels shot as one film, a fourth that ignores them, and a 2023 remake.",
+  "poster": "/vuxRW5GKuCnKvdYlUAYNxlicm54.jpg",
   "films": {
     "ta84": {
       "t": "The Toxic Avenger",
       "y": 1984,
-      "set": "1980s"
+      "set": "1980s",
+      "poster": "/vuxRW5GKuCnKvdYlUAYNxlicm54.jpg"
     },
     "ta89a": {
       "t": "The Toxic Avenger Part II",
       "y": 1989,
-      "set": "1980s"
+      "set": "1980s",
+      "poster": "/m5o7B3VSAjvinjtSYxXD38senvb.jpg"
     },
     "ta89b": {
       "t": "The Toxic Avenger Part III: The Last Temptation of Toxie",
       "y": 1989,
-      "set": "1980s"
+      "set": "1980s",
+      "poster": "/2jb84AnOjaYuhR2vaWkAOfItP9B.jpg"
     },
     "ta00": {
       "t": "Citizen Toxie: The Toxic Avenger IV",
       "y": 2000,
-      "set": "2000"
+      "set": "2000",
+      "poster": "/wR4VvqrRd2r9M4GYXPnoV02aUNG.jpg"
     },
     "ta23": {
       "t": "The Toxic Avenger",
       "y": 2023,
-      "set": "Present day"
+      "set": "Present day",
+      "poster": "/cCWojb6N9UcTzNVtS4bOM3vQ30x.jpg"
     }
   },
   "release": [
