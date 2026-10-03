@@ -55,6 +55,7 @@ const jsonld = {
         {moved
           ? <div><strong>{moved}</strong><span>films change position</span></div>
           : <div><strong>Same</strong><span>in both orders</span></div>}
+        {parts.length > 1 && <div><strong>{parts.length}</strong><span>separate continuities</span></div>}
       </div>
     </header>
 
@@ -76,6 +77,7 @@ const jsonld = {
         {parts.map(part => (
         <>
         {part.title && <h2 class="path-group">{part.title} <span>{part.release.length} {part.release.length === 1 ? 'film' : 'films'}</span></h2>}
+        {part.note && <p class="path-group__note">{part.note}</p>}
         <ol class="path">
           {part[list.key].map((id, i) => {
             const m = f.films[id];

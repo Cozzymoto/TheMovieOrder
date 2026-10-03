@@ -74,5 +74,33 @@
     "r21",
     "r26"
   ],
+  "groups": [
+    {
+      "title": "The Milla Jovovich films",
+      "note": "Six films following Alice in one straight line.",
+      "films": [
+        "r02",
+        "r04",
+        "r07",
+        "r10",
+        "r12",
+        "r16"
+      ]
+    },
+    {
+      "title": "The 2021 reboot",
+      "note": "Restarts from the games, with no link to the Alice films.",
+      "films": [
+        "r21"
+      ]
+    },
+    {
+      "title": "The 2026 reboot",
+      "note": "A third fresh start, with new characters in Raccoon City in 1998.",
+      "films": [
+        "r26"
+      ]
+    }
+  ],
   "note": "Welcome to Raccoon City is a reboot that follows the games closely and shares no continuity with the six films before it, despite being set earliest. Resident Evil (2026) is a third fresh start, with new characters caught in Raccoon City during the 1998 outbreak."
 }

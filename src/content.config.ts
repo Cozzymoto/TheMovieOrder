@@ -42,6 +42,7 @@ const franchises = defineCollection({
     // chrono still hold the order, and each section shows its own films in it.
     groups: z.array(z.object({
       title: z.string().min(1),
+      note: z.string().min(1).optional(),   // e.g. "Follows Halloween II and ignores parts 4 to 6"
       films: z.array(z.string()).min(1)
     })).min(2).optional(),
     note: z.string().optional()

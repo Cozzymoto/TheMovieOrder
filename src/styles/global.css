@@ -658,3 +658,5 @@ html[data-region="us"] [data-r="uk"]{display:none !important}
   font-size:var(--step--1);padding:.15rem .6rem;color:var(--graphite);
 }
 .region-switch button[aria-pressed="true"]{border-color:var(--ink);color:var(--ink);font-weight:600}
+
+.path-group__note{margin:-.4rem 0 .9rem;color:var(--graphite);font-size:var(--step--1);max-width:62ch}

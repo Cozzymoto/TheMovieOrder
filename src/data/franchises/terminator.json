@@ -58,5 +58,37 @@
     "sal",
     "dark"
   ],
+  "groups": [
+    {
+      "title": "The first two films",
+      "note": "Every later film follows on from these.",
+      "films": [
+        "t1",
+        "t2"
+      ]
+    },
+    {
+      "title": "Rise of the Machines and Salvation",
+      "note": "One continuation of Judgment Day.",
+      "films": [
+        "t3",
+        "sal"
+      ]
+    },
+    {
+      "title": "Genisys",
+      "note": "Rewrites the first film into a new timeline.",
+      "films": [
+        "gen"
+      ]
+    },
+    {
+      "title": "Dark Fate",
+      "note": "Another continuation of Judgment Day, ignoring the three films before it.",
+      "films": [
+        "dark"
+      ]
+    }
+  ],
   "note": "Dark Fate is a direct sequel to Judgment Day and ignores the three films in between. If you want one clean story, watch The Terminator, Judgment Day and Dark Fate, and treat the rest as alternatives."
 }

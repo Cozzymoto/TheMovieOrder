@@ -1,8 +1,8 @@
 {
   "title": "Halloween",
-  "short": "All 13 films, three timelines",
+  "short": "All 13 films, five timelines",
   "hue": 24,
-  "blurb": "The most forked series in horror. Three separate continuities all branch from the 1978 original, and two of them pretend the others never happened.",
+  "blurb": "The most forked series in horror. Three timelines branch from the 1978 original, two of them pretending the others never happened, plus a remake and a standalone with no Michael Myers.",
   "poster": "/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
   "films": {
     "h78": {
@@ -114,5 +114,50 @@
     "z09",
     "h82"
   ],
-  "note": "There is no single correct order here. The 2018 film ignores everything after 1978; H20 ignores parts 4 to 6; the Rob Zombie films are a separate remake line; and Halloween III has nothing to do with Michael Myers at all. Our chronological path follows the original line, then the 2018 line, then the remakes, with Halloween III last as the standalone it is."
+  "groups": [
+    {
+      "title": "The original timeline",
+      "note": "Michael Myers from 1978 to 1995, carried on by Halloween 4 to 6.",
+      "films": [
+        "h78",
+        "h81",
+        "h88",
+        "h89",
+        "h95"
+      ]
+    },
+    {
+      "title": "Halloween III",
+      "note": "A standalone story with no Michael Myers at all.",
+      "films": [
+        "h82"
+      ]
+    },
+    {
+      "title": "The H20 timeline",
+      "note": "Follows Halloween II and ignores parts 4 to 6.",
+      "films": [
+        "h98",
+        "h02"
+      ]
+    },
+    {
+      "title": "Rob Zombie's remakes",
+      "note": "A fresh retelling, unconnected to anything else.",
+      "films": [
+        "z07",
+        "z09"
+      ]
+    },
+    {
+      "title": "The 2018 trilogy",
+      "note": "Follows the 1978 film only and ignores every other sequel.",
+      "films": [
+        "h18",
+        "h21",
+        "h22"
+      ]
+    }
+  ],
+  "note": "There is no single correct order here, so each timeline is its own section. The 1978 film is the starting point for the original timeline, the H20 timeline and the 2018 trilogy; watch it first, then pick a branch. Halloween III has nothing to do with Michael Myers and can be watched any time."
 }

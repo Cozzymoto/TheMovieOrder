@@ -52,7 +52,7 @@ const jsonld = {
                     <span class={`om-verdict om-verdict--${e.verdict}`}>{label[e.verdict]}</span>
                   </div>
                   <p>{e.why}</p>
-                  <small>{e.moved} of {e.films} films change place</small>
+                  <small>{e.f.groups ? `${e.films} films across ${e.f.groups.length} separate continuities` : `${e.moved} of ${e.films} films change place`}</small>
                 </div>
               </a>
             </li>

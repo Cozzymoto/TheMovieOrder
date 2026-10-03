@@ -82,5 +82,32 @@
     "m21",
     "m26"
   ],
+  "groups": [
+    {
+      "title": "Tobey Maguire's trilogy",
+      "films": [
+        "r02",
+        "r04",
+        "r07"
+      ]
+    },
+    {
+      "title": "Andrew Garfield's films",
+      "films": [
+        "w12",
+        "w14"
+      ]
+    },
+    {
+      "title": "Tom Holland's MCU films",
+      "note": "No Way Home brings back the two Spider-Men before him.",
+      "films": [
+        "m17",
+        "m19",
+        "m21",
+        "m26"
+      ]
+    }
+  ],
   "note": "These are three unconnected continuities, not one timeline — so release order is also the only sensible order. No Way Home depends on having met all three, which is exactly why it lands the way it does. The Marvel films also sit inside the wider MCU. Brand New Day picks up four years after No Way Home."
 }

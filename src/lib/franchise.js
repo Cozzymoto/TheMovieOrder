@@ -26,7 +26,7 @@ export async function byTitle(){ return allFranchises(); }
 export function sections(f){
   if (!f.groups) return [{ title: null, release: f.release, chrono: f.chrono }];
   return f.groups
-    .map(g => ({ title: g.title, release: f.release.filter(id => g.films.includes(id)), chrono: f.chrono.filter(id => g.films.includes(id)) }))
+    .map(g => ({ title: g.title, note: g.note, release: f.release.filter(id => g.films.includes(id)), chrono: f.chrono.filter(id => g.films.includes(id)) }))
     .sort((a, b) => f.release.indexOf(a.release[0]) - f.release.indexOf(b.release[0]));
 }
 
