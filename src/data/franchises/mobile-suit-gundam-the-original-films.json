@@ -1,8 +1,8 @@
 {
-  "title": "Mobile Suit Gundam: The Original Films",
-  "short": "Four films",
+  "title": "Mobile Suit Gundam: The Universal Century Films",
+  "short": "All 14 Universal Century films",
   "hue": 210,
-  "blurb": "Three compilation films of the 1979 series, and a fully original sequel.",
+  "blurb": "Forty-four years of war in space, from the One Year War in UC 0079 to F91 in 0123: compilation films of the TV series, side stories and fully original sequels, released almost entirely out of order.",
   "poster": "/kzyMAqagPK6wuvDzA5FeJU6n71Y.jpg",
   "films": {
     "mobilesuit81": {
@@ -28,19 +28,89 @@
       "y": 1988,
       "set": "UC 0093",
       "poster": "/8I8gWpTtzMLt2lBlBoS7lM436nA.jpg"
+    },
+    "doan22": {
+      "t": "Mobile Suit Gundam: Cucuruz Doan's Island",
+      "y": 2022,
+      "set": "UC 0079"
+    },
+    "miller98": {
+      "t": "Mobile Suit Gundam: The 08th MS Team – Miller's Report",
+      "y": 1998,
+      "set": "UC 0079"
+    },
+    "blitz92": {
+      "t": "Mobile Suit Gundam 0083: The Last Blitz of Zeon",
+      "y": 1992,
+      "set": "UC 0083"
+    },
+    "zeta05a": {
+      "t": "Mobile Suit Zeta Gundam: A New Translation – Heirs to the Stars",
+      "y": 2005,
+      "set": "UC 0087"
+    },
+    "zeta05b": {
+      "t": "Mobile Suit Zeta Gundam: A New Translation II – Lovers",
+      "y": 2005,
+      "set": "UC 0087"
+    },
+    "zeta06": {
+      "t": "Mobile Suit Zeta Gundam: A New Translation III – Love Is the Pulse of the Stars",
+      "y": 2006,
+      "set": "UC 0087–0088"
+    },
+    "f91": {
+      "t": "Mobile Suit Gundam F91",
+      "y": 1991,
+      "set": "UC 0123"
+    },
+    "nt18": {
+      "t": "Mobile Suit Gundam Narrative",
+      "y": 2018,
+      "set": "UC 0097"
+    },
+    "hath21": {
+      "t": "Mobile Suit Gundam: Hathaway",
+      "y": 2021,
+      "set": "UC 0105"
+    },
+    "hath26": {
+      "t": "Mobile Suit Gundam Hathaway: The Sorcery of Nymph Circe",
+      "y": 2026,
+      "set": "UC 0105"
     }
   },
   "release": [
     "mobilesuit81",
     "mobilesuit81b",
     "mobilesuit82",
-    "mobilesuit88"
+    "mobilesuit88",
+    "f91",
+    "blitz92",
+    "miller98",
+    "zeta05a",
+    "zeta05b",
+    "zeta06",
+    "nt18",
+    "hath21",
+    "doan22",
+    "hath26"
   ],
   "chrono": [
     "mobilesuit81",
+    "doan22",
     "mobilesuit81b",
+    "miller98",
     "mobilesuit82",
-    "mobilesuit88"
+    "blitz92",
+    "zeta05a",
+    "zeta05b",
+    "zeta06",
+    "mobilesuit88",
+    "nt18",
+    "hath21",
+    "hath26",
+    "f91"
   ],
-  "note": "The trilogy condenses the original series and is the usual entry point. Char's Counterattack is set fourteen years later and assumes a great deal."
+  "note": "The original trilogy condenses the 1979 series and is the place to start. Cucuruz Doan's Island and Miller's Report are side stories set during it. The Last Blitz of Zeon and the Zeta films condense later TV and video series, so they move fast. Mobile Suit Gundam Unicorn, a video series set in 0096, has no film version, and Narrative follows straight on from it. F91 came out in 1991 but is set furthest ahead, thirty years after Char's Counterattack."
 }
