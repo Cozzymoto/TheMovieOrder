@@ -9,25 +9,29 @@
       "t": "The Addams Family",
       "y": 1991,
       "set": "1991",
-      "poster": "/qFf8anju5f2epI0my8RdwwIXFIP.jpg"
+      "poster": "/qFf8anju5f2epI0my8RdwwIXFIP.jpg",
+      "format": "live-action"
     },
     "addamsfamily93": {
       "t": "Addams Family Values",
       "y": 1993,
       "set": "1993",
-      "poster": "/sdxT2VjVSx9DRicwnuECUdBHeE7.jpg"
+      "poster": "/sdxT2VjVSx9DRicwnuECUdBHeE7.jpg",
+      "format": "live-action"
     },
     "theaddams19": {
       "t": "The Addams Family",
       "y": 2019,
       "set": "—",
-      "poster": "/q1epO0eO8DWu8Vo8tPfvVlzW48T.jpg"
+      "poster": "/q1epO0eO8DWu8Vo8tPfvVlzW48T.jpg",
+      "format": "animated"
     },
     "theaddams21": {
       "t": "The Addams Family 2",
       "y": 2021,
       "set": "—",
-      "poster": "/ld7YB9vBRp1GM1DT3KmFWSmtBPB.jpg"
+      "poster": "/ld7YB9vBRp1GM1DT3KmFWSmtBPB.jpg",
+      "format": "animated"
     }
   },
   "release": [

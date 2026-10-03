@@ -10,6 +10,7 @@ export async function getStaticPaths(){
   return all.map(f => ({ params: { slug: f.slug }, props: { f } }));
 }
 const { f } = Astro.props;
+const formatLabel = { 'animated': 'Animated', 'live-action': 'Live-action', 'photoreal': 'Photoreal CGI' };
 const relatedGroups = await related(f.slug);
 const moved = f.release.filter((id, i) => f.chrono.indexOf(id) !== i).length;
 
@@ -74,6 +75,12 @@ const jsonld = {
                 <Poster hue={f.hue} label={shortTitle(m.t)} poster={m.poster} size="w154" />
                 <div class="row__body">
                   <h3 class="row__t">{m.t} <span class="row__y">{m.y}</span></h3>
+                  {(m.format || m.remake) && (
+                    <p class="row__tags">
+                      {m.format && <span class={`tag tag--${m.format}`}>{formatLabel[m.format]}</span>}
+                      {m.remake && <span class="tag tag--remake">Remake</span>}
+                    </p>
+                  )}
                   <p class="row__meta">
                     Set {m.set}
                     {otherPos !== i + 1 && <> · <span class="row__moved">{list.otherName} order #{otherPos}</span></>}

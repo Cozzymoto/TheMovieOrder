@@ -628,3 +628,13 @@ button{font:inherit;color:inherit}
 .om-verdict--chrono{background:var(--ink);border-color:var(--ink);color:var(--paper)}
 .om-verdict--pick{border-color:var(--ink);color:var(--ink)}
 .om-foot{margin:3rem 0 0}
+
+/* Format labels on film rows (only where a franchise mixes animation and live action) */
+.row__tags{display:flex;flex-wrap:wrap;gap:.35rem;margin:.3rem 0 .15rem}
+.tag{
+  font-size:.6875rem;font-weight:600;letter-spacing:.03em;line-height:1;
+  border-radius:999px;padding:.28rem .55rem;border:1px solid var(--hairline);color:var(--graphite);
+}
+.tag--animated{border-color:var(--ink);color:var(--ink)}
+.tag--photoreal{border-style:dashed;border-color:var(--ink);color:var(--ink)}
+.tag--remake{background:var(--red-wash);border-color:transparent;color:var(--red)}

@@ -9,43 +9,50 @@
       "t": "Teenage Mutant Ninja Turtles",
       "y": 1990,
       "set": "—",
-      "poster": "/shfAU6xIIEAEtsloIT3n9Fscz2E.jpg"
+      "poster": "/shfAU6xIIEAEtsloIT3n9Fscz2E.jpg",
+      "format": "live-action"
     },
     "teenagemutant91": {
       "t": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
       "y": 1991,
       "set": "—",
-      "poster": "/Hyvvz9Z3le1is8a0EeFJQm0aSC.jpg"
+      "poster": "/Hyvvz9Z3le1is8a0EeFJQm0aSC.jpg",
+      "format": "live-action"
     },
     "teenagemutant93": {
       "t": "Teenage Mutant Ninja Turtles III",
       "y": 1993,
       "set": "—",
-      "poster": "/fwX5RdPDBFsbEAXc46DrvRz5Bca.jpg"
+      "poster": "/fwX5RdPDBFsbEAXc46DrvRz5Bca.jpg",
+      "format": "live-action"
     },
     "tmnt07": {
       "t": "TMNT",
       "y": 2007,
       "set": "—",
-      "poster": "/4gqJP2kr9dCvCHCrCjtbp1k0SU7.jpg"
+      "poster": "/4gqJP2kr9dCvCHCrCjtbp1k0SU7.jpg",
+      "format": "animated"
     },
     "teenagemutant14": {
       "t": "Teenage Mutant Ninja Turtles",
       "y": 2014,
       "set": "—",
-      "poster": "/azL2ThbJMIkts3ZMt3j1YgBUeDB.jpg"
+      "poster": "/azL2ThbJMIkts3ZMt3j1YgBUeDB.jpg",
+      "format": "live-action"
     },
     "teenagemutant16": {
       "t": "Teenage Mutant Ninja Turtles: Out of the Shadows",
       "y": 2016,
       "set": "—",
-      "poster": "/euVaCiCWz3AALcQXHT6aUqdGUo6.jpg"
+      "poster": "/euVaCiCWz3AALcQXHT6aUqdGUo6.jpg",
+      "format": "live-action"
     },
     "teenagemutant23": {
       "t": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
       "y": 2023,
       "set": "—",
-      "poster": "/gyh0eECE2IqrW8GWl3KoHBfc45j.jpg"
+      "poster": "/gyh0eECE2IqrW8GWl3KoHBfc45j.jpg",
+      "format": "animated"
     }
   },
   "release": [

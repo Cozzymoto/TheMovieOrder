@@ -9,19 +9,23 @@
       "t": "Ghost in the Shell",
       "y": 1995,
       "set": "2029",
-      "poster": "/9gC88zYUBARRSThcG93MvW14sqx.jpg"
+      "poster": "/9gC88zYUBARRSThcG93MvW14sqx.jpg",
+      "format": "animated"
     },
     "ghostin04": {
       "t": "Ghost in the Shell 2: Innocence",
       "y": 2004,
       "set": "2032",
-      "poster": "/1ZJRbLDVr90KLtKdmTT4WZhT26E.jpg"
+      "poster": "/1ZJRbLDVr90KLtKdmTT4WZhT26E.jpg",
+      "format": "animated"
     },
     "ghostin17": {
       "t": "Ghost in the Shell",
       "y": 2017,
       "set": "—",
-      "poster": "/zCtL3UBgCoZzd7XTVGhvl6XY75E.jpg"
+      "poster": "/zCtL3UBgCoZzd7XTVGhvl6XY75E.jpg",
+      "format": "live-action",
+      "remake": true
     }
   },
   "release": [

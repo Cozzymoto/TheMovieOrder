@@ -9,19 +9,23 @@
       "t": "Moana",
       "y": 2016,
       "set": "—",
-      "poster": "/4JeejGugONWpJkbnvL12hVoYEDa.jpg"
+      "poster": "/4JeejGugONWpJkbnvL12hVoYEDa.jpg",
+      "format": "animated"
     },
     "moana224": {
       "t": "Moana 2",
       "y": 2024,
       "set": "—",
-      "poster": "/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg"
+      "poster": "/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
+      "format": "animated"
     },
     "moana26": {
       "t": "Moana",
       "y": 2026,
       "set": "—",
-      "poster": "/gaet1xQ2nxrG0V1Ep9T20ZMNEIC.jpg"
+      "poster": "/gaet1xQ2nxrG0V1Ep9T20ZMNEIC.jpg",
+      "format": "live-action",
+      "remake": true
     }
   },
   "release": [

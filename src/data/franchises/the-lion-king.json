@@ -9,31 +9,37 @@
       "t": "The Lion King",
       "y": 1994,
       "set": "—",
-      "poster": "/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg"
+      "poster": "/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+      "format": "animated"
     },
     "thelion98": {
       "t": "The Lion King II: Simba's Pride",
       "y": 1998,
       "set": "—",
-      "poster": "/sWR1x6UCMCGN9xEf8RGhPS934X0.jpg"
+      "poster": "/sWR1x6UCMCGN9xEf8RGhPS934X0.jpg",
+      "format": "animated"
     },
     "thelion04": {
       "t": "The Lion King 1½",
       "y": 2004,
       "set": "Before & during the original",
-      "poster": "/u2hN0WT7Dz46HfhQbr6uzSYfVW4.jpg"
+      "poster": "/u2hN0WT7Dz46HfhQbr6uzSYfVW4.jpg",
+      "format": "animated"
     },
     "thelion19": {
       "t": "The Lion King",
       "y": 2019,
       "set": "—",
-      "poster": "/dzBtMocZuJbjLOXvrl4zGYigDzh.jpg"
+      "poster": "/dzBtMocZuJbjLOXvrl4zGYigDzh.jpg",
+      "format": "photoreal",
+      "remake": true
     },
     "mufasathe24": {
       "t": "Mufasa: The Lion King",
       "y": 2024,
       "set": "Before the 2019 film",
-      "poster": "/jbOSUAWMGzGL1L4EaUF8K6zYFo7.jpg"
+      "poster": "/jbOSUAWMGzGL1L4EaUF8K6zYFo7.jpg",
+      "format": "photoreal"
     }
   },
   "release": [

@@ -9,19 +9,22 @@
       "t": "Garfield: The Movie",
       "y": 2004,
       "set": "2004",
-      "poster": "/vqwTSWNLyH55g8kBT61s2DgNYEp.jpg"
+      "poster": "/vqwTSWNLyH55g8kBT61s2DgNYEp.jpg",
+      "format": "live-action"
     },
     "garfielda06": {
       "t": "Garfield: A Tail of Two Kitties",
       "y": 2006,
       "set": "2006",
-      "poster": "/O2j1bwErQ6bbBVZM5Vxg3Tsoir.jpg"
+      "poster": "/O2j1bwErQ6bbBVZM5Vxg3Tsoir.jpg",
+      "format": "live-action"
     },
     "thegarfield24": {
       "t": "The Garfield Movie",
       "y": 2024,
       "set": "—",
-      "poster": "/p6AbOJvMQhBmffd0PIv0u8ghWeY.jpg"
+      "poster": "/p6AbOJvMQhBmffd0PIv0u8ghWeY.jpg",
+      "format": "animated"
     }
   },
   "release": [

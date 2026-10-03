@@ -12,7 +12,11 @@ const film = z.object({
   t: z.string().min(1, 'film needs a title'),
   y: z.number().int().min(1880).max(2100),
   set: z.string().min(1, 'film needs a "set" note — use "—" if there is nothing useful to say'),
-  poster: z.string().regex(/^(https?:\/\/|\/)/, 'poster must be a TMDB path (/abc.jpg), your own file (/img/name.jpg), or a full https address').optional()
+  poster: z.string().regex(/^(https?:\/\/|\/)/, 'poster must be a TMDB path (/abc.jpg), your own file (/img/name.jpg), or a full https address').optional(),
+  // Only needed where a franchise mixes animated and live-action films:
+  // each film then gets a small label on its row.
+  format: z.enum(['animated', 'live-action', 'photoreal']).optional(),
+  remake: z.boolean().optional()
 });
 
 const franchises = defineCollection({

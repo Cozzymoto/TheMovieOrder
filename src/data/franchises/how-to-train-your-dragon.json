@@ -9,25 +9,30 @@
       "t": "How to Train Your Dragon",
       "y": 2010,
       "set": "—",
-      "poster": "/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg"
+      "poster": "/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg",
+      "format": "animated"
     },
     "h14": {
       "t": "How to Train Your Dragon 2",
       "y": 2014,
       "set": "5 years later",
-      "poster": "/d13Uj86LdbDLrfDoHR5aDOFYyJC.jpg"
+      "poster": "/d13Uj86LdbDLrfDoHR5aDOFYyJC.jpg",
+      "format": "animated"
     },
     "h19": {
       "t": "How to Train Your Dragon: The Hidden World",
       "y": 2019,
       "set": "1 year later",
-      "poster": "/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg"
+      "poster": "/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg",
+      "format": "animated"
     },
     "h25": {
       "t": "How to Train Your Dragon",
       "y": 2025,
       "set": "Remake",
-      "poster": "/53dsJ3oEnBhTBVMigWJ9tkA5bzJ.jpg"
+      "poster": "/53dsJ3oEnBhTBVMigWJ9tkA5bzJ.jpg",
+      "format": "live-action",
+      "remake": true
     }
   },
   "release": [
