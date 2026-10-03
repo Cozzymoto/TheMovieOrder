@@ -32,9 +32,29 @@ const franchises = defineCollection({
     films: z.record(film).refine(o => Object.keys(o).length > 0, 'needs at least one film'),
     release: z.array(z.string()).min(1),
     chrono: z.array(z.string()).min(1),
+    // Optional: split the page into sections, e.g. the animated films and the
+    // live-action remake. Each film belongs to exactly one group; release and
+    // chrono still hold the order, and each section shows its own films in it.
+    groups: z.array(z.object({
+      title: z.string().min(1),
+      films: z.array(z.string()).min(1)
+    })).min(2).optional(),
     note: z.string().optional()
   }).superRefine((f, ctx) => {
     const ids = Object.keys(f.films);
+
+    if (f.groups) {
+      const grouped = f.groups.flatMap(g => g.films);
+      const missing = ids.filter(id => !grouped.includes(id));
+      const unknown = grouped.filter(id => !ids.includes(id));
+      const dupes = grouped.filter((id, i) => grouped.indexOf(id) !== i);
+      if (missing.length) ctx.addIssue({ code: 'custom',
+        message: `"groups" leaves out ${missing.join(', ')} — every film needs a group` });
+      if (unknown.length) ctx.addIssue({ code: 'custom',
+        message: `"groups" lists ${unknown.join(', ')}, which is not in "films" — typo?` });
+      if (dupes.length) ctx.addIssue({ code: 'custom',
+        message: `"groups" puts ${dupes.join(', ')} in more than one group` });
+    }
 
     // The silent killer: a film in one ordering but not the other.
     for (const [name, list] of [['release', f.release], ['chrono', f.chrono]] as const) {

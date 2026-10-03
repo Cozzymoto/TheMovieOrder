@@ -638,3 +638,12 @@ button{font:inherit;color:inherit}
 .tag--animated{border-color:var(--ink);color:var(--ink)}
 .tag--photoreal{border-style:dashed;border-color:var(--ink);color:var(--ink)}
 .tag--remake{background:var(--red-wash);border-color:transparent;color:var(--red)}
+
+/* Sections within a franchise page (e.g. the animated films / the live-action remake) */
+.path-group{
+  font-family:var(--f-display);font-variation-settings:"wdth" 84;font-weight:800;
+  font-size:var(--step-2);letter-spacing:-0.01em;margin:2.25rem 0 .75rem;
+  display:flex;align-items:baseline;gap:.6rem;
+}
+.path-group span{font-family:var(--f-text);font-size:var(--step--1);font-weight:500;color:var(--graphite);letter-spacing:0}
+.path-set > .path-group:first-child{margin-top:1.25rem}

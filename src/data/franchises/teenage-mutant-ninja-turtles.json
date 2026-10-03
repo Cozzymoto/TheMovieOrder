@@ -73,5 +73,34 @@
     "teenagemutant16",
     "teenagemutant23"
   ],
+  "groups": [
+    {
+      "title": "The original live-action trilogy",
+      "films": [
+        "teenagemutant90",
+        "teenagemutant91",
+        "teenagemutant93"
+      ]
+    },
+    {
+      "title": "The 2007 animated film",
+      "films": [
+        "tmnt07"
+      ]
+    },
+    {
+      "title": "The 2014 live-action reboot",
+      "films": [
+        "teenagemutant14",
+        "teenagemutant16"
+      ]
+    },
+    {
+      "title": "The 2023 animated reboot",
+      "films": [
+        "teenagemutant23"
+      ]
+    }
+  ],
   "note": "TMNT (2007) is loosely a continuation of the original trilogy. The 2014 and 2023 films are separate reboots."
 }

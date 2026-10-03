@@ -211,5 +211,42 @@
     "pokmon19b",
     "pokmon20"
   ],
+  "groups": [
+    {
+      "title": "The animated films",
+      "films": [
+        "pokmon98",
+        "pokmon99",
+        "pokmon00",
+        "pokmon01",
+        "pokmon02",
+        "pokmon03",
+        "pokmon04",
+        "pokmon05",
+        "pokmon06",
+        "pokmon07",
+        "pokmon08",
+        "pokmon09",
+        "pokmon10",
+        "pokmon11",
+        "pokmon11b",
+        "pokmon12",
+        "pokmon13",
+        "pokmon14",
+        "pokmon15",
+        "pokmon16",
+        "pokmon17",
+        "pokmon18",
+        "pokmon19",
+        "pokmon20"
+      ]
+    },
+    {
+      "title": "The live-action spin-off",
+      "films": [
+        "pokmon19b"
+      ]
+    }
+  ],
   "note": "Almost every film is self-contained, so the order rarely matters. Three exceptions are worth knowing. Black and White are the same film with different legendary Pokémon — pick one. I Choose You!, The Power of Us and Secrets of the Jungle are set in a separate continuity from the television series. And Mewtwo Strikes Back - Evolution is a computer-animated remake of the 1998 original rather than a new story. Detective Pikachu is live action and unconnected to any of them."
 }

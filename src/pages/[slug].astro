@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Poster from '../components/Poster.astro';
 import Card from '../components/Card.astro';
-import { allFranchises, related } from '../lib/franchise.js';
+import { allFranchises, related, sections, movedCount } from '../lib/franchise.js';
 import { watchURL, buyURL, shortTitle, yearSpan } from '../config.js';
 
 export async function getStaticPaths(){
@@ -12,11 +12,12 @@ export async function getStaticPaths(){
 const { f } = Astro.props;
 const formatLabel = { 'animated': 'Animated', 'live-action': 'Live-action', 'photoreal': 'Photoreal CGI' };
 const relatedGroups = await related(f.slug);
-const moved = f.release.filter((id, i) => f.chrono.indexOf(id) !== i).length;
+const moved = movedCount(f);
+const parts = sections(f);
 
-const lists = [
-  { mode: 'release', order: f.release, other: f.chrono, otherName: 'Chronological' },
-  { mode: 'chrono',  order: f.chrono,  other: f.release, otherName: 'Release' }
+const modes = [
+  { mode: 'release', key: 'release', otherKey: 'chrono', otherName: 'Chronological' },
+  { mode: 'chrono',  key: 'chrono',  otherKey: 'release', otherName: 'Release' }
 ];
 
 const description = `The full ${f.title} watch order — all ${f.release.length} films in release order and in-universe chronological order, with where to watch each one.`;
@@ -64,11 +65,15 @@ const jsonld = {
         </div>
       </div>
 
-      {lists.map(list => (
-        <ol class={`path path--${list.mode}`}>
-          {list.order.map((id, i) => {
+      {modes.map(list => (
+        <div class={`path-set path--${list.mode}`}>
+        {parts.map(part => (
+        <>
+        {part.title && <h2 class="path-group">{part.title} <span>{part.release.length} {part.release.length === 1 ? 'film' : 'films'}</span></h2>}
+        <ol class="path">
+          {part[list.key].map((id, i) => {
             const m = f.films[id];
-            const otherPos = list.other.indexOf(id) + 1;
+            const otherPos = part[list.otherKey].indexOf(id) + 1;
             return (
               <li class="row" data-id={id} data-watched="false">
                 <div class="row__n">{i + 1}</div>
@@ -97,6 +102,9 @@ const jsonld = {
             );
           })}
         </ol>
+        </>
+        ))}
+        </div>
       ))}
     </div>
 

@@ -56,5 +56,22 @@
     "mufasathe24",
     "thelion19"
   ],
+  "groups": [
+    {
+      "title": "The animated films",
+      "films": [
+        "thelion94",
+        "thelion98",
+        "thelion04"
+      ]
+    },
+    {
+      "title": "The photoreal films",
+      "films": [
+        "thelion19",
+        "mufasathe24"
+      ]
+    }
+  ],
   "note": "The Lion King 1½ retells the original from Timon and Pumbaa's side, starting before it — in the UK it was released as The Lion King 3: Hakuna Matata. Mufasa is a prequel to the 2019 remake specifically."
 }

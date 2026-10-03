@@ -38,5 +38,20 @@
     "moana224",
     "moana26"
   ],
+  "groups": [
+    {
+      "title": "The animated films",
+      "films": [
+        "moana16",
+        "moana224"
+      ]
+    },
+    {
+      "title": "The live-action remake",
+      "films": [
+        "moana26"
+      ]
+    }
+  ],
   "note": "Moana 2 is set three years after the first film. The 2026 film is a live-action remake of the first, not a continuation."
 }

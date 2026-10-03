@@ -47,5 +47,21 @@
     "h19",
     "h25"
   ],
+  "groups": [
+    {
+      "title": "The animated trilogy",
+      "films": [
+        "h10",
+        "h14",
+        "h19"
+      ]
+    },
+    {
+      "title": "The live-action remake",
+      "films": [
+        "h25"
+      ]
+    }
+  ],
   "note": "The 2025 film is a live-action remake of the 2010 original, not a continuation. The animated trilogy is self-contained."
 }

@@ -46,5 +46,21 @@
     "theaddams19",
     "theaddams21"
   ],
+  "groups": [
+    {
+      "title": "The live-action films",
+      "films": [
+        "theaddams91",
+        "addamsfamily93"
+      ]
+    },
+    {
+      "title": "The animated films",
+      "films": [
+        "theaddams19",
+        "theaddams21"
+      ]
+    }
+  ],
   "note": "The animated films are a separate continuity. Wednesday, the television series, is separate again."
 }

@@ -38,5 +38,20 @@
     "ghostin04",
     "ghostin17"
   ],
+  "groups": [
+    {
+      "title": "The anime films",
+      "films": [
+        "ghostin95",
+        "ghostin04"
+      ]
+    },
+    {
+      "title": "The live-action remake",
+      "films": [
+        "ghostin17"
+      ]
+    }
+  ],
   "note": "The 2017 live-action film is unconnected to the anime. Several anime series expand the world separately."
 }

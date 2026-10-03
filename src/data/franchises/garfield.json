@@ -37,5 +37,20 @@
     "garfielda06",
     "thegarfield24"
   ],
+  "groups": [
+    {
+      "title": "The live-action films",
+      "films": [
+        "garfieldthe04",
+        "garfielda06"
+      ]
+    },
+    {
+      "title": "The animated film",
+      "films": [
+        "thegarfield24"
+      ]
+    }
+  ],
   "note": "The 2024 animated film is unconnected to the first two."
 }

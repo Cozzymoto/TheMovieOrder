@@ -20,6 +20,21 @@ export async function allFranchises(){
 
 export async function byTitle(){ return allFranchises(); }
 
+/* A franchise page's sections. Without groups it's one section holding every
+   film; with groups, each group shows its own films in release and chrono
+   order, and groups appear in the order their first film came out. */
+export function sections(f){
+  if (!f.groups) return [{ title: null, release: f.release, chrono: f.chrono }];
+  return f.groups
+    .map(g => ({ title: g.title, release: f.release.filter(id => g.films.includes(id)), chrono: f.chrono.filter(id => g.films.includes(id)) }))
+    .sort((a, b) => f.release.indexOf(a.release[0]) - f.release.indexOf(b.release[0]));
+}
+
+// How many films sit in a different place in chronological order (within their section).
+export function movedCount(f){
+  return sections(f).reduce((n, s) => n + s.release.filter((id, i) => s.chrono.indexOf(id) !== i).length, 0);
+}
+
 /* Trending comes from src/data/trending.json — an ordered list of franchise
    file names. A GitHub Action (update-trending.yml) rewrites it every Monday
    from TMDB's trending films; you can still edit it by hand. A name that
@@ -71,7 +86,7 @@ export async function orderMatters(){
   const dupes = listed.filter((s, i) => listed.indexOf(s) !== i);
   if (dupes.length) throw new Error(`order-matters.json lists ${dupes.join(', ')} more than once.`);
 
-  const moved = f => f.release.filter((id, i) => f.chrono.indexOf(id) !== i).length;
+  const moved = movedCount;
   const unlisted = all.filter(f => moved(f) > 0 && !listed.includes(f.slug)).map(f => f.slug);
   if (unlisted.length) console.warn(`[order-matters] Orders differ but not on the page yet: ${unlisted.join(', ')}`);
 
