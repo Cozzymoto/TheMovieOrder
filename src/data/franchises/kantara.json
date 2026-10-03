@@ -1,0 +1,27 @@
+{
+  "title": "Kantara",
+  "short": "Two films",
+  "hue": 95,
+  "blurb": "A folklore thriller about land, gods and the forest in coastal Karnataka, then a prequel that goes back centuries to the myth behind it.",
+  "films": {
+    "kan22": {
+      "t": "Kantara",
+      "y": 2022,
+      "set": "Late 20th century"
+    },
+    "kan25": {
+      "t": "Kantara: Chapter 1",
+      "y": 2025,
+      "set": "Kadamba era"
+    }
+  },
+  "release": [
+    "kan22",
+    "kan25"
+  ],
+  "chrono": [
+    "kan25",
+    "kan22"
+  ],
+  "note": "Chapter 1 is set in the Kadamba era, centuries before the first film, and explains the traditions it is built on. The first film keeps its mysteries better if you see it first."
+}

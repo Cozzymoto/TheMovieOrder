@@ -1,0 +1,83 @@
+{
+  "title": "The Jungle Book",
+  "short": "Five films, four continuities",
+  "hue": 110,
+  "blurb": "Disney's animated classic and its sequel, a 1994 live-action adventure, the 2016 remake, and Andy Serkis's darker take, none of them connected.",
+  "films": {
+    "jb67": {
+      "t": "The Jungle Book",
+      "y": 1967,
+      "set": "—",
+      "format": "animated"
+    },
+    "jb03": {
+      "t": "The Jungle Book 2",
+      "y": 2003,
+      "set": "Shortly after",
+      "format": "animated"
+    },
+    "jb94": {
+      "t": "Rudyard Kipling's The Jungle Book",
+      "y": 1994,
+      "set": "—",
+      "format": "live-action"
+    },
+    "jb16": {
+      "t": "The Jungle Book",
+      "y": 2016,
+      "set": "—",
+      "format": "live-action",
+      "remake": true
+    },
+    "jb18": {
+      "t": "Mowgli: Legend of the Jungle",
+      "y": 2018,
+      "set": "—",
+      "format": "live-action"
+    }
+  },
+  "release": [
+    "jb67",
+    "jb94",
+    "jb03",
+    "jb16",
+    "jb18"
+  ],
+  "chrono": [
+    "jb67",
+    "jb94",
+    "jb03",
+    "jb16",
+    "jb18"
+  ],
+  "groups": [
+    {
+      "title": "Disney's animated films",
+      "films": [
+        "jb67",
+        "jb03"
+      ]
+    },
+    {
+      "title": "The 1994 live-action film",
+      "note": "Follows Mowgli into adulthood.",
+      "films": [
+        "jb94"
+      ]
+    },
+    {
+      "title": "Disney's 2016 remake",
+      "films": [
+        "jb16"
+      ]
+    },
+    {
+      "title": "Mowgli: Legend of the Jungle",
+      "note": "A darker, separate adaptation of Kipling.",
+      "films": [
+        "jb18"
+      ]
+    }
+  ],
+  "note": "Only the two animated films connect. The 1994 film follows an adult Mowgli, the 2016 film remakes the 1967 one, and Mowgli (2018) goes back to Kipling."
+}

@@ -1,0 +1,87 @@
+{
+  "title": "Oz",
+  "short": "Six films, four continuities",
+  "hue": 120,
+  "blurb": "The 1939 classic, a dark Disney sequel, a soul musical, a Disney prequel and Wicked, which tells the other side of Dorothy's story.",
+  "films": {
+    "oz39": {
+      "t": "The Wizard of Oz",
+      "y": 1939,
+      "set": "1930s"
+    },
+    "wiz78": {
+      "t": "The Wiz",
+      "y": 1978,
+      "set": "1970s"
+    },
+    "oz85": {
+      "t": "Return to Oz",
+      "y": 1985,
+      "set": "Six months after Dorothy's first trip"
+    },
+    "ozgp13": {
+      "t": "Oz the Great and Powerful",
+      "y": 2013,
+      "set": "1905"
+    },
+    "wk24": {
+      "t": "Wicked",
+      "y": 2024,
+      "set": "Before Dorothy arrives"
+    },
+    "wk25": {
+      "t": "Wicked: For Good",
+      "y": 2025,
+      "set": "Before and during Dorothy's visit"
+    }
+  },
+  "release": [
+    "oz39",
+    "wiz78",
+    "oz85",
+    "ozgp13",
+    "wk24",
+    "wk25"
+  ],
+  "chrono": [
+    "oz39",
+    "wiz78",
+    "oz85",
+    "ozgp13",
+    "wk24",
+    "wk25"
+  ],
+  "groups": [
+    {
+      "title": "Dorothy's adventures",
+      "note": "The 1939 film and Disney's unofficial sequel.",
+      "films": [
+        "oz39",
+        "oz85"
+      ]
+    },
+    {
+      "title": "The Wiz",
+      "note": "A soul musical retelling, set in a fantasy New York.",
+      "films": [
+        "wiz78"
+      ]
+    },
+    {
+      "title": "Oz the Great and Powerful",
+      "note": "Disney's prequel about how the Wizard arrived.",
+      "films": [
+        "ozgp13"
+      ]
+    },
+    {
+      "title": "Wicked",
+      "note": "The witches' story, overlapping with Dorothy's.",
+      "films": [
+        "wk24",
+        "wk25"
+      ]
+    }
+  ],
+  "note": "These come from different studios and don't officially connect, but most people treat Oz the Great and Powerful and Wicked as prequels to the 1939 film. Return to Oz follows the books more than the MGM film, and is much darker than its reputation as a children's film suggests."
+}

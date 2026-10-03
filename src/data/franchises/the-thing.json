@@ -1,0 +1,50 @@
+{
+  "title": "The Thing",
+  "short": "Three films, two continuities",
+  "hue": 195,
+  "blurb": "Two adaptations of the same novella, thirty years apart, and a 2011 prequel that ends exactly where the 1982 film begins.",
+  "films": {
+    "thing51": {
+      "t": "The Thing from Another World",
+      "y": 1951,
+      "set": "1950s Arctic"
+    },
+    "thing82": {
+      "t": "The Thing",
+      "y": 1982,
+      "set": "1982, Antarctica"
+    },
+    "thing11": {
+      "t": "The Thing",
+      "y": 2011,
+      "set": "1982, the days before"
+    }
+  },
+  "release": [
+    "thing51",
+    "thing82",
+    "thing11"
+  ],
+  "chrono": [
+    "thing51",
+    "thing11",
+    "thing82"
+  ],
+  "groups": [
+    {
+      "title": "The 1951 film",
+      "note": "A separate, earlier adaptation of the same story.",
+      "films": [
+        "thing51"
+      ]
+    },
+    {
+      "title": "Carpenter's film and its prequel",
+      "films": [
+        "thing82",
+        "thing11"
+      ]
+    }
+  ],
+  "note": "The 2011 film is a prequel set at the Norwegian camp, and its final scene leads straight into the 1982 opening. Watch 1982 first: the prequel spends its runtime explaining what Carpenter left to the imagination."
+}

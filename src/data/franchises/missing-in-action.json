@@ -1,0 +1,34 @@
+{
+  "title": "Missing in Action",
+  "short": "Three films",
+  "hue": 85,
+  "blurb": "Chuck Norris goes back to Vietnam for American prisoners, then a prequel shows his own years in a prison camp.",
+  "films": {
+    "mia84": {
+      "t": "Missing in Action",
+      "y": 1984,
+      "set": "1980s"
+    },
+    "mia85": {
+      "t": "Missing in Action 2: The Beginning",
+      "y": 1985,
+      "set": "1970s"
+    },
+    "mia88": {
+      "t": "Braddock: Missing in Action III",
+      "y": 1988,
+      "set": "1980s"
+    }
+  },
+  "release": [
+    "mia84",
+    "mia85",
+    "mia88"
+  ],
+  "chrono": [
+    "mia85",
+    "mia84",
+    "mia88"
+  ],
+  "note": "The Beginning was shot first and released second, once the studio decided the original was the stronger film. It shows Braddock's captivity, which the first film only refers to."
+}

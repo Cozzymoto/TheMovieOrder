@@ -1,0 +1,78 @@
+{
+  "title": "101 Dalmatians",
+  "short": "Five films, three continuities",
+  "hue": 0,
+  "blurb": "The 1961 animated film and its sequel, a 1990s live-action pair with Glenn Close, and Cruella, an origin story for the villain.",
+  "films": {
+    "d61": {
+      "t": "One Hundred and One Dalmatians",
+      "y": 1961,
+      "set": "—",
+      "format": "animated"
+    },
+    "d03": {
+      "t": "101 Dalmatians II: Patch's London Adventure",
+      "y": 2003,
+      "set": "Shortly after",
+      "format": "animated"
+    },
+    "d96": {
+      "t": "101 Dalmatians",
+      "y": 1996,
+      "set": "1990s",
+      "format": "live-action",
+      "remake": true
+    },
+    "d00": {
+      "t": "102 Dalmatians",
+      "y": 2000,
+      "set": "Three years later",
+      "format": "live-action"
+    },
+    "cru21": {
+      "t": "Cruella",
+      "y": 2021,
+      "set": "1970s London",
+      "format": "live-action"
+    }
+  },
+  "release": [
+    "d61",
+    "d96",
+    "d00",
+    "d03",
+    "cru21"
+  ],
+  "chrono": [
+    "d61",
+    "d03",
+    "d96",
+    "d00",
+    "cru21"
+  ],
+  "groups": [
+    {
+      "title": "The animated films",
+      "films": [
+        "d61",
+        "d03"
+      ]
+    },
+    {
+      "title": "The 1990s live-action films",
+      "note": "A remake with Glenn Close as Cruella, and its sequel.",
+      "films": [
+        "d96",
+        "d00"
+      ]
+    },
+    {
+      "title": "Cruella",
+      "note": "A live-action origin story for the villain.",
+      "films": [
+        "cru21"
+      ]
+    }
+  ],
+  "note": "Cruella is a standalone origin story. Its end-credits scene sets up the dalmatians story, but its 1970s setting doesn't fit neatly with any of the other films."
+}

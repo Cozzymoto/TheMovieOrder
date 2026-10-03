@@ -1,0 +1,37 @@
+{
+  "title": "Middle-earth: The Animated Films",
+  "short": "Three films, two studios",
+  "hue": 75,
+  "blurb": "The 1970s attempts at Tolkien: a Rankin/Bass Hobbit, Ralph Bakshi's unfinished Lord of the Rings, and a Return of the King that finishes the job.",
+  "films": {
+    "mea77": {
+      "t": "The Hobbit",
+      "y": 1977,
+      "set": "Third Age 2941",
+      "format": "animated"
+    },
+    "mea78": {
+      "t": "The Lord of the Rings",
+      "y": 1978,
+      "set": "Third Age 3018–19",
+      "format": "animated"
+    },
+    "mea80": {
+      "t": "The Return of the King",
+      "y": 1980,
+      "set": "Third Age 3019",
+      "format": "animated"
+    }
+  },
+  "release": [
+    "mea77",
+    "mea78",
+    "mea80"
+  ],
+  "chrono": [
+    "mea77",
+    "mea78",
+    "mea80"
+  ],
+  "note": "Bakshi's film stops halfway through The Two Towers and its sequel was never made. Rankin/Bass's Return of the King was made as a sequel to their Hobbit, but it is the closest thing to an ending Bakshi's film has. The live-action films have their own page."
+}

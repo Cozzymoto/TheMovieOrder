@@ -1,0 +1,71 @@
+{
+  "title": "Lilo & Stitch",
+  "short": "Five films, two continuities",
+  "hue": 190,
+  "blurb": "The 2002 original, three follow-ups that arrived out of order around a TV series, and the 2025 live-action remake.",
+  "films": {
+    "ls02": {
+      "t": "Lilo & Stitch",
+      "y": 2002,
+      "set": "—",
+      "format": "animated"
+    },
+    "ls03": {
+      "t": "Stitch! The Movie",
+      "y": 2003,
+      "set": "After Stitch Has a Glitch",
+      "format": "animated"
+    },
+    "ls05": {
+      "t": "Lilo & Stitch 2: Stitch Has a Glitch",
+      "y": 2005,
+      "set": "Shortly after the original",
+      "format": "animated"
+    },
+    "ls06": {
+      "t": "Leroy & Stitch",
+      "y": 2006,
+      "set": "After the TV series",
+      "format": "animated"
+    },
+    "ls25": {
+      "t": "Lilo & Stitch",
+      "y": 2025,
+      "set": "—",
+      "format": "live-action",
+      "remake": true
+    }
+  },
+  "release": [
+    "ls02",
+    "ls03",
+    "ls05",
+    "ls06",
+    "ls25"
+  ],
+  "chrono": [
+    "ls02",
+    "ls05",
+    "ls03",
+    "ls06",
+    "ls25"
+  ],
+  "groups": [
+    {
+      "title": "The animated films",
+      "films": [
+        "ls02",
+        "ls03",
+        "ls05",
+        "ls06"
+      ]
+    },
+    {
+      "title": "The live-action remake",
+      "films": [
+        "ls25"
+      ]
+    }
+  ],
+  "note": "Stitch Has a Glitch came out two years after Stitch! The Movie but takes place before it, straight after the first film. Stitch! The Movie launches the TV series, and Leroy & Stitch wraps it up."
+}

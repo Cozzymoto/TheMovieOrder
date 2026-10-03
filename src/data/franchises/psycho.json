@@ -1,0 +1,71 @@
+{
+  "title": "Psycho",
+  "short": "Five films, three continuities",
+  "hue": 250,
+  "blurb": "Hitchcock's original, two sequels that follow Norman after his release, a fourth film that ignores both, and a shot-for-shot remake.",
+  "films": {
+    "ps60": {
+      "t": "Psycho",
+      "y": 1960,
+      "set": "1960"
+    },
+    "ps83": {
+      "t": "Psycho II",
+      "y": 1983,
+      "set": "1982"
+    },
+    "ps86": {
+      "t": "Psycho III",
+      "y": 1986,
+      "set": "1983"
+    },
+    "ps90": {
+      "t": "Psycho IV: The Beginning",
+      "y": 1990,
+      "set": "1990, with flashbacks to the 1940s–50s"
+    },
+    "ps98": {
+      "t": "Psycho",
+      "y": 1998,
+      "set": "1998"
+    }
+  },
+  "release": [
+    "ps60",
+    "ps83",
+    "ps86",
+    "ps90",
+    "ps98"
+  ],
+  "chrono": [
+    "ps60",
+    "ps83",
+    "ps86",
+    "ps90",
+    "ps98"
+  ],
+  "groups": [
+    {
+      "title": "The original and its first two sequels",
+      "films": [
+        "ps60",
+        "ps83",
+        "ps86"
+      ]
+    },
+    {
+      "title": "Psycho IV: The Beginning",
+      "note": "Follows the 1960 film and ignores II and III.",
+      "films": [
+        "ps90"
+      ]
+    },
+    {
+      "title": "The 1998 remake",
+      "films": [
+        "ps98"
+      ]
+    }
+  ],
+  "note": "Psycho IV was made for television and ignores parts II and III, following on from the 1960 film instead. The 1998 remake copies the original almost shot for shot. The TV series Bates Motel is a separate reimagining."
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Sleepaway Camp",
+  "short": "Four films, two timelines",
+  "hue": 140,
+  "blurb": "A cult summer-camp slasher with one of horror's most notorious endings, two jokey sequels, and a belated sequel that pretends those never happened.",
+  "films": {
+    "sc83": {
+      "t": "Sleepaway Camp",
+      "y": 1983,
+      "set": "1983"
+    },
+    "sc88": {
+      "t": "Sleepaway Camp II: Unhappy Campers",
+      "y": 1988,
+      "set": "1988"
+    },
+    "sc89": {
+      "t": "Sleepaway Camp III: Teenage Wasteland",
+      "y": 1989,
+      "set": "1989"
+    },
+    "sc08": {
+      "t": "Return to Sleepaway Camp",
+      "y": 2008,
+      "set": "2008"
+    }
+  },
+  "release": [
+    "sc83",
+    "sc88",
+    "sc89",
+    "sc08"
+  ],
+  "chrono": [
+    "sc83",
+    "sc88",
+    "sc89",
+    "sc08"
+  ],
+  "groups": [
+    {
+      "title": "The original trilogy",
+      "films": [
+        "sc83",
+        "sc88",
+        "sc89"
+      ]
+    },
+    {
+      "title": "Return to Sleepaway Camp",
+      "note": "A direct sequel to the first film that ignores II and III.",
+      "films": [
+        "sc08"
+      ]
+    }
+  ],
+  "note": "Return to Sleepaway Camp is a direct sequel to the first film and ignores parts II and III. The first film's ending is the reason anyone watches the rest; don't let anything spoil it."
+}

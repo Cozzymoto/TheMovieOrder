@@ -1,0 +1,34 @@
+{
+  "title": "Unbreakable, Split & Glass",
+  "short": "Three films, one hidden universe",
+  "hue": 215,
+  "blurb": "A superhero film with no costumes, a thriller that turns out to share its world, and the film that brings them together nineteen years later.",
+  "films": {
+    "unb00": {
+      "t": "Unbreakable",
+      "y": 2000,
+      "set": "2000"
+    },
+    "spl16": {
+      "t": "Split",
+      "y": 2016,
+      "set": "2016"
+    },
+    "gla19": {
+      "t": "Glass",
+      "y": 2019,
+      "set": "2016"
+    }
+  },
+  "release": [
+    "unb00",
+    "spl16",
+    "gla19"
+  ],
+  "chrono": [
+    "unb00",
+    "spl16",
+    "gla19"
+  ],
+  "note": "Split works on its own, but its final scene only lands if you have seen Unbreakable. Watch them in release order: the reveal is the point."
+}

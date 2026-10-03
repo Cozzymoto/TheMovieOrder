@@ -1,0 +1,111 @@
+{
+  "title": "Ju-On: The Japanese Films",
+  "short": "Nine films, four continuities",
+  "hue": 350,
+  "blurb": "The original Japanese curse films, told in jumbled chapters that hop around in time, then restarted twice and finally crossed over with Ring.",
+  "films": {
+    "juon00a": {
+      "t": "Ju-On: The Curse",
+      "y": 2000,
+      "set": "—"
+    },
+    "juon00b": {
+      "t": "Ju-On: The Curse 2",
+      "y": 2000,
+      "set": "—"
+    },
+    "juon02": {
+      "t": "Ju-On: The Grudge",
+      "y": 2002,
+      "set": "—"
+    },
+    "juon03": {
+      "t": "Ju-On: The Grudge 2",
+      "y": 2003,
+      "set": "—"
+    },
+    "juon09w": {
+      "t": "Ju-On: White Ghost",
+      "y": 2009,
+      "set": "—"
+    },
+    "juon09b": {
+      "t": "Ju-On: Black Ghost",
+      "y": 2009,
+      "set": "—"
+    },
+    "juon14": {
+      "t": "Ju-On: The Beginning of the End",
+      "y": 2014,
+      "set": "—"
+    },
+    "juon15": {
+      "t": "Ju-On: The Final Curse",
+      "y": 2015,
+      "set": "—"
+    },
+    "svk16": {
+      "t": "Sadako vs. Kayako",
+      "y": 2016,
+      "set": "—"
+    }
+  },
+  "release": [
+    "juon00a",
+    "juon00b",
+    "juon02",
+    "juon03",
+    "juon09w",
+    "juon09b",
+    "juon14",
+    "juon15",
+    "svk16"
+  ],
+  "chrono": [
+    "juon00a",
+    "juon00b",
+    "juon02",
+    "juon03",
+    "juon09w",
+    "juon09b",
+    "juon14",
+    "juon15",
+    "svk16"
+  ],
+  "groups": [
+    {
+      "title": "The original series",
+      "note": "The two video films, then the two cinema films that partly remake them.",
+      "films": [
+        "juon00a",
+        "juon00b",
+        "juon02",
+        "juon03"
+      ]
+    },
+    {
+      "title": "The 10th anniversary films",
+      "note": "Two short standalone films about different curses.",
+      "films": [
+        "juon09w",
+        "juon09b"
+      ]
+    },
+    {
+      "title": "The 2014 reboot",
+      "note": "Restarts the story and changes much of the backstory.",
+      "films": [
+        "juon14",
+        "juon15"
+      ]
+    },
+    {
+      "title": "Sadako vs. Kayako",
+      "note": "A crossover with Ring, outside both series' continuity.",
+      "films": [
+        "svk16"
+      ]
+    }
+  ],
+  "note": "Every film is split into chapters named after characters and told out of order, so there is no clean chronology even inside a single film. The Grudge (2002) partly remakes the two video films, so you can start there. The American remakes have their own page."
+}

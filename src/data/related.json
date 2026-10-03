@@ -21,7 +21,7 @@
   },
   {
     "label": "DC",
-    "franchises": ["dc-extended-universe", "batman", "superman"]
+    "franchises": ["dc-extended-universe", "batman", "superman", "dc-animated-movie-universe", "dc-animated-universe-the-films"]
   },
   {
     "label": "Freddy vs. Jason",
@@ -58,5 +58,29 @@
   {
     "label": "Roald Dahl",
     "franchises": ["matilda", "willy-wonka"]
+  },
+  {
+    "label": "Disney animated classics",
+    "franchises": ["the-little-mermaid", "beauty-and-the-beast", "cinderella", "the-jungle-book", "peter-pan", "101-dalmatians", "lilo-and-stitch", "the-lion-king", "moana"]
+  },
+  {
+    "label": "Middle-earth",
+    "franchises": ["middle-earth", "middle-earth-the-animated-films"]
+  },
+  {
+    "label": "Oz",
+    "franchises": ["oz", "wicked"]
+  },
+  {
+    "label": "The Mummy",
+    "franchises": ["the-mummy", "the-scorpion-king"]
+  },
+  {
+    "label": "Japanese ghost stories",
+    "franchises": ["ju-on-the-japanese-films", "the-grudge", "ring-the-japanese-films", "the-ring"]
+  },
+  {
+    "label": "Japanese kaiju",
+    "franchises": ["gamera", "godzilla-the-showa-era", "godzilla-the-heisei-era", "godzilla-the-millennium-era"]
   }
 ]

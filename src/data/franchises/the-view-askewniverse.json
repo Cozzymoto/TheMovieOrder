@@ -1,0 +1,69 @@
+{
+  "title": "The View Askewniverse",
+  "short": "Eight films, one New Jersey",
+  "hue": 45,
+  "blurb": "Kevin Smith's interlinked comedies, held together by Jay and Silent Bob, the Quick Stop and a lot of running jokes that pay off films later.",
+  "films": {
+    "va95": {
+      "t": "Mallrats",
+      "y": 1995,
+      "set": "1994, the day before Clerks"
+    },
+    "va94": {
+      "t": "Clerks",
+      "y": 1994,
+      "set": "1994"
+    },
+    "va97": {
+      "t": "Chasing Amy",
+      "y": 1997,
+      "set": "1997"
+    },
+    "va99": {
+      "t": "Dogma",
+      "y": 1999,
+      "set": "1999"
+    },
+    "va01": {
+      "t": "Jay and Silent Bob Strike Back",
+      "y": 2001,
+      "set": "2001"
+    },
+    "va06": {
+      "t": "Clerks II",
+      "y": 2006,
+      "set": "2006"
+    },
+    "va19": {
+      "t": "Jay and Silent Bob Reboot",
+      "y": 2019,
+      "set": "2019"
+    },
+    "va22": {
+      "t": "Clerks III",
+      "y": 2022,
+      "set": "2022"
+    }
+  },
+  "release": [
+    "va94",
+    "va95",
+    "va97",
+    "va99",
+    "va01",
+    "va06",
+    "va19",
+    "va22"
+  ],
+  "chrono": [
+    "va95",
+    "va94",
+    "va97",
+    "va99",
+    "va01",
+    "va06",
+    "va19",
+    "va22"
+  ],
+  "note": "Mallrats is set the day before Clerks, but Clerks is the better first film and sets up most of the in-jokes. Strike Back is built almost entirely from callbacks to the four films before it."
+}

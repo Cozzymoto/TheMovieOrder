@@ -19,7 +19,12 @@
       { "slug": "cube", "verdict": "release", "why": "Cube Zero explains the cube. The original is at its best with no explanation at all." },
       { "slug": "underworld", "verdict": "release", "why": "Rise of the Lycans shows what the first two films reveal in flashback. Save it, then rewatch chronologically: the war is easier to follow." },
       { "slug": "toy-story", "verdict": "release", "why": "Lightyear is the film Andy watched in 1995. It makes almost no sense if you haven't met Buzz yet." },
-      { "slug": "alien", "verdict": "release", "why": "Prometheus explains what Alien wisely leaves unexplained. Meet the creature first." }
+      { "slug": "alien", "verdict": "release", "why": "Prometheus explains what Alien wisely leaves unexplained. Meet the creature first." },
+      { "slug": "unbreakable-split-and-glass", "verdict": "release", "why": "Split's final scene only means something if you've already seen Unbreakable." },
+      { "slug": "the-thing", "verdict": "release", "why": "The 2011 prequel explains exactly what Carpenter's film leaves to your imagination." },
+      { "slug": "a-better-tomorrow", "verdict": "release", "why": "The Saigon prequel's tragedy depends on knowing where Mark ends up." },
+      { "slug": "kantara", "verdict": "release", "why": "Chapter 1 explains the myths the first film keeps mysterious." },
+      { "slug": "sleepaway-camp", "verdict": "release", "why": "Nothing should get near the first film's ending before you see it." }
     ]
   },
   {
@@ -32,7 +37,10 @@
       { "slug": "insidious", "verdict": "chrono", "why": "The Last Key ends minutes before the first film begins. An unusually smooth run for a series that arrived this out of order." },
       { "slug": "jeepers-creepers", "verdict": "chrono", "why": "Part 3 picks up the day after the first film ends, so it belongs before Part 2." },
       { "slug": "john-wick", "verdict": "chrono", "why": "Ballerina runs alongside Chapter 3, so it fits neatly before Chapter 4." },
-      { "slug": "monsterverse", "verdict": "chrono", "why": "Skull Island introduces the organisation that runs through everything else. It works perfectly first." }
+      { "slug": "monsterverse", "verdict": "chrono", "why": "Skull Island introduces the organisation that runs through everything else. It works perfectly first." },
+      { "slug": "lilo-and-stitch", "verdict": "chrono", "why": "Stitch Has a Glitch came out later but picks up straight after the first film, before Stitch! The Movie." },
+      { "slug": "dc-animated-movie-universe", "verdict": "chrono", "why": "Sixteen films built as one story; watch Constantine between Justice League Dark and The Judas Contract." },
+      { "slug": "sword-art-online-the-films", "verdict": "chrono", "why": "The Progressive films retell the beginning, so newcomers can start there and finish with Ordinal Scale." }
     ]
   },
   {
@@ -55,7 +63,18 @@
       { "slug": "ghostbusters", "verdict": "pick", "why": "The 2016 film stands alone. Afterlife picks up from Ghostbusters II, thirty-two years later." },
       { "slug": "hellboy", "verdict": "pick", "why": "Only the two del Toro films share a continuity. The rest each start again." },
       { "slug": "jack-ryan", "verdict": "pick", "why": "Four actors, three continuities. Shadow Recruit sits first by story only because it restarts with a younger Ryan." },
-      { "slug": "wrong-turn", "verdict": "pick", "why": "The series never kept a consistent timeline, and the 2021 film is an unrelated reboot." }
+      { "slug": "wrong-turn", "verdict": "pick", "why": "The series never kept a consistent timeline, and the 2021 film is an unrelated reboot." },
+      { "slug": "puppet-master", "verdict": "pick", "why": "Prequels to prequels, a reboot and an alternate sequel, and the series contradicts its own dates." },
+      { "slug": "peter-pan", "verdict": "pick", "why": "Six Tinker Bell prequels, a Disney sequel, and four live-action versions that don't connect." },
+      { "slug": "ju-on-the-japanese-films", "verdict": "pick", "why": "Every film is told out of order in chapters, and the series was restarted twice." },
+      { "slug": "psycho", "verdict": "pick", "why": "Psycho IV follows the original and ignores parts II and III." },
+      { "slug": "the-toxic-avenger", "verdict": "pick", "why": "Citizen Toxie says outright that parts II and III never happened." },
+      { "slug": "the-amityville-horror", "verdict": "pick", "why": "A prequel about the murders, a remake and dozens of loose follow-ups." },
+      { "slug": "oz", "verdict": "pick", "why": "Different studios, unofficial prequels and Wicked running alongside Dorothy's story." },
+      { "slug": "101-dalmatians", "verdict": "pick", "why": "An animated story, a separate live-action pair and a Cruella origin that fits neither neatly." },
+      { "slug": "the-jungle-book", "verdict": "pick", "why": "Five films and four continuities; only the two animated ones connect." },
+      { "slug": "gamera", "verdict": "pick", "why": "Three separate series. The 1990s trilogy needs nothing from the others." },
+      { "slug": "fullmetal-alchemist-the-films", "verdict": "pick", "why": "Each anime film belongs to a different TV series, and the live-action trilogy starts again." }
     ]
   },
   {
@@ -87,7 +106,19 @@
       { "slug": "a-nightmare-on-elm-street", "verdict": "either", "why": "New Nightmare is set in the real world, outside the story." },
       { "slug": "dumb-and-dumber", "verdict": "either", "why": "The prequel recasts both leads, and the sequel ignores it." },
       { "slug": "ouija", "verdict": "either", "why": "Origin of Evil stands alone and is the one to watch if you only watch one." },
-      { "slug": "monsters-inc", "verdict": "either", "why": "University works first, though the original assumes you're meeting them for the first time." }
+      { "slug": "monsters-inc", "verdict": "either", "why": "University works first, though the original assumes you're meeting them for the first time." },
+      { "slug": "dc-animated-universe-the-films", "verdict": "either", "why": "Return of the Joker jumps decades ahead, so in story order it comes after the much later Fatal Five." },
+      { "slug": "the-view-askewniverse", "verdict": "release", "why": "Mallrats is set the day before Clerks, but Clerks sets up the in-jokes." },
+      { "slug": "missing-in-action", "verdict": "release", "why": "The prequel shows Braddock's captivity, which the first film only mentions." },
+      { "slug": "detective-dee", "verdict": "either", "why": "Two prequels about Dee's early career. Nothing is spoiled whichever way you go." },
+      { "slug": "detective-chinatown", "verdict": "either", "why": "1900 is about the leads' ancestors and stands on its own." },
+      { "slug": "the-wandering-earth", "verdict": "either", "why": "The prequel explains a lot the first film takes for granted. Either order works." },
+      { "slug": "the-scorpion-king", "verdict": "release", "why": "Rise of a Warrior is a prequel, but the 2002 film is the better introduction." },
+      { "slug": "ginger-snaps", "verdict": "release", "why": "Back: The Beginning is set in 1815 and plays best as a coda." },
+      { "slug": "the-little-mermaid", "verdict": "release", "why": "Ariel's Beginning is a prequel, but the 1989 film should come first." },
+      { "slug": "beauty-and-the-beast", "verdict": "release", "why": "Two follow-ups take place in the middle of the original. Watch it first." },
+      { "slug": "cinderella", "verdict": "release", "why": "A Twist in Time rewinds the original's ending, so it needs the original first." },
+      { "slug": "middle-earth-the-animated-films", "verdict": "release", "why": "Bakshi's film stops halfway, and Rankin/Bass's Return of the King is the closest thing to its ending." }
     ]
   }
 ]

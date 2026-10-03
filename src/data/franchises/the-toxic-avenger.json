@@ -1,0 +1,71 @@
+{
+  "title": "The Toxic Avenger",
+  "short": "Five films, three timelines",
+  "hue": 100,
+  "blurb": "Troma's gross-out superhero: the 1984 original, two sequels shot as one film, a fourth that ignores them, and a 2023 remake.",
+  "films": {
+    "ta84": {
+      "t": "The Toxic Avenger",
+      "y": 1984,
+      "set": "1980s"
+    },
+    "ta89a": {
+      "t": "The Toxic Avenger Part II",
+      "y": 1989,
+      "set": "1980s"
+    },
+    "ta89b": {
+      "t": "The Toxic Avenger Part III: The Last Temptation of Toxie",
+      "y": 1989,
+      "set": "1980s"
+    },
+    "ta00": {
+      "t": "Citizen Toxie: The Toxic Avenger IV",
+      "y": 2000,
+      "set": "2000"
+    },
+    "ta23": {
+      "t": "The Toxic Avenger",
+      "y": 2023,
+      "set": "Present day"
+    }
+  },
+  "release": [
+    "ta84",
+    "ta89a",
+    "ta89b",
+    "ta00",
+    "ta23"
+  ],
+  "chrono": [
+    "ta84",
+    "ta89a",
+    "ta89b",
+    "ta00",
+    "ta23"
+  ],
+  "groups": [
+    {
+      "title": "The original and its first two sequels",
+      "films": [
+        "ta84",
+        "ta89a",
+        "ta89b"
+      ]
+    },
+    {
+      "title": "Citizen Toxie",
+      "note": "Follows the first film and ignores II and III.",
+      "films": [
+        "ta00"
+      ]
+    },
+    {
+      "title": "The 2023 remake",
+      "films": [
+        "ta23"
+      ]
+    }
+  ],
+  "note": "Citizen Toxie follows the first film and says outright that parts II and III never happened. Parts II and III were shot as one film and split in two. The 2023 film is a remake."
+}

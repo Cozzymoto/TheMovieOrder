@@ -1,0 +1,48 @@
+{
+  "title": "The Scorpion King",
+  "short": "Five films",
+  "hue": 30,
+  "blurb": "A spin-off from The Mummy Returns that became its own straight-to-video saga, with a prequel about the warrior's youth.",
+  "films": {
+    "sk02": {
+      "t": "The Scorpion King",
+      "y": 2002,
+      "set": "Ancient Egypt"
+    },
+    "sk08": {
+      "t": "The Scorpion King 2: Rise of a Warrior",
+      "y": 2008,
+      "set": "Mathayus's youth"
+    },
+    "sk12": {
+      "t": "The Scorpion King 3: Battle for Redemption",
+      "y": 2012,
+      "set": "After the first film"
+    },
+    "sk15": {
+      "t": "The Scorpion King 4: Quest for Power",
+      "y": 2015,
+      "set": "After the first film"
+    },
+    "sk18": {
+      "t": "The Scorpion King: Book of Souls",
+      "y": 2018,
+      "set": "After the first film"
+    }
+  },
+  "release": [
+    "sk02",
+    "sk08",
+    "sk12",
+    "sk15",
+    "sk18"
+  ],
+  "chrono": [
+    "sk08",
+    "sk02",
+    "sk12",
+    "sk15",
+    "sk18"
+  ],
+  "note": "Rise of a Warrior is a prequel to the first film. The later sequels recast Mathayus and only loosely follow on. The Scorpion King himself first appears in The Mummy Returns, which has its own page."
+}

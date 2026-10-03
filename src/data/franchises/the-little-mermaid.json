@@ -1,0 +1,62 @@
+{
+  "title": "The Little Mermaid",
+  "short": "Four films, two continuities",
+  "hue": 185,
+  "blurb": "The film that started Disney's revival, two straight-to-video follow-ups, one of which is a prequel, and a live-action remake.",
+  "films": {
+    "lm89": {
+      "t": "The Little Mermaid",
+      "y": 1989,
+      "set": "—",
+      "format": "animated"
+    },
+    "lm00": {
+      "t": "The Little Mermaid II: Return to the Sea",
+      "y": 2000,
+      "set": "Twelve years later",
+      "format": "animated"
+    },
+    "lm08": {
+      "t": "The Little Mermaid: Ariel's Beginning",
+      "y": 2008,
+      "set": "Before the original",
+      "format": "animated"
+    },
+    "lm23": {
+      "t": "The Little Mermaid",
+      "y": 2023,
+      "set": "—",
+      "format": "live-action",
+      "remake": true
+    }
+  },
+  "release": [
+    "lm89",
+    "lm00",
+    "lm08",
+    "lm23"
+  ],
+  "chrono": [
+    "lm08",
+    "lm89",
+    "lm00",
+    "lm23"
+  ],
+  "groups": [
+    {
+      "title": "The animated films",
+      "films": [
+        "lm89",
+        "lm00",
+        "lm08"
+      ]
+    },
+    {
+      "title": "The live-action remake",
+      "films": [
+        "lm23"
+      ]
+    }
+  ],
+  "note": "Ariel's Beginning is a prequel about why music was banned from Atlantica. It contradicts the TV series but not the first film."
+}

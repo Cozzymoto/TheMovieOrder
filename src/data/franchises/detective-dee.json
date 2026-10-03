@@ -1,0 +1,34 @@
+{
+  "title": "Detective Dee",
+  "short": "Three films",
+  "hue": 35,
+  "blurb": "Tsui Hark's wuxia mysteries in Tang dynasty China: one adventure with an older Dee, then two prequels about his early career.",
+  "films": {
+    "dee10": {
+      "t": "Detective Dee and the Mystery of the Phantom Flame",
+      "y": 2010,
+      "set": "690 AD"
+    },
+    "dee13": {
+      "t": "Young Detective Dee: Rise of the Sea Dragon",
+      "y": 2013,
+      "set": "665 AD"
+    },
+    "dee18": {
+      "t": "Detective Dee: The Four Heavenly Kings",
+      "y": 2018,
+      "set": "665 AD"
+    }
+  },
+  "release": [
+    "dee10",
+    "dee13",
+    "dee18"
+  ],
+  "chrono": [
+    "dee13",
+    "dee18",
+    "dee10"
+  ],
+  "note": "The two prequels form a pair, so either watch them first for a straight line or save them for after the original. Nothing is spoiled either way."
+}

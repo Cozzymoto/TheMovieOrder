@@ -1,0 +1,72 @@
+{
+  "title": "The Amityville Horror",
+  "short": "The main films",
+  "hue": 15,
+  "blurb": "The haunted house on Ocean Avenue: the 1979 hit, a prequel about the murders that came before it, and decades of loose follow-ups.",
+  "films": {
+    "am79": {
+      "t": "The Amityville Horror",
+      "y": 1979,
+      "set": "1975"
+    },
+    "am82": {
+      "t": "Amityville II: The Possession",
+      "y": 1982,
+      "set": "1974"
+    },
+    "am83": {
+      "t": "Amityville 3-D",
+      "y": 1983,
+      "set": "1980s"
+    },
+    "am05": {
+      "t": "The Amityville Horror",
+      "y": 2005,
+      "set": "1975"
+    },
+    "am17": {
+      "t": "Amityville: The Awakening",
+      "y": 2017,
+      "set": "2017"
+    }
+  },
+  "release": [
+    "am79",
+    "am82",
+    "am83",
+    "am05",
+    "am17"
+  ],
+  "chrono": [
+    "am82",
+    "am79",
+    "am83",
+    "am05",
+    "am17"
+  ],
+  "groups": [
+    {
+      "title": "The original films",
+      "note": "Amityville II is a prequel to the 1979 film.",
+      "films": [
+        "am79",
+        "am82",
+        "am83"
+      ]
+    },
+    {
+      "title": "The 2005 remake",
+      "films": [
+        "am05"
+      ]
+    },
+    {
+      "title": "Amityville: The Awakening",
+      "note": "A sequel in which the characters have seen the 1979 film.",
+      "films": [
+        "am17"
+      ]
+    }
+  ],
+  "note": "There are dozens of unrelated low-budget Amityville films. These are the main ones. Amityville II is a prequel about the murders in the house, The Awakening is set in a world where the 1979 film exists, and the 2005 film is a remake."
+}

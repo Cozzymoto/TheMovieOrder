@@ -1,0 +1,136 @@
+{
+  "title": "Peter Pan",
+  "short": "Twelve films, six of them Tinker Bell prequels",
+  "hue": 160,
+  "blurb": "Disney's animated Peter Pan, a sequel, six Tinker Bell prequels, and four unrelated takes from a grown-up Peter to an origin story.",
+  "films": {
+    "pp53": {
+      "t": "Peter Pan",
+      "y": 1953,
+      "set": "Edwardian London",
+      "format": "animated"
+    },
+    "pp02": {
+      "t": "Return to Never Land",
+      "y": 2002,
+      "set": "1940s London",
+      "format": "animated"
+    },
+    "tb08": {
+      "t": "Tinker Bell",
+      "y": 2008,
+      "set": "Before Peter Pan",
+      "format": "animated"
+    },
+    "tb09": {
+      "t": "Tinker Bell and the Lost Treasure",
+      "y": 2009,
+      "set": "Before Peter Pan",
+      "format": "animated"
+    },
+    "tb10": {
+      "t": "Tinker Bell and the Great Fairy Rescue",
+      "y": 2010,
+      "set": "Before Peter Pan",
+      "format": "animated"
+    },
+    "tb12": {
+      "t": "Secret of the Wings",
+      "y": 2012,
+      "set": "Before Peter Pan",
+      "format": "animated"
+    },
+    "tb14a": {
+      "t": "The Pirate Fairy",
+      "y": 2014,
+      "set": "Before Peter Pan",
+      "format": "animated"
+    },
+    "tb14b": {
+      "t": "Tinker Bell and the Legend of the NeverBeast",
+      "y": 2014,
+      "set": "Before Peter Pan",
+      "format": "animated"
+    },
+    "hook91": {
+      "t": "Hook",
+      "y": 1991,
+      "set": "1990s",
+      "format": "live-action"
+    },
+    "pp03": {
+      "t": "Peter Pan",
+      "y": 2003,
+      "set": "Edwardian London",
+      "format": "live-action"
+    },
+    "pan15": {
+      "t": "Pan",
+      "y": 2015,
+      "set": "1940s London",
+      "format": "live-action"
+    },
+    "ppw23": {
+      "t": "Peter Pan & Wendy",
+      "y": 2023,
+      "set": "Edwardian London",
+      "format": "live-action",
+      "remake": true
+    }
+  },
+  "release": [
+    "pp53",
+    "hook91",
+    "pp02",
+    "pp03",
+    "tb08",
+    "tb09",
+    "tb10",
+    "tb12",
+    "tb14a",
+    "tb14b",
+    "pan15",
+    "ppw23"
+  ],
+  "chrono": [
+    "tb08",
+    "tb09",
+    "tb10",
+    "tb12",
+    "tb14a",
+    "tb14b",
+    "pp53",
+    "pp02",
+    "pan15",
+    "pp03",
+    "ppw23",
+    "hook91"
+  ],
+  "groups": [
+    {
+      "title": "Disney's animated Neverland",
+      "note": "The Tinker Bell films come first in story order.",
+      "films": [
+        "pp53",
+        "pp02",
+        "tb08",
+        "tb09",
+        "tb10",
+        "tb12",
+        "tb14a",
+        "tb14b"
+      ]
+    },
+    {
+      "title": "The live-action versions",
+      "note": "Four separate takes, none connected to the others.",
+      "films": [
+        "hook91",
+        "pp03",
+        "pan15",
+        "ppw23"
+      ]
+    }
+  ],
+  "note": "The six Tinker Bell films are prequels to Disney's Peter Pan. The Pirate Fairy even shows a young Captain Hook. The live-action films don't connect to each other, so we've ordered them by where they fall in Peter's life: Pan is an origin story and Hook finds him grown up."
+}

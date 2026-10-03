@@ -1,0 +1,62 @@
+{
+  "title": "Cinderella",
+  "short": "Four films, two continuities",
+  "hue": 300,
+  "blurb": "The 1950 original, a sequel of short stories, a third film that literally rewinds time, and the 2015 remake.",
+  "films": {
+    "cin50": {
+      "t": "Cinderella",
+      "y": 1950,
+      "set": "—",
+      "format": "animated"
+    },
+    "cin02": {
+      "t": "Cinderella II: Dreams Come True",
+      "y": 2002,
+      "set": "After the wedding",
+      "format": "animated"
+    },
+    "cin07": {
+      "t": "Cinderella III: A Twist in Time",
+      "y": 2007,
+      "set": "A year after the wedding",
+      "format": "animated"
+    },
+    "cin15": {
+      "t": "Cinderella",
+      "y": 2015,
+      "set": "—",
+      "format": "live-action",
+      "remake": true
+    }
+  },
+  "release": [
+    "cin50",
+    "cin02",
+    "cin07",
+    "cin15"
+  ],
+  "chrono": [
+    "cin50",
+    "cin02",
+    "cin07",
+    "cin15"
+  ],
+  "groups": [
+    {
+      "title": "The animated films",
+      "films": [
+        "cin50",
+        "cin02",
+        "cin07"
+      ]
+    },
+    {
+      "title": "The live-action remake",
+      "films": [
+        "cin15"
+      ]
+    }
+  ],
+  "note": "In A Twist in Time the stepmother turns back the clock to before the glass slipper is fitted, so it is an alternate version of the first film's ending. It works best after the original."
+}

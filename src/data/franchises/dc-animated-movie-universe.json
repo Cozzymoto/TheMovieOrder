@@ -1,0 +1,141 @@
+{
+  "title": "DC Animated Movie Universe",
+  "short": "Sixteen films, one continuity",
+  "hue": 230,
+  "blurb": "Sixteen animated DC films that form one connected story, started by a time-travel reset and ended by Apokolips War.",
+  "films": {
+    "f13": {
+      "t": "Justice League: The Flashpoint Paradox",
+      "y": 2013,
+      "set": "—",
+      "format": "animated"
+    },
+    "w14": {
+      "t": "Justice League: War",
+      "y": 2014,
+      "set": "—",
+      "format": "animated"
+    },
+    "sob14": {
+      "t": "Son of Batman",
+      "y": 2014,
+      "set": "—",
+      "format": "animated"
+    },
+    "toa15": {
+      "t": "Justice League: Throne of Atlantis",
+      "y": 2015,
+      "set": "—",
+      "format": "animated"
+    },
+    "bvr15": {
+      "t": "Batman vs. Robin",
+      "y": 2015,
+      "set": "—",
+      "format": "animated"
+    },
+    "bb16": {
+      "t": "Batman: Bad Blood",
+      "y": 2016,
+      "set": "—",
+      "format": "animated"
+    },
+    "jltt16": {
+      "t": "Justice League vs. Teen Titans",
+      "y": 2016,
+      "set": "—",
+      "format": "animated"
+    },
+    "jld17": {
+      "t": "Justice League Dark",
+      "y": 2017,
+      "set": "—",
+      "format": "animated"
+    },
+    "tjc17": {
+      "t": "Teen Titans: The Judas Contract",
+      "y": 2017,
+      "set": "—",
+      "format": "animated"
+    },
+    "ssq18": {
+      "t": "Suicide Squad: Hell to Pay",
+      "y": 2018,
+      "set": "—",
+      "format": "animated"
+    },
+    "dos18": {
+      "t": "The Death of Superman",
+      "y": 2018,
+      "set": "—",
+      "format": "animated"
+    },
+    "con18": {
+      "t": "Constantine: City of Demons – The Movie",
+      "y": 2018,
+      "set": "—",
+      "format": "animated"
+    },
+    "ros19": {
+      "t": "Reign of the Supermen",
+      "y": 2019,
+      "set": "—",
+      "format": "animated"
+    },
+    "hush19": {
+      "t": "Batman: Hush",
+      "y": 2019,
+      "set": "—",
+      "format": "animated"
+    },
+    "wwb19": {
+      "t": "Wonder Woman: Bloodlines",
+      "y": 2019,
+      "set": "—",
+      "format": "animated"
+    },
+    "apw20": {
+      "t": "Justice League Dark: Apokolips War",
+      "y": 2020,
+      "set": "—",
+      "format": "animated"
+    }
+  },
+  "release": [
+    "f13",
+    "w14",
+    "sob14",
+    "toa15",
+    "bvr15",
+    "bb16",
+    "jltt16",
+    "jld17",
+    "tjc17",
+    "ssq18",
+    "dos18",
+    "con18",
+    "ros19",
+    "hush19",
+    "wwb19",
+    "apw20"
+  ],
+  "chrono": [
+    "f13",
+    "w14",
+    "sob14",
+    "toa15",
+    "bvr15",
+    "bb16",
+    "jltt16",
+    "jld17",
+    "con18",
+    "tjc17",
+    "ssq18",
+    "dos18",
+    "ros19",
+    "hush19",
+    "wwb19",
+    "apw20"
+  ],
+  "note": "The Flashpoint Paradox ends with the timeline being rewritten, and every film after it takes place in the new one. Constantine: City of Demons fits between Justice League Dark and The Judas Contract. Apokolips War closes the whole run, and it only works if you have seen most of it."
+}

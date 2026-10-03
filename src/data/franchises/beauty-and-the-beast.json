@@ -1,0 +1,62 @@
+{
+  "title": "Beauty and the Beast",
+  "short": "Four films, two continuities",
+  "hue": 40,
+  "blurb": "The 1991 classic, two straight-to-video follow-ups that take place in the middle of it, and the 2017 remake.",
+  "films": {
+    "bb91": {
+      "t": "Beauty and the Beast",
+      "y": 1991,
+      "set": "—",
+      "format": "animated"
+    },
+    "bb97": {
+      "t": "Beauty and the Beast: The Enchanted Christmas",
+      "y": 1997,
+      "set": "During the original film",
+      "format": "animated"
+    },
+    "bb98": {
+      "t": "Belle's Magical World",
+      "y": 1998,
+      "set": "During the original film",
+      "format": "animated"
+    },
+    "bb17": {
+      "t": "Beauty and the Beast",
+      "y": 2017,
+      "set": "—",
+      "format": "live-action",
+      "remake": true
+    }
+  },
+  "release": [
+    "bb91",
+    "bb97",
+    "bb98",
+    "bb17"
+  ],
+  "chrono": [
+    "bb91",
+    "bb97",
+    "bb98",
+    "bb17"
+  ],
+  "groups": [
+    {
+      "title": "The animated films",
+      "films": [
+        "bb91",
+        "bb97",
+        "bb98"
+      ]
+    },
+    {
+      "title": "The live-action remake",
+      "films": [
+        "bb17"
+      ]
+    }
+  ],
+  "note": "The Enchanted Christmas and Belle's Magical World are midquels: both take place while Belle is living in the castle, partway through the first film. Watch the original first so you know how it ends."
+}

@@ -1,0 +1,53 @@
+{
+  "title": "DC Animated Universe: The Films",
+  "short": "Five films",
+  "hue": 260,
+  "blurb": "The films that grew out of Batman: The Animated Series, from Mask of the Phantasm to a Justice League film made twenty-five years later.",
+  "films": {
+    "dcau93": {
+      "t": "Batman: Mask of the Phantasm",
+      "y": 1993,
+      "set": "During Batman: The Animated Series",
+      "format": "animated"
+    },
+    "dcau98": {
+      "t": "Batman & Mr. Freeze: SubZero",
+      "y": 1998,
+      "set": "Between the first two Batman series",
+      "format": "animated"
+    },
+    "dcau00": {
+      "t": "Batman Beyond: Return of the Joker",
+      "y": 2000,
+      "set": "c. 2040, the Batman Beyond era",
+      "format": "animated"
+    },
+    "dcau03": {
+      "t": "Batman: Mystery of the Batwoman",
+      "y": 2003,
+      "set": "During The New Batman Adventures",
+      "format": "animated"
+    },
+    "dcau19": {
+      "t": "Justice League vs. the Fatal Five",
+      "y": 2019,
+      "set": "During Justice League Unlimited",
+      "format": "animated"
+    }
+  },
+  "release": [
+    "dcau93",
+    "dcau98",
+    "dcau00",
+    "dcau03",
+    "dcau19"
+  ],
+  "chrono": [
+    "dcau93",
+    "dcau98",
+    "dcau03",
+    "dcau19",
+    "dcau00"
+  ],
+  "note": "Return of the Joker jumps decades ahead to the Batman Beyond era, so in story order it comes last, after the much later Fatal Five. Each film works on its own, but they land harder alongside the TV series they belong to."
+}

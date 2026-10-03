@@ -1,0 +1,153 @@
+{
+  "title": "Puppet Master",
+  "short": "Fifteen films, three continuities",
+  "hue": 280,
+  "blurb": "Full Moon's killer-puppet series, which went backwards to the 1900s and the Second World War, contradicting itself along the way.",
+  "films": {
+    "pm89": {
+      "t": "Puppet Master",
+      "y": 1989,
+      "set": "1939 and present day"
+    },
+    "pm90": {
+      "t": "Puppet Master II",
+      "y": 1990,
+      "set": "Present day"
+    },
+    "pm91": {
+      "t": "Puppet Master III: Toulon's Revenge",
+      "y": 1991,
+      "set": "1941"
+    },
+    "pm93": {
+      "t": "Puppet Master 4",
+      "y": 1993,
+      "set": "Present day"
+    },
+    "pm94": {
+      "t": "Puppet Master 5: The Final Chapter",
+      "y": 1994,
+      "set": "Present day"
+    },
+    "pm98": {
+      "t": "Curse of the Puppet Master",
+      "y": 1998,
+      "set": "Present day"
+    },
+    "pm99": {
+      "t": "Retro Puppet Master",
+      "y": 1999,
+      "set": "1902"
+    },
+    "pm03": {
+      "t": "Puppet Master: The Legacy",
+      "y": 2003,
+      "set": "Present day"
+    },
+    "pm04": {
+      "t": "Puppet Master vs Demonic Toys",
+      "y": 2004,
+      "set": "Present day"
+    },
+    "pm10": {
+      "t": "Puppet Master: Axis of Evil",
+      "y": 2010,
+      "set": "Second World War"
+    },
+    "pm12": {
+      "t": "Puppet Master X: Axis Rising",
+      "y": 2012,
+      "set": "Second World War"
+    },
+    "pm17": {
+      "t": "Puppet Master: Axis Termination",
+      "y": 2017,
+      "set": "Second World War"
+    },
+    "pm18": {
+      "t": "Puppet Master: The Littlest Reich",
+      "y": 2018,
+      "set": "Present day"
+    },
+    "pm20": {
+      "t": "Blade: The Iron Cross",
+      "y": 2020,
+      "set": "Second World War"
+    },
+    "pm22": {
+      "t": "Puppet Master: Doktor Death",
+      "y": 2022,
+      "set": "Present day"
+    }
+  },
+  "release": [
+    "pm89",
+    "pm90",
+    "pm91",
+    "pm93",
+    "pm94",
+    "pm98",
+    "pm99",
+    "pm03",
+    "pm04",
+    "pm10",
+    "pm12",
+    "pm17",
+    "pm18",
+    "pm20",
+    "pm22"
+  ],
+  "chrono": [
+    "pm99",
+    "pm91",
+    "pm10",
+    "pm12",
+    "pm17",
+    "pm20",
+    "pm89",
+    "pm98",
+    "pm90",
+    "pm22",
+    "pm93",
+    "pm94",
+    "pm03",
+    "pm04",
+    "pm18"
+  ],
+  "groups": [
+    {
+      "title": "The main series",
+      "note": "Retro, the Toulon films and the Axis films are prequels to the original.",
+      "films": [
+        "pm89",
+        "pm90",
+        "pm91",
+        "pm93",
+        "pm94",
+        "pm98",
+        "pm99",
+        "pm03",
+        "pm10",
+        "pm12",
+        "pm17",
+        "pm20",
+        "pm22"
+      ]
+    },
+    {
+      "title": "Puppet Master vs Demonic Toys",
+      "note": "An alternate sequel to the first three films.",
+      "films": [
+        "pm04"
+      ]
+    },
+    {
+      "title": "The Littlest Reich",
+      "note": "A complete reboot with no link to the others.",
+      "films": [
+        "pm18"
+      ]
+    }
+  ],
+  "note": "The series contradicts itself: the first film has Toulon die in 1939, then the third shows him alive in 1941. Our chronological order follows the usual fan reading. The Legacy is mostly a clip show, and Puppet Master vs Demonic Toys and The Littlest Reich sit outside the main story."
+}

@@ -1,0 +1,129 @@
+{
+  "title": "Gamera",
+  "short": "Twelve films, three continuities",
+  "hue": 130,
+  "blurb": "Daiei's flying, fire-breathing turtle: a run of colourful children's monster films, a far darker 1990s trilogy, and a gentle 2006 reboot.",
+  "films": {
+    "g65": {
+      "t": "Gamera, the Giant Monster",
+      "y": 1965,
+      "set": "—"
+    },
+    "g66": {
+      "t": "Gamera vs. Barugon",
+      "y": 1966,
+      "set": "—"
+    },
+    "g67": {
+      "t": "Gamera vs. Gyaos",
+      "y": 1967,
+      "set": "—"
+    },
+    "g68": {
+      "t": "Gamera vs. Viras",
+      "y": 1968,
+      "set": "—"
+    },
+    "g69": {
+      "t": "Gamera vs. Guiron",
+      "y": 1969,
+      "set": "—"
+    },
+    "g70": {
+      "t": "Gamera vs. Jiger",
+      "y": 1970,
+      "set": "—"
+    },
+    "g71": {
+      "t": "Gamera vs. Zigra",
+      "y": 1971,
+      "set": "—"
+    },
+    "g80": {
+      "t": "Gamera: Super Monster",
+      "y": 1980,
+      "set": "—"
+    },
+    "g95": {
+      "t": "Gamera: Guardian of the Universe",
+      "y": 1995,
+      "set": "—"
+    },
+    "g96": {
+      "t": "Gamera 2: Attack of Legion",
+      "y": 1996,
+      "set": "—"
+    },
+    "g99": {
+      "t": "Gamera 3: Revenge of Iris",
+      "y": 1999,
+      "set": "—"
+    },
+    "g06": {
+      "t": "Gamera the Brave",
+      "y": 2006,
+      "set": "—"
+    }
+  },
+  "release": [
+    "g65",
+    "g66",
+    "g67",
+    "g68",
+    "g69",
+    "g70",
+    "g71",
+    "g80",
+    "g95",
+    "g96",
+    "g99",
+    "g06"
+  ],
+  "chrono": [
+    "g65",
+    "g66",
+    "g67",
+    "g68",
+    "g69",
+    "g70",
+    "g71",
+    "g80",
+    "g95",
+    "g96",
+    "g99",
+    "g06"
+  ],
+  "groups": [
+    {
+      "title": "The Showa films",
+      "note": "The original run, mostly aimed at children. Super Monster is largely stock footage.",
+      "films": [
+        "g65",
+        "g66",
+        "g67",
+        "g68",
+        "g69",
+        "g70",
+        "g71",
+        "g80"
+      ]
+    },
+    {
+      "title": "The Heisei trilogy",
+      "note": "A serious reboot with one continuous story.",
+      "films": [
+        "g95",
+        "g96",
+        "g99"
+      ]
+    },
+    {
+      "title": "Gamera the Brave",
+      "note": "A standalone family reboot.",
+      "films": [
+        "g06"
+      ]
+    }
+  ],
+  "note": "The three series don't connect, so start wherever suits you. The 1990s trilogy is the one most people rate, and it needs nothing from the films before it. English titles vary between releases."
+}

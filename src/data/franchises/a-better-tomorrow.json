@@ -1,0 +1,34 @@
+{
+  "title": "A Better Tomorrow",
+  "short": "Three films",
+  "hue": 5,
+  "blurb": "John Woo's heroic bloodshed classic, a sequel that bends over backwards to bring back a dead character, and a prequel set in Saigon.",
+  "films": {
+    "abt86": {
+      "t": "A Better Tomorrow",
+      "y": 1986,
+      "set": "1980s"
+    },
+    "abt87": {
+      "t": "A Better Tomorrow II",
+      "y": 1987,
+      "set": "1980s"
+    },
+    "abt89": {
+      "t": "A Better Tomorrow III: Love & Death in Saigon",
+      "y": 1989,
+      "set": "1974"
+    }
+  },
+  "release": [
+    "abt86",
+    "abt87",
+    "abt89"
+  ],
+  "chrono": [
+    "abt89",
+    "abt86",
+    "abt87"
+  ],
+  "note": "The third film is a prequel showing how Mark became the man in the first film, and it was directed by Tsui Hark rather than Woo. Its emotional weight depends on knowing where Mark ends up."
+}

@@ -1,0 +1,27 @@
+{
+  "title": "The Wandering Earth",
+  "short": "Two films",
+  "hue": 220,
+  "blurb": "China's sci-fi blockbuster about pushing the Earth out of its orbit, followed by a longer, bigger prequel about how the plan began.",
+  "films": {
+    "we19": {
+      "t": "The Wandering Earth",
+      "y": 2019,
+      "set": "2075"
+    },
+    "we23": {
+      "t": "The Wandering Earth II",
+      "y": 2023,
+      "set": "2044–2058"
+    }
+  },
+  "release": [
+    "we19",
+    "we23"
+  ],
+  "chrono": [
+    "we23",
+    "we19"
+  ],
+  "note": "The second film is a prequel covering the decades before the first. It is three hours long and explains a lot the first film takes for granted, so either order works."
+}

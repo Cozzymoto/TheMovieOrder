@@ -1,0 +1,34 @@
+{
+  "title": "Ginger Snaps",
+  "short": "Three films, one in 1815",
+  "hue": 20,
+  "blurb": "Two sisters, one werewolf bite, and a third film that jumps back to a 19th-century fort with the same actresses playing different sisters.",
+  "films": {
+    "gs00": {
+      "t": "Ginger Snaps",
+      "y": 2000,
+      "set": "Present day"
+    },
+    "gs04a": {
+      "t": "Ginger Snaps 2: Unleashed",
+      "y": 2004,
+      "set": "Shortly after"
+    },
+    "gs04b": {
+      "t": "Ginger Snaps Back: The Beginning",
+      "y": 2004,
+      "set": "1815"
+    }
+  },
+  "release": [
+    "gs00",
+    "gs04a",
+    "gs04b"
+  ],
+  "chrono": [
+    "gs04b",
+    "gs00",
+    "gs04a"
+  ],
+  "note": "Back: The Beginning is set in 1815 and casts the same two actresses as different sisters. It plays like a reimagining rather than a strict prequel, so it works best watched last."
+}
