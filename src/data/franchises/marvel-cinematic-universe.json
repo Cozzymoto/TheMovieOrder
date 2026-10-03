@@ -40,7 +40,10 @@
       "t": "The Avengers",
       "y": 2012,
       "set": "2012",
-      "poster": "/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg"
+      "poster": "/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+      "aka": {
+        "uk": "Avengers Assemble"
+      }
     },
     "im3": {
       "t": "Iron Man 3",

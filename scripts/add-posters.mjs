@@ -44,7 +44,7 @@ async function findPoster(title, year){
 // Keep the same key order the Content Studio writes, so files stay consistent.
 function tidy(card){
   const out = {};
-  for (const k of ['title','short','hue','blurb','rank','poster','tmdb']) if (card[k] !== undefined) out[k] = card[k];
+  for (const k of ['title','short','aka','hue','blurb','rank','poster','tmdb']) if (card[k] !== undefined) out[k] = card[k];
   out.films = card.films; out.release = card.release; out.chrono = card.chrono;
   if (card.groups !== undefined) out.groups = card.groups;
   if (card.note !== undefined) out.note = card.note;

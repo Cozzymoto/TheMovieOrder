@@ -647,3 +647,14 @@ button{font:inherit;color:inherit}
 }
 .path-group span{font-family:var(--f-text);font-size:var(--step--1);font-weight:500;color:var(--graphite);letter-spacing:0}
 .path-set > .path-group:first-child{margin-top:1.25rem}
+
+/* Region-specific titles: both are in the page, only the visitor's region shows */
+html[data-region="uk"] [data-r="us"],
+html[data-region="us"] [data-r="uk"]{display:none !important}
+.aka{margin:.15rem 0 0;font-size:var(--step--1);color:var(--graphite);font-style:italic}
+.region-switch{display:inline-flex;align-items:center;gap:.35rem}
+.region-switch button{
+  background:none;border:1px solid var(--hairline);border-radius:999px;cursor:pointer;
+  font-size:var(--step--1);padding:.15rem .6rem;color:var(--graphite);
+}
+.region-switch button[aria-pressed="true"]{border-color:var(--ink);color:var(--ink);font-weight:600}

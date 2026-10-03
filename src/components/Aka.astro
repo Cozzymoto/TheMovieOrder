@@ -1,0 +1,11 @@
+---
+/* "Known in the US as …": shown under a title when the other region calls it something else. */
+import { CONFIG, REGIONS, titleIn } from '../config.js';
+const { item, tag = 'p', class: cls = 'aka' } = Astro.props;
+const Tag = tag;
+const lines = REGIONS.map(r => {
+  const other = REGIONS.find(o => o !== r && titleIn(item, o) !== titleIn(item, r));
+  return other ? [r, `Known in the ${CONFIG.regions[other].name} as ${titleIn(item, other)}`] : null;
+}).filter(Boolean);
+---
+{lines.length > 0 && lines.map(([r, text]) => <Tag class={cls} data-r={r}>{text}</Tag>)}

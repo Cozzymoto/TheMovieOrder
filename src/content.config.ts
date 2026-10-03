@@ -8,6 +8,9 @@ import { glob } from 'astro/loaders';
    and names the file — nothing broken ever reaches the site.
    ============================================================ */
 
+// A name used in one region instead of the main one, e.g. { "us": "Zootopia" }.
+const aka = z.object({ uk: z.string().min(1).optional(), us: z.string().min(1).optional() }).optional();
+
 const film = z.object({
   t: z.string().min(1, 'film needs a title'),
   y: z.number().int().min(1880).max(2100),
@@ -16,7 +19,8 @@ const film = z.object({
   // Only needed where a franchise mixes animated and live-action films:
   // each film then gets a small label on its row.
   format: z.enum(['animated', 'live-action', 'photoreal']).optional(),
-  remake: z.boolean().optional()
+  remake: z.boolean().optional(),
+  aka
 });
 
 const franchises = defineCollection({
@@ -26,6 +30,7 @@ const franchises = defineCollection({
     short: z.string().min(1),
     hue: z.number().int().min(0).max(359),
     blurb: z.string().min(1),
+    aka,
     rank: z.number().int().positive().optional(),
     poster: z.string().regex(/^(https?:\/\/|\/)/).optional(),
     tmdb: z.number().int().positive().optional(),

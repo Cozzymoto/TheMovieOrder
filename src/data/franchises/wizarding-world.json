@@ -10,7 +10,10 @@
       "t": "Harry Potter and the Philosopher's Stone",
       "y": 2001,
       "set": "1991",
-      "poster": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg"
+      "poster": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
+      "aka": {
+        "us": "Harry Potter and the Sorcerer's Stone"
+      }
     },
     "cos": {
       "t": "Harry Potter and the Chamber of Secrets",

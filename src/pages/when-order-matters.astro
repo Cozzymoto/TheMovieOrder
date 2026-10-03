@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Poster from '../components/Poster.astro';
+import Title from '../components/Title.astro';
 import { orderMatters } from '../lib/franchise.js';
 
 const sections = await orderMatters();
@@ -47,7 +48,7 @@ const jsonld = {
                 <Poster hue={e.f.hue} label={e.f.title} poster={e.f.poster} size="w154" />
                 <div class="om-item__body">
                   <div class="om-item__top">
-                    <h3>{e.f.title}</h3>
+                    <h3><Title item={e.f} /></h3>
                     <span class={`om-verdict om-verdict--${e.verdict}`}>{label[e.verdict]}</span>
                   </div>
                   <p>{e.why}</p>

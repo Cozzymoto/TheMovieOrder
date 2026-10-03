@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Card from '../components/Card.astro';
+import Title from '../components/Title.astro';
 import { allFranchises, trending } from '../lib/franchise.js';
 import { allPosts, fmtDate, isoDate } from '../lib/posts.js';
 
@@ -40,7 +41,7 @@ const posts = (await allPosts()).slice(0, 3);
 
       <div class="quick">
         <span>Popular right now:</span>
-        {hot.slice(0, 4).map(f => <a href={`/${f.slug}/`}>{f.title}</a>)}
+        {hot.slice(0, 4).map(f => <a href={`/${f.slug}/`}><Title item={f} /></a>)}
       </div>
     </div>
   </section>
@@ -117,7 +118,7 @@ const posts = (await allPosts()).slice(0, 3);
         }
         box.innerHTML = hits.map(f =>
           '<a class="result" href="/' + esc(f.s) + '/" role="option">' + thumb(f) +
-          '<span><strong>' + esc(f.t) + '</strong><span>' + Number(f.n) + ' films · ' + esc(f.d) + '</span></span></a>').join('');
+          '<span><strong>' + esc(f.t) + (f.a ? ' (' + esc(f.a) + ')' : '') + '</strong><span>' + Number(f.n) + ' films · ' + esc(f.d) + '</span></span></a>').join('');
       }
 
       input.addEventListener('input', run);

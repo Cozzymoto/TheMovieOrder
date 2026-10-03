@@ -1,0 +1,12 @@
+---
+/* A film or franchise name that differs between the UK and the US.
+   Both versions are in the page; CSS shows the one for the visitor's region
+   (html[data-region], set in Base.astro). Plain text when there's no aka. */
+import { REGIONS, titleIn } from '../config.js';
+const { item } = Astro.props;
+const names = REGIONS.map(r => [r, titleIn(item, r)]);
+const differs = new Set(names.map(([, n]) => n)).size > 1;
+---
+{differs
+  ? names.map(([r, n]) => <span data-r={r}>{n}</span>)
+  : names[0][1]}

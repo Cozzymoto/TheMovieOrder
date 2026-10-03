@@ -3,7 +3,9 @@ import Base from '../layouts/Base.astro';
 import Poster from '../components/Poster.astro';
 import Card from '../components/Card.astro';
 import { allFranchises, related, sections, movedCount } from '../lib/franchise.js';
-import { watchURL, buyURL, shortTitle, yearSpan } from '../config.js';
+import Title from '../components/Title.astro';
+import Aka from '../components/Aka.astro';
+import { watchURL, buyURL, shortTitle, yearSpan, REGIONS, titleIn, allNames } from '../config.js';
 
 export async function getStaticPaths(){
   const all = await allFranchises();
@@ -20,28 +22,32 @@ const modes = [
   { mode: 'chrono',  key: 'chrono',  otherKey: 'release', otherName: 'Release' }
 ];
 
-const description = `The full ${f.title} watch order — all ${f.release.length} films in release order and in-universe chronological order, with where to watch each one.`;
+// "Zootropolis (Zootopia)" where the UK and US names differ, so both get found.
+const [name, ...others] = allNames(f);
+const fullName = others.length ? `${name} (${others.join(', ')})` : name;
+const description = `The full ${fullName} watch order — all ${f.release.length} films in release order and in-universe chronological order, with where to watch each one.`;
 
 const jsonld = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": `${f.title} watch order (release order)`,
+  "name": `${fullName} watch order (release order)`,
   "description": description,
   "numberOfItems": f.release.length,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "itemListElement": f.release.map((id, i) => ({
     "@type": "ListItem",
     "position": i + 1,
-    "item": { "@type": "Movie", "name": f.films[id].t, "dateCreated": String(f.films[id].y) }
+    "item": { "@type": "Movie", "name": f.films[id].t, "dateCreated": String(f.films[id].y), ...(allNames(f.films[id]).length > 1 ? { "alternateName": allNames(f.films[id]).slice(1) } : {}) }
   }))
 };
 ---
-<Base title={`${f.title} watch order`} description={description} jsonld={jsonld}>
+<Base title={`${fullName} watch order`} description={description} jsonld={jsonld}>
   <div class="wrap">
-    <nav class="crumb"><a href="/franchises/">Franchises</a> / {f.title}</nav>
+    <nav class="crumb"><a href="/franchises/">Franchises</a> / <Title item={f} /></nav>
 
     <header class="path-head">
-      <h1>{f.title} watch order</h1>
+      <h1><Title item={f} /> watch order</h1>
+      <Aka item={f} />
       <p>{f.blurb}</p>
       <div class="path-facts">
         <div><strong>{f.release.length}</strong><span>films</span></div>
@@ -79,7 +85,8 @@ const jsonld = {
                 <div class="row__n">{i + 1}</div>
                 <Poster hue={f.hue} label={shortTitle(m.t)} poster={m.poster} size="w154" />
                 <div class="row__body">
-                  <h3 class="row__t">{m.t} <span class="row__y">{m.y}</span></h3>
+                  <h3 class="row__t"><Title item={m} /> <span class="row__y">{m.y}</span></h3>
+                  <Aka item={m} />
                   {(m.format || m.remake) && (
                     <p class="row__tags">
                       {m.format && <span class={`tag tag--${m.format}`}>{formatLabel[m.format]}</span>}
@@ -92,8 +99,8 @@ const jsonld = {
                   </p>
                 </div>
                 <div class="row__acts">
-                  <a class="btn" href={watchURL(m.t)} target="_blank" rel="noopener nofollow sponsored">Where to watch</a>
-                  <a class="btn btn--ghost btn--sm" href={buyURL(m.t)} target="_blank" rel="noopener nofollow sponsored">Buy</a>
+                  <a class="btn" href={watchURL(titleIn(m, REGIONS[0]))} {...Object.fromEntries(REGIONS.map(r => [`data-href-${r}`, watchURL(titleIn(m, r), r)]))} target="_blank" rel="noopener nofollow sponsored">Where to watch</a>
+                  <a class="btn btn--ghost btn--sm" href={buyURL(titleIn(m, REGIONS[0]))} {...Object.fromEntries(REGIONS.map(r => [`data-href-${r}`, buyURL(titleIn(m, r), r)]))} target="_blank" rel="noopener nofollow sponsored">Buy</a>
                   <button class="tick" data-tick={id} aria-pressed="false" aria-label={`Mark ${m.t} as watched`}>
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 6 6L20 6"/></svg>
                   </button>

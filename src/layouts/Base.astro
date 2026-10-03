@@ -1,6 +1,8 @@
 ---
 import '../styles/global.css';
 import Logo from '../components/Logo.astro';
+import Title from '../components/Title.astro';
+import { CONFIG, REGIONS } from '../config.js';
 import { trending } from '../lib/franchise.js';
 const popular = (await trending()).slice(0, 4);
 const {
@@ -12,7 +14,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const full = title ? `${title} — The Movie Order` : 'The Movie Order — franchise watch orders';
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-region={CONFIG.defaultRegion}>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -33,6 +35,7 @@ const full = title ? `${title} — The Movie Order` : 'The Movie Order — franc
 {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
 <script is:inline>
   try{ const t = localStorage.getItem('oom:theme'); if(t) document.documentElement.setAttribute('data-theme', t); }catch(e){}
+  try{ const r = localStorage.getItem('oom:region'); if(r) document.documentElement.setAttribute('data-region', r); }catch(e){}
 </script>
 </head>
 <body>
@@ -75,7 +78,7 @@ const full = title ? `${title} — The Movie Order` : 'The Movie Order — franc
       <div>
         <h4>Popular paths</h4>
         <ul>
-          {popular.map(f => <li><a href={`/${f.slug}/`}>{f.title}</a></li>)}
+          {popular.map(f => <li><a href={`/${f.slug}/`}><Title item={f} /></a></li>)}
         </ul>
       </div>
     </div>
@@ -83,9 +86,42 @@ const full = title ? `${title} — The Movie Order` : 'The Movie Order — franc
     <div class="foot__legal">
       <span>&copy; {new Date().getFullYear()} The Movie Order</span>
       <span>Some links earn us a commission. It never changes what we recommend or what you pay.</span>
+      <span class="region-switch" role="group" aria-label="Show links and titles for">
+        Links for:
+        {REGIONS.map(r => <button type="button" data-region-set={r}>{CONFIG.regions[r].name}</button>)}
+      </span>
     </div>
   </div>
 </footer>
+
+<script is:inline define:vars={{ defaultRegion: CONFIG.defaultRegion, countryRegion: { US: 'us' } }}>
+  /* Region: US visitors get US links and titles, everyone else the default.
+     Cloudflare's /cdn-cgi/trace says which country the visitor is in. Choosing
+     a region in the footer overrides it and is remembered. */
+  (function(){
+    const root = document.documentElement;
+    function apply(r){
+      root.setAttribute('data-region', r);
+      document.querySelectorAll('a[data-href-' + r + ']').forEach(a => { a.href = a.getAttribute('data-href-' + r); });
+      document.querySelectorAll('[data-region-set]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.regionSet === r)));
+    }
+    let saved = null, chosen = null;
+    try { saved = localStorage.getItem('oom:region'); chosen = localStorage.getItem('oom:region-chosen'); } catch(e){}
+    apply(saved || defaultRegion);
+    if (!chosen) {
+      fetch('/cdn-cgi/trace').then(r => r.ok ? r.text() : '').then(t => {
+        const m = t.match(/^loc=([A-Z]{2})$/m);
+        const r = (m && countryRegion[m[1]]) || defaultRegion;
+        apply(r);
+        try { localStorage.setItem('oom:region', r); } catch(e){}
+      }).catch(() => {});
+    }
+    document.querySelectorAll('[data-region-set]').forEach(b => b.addEventListener('click', () => {
+      apply(b.dataset.regionSet);
+      try { localStorage.setItem('oom:region', b.dataset.regionSet); localStorage.setItem('oom:region-chosen', '1'); } catch(e){}
+    }));
+  })();
+</script>
 
 <script is:inline>
   document.getElementById('themeBtn').addEventListener('click', () => {

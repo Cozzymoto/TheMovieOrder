@@ -1,6 +1,9 @@
 {
   "title": "Zootropolis",
   "short": "Two films",
+  "aka": {
+    "us": "Zootopia"
+  },
   "hue": 30,
   "blurb": "A rabbit police officer and a fox con artist in a city built for animals.",
   "poster": "/hlK0e0wAQ3VLuJcsfIYPvb4JVud.jpg",
@@ -9,13 +12,19 @@
       "t": "Zootropolis",
       "y": 2016,
       "set": "—",
-      "poster": "/hlK0e0wAQ3VLuJcsfIYPvb4JVud.jpg"
+      "poster": "/hlK0e0wAQ3VLuJcsfIYPvb4JVud.jpg",
+      "aka": {
+        "us": "Zootopia"
+      }
     },
     "zootropolis225": {
       "t": "Zootropolis 2",
       "y": 2025,
       "set": "—",
-      "poster": "/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg"
+      "poster": "/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
+      "aka": {
+        "us": "Zootopia 2"
+      }
     }
   },
   "release": [

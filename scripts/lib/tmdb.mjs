@@ -56,7 +56,8 @@ export async function siteFilms(DIR){
   for (const file of (await readdir(DIR)).filter(f => f.endsWith('.json')).sort()){
     const slug = file.replace(/\.json$/, '');
     const card = JSON.parse(await readFile(path.join(DIR, file), 'utf8'));
-    for (const m of Object.values(card.films)) films.push({ slug, title: card.title, t: m.t, n: norm(m.t), y: m.y });
+    for (const m of Object.values(card.films))
+      for (const t of new Set([m.t, ...Object.values(m.aka || {})])) films.push({ slug, title: card.title, t, n: norm(t), y: m.y });
   }
 
   // Same year (or one either side, as release dates vary by country), and the same title.
