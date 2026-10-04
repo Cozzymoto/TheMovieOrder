@@ -27,12 +27,12 @@ const posts = (await allPosts()).slice(0, 3);
       <h1>What order do<br>I watch these in?</h1>
       <p>Every franchise, laid out twice — the order they came out, and the order they happen.</p>
 
-      <div class="search">
+      <div class="search" data-search>
         <label class="sr" for="q">Search for a franchise</label>
         <div class="search__field">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-          <input id="q" type="search" autocomplete="off" placeholder="Search for a franchise" role="combobox" aria-controls="results" aria-expanded="false">
-          <button class="search__clear" id="qClear" hidden aria-label="Clear search">
+          <input id="q" class="search__input" type="search" autocomplete="off" placeholder="Search for a franchise" role="combobox" aria-controls="results" aria-expanded="false">
+          <button class="search__clear" hidden aria-label="Clear search">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
           </button>
         </div>
@@ -76,65 +76,4 @@ const posts = (await allPosts()).slice(0, 3);
     </section>
   )}
 
-  <script is:inline>
-    (function(){
-      const input = document.getElementById('q');
-      const box = document.getElementById('results');
-      const clear = document.getElementById('qClear');
-      const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-      let index = null, loading = null, active = -1;
-
-      // The catalogue is only fetched once someone reaches for the search box.
-      function load(){
-        if (index) return Promise.resolve(index);
-        if (!loading) loading = fetch('/search-index.json')
-          .then(r => { if (!r.ok) throw new Error(); return r.json(); })
-          .then(d => (index = d))
-          .catch(() => { loading = null; return null; });
-        return loading;
-      }
-      input.addEventListener('focus', load, { once: true });
-      input.addEventListener('pointerenter', load, { once: true });
-
-      function thumb(f){
-        const img = f.p ? '<img class="poster__img" src="https://image.tmdb.org/t/p/w92' + esc(f.p) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
-        return '<div class="poster" style="--h:' + Number(f.h) + '" aria-hidden="true"><span class="poster__t">' + esc(f.t.slice(0, 14)) + '</span>' + img + '</div>';
-      }
-
-      async function run(){
-        const q = input.value.trim().toLowerCase();
-        clear.hidden = !q;
-        active = -1;
-        if (!q) { box.innerHTML = ''; input.setAttribute('aria-expanded', 'false'); return; }
-        input.setAttribute('aria-expanded', 'true');
-        if (!index) box.innerHTML = '<p class="results__none">Searching…</p>';
-        const data = await load();
-        if (input.value.trim().toLowerCase() !== q) return;          // they kept typing
-        if (!data) { box.innerHTML = '<p class="results__none">Search is unavailable right now. <a href="/franchises/" style="color:var(--red)">Browse every franchise</a>.</p>'; return; }
-        const hits = data.filter(f => (f.t + ' ' + f.d + ' ' + f.k).toLowerCase().includes(q)).slice(0, 6);
-        if (!hits.length) {
-          box.innerHTML = '<p class="results__none">No franchise matches that yet. <a href="/franchises/" style="color:var(--red)">Browse everything</a>.</p>';
-          return;
-        }
-        box.innerHTML = hits.map(f =>
-          '<a class="result" href="/' + esc(f.s) + '/" role="option">' + thumb(f) +
-          '<span><strong>' + esc(f.t) + (f.a ? ' (' + esc(f.a) + ')' : '') + '</strong><span>' + Number(f.n) + ' films · ' + esc(f.d) + '</span></span></a>').join('');
-      }
-
-      input.addEventListener('input', run);
-      clear.addEventListener('click', () => { input.value = ''; run(); input.focus(); });
-      input.addEventListener('keydown', e => {
-        const items = [...box.querySelectorAll('.result')];
-        if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && items.length) {
-          e.preventDefault();
-          active = e.key === 'ArrowDown' ? (active + 1) % items.length : (active - 1 + items.length) % items.length;
-          items.forEach((el, i) => el.classList.toggle('is-active', i === active));
-          items[active].scrollIntoView({ block: 'nearest' });
-        }
-        if (e.key === 'Enter' && active > -1 && items[active]) { e.preventDefault(); items[active].click(); }
-        if (e.key === 'Escape') { input.value = ''; run(); }
-      });
-      document.addEventListener('click', e => { if (!e.target.closest('.search')) box.innerHTML = ''; });
-    })();
-  </script>
 </Base>

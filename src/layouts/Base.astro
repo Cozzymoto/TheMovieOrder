@@ -44,12 +44,26 @@ const full = title ? `${title} — The Movie Order` : 'The Movie Order — franc
 <header class="masthead">
   <div class="masthead__in">
     <a class="wordmark" href="/" aria-label="The Movie Order, home"><Logo /><span><b>The Movie</b> <i>Order</i></span></a>
+    <div class="search search--header" data-search id="headerSearch" role="search">
+      <div class="search__field">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input class="search__input" type="search" autocomplete="off" placeholder="Search franchises" aria-label="Search franchises" role="combobox" aria-controls="headerResults" aria-expanded="false">
+        <kbd class="search__key" aria-hidden="true">/</kbd>
+        <button class="search__clear" hidden aria-label="Clear search">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="results" id="headerResults" role="listbox"></div>
+    </div>
     <nav class="nav" aria-label="Main">
       <a href="/franchises/" aria-current={Astro.url.pathname.startsWith('/franchises') ? 'page' : undefined}>Franchises</a>
       <a href="/blog/" aria-current={Astro.url.pathname.startsWith('/blog') ? 'page' : undefined}>Blog</a>
       <a href="/about/" aria-current={Astro.url.pathname.startsWith('/about') ? 'page' : undefined}>About</a>
       <a href="/contact/" aria-current={Astro.url.pathname.startsWith('/contact') ? 'page' : undefined}>Contact</a>
     </nav>
+    <button class="theme-btn search-btn" id="searchBtn" aria-label="Search franchises" aria-controls="headerSearch" aria-expanded="false" title="Search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    </button>
     <button class="theme-btn" id="themeBtn" aria-label="Switch colour theme" title="Switch colour theme">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
     </button>
@@ -93,6 +107,89 @@ const full = title ? `${title} — The Movie Order` : 'The Movie Order — franc
     </div>
   </div>
 </footer>
+
+<script is:inline>
+  /* Every search box on the page ([data-search]): the homepage one and the
+     one in the header. The franchise list is fetched once, the first time
+     anyone reaches for a search box. Press / anywhere to jump to search. */
+  (function(){
+    const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    let index = null, loading = null;
+    function load(){
+      if (index) return Promise.resolve(index);
+      if (!loading) loading = fetch('/search-index.json')
+        .then(r => { if (!r.ok) throw new Error(); return r.json(); })
+        .then(d => (index = d))
+        .catch(() => { loading = null; return null; });
+      return loading;
+    }
+    function thumb(f){
+      const img = f.p ? '<img class="poster__img" src="https://image.tmdb.org/t/p/w92' + esc(f.p) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
+      return '<div class="poster" style="--h:' + Number(f.h) + '" aria-hidden="true"><span class="poster__t">' + esc(f.t.slice(0, 14)) + '</span>' + img + '</div>';
+    }
+    document.querySelectorAll('[data-search]').forEach(root => {
+      const input = root.querySelector('.search__input');
+      const box = root.querySelector('.results');
+      const clear = root.querySelector('.search__clear');
+      let active = -1;
+      input.addEventListener('focus', load, { once: true });
+      input.addEventListener('pointerenter', load, { once: true });
+      async function run(){
+        const q = input.value.trim().toLowerCase();
+        clear.hidden = !q;
+        root.classList.toggle('has-text', !!q);
+        active = -1;
+        if (!q) { box.innerHTML = ''; input.setAttribute('aria-expanded', 'false'); return; }
+        input.setAttribute('aria-expanded', 'true');
+        if (!index) box.innerHTML = '<p class="results__none">Searching…</p>';
+        const data = await load();
+        if (input.value.trim().toLowerCase() !== q) return;          // they kept typing
+        if (!data) { box.innerHTML = '<p class="results__none">Search is unavailable right now. <a href="/franchises/" style="color:var(--red)">Browse every franchise</a>.</p>'; return; }
+        // Franchise names that start with the search first, then names that contain it, then film titles.
+        const rank = f => { const t = (f.t + ' ' + (f.a || '')).toLowerCase(); return t.startsWith(q) ? 0 : t.includes(q) ? 1 : 2; };
+        const hits = data.filter(f => (f.t + ' ' + f.d + ' ' + f.k).toLowerCase().includes(q))
+          .map((f, i) => [rank(f), i, f]).sort((x, y) => x[0] - y[0] || x[1] - y[1]).map(x => x[2]).slice(0, 6);
+        if (!hits.length) {
+          box.innerHTML = '<p class="results__none">No franchise matches that yet. <a href="/franchises/" style="color:var(--red)">Browse everything</a>.</p>';
+          return;
+        }
+        box.innerHTML = hits.map(f =>
+          '<a class="result" href="/' + esc(f.s) + '/" role="option">' + thumb(f) +
+          '<span><strong>' + esc(f.t) + (f.a ? ' (' + esc(f.a) + ')' : '') + '</strong><span>' + Number(f.n) + ' films · ' + esc(f.d) + '</span></span></a>').join('');
+      }
+      input.addEventListener('input', run);
+      clear.addEventListener('click', () => { input.value = ''; run(); input.focus(); });
+      input.addEventListener('keydown', e => {
+        const items = [...box.querySelectorAll('.result')];
+        if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && items.length) {
+          e.preventDefault();
+          active = e.key === 'ArrowDown' ? (active + 1) % items.length : (active - 1 + items.length) % items.length;
+          items.forEach((el, i) => el.classList.toggle('is-active', i === active));
+          items[active].scrollIntoView({ block: 'nearest' });
+        }
+        if (e.key === 'Enter' && active > -1 && items[active]) { e.preventDefault(); items[active].click(); }
+        if (e.key === 'Enter' && active === -1 && items[0]) { e.preventDefault(); items[0].click(); }
+        if (e.key === 'Escape') { input.value = ''; run(); input.blur(); closeHeader(); }
+      });
+      document.addEventListener('click', e => { if (!root.contains(e.target)) box.innerHTML = ''; });
+    });
+
+    // On small screens the header search hides behind a button.
+    const masthead = document.querySelector('.masthead');
+    const btn = document.getElementById('searchBtn');
+    const headerInput = document.querySelector('#headerSearch .search__input');
+    function openHeader(){ masthead.classList.add('is-searching'); btn.setAttribute('aria-expanded', 'true'); headerInput.focus(); }
+    function closeHeader(){ masthead.classList.remove('is-searching'); btn.setAttribute('aria-expanded', 'false'); }
+    btn.addEventListener('click', () => masthead.classList.contains('is-searching') ? closeHeader() : openHeader());
+    document.addEventListener('keydown', e => {
+      const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName) || document.activeElement.isContentEditable;
+      if (e.key === '/' && !typing && !e.metaKey && !e.ctrlKey && !e.altKey) {
+        e.preventDefault();
+        if (getComputedStyle(btn).display !== 'none') openHeader(); else headerInput.focus();
+      }
+    });
+  })();
+</script>
 
 <script is:inline define:vars={{ defaultRegion: CONFIG.defaultRegion, countryRegion: { US: 'us' } }}>
   /* Region: US visitors get US links and titles, everyone else the default.
