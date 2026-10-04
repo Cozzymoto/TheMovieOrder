@@ -1,0 +1,69 @@
+{
+  "title": "Drishyam",
+  "short": "Five films, two languages",
+  "hue": 65,
+  "blurb": "A father who covers up a crime to protect his family, told in Malayalam across three films, and remade in Hindi a year or so behind.",
+  "films": {
+    "dm13": {
+      "t": "Drishyam",
+      "y": 2013,
+      "set": "—"
+    },
+    "dh15": {
+      "t": "Drishyam",
+      "y": 2015,
+      "set": "—",
+      "remake": true
+    },
+    "dm21": {
+      "t": "Drishyam 2",
+      "y": 2021,
+      "set": "Six years later"
+    },
+    "dh22": {
+      "t": "Drishyam 2",
+      "y": 2022,
+      "set": "Seven years later",
+      "remake": true
+    },
+    "dm26": {
+      "t": "Drishyam 3",
+      "y": 2026,
+      "set": "—"
+    }
+  },
+  "release": [
+    "dm13",
+    "dh15",
+    "dm21",
+    "dh22",
+    "dm26"
+  ],
+  "chrono": [
+    "dm13",
+    "dh15",
+    "dm21",
+    "dh22",
+    "dm26"
+  ],
+  "groups": [
+    {
+      "title": "The Malayalam originals",
+      "note": "Starring Mohanlal.",
+      "films": [
+        "dm13",
+        "dm21",
+        "dm26"
+      ]
+    },
+    {
+      "title": "The Hindi remakes",
+      "note": "Starring Ajay Devgn.",
+      "films": [
+        "dh15",
+        "dh22"
+      ]
+    }
+  ],
+  "note": "The Malayalam films with Mohanlal are the originals. The Hindi films with Ajay Devgn remake them closely, so you only need one version of each. The Hindi Drishyam 3 is still to come. There are also remakes in Telugu, Tamil, Kannada and Chinese."
+}

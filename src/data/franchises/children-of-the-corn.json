@@ -1,0 +1,132 @@
+{
+  "title": "Children of the Corn",
+  "short": "Eleven films, five strands",
+  "hue": 50,
+  "blurb": "Stephen King's cult of murderous children: one direct sequel, a long run of standalone straight-to-video films, a TV remake and two reboots.",
+  "films": {
+    "coc84": {
+      "t": "Children of the Corn",
+      "y": 1984,
+      "set": "—"
+    },
+    "coc92": {
+      "t": "Children of the Corn II: The Final Sacrifice",
+      "y": 1992,
+      "set": "Straight after the first film"
+    },
+    "coc95": {
+      "t": "Children of the Corn III: Urban Harvest",
+      "y": 1995,
+      "set": "—"
+    },
+    "coc96": {
+      "t": "Children of the Corn IV: The Gathering",
+      "y": 1996,
+      "set": "—"
+    },
+    "coc98": {
+      "t": "Children of the Corn V: Fields of Terror",
+      "y": 1998,
+      "set": "—"
+    },
+    "coc99": {
+      "t": "Children of the Corn 666: Isaac's Return",
+      "y": 1999,
+      "set": "—"
+    },
+    "coc01": {
+      "t": "Children of the Corn: Revelation",
+      "y": 2001,
+      "set": "—"
+    },
+    "coc09": {
+      "t": "Children of the Corn",
+      "y": 2009,
+      "set": "—",
+      "remake": true
+    },
+    "coc11": {
+      "t": "Children of the Corn: Genesis",
+      "y": 2011,
+      "set": "—"
+    },
+    "coc18": {
+      "t": "Children of the Corn: Runaway",
+      "y": 2018,
+      "set": "—"
+    },
+    "coc23": {
+      "t": "Children of the Corn",
+      "y": 2023,
+      "set": "—"
+    }
+  },
+  "release": [
+    "coc84",
+    "coc92",
+    "coc95",
+    "coc96",
+    "coc98",
+    "coc99",
+    "coc01",
+    "coc09",
+    "coc11",
+    "coc18",
+    "coc23"
+  ],
+  "chrono": [
+    "coc84",
+    "coc92",
+    "coc95",
+    "coc96",
+    "coc98",
+    "coc99",
+    "coc01",
+    "coc09",
+    "coc11",
+    "coc18",
+    "coc23"
+  ],
+  "groups": [
+    {
+      "title": "The original and its sequel",
+      "note": "Part II begins straight after the first film.",
+      "films": [
+        "coc84",
+        "coc92"
+      ]
+    },
+    {
+      "title": "The standalone sequels",
+      "note": "Separate stories under the same name.",
+      "films": [
+        "coc95",
+        "coc96",
+        "coc98",
+        "coc99",
+        "coc01"
+      ]
+    },
+    {
+      "title": "The 2009 TV remake",
+      "films": [
+        "coc09"
+      ]
+    },
+    {
+      "title": "The later films",
+      "note": "Two more standalone straight-to-video films.",
+      "films": [
+        "coc11",
+        "coc18"
+      ]
+    },
+    {
+      "title": "The 2023 reboot",
+      "films": [
+        "coc23"
+      ]
+    }
+  ],
+  "note": "Only the first two films tell one continuous story. From part III onwards each film is its own story, even when it brings back a character, as Isaac's Return does. The 2009 film is a TV remake and the 2023 film is a reboot."
+}

@@ -1,8 +1,8 @@
 {
   "title": "Dune",
-  "short": "Two films, one novel",
+  "short": "Three films, two adaptations",
   "hue": 38,
-  "blurb": "A single book split across two films, released three years apart.",
+  "blurb": "Frank Herbert's novel filmed twice: David Lynch's 1984 version, which squeezes the whole book into one film, and Denis Villeneuve's, which splits it in two.",
   "poster": "/v1tRXZ4JtD2Iv6fjkPvT4GiwslV.jpg",
   "films": {
     "d21": {
@@ -16,15 +16,39 @@
       "y": 2024,
       "set": "10191–10193 AG",
       "poster": "/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg"
+    },
+    "d84": {
+      "t": "Dune",
+      "y": 1984,
+      "set": "10191 AG"
     }
   },
   "release": [
+    "d84",
     "d21",
     "d24"
   ],
   "chrono": [
+    "d84",
     "d21",
     "d24"
   ],
-  "note": "Part Two begins immediately where the first ends. They are two halves of one adaptation rather than a film and its sequel."
+  "groups": [
+    {
+      "title": "David Lynch's Dune",
+      "note": "A single-film adaptation of the whole novel.",
+      "films": [
+        "d84"
+      ]
+    },
+    {
+      "title": "Denis Villeneuve's films",
+      "note": "Part Two begins where the first ends. Part Three is due in December 2026.",
+      "films": [
+        "d21",
+        "d24"
+      ]
+    }
+  ],
+  "note": "The two adaptations are unconnected, so start with either. Villeneuve's two films are halves of one adaptation rather than a film and its sequel."
 }

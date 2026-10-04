@@ -1,0 +1,83 @@
+{
+  "title": "Kickboxer",
+  "short": "Seven films, two continuities",
+  "hue": 25,
+  "blurb": "Van Damme's revenge film, four sequels that carried on without him, and a 2016 reboot in which he plays the mentor.",
+  "films": {
+    "kb89": {
+      "t": "Kickboxer",
+      "y": 1989,
+      "set": "1980s"
+    },
+    "kb91": {
+      "t": "Kickboxer 2: The Road Back",
+      "y": 1991,
+      "set": "1990s"
+    },
+    "kb92": {
+      "t": "Kickboxer 3: The Art of War",
+      "y": 1992,
+      "set": "1990s"
+    },
+    "kb94": {
+      "t": "Kickboxer 4: The Aggressor",
+      "y": 1994,
+      "set": "1990s"
+    },
+    "kb95": {
+      "t": "Kickboxer 5: The Redemption",
+      "y": 1995,
+      "set": "1990s"
+    },
+    "kb16": {
+      "t": "Kickboxer: Vengeance",
+      "y": 2016,
+      "set": "2016",
+      "remake": true
+    },
+    "kb18": {
+      "t": "Kickboxer: Retaliation",
+      "y": 2018,
+      "set": "2018"
+    }
+  },
+  "release": [
+    "kb89",
+    "kb91",
+    "kb92",
+    "kb94",
+    "kb95",
+    "kb16",
+    "kb18"
+  ],
+  "chrono": [
+    "kb89",
+    "kb91",
+    "kb92",
+    "kb94",
+    "kb95",
+    "kb16",
+    "kb18"
+  ],
+  "groups": [
+    {
+      "title": "The original series",
+      "films": [
+        "kb89",
+        "kb91",
+        "kb92",
+        "kb94",
+        "kb95"
+      ]
+    },
+    {
+      "title": "The 2016 reboot",
+      "note": "A remake of the first film and its sequel.",
+      "films": [
+        "kb16",
+        "kb18"
+      ]
+    }
+  ],
+  "note": "Van Damme only stars in the first film. Parts 2 to 4 follow the Sloane brothers' younger brother, and part 5 hands over to a new lead. Vengeance remakes the first film with Van Damme as the trainer."
+}

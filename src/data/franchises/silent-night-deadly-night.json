@@ -1,0 +1,91 @@
+{
+  "title": "Silent Night, Deadly Night",
+  "short": "Seven films, three strands",
+  "hue": 355,
+  "blurb": "The killer-Santa slasher that was pulled from cinemas after protests, two sequels about the same family, two numbered sequels that have nothing to do with them, and two remakes.",
+  "films": {
+    "snd84": {
+      "t": "Silent Night, Deadly Night",
+      "y": 1984,
+      "set": "1971 and 1984"
+    },
+    "snd87": {
+      "t": "Silent Night, Deadly Night Part 2",
+      "y": 1987,
+      "set": "1980s"
+    },
+    "snd89": {
+      "t": "Silent Night, Deadly Night 3: Better Watch Out!",
+      "y": 1989,
+      "set": "1980s"
+    },
+    "snd90": {
+      "t": "Silent Night, Deadly Night 4: Initiation",
+      "y": 1990,
+      "set": "—"
+    },
+    "snd91": {
+      "t": "Silent Night, Deadly Night 5: The Toy Maker",
+      "y": 1991,
+      "set": "—"
+    },
+    "sn12": {
+      "t": "Silent Night",
+      "y": 2012,
+      "set": "—",
+      "remake": true
+    },
+    "snd25": {
+      "t": "Silent Night, Deadly Night",
+      "y": 2025,
+      "set": "—",
+      "remake": true
+    }
+  },
+  "release": [
+    "snd84",
+    "snd87",
+    "snd89",
+    "snd90",
+    "snd91",
+    "sn12",
+    "snd25"
+  ],
+  "chrono": [
+    "snd84",
+    "snd87",
+    "snd89",
+    "snd90",
+    "snd91",
+    "sn12",
+    "snd25"
+  ],
+  "groups": [
+    {
+      "title": "Billy and Ricky",
+      "note": "The original and the two sequels about Billy's brother Ricky.",
+      "films": [
+        "snd84",
+        "snd87",
+        "snd89"
+      ]
+    },
+    {
+      "title": "The unrelated sequels",
+      "note": "Numbered as sequels, but separate stories.",
+      "films": [
+        "snd90",
+        "snd91"
+      ]
+    },
+    {
+      "title": "The remakes",
+      "note": "Two separate remakes of the 1984 film.",
+      "films": [
+        "sn12",
+        "snd25"
+      ]
+    }
+  ],
+  "note": "Part 2 spends roughly its first half replaying footage from the original, so watch the first film before it or skip straight to its second half. Parts 4 and 5 only share the title."
+}

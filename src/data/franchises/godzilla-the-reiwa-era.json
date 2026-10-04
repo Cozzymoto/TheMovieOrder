@@ -1,0 +1,43 @@
+{
+  "title": "Godzilla: The Reiwa Era",
+  "short": "Two films, two continuities",
+  "hue": 150,
+  "blurb": "Toho's two modern Godzillas: a political satire about a government that can't respond to disaster, and an Oscar-winning post-war drama.",
+  "films": {
+    "shin16": {
+      "t": "Shin Godzilla",
+      "y": 2016,
+      "set": "2016"
+    },
+    "gmo23": {
+      "t": "Godzilla Minus One",
+      "y": 2023,
+      "set": "1945–1947"
+    }
+  },
+  "release": [
+    "shin16",
+    "gmo23"
+  ],
+  "chrono": [
+    "shin16",
+    "gmo23"
+  ],
+  "groups": [
+    {
+      "title": "Shin Godzilla",
+      "note": "A modern-day reboot.",
+      "films": [
+        "shin16"
+      ]
+    },
+    {
+      "title": "Godzilla Minus One",
+      "note": "A separate reboot set just after the Second World War.",
+      "films": [
+        "gmo23"
+      ]
+    }
+  ],
+  "note": "The two films don't connect, so either can be watched first. Minus One is set earlier but was made later. Godzilla Minus Zero, a sequel to Minus One, is due in November 2026. The American MonsterVerse films have their own page."
+}

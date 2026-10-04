@@ -1,30 +1,40 @@
 {
   "title": "Train to Busan",
-  "short": "Two films",
+  "short": "Three films, one an animated prequel",
   "hue": 190,
-  "blurb": "A zombie outbreak on a high-speed train, and a sequel four years later.",
+  "blurb": "A zombie outbreak on a high-speed train, an animated prequel showing how it began in Seoul, and a sequel four years later.",
   "poster": "/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg",
   "films": {
     "trainto16": {
       "t": "Train to Busan",
       "y": 2016,
       "set": "2016",
-      "poster": "/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg"
+      "poster": "/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg",
+      "format": "live-action"
     },
     "peninsula20": {
       "t": "Peninsula",
       "y": 2020,
       "set": "2020",
-      "poster": "/eeqvAzCccAZOhU3RfbvHB3s44S6.jpg"
+      "poster": "/eeqvAzCccAZOhU3RfbvHB3s44S6.jpg",
+      "format": "live-action"
+    },
+    "seoul16": {
+      "t": "Seoul Station",
+      "y": 2016,
+      "set": "The night before Train to Busan",
+      "format": "animated"
     }
   },
   "release": [
     "trainto16",
+    "seoul16",
     "peninsula20"
   ],
   "chrono": [
+    "seoul16",
     "trainto16",
     "peninsula20"
   ],
-  "note": "Peninsula is set in the same world with a new cast."
+  "note": "Seoul Station is an animated prequel by the same director, set the night before Train to Busan, and it is much bleaker. Peninsula is set in the same world four years on with a new cast."
 }

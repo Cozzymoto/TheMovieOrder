@@ -1,0 +1,58 @@
+{
+  "title": "Black Christmas",
+  "short": "Three films, three continuities",
+  "hue": 240,
+  "blurb": "The 1974 film that helped invent the slasher, a 2006 remake that gives its killer a backstory, and a 2019 remake that keeps only the title and the sorority.",
+  "films": {
+    "bc74": {
+      "t": "Black Christmas",
+      "y": 1974,
+      "set": "1974"
+    },
+    "bc06": {
+      "t": "Black Christmas",
+      "y": 2006,
+      "set": "2006, with flashbacks from 1970",
+      "remake": true
+    },
+    "bc19": {
+      "t": "Black Christmas",
+      "y": 2019,
+      "set": "2019",
+      "remake": true
+    }
+  },
+  "release": [
+    "bc74",
+    "bc06",
+    "bc19"
+  ],
+  "chrono": [
+    "bc74",
+    "bc06",
+    "bc19"
+  ],
+  "groups": [
+    {
+      "title": "The 1974 original",
+      "films": [
+        "bc74"
+      ]
+    },
+    {
+      "title": "The 2006 remake",
+      "note": "Adds a backstory for the killer running from 1970 to 2006.",
+      "films": [
+        "bc06"
+      ]
+    },
+    {
+      "title": "The 2019 remake",
+      "note": "A separate take, unconnected to the others.",
+      "films": [
+        "bc19"
+      ]
+    }
+  ],
+  "note": "The original never explains its killer, which is a big part of why it works. The 2006 remake explains everything. Watch the 1974 film first."
+}

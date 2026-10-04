@@ -1,8 +1,8 @@
 {
   "title": "Ghost in the Shell",
-  "short": "Three films",
+  "short": "Seven films, four continuities",
   "hue": 196,
-  "blurb": "A cyborg officer questioning where her humanity ends, in two anime films and a live-action remake.",
+  "blurb": "A cyborg officer questioning where her humanity ends, retold in four separate timelines: Oshii's films, Stand Alone Complex, the Arise prequels and a live-action remake.",
   "poster": "/9gC88zYUBARRSThcG93MvW14sqx.jpg",
   "films": {
     "ghostin95": {
@@ -26,24 +26,73 @@
       "poster": "/zCtL3UBgCoZzd7XTVGhvl6XY75E.jpg",
       "format": "live-action",
       "remake": true
+    },
+    "gss06": {
+      "t": "Ghost in the Shell: Stand Alone Complex – Solid State Society",
+      "y": 2006,
+      "set": "2034",
+      "format": "animated"
+    },
+    "gnm15": {
+      "t": "Ghost in the Shell: The New Movie",
+      "y": 2015,
+      "set": "2027",
+      "format": "animated"
+    },
+    "gsw21": {
+      "t": "Ghost in the Shell: SAC_2045 Sustainable War",
+      "y": 2021,
+      "set": "2045",
+      "format": "animated"
+    },
+    "glh23": {
+      "t": "Ghost in the Shell: SAC_2045 The Last Human",
+      "y": 2023,
+      "set": "2045",
+      "format": "animated"
     }
   },
   "release": [
     "ghostin95",
     "ghostin04",
-    "ghostin17"
+    "gss06",
+    "gnm15",
+    "ghostin17",
+    "gsw21",
+    "glh23"
   ],
   "chrono": [
     "ghostin95",
     "ghostin04",
+    "gss06",
+    "gsw21",
+    "glh23",
+    "gnm15",
     "ghostin17"
   ],
   "groups": [
     {
-      "title": "The anime films",
+      "title": "The Oshii films",
+      "note": "Mamoru Oshii's two films, one continuous story.",
       "films": [
         "ghostin95",
         "ghostin04"
+      ]
+    },
+    {
+      "title": "Stand Alone Complex",
+      "note": "Films from the TV series' timeline. The two SAC_2045 films are cut-down versions of the Netflix series.",
+      "films": [
+        "gss06",
+        "gsw21",
+        "glh23"
+      ]
+    },
+    {
+      "title": "Arise",
+      "note": "Concludes the Arise prequel series about the Major's early career.",
+      "films": [
+        "gnm15"
       ]
     },
     {
@@ -53,5 +102,5 @@
       ]
     }
   ],
-  "note": "The 2017 live-action film is unconnected to the anime. Several anime series expand the world separately."
+  "note": "None of the four timelines connect, so pick one. Oshii's 1995 film is the usual starting point. Solid State Society follows the second Stand Alone Complex series, and The New Movie follows the Arise episodes, so both make more sense after their series."
 }

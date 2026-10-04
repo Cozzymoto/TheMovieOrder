@@ -5,7 +5,7 @@
   },
   {
     "label": "Godzilla",
-    "franchises": ["godzilla-the-showa-era", "godzilla-the-heisei-era", "godzilla-the-millennium-era", "godzilla-the-anime-trilogy", "monsterverse"]
+    "franchises": ["godzilla-the-showa-era", "godzilla-the-heisei-era", "godzilla-the-millennium-era", "godzilla-the-anime-trilogy", "monsterverse", "godzilla-the-reiwa-era"]
   },
   {
     "label": "King Kong",
@@ -53,7 +53,7 @@
   },
   {
     "label": "Stephen King",
-    "franchises": ["it", "the-shining", "pet-sematary"]
+    "franchises": ["it", "the-shining", "pet-sematary", "children-of-the-corn"]
   },
   {
     "label": "Roald Dahl",
@@ -81,6 +81,6 @@
   },
   {
     "label": "Japanese kaiju",
-    "franchises": ["gamera", "godzilla-the-showa-era", "godzilla-the-heisei-era", "godzilla-the-millennium-era"]
+    "franchises": ["gamera", "godzilla-the-showa-era", "godzilla-the-heisei-era", "godzilla-the-millennium-era", "godzilla-the-reiwa-era"]
   }
 ]

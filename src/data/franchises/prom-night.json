@@ -1,0 +1,78 @@
+{
+  "title": "Prom Night",
+  "short": "Five films, four strands",
+  "hue": 320,
+  "blurb": "A 1980 slasher, a ghost story that took its name, that ghost story's own sequel, an unrelated fourth film and a 2008 remake.",
+  "films": {
+    "pn80": {
+      "t": "Prom Night",
+      "y": 1980,
+      "set": "1980"
+    },
+    "pn87": {
+      "t": "Hello Mary Lou: Prom Night II",
+      "y": 1987,
+      "set": "1987"
+    },
+    "pn90": {
+      "t": "Prom Night III: The Last Kiss",
+      "y": 1990,
+      "set": "1990"
+    },
+    "pn92": {
+      "t": "Prom Night IV: Deliver Us from Evil",
+      "y": 1992,
+      "set": "1990s"
+    },
+    "pn08": {
+      "t": "Prom Night",
+      "y": 2008,
+      "set": "2008",
+      "remake": true
+    }
+  },
+  "release": [
+    "pn80",
+    "pn87",
+    "pn90",
+    "pn92",
+    "pn08"
+  ],
+  "chrono": [
+    "pn80",
+    "pn87",
+    "pn90",
+    "pn92",
+    "pn08"
+  ],
+  "groups": [
+    {
+      "title": "The 1980 original",
+      "films": [
+        "pn80"
+      ]
+    },
+    {
+      "title": "The Mary Lou films",
+      "note": "Linked to the first film only by the school.",
+      "films": [
+        "pn87",
+        "pn90"
+      ]
+    },
+    {
+      "title": "Prom Night IV",
+      "note": "An unrelated story.",
+      "films": [
+        "pn92"
+      ]
+    },
+    {
+      "title": "The 2008 remake",
+      "films": [
+        "pn08"
+      ]
+    }
+  ],
+  "note": "Hello Mary Lou was written as a standalone film and renamed. Its only link to the first film is the school. The Last Kiss continues the Mary Lou story, Deliver Us from Evil is unrelated, and the 2008 film remakes the original."
+}
