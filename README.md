@@ -22,6 +22,10 @@ The Content Studio at `/studio.html` generates correctly-formatted entries to pa
 GitHub Action rewrites it every Monday from TMDB's weekly trending films. Run it by hand
 from the Actions tab (type `true` for a preview that changes nothing).
 
+`src/data/streaming.json` says where each film streams in the UK and US (data from
+JustWatch via TMDB). The "Update streaming availability" Action refreshes it every Monday.
+Affiliate links for streaming services and Amazon go in `src/config.js`.
+
 ## Pages
 
 One page is generated per franchise at `/<slug>/`, plus the homepage,

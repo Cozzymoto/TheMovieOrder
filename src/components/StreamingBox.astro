@@ -1,0 +1,36 @@
+---
+/* "Where to stream this franchise": services ranked by how many of its films
+   they carry, per region. Data: JustWatch via TMDB (credit required). */
+import { REGIONS, CONFIG, serviceHome } from '../config.js';
+import { franchiseAvailability, streamingUpdated } from '../lib/streaming.js';
+const { f } = Astro.props;
+const fmt = d => new Date(d + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const boxes = REGIONS.map(r => [r, franchiseAvailability(f, r)]).filter(([, a]) => a);
+---
+{boxes.length > 0 && (
+  <section class="stream-box" aria-labelledby="stream-h">
+    <h2 id="stream-h">Where to stream it</h2>
+    {boxes.map(([r, a]) => (
+      <div data-r={r}>
+        {a.services.length
+          ? <ul class="stream-box__list">
+              {a.services.slice(0, 4).map(s => {
+                const home = serviceHome(s.name, r);
+                return (
+                  <li>
+                    <span class="stream-box__svc">{s.logo && <img src={s.logo} alt="" width="28" height="28" loading="lazy" />}<b>{s.name}</b></span>
+                    <span class="stream-box__count">{s.films === a.total ? `All ${a.total} films` : `${s.films} of ${a.total} films`}</span>
+                    {home && <a class="btn btn--sm" href={home.href} target="_blank" rel={`noopener nofollow${home.earns ? ' sponsored' : ''}`}>Go to {s.name}</a>}
+                  </li>
+                );
+              })}
+            </ul>
+          : <p class="stream-box__none">None of these films are on a subscription service in the {CONFIG.regions[r].name} right now.</p>}
+        {a.services.length > 0 && a.nowhere > 0 && <p class="stream-box__none">{`${a.nowhere} ${a.nowhere === 1 ? "film isn't" : "films aren't"} on any subscription service in the ${CONFIG.regions[r].name}. Use "Where to watch" to rent or buy ${a.nowhere === 1 ? 'it' : 'them'}.`}</p>}
+      </div>
+    ))}
+    <p class="stream-box__credit">
+      Streaming data from <a href="https://www.justwatch.com/" target="_blank" rel="noopener">JustWatch</a> via TMDB{streamingUpdated && <>, checked {fmt(streamingUpdated)}</>}. Availability changes often. Some links to streaming services earn us a commission.
+    </p>
+  </section>
+)}

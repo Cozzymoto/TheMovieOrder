@@ -691,3 +691,23 @@ html[data-region="us"] [data-r="uk"]{display:none !important}
   .masthead.is-searching .nav{order:3}
 }
 .search input::-webkit-search-cancel-button,.search input::-webkit-search-decoration{-webkit-appearance:none;appearance:none;display:none}
+
+/* Streaming availability (data: JustWatch via TMDB) */
+.where{display:flex;flex-wrap:wrap;align-items:center;gap:.35rem .4rem;margin:.4rem 0 0;font-size:var(--step--1);color:var(--graphite)}
+.where__label{margin-right:.1rem}
+.svc{
+  display:inline-flex;align-items:center;gap:.35rem;text-decoration:none;color:var(--ink);
+  border:1px solid var(--hairline);border-radius:999px;padding:.15rem .55rem .15rem .2rem;font-weight:500;font-size:.75rem;
+}
+.svc:hover{border-color:var(--ink)}
+.svc img{width:18px;height:18px;border-radius:4px}
+.stream-box{margin-top:2.5rem;padding:1.5rem;border:1px solid var(--hairline);border-radius:var(--radius);background:var(--paper-2)}
+.stream-box h2{font-family:var(--f-display);font-variation-settings:"wdth" 84;font-weight:800;font-size:var(--step-2);margin:0 0 1rem}
+.stream-box__list{list-style:none;margin:0;padding:0;display:grid;gap:.6rem}
+.stream-box__list li{display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
+.stream-box__svc{display:inline-flex;align-items:center;gap:.6rem;min-width:11rem}
+.stream-box__svc img{width:28px;height:28px;border-radius:6px}
+.stream-box__count{color:var(--graphite);font-size:var(--step--1);flex:1}
+.stream-box__none{margin:.75rem 0 0;color:var(--graphite);font-size:var(--step--1)}
+.stream-box__credit{margin:1.25rem 0 0;font-size:.75rem;color:var(--graphite)}
+.stream-box__credit a{color:inherit}

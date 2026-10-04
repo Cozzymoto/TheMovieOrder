@@ -5,6 +5,8 @@ import Card from '../components/Card.astro';
 import { allFranchises, related, sections, movedCount } from '../lib/franchise.js';
 import Title from '../components/Title.astro';
 import Aka from '../components/Aka.astro';
+import FilmWhere from '../components/FilmWhere.astro';
+import StreamingBox from '../components/StreamingBox.astro';
 import { watchURL, buyURL, shortTitle, yearSpan, REGIONS, titleIn, allNames } from '../config.js';
 
 export async function getStaticPaths(){
@@ -99,6 +101,7 @@ const jsonld = {
                     Set {m.set}
                     {otherPos !== i + 1 && <> · <span class="row__moved">{list.otherName} order #{otherPos}</span></>}
                   </p>
+                  <FilmWhere slug={f.slug} fid={id} film={m} />
                 </div>
                 <div class="row__acts">
                   <a class="btn" href={watchURL(titleIn(m, REGIONS[0]))} {...Object.fromEntries(REGIONS.map(r => [`data-href-${r}`, watchURL(titleIn(m, r), r)]))} target="_blank" rel="noopener nofollow sponsored">Where to watch</a>
@@ -118,6 +121,7 @@ const jsonld = {
     </div>
 
     {f.note && <p class="note"><strong>Worth knowing.</strong> {f.note}</p>}
+    <StreamingBox f={f} />
     <p class="note-link">Think this order is wrong, or a film is missing? <a href={`/contact/?type=problem&franchise=${encodeURIComponent(f.title)}`}>Let us know</a>.</p>
     {relatedGroups.length > 0 && (
       <section class="related" aria-labelledby="related-h">
@@ -130,7 +134,6 @@ const jsonld = {
         ))}
       </section>
     )}
-    <div class="slot"><b>Affiliate block</b>Box-set deals and streaming offers for this franchise</div>
   </div>
 
   <script is:inline define:vars={{ total: f.release.length }}>
