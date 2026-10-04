@@ -1,0 +1,46 @@
+name: Update streaming availability
+
+on:
+  schedule:
+    - cron: '30 7 * * 1'  # every Monday, 07:30 UTC
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Preview only. Type true to change nothing.'
+        required: false
+        default: 'false'
+      only_first:
+        description: 'Only do the first N franchises. 0 means all. Use 5 for a trial.'
+        required: false
+        default: '0'
+
+permissions:
+  contents: write
+
+jobs:
+  streaming:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch where each film can be watched (UK and US)
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+          ONLY_FIRST: ${{ github.event.inputs.only_first }}
+        run: node scripts/update-streaming.mjs
+      - name: Commit the updated availability
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No change to streaming availability."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/streaming.json
+          git commit -m "Update streaming availability from TMDB"
+          git pull --rebase
+          git push
