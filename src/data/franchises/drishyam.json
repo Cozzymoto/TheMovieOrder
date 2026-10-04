@@ -3,33 +3,39 @@
   "short": "Five films, two languages",
   "hue": 65,
   "blurb": "A father who covers up a crime to protect his family, told in Malayalam across three films, and remade in Hindi a year or so behind.",
+  "poster": "/gPBldHTnqpgsrnDnSrAlFwE6Q1t.jpg",
   "films": {
     "dm13": {
       "t": "Drishyam",
       "y": 2013,
-      "set": "—"
+      "set": "—",
+      "poster": "/gPBldHTnqpgsrnDnSrAlFwE6Q1t.jpg"
     },
     "dh15": {
       "t": "Drishyam",
       "y": 2015,
       "set": "—",
-      "remake": true
+      "remake": true,
+      "poster": "/gIClWRv5OSe8rl5Koi0AeUcCZ9Z.jpg"
     },
     "dm21": {
       "t": "Drishyam 2",
       "y": 2021,
-      "set": "Six years later"
+      "set": "Six years later",
+      "poster": "/8RJBCUGE27LX06tAES4jTELN0KA.jpg"
     },
     "dh22": {
       "t": "Drishyam 2",
       "y": 2022,
       "set": "Seven years later",
-      "remake": true
+      "remake": true,
+      "poster": "/wk8Vu0DI0MiNLaXXiVqAwjLRKL5.jpg"
     },
     "dm26": {
       "t": "Drishyam 3",
       "y": 2026,
-      "set": "—"
+      "set": "—",
+      "poster": "/456FlpiU1iOBnaOxSd783QhZKWw.jpg"
     }
   },
   "release": [

@@ -31,25 +31,29 @@
       "t": "Ghost in the Shell: Stand Alone Complex – Solid State Society",
       "y": 2006,
       "set": "2034",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/uXT8XDWZwGax4FqmEQGjpajzcKO.jpg"
     },
     "gnm15": {
       "t": "Ghost in the Shell: The New Movie",
       "y": 2015,
       "set": "2027",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/eLd31emY3jann7JV0AkSPJ06Xep.jpg"
     },
     "gsw21": {
       "t": "Ghost in the Shell: SAC_2045 Sustainable War",
       "y": 2021,
       "set": "2045",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/kNTvGWDTxb2spAp9SRLNfOo7kCM.jpg"
     },
     "glh23": {
       "t": "Ghost in the Shell: SAC_2045 The Last Human",
       "y": 2023,
       "set": "2045",
-      "format": "animated"
+      "format": "animated",
+      "poster": "/jO7BY7hQq5Re7rX8nEgev5PmJI9.jpg"
     }
   },
   "release": [

@@ -3,43 +3,51 @@
   "short": "Seven films, three strands",
   "hue": 355,
   "blurb": "The killer-Santa slasher that was pulled from cinemas after protests, two sequels about the same family, two numbered sequels that have nothing to do with them, and two remakes.",
+  "poster": "/ypj2JwAN4vWcc4zSqFCTgUwMbJV.jpg",
   "films": {
     "snd84": {
       "t": "Silent Night, Deadly Night",
       "y": 1984,
-      "set": "1971 and 1984"
+      "set": "1971 and 1984",
+      "poster": "/ypj2JwAN4vWcc4zSqFCTgUwMbJV.jpg"
     },
     "snd87": {
       "t": "Silent Night, Deadly Night Part 2",
       "y": 1987,
-      "set": "1980s"
+      "set": "1980s",
+      "poster": "/bg2wBjg5zNoVxZnt7RarVQBxUuj.jpg"
     },
     "snd89": {
       "t": "Silent Night, Deadly Night 3: Better Watch Out!",
       "y": 1989,
-      "set": "1980s"
+      "set": "1980s",
+      "poster": "/8lLDhF1hlXeM37TLGsFZyw1LLAY.jpg"
     },
     "snd90": {
       "t": "Silent Night, Deadly Night 4: Initiation",
       "y": 1990,
-      "set": "—"
+      "set": "—",
+      "poster": "/1Oc6wObXYHThbBGsozL7WuilqOS.jpg"
     },
     "snd91": {
       "t": "Silent Night, Deadly Night 5: The Toy Maker",
       "y": 1991,
-      "set": "—"
+      "set": "—",
+      "poster": "/dSA5fLdk14CglFluKVMohrjo7L4.jpg"
     },
     "sn12": {
       "t": "Silent Night",
       "y": 2012,
       "set": "—",
-      "remake": true
+      "remake": true,
+      "poster": "/ippySSXam9UHw6j8g3aH8WxC9LU.jpg"
     },
     "snd25": {
       "t": "Silent Night, Deadly Night",
       "y": 2025,
       "set": "—",
-      "remake": true
+      "remake": true,
+      "poster": "/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg"
     }
   },
   "release": [

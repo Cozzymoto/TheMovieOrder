@@ -3,23 +3,27 @@
   "short": "Three films, three continuities",
   "hue": 240,
   "blurb": "The 1974 film that helped invent the slasher, a 2006 remake that gives its killer a backstory, and a 2019 remake that keeps only the title and the sorority.",
+  "poster": "/ym0QcbrKNujzDyAU1IHGYUdRWub.jpg",
   "films": {
     "bc74": {
       "t": "Black Christmas",
       "y": 1974,
-      "set": "1974"
+      "set": "1974",
+      "poster": "/ym0QcbrKNujzDyAU1IHGYUdRWub.jpg"
     },
     "bc06": {
       "t": "Black Christmas",
       "y": 2006,
       "set": "2006, with flashbacks from 1970",
-      "remake": true
+      "remake": true,
+      "poster": "/4eDKgdHcyIAB5pvGRCjdgFKh3eC.jpg"
     },
     "bc19": {
       "t": "Black Christmas",
       "y": 2019,
       "set": "2019",
-      "remake": true
+      "remake": true,
+      "poster": "/iMBlUzqwpz9ffbeLsYjyHPp8tn8.jpg"
     }
   },
   "release": [

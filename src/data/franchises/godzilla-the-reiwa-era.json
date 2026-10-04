@@ -3,16 +3,19 @@
   "short": "Two films, two continuities",
   "hue": 150,
   "blurb": "Toho's two modern Godzillas: a political satire about a government that can't respond to disaster, and an Oscar-winning post-war drama.",
+  "poster": "/jPNShaWZMpVF0iQ7j1dvTuZLD20.jpg",
   "films": {
     "shin16": {
       "t": "Shin Godzilla",
       "y": 2016,
-      "set": "2016"
+      "set": "2016",
+      "poster": "/jPNShaWZMpVF0iQ7j1dvTuZLD20.jpg"
     },
     "gmo23": {
       "t": "Godzilla Minus One",
       "y": 2023,
-      "set": "1945–1947"
+      "set": "1945–1947",
+      "poster": "/2E2WTX0TJEflAged6kzErwqX1kt.jpg"
     }
   },
   "release": [

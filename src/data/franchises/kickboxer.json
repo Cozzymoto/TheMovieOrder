@@ -3,42 +3,50 @@
   "short": "Seven films, two continuities",
   "hue": 25,
   "blurb": "Van Damme's revenge film, four sequels that carried on without him, and a 2016 reboot in which he plays the mentor.",
+  "poster": "/tXSD8U5aVdGscQNcyY6C2ANVEuh.jpg",
   "films": {
     "kb89": {
       "t": "Kickboxer",
       "y": 1989,
-      "set": "1980s"
+      "set": "1980s",
+      "poster": "/tXSD8U5aVdGscQNcyY6C2ANVEuh.jpg"
     },
     "kb91": {
       "t": "Kickboxer 2: The Road Back",
       "y": 1991,
-      "set": "1990s"
+      "set": "1990s",
+      "poster": "/pNvuLT77H9eSStoqmB7EMLdlffv.jpg"
     },
     "kb92": {
       "t": "Kickboxer 3: The Art of War",
       "y": 1992,
-      "set": "1990s"
+      "set": "1990s",
+      "poster": "/eGVPTY8ifyogwFZu3WJ4MLLJgdE.jpg"
     },
     "kb94": {
       "t": "Kickboxer 4: The Aggressor",
       "y": 1994,
-      "set": "1990s"
+      "set": "1990s",
+      "poster": "/9hA6SzsDkLTKxKOcfYVmRrq4Z0U.jpg"
     },
     "kb95": {
       "t": "Kickboxer 5: The Redemption",
       "y": 1995,
-      "set": "1990s"
+      "set": "1990s",
+      "poster": "/oPEaXVR6Ji7c8MkvGKuQP3ZKc5e.jpg"
     },
     "kb16": {
       "t": "Kickboxer: Vengeance",
       "y": 2016,
       "set": "2016",
-      "remake": true
+      "remake": true,
+      "poster": "/9suFyXDE1MhZ8I8tuhmTd0fJ7G8.jpg"
     },
     "kb18": {
       "t": "Kickboxer: Retaliation",
       "y": 2018,
-      "set": "2018"
+      "set": "2018",
+      "poster": "/oMWP4cAoy8WBauuKZAVTIfuY3Fw.jpg"
     }
   },
   "release": [

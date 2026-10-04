@@ -3,32 +3,38 @@
   "short": "Five films, four strands",
   "hue": 320,
   "blurb": "A 1980 slasher, a ghost story that took its name, that ghost story's own sequel, an unrelated fourth film and a 2008 remake.",
+  "poster": "/r2Ew7wUP96PsePEZseK6JqcPWY9.jpg",
   "films": {
     "pn80": {
       "t": "Prom Night",
       "y": 1980,
-      "set": "1980"
+      "set": "1980",
+      "poster": "/r2Ew7wUP96PsePEZseK6JqcPWY9.jpg"
     },
     "pn87": {
       "t": "Hello Mary Lou: Prom Night II",
       "y": 1987,
-      "set": "1987"
+      "set": "1987",
+      "poster": "/RCjdqmiz0yT3X16uWfuizg0qHQ.jpg"
     },
     "pn90": {
       "t": "Prom Night III: The Last Kiss",
       "y": 1990,
-      "set": "1990"
+      "set": "1990",
+      "poster": "/bJOpzoUXeYhruTAc3PBbvKAeLpd.jpg"
     },
     "pn92": {
       "t": "Prom Night IV: Deliver Us from Evil",
       "y": 1992,
-      "set": "1990s"
+      "set": "1990s",
+      "poster": "/tjq1iWClSBCfi3SjpVJblOU6q4F.jpg"
     },
     "pn08": {
       "t": "Prom Night",
       "y": 2008,
       "set": "2008",
-      "remake": true
+      "remake": true,
+      "poster": "/pKSeyN02R5khphImEIpAdBjQgEP.jpg"
     }
   },
   "release": [
