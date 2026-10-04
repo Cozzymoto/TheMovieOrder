@@ -74,5 +74,33 @@
     "thedark12",
     "thebatman22"
   ],
+  "groups": [
+    {
+      "title": "Burton and Schumacher",
+      "note": "Four films with three different Batmen, loosely connected.",
+      "films": [
+        "batman89",
+        "batmanreturns92",
+        "batmanforever95",
+        "batmanand97"
+      ]
+    },
+    {
+      "title": "Nolan's Dark Knight trilogy",
+      "note": "One continuous story.",
+      "films": [
+        "batmanbegins05",
+        "thedark08",
+        "thedark12"
+      ]
+    },
+    {
+      "title": "Reeves's The Batman",
+      "note": "A new start. The Batman Part II is due in 2028.",
+      "films": [
+        "thebatman22"
+      ]
+    }
+  ],
   "note": "These are three unconnected continuities, so release order is the only sensible order. Ben Affleck's Batman lives on the DC Extended Universe page. The Nolan trilogy is the most self-contained run and the best place to start."
 }

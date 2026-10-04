@@ -1,6 +1,6 @@
 {
   "title": "Planet of the Apes",
-  "short": "Ten films, two continuities, one time loop",
+  "short": "Ten films, three continuities, one time loop",
   "hue": 30,
   "blurb": "The original series travels backwards in time to cause its own beginning. The modern films restart from scratch and run forwards.",
   "poster": "/2r9iKnlSYEk4daQadsXfcjHfIjQ.jpg",
@@ -89,6 +89,36 @@
     "b01",
     "a68",
     "a70"
+  ],
+  "groups": [
+    {
+      "title": "The original five",
+      "note": "A closed time loop: apes travel back to 1973 and cause the future they came from.",
+      "films": [
+        "a68",
+        "a70",
+        "a71",
+        "a72",
+        "a73"
+      ]
+    },
+    {
+      "title": "Tim Burton's 2001 film",
+      "note": "A standalone remake.",
+      "films": [
+        "b01"
+      ]
+    },
+    {
+      "title": "The modern films",
+      "note": "A separate continuity that starts again and runs forwards.",
+      "films": [
+        "a11",
+        "a14",
+        "a17",
+        "a24"
+      ]
+    }
   ],
   "note": "This is the hardest order on the site and nobody agrees on it. The original five form a closed loop — apes travel back to 1973 and cause the future they came from — so any chronological run is arbitrary at the seam. The modern four are a separate continuity, and the 2001 film is its own thing. Release order is strongly recommended."
 }

@@ -114,5 +114,32 @@
     "t98",
     "t02"
   ],
+  "groups": [
+    {
+      "title": "The original timeline",
+      "note": "Six films with the original crew, then four with the Next Generation crew. Generations brings Kirk and Picard together.",
+      "films": [
+        "t79",
+        "t82",
+        "t84",
+        "t86",
+        "t89",
+        "t91",
+        "t94",
+        "t96",
+        "t98",
+        "t02"
+      ]
+    },
+    {
+      "title": "The Kelvin timeline",
+      "note": "An alternate reality that branches off in 2233, with a new cast playing the original crew.",
+      "films": [
+        "k09",
+        "k13",
+        "k16"
+      ]
+    }
+  ],
   "note": "The 2009 film creates a new timeline branching off the original, so the three Kelvin films run in parallel rather than before. They are the easiest entry point for a newcomer despite being made last."
 }

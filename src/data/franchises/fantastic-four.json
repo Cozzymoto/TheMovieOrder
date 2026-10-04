@@ -42,5 +42,29 @@
     "fantasticfour15",
     "thefantastic25"
   ],
+  "groups": [
+    {
+      "title": "The 2000s films",
+      "note": "Two films in one continuity.",
+      "films": [
+        "fantasticfour05",
+        "fantasticfour07"
+      ]
+    },
+    {
+      "title": "The 2015 reboot",
+      "note": "A standalone reboot.",
+      "films": [
+        "fantasticfour15"
+      ]
+    },
+    {
+      "title": "The Fantastic Four: First Steps",
+      "note": "Set in an alternate 1960s-style world and part of the Marvel Cinematic Universe.",
+      "films": [
+        "thefantastic25"
+      ]
+    }
+  ],
   "note": "Only the first two share a continuity. First Steps is set in an alternate world and connects to the wider Marvel films rather than these."
 }

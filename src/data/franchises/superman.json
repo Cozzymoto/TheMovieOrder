@@ -58,5 +58,31 @@
     "supermanreturns06",
     "superman25"
   ],
+  "groups": [
+    {
+      "title": "The Christopher Reeve films",
+      "note": "Four films in one continuity, though III and IV are often skipped.",
+      "films": [
+        "superman78",
+        "supermanii80",
+        "supermaniii83",
+        "supermaniv87"
+      ]
+    },
+    {
+      "title": "Superman Returns",
+      "note": "A sequel to Superman II that ignores III and IV.",
+      "films": [
+        "supermanreturns06"
+      ]
+    },
+    {
+      "title": "The 2025 reboot",
+      "note": "A fresh start that launches the new DC Universe.",
+      "films": [
+        "superman25"
+      ]
+    }
+  ],
   "note": "Superman Returns is a sequel to Superman II and ignores the third and fourth films. The 2025 film begins a new continuity. Henry Cavill's Superman is on the DC Extended Universe page."
 }

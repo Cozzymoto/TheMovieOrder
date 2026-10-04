@@ -115,5 +115,32 @@
     "mutants",
     "logan"
   ],
+  "groups": [
+    {
+      "title": "The main X-Men timeline",
+      "note": "Days of Future Past rewrites history partway through: the 1960s prequels lead into it, and everything from X-Men (2000) onwards is undone.",
+      "films": [
+        "x1",
+        "x2",
+        "x3",
+        "origins",
+        "fc",
+        "wolverine",
+        "dofp",
+        "apoc",
+        "logan",
+        "phoenix"
+      ]
+    },
+    {
+      "title": "The spin-offs",
+      "note": "Deadpool and The New Mutants sit loosely alongside, with no fixed place in the timeline. Deadpool & Wolverine is on the MCU page.",
+      "films": [
+        "dp",
+        "dp2",
+        "mutants"
+      ]
+    }
+  ],
   "note": "Days of Future Past resets the timeline, so everything from X-Men (2000) onwards technically no longer happens. Watch it anyway — the reset is the point."
 }

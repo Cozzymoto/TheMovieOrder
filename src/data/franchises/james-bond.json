@@ -210,5 +210,44 @@
     "b24",
     "b25"
   ],
+  "groups": [
+    {
+      "title": "Connery to Brosnan",
+      "note": "Twenty films with five Bonds and only loose continuity, so any of them works as a starting point.",
+      "films": [
+        "b01",
+        "b02",
+        "b03",
+        "b04",
+        "b05",
+        "b06",
+        "b07",
+        "b08",
+        "b09",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16",
+        "b17",
+        "b18",
+        "b19",
+        "b20"
+      ]
+    },
+    {
+      "title": "The Daniel Craig films",
+      "note": "A reboot with one continuous story. Quantum of Solace picks up minutes after Casino Royale ends.",
+      "films": [
+        "b21",
+        "b22",
+        "b23",
+        "b24",
+        "b25"
+      ]
+    }
+  ],
   "note": "Casino Royale restarts Bond's career from scratch, so the five Craig films form a closed story you can watch on their own. Quantum of Solace picks up minutes after Casino Royale ends."
 }
