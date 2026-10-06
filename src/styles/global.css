@@ -711,3 +711,6 @@ html[data-region="us"] [data-r="uk"]{display:none !important}
 .stream-box__none{margin:.75rem 0 0;color:var(--graphite);font-size:var(--step--1)}
 .stream-box__credit{margin:1.25rem 0 0;font-size:.75rem;color:var(--graphite)}
 .stream-box__credit a{color:inherit}
+
+/* Plain-text ownership code for impact.com's "edit content" verification. Must stay visible text. */
+.site-verify{margin:0 0 .5rem;font-size:.6875rem;color:var(--graphite)}
